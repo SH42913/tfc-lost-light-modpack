@@ -1,1 +1,1696 @@
-{"baseModLoader":{"forgeVersion":"47.4.4","name":"forge-47.4.4","type":1,"downloadUrl":"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4.jar","filename":"forge-1.20.1-47.4.4.jar","installMethod":3,"latest":true,"recommended":false,"versionJson":"{\"assetIndex\":null,\"id\":\"forge-47.4.4\",\"time\":\"2025-07-16T16:24:06Z\",\"releaseTime\":\"2025-07-16T16:24:06Z\",\"type\":\"release\",\"minecraftArguments\":null,\"minimumLauncherVersion\":0,\"assets\":null,\"inheritsFrom\":\"1.20.1\",\"jar\":null,\"logging\":null,\"libraries\":[{\"name\":\"cpw.mods:securejarhandler:2.1.10\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar\",\"sha1\":\"51e6a22c6c716beb11e244bf5b8be480f51dd6b5\",\"size\":88749},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm/9.7.1/asm-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar\",\"sha1\":\"f0ed132a49244b042cd0e15702ab9f2ce3cc8436\",\"size\":126093},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-commons:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar\",\"sha1\":\"406c6a2225cfe1819f102a161e54cc16a5c24f75\",\"size\":73459},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-tree:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar\",\"sha1\":\"3a53139787663b139de76b627fca0084ab60d32c\",\"size\":51939},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-util:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar\",\"sha1\":\"9e23359b598ec6b74b23e53110dd5c577adf2243\",\"size\":94519},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-analysis:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar\",\"sha1\":\"f97a3b319f0ed6a8cd944dc79060d3912a28985f\",\"size\":35126},\"classifiers\":null}},{\"name\":\"net.minecraftforge:accesstransformers:8.0.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar\",\"sha1\":\"272d240aa73f42195b2a68e2ebd8b701ecf41f63\",\"size\":77756},\"classifiers\":null}},{\"name\":\"org.antlr:antlr4-runtime:4.9.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar\",\"sha1\":\"428664f05d2b7f7b7610204b5aa7c1763f62011a\",\"size\":337868},\"classifiers\":null}},{\"name\":\"net.minecraftforge:eventbus:6.0.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar\",\"sha1\":\"699143dd438431d06b57416944f7cedbe52e1475\",\"size\":53985},\"classifiers\":null}},{\"name\":\"net.minecraftforge:forgespi:7.0.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar\",\"sha1\":\"3b4972a0cdb135853dba219be61a79b22cff1309\",\"size\":29831},\"classifiers\":null}},{\"name\":\"net.minecraftforge:coremods:5.2.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar\",\"sha1\":\"e30bab269d896613e38396274711410b3a0e4b87\",\"size\":31872},\"classifiers\":null}},{\"name\":\"cpw.mods:modlauncher:10.0.9\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar\",\"sha1\":\"06d9443f56f50bb85cea383686ff9c867391458b\",\"size\":130343},\"classifiers\":null}},{\"name\":\"net.minecraftforge:unsafe:0.2.0\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\"sha1\":\"54d7a0a5e8fdb71b973025caa46f341ae5904f39\",\"size\":2834},\"classifiers\":null}},{\"name\":\"net.minecraftforge:mergetool:1.1.5:api\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar\",\"sha1\":\"f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\",\"size\":2572},\"classifiers\":null}},{\"name\":\"com.electronwill.night-config:core:3.6.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"com/electronwill/night-config/core/3.6.4/core-3.6.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar\",\"sha1\":\"510f174abbf1c947494db50ef2445683bd52c230\",\"size\":199834},\"classifiers\":null}},{\"name\":\"com.electronwill.night-config:toml:3.6.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar\",\"sha1\":\"51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\",\"size\":31816},\"classifiers\":null}},{\"name\":\"org.apache.maven:maven-artifact:3.8.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar\",\"sha1\":\"4433f50c07debefaed0553bd0068f4f48d449313\",\"size\":58077},\"classifiers\":null}},{\"name\":\"net.jodah:typetools:0.6.3\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/jodah/typetools/0.6.3/typetools-0.6.3.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/jodah/typetools/0.6.3/typetools-0.6.3.jar\",\"sha1\":\"a01aaa6ddaea9ec07ec4f209487b7a46a526283a\",\"size\":18281},\"classifiers\":null}},{\"name\":\"net.minecrell:terminalconsoleappender:1.2.0\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\"sha1\":\"96d02cd3b384ff015a8fef4223bcb4ccf1717c95\",\"size\":15977},\"classifiers\":null}},{\"name\":\"org.jline:jline-reader:3.12.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar\",\"sha1\":\"4382ab1382c7b6f379377ed5f665dc2f6e1218bc\",\"size\":150765},\"classifiers\":null}},{\"name\":\"org.jline:jline-terminal:3.12.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar\",\"sha1\":\"c777448314e050d980a6b697c140f3bfe9eb7416\",\"size\":211712},\"classifiers\":null}},{\"name\":\"org.spongepowered:mixin:0.8.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar\",\"sha1\":\"9d1c0c3a304ae6697ecd477218fa61b850bf57fc\",\"size\":1089277},\"classifiers\":null}},{\"name\":\"org.openjdk.nashorn:nashorn-core:15.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar\",\"sha1\":\"f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\",\"size\":2167292},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarSelector:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar\",\"sha1\":\"376cc9c8ea60720cf027c01fc033de915699801c\",\"size\":17374},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarMetadata:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar\",\"sha1\":\"0083feaa9b770e6ac0e96ee4fc23fa89325c5fe2\",\"size\":15895},\"classifiers\":null}},{\"name\":\"cpw.mods:bootstraplauncher:1.1.2\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar\",\"sha1\":\"0c546e00443d8432cda6baa1c860346980742628\",\"size\":8284},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarFileSystems:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"sha1\":\"2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\",\"size\":32195},\"classifiers\":null}},{\"name\":\"net.minecraftforge:fmlloader:1.20.1-47.4.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\"sha1\":\"8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\",\"size\":267079},\"classifiers\":null}},{\"name\":\"net.minecraftforge:fmlearlydisplay:1.20.1-47.4.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\"sha1\":\"2b323ecae7cc6ca7ccb466a63100790d59521dbc\",\"size\":170518},\"classifiers\":null}}],\"mainClass\":\"cpw.mods.bootstraplauncher.BootstrapLauncher\",\"arguments\":{\"game\":[\"--launchTarget\",\"forgeclient\",\"--fml.forgeVersion\",\"47.4.4\",\"--fml.mcVersion\",\"1.20.1\",\"--fml.forgeGroup\",\"net.minecraftforge\",\"--fml.mcpVersion\",\"20230612.114412\"],\"jvm\":[\"-Djava.net.preferIPv6Addresses=system\",\"-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar,forge-47.4.4\",\"-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar\",\"-DlibraryDirectory=${library_directory}\",\"-p\",\"${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"--add-modules\",\"ALL-MODULE-PATH\",\"--add-opens\",\"java.base/java.util.jar=cpw.mods.securejarhandler\",\"--add-opens\",\"java.base/java.lang.invoke=cpw.mods.securejarhandler\",\"--add-exports\",\"java.base/sun.security.util=cpw.mods.securejarhandler\",\"--add-exports\",\"jdk.naming.dns/com.sun.jndi.dns=java.naming\"]}}","librariesInstallLocation":"{0}/libraries/net/minecraftforge/forge/1.20.1-47.4.4","minecraftVersion":"1.20.1","installProfileJson":"{\r\n  \"_comment_\": [\r\n    \"Please do not automate the download and installation of Forge.\",\r\n    \"Our efforts are supported by ads from the download page.\",\r\n    \"If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/\"\r\n  ],\r\n  \"profile\": \"forge\",\r\n  \"version\": \"1.20.1-forge-47.4.4\",\r\n  \"json\": \"/version.json\",\r\n  \"path\": \"net.minecraftforge:forge:1.20.1-47.4.4\",\r\n  \"logo\": \"/big_logo.png\",\r\n  \"minecraft\": \"1.20.1\",\r\n  \"welcome\": \"Welcome to the simple Forge installer.\",\r\n  \"data\": {\r\n    \"MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]\"\r\n    },\r\n    \"MOJMAPS\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:mappings@txt]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:mappings@txt]\"\r\n    },\r\n    \"MERGED_MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]\"\r\n    },\r\n    \"BINPATCH\": {\r\n      \"client\": \"/data/client.lzma\",\r\n      \"server\": \"/data/server.lzma\"\r\n    },\r\n    \"MC_UNPACKED\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:unpacked]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:unpacked]\"\r\n    },\r\n    \"MC_SLIM\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:slim]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:slim]\"\r\n    },\r\n    \"MC_SLIM_SHA\": {\r\n      \"client\": \"'de86b035d2da0f78940796bb95c39a932ed84834'\",\r\n      \"server\": \"'9e06bdd77ca6d95b2cced0bf372245f753eeb16a'\"\r\n    },\r\n    \"MC_EXTRA\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:extra]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:extra]\"\r\n    },\r\n    \"MC_EXTRA_SHA\": {\r\n      \"client\": \"'8c5a95cbce940cfdb304376ae9fea47968d02587'\",\r\n      \"server\": \"'13522e3278befd103064d91a199451df4cd2633f'\"\r\n    },\r\n    \"MC_SRG\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:srg]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:srg]\"\r\n    },\r\n    \"PATCHED\": {\r\n      \"client\": \"[net.minecraftforge:forge:1.20.1-47.4.4:client]\",\r\n      \"server\": \"[net.minecraftforge:forge:1.20.1-47.4.4:server]\"\r\n    },\r\n    \"_PATCHED_SHA\": {\r\n      \"client\": \"'dc017a19fd63c602e8ad24daf5cde458bfa81a1e'\",\r\n      \"server\": \"'4e6fa262ddc1465d1cf673125bdbbf81159d7cad'\"\r\n    },\r\n    \"MCP_VERSION\": {\r\n      \"client\": \"'20230612.114412'\",\r\n      \"server\": \"'20230612.114412'\"\r\n    },\r\n    \"SIDE\": {\r\n      \"client\": \"client\",\r\n      \"server\": \"server\"\r\n    }\r\n  },\r\n  \"processors\": [\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MCP_DATA\",\r\n        \"--input\",\r\n        \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip]\",\r\n        \"--output\",\r\n        \"{MAPPINGS}\",\r\n        \"--key\",\r\n        \"mappings\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"DOWNLOAD_MOJMAPS\",\r\n        \"--version\",\r\n        \"1.20.1\",\r\n        \"--side\",\r\n        \"{SIDE}\",\r\n        \"--output\",\r\n        \"{MOJMAPS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MERGE_MAPPING\",\r\n        \"--left\",\r\n        \"{MAPPINGS}\",\r\n        \"--right\",\r\n        \"{MOJMAPS}\",\r\n        \"--output\",\r\n        \"{MERGED_MAPPINGS}\",\r\n        \"--classes\",\r\n        \"--reverse-right\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:jarsplitter:1.1.4\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"net.minecraftforge:srgutils:0.4.3\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MINECRAFT_JAR}\",\r\n        \"--slim\",\r\n        \"{MC_SLIM}\",\r\n        \"--extra\",\r\n        \"{MC_EXTRA}\",\r\n        \"--srg\",\r\n        \"{MERGED_MAPPINGS}\"\r\n      ],\r\n      \"sides\": [\r\n        \"client\"\r\n      ],\r\n      \"outputs\": {\r\n        \"{MC_SLIM}\": \"{MC_SLIM_SHA}\",\r\n        \"{MC_EXTRA}\": \"{MC_EXTRA_SHA}\"\r\n      }\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"org.ow2.asm:asm-commons:9.2\",\r\n        \"org.ow2.asm:asm-analysis:9.2\",\r\n        \"org.ow2.asm:asm-tree:9.2\",\r\n        \"org.ow2.asm:asm:9.2\",\r\n        \"net.minecraftforge:srgutils:0.4.9\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MC_SLIM}\",\r\n        \"--output\",\r\n        \"{MC_SRG}\",\r\n        \"--names\",\r\n        \"{MERGED_MAPPINGS}\",\r\n        \"--ann-fix\",\r\n        \"--ids-fix\",\r\n        \"--src-fix\",\r\n        \"--record-fix\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:binarypatcher:1.1.1\",\r\n      \"classpath\": [\r\n        \"commons-io:commons-io:2.4\",\r\n        \"com.google.guava:guava:25.1-jre\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.github.jponge:lzma-java:1.3\",\r\n        \"com.nothome:javaxdelta:2.0.1\",\r\n        \"com.google.code.findbugs:jsr305:3.0.2\",\r\n        \"org.checkerframework:checker-qual:2.0.0\",\r\n        \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n        \"com.google.j2objc:j2objc-annotations:1.1\",\r\n        \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n        \"trove:trove:1.0.2\"\r\n      ],\r\n      \"args\": [\r\n        \"--clean\",\r\n        \"{MC_SRG}\",\r\n        \"--output\",\r\n        \"{PATCHED}\",\r\n        \"--apply\",\r\n        \"{BINPATCH}\"\r\n      ]\r\n    }\r\n  ],\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"com.github.jponge:lzma-java:1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"sha1\": \"a25db9d4d385ccda4825ae1b47a7a61d86e595af\",\r\n          \"size\": 51041\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.findbugs:jsr305:3.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"sha1\": \"25ea2e8b0c338a877313bd4672d3fe056ea78f0d\",\r\n          \"size\": 19936\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.gson:gson:2.10.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/gson/gson/2.10.1/gson-2.10.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar\",\r\n          \"sha1\": \"b3add478d4382b78ea20b1671390a858002feb6c\",\r\n          \"size\": 283367\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"sha1\": \"39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\",\r\n          \"size\": 13704\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:25.1-jre\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"sha1\": \"6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4\",\r\n          \"size\": 2734339\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.j2objc:j2objc-annotations:1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"sha1\": \"ed28ded51a8b1c6b112568def5f4b455e6809019\",\r\n          \"size\": 8782\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.nothome:javaxdelta:2.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"sha1\": \"d4f5d077f1b15c6f67595015d69572303ad3f66d\",\r\n          \"size\": 38995\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"commons-io:commons-io:2.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"sha1\": \"b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\",\r\n          \"size\": 185140\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip\",\r\n          \"sha1\": \"c7d29380ddb38becad7c0819b5b325e43bca23f0\",\r\n          \"size\": 1740711\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.siegmar:fastcsv:2.2.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar\",\r\n          \"sha1\": \"40562843510397296de200889d9ed5f3af155e52\",\r\n          \"size\": 32060\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar\",\r\n          \"sha1\": \"0b337aca253a6fe63f9c39d4e6272ca1b2e7cfd8\",\r\n          \"size\": 509933\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:binarypatcher:1.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar\",\r\n          \"sha1\": \"23176c4f9fd7a8db961dc0b2ec32ad97ab08513c\",\r\n          \"size\": 21892\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlcore:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"55a693260a8a7b851c3531972ef997294c191b3e\",\r\n          \"size\": 118914\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlearlydisplay:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"2b323ecae7cc6ca7ccb466a63100790d59521dbc\",\r\n          \"size\": 170518\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlloader:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\",\r\n          \"size\": 267079\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.20.1-47.4.4:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-universal.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-universal.jar\",\r\n          \"sha1\": \"550fdc594a1d55e2d44858ba1adb3082ce04164d\",\r\n          \"size\": 2777412\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar\",\r\n          \"sha1\": \"e28bc43bc9bef8a1620460938effc5b12684d825\",\r\n          \"size\": 87401\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:jarsplitter:1.1.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar\",\r\n          \"sha1\": \"57ce2d6564c1176b23a911ef57127ff3c45bffb3\",\r\n          \"size\": 7405\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:javafmllanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"c05c04093d241dea1d0f54782d19cfe5db9d0aac\",\r\n          \"size\": 16855\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:lowcodelanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"8a8bd6d44f3f0e6a1145b9066eac84fdcfbe7108\",\r\n          \"size\": 7399\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:mclanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"a8876f0a1a04237fc48a4a73692ea08e0443d2ba\",\r\n          \"size\": 4999\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.4.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar\",\r\n          \"sha1\": \"84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad\",\r\n          \"size\": 69020\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.4.9\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar\",\r\n          \"sha1\": \"7595dae3ad2554b1dac30ae3a9521bd026639e38\",\r\n          \"size\": 69076\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.5.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar\",\r\n          \"sha1\": \"4844e46a377eebd8bb4da594e6b487126790b18e\",\r\n          \"size\": 72082\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar\",\r\n          \"sha1\": \"02ab1a73e1e22d2b73469362a0908a98644b681d\",\r\n          \"size\": 79368\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.checkerframework:checker-qual:2.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"sha1\": \"518929596ee3249127502a8573b2e008e2d51ed3\",\r\n          \"size\": 343222\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"sha1\": \"775b7e22fb10026eed3f86e8dc556dfafe35f2d5\",\r\n          \"size\": 3482\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-analysis:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar\",\r\n          \"sha1\": \"7487dd756daf96cab9986e44b9d7bcb796a61c10\",\r\n          \"size\": 34257\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar\",\r\n          \"sha1\": \"f4d7f0fc9054386f2893b602454d48e07d4fbead\",\r\n          \"size\": 72642\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar\",\r\n          \"sha1\": \"f1a9e5508eff490744144565c47326c8648be309\",\r\n          \"size\": 72194\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar\",\r\n          \"sha1\": \"d96c99a30f5e1a19b0e609dbb19a44d8518ac01e\",\r\n          \"size\": 52660\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar\",\r\n          \"sha1\": \"c0cdda9d211e965d2a4448aa3fd86110f2f8c2de\",\r\n          \"size\": 51935\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/9.2/asm-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.2/asm-9.2.jar\",\r\n          \"sha1\": \"81a03f76019c67362299c40e0ba13405f5467bff\",\r\n          \"size\": 122004\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/9.6/asm-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.6/asm-9.6.jar\",\r\n          \"sha1\": \"aa205cf0a06dbd8e04ece91c0b37c3f5d567546a\",\r\n          \"size\": 123598\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"trove:trove:1.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"sha1\": \"112b40581ab9a4d3de4636d49985a7f686d181c8\",\r\n          \"size\": 361155\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.20.1-47.4.4:clientdata@lzma\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-clientdata.lzma\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-clientdata.lzma\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}"},"isUnlocked":true,"javaArgsOverride":null,"lastPlayed":"2025-07-21T16:46:34.7537146Z","playedCount":1,"manifest":null,"fileDate":"0001-01-01T00:00:00","installedModpack":null,"projectID":0,"fileID":0,"customAuthor":null,"modpackOverrides":[],"isMemoryOverride":false,"allocatedMemory":12032,"memoryAllocatedType":0,"profileImagePath":"C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\profileImage\\file_000000006484620a8c9f57d9d9f1f542.png","groupId":null,"isVanilla":false,"guid":"0e2846ee-63a6-4ddf-9533-1fbe5e1f715e","gameTypeID":432,"installPath":"C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\","name":"TFC Vanilla+","cachedScans":[],"isValid":true,"lastPreviousMatchUpdate":"0001-01-01T00:00:00","lastRefreshAttempt":"0001-01-01T00:00:00","isEnabled":true,"gameVersion":"1.20.1","gameVersionFlavor":null,"gameVersionTypeId":null,"preferenceAlternateFile":false,"preferenceAutoInstallUpdates":false,"preferenceDeleteOrphanedDependencies":false,"preferenceDeleteSavedVariables":false,"preferenceReleaseType":1,"preferenceModdingFolderPath":null,"syncProfile":{"PreferenceEnabled":false,"PreferenceAutoSync":true,"PreferenceAutoDelete":false,"PreferenceBackupSavedVariables":false,"GameInstanceGuid":"00000000-0000-0000-0000-000000000000","SyncProfileID":0,"SavedVariablesProfile":null,"LastSyncDate":"0001-01-01T00:00:00"},"installDate":"2025-07-21T16:45:19.217447Z","installedAddons":[],"installedGamePrerequisites":[],"wasNameManuallyChanged":false,"wasGameVersionTypeIdManuallyChanged":false}
+{
+  "baseModLoader": {
+    "forgeVersion": "47.4.4",
+    "name": "forge-47.4.4",
+    "type": 1,
+    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4.jar",
+    "filename": "forge-1.20.1-47.4.4.jar",
+    "installMethod": 3,
+    "latest": true,
+    "recommended": false,
+    "versionJson": "{\"assetIndex\":null,\"id\":\"forge-47.4.4\",\"time\":\"2025-07-16T16:24:06Z\",\"releaseTime\":\"2025-07-16T16:24:06Z\",\"type\":\"release\",\"minecraftArguments\":null,\"minimumLauncherVersion\":0,\"assets\":null,\"inheritsFrom\":\"1.20.1\",\"jar\":null,\"logging\":null,\"libraries\":[{\"name\":\"cpw.mods:securejarhandler:2.1.10\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar\",\"sha1\":\"51e6a22c6c716beb11e244bf5b8be480f51dd6b5\",\"size\":88749},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm/9.7.1/asm-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar\",\"sha1\":\"f0ed132a49244b042cd0e15702ab9f2ce3cc8436\",\"size\":126093},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-commons:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar\",\"sha1\":\"406c6a2225cfe1819f102a161e54cc16a5c24f75\",\"size\":73459},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-tree:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar\",\"sha1\":\"3a53139787663b139de76b627fca0084ab60d32c\",\"size\":51939},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-util:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar\",\"sha1\":\"9e23359b598ec6b74b23e53110dd5c577adf2243\",\"size\":94519},\"classifiers\":null}},{\"name\":\"org.ow2.asm:asm-analysis:9.7.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar\",\"sha1\":\"f97a3b319f0ed6a8cd944dc79060d3912a28985f\",\"size\":35126},\"classifiers\":null}},{\"name\":\"net.minecraftforge:accesstransformers:8.0.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar\",\"sha1\":\"272d240aa73f42195b2a68e2ebd8b701ecf41f63\",\"size\":77756},\"classifiers\":null}},{\"name\":\"org.antlr:antlr4-runtime:4.9.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar\",\"sha1\":\"428664f05d2b7f7b7610204b5aa7c1763f62011a\",\"size\":337868},\"classifiers\":null}},{\"name\":\"net.minecraftforge:eventbus:6.0.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar\",\"sha1\":\"699143dd438431d06b57416944f7cedbe52e1475\",\"size\":53985},\"classifiers\":null}},{\"name\":\"net.minecraftforge:forgespi:7.0.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar\",\"sha1\":\"3b4972a0cdb135853dba219be61a79b22cff1309\",\"size\":29831},\"classifiers\":null}},{\"name\":\"net.minecraftforge:coremods:5.2.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar\",\"sha1\":\"e30bab269d896613e38396274711410b3a0e4b87\",\"size\":31872},\"classifiers\":null}},{\"name\":\"cpw.mods:modlauncher:10.0.9\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar\",\"sha1\":\"06d9443f56f50bb85cea383686ff9c867391458b\",\"size\":130343},\"classifiers\":null}},{\"name\":\"net.minecraftforge:unsafe:0.2.0\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\"sha1\":\"54d7a0a5e8fdb71b973025caa46f341ae5904f39\",\"size\":2834},\"classifiers\":null}},{\"name\":\"net.minecraftforge:mergetool:1.1.5:api\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar\",\"sha1\":\"f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\",\"size\":2572},\"classifiers\":null}},{\"name\":\"com.electronwill.night-config:core:3.6.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"com/electronwill/night-config/core/3.6.4/core-3.6.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar\",\"sha1\":\"510f174abbf1c947494db50ef2445683bd52c230\",\"size\":199834},\"classifiers\":null}},{\"name\":\"com.electronwill.night-config:toml:3.6.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar\",\"sha1\":\"51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\",\"size\":31816},\"classifiers\":null}},{\"name\":\"org.apache.maven:maven-artifact:3.8.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar\",\"sha1\":\"4433f50c07debefaed0553bd0068f4f48d449313\",\"size\":58077},\"classifiers\":null}},{\"name\":\"net.jodah:typetools:0.6.3\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/jodah/typetools/0.6.3/typetools-0.6.3.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/jodah/typetools/0.6.3/typetools-0.6.3.jar\",\"sha1\":\"a01aaa6ddaea9ec07ec4f209487b7a46a526283a\",\"size\":18281},\"classifiers\":null}},{\"name\":\"net.minecrell:terminalconsoleappender:1.2.0\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\"sha1\":\"96d02cd3b384ff015a8fef4223bcb4ccf1717c95\",\"size\":15977},\"classifiers\":null}},{\"name\":\"org.jline:jline-reader:3.12.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar\",\"sha1\":\"4382ab1382c7b6f379377ed5f665dc2f6e1218bc\",\"size\":150765},\"classifiers\":null}},{\"name\":\"org.jline:jline-terminal:3.12.1\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar\",\"sha1\":\"c777448314e050d980a6b697c140f3bfe9eb7416\",\"size\":211712},\"classifiers\":null}},{\"name\":\"org.spongepowered:mixin:0.8.5\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar\",\"sha1\":\"9d1c0c3a304ae6697ecd477218fa61b850bf57fc\",\"size\":1089277},\"classifiers\":null}},{\"name\":\"org.openjdk.nashorn:nashorn-core:15.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar\",\"sha1\":\"f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\",\"size\":2167292},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarSelector:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar\",\"sha1\":\"376cc9c8ea60720cf027c01fc033de915699801c\",\"size\":17374},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarMetadata:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar\",\"sha1\":\"0083feaa9b770e6ac0e96ee4fc23fa89325c5fe2\",\"size\":15895},\"classifiers\":null}},{\"name\":\"cpw.mods:bootstraplauncher:1.1.2\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar\",\"sha1\":\"0c546e00443d8432cda6baa1c860346980742628\",\"size\":8284},\"classifiers\":null}},{\"name\":\"net.minecraftforge:JarJarFileSystems:0.3.19\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"sha1\":\"2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\",\"size\":32195},\"classifiers\":null}},{\"name\":\"net.minecraftforge:fmlloader:1.20.1-47.4.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\"sha1\":\"8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\",\"size\":267079},\"classifiers\":null}},{\"name\":\"net.minecraftforge:fmlearlydisplay:1.20.1-47.4.4\",\"url\":null,\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null,\"downloads\":{\"artifact\":{\"path\":\"net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\"url\":\"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\"sha1\":\"2b323ecae7cc6ca7ccb466a63100790d59521dbc\",\"size\":170518},\"classifiers\":null}}],\"mainClass\":\"cpw.mods.bootstraplauncher.BootstrapLauncher\",\"arguments\":{\"game\":[\"--launchTarget\",\"forgeclient\",\"--fml.forgeVersion\",\"47.4.4\",\"--fml.mcVersion\",\"1.20.1\",\"--fml.forgeGroup\",\"net.minecraftforge\",\"--fml.mcpVersion\",\"20230612.114412\"],\"jvm\":[\"-Djava.net.preferIPv6Addresses=system\",\"-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar,forge-47.4.4\",\"-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar\",\"-DlibraryDirectory=${library_directory}\",\"-p\",\"${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar\",\"--add-modules\",\"ALL-MODULE-PATH\",\"--add-opens\",\"java.base/java.util.jar=cpw.mods.securejarhandler\",\"--add-opens\",\"java.base/java.lang.invoke=cpw.mods.securejarhandler\",\"--add-exports\",\"java.base/sun.security.util=cpw.mods.securejarhandler\",\"--add-exports\",\"jdk.naming.dns/com.sun.jndi.dns=java.naming\"]}}",
+    "librariesInstallLocation": "{0}/libraries/net/minecraftforge/forge/1.20.1-47.4.4",
+    "minecraftVersion": "1.20.1",
+    "installProfileJson": "{\r\n  \"_comment_\": [\r\n    \"Please do not automate the download and installation of Forge.\",\r\n    \"Our efforts are supported by ads from the download page.\",\r\n    \"If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/\"\r\n  ],\r\n  \"profile\": \"forge\",\r\n  \"version\": \"1.20.1-forge-47.4.4\",\r\n  \"json\": \"/version.json\",\r\n  \"path\": \"net.minecraftforge:forge:1.20.1-47.4.4\",\r\n  \"logo\": \"/big_logo.png\",\r\n  \"minecraft\": \"1.20.1\",\r\n  \"welcome\": \"Welcome to the simple Forge installer.\",\r\n  \"data\": {\r\n    \"MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings@txt]\"\r\n    },\r\n    \"MOJMAPS\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:mappings@txt]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:mappings@txt]\"\r\n    },\r\n    \"MERGED_MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412:mappings-merged@txt]\"\r\n    },\r\n    \"BINPATCH\": {\r\n      \"client\": \"/data/client.lzma\",\r\n      \"server\": \"/data/server.lzma\"\r\n    },\r\n    \"MC_UNPACKED\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:unpacked]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:unpacked]\"\r\n    },\r\n    \"MC_SLIM\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:slim]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:slim]\"\r\n    },\r\n    \"MC_SLIM_SHA\": {\r\n      \"client\": \"'de86b035d2da0f78940796bb95c39a932ed84834'\",\r\n      \"server\": \"'9e06bdd77ca6d95b2cced0bf372245f753eeb16a'\"\r\n    },\r\n    \"MC_EXTRA\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:extra]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:extra]\"\r\n    },\r\n    \"MC_EXTRA_SHA\": {\r\n      \"client\": \"'8c5a95cbce940cfdb304376ae9fea47968d02587'\",\r\n      \"server\": \"'13522e3278befd103064d91a199451df4cd2633f'\"\r\n    },\r\n    \"MC_SRG\": {\r\n      \"client\": \"[net.minecraft:client:1.20.1-20230612.114412:srg]\",\r\n      \"server\": \"[net.minecraft:server:1.20.1-20230612.114412:srg]\"\r\n    },\r\n    \"PATCHED\": {\r\n      \"client\": \"[net.minecraftforge:forge:1.20.1-47.4.4:client]\",\r\n      \"server\": \"[net.minecraftforge:forge:1.20.1-47.4.4:server]\"\r\n    },\r\n    \"_PATCHED_SHA\": {\r\n      \"client\": \"'dc017a19fd63c602e8ad24daf5cde458bfa81a1e'\",\r\n      \"server\": \"'4e6fa262ddc1465d1cf673125bdbbf81159d7cad'\"\r\n    },\r\n    \"MCP_VERSION\": {\r\n      \"client\": \"'20230612.114412'\",\r\n      \"server\": \"'20230612.114412'\"\r\n    },\r\n    \"SIDE\": {\r\n      \"client\": \"client\",\r\n      \"server\": \"server\"\r\n    }\r\n  },\r\n  \"processors\": [\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MCP_DATA\",\r\n        \"--input\",\r\n        \"[de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip]\",\r\n        \"--output\",\r\n        \"{MAPPINGS}\",\r\n        \"--key\",\r\n        \"mappings\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"DOWNLOAD_MOJMAPS\",\r\n        \"--version\",\r\n        \"1.20.1\",\r\n        \"--side\",\r\n        \"{SIDE}\",\r\n        \"--output\",\r\n        \"{MOJMAPS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"com.google.code.gson:gson:2.10.1\",\r\n        \"de.siegmar:fastcsv:2.2.2\",\r\n        \"net.minecraftforge:srgutils:0.5.6\",\r\n        \"org.ow2.asm:asm-commons:9.6\",\r\n        \"org.ow2.asm:asm-tree:9.6\",\r\n        \"org.ow2.asm:asm:9.6\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MERGE_MAPPING\",\r\n        \"--left\",\r\n        \"{MAPPINGS}\",\r\n        \"--right\",\r\n        \"{MOJMAPS}\",\r\n        \"--output\",\r\n        \"{MERGED_MAPPINGS}\",\r\n        \"--classes\",\r\n        \"--reverse-right\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:jarsplitter:1.1.4\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"net.minecraftforge:srgutils:0.4.3\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MINECRAFT_JAR}\",\r\n        \"--slim\",\r\n        \"{MC_SLIM}\",\r\n        \"--extra\",\r\n        \"{MC_EXTRA}\",\r\n        \"--srg\",\r\n        \"{MERGED_MAPPINGS}\"\r\n      ],\r\n      \"sides\": [\r\n        \"client\"\r\n      ],\r\n      \"outputs\": {\r\n        \"{MC_SLIM}\": \"{MC_SLIM_SHA}\",\r\n        \"{MC_EXTRA}\": \"{MC_EXTRA_SHA}\"\r\n      }\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n        \"org.ow2.asm:asm-commons:9.2\",\r\n        \"org.ow2.asm:asm-analysis:9.2\",\r\n        \"org.ow2.asm:asm-tree:9.2\",\r\n        \"org.ow2.asm:asm:9.2\",\r\n        \"net.minecraftforge:srgutils:0.4.9\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MC_SLIM}\",\r\n        \"--output\",\r\n        \"{MC_SRG}\",\r\n        \"--names\",\r\n        \"{MERGED_MAPPINGS}\",\r\n        \"--ann-fix\",\r\n        \"--ids-fix\",\r\n        \"--src-fix\",\r\n        \"--record-fix\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:binarypatcher:1.1.1\",\r\n      \"classpath\": [\r\n        \"commons-io:commons-io:2.4\",\r\n        \"com.google.guava:guava:25.1-jre\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.github.jponge:lzma-java:1.3\",\r\n        \"com.nothome:javaxdelta:2.0.1\",\r\n        \"com.google.code.findbugs:jsr305:3.0.2\",\r\n        \"org.checkerframework:checker-qual:2.0.0\",\r\n        \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n        \"com.google.j2objc:j2objc-annotations:1.1\",\r\n        \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n        \"trove:trove:1.0.2\"\r\n      ],\r\n      \"args\": [\r\n        \"--clean\",\r\n        \"{MC_SRG}\",\r\n        \"--output\",\r\n        \"{PATCHED}\",\r\n        \"--apply\",\r\n        \"{BINPATCH}\"\r\n      ]\r\n    }\r\n  ],\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"com.github.jponge:lzma-java:1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"sha1\": \"a25db9d4d385ccda4825ae1b47a7a61d86e595af\",\r\n          \"size\": 51041\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.findbugs:jsr305:3.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"sha1\": \"25ea2e8b0c338a877313bd4672d3fe056ea78f0d\",\r\n          \"size\": 19936\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.gson:gson:2.10.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/gson/gson/2.10.1/gson-2.10.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar\",\r\n          \"sha1\": \"b3add478d4382b78ea20b1671390a858002feb6c\",\r\n          \"size\": 283367\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"sha1\": \"39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\",\r\n          \"size\": 13704\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:25.1-jre\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"sha1\": \"6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4\",\r\n          \"size\": 2734339\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.j2objc:j2objc-annotations:1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"sha1\": \"ed28ded51a8b1c6b112568def5f4b455e6809019\",\r\n          \"size\": 8782\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.nothome:javaxdelta:2.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"sha1\": \"d4f5d077f1b15c6f67595015d69572303ad3f66d\",\r\n          \"size\": 38995\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"commons-io:commons-io:2.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"sha1\": \"b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\",\r\n          \"size\": 185140\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip\",\r\n          \"sha1\": \"c7d29380ddb38becad7c0819b5b325e43bca23f0\",\r\n          \"size\": 1740711\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.siegmar:fastcsv:2.2.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar\",\r\n          \"sha1\": \"40562843510397296de200889d9ed5f3af155e52\",\r\n          \"size\": 32060\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar\",\r\n          \"sha1\": \"0b337aca253a6fe63f9c39d4e6272ca1b2e7cfd8\",\r\n          \"size\": 509933\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:binarypatcher:1.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar\",\r\n          \"sha1\": \"23176c4f9fd7a8db961dc0b2ec32ad97ab08513c\",\r\n          \"size\": 21892\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlcore:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlcore/1.20.1-47.4.4/fmlcore-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"55a693260a8a7b851c3531972ef997294c191b3e\",\r\n          \"size\": 118914\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlearlydisplay:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.4/fmlearlydisplay-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"2b323ecae7cc6ca7ccb466a63100790d59521dbc\",\r\n          \"size\": 170518\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:fmlloader:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/fmlloader/1.20.1-47.4.4/fmlloader-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"8d7112d3f79555f4d6a801b53ab24c8a94bb24c0\",\r\n          \"size\": 267079\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.20.1-47.4.4:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-universal.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-universal.jar\",\r\n          \"sha1\": \"550fdc594a1d55e2d44858ba1adb3082ce04164d\",\r\n          \"size\": 2777412\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:installertools:1.4.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar\",\r\n          \"sha1\": \"e28bc43bc9bef8a1620460938effc5b12684d825\",\r\n          \"size\": 87401\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:jarsplitter:1.1.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar\",\r\n          \"sha1\": \"57ce2d6564c1176b23a911ef57127ff3c45bffb3\",\r\n          \"size\": 7405\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:javafmllanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/javafmllanguage/1.20.1-47.4.4/javafmllanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"c05c04093d241dea1d0f54782d19cfe5db9d0aac\",\r\n          \"size\": 16855\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:lowcodelanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/lowcodelanguage/1.20.1-47.4.4/lowcodelanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"8a8bd6d44f3f0e6a1145b9066eac84fdcfbe7108\",\r\n          \"size\": 7399\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:mclanguage:1.20.1-47.4.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/mclanguage/1.20.1-47.4.4/mclanguage-1.20.1-47.4.4.jar\",\r\n          \"sha1\": \"a8876f0a1a04237fc48a4a73692ea08e0443d2ba\",\r\n          \"size\": 4999\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.4.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar\",\r\n          \"sha1\": \"84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad\",\r\n          \"size\": 69020\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.4.9\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar\",\r\n          \"sha1\": \"7595dae3ad2554b1dac30ae3a9521bd026639e38\",\r\n          \"size\": 69076\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:srgutils:0.5.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar\",\r\n          \"sha1\": \"4844e46a377eebd8bb4da594e6b487126790b18e\",\r\n          \"size\": 72082\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:6.0-alpha-3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar\",\r\n          \"sha1\": \"02ab1a73e1e22d2b73469362a0908a98644b681d\",\r\n          \"size\": 79368\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.checkerframework:checker-qual:2.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"sha1\": \"518929596ee3249127502a8573b2e008e2d51ed3\",\r\n          \"size\": 343222\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"sha1\": \"775b7e22fb10026eed3f86e8dc556dfafe35f2d5\",\r\n          \"size\": 3482\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-analysis:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar\",\r\n          \"sha1\": \"7487dd756daf96cab9986e44b9d7bcb796a61c10\",\r\n          \"size\": 34257\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar\",\r\n          \"sha1\": \"f4d7f0fc9054386f2893b602454d48e07d4fbead\",\r\n          \"size\": 72642\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar\",\r\n          \"sha1\": \"f1a9e5508eff490744144565c47326c8648be309\",\r\n          \"size\": 72194\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar\",\r\n          \"sha1\": \"d96c99a30f5e1a19b0e609dbb19a44d8518ac01e\",\r\n          \"size\": 52660\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar\",\r\n          \"sha1\": \"c0cdda9d211e965d2a4448aa3fd86110f2f8c2de\",\r\n          \"size\": 51935\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:9.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/9.2/asm-9.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.2/asm-9.2.jar\",\r\n          \"sha1\": \"81a03f76019c67362299c40e0ba13405f5467bff\",\r\n          \"size\": 122004\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:9.6\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/9.6/asm-9.6.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/9.6/asm-9.6.jar\",\r\n          \"sha1\": \"aa205cf0a06dbd8e04ece91c0b37c3f5d567546a\",\r\n          \"size\": 123598\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"trove:trove:1.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"sha1\": \"112b40581ab9a4d3de4636d49985a7f686d181c8\",\r\n          \"size\": 361155\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.20.1-47.4.4:clientdata@lzma\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-clientdata.lzma\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.20.1-47.4.4/forge-1.20.1-47.4.4-clientdata.lzma\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}"
+  },
+  "isUnlocked": true,
+  "javaArgsOverride": null,
+  "lastPlayed": "2025-07-21T17:08:19.1843113Z",
+  "playedCount": 2,
+  "manifest": null,
+  "fileDate": "0001-01-01T00:00:00",
+  "installedModpack": null,
+  "projectID": 0,
+  "fileID": 0,
+  "customAuthor": null,
+  "modpackOverrides": [],
+  "isMemoryOverride": false,
+  "allocatedMemory": 12000,
+  "memoryAllocatedType": 0,
+  "profileImagePath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\profileImage\\file_000000006484620a8c9f57d9d9f1f542.png",
+  "groupId": null,
+  "isVanilla": false,
+  "guid": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\",
+  "name": "TFC Vanilla+",
+  "cachedScans": [],
+  "isValid": true,
+  "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
+  "lastRefreshAttempt": "0001-01-01T00:00:00",
+  "isEnabled": true,
+  "gameVersion": "1.20.1",
+  "gameVersionFlavor": null,
+  "gameVersionTypeId": null,
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceDeleteOrphanedDependencies": false,
+  "preferenceDeleteSavedVariables": false,
+  "preferenceReleaseType": 1,
+  "preferenceModdingFolderPath": null,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "installDate": "2025-07-21T16:45:19.217447Z",
+  "installedAddons": [
+    {
+      "instanceID": "270d2a1e-8a03-435b-b7c9-a22d14a72b2b",
+      "modSource": 0,
+      "addonID": 654373,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        425
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Embeddium (Rubidium) Extra",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+      "authors": [
+        {
+          "id": 102141805,
+          "name": "dima_dencep"
+        }
+      ],
+      "primaryAuthor": "dima_dencep",
+      "primaryCategoryId": 425,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/rubidium-extra",
+      "issuesURL": "https://github.com/dima-dencep/rubidium-extra/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/587/602/256/256/637956775773435327.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6101745,
+        "fileName": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "fileDate": "2025-01-19T03:16:15.17Z",
+        "fileLength": 568608,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6101/745/rubidium-extra-0.5.4.4%2bmc1.20.1-build.131.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 908741,
+            "type": 3
+          },
+          {
+            "addonId": 581495,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1638420875,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 1136524626,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3677595737,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 2178047624,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 412179423,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3589546603,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "rubidium-extra-refmap.json",
+            "fingerprint": 3495065702,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodium-extra.mixins.json",
+            "fingerprint": 369665014,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1062087820,
+        "gameVersion": [
+          "Client",
+          "NeoForge",
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "",
+            "gameVersionName": "Client",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "NeoForge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 654373,
+        "fileNameOnDisk": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "bb422d5626bf69841e444a3e545c8e71b6928cf8"
+          },
+          {
+            "type": 2,
+            "value": "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:07:00.8543988Z",
+      "dateUpdated": "2025-07-21T17:07:00.8554514Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6101745,
+        "fileName": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "fileDate": "2025-01-19T03:16:15.17Z",
+        "fileLength": 568608,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6101/745/rubidium-extra-0.5.4.4%2bmc1.20.1-build.131.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 908741,
+            "type": 3
+          },
+          {
+            "addonId": 581495,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1638420875,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 1136524626,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3677595737,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 2178047624,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 412179423,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3589546603,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "rubidium-extra-refmap.json",
+            "fingerprint": 3495065702,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodium-extra.mixins.json",
+            "fingerprint": 369665014,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1062087820,
+        "gameVersion": [
+          "Client",
+          "NeoForge",
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "",
+            "gameVersionName": "Client",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "NeoForge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 654373,
+        "fileNameOnDisk": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "bb422d5626bf69841e444a3e545c8e71b6928cf8"
+          },
+          {
+            "type": 2,
+            "value": "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "ad63c4a0-d48a-4c7f-ad48-624968a56fe7",
+      "modSource": 0,
+      "addonID": 1146393,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        5191,
+        6814,
+        424,
+        426
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Sodium/Embeddium Options Mod Compat",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+      "authors": [
+        {
+          "id": 102782844,
+          "name": "Txni"
+        }
+      ],
+      "primaryAuthor": "Txni",
+      "primaryCategoryId": 6814,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-options-mod-compat",
+      "issuesURL": "https://github.com/txnimc/SodiumOptionsModCompat/issues",
+      "wikiURL": null,
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1123/440/256/256/638679920524244444.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6041603,
+        "fileName": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "fileDate": "2025-01-01T03:52:51.863Z",
+        "fileLength": 181349,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6041/603/sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1338887031,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3136265327,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumoptionsmodcompat.json",
+            "fingerprint": 3445102685,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumoptionsmodcompat-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 1493072104,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 115877130,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1441906366,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1146393,
+        "fileNameOnDisk": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "797554fd7d20a86fc168d2df83d611ed12185b05"
+          },
+          {
+            "type": 2,
+            "value": "3f088a203f8e1531d4b1a497dff5de48"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:07:50.6944689Z",
+      "dateUpdated": "2025-07-21T17:07:50.6954502Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6041603,
+        "fileName": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "fileDate": "2025-01-01T03:52:51.863Z",
+        "fileLength": 181349,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6041/603/sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1338887031,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3136265327,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumoptionsmodcompat.json",
+            "fingerprint": 3445102685,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumoptionsmodcompat-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 1493072104,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 115877130,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1441906366,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1146393,
+        "fileNameOnDisk": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "797554fd7d20a86fc168d2df83d611ed12185b05"
+          },
+          {
+            "type": 2,
+            "value": "3f088a203f8e1531d4b1a497dff5de48"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "363d13cd-0f70-412c-8890-44403f81b441",
+      "modSource": 0,
+      "addonID": 1103431,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        421,
+        424
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Sodium/Embeddium Options API",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "authors": [
+        {
+          "id": 102782844,
+          "name": "Txni"
+        }
+      ],
+      "primaryAuthor": "Txni",
+      "primaryCategoryId": 424,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api",
+      "issuesURL": "https://github.com/txnimc/SodiumOptionsAPI/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1080/739/256/256/638620165439711976.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6100812,
+        "fileName": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "fileDate": "2025-01-18T20:48:18.013Z",
+        "fileLength": 443978,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6100/812/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 908741,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1490375339,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1038961657,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 4180073098,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumoptionsapi.json",
+            "fingerprint": 739035747,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1740227982,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumoptionsapi-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 443544756,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 3135671440,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2197810606,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1103431,
+        "fileNameOnDisk": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7529fbf938787ed13a251cbf40936f8c29ec4b6c"
+          },
+          {
+            "type": 2,
+            "value": "75807590ae2648ecdeb855705868ce59"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:06:46.3883562Z",
+      "dateUpdated": "2025-07-21T17:06:46.3898731Z",
+      "status": 4,
+      "installSource": 0,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6100812,
+        "fileName": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "fileDate": "2025-01-18T20:48:18.013Z",
+        "fileLength": 443978,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6100/812/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 908741,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1490375339,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1038961657,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 4180073098,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumoptionsapi.json",
+            "fingerprint": 739035747,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1740227982,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumoptionsapi-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 443544756,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 3135671440,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2197810606,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1103431,
+        "fileNameOnDisk": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7529fbf938787ed13a251cbf40936f8c29ec4b6c"
+          },
+          {
+            "type": 2,
+            "value": "75807590ae2648ecdeb855705868ce59"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "c0de6f01-52f3-4a77-90fd-dd1cf44142e2",
+      "modSource": 0,
+      "addonID": 558905,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        5191,
+        424,
+        6814
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Sodium/Embeddium Extras",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "sodiumextras-forge-1.0.7-1.20.1.jar",
+      "authors": [
+        {
+          "id": 102782844,
+          "name": "Txni"
+        }
+      ],
+      "primaryAuthor": "Txni",
+      "primaryCategoryId": 6814,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/magnesium-extras",
+      "issuesURL": "https://github.com/txnimc/SodiumExtras/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1066/735/256/256/638600914286319886.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6041697,
+        "fileName": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "fileDate": "2025-01-01T04:39:13.763Z",
+        "fileLength": 438540,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6041/697/sodiumextras-forge-1.0.7-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          },
+          {
+            "addonId": 908741,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3326413758,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2169881499,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumextras.json",
+            "fingerprint": 2451233886,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumextras-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 382360410,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 912000477,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3493046010,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 558905,
+        "fileNameOnDisk": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7603f44bc4750774fbbdc07a3153c391650fcf3d"
+          },
+          {
+            "type": 2,
+            "value": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:06:57.6333256Z",
+      "dateUpdated": "2025-07-21T17:06:57.6342917Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\sodiumextras-forge-1.0.7-1.20.1.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6041697,
+        "fileName": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "fileDate": "2025-01-01T04:39:13.763Z",
+        "fileLength": 438540,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6041/697/sodiumextras-forge-1.0.7-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          },
+          {
+            "addonId": 908741,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3326413758,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2169881499,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumextras.json",
+            "fingerprint": 2451233886,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumextras-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 382360410,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 912000477,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3493046010,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 558905,
+        "fileNameOnDisk": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7603f44bc4750774fbbdc07a3153c391650fcf3d"
+          },
+          {
+            "type": 2,
+            "value": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "af8f6f6d-47b0-4d10-b5e0-903d49a20b71",
+      "modSource": 0,
+      "addonID": 908741,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        6814
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Embeddium",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "embeddium-0.3.31+mc1.20.1.jar",
+      "authors": [
+        {
+          "id": 114509189,
+          "name": "FiniteReality"
+        }
+      ],
+      "primaryAuthor": "FiniteReality",
+      "primaryCategoryId": 6814,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "issuesURL": "https://github.com/FiniteReality/embeddium/issues",
+      "wikiURL": "https://github.com/FiniteReality/embeddium/wiki",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/893/778/256/256/638336829931216743.png",
+      "tags": [],
+      "installedFile": {
+        "id": 5681725,
+        "fileName": "embeddium-0.3.31+mc1.20.1.jar",
+        "fileDate": "2024-08-31T23:11:49.24Z",
+        "fileLength": 1320675,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31%2bmc1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4139459728,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "COPYING",
+            "fingerprint": 2226923820,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "COPYING.LESSER",
+            "fingerprint": 1136524626,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "README.md",
+            "fingerprint": 859634317,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 589792934,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "embeddium-refmap.json",
+            "fingerprint": 1200891204,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "embeddium.mixins.json",
+            "fingerprint": 3903890000,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 318634973,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.svg",
+            "fingerprint": 2533547597,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 4014633969,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 952022123,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3474788070,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 942367315,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3323427021,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4281946638,
+        "gameVersion": [
+          "NeoForge",
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "",
+            "gameVersionName": "NeoForge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 908741,
+        "fileNameOnDisk": "embeddium-0.3.31+mc1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+          },
+          {
+            "type": 2,
+            "value": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:06:45.2280454Z",
+      "dateUpdated": "2025-07-21T17:06:45.231924Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\embeddium-0.3.31+mc1.20.1.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 5681725,
+        "fileName": "embeddium-0.3.31+mc1.20.1.jar",
+        "fileDate": "2024-08-31T23:11:49.24Z",
+        "fileLength": 1320675,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5681/725/embeddium-0.3.31%2bmc1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4139459728,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "COPYING",
+            "fingerprint": 2226923820,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "COPYING.LESSER",
+            "fingerprint": 1136524626,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "README.md",
+            "fingerprint": 859634317,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 589792934,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "embeddium-refmap.json",
+            "fingerprint": 1200891204,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "embeddium.mixins.json",
+            "fingerprint": 3903890000,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 318634973,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.svg",
+            "fingerprint": 2533547597,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 4014633969,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 952022123,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3474788070,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 942367315,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3323427021,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4281946638,
+        "gameVersion": [
+          "NeoForge",
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "",
+            "gameVersionName": "NeoForge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 908741,
+        "fileNameOnDisk": "embeddium-0.3.31+mc1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+          },
+          {
+            "type": 2,
+            "value": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "c7c3caab-1754-4a0c-86c6-ddfd791fc50e",
+      "modSource": 0,
+      "addonID": 551736,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        6814,
+        424
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Sodium/Embeddium Dynamic Lights",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "authors": [
+        {
+          "id": 102782844,
+          "name": "Txni"
+        }
+      ],
+      "primaryAuthor": "Txni",
+      "primaryCategoryId": 424,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
+      "issuesURL": "https://github.com/txnimc/SodiumDynamicLights/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1068/309/256/256/638602793082566240.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6044481,
+        "fileName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "fileDate": "2025-01-02T01:22:43.027Z",
+        "fileLength": 511601,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6044/481/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 108037934,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LambDynamicLights.LICENSE",
+            "fingerprint": 1997262962,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1958171739,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 3000296422,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumdynamiclights.json",
+            "fingerprint": 887425713,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 2108244444,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights.toml",
+            "fingerprint": 2210316125,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights_1.21.1.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights_1.21.4.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 2210281144,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4061843185,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 551736,
+        "fileNameOnDisk": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
+          },
+          {
+            "type": 2,
+            "value": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:06:46.7338376Z",
+      "dateUpdated": "2025-07-21T17:06:46.7432331Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6044481,
+        "fileName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "fileDate": "2025-01-02T01:22:43.027Z",
+        "fileLength": 511601,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6044/481/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 1103431,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 108037934,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LambDynamicLights.LICENSE",
+            "fingerprint": 1997262962,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1958171739,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 3000296422,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.sodiumdynamiclights.json",
+            "fingerprint": 887425713,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4105100827,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights-forge-1.20.1-forge-refmap.json",
+            "fingerprint": 2108244444,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights.toml",
+            "fingerprint": 2210316125,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights_1.21.1.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "sodiumdynamiclights_1.21.4.accesswidener",
+            "fingerprint": 1095485847,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "toni",
+            "fingerprint": 2210281144,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4061843185,
+        "gameVersion": [
+          "1.20.1",
+          "Forge",
+          "1.20"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 551736,
+        "fileNameOnDisk": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
+          },
+          {
+            "type": 2,
+            "value": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    }
+  ],
+  "installedGamePrerequisites": [],
+  "wasNameManuallyChanged": false,
+  "wasGameVersionTypeIdManuallyChanged": false
+}
