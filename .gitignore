@@ -1,6 +1,9 @@
 /.idea/
 .curseclient
+usercache.json
+usernamecache.json
 options.txt
 /saves/
 /logs/
 /mods/
+/controllable_natives/

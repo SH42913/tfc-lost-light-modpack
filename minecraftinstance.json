@@ -24,9 +24,9 @@
   "fileID": 0,
   "customAuthor": null,
   "modpackOverrides": [],
-  "isMemoryOverride": false,
+  "isMemoryOverride": true,
   "allocatedMemory": 12000,
-  "memoryAllocatedType": 0,
+  "memoryAllocatedType": 1,
   "profileImagePath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\profileImage\\file_000000006484620a8c9f57d9d9f1f542.png",
   "groupId": null,
   "isVanilla": false,
@@ -60,6 +60,514 @@
   },
   "installDate": "2025-07-21T16:45:19.217447Z",
   "installedAddons": [
+    {
+      "instanceID": "f5ab7825-2e0d-4fda-b011-8233d43d84ad",
+      "modSource": 0,
+      "addonID": 457570,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        5191,
+        435,
+        421
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Configured",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "configured-forge-1.20.1-2.2.3.jar",
+      "authors": [
+        {
+          "id": 7244595,
+          "name": "MrCrayfish"
+        }
+      ],
+      "primaryAuthor": "MrCrayfish",
+      "primaryCategoryId": 5191,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/configured",
+      "issuesURL": "https://github.com/MrCrayfish/Configured/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/871/317/256/256/638288810833209348.png",
+      "tags": [],
+      "installedFile": {
+        "id": 5180900,
+        "fileName": "configured-forge-1.20.1-2.2.3.jar",
+        "fileDate": "2024-03-14T03:01:07.233Z",
+        "fileLength": 418929,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 459701,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 555408277,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2650475108,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 209667139,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured.common.mixins.json",
+            "fingerprint": 58856723,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured.refmap.json",
+            "fingerprint": 444057967,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_banner.png",
+            "fingerprint": 591080615,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_icon.png",
+            "fingerprint": 3290822251,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 446031897,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3251861014,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 457570,
+        "fileNameOnDisk": "configured-forge-1.20.1-2.2.3.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "065c2d287a52f52fc8d33d780192325ee6f4b6ae"
+          },
+          {
+            "type": 2,
+            "value": "9380dc31c599c523a5682a4025fceb92"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:23:46.6012217Z",
+      "dateUpdated": "2025-07-21T17:23:46.6023783Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\configured-forge-1.20.1-2.2.3.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 5180900,
+        "fileName": "configured-forge-1.20.1-2.2.3.jar",
+        "fileDate": "2024-03-14T03:01:07.233Z",
+        "fileLength": 418929,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 459701,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 555408277,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2650475108,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 209667139,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured.common.mixins.json",
+            "fingerprint": 58856723,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured.refmap.json",
+            "fingerprint": 444057967,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_banner.png",
+            "fingerprint": 591080615,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configured_icon.png",
+            "fingerprint": 3290822251,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 446031897,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3251861014,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 457570,
+        "fileNameOnDisk": "configured-forge-1.20.1-2.2.3.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "065c2d287a52f52fc8d33d780192325ee6f4b6ae"
+          },
+          {
+            "type": 2,
+            "value": "9380dc31c599c523a5682a4025fceb92"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "04cac92d-88be-4360-b73c-af02dd895051",
+      "modSource": 0,
+      "addonID": 1256202,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        6814,
+        5191,
+        426
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Translate Catalogue",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+      "authors": [
+        {
+          "id": 111996466,
+          "name": "Midons"
+        }
+      ],
+      "primaryAuthor": "Midons",
+      "primaryCategoryId": 426,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/translate-catalogue",
+      "issuesURL": null,
+      "wikiURL": null,
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1252/561/256/256/638817079059653068.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6519024,
+        "fileName": "Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "fileDate": "2025-05-11T11:09:34.89Z",
+        "fileLength": 244475,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6519/24/Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4223728039,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2742643924,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1852529852,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Catalogue",
+            "fingerprint": 2228520401,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_banner.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2672790550,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1256202,
+        "fileNameOnDisk": "Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7c7a675e2010e343f484102e1b4210765cdb7f36"
+          },
+          {
+            "type": 2,
+            "value": "bcb5ac42f58746c2206ae9d5b4ded80a"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:24:25.3945832Z",
+      "dateUpdated": "2025-07-21T17:24:25.3958105Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\Translate-Catalogue-Forge-1.20.1-1.0.0.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6519024,
+        "fileName": "Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "fileDate": "2025-05-11T11:09:34.89Z",
+        "fileLength": 244475,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6519/24/Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4223728039,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2742643924,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1852529852,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Catalogue",
+            "fingerprint": 2228520401,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_banner.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2672790550,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 1256202,
+        "fileNameOnDisk": "Translate-Catalogue-Forge-1.20.1-1.0.0.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "7c7a675e2010e343f484102e1b4210765cdb7f36"
+          },
+          {
+            "type": 2,
+            "value": "bcb5ac42f58746c2206ae9d5b4ded80a"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
     {
       "instanceID": "270d2a1e-8a03-435b-b7c9-a22d14a72b2b",
       "modSource": 0,
@@ -832,6 +1340,322 @@
       "groupId": null
     },
     {
+      "instanceID": "abca5b5d-2a6e-441a-be07-c5d4c7abb2c0",
+      "modSource": 0,
+      "addonID": 317269,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        5191,
+        421
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Controllable",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "controllable-forge-1.20.1-0.21.7.jar",
+      "authors": [
+        {
+          "id": 7244595,
+          "name": "MrCrayfish"
+        }
+      ],
+      "primaryAuthor": "MrCrayfish",
+      "primaryCategoryId": 5191,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/controllable",
+      "issuesURL": "https://github.com/MrCrayfish/Controllable/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/871/319/256/256/638288811093619347.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6171424,
+        "fileName": "controllable-forge-1.20.1-0.21.7.jar",
+        "fileDate": "2025-02-08T15:19:20.007Z",
+        "fileLength": 7567057,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6171/424/controllable-forge-1.20.1-0.21.7.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 549225,
+            "type": 3
+          },
+          {
+            "addonId": 459701,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 736004646,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Controllable",
+            "fingerprint": 3460886240,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_ControllableSDL",
+            "fingerprint": 4248864606,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3007262091,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3857376994,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.common.mixins.json",
+            "fingerprint": 2842529641,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.forge.mixins.json",
+            "fingerprint": 4100685481,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.refmap.json",
+            "fingerprint": 3858998334,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_background.png",
+            "fingerprint": 4006863929,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_banner.png",
+            "fingerprint": 677197258,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_icon.png",
+            "fingerprint": 2729319760,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "gamecontrollerdb.txt",
+            "fingerprint": 3720831220,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mappings",
+            "fingerprint": 434841338,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3843028998,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 317269,
+        "fileNameOnDisk": "controllable-forge-1.20.1-0.21.7.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "45bf6729d334de98a86e717e81475365607b4a6b"
+          },
+          {
+            "type": 2,
+            "value": "679f446336ae0c3a2708944b680456c4"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:25:55.9854485Z",
+      "dateUpdated": "2025-07-21T17:25:55.9889715Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\controllable-forge-1.20.1-0.21.7.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6171424,
+        "fileName": "controllable-forge-1.20.1-0.21.7.jar",
+        "fileDate": "2025-02-08T15:19:20.007Z",
+        "fileLength": 7567057,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6171/424/controllable-forge-1.20.1-0.21.7.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 549225,
+            "type": 3
+          },
+          {
+            "addonId": 459701,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 736004646,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Controllable",
+            "fingerprint": 3460886240,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_ControllableSDL",
+            "fingerprint": 4248864606,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3007262091,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3857376994,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.common.mixins.json",
+            "fingerprint": 2842529641,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.forge.mixins.json",
+            "fingerprint": 4100685481,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable.refmap.json",
+            "fingerprint": 3858998334,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_background.png",
+            "fingerprint": 4006863929,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_banner.png",
+            "fingerprint": 677197258,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "controllable_icon.png",
+            "fingerprint": 2729319760,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "gamecontrollerdb.txt",
+            "fingerprint": 3720831220,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mappings",
+            "fingerprint": 434841338,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3843028998,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 317269,
+        "fileNameOnDisk": "controllable-forge-1.20.1-0.21.7.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "45bf6729d334de98a86e717e81475365607b4a6b"
+          },
+          {
+            "type": 2,
+            "value": "679f446336ae0c3a2708944b680456c4"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
       "instanceID": "c0de6f01-52f3-4a77-90fd-dd1cf44142e2",
       "modSource": 0,
       "addonID": 558905,
@@ -1073,6 +1897,491 @@
           {
             "type": 2,
             "value": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "774a92c0-cb38-46ee-bd69-88da94593065",
+      "modSource": 0,
+      "addonID": 549225,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        421
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Framework",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "framework-forge-1.20.1-0.7.15.jar",
+      "authors": [
+        {
+          "id": 7244595,
+          "name": "MrCrayfish"
+        }
+      ],
+      "primaryAuthor": "MrCrayfish",
+      "primaryCategoryId": 421,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "issuesURL": "https://github.com/MrCrayfish/Framework/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/871/312/256/256/638288810018379517.png",
+      "tags": [],
+      "installedFile": {
+        "id": 6531428,
+        "fileName": "framework-forge-1.20.1-0.7.15.jar",
+        "fileDate": "2025-05-15T06:06:10.217Z",
+        "fileLength": 309560,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6531/428/framework-forge-1.20.1-0.7.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 459701,
+            "type": 2
+          },
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2828729063,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Framework",
+            "fingerprint": 2639778690,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 645804467,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 28808806,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "framework_icon.png",
+            "fingerprint": 3685089485,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2501093404,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2701140336,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 549225,
+        "fileNameOnDisk": "framework-forge-1.20.1-0.7.15.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "0963ba5c19634030dbf1358b5c5f5fb341fede73"
+          },
+          {
+            "type": 2,
+            "value": "135716c910b1036a6dd2f0fe0bc7b03d"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:25:55.6489082Z",
+      "dateUpdated": "2025-07-21T17:25:55.6504727Z",
+      "status": 4,
+      "installSource": 0,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\framework-forge-1.20.1-0.7.15.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 6531428,
+        "fileName": "framework-forge-1.20.1-0.7.15.jar",
+        "fileDate": "2025-05-15T06:06:10.217Z",
+        "fileLength": 309560,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6531/428/framework-forge-1.20.1-0.7.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 459701,
+            "type": 2
+          },
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2828729063,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Framework",
+            "fingerprint": 2639778690,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 645804467,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 28808806,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "framework_icon.png",
+            "fingerprint": 3685089485,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2501093404,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2701140336,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 549225,
+        "fileNameOnDisk": "framework-forge-1.20.1-0.7.15.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "0963ba5c19634030dbf1358b5c5f5fb341fede73"
+          },
+          {
+            "type": 2,
+            "value": "135716c910b1036a6dd2f0fe0bc7b03d"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    },
+    {
+      "instanceID": "4106c44f-4f9c-4c6f-836d-2565f3260ce4",
+      "modSource": 0,
+      "addonID": 459701,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [
+        425,
+        421,
+        5191,
+        423
+      ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Catalogue",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "catalogue-forge-1.20.1-1.8.0.jar",
+      "authors": [
+        {
+          "id": 7244595,
+          "name": "MrCrayfish"
+        }
+      ],
+      "primaryAuthor": "MrCrayfish",
+      "primaryCategoryId": 425,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/catalogue",
+      "issuesURL": "https://github.com/MrCrayfish/Catalogue/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/871/330/256/256/638288815001830113.png",
+      "tags": [],
+      "installedFile": {
+        "id": 4766090,
+        "fileName": "catalogue-forge-1.20.1-1.8.0.jar",
+        "fileDate": "2023-09-24T02:34:14Z",
+        "fileLength": 240394,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/4766/90/catalogue-forge-1.20.1-1.8.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4223728039,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Catalogue",
+            "fingerprint": 2228520401,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2335554122,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_banner.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1852529852,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 178522978,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 459701,
+        "fileNameOnDisk": "catalogue-forge-1.20.1-1.8.0.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "b8cc73db430fa6015671492d4332a65a8c2f5cae"
+          },
+          {
+            "type": 2,
+            "value": "524efc6bbcd6da51e86cbf3183587330"
+          }
+        ]
+      },
+      "dateInstalled": "2025-07-21T17:23:51.5027119Z",
+      "dateUpdated": "2025-07-21T17:23:51.5036249Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\catalogue-forge-1.20.1-1.8.0.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [],
+      "latestFile": {
+        "id": 4766090,
+        "fileName": "catalogue-forge-1.20.1-1.8.0.jar",
+        "fileDate": "2023-09-24T02:34:14Z",
+        "fileLength": 240394,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/4766/90/catalogue-forge-1.20.1-1.8.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 457570,
+            "type": 2
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4223728039,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE_Catalogue",
+            "fingerprint": 2228520401,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2335554122,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2244177055,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_banner.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 4058316742,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1852529852,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 510727439,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 178522978,
+        "gameVersion": [
+          "1.20.1",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 459701,
+        "fileNameOnDisk": "catalogue-forge-1.20.1-1.8.0.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "b8cc73db430fa6015671492d4332a65a8c2f5cae"
+          },
+          {
+            "type": 2,
+            "value": "524efc6bbcd6da51e86cbf3183587330"
           }
         ]
       },
