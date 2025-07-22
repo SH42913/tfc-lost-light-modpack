@@ -1,5 +1,12 @@
 {
+  "alekiships:block": null,
+  "alekiships:brewing_stand": null,
+  "alekiships:furnace": null,
+  "alekiships:jukebox": null,
+  "alekiships:note_block": null,
   "balm:jade": null,
+  "firmaciv:barrel": null,
+  "firmaciv:tfc_chest": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,
@@ -63,6 +70,7 @@
   "tfc:crop": null,
   "tfc:crucible": null,
   "tfc:decaying": null,
+  "tfc:drying_sinew": null,
   "tfc:encased_axle": null,
   "tfc:firepit": null,
   "tfc:fish": null,
@@ -78,6 +86,7 @@
   "tfc:jack_o_lantern": null,
   "tfc:lamp": null,
   "tfc:loom": null,
+  "tfc:mold_table": null,
   "tfc:mud_bricks": null,
   "tfc:nest_box": null,
   "tfc:ocelot": null,
@@ -94,7 +103,9 @@
   "tfc:torch": null,
   "tfc:wall_torch": null,
   "tfc:water_wheel": null,
+  "tfc:wet_concrete": null,
   "tfc:wild_animal": null,
   "tfc:windmill": null,
+  "tfc_support_indicator:support_indicator": null,
   "waystones:waystone": null
 }

@@ -1,0 +1,13 @@
+#How close villagers need to be for lamps to stay filled
+#Range: > 1
+villagerRange = 24
+#The point (in mb) at which villagers will refill lamps. For reference each mb is ~8000 ticks (6-ish mins I think?)
+#Range: 1 ~ 254
+fuelThreshold = 50
+#When refilling a random value to refill it to will be chosen. This is the lower bound.
+#Range: 1 ~ 250
+minFuelReplenish = 75
+#When refilling a random value to refill it to will be chosen. This is the upper bound.
+#Range: 1 ~ 250
+maxFuelReplenish = 150
+

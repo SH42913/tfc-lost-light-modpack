@@ -3,6 +3,7 @@
 /usercache.json
 /usernamecache.json
 /options.txt
+/patchouli_data.json
 /saves/
 /logs/
 /mods/
@@ -13,3 +14,4 @@
 /modernfix/
 /.mixin.out/
 /screenshots/
+/crash-reports/
