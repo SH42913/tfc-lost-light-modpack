@@ -1,8 +1,8 @@
 /.idea/
-.curseclient
-usercache.json
-usernamecache.json
-options.txt
+/.curseclient
+/usercache.json
+/usernamecache.json
+/options.txt
 /saves/
 /logs/
 /mods/
@@ -10,3 +10,4 @@ options.txt
 /data/
 /xaero/
 /XaeroWaypoints_*/
+/modernfix/
