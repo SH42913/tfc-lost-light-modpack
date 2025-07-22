@@ -134,6 +134,9 @@
   "balm": {
     "jade": true
   },
+  "afc": {
+    "tap": true
+  },
   "tfc_support_indicator": {
     "support_indicator": true
   }
