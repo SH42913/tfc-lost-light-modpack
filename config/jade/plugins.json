@@ -51,6 +51,22 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "firmalife": {
+    "barrel_press": true,
+    "string": true,
+    "vat": true,
+    "drying_mat": true,
+    "tumbler": true,
+    "cheese": true,
+    "shelf": true,
+    "oven_top": true,
+    "pumping_station": true,
+    "solar_drier": true,
+    "oven_bottom": true,
+    "fruit_tree_sapling": true,
+    "jarbnet": true,
+    "hanger": true
+  },
   "tfc": {
     "bloomery": true,
     "nest_box": true,
@@ -136,9 +152,6 @@
   },
   "balm": {
     "jade": true
-  },
-  "afc": {
-    "tap": true
   },
   "tfc_support_indicator": {
     "support_indicator": true
