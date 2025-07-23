@@ -75,7 +75,7 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:0
+uiScale:1
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:0
@@ -97,7 +97,7 @@ manualCaveModeStart:-1
 chunkGridLineWidth:1
 temporaryWaypointsGlobal:true
 keepUnlockedWhenEnlarged:false
-enlargedMinimapAToggle:false
+enlargedMinimapAToggle:true
 displayStainedGlass:true
 waypointOnMapScale:0
 switchToAutoOnDeath:true

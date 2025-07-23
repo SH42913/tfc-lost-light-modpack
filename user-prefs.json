@@ -110,6 +110,22 @@
         "isSelected": true
       },
       {
+        "path": "config\\auroras",
+        "isSelected": true
+      },
+      {
+        "path": "config\\auroras\\aether.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\auroras\\overworld.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\auroras\\the_end.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\bettercombat",
         "isSelected": true
       },
@@ -214,39 +230,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\dawnera",
-        "isSelected": true
-      },
-      {
-        "path": "config\\dawnera\\mobs",
-        "isSelected": true
-      },
-      {
         "path": "config\\defaultoptions",
         "isSelected": true
       },
       {
         "path": "config\\defaultoptions\\extra",
-        "isSelected": true
-      },
-      {
-        "path": "config\\defaultsettings",
-        "isSelected": true
-      },
-      {
-        "path": "config\\defaultsettings\\Default",
-        "isSelected": true
-      },
-      {
-        "path": "config\\defaultsettings\\sharedConfigs",
-        "isSelected": true
-      },
-      {
-        "path": "config\\doapi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\drippyloadingscreen",
         "isSelected": true
       },
       {
@@ -259,26 +247,6 @@
       },
       {
         "path": "config\\dynmus\\musicSelector.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\enhancedai",
-        "isSelected": true
-      },
-      {
-        "path": "config\\enhancedai\\Mobs",
-        "isSelected": true
-      },
-      {
-        "path": "config\\enhancedai\\Mobs\\Break Anger",
-        "isSelected": true
-      },
-      {
-        "path": "config\\enhancedai\\Mobs\\Flee",
-        "isSelected": true
-      },
-      {
-        "path": "config\\enhancedai\\Mobs\\Targeting",
         "isSelected": true
       },
       {
@@ -306,6 +274,38 @@
         "isSelected": true
       },
       {
+        "path": "config\\eso",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\material-overrides",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\material-overrides\\armor.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\material-overrides\\items.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\material-overrides\\tools.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\config.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\default-recipe.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\eso\\default-xp-map.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\fabric",
         "isSelected": true
       },
@@ -314,147 +314,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\fancymenu",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\animations",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\animations\\main_menu",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\button",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\assets\\icons",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\buttonscripts",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\customization",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\custom_locals",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\custom_locals\\oxfortpack",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\extensions",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\extensions\\fmvideo",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\extensions\\fmvideo\\locals",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\layout_editor",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\layout_editor\\widgets",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\locals",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\minecraftwindow",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\minecraftwindow\\icons",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\panoramas",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\slideshows",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\slideshows\\loading",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\slideshows\\loading\\images",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fancymenu\\ui_themes",
-        "isSelected": true
-      },
-      {
-        "path": "config\\fpsreducer",
-        "isSelected": true
-      },
-      {
         "path": "config\\fzzy_config",
         "isSelected": true
       },
       {
         "path": "config\\fzzy_config\\keybinds.toml",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\create",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\dlcdragonsdogma",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\dlctropics",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\firmalife",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\main",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\mineandslash",
-        "isSelected": true
-      },
-      {
-        "path": "config\\heracles\\quests\\terrafirmacraft",
-        "isSelected": true
-      },
-      {
-        "path": "config\\iceandfire",
         "isSelected": true
       },
       {
@@ -642,18 +506,6 @@
         "isSelected": true
       },
       {
-        "path": "config\\konkrete",
-        "isSelected": true
-      },
-      {
-        "path": "config\\konkrete\\locals",
-        "isSelected": true
-      },
-      {
-        "path": "config\\missions",
-        "isSelected": true
-      },
-      {
         "path": "config\\mobplayeranimator",
         "isSelected": true
       },
@@ -670,14 +522,6 @@
         "isSelected": true
       },
       {
-        "path": "config\\Obscuria",
-        "isSelected": true
-      },
-      {
-        "path": "config\\Obscuria\\Data",
-        "isSelected": true
-      },
-      {
         "path": "config\\piglinnames",
         "isSelected": true
       },
@@ -686,19 +530,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\presencefootsteps",
-        "isSelected": true
-      },
-      {
         "path": "config\\randombonemealflowers",
         "isSelected": true
       },
       {
         "path": "config\\randombonemealflowers\\blacklist.txt",
-        "isSelected": true
-      },
-      {
-        "path": "config\\repurposed_structures-forge",
         "isSelected": true
       },
       {
@@ -762,11 +598,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\vinery",
+        "path": "config\\waves",
         "isSelected": true
       },
       {
-        "path": "config\\WatchDogAC",
+        "path": "config\\waves\\waves.json",
         "isSelected": true
       },
       {
@@ -810,475 +646,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\worldedit",
+        "path": "config\\worldplaytime",
         "isSelected": true
       },
       {
-        "path": "config\\worldedit\\.archive-unpack",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\af",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ar",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ast",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\az",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ba",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\be",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\bg",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\br-FR",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\brb",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\bs",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ca",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\cs",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\cy",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\da",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\de",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\de-AT",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\de-CH",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\el",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\en-AU",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\en-CA",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\en-NZ",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\en-PT",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\en-UD",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\enp",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\eo",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-AR",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-CL",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-ES",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-MX",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-UY",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\es-VE",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\et",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\eu",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fa",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fil",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fo",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fr",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fr-CA",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fra-DE",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\fy-NL",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ga-IE",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\gd",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\gl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\got",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\gv",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\haw",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\he",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\hi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\hr",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\hu",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\hy-AM",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\id",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ido",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ig",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\is",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\it",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ja",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\jbo",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ka",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\kab",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\kk",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\kn",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ko",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ksh",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\kw",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\la-LA",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\lb",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\li",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\lol",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\lt",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\lv",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\mi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\mk",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\mn",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\moh",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ms",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\mt",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\nds",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\nl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\nl-BE",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\nn-NO",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\no",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\nuk",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\oc",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\oj",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\pl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\pt-BR",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\pt-PT",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\qya-AA",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ro",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ru",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\se",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\sk",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\sl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\so",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\sq",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\sr",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\sv-SE",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\swg",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\szl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\ta",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\th",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\tlh-AA",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\tr",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\tt-RU",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\tzl",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\uk",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\val-ES",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\vec",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\vi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\yi",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\yo",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\zh-CN",
-        "isSelected": true
-      },
-      {
-        "path": "config\\worldedit\\.archive-unpack\\2e1dd752\\zh-TW",
+        "path": "config\\worldplaytime\\config.json",
         "isSelected": true
       },
       {
@@ -1295,6 +667,10 @@
       },
       {
         "path": "config\\astikorcarts-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\auroras-common.toml",
         "isSelected": true
       },
       {
@@ -1330,11 +706,15 @@
         "isSelected": true
       },
       {
-        "path": "config\\caelum-client.toml",
+        "path": "config\\canary.properties",
         "isSelected": true
       },
       {
-        "path": "config\\canary.properties",
+        "path": "config\\chalk-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\chalk-common.toml",
         "isSelected": true
       },
       {
@@ -1363,6 +743,14 @@
       },
       {
         "path": "config\\controllable-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\create-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\create-common.toml",
         "isSelected": true
       },
       {
@@ -1450,11 +838,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\fallingtrees_client.json",
+        "path": "config\\extragore-common.toml",
         "isSelected": true
       },
       {
-        "path": "config\\fallingtrees_common.json",
+        "path": "config\\extragore-property.toml",
         "isSelected": true
       },
       {
@@ -1467,6 +855,10 @@
       },
       {
         "path": "config\\ferritecore-mixin.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\flywheel-client.toml",
         "isSelected": true
       },
       {
@@ -1519,6 +911,10 @@
       },
       {
         "path": "config\\ihearttfc-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\immediatelyfast.json",
         "isSelected": true
       },
       {
@@ -1610,6 +1006,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\ponder-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\recipeessentials.json",
         "isSelected": true
       },
@@ -1646,6 +1046,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\stellarview-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\structureessentials.json",
         "isSelected": true
       },
@@ -1667,10 +1071,6 @@
       },
       {
         "path": "config\\tfcastikorcarts-common.toml",
-        "isSelected": true
-      },
-      {
-        "path": "config\\tfccaelum-common.toml",
         "isSelected": true
       },
       {
@@ -1734,6 +1134,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\waves-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\waystones-common.toml",
         "isSelected": true
       },
@@ -1743,6 +1147,10 @@
       },
       {
         "path": "config\\weaponmaster_ydm-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\woodencog-common.toml",
         "isSelected": true
       },
       {
@@ -1811,6 +1219,18 @@
       },
       {
         "path": "crash-reports\\crash-2025-07-22_22.10.58-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-07-23_14.56.39-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-07-23_14.59.10-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-07-23_15.27.52-client.txt",
         "isSelected": false
       },
       {
@@ -2003,6 +1423,10 @@
       },
       {
         "path": "logs\\2025-07-23-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-23-7.log.gz",
         "isSelected": false
       },
       {
@@ -3906,6 +3330,850 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_abandoned_temple_abandoned_temple_0_509ef07905.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_abandoned_temple_abandoned_temple_1_e05cb017ec.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_aviary_aviary_part_13_0d47188f34.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_0_682a9ab05e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_1_00ba2bc459.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_towers_bandit_towers_crossing_2_3fca19fa61.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bandit_village_bandit_village_street_2_a022039109.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_0_f4fd272fc0.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_1_bf1fe6d05f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_2_fef74d5a67.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_3_1fb1f3a011.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_4_b659f3c982.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_base_5_f51dae16c5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_middle_0_d9aa0b9cab.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_middle_1_fe672689b2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_middle_2_b4e6d6f8ad.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_middle_3_baeffdbe67.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_spawner_0_b96961558d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_spawner_1_ab9d22b463.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_spawner_2_9d4e9f0575.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_top_1_1743dc95d0.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_top_5_149ee8c3ee.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_bathhouse_bathhouse_top_6_fc412bc441.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_ceryneian_hind_ceryneian_hind_part_1_8d1e717f7f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_coliseum_coliseum_part_0_325a5da046.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_coliseum_coliseum_part_1_27a5819e08.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_coliseum_coliseum_part_2_f3d5e86451.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_coliseum_coliseum_part_3_c76dceff34.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_fishing_hut_fishing_hut_main_8f26c2abd3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_blaze_0_1ba31f5a4e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_0_83ee20901a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_1_56a3825a2c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_2_stairway_a216b3eebc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_3_passages_7eec1f76f6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_4_door_5a929649db.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_0_8d34e08546.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_1_d280bb9a37.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_2_c3a1372b21.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_3_fb0b5e27fc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_4_2b9d193172.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_5_blaze_db5edf44ce.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_chain_6_chest_9f64249d57.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_crossing_0_1b9608a269.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_crossing_1_b4ccfabd45.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_crossing_2_0b6c292b38.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_crossing_3_853c95c665.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_crossing_4_8fa255b100.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_gear_0_b370800ea5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_gear_1_b0ff981976.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_lava_pit_0_31f259228a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_pedestal_0_2c8de34933.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_pedestal_1_c4208ab040.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_pedestal_2_f006833dbb.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_pedestal_3_bbaa4557e4.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_corridor_terminator_1_5cdde8e95c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_crossing_start_0_5508fdbbe2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_magma_0_23143d1393.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_magma_1_5f637fb428.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_0_stairway_d672477895.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_0_stairway_exterior_778e27b778.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_1_quad_21b20aaddb.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_1_quad_exterior_2dacd2dbd1.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_2_straight_6481fc35bd.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_2_straight_exterior_52d3c42b61.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_3_exterior_spawner_31eec8279b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_3_terminator_a5b50e60b2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_4_terminator_c130c1ff9a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_5_straight_debris_a0847b1f13.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_passage_6_stairway_a49f6e61f6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_piglin_0_8c6f137719.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_wither_skeleton_0_f76831d029.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_wither_skeleton_1_b2fef86ad5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_wither_skeleton_2_d44544137c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_foundry_foundry_wither_skeleton_3_8450729254.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_greenwood_pub_greenwood_pub_0_8fa188369b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_challenger_heavenly_challenger_part_2_5356c0191c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_challenger_heavenly_challenger_part_3_eb477c83a6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_0_e4d498c251.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_1_b8b12295d9.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_2_40b15fe9c8.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_conqueror_heavenly_conqueror_part_3_32bd1ae2d2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_rider_heavenly_rider_part_0_743b98ed67.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_rider_heavenly_rider_part_1_d25f5d1016.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_rider_heavenly_rider_part_2_3b98e8aeaf.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_heavenly_rider_heavenly_rider_part_3_3225787c56.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_campsite_illager_campsite_street_6_main_95b2db72dc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_corsair_illager_corsair_part_0_0ffa0ef9ae.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_corsair_illager_corsair_part_1_9ef801b145.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_fort_illager_fort_part_0_ddfd5f5b30.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_fort_illager_fort_part_1_caea454d4d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_fort_illager_fort_part_2_674404d5ca.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_fort_illager_fort_part_3_05fc48174c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_galley_illager_galley_part_0_2c9ffcc34c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_galley_illager_galley_part_1_3d16c532ac.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_illager_windmill_illager_windmill_part_0_ed8131990a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_infested_temple_infested_temple_layout_part_1_middle_e4b60f0c9f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_0_main_fdaaae3527.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_1_roots_1fcf0be772.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_husk_0_9336d663b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_jungle_tree_house_jungle_tree_house_skeleton_0_3713743dd5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_keep_kayra_keep_kayra_main_0_adaf93d65b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_lighthouse_lighthouse_part_1_f33348679c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mechanical_nest_mechanical_nest_start_0_82efdd0b4c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_iron_golem_normal_0_4531e4a1c2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_street_0_2cd1bc01e2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_street_1_a1483b8f75.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_street_2_2445d4f294.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_street_3_9be7dc68dc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_street_4_main_cccebbf668.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_tent_0_2fd7285439.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_tent_1_4fe802a26c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_tent_2_5dcdc15ff9.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_tent_3_4a7d454dfe.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_merchant_campsite_merchant_campsite_villager_normal_0_ec681d08a0.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_descent_0_99432fb44b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_spawner_skeleton_0_a35634cc51.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_spawner_skeleton_1_e6df13eaef.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_spawner_skeleton_2_ac4d6c639a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_spawner_skeleton_3_a481889cd1.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_straight_0_0255d0be94.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_triple_0_b7d207f9e9.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mining_system_mining_system_turn_0_e25d526a57.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_monastery_monastery_start_6cb69eaf62.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_0_66c7942fe4.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_1_f4f52708cd.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_2_6d894f474b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_house_mushroom_house_bottom_3_3ac376c9a2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_0_1497612195.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_1_1b76022040.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_2_93781b295d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_mines_mushroom_mines_part_3_3fe6500343.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_mushroom_village_mushroom_village_house_big_0_97ca3567cb.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_0_9016ee6591.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_1_77bdecdcc0.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_2_ca8def0bae.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_3_68341b34fc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_4_b6b3a26603.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_5_d26a843ea4.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_normal_6_2bdf9948a3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_security_0_402fef8f53.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_security_1_68d2a0f93c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_security_2_1853167b9e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_security_3_734c092c6e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_cell_security_4_d4d3f5316e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_corridor_0_a21749a074.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_corridor_1_cells_ef3f737333.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_corridor_2_crossing_a29a496f5b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_corridor_3_stairway_1c1e87ab59.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_corridor_4_crossing_pit_dae2d72b19.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_evoker_fangs_0_6cb5f7f8b1.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_passage_0_6b85c5fa54.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_passage_1_bd1b29b0e3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_passage_2_60c10e4fa7.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_0_8dc395a7d2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_1_double_d68f7e3a0d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_2_double_9ceaa8d8f5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_3_cells_618db978e6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_4_pit_fd0cc4c406.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_5_brews_090a8f80ec.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_room_6_water_b24df29cba.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_skeleton_0_fe04001b37.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_skeleton_1_6fac4b0943.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_skeleton_2_wither_9d3ab65b5b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_witch_0_1a5ea44381.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_plague_asylum_plague_asylum_zombie_horde_0_b38fd70b5b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_scorched_mines_scorched_mines_well_0_f2c98b62ae.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_0_f518fd41fc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_spawner_0_b7bcef9131.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_spawner_1_913910d11a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_spawner_2_ff4bfac78d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_spawner_3_cf553c6995.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_corsair_corvette_corsair_corvette_spawner_4_0154acbbf7.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_0_ce08d91a0a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_0_20db716f62.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_1_985899e228.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_2_bae434150f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_3_db6e72d73f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_4_817d947160.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_pirate_junk_pirate_junk_spawner_5_be25f921f5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_small_yacht_small_yacht_0_027e5ac370.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_small_yacht_small_yacht_spawner_0_6603ea3950.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_small_yacht_small_yacht_spawner_1_44addb374d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_small_yacht_small_yacht_spawner_2_1a06c488f1.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_0_0fc2e5041b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_0_6b7e335d1e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_1_cf5f72d36c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_2_9b23103955.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_3_bb0c6c1ae5.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_4_003b0f3dec.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_unicorn_galleon_unicorn_galleon_spawner_5_983d376b47.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_0_481f1751e2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_0_7a1d81e523.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_10_738eb05ca3.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_1_d9769b372e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_2_da7f1deb0b.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_3_12513970bc.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_4_f3932892b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_5_b1657af517.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_6_1fb7c9ab0a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_7_bb5404a6c2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_8_b7cc30a702.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_seven_seas_victory_frigate_victory_frigate_spawner_9_6293df4c81.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_shiraz_palace_shiraz_palace_part_13_33537b6242.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_small_blimp_small_blimp_ladders_0_11164b7151.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_thornborn_towers_thornborn_towers_part_0_main_bd7c55b1bb.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_typhon_typhon_part_0_ef5ad598b7.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_typhon_typhon_part_1_b7db42b337.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_typhon_typhon_part_2_3a84eed6b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_0_ba25d48fb6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_1_37ef6f4972.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_wishing_well_wishing_well_0_36e5928c5f.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\minecraft_bastion_treasure_bases_centers_center_2_3929a2902f.nbt",
         "isSelected": false
       },
@@ -3975,6 +4243,10 @@
       },
       {
         "path": "modernfix\\structureCacheV1\\minecraft_ruined_portal_portal_9_99f1cd19c2.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\minecraft_shipwreck_shipwreck_hickory_7528e99ee5.nbt",
         "isSelected": false
       },
       {
@@ -4298,7 +4570,35 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\railways_handcar_assembly_dc9258e4b8.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_acacia_35_2514d65173.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_birch_24_9571ea6db6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_birch_34_a4cea3cc11.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_decor_trees_birch_44_e9bf7ff2b8.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_dark_oak_43_61d8bdd1e6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_dark_oak_64_2035ac6b55.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_jungle_14_d254cf313d.nbt",
         "isSelected": false
       },
       {
@@ -4306,7 +4606,23 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_jungle_44_e93db0296d.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_jungle_54_249f7ad8e3.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_decor_trees_oak_15_c9044e5e98.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_oak_25_a1b84863b4.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_oak_34_14f7aec3b3.nbt",
         "isSelected": false
       },
       {
@@ -4314,11 +4630,35 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_spruce_15_8e4e2cd7f0.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_decor_trees_spruce_16_66369c3b6f.nbt",
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_spruce_17_9435a0313b.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_decor_trees_spruce_19_d23dfbe893.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_trees_spruce_27_3dacea72b6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_undersea_cage1_38cdf8db2c.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_undersea_cage2_dfd2eb3eb4.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_undersea_flat_1289bcfd70.nbt",
         "isSelected": false
       },
       {
@@ -4331,6 +4671,10 @@
       },
       {
         "path": "modernfix\\structureCacheV1\\seavil_decor_undersea_large_flat_7a685d4b60.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_decor_undersea_large_hill_c7914acf27.nbt",
         "isSelected": false
       },
       {
@@ -4562,6 +4906,10 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_axolotl_gold_1a5efe4752.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_entities_critters_axolotl_wild_d3b01031cb.nbt",
         "isSelected": false
       },
@@ -4571,6 +4919,10 @@
       },
       {
         "path": "modernfix\\structureCacheV1\\seavil_entities_critters_dolphin_3ad5965f1f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_drowned_2_683dae0750.nbt",
         "isSelected": false
       },
       {
@@ -4602,6 +4954,18 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_blue_tang_2_439dd352f6.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_cichlid_2_fba5e87a4a.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_cotton_candy_betta_2_869b03545e.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_ornate_butterflyfish_2_1db7095773.nbt",
         "isSelected": false
       },
@@ -4610,7 +4974,15 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_red_cichlid_2_a0e7407da2.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_red_lipped_blenny_2_697623af9e.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\seavil_entities_critters_tropical_fish_red_snapper_2_5900511d76.nbt",
         "isSelected": false
       },
       {
@@ -4658,11 +5030,27 @@
         "isSelected": false
       },
       {
+        "path": "mods\\.connector\\temp\\countereds_terrain_slabs-2.0.2$midnightlib-1.4.1-fabric.jar",
+        "isSelected": false
+      },
+      {
+        "path": "mods\\.connector\\temp\\countereds_terrain_slabs-2.0.2$midnightlib-1.4.1-fabric.jar.input",
+        "isSelected": false
+      },
+      {
         "path": "mods\\.connector\\temp\\settlement-roads-2.0.1$midnightlib-1.4.1-fabric.jar",
         "isSelected": false
       },
       {
         "path": "mods\\.connector\\temp\\settlement-roads-2.0.1$midnightlib-1.4.1-fabric.jar.input",
+        "isSelected": false
+      },
+      {
+        "path": "mods\\.connector\\countereds_terrain_slabs-2.0.2_mapped_srg_1.20.1.jar",
+        "isSelected": false
+      },
+      {
+        "path": "mods\\.connector\\countereds_terrain_slabs-2.0.2_mapped_srg_1.20.1.jar.input",
         "isSelected": false
       },
       {
@@ -4683,10 +5071,6 @@
       },
       {
         "path": "mods\\AchievementOptimizer-1.20.1-1.0.5.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\afc-1.0.18-1.20.1.jar.disabled",
         "isSelected": true
       },
       {
@@ -4711,6 +5095,10 @@
       },
       {
         "path": "mods\\astikorcarts-1.20.1-1.1.8.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Auroras-1.20.1-1.6.2.jar",
         "isSelected": true
       },
       {
@@ -4750,10 +5138,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\caelum-1.20.1-2.0.0.0.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\canary-mc1.20.1-0.3.3.jar",
         "isSelected": true
       },
@@ -4763,6 +5147,10 @@
       },
       {
         "path": "mods\\catalogue-forge-1.20.1-1.8.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\chalk-1.20.1-1.6.6.jar",
         "isSelected": true
       },
       {
@@ -4803,6 +5191,14 @@
       },
       {
         "path": "mods\\coroutil-forge-1.20.1-1.3.7.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\create-1.20.1-6.0.6.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\create_netherless-1.20.1-1.3.jar",
         "isSelected": true
       },
       {
@@ -4870,6 +5266,14 @@
         "isSelected": true
       },
       {
+        "path": "mods\\DungeonsArise-1.20.x-2.1.58-release.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\dynmus-v2.3.2+1.20-forge.jar",
         "isSelected": true
       },
@@ -4906,6 +5310,14 @@
         "isSelected": true
       },
       {
+        "path": "mods\\eso-forge-1.20.1-1.2.2-all.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\extragore-1.20.1-5.2.3.1.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\fabric-api-0.92.2+1.11.12+1.20.1.jar",
         "isSelected": true
       },
@@ -4935,6 +5347,10 @@
       },
       {
         "path": "mods\\firmacivplus-1.0.1-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Firmalife-1.20.1-2.1.21.jar",
         "isSelected": true
       },
       {
@@ -5003,6 +5419,10 @@
       },
       {
         "path": "mods\\ihearttfc-1.20.1-1.0.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\ImmediatelyFast-Forge-1.5.1+1.20.4.jar",
         "isSelected": true
       },
       {
@@ -5222,7 +5642,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\starlight-1.1.2+forge.1cda73c.jar",
+        "path": "mods\\Stellar View-1.20.1-0.4.6-Forge.jar",
         "isSelected": true
       },
       {
@@ -5250,11 +5670,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\TFCCaelum-1.20.1-1.2.jar",
+        "path": "mods\\tfcchannelcasting-0.2.3-beta.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\tfcchannelcasting-0.2.3-beta.jar",
+        "path": "mods\\tfccreatechaincompt-1.2.jar",
         "isSelected": true
       },
       {
@@ -5302,6 +5722,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\tfc_dungeons_arise-1.20.1-forge-1.0.0.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\tfc_jungle_temple-1.20.1-forge-1.0.0.jar",
         "isSelected": true
       },
@@ -5311,6 +5735,10 @@
       },
       {
         "path": "mods\\tfc_oceans_village-1.20.1-forge-1.0.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\tfc_seven_seas-1.20.1-forge-1.0.0.jar",
         "isSelected": true
       },
       {
@@ -5366,6 +5794,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\Waves-1.20.1-1.5.1.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\waystones-forge-1.20.1-14.1.16.jar",
         "isSelected": true
       },
@@ -5383,6 +5815,14 @@
       },
       {
         "path": "mods\\weather2modcompat-1.1.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\woodencog-1.1.4-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\worldplaytime-1.2.3-1.20.x-FORGE.jar",
         "isSelected": true
       },
       {
@@ -5518,18 +5958,6 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\deaths",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\deaths\\75d4240e-0443-4cb4-8c02-96bc0ff5cfdb",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\deaths\\75d4240e-0443-4cb4-8c02-96bc0ff5cfdb\\e82b02b5-e0a5-4ff7-abb3-b3879cafdcc9.dat",
-        "isSelected": false
-      },
-      {
         "path": "saves\\Новый мир\\DIM-1",
         "isSelected": false
       },
@@ -5582,27 +6010,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-5.-6.mca",
+        "path": "saves\\Новый мир\\entities\\r.-1.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-5.-7.mca",
+        "path": "saves\\Новый мир\\entities\\r.-1.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-5.-8.mca",
+        "path": "saves\\Новый мир\\entities\\r.-2.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-6.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\entities\\r.-6.-7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\entities\\r.-6.-8.mca",
+        "path": "saves\\Новый мир\\entities\\r.-2.-6.mca",
         "isSelected": false
       },
       {
@@ -5622,19 +6042,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-5.-6.mca",
+        "path": "saves\\Новый мир\\poi\\r.-1.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-5.-7.mca",
+        "path": "saves\\Новый мир\\poi\\r.-1.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-6.-6.mca",
+        "path": "saves\\Новый мир\\poi\\r.-2.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-6.-7.mca",
+        "path": "saves\\Новый мир\\poi\\r.-2.-6.mca",
         "isSelected": false
       },
       {
@@ -5642,123 +6062,71 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.4.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-10.-1.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-10.-12.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-10.0.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-11.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.-10.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-11.3.mca",
+        "path": "saves\\Новый мир\\region\\r.-10.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-12.0.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-15.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-16.-2.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-16.3.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-17.-1.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-17.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-13.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-17.2.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-17.3.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-3.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.3.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-3.3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-3.4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.-9.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-4.7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-5.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-5.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-5.-7.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.7.mca",
         "isSelected": false
       },
       {
@@ -5766,19 +6134,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-5.-9.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-5.3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-6.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-6.-6.mca",
+        "path": "saves\\Новый мир\\region\\r.-6.-10.mca",
         "isSelected": false
       },
       {
@@ -5786,55 +6142,55 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-6.-8.mca",
-        "isSelected": false
-      },
-      {
         "path": "saves\\Новый мир\\region\\r.-6.-9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-6.5.mca",
+        "path": "saves\\Новый мир\\region\\r.-6.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-3.mca",
+        "path": "saves\\Новый мир\\region\\r.-6.6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-5.mca",
+        "path": "saves\\Новый мир\\region\\r.-6.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-6.mca",
+        "path": "saves\\Новый мир\\region\\r.-7.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-7.mca",
+        "path": "saves\\Новый мир\\region\\r.-7.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-8.mca",
+        "path": "saves\\Новый мир\\region\\r.-7.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.-9.mca",
+        "path": "saves\\Новый мир\\region\\r.-9.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.0.mca",
+        "path": "saves\\Новый мир\\region\\r.-9.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-7.3.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-8.-1.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-8.-3.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-5.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.0.-6.mca",
         "isSelected": false
       },
       {
@@ -5842,27 +6198,47 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.0.4.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.0.7.mca",
+        "path": "saves\\Новый мир\\region\\r.3.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.2.4.mca",
+        "path": "saves\\Новый мир\\region\\r.3.-3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.4.3.mca",
+        "path": "saves\\Новый мир\\region\\r.3.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.5.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.3.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.5.3.mca",
+        "path": "saves\\Новый мир\\region\\r.4.-10.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.4.-11.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.4.-6.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.5.-9.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.6.-3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.7.-2.mca",
         "isSelected": false
       },
       {
@@ -5874,7 +6250,39 @@
         "isSelected": false
       },
       {
+        "path": "saves\\Новый мир\\region\\r.7.-8.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\Новый мир\\region\\r.7.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.7.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.8.-2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.8.-3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.8.2.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.8.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.9.-5.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\region\\r.9.0.mca",
         "isSelected": false
       },
       {
@@ -5890,11 +6298,19 @@
         "isSelected": false
       },
       {
+        "path": "saves\\Новый мир\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
         "path": "saves\\Новый мир\\serverconfig\\curios-server.toml",
         "isSelected": false
       },
       {
         "path": "saves\\Новый мир\\serverconfig\\firmaciv-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\firmalife-server.toml",
         "isSelected": false
       },
       {
@@ -5950,6 +6366,10 @@
         "isSelected": false
       },
       {
+        "path": "schematics",
+        "isSelected": false
+      },
+      {
         "path": "screenshots",
         "isSelected": false
       },
@@ -5975,14 +6395,6 @@
       },
       {
         "path": "xaero\\minimap\\Новый мир",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\Новый мир\\dim%0",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\Новый мир\\dim%0\\waypoints.txt",
         "isSelected": false
       },
       {
@@ -6094,23 +6506,79 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-5_-7.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_-5.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-5_-8.xwmc",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_-6.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-6_-7.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-2_-5.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-6_-8.xwmc",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-2_-6.xwmc.outdated",
         "isSelected": false
       },
       {
         "path": "xaero\\world-map\\Новый мир\\null\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-1\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-2\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-3\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-4",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\-4\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\0\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\1\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\2\\cache_1",
         "isSelected": false
       },
       {
@@ -6122,19 +6590,27 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-5_-7.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\4",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-5_-8.xwmc",
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\4\\cache_1",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-6_-7.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\5",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-6_-8.xwmc",
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\5\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\6",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Новый мир\\null\\caves\\6\\cache_1",
         "isSelected": false
       },
       {
