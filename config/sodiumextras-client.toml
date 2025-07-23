@@ -72,7 +72,7 @@
 			fullMoonBright = 0.25
 			#Configure min moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
-			newMoonBright = 0.0
+			newMoonBright = 0.01
 
 	[embeddiumextras.performance]
 		#Toggles JREI item rendering until searching

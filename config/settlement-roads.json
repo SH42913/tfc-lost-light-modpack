@@ -1,10 +1,10 @@
 {
   "maxLocatingCount": 100,
   "structureToLocate": "#minecraft:village",
-  "initialLocatingCount": 7,
-  "distanceBetweenBuoys": 25,
-  "averagingRadius": 1,
+  "initialLocatingCount": 10,
+  "distanceBetweenBuoys": 20,
+  "averagingRadius": 3,
   "allowArtificial": true,
   "allowNatural": true,
-  "placeWaypoints": true
+  "placeWaypoints": false
 }
