@@ -1,57 +1,93 @@
 {
   "armoryHelmets": {
     "entries": {
-      "golden_helmet": 0.2,
-      "chainmail_helmet": 0.3
+      "tfc:metal/helmet/bronze": 0.1,
+      "tfc:metal/helmet/bismuth_bronze": 0.1,
+      "tfc:metal/helmet/black_bronze": 0.075,
+      "antiquelegacy:bronze_montefortino_helmet": 0.05,
+      "antiquelegacy:bronze_phrygian_helmet": 0.05,
+      "antiquelegacy:bronze_apulo_corinthian_helmet": 0.05,
+      "antiquelegacy:bronze_ridge_helmet": 0.025,
+      "antiquelegacy:chalcidian_helmet": 0.05,
+      "knightsofterrafirma:bismuth_bronze_attic_helmet": 0.025
     },
     "defaultItem": "air"
   },
   "wardrobeHelmets": {
     "entries": {
-      "leather_helmet": 0.4,
-      "chainmail_helmet": 0.2
+      "minecraft:leather_helmet": 0.4,
+      "create:cardboard_helmet": 0.2,
+      "antiquelegacy:bronze_montefortino_helmet": 0.15,
+      "antiquelegacy:illirian_helmet": 0.15,
+      "antiquelegacy:thracian_helmet": 0.1
     },
     "defaultItem": "air"
   },
   "armoryChestplates": {
     "entries": {
-      "golden_chestplate": 0.2,
-      "chainmail_chestplate": 0.3
+      "tfc:metal/chestplate/bronze": 0.1,
+      "tfc:metal/chestplate/bismuth_bronze": 0.1,
+      "tfc:metal/chestplate/black_bronze": 0.075,
+      "magistuarmory:brigandine_chestplate": 0.1,
+      "magistuarmory:crusader_chestplate": 0.1,
+      "magistuarmory:gambeson_chestplate": 0.1,
+      "magistuarmory:lamellar_chestplate": 0.05,
+      "magistuarmory:ceremonial_chestplate": 0.1
     },
     "defaultItem": "air"
   },
   "wardrobeChestplates": {
     "entries": {
-      "leather_chestplate": 0.4,
-      "chainmail_chestplate": 0.2
+      "minecraft:leather_chestplate": 0.4,
+      "create:cardboard_chestplate": 0.2,
+      "magistuarmory:lamellar_chestplate": 0.2,
+      "magistuarmory:gambeson_chestplate": 0.2
     },
     "defaultItem": "air"
   },
   "armoryLeggings": {
     "entries": {
-      "chainmail_leggings": 0.3,
-      "golden_leggings": 0.2
+      "tfc:metal/chestplate/bronze": 0.1,
+      "tfc:metal/chestplate/bismuth_bronze": 0.1,
+      "tfc:metal/chestplate/black_bronze": 0.075,
+      "magistuarmory:jousting_leggings": 0.1,
+      "magistuarmory:knight_leggings": 0.1,
+      "magistuarmory:gothic_leggings": 0.1,
+      "magistuarmory:xivcenturyknight_leggings": 0.05,
+      "magistuarmory:cuirassier_leggings": 0.1
     },
     "defaultItem": "air"
   },
   "wardrobeLeggings": {
     "entries": {
-      "chainmail_leggings": 0.2,
-      "leather_leggings": 0.4
+      "minecraft:leather_leggings": 0.4,
+      "create:cardboard_leggings": 0.2,
+      "magistuarmory:jousting_leggings": 0.15,
+      "magistuarmory:xivcenturyknight_leggings": 0.15,
+      "magistuarmory:gothic_leggings": 0.1
     },
     "defaultItem": "air"
   },
   "armoryBoots": {
     "entries": {
-      "golden_boots": 0.2,
-      "chainmail_boots": 0.3
+      "tfc:metal/boots/bronze": 0.1,
+      "tfc:metal/boots/bismuth_bronze": 0.1,
+      "tfc:metal/boots/black_bronze": 0.075,
+      "magistuarmory:knight_boots": 0.1,
+      "magistuarmory:gothic_boots": 0.1,
+      "magistuarmory:ceremonial_boots": 0.1,
+      "magistuarmory:lamellar_boots": 0.05,
+      "magistuarmory:cuirassier_boots": 0.1
     },
     "defaultItem": "air"
   },
   "wardrobeBoots": {
     "entries": {
-      "leather_boots": 0.4,
-      "chainmail_boots": 0.2
+      "minecraft:leather_boots": 0.4,
+      "create:cardboard_boots": 0.2,
+      "magistuarmory:gambeson_boots": 0.2,
+      "magistuarmory:jousting_boots": 0.1,
+      "magistuarmory:crusader_boots": 0.1
     },
     "defaultItem": "air"
   }

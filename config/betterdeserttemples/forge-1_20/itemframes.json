@@ -1,30 +1,48 @@
 {
   "armouryItems": {
     "entries": {
-      "golden_sword": 0.1,
-      "stone_axe": 0.05,
-      "name_tag": 0.05,
-      "bow": 0.1,
-      "stone_sword": 0.05,
-      "shield": 0.1,
-      "arrow": 0.05,
-      "golden_axe": 0.1
+      "tfc:metal/sword/bronze": 0.075,
+      "tfc:metal/sword/bismuth_bronze": 0.075,
+      "tfc:metal/sword/black_bronze": 0.05,
+      "magistuarmory:bronze_shortsword": 0.025,
+      "magistuarmory:bronze_bastardsword": 0.025,
+      "knightsofterrafirma:bronze_antique_sword": 0.025,
+      "knightsofterrafirma:bismuth_bronze_gladiator_sword": 0.025,
+      "magistuarmory:longbow": 0.05,
+      "minecraft:arrow": 0.05,
+      "minecraft:spectral_arrow": 0.05,
+      "minecraft:tipped_arrow": 0.05,
+      "tfc:metal/shield/bronze": 0.05,
+      "tfc:metal/shield/bismuth_bronze": 0.05,
+      "tfc:metal/shield/black_bronze": 0.05,
+      "magistuarmory:bronze_roundshield": 0.05,
+      "magistuarmory:bronze_kiteshield": 0.05
     },
     "defaultItem": "air"
   },
   "storageItems": {
     "entries": {
-      "slime_ball": 0.05,
-      "potato": 0.2,
-      "cake": 0.1,
-      "beetroot_seeds": 0.025,
-      "wheat_seeds": 0.025,
-      "melon_seeds": 0.025,
-      "bread": 0.2,
-      "pumpkin_seeds": 0.025,
-      "rabbit_foot": 0.01,
-      "honey_bottle": 0.1,
-      "cookie": 0.1
+      "tfc:food/date": 0.13,
+      "tfc:food/bread": 0.13,
+      "tfc:food/flatbread": 0.1,
+      "tfc:food/honey": 0.1,
+      "tfc:food/fig": 0.1,
+      "tfc:food/nut/cashew": 0.05,
+      "tfc:food/nut/almond": 0.05,
+      "tfc:food/nut/pistachio": 0.05,
+      "tfc:food/grain/wheat": 0.05,
+      "tfc:food/grain/barley": 0.05,
+      "tfc:food/vegetable/onion": 0.05,
+      "tfc:food/vegetable/garlic": 0.05,
+
+      "tfc:food/spice/vanilla": 0.01,
+      "tfc:food/spice/cinnamon": 0.01,
+      "tfc:food/fruit/pomegranate": 0.01,
+      "tfc:food/fruit/olive": 0.01,
+      "tfc:food/spice/black_pepper": 0.01,
+      "tfc:food/vegetable/chili_pepper": 0.01,
+      "minecraft:golden_carrot": 0.005,
+      "minecraft:glow_berries": 0.005
     },
     "defaultItem": "air"
   }
