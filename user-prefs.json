@@ -6,6 +6,18 @@
         "isSelected": false
       },
       {
+        "path": ".idea\\codeStyles",
+        "isSelected": false
+      },
+      {
+        "path": ".idea\\codeStyles\\codeStyleConfig.xml",
+        "isSelected": false
+      },
+      {
+        "path": ".idea\\codeStyles\\Project.xml",
+        "isSelected": false
+      },
+      {
         "path": ".idea\\.gitignore",
         "isSelected": false
       },
@@ -942,6 +954,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\horseexpert-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\hourglass-client.toml",
         "isSelected": true
       },
@@ -1302,6 +1318,78 @@
         "isSelected": false
       },
       {
+        "path": "ct_dumps",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\attribute.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\block.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\constant.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\enchantment.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\entitytype.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\fluid.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\item.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\mobeffect.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\potion.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\profession.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\recipecomponent.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\recipetype.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\soundevent.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\tag.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\tagmanager.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\targetingstrategy.txt",
+        "isSelected": false
+      },
+      {
+        "path": "ct_dumps\\toolaction.txt",
+        "isSelected": false
+      },
+      {
         "path": "data",
         "isSelected": false
       },
@@ -1538,7 +1626,35 @@
         "isSelected": false
       },
       {
-        "path": "logs\\2025-07-24-7.log.gz",
+        "path": "logs\\2025-07-25-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-25-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-25-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-25-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-25-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-25-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-26-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crafttweaker.log",
         "isSelected": false
       },
       {
@@ -3550,7 +3666,15 @@
         "isSelected": false
       },
       {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_ceryneian_hind_ceryneian_hind_part_0_e8aed9b5ab.nbt",
+        "isSelected": false
+      },
+      {
         "path": "modernfix\\structureCacheV1\\dungeons_arise_ceryneian_hind_ceryneian_hind_part_1_8d1e717f7f.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "modernfix\\structureCacheV1\\dungeons_arise_ceryneian_hind_ceryneian_hind_part_2_37ec30cf99.nbt",
         "isSelected": false
       },
       {
@@ -6090,6 +6214,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\CraftTweaker-forge-1.20.1-14.0.57.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\create-1.20.1-6.0.6.jar",
         "isSelected": true
       },
@@ -6282,7 +6410,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fusion-1.2.8a-forge-mc1.20.1.jar",
+        "path": "mods\\fusion-1.2.9-forge-mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -6327,6 +6455,10 @@
       },
       {
         "path": "mods\\Highlighter-1.20.1-forge-1.1.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\HorseExpert-v8.1.1-1.20.1-Forge.jar",
         "isSelected": true
       },
       {
@@ -6594,7 +6726,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\sound-physics-remastered-forge-1.20.1-1.4.13.jar",
+        "path": "mods\\sound-physics-remastered-forge-1.20.1-1.4.15.jar",
         "isSelected": true
       },
       {
@@ -6727,6 +6859,10 @@
       },
       {
         "path": "mods\\Tumbleweed-forge-1.20.1-0.5.5.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\twoplayersonehorse-forge-1.20.1-1.0.3.jar",
         "isSelected": true
       },
       {
@@ -6910,15 +7046,15 @@
         "isSelected": false
       },
       {
+        "path": "saves\\Новый мир\\data\\crafttweaker_saved_data.dat",
+        "isSelected": false
+      },
+      {
         "path": "saves\\Новый мир\\data\\DistantHorizons.sqlite",
         "isSelected": false
       },
       {
         "path": "saves\\Новый мир\\data\\fabric_attachments.dat",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\data\\mfix_strongholds.dat",
         "isSelected": false
       },
       {
@@ -6938,27 +7074,11 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\data\\waystones.dat",
-        "isSelected": false
-      },
-      {
         "path": "saves\\Новый мир\\data\\weather2-weather_data.dat",
         "isSelected": false
       },
       {
         "path": "saves\\Новый мир\\datapacks",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\deaths",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\deaths\\75d4240e-0443-4cb4-8c02-96bc0ff5cfdb",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\deaths\\75d4240e-0443-4cb4-8c02-96bc0ff5cfdb\\0544d6ec-1625-4dd4-94ec-2d9cbdd18207.dat",
         "isSelected": false
       },
       {
@@ -6975,6 +7095,10 @@
       },
       {
         "path": "saves\\Новый мир\\DIM-1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\DIM-1\\data\\crafttweaker_saved_data.dat",
         "isSelected": false
       },
       {
@@ -7002,6 +7126,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\Новый мир\\DIM1\\data\\crafttweaker_saved_data.dat",
+        "isSelected": false
+      },
+      {
         "path": "saves\\Новый мир\\DIM1\\data\\DistantHorizons.sqlite",
         "isSelected": false
       },
@@ -7014,19 +7142,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-1.-5.mca",
+        "path": "saves\\Новый мир\\entities\\r.-1.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-1.-6.mca",
+        "path": "saves\\Новый мир\\entities\\r.-1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-2.-5.mca",
+        "path": "saves\\Новый мир\\entities\\r.0.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\entities\\r.-2.-6.mca",
+        "path": "saves\\Новый мир\\entities\\r.0.0.mca",
         "isSelected": false
       },
       {
@@ -7046,35 +7174,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-1.-4.mca",
+        "path": "saves\\Новый мир\\poi\\r.-1.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-1.-5.mca",
+        "path": "saves\\Новый мир\\poi\\r.-1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-1.-6.mca",
+        "path": "saves\\Новый мир\\poi\\r.0.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\poi\\r.-2.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\poi\\r.-2.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\poi\\r.-2.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\poi\\r.-3.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\poi\\r.-3.-5.mca",
+        "path": "saves\\Новый мир\\poi\\r.0.0.mca",
         "isSelected": false
       },
       {
@@ -7082,51 +7194,47 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.-5.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.-6.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.-3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.-7.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-1.10.mca",
+        "path": "saves\\Новый мир\\region\\r.-1.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-10.-14.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-4.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.-2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-5.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-6.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-7.mca",
+        "path": "saves\\Новый мир\\region\\r.-2.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-2.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-2.2.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.-2.mca",
         "isSelected": false
       },
       {
@@ -7134,55 +7242,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-3.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-3.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-3.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.-3.-7.mca",
-        "isSelected": false
-      },
-      {
         "path": "saves\\Новый мир\\region\\r.-3.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-3.11.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-4.-2.mca",
+        "path": "saves\\Новый мир\\region\\r.-3.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-6.-13.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.-8.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.0.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.0.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.0.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.0.-7.mca",
+        "path": "saves\\Новый мир\\region\\r.0.-2.mca",
         "isSelected": false
       },
       {
@@ -7194,11 +7270,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.0.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.0.3.mca",
+        "path": "saves\\Новый мир\\region\\r.0.2.mca",
         "isSelected": false
       },
       {
@@ -7206,119 +7278,67 @@
         "isSelected": false
       },
       {
+        "path": "saves\\Новый мир\\region\\r.1.-2.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\Новый мир\\region\\r.1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\Новый мир\\region\\r.1.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.1.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.10.-10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.10.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.10.4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.11.-11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.2.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.2.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.3.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.4.-7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.4.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.5.2.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.5.7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.6.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.6.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.6.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.6.3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.6.4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.7.1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.7.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.7.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.7.2.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.7.6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.8.-7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.8.10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.8.2.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\Новый мир\\region\\r.9.-9.mca",
+        "path": "saves\\Новый мир\\region\\r.1.1.mca",
         "isSelected": false
       },
       {
         "path": "saves\\Новый мир\\serverconfig",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\alekiships-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\beneath-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\curios-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\firmaciv-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\firmalife-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\forge-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\gravestone-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\hourglass-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\jei-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\tfc-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\Новый мир\\serverconfig\\tfcchannelcasting-server.toml",
         "isSelected": false
       },
       {
@@ -7354,20 +7374,16 @@
         "isSelected": false
       },
       {
-        "path": "screenshots",
-        "isSelected": false
+        "path": "scripts",
+        "isSelected": true
       },
       {
-        "path": "screenshots\\2025-07-22_16.45.21.png",
-        "isSelected": false
+        "path": "scripts\\temp_recipes.zs",
+        "isSelected": true
       },
       {
         "path": "shaderpacks",
         "isSelected": true
-      },
-      {
-        "path": "trees",
-        "isSelected": false
       },
       {
         "path": "xaero",
@@ -7383,14 +7399,6 @@
       },
       {
         "path": "xaero\\minimap\\Новый мир",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\Новый мир\\dim%0",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\Новый мир\\dim%0\\waypoints.txt",
         "isSelected": false
       },
       {
@@ -7490,31 +7498,23 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache\\3",
-        "isSelected": false
-      },
-      {
         "path": "xaero\\world-map\\Новый мир\\null\\cache_1",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_-5.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_-6.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-1_0.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-2_-5.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\-2_-6.xwmc.outdated",
+        "path": "xaero\\world-map\\Новый мир\\null\\cache_1\\0_0.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -7583,22 +7583,6 @@
       },
       {
         "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-1_-5.xwmc.outdated",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-1_-6.xwmc.outdated",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-2_-5.xwmc.outdated",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\Новый мир\\null\\caves\\3\\cache_1\\-2_-6.xwmc.outdated",
         "isSelected": false
       },
       {
