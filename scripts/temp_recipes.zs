@@ -5,8 +5,8 @@ craftingTable.addShapeless("vanilla_gold_ingot_to_tfc", <item:tfc:metal/ingot/go
 craftingTable.addShapeless("tfc_gold_ingot_to_vanilla", <item:minecraft:gold_ingot>, [<item:tfc:metal/ingot/gold>]);
 
 // iron ingots conversion
-craftingTable.addShapeless("vanilla_iron_ingot_to_tfc", <item:tfc:metal/ingot/cast_iron>, [<item:minecraft:iron_ingot>]);
-craftingTable.addShapeless("tfc_iron_ingot_to_vanilla", <item:minecraft:iron_ingot>, [<item:tfc:metal/ingot/cast_iron>]);
+craftingTable.addShapeless("vanilla_iron_ingot_to_tfc", <item:tfc:metal/ingot/wrought_iron>, [<item:minecraft:iron_ingot>]);
+craftingTable.addShapeless("tfc_iron_ingot_to_vanilla", <item:minecraft:iron_ingot>, [<item:tfc:metal/ingot/wrought_iron>]);
 
 // TFC Loot obsidian to BSA obsidian
 craftingTable.addShapeless("obsidian_scrap_to_bsa_obsidian", <item:bsa:obsidian>, [<item:tfc_loot:obsidian_scrap>]);
