@@ -22,8 +22,8 @@
     "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 1.0,
-    "names": 0.0,
     "heightLimit": 10.0,
+    "names": 0.0,
     "iconScale": 1.0
   },
   "subCategories": [
@@ -53,8 +53,8 @@
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
-            "names": 2.0,
             "heightLimit": 2050.0,
+            "names": 2.0,
             "color": 15.0
           },
           "subCategories": [
@@ -197,6 +197,7 @@
           "hardInclude": "nothing",
           "includeList": [
             "minecraft:armor_stand",
+            "minecraft:arrow",
             "minecraft:painting",
             "waves:waves"
           ],

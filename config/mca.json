@@ -9,7 +9,7 @@
   "babyZombieChance": 0.25,
   "villagerTagsHacks": true,
   "enableInfection": true,
-  "allowGrimReaper": true,
+  "allowGrimReaper": false,
   "villagerChatPrefix": "",
   "canHurtBabies": true,
   "enterVillageNotification": true,
@@ -42,11 +42,11 @@
   "traitChance": 0.25,
   "traitInheritChance": 0.5,
   "bypassTraitRestrictions": false,
-  "nightOwlChance": 0.5,
-  "allowAnyNightOwl": false,
+  "nightOwlChance": 0.2,
+  "allowAnyNightOwl": true,
   "heartsForPardonHit": 30,
   "pardonPlayerTicks": 1200,
-  "guardsTargetMonsters": false,
+  "guardsTargetMonsters": true,
   "maleVillagerHeightFactor": 0.9,
   "femaleVillagerHeightFactor": 0.85,
   "maleVillagerWidthFactor": 1.0,
@@ -99,7 +99,7 @@
   ],
   "guardSpawnFraction": 0.175,
   "taxesFactor": 0.5,
-  "taxSeason": 168000,
+  "taxSeason": 192000,
   "marriageChancePerMinute": 0.05,
   "adventurerAtInnChancePerMinute": 0.05,
   "adventurerStayTime": 48000,
@@ -143,7 +143,7 @@
     "minecraft:grass_block",
     "minecraft:dirt"
   ],
-  "launchIntoDestiny": true,
+  "launchIntoDestiny": false,
   "allowDestinyCommandOnce": true,
   "allowDestinyCommandMoreThanOnce": false,
   "allowDestinyTeleportation": true,
@@ -208,14 +208,7 @@
     "minecraft:ancient_city"
   ],
   "destinySpawnLocations": [
-    "somewhere",
-    "minecraft:shipwreck_beached",
-    "minecraft:village_desert",
-    "minecraft:village_taiga",
-    "minecraft:village_snowy",
-    "minecraft:village_plains",
-    "minecraft:village_savanna",
-    "minecraft:ancient_city"
+    "somewhere"
   ],
   "destinyLocationsToTranslationMap": {
     "default": "destiny.story.travelling",

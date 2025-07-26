@@ -16,11 +16,11 @@
 	// min: 0, max: 3600
 	"timeBetweenChecksInSeconds": 2,
 	// Places the follower list on the left.
-	"followerListPositionIsLeft": true,
+	"followerListPositionIsLeft": false,
 	// Places the follower list in the middle.
 	"followerListPositionIsCenter": false,
 	// Places the follower list on the right.
-	"followerListPositionIsRight": false,
+	"followerListPositionIsRight": true,
 	// The vertical offset (y coord) for the follower list. This determines how far down the list should be on the screen. Can be changed to prevent GUIs from overlapping.
 	// min: 0, max: 3000
 	"followerListHeightOffset": 20,
