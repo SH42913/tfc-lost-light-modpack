@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "tfc_loot:obsidian_scrap" }
+  ],
+  "result": {
+    "item": "bsa:obsidian"
+  }
+}
