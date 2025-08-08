@@ -48,14 +48,14 @@ behavior = "Bounce"
 weight = "Heavy"
 state = "Solid"
 color = "255,255,255"
-entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper"]
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2"]
 
 ["Green Group"]
 behavior = "Stuck"
 weight = "Light"
 state = "Liquid"
 color = "0,255,0"
-entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch", "minecraft:pufferfish", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zoglin", "minecraft:zombie_horse", "mca:female_zombie_villager", "mca:male_zombie_villager"]
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch", "minecraft:pufferfish", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zoglin", "minecraft:zombie_horse", "mca:female_zombie_villager", "mca:male_zombie_villager", "primitive_creatures:tfc"]
 
 ["Yellow Group"]
 behavior = "Bounce"
@@ -69,7 +69,7 @@ behavior = "None"
 weight = "Light"
 state = "Liquid"
 color = "0,0,255"
-entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid", "minecraft:drowned"]
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid", "minecraft:drowned", "primitive_creatures:musselwarden"]
 
 # Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
 "255,0,0" = [
@@ -87,6 +87,12 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "minecraft:dolphin",
     "tfc:panda",
     "tfc:alpaca",
+    "primitive_creatures:iloger_4",
+    "primitive_creatures:iloger_3",
+    "primitive_creatures:iloger_2",
+    "primitive_creatures:iloger_1",
+    "primitive_creatures:iloger_6",
+    "primitive_creatures:iloger_5",
     "minecraft:illusioner",
     "tfc:smallmouth_bass",
     "tfc:yak",
@@ -95,11 +101,13 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "minecraft:axolotl",
     "tfc:deer",
     "minecraft:wandering_trader",
+    "primitive_creatures:beast",
     "tfc:lobster",
     "tfc:polar_bear",
     "tfc:mule",
     "tfc:peafowl",
     "tfc:crappie",
+    "primitive_creatures:viloger_10",
     "minecraft:fox",
     "tfc:boar",
     "minecraft:chicken",
@@ -136,6 +144,7 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "minecraft:panda",
     "minecraft:giant",
     "minecraft:husk",
+    "primitive_creatures:piloger_9",
     "minecraft:donkey",
     "tfc:dolphin",
     "tfc:black_bear",
@@ -154,6 +163,7 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "tfc:goat",
     "minecraft:vindicator",
     "minecraft:evoker",
+    "primitive_creatures:idolater_",
     "tfc:octopoteuthis",
     "tfc:cat",
     "tfc:wildebeest",
@@ -166,6 +176,7 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "minecraft:cow",
     "tfc:rabbit",
     "tfc:frog",
+    "primitive_creatures:nahida",
     "minecraft:salmon",
     "tfc:turkey",
     "tfc:rainbow_trout",
@@ -174,6 +185,7 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "tfc:sabertooth",
     "beneath:red_elk",
     "minecraft:piglin",
+    "primitive_creatures:wiloger",
     "tfc:chicken",
     "minecraft:sniffer",
     "tfc:lion",
