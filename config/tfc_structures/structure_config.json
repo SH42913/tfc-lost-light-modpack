@@ -1,0 +1,430 @@
+{
+  "biomeTags": [
+    {
+      "id": "tfc_structures:is_beach",
+      "tagValues": {
+        "values": [
+          "tfc:tidal_flats",
+          "tfc:shore"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_oceanic_mountain_lake",
+      "tagValues": {
+        "values": [
+          "tfc:oceanic_mountain_lake",
+          "tfc:volcanic_oceanic_mountain_lake"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_mountain_lake",
+      "tagValues": {
+        "values": [
+          "tfc:mountain_lake",
+          "tfc:old_mountain_lake",
+          "tfc:volcanic_mountain_lake"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_common_lake",
+      "tagValues": {
+        "values": [
+          "tfc:lake",
+          "tfc:plateau_lake"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_any_lake",
+      "tagValues": {
+        "values": [
+          "#tfc_structures:is_common_lake",
+          "#tfc_structures:is_mountain_lake",
+          "#tfc_structures:is_oceanic_mountain_lake"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_river",
+      "tagValues": {
+        "values": [
+          "tfc:river"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_highlands",
+      "tagValues": {
+        "values": [
+          "tfc:highlands"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_badlands",
+      "tagValues": {
+        "values": [
+          "tfc:badlands",
+          "tfc:inverted_badlands"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_hill",
+      "tagValues": {
+        "values": [
+          "tfc:rolling_hills",
+          "tfc:hills"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_canyons",
+      "tagValues": {
+        "values": [
+          "tfc:low_canyons",
+          "tfc:canyons"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_mountains",
+      "tagValues": {
+        "values": [
+          "tfc:mountains",
+          "tfc:old_mountains"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_volcanic_mountains",
+      "tagValues": {
+        "values": [
+          "tfc:volcanic_mountains",
+          "tfc:volcanic_oceanic_mountains"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_any_mountains",
+      "tagValues": {
+        "values": [
+          "#tfc_structures:is_mountains",
+          "#tfc_structures:is_volcanic_mountains"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_deep_ocean",
+      "tagValues": {
+        "values": [
+          "tfc:deep_ocean",
+          "tfc:deep_ocean_trench"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_common_ocean",
+      "tagValues": {
+        "values": [
+          "tfc:ocean",
+          "tfc:ocean_reef"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_any_ocean",
+      "tagValues": {
+        "values": [
+          "#tfc_structures:is_deep_ocean",
+          "#tfc_structures:is_common_ocean"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_swamp",
+      "tagValues": {
+        "values": [
+          "tfc:lowlands",
+          "tfc:salt_marsh"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:is_plains",
+      "tagValues": {
+        "values": [
+          "tfc:plains",
+          "tfc:plateau"
+        ]
+      }
+    }
+  ],
+  "activeStructures": [
+    {
+      "id": "minecraft:buried_treasure",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach",
+        "#tfc_structures:is_oceanic_mountain_lake"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:desert_pyramid",
+      "allowedBiomes": [
+        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_hill",
+        "tfc:shore",
+        "tfc:plateau"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:pillager_outpost",
+      "allowedBiomes": [
+        "#tfc_structures:is_canyons",
+        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_any_mountains",
+        "tfc:rolling_hills",
+        "tfc:highlands"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_ocean"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:shipwreck_beached",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach",
+        "#tfc_structures:is_swamp"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:stronghold",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_mountains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:swamp_hut",
+      "allowedBiomes": [
+        "#tfc_structures:is_swamp",
+        "#tfc_structures:is_common_lake",
+        "tfc:tidal_flats"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:trail_ruins",
+      "allowedBiomes": [
+        "#tfc_structures:is_highlands",
+        "tfc:old_mountains",
+        "tfc:low_canyons",
+        "tfc:hills",
+        "tfc:plateau"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:village_desert",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach",
+        "#tfc_structures:is_badlands"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:village_plains",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains",
+        "#tfc_structures:is_hill"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:village_savanna",
+      "allowedBiomes": [
+        "tfc:badlands",
+        "tfc:shore",
+        "tfc:plateau"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:village_taiga",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains",
+        "#tfc_structures:is_hill"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:mansion",
+      "allowedBiomes": [
+        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_plains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:jungle_pyramid",
+      "allowedBiomes": [
+        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_canyons",
+        "#tfc_structures:is_highlands",
+        "tfc:rolling_hills",
+        "tfc:plateau"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ocean_ruin_cold",
+      "allowedBiomes": [
+        "#tfc_structures:is_deep_ocean",
+        "tfc:ocean"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ocean_ruin_warm",
+      "allowedBiomes": [
+        "#tfc_structures:is_common_ocean",
+        "tfc:deep_ocean"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:monument",
+      "allowedBiomes": [
+        "#tfc_structures:is_deep_ocean"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains",
+        "#tfc_structures:is_hill"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal_swamp",
+      "allowedBiomes": [
+        "#tfc_structures:is_swamp"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_mountains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal_ocean",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_ocean",
+        "#tfc_structures:is_any_lake",
+        "#tfc_structures:is_river"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal_desert",
+      "allowedBiomes": [
+        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_beach"
+      ],
+      "lootTablesMap": {}
+    }
+  ],
+  "disabledStructures": [
+    "minecraft:ruined_portal_jungle",
+    "minecraft:village_snowy",
+    "minecraft:igloo",
+    "minecraft:mineshaft_mesa",
+    "minecraft:mineshaft"
+  ],
+  "unregisteredStructures": [
+    "alekiships:unfinished_rowboat_birch",
+    "dungeons_arise:fishing_hut",
+    "dungeons_arise:abandoned_temple",
+    "dungeons_arise:mushroom_village",
+    "ivp:small_village_snowy",
+    "dungeons_arise:typhon",
+    "dungeons_arise:undead_pirate_ship",
+    "ivp:small_village_taiga",
+    "dungeons_arise:heavenly_challenger",
+    "dungeons_arise:giant_mushroom",
+    "dungeons_arise:monastery",
+    "betterdeserttemples:desert_temple",
+    "dungeons_arise:mining_system",
+    "dungeons_arise_seven_seas:corsair_corvette",
+    "minecraft:ruined_portal_nether",
+    "dungeons_arise_seven_seas:small_yacht",
+    "ivp:small_village_savanna",
+    "dungeons_arise:merchant_campsite",
+    "alekiships:unfinished_sloop_oak",
+    "minecraft:bastion_remnant",
+    "dungeons_arise_seven_seas:pirate_junk",
+    "alekiships:unfinished_rowboat_dark_oak",
+    "dungeons_arise:infested_temple",
+    "dungeons_arise:illager_campsite",
+    "dungeons_arise:illager_fort",
+    "dungeons_arise:plague_asylum",
+    "minecraft:ancient_city",
+    "dungeons_arise:greenwood_pub",
+    "dungeons_arise:bandit_village",
+    "dungeons_arise:wishing_well",
+    "ivp:small_village_desert",
+    "dungeons_arise:small_prairie_house",
+    "dungeons_arise:thornborn_towers",
+    "alekiships:unfinished_rowboat_oak",
+    "minecraft:fortress",
+    "dungeons_arise_seven_seas:victory_frigate",
+    "alekiships:unfinished_sloop_spruce",
+    "dungeons_arise:keep_kayra",
+    "dungeons_arise:aviary",
+    "dungeons_arise:coliseum",
+    "minecraft:end_city",
+    "dungeons_arise:bandit_towers",
+    "dungeons_arise:mushroom_house",
+    "dungeons_arise:ceryneian_hind",
+    "dungeons_arise:bathhouse",
+    "dungeons_arise:illager_windmill",
+    "alekiships:unfinished_sloop_cherry",
+    "betterstrongholds:stronghold",
+    "alekiships:unfinished_sloop_birch",
+    "ivp:small_village_plains",
+    "betterjungletemples:jungle_temple",
+    "dungeons_arise:illager_corsair",
+    "dungeons_arise:lighthouse",
+    "alekiships:unfinished_sloop_dark_oak",
+    "dungeons_arise:illager_galley",
+    "alekiships:unfinished_rowboat_cherry",
+    "dungeons_arise:foundry",
+    "dungeons_arise:heavenly_conqueror",
+    "dungeons_arise_seven_seas:unicorn_galleon",
+    "dungeons_arise:mechanical_nest",
+    "dungeons_arise:heavenly_rider",
+    "dungeons_arise:mushroom_mines",
+    "dungeons_arise:jungle_tree_house",
+    "alekiships:unfinished_rowboat_spruce",
+    "minecraft:nether_fossil",
+    "dungeons_arise:small_blimp",
+    "dungeons_arise:scorched_mines",
+    "dungeons_arise:shiraz_palace"
+  ]
+}
