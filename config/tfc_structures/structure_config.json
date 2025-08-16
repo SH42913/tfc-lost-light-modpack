@@ -173,7 +173,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:desert_pyramid",
+      "id": "betterdeserttemples:desert_temple",
       "allowedBiomes": [
         "#tfc_structures:is_badlands",
         "#tfc_structures:is_hill",
@@ -209,7 +209,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:stronghold",
+      "id": "betterstrongholds:stronghold",
       "allowedBiomes": [
         "#tfc_structures:is_any_mountains"
       ],
@@ -269,6 +269,39 @@
       "lootTablesMap": {}
     },
     {
+      "id": "ivp:small_village_desert",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach",
+        "#tfc_structures:is_badlands"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_plains",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains",
+        "#tfc_structures:is_hill"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_savanna",
+      "allowedBiomes": [
+        "tfc:badlands",
+        "tfc:shore",
+        "tfc:plateau"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_taiga",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains",
+        "#tfc_structures:is_hill"
+      ],
+      "lootTablesMap": {}
+    },
+    {
       "id": "minecraft:mansion",
       "allowedBiomes": [
         "#tfc_structures:is_badlands",
@@ -277,7 +310,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:jungle_pyramid",
+      "id": "betterjungletemples:jungle_temple",
       "allowedBiomes": [
         "#tfc_structures:is_badlands",
         "#tfc_structures:is_canyons",
@@ -355,30 +388,45 @@
     "minecraft:village_snowy",
     "minecraft:igloo",
     "minecraft:mineshaft_mesa",
-    "minecraft:mineshaft"
+    "minecraft:mineshaft",
+    "minecraft:ancient_city",
+    "minecraft:jungle_pyramid",
+    "minecraft:stronghold",
+    "minecraft:desert_pyramid",
+    "ivp:small_village_snowy"
   ],
   "unregisteredStructures": [
-    "dungeons_arise:bandit_towers",
+    "minecraft:bastion_remnant",
+    "minecraft:end_city",
+    "minecraft:nether_fossil",
+    "minecraft:ruined_portal_nether",
+    "minecraft:fortress",
     "alekiships:unfinished_rowboat_birch",
+    "alekiships:unfinished_sloop_spruce",
+    "alekiships:unfinished_sloop_cherry",
+    "alekiships:unfinished_sloop_oak",
+    "alekiships:unfinished_rowboat_spruce",
+    "alekiships:unfinished_sloop_birch",
+    "alekiships:unfinished_rowboat_cherry",
+    "alekiships:unfinished_rowboat_oak",
+    "alekiships:unfinished_rowboat_dark_oak",
+    "alekiships:unfinished_sloop_dark_oak",
+    "dungeons_arise:bandit_towers",
     "dungeons_arise:illager_galley",
     "dungeons_arise:jungle_tree_house",
-    "ivp:small_village_taiga",
     "dungeons_arise:mushroom_village",
     "dungeons_arise:bathhouse",
     "dungeons_arise:abandoned_temple",
     "dungeons_arise:small_blimp",
     "dungeons_arise_seven_seas:unicorn_galleon",
     "dungeons_arise:scorched_mines",
-    "ivp:small_village_plains",
     "dungeons_arise:lighthouse",
-    "ivp:small_village_snowy",
     "dungeons_arise:merchant_campsite",
     "dungeons_arise:mushroom_house",
     "dungeons_arise:small_prairie_house",
     "dungeons_arise:mining_system",
     "dungeons_arise_seven_seas:corsair_corvette",
     "dungeons_arise:ceryneian_hind",
-    "alekiships:unfinished_sloop_spruce",
     "dungeons_arise:shiraz_palace",
     "dungeons_arise:aviary",
     "dungeons_arise:mushroom_mines",
@@ -386,45 +434,26 @@
     "dungeons_arise:heavenly_challenger",
     "dungeons_arise:infested_temple",
     "dungeons_arise:typhon",
-    "alekiships:unfinished_sloop_cherry",
     "dungeons_arise:illager_campsite",
     "dungeons_arise_seven_seas:small_yacht",
-    "betterdeserttemples:desert_temple",
     "dungeons_arise:giant_mushroom",
     "dungeons_arise:illager_fort",
-    "minecraft:nether_fossil",
-    "alekiships:unfinished_sloop_oak",
-    "alekiships:unfinished_rowboat_spruce",
     "dungeons_arise_seven_seas:victory_frigate",
-    "minecraft:bastion_remnant",
     "dungeons_arise:heavenly_rider",
-    "ivp:small_village_savanna",
     "dungeons_arise:illager_corsair",
-    "betterjungletemples:jungle_temple",
     "dungeons_arise:thornborn_towers",
-    "alekiships:unfinished_sloop_birch",
-    "betterstrongholds:stronghold",
     "dungeons_arise:foundry",
     "dungeons_arise:heavenly_conqueror",
     "dungeons_arise:wishing_well",
-    "minecraft:end_city",
-    "alekiships:unfinished_rowboat_cherry",
     "dungeons_arise:greenwood_pub",
     "dungeons_arise:plague_asylum",
     "dungeons_arise:bandit_village",
-    "alekiships:unfinished_rowboat_oak",
     "dungeons_arise:undead_pirate_ship",
-    "minecraft:fortress",
     "dungeons_arise:keep_kayra",
-    "alekiships:unfinished_rowboat_dark_oak",
-    "minecraft:ruined_portal_nether",
-    "ivp:small_village_desert",
     "dungeons_arise:coliseum",
     "dungeons_arise_seven_seas:pirate_junk",
     "dungeons_arise:illager_windmill",
-    "minecraft:ancient_city",
     "dungeons_arise:mechanical_nest",
-    "alekiships:unfinished_sloop_dark_oak",
     "dungeons_arise:monastery"
   ]
 }
