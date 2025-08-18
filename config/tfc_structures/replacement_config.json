@@ -235,6 +235,22 @@
     {
       "original": "minecraft:blackstone_wall",
       "replacement": "tfc:smooth_sandstone/black_wall"
+    },
+    {
+      "original": "minecraft:beehive",
+      "replacement": "firmalife:beehive"
+    },
+    {
+      "original": "minecraft:furnace",
+      "replacement": "firmalife:cured_oven_bottom"
+    },
+    {
+      "original": "minecraft:smoker",
+      "replacement": "firmalife:cured_rustic_oven_bottom"
+    },
+    {
+      "original": "minecraft:blast_furnace",
+      "replacement": "firmalife:insulated_stone_oven_bottom"
     }
   ],
   "randomReplacements": [
