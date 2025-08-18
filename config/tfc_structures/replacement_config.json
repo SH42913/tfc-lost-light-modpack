@@ -222,19 +222,87 @@
     },
     {
       "original": "minecraft:blackstone",
-      "replacement": "tfc:smooth_sandstone/black"
+      "replacement": "tfc:rock/hardened/basalt"
     },
     {
       "original": "minecraft:blackstone_stairs",
-      "replacement": "tfc:smooth_sandstone/black_stairs"
+      "replacement": "tfc:rock/raw/basalt_stairs"
     },
     {
       "original": "minecraft:blackstone_slab",
-      "replacement": "tfc:smooth_sandstone/black_slab"
+      "replacement": "tfc:rock/raw/basalt_slab"
     },
     {
       "original": "minecraft:blackstone_wall",
-      "replacement": "tfc:smooth_sandstone/black_wall"
+      "replacement": "tfc:rock/raw/basalt_wall"
+    },
+    {
+      "original": "minecraft:polished_blackstone",
+      "replacement": "tfc:rock/smooth/basalt"
+    },
+    {
+      "original": "minecraft:polished_blackstone_stairs",
+      "replacement": "tfc:rock/smooth/basalt_stairs"
+    },
+    {
+      "original": "minecraft:polished_blackstone_slab",
+      "replacement": "tfc:rock/smooth/basalt_slab"
+    },
+    {
+      "original": "minecraft:polished_blackstone_wall",
+      "replacement": "tfc:rock/smooth/basalt_wall"
+    },
+    {
+      "original": "minecraft:chiseled_polished_blackstone",
+      "replacement": "tfc:rock/chiseled/basalt"
+    },
+    {
+      "original": "minecraft:polished_blackstone_bricks",
+      "replacement": "tfc:rock/smooth/basalt"
+    },
+    {
+      "original": "minecraft:polished_blackstone_brick_stairs",
+      "replacement": "tfc:rock/smooth/basalt_stairs"
+    },
+    {
+      "original": "minecraft:polished_blackstone_brick_slab",
+      "replacement": "tfc:rock/smooth/basalt_slab"
+    },
+    {
+      "original": "minecraft:polished_blackstone_brick_wall",
+      "replacement": "tfc:rock/smooth/basalt_wall"
+    },
+    {
+      "original": "minecraft:raw_iron_block",
+      "replacement": "tfc:metal/block/wrought_iron"
+    },
+    {
+      "original": "minecraft:raw_copper_block",
+      "replacement": "minecraft:copper_block"
+    },
+    {
+      "original": "minecraft:raw_gold_block",
+      "replacement": "tfc:metal/block/gold"
+    },
+    {
+      "original": "minecraft:packed_mud",
+      "replacement": "tfc:smooth_mud_bricks"
+    },
+    {
+      "original": "minecraft:mud_bricks",
+      "replacement": "tfc:mud_bricks/sandy_loam"
+    },
+    {
+      "original": "minecraft:mud_brick_stairs",
+      "replacement": "tfc:mud_bricks/sandy_loam_stairs"
+    },
+    {
+      "original": "minecraft:mud_brick_slab",
+      "replacement": "tfc:mud_bricks/sandy_loam_slab"
+    },
+    {
+      "original": "minecraft:mud_brick_wall",
+      "replacement": "tfc:mud_bricks/sandy_loam_wall"
     },
     {
       "original": "minecraft:beehive",
@@ -362,94 +430,6 @@
         "tfc:crop/tomato",
         "tfc:crop/yellow_bell_pepper",
         "tfc:crop/red_bell_pepper"
-      ]
-    },
-    {
-      "original": "minecraft:dirt_path",
-      "perBlock": false,
-      "replacements": [
-        "rnr:hoggin",
-        "rnr:rock/cobbled_road/conglomerate",
-        "rnr:rock/gravel_road/conglomerate",
-        "rnr:rock/cobbled_road/dolomite",
-        "rnr:rock/gravel_road/dolomite",
-        "rnr:rock/cobbled_road/conglomerate",
-        "rnr:rock/gravel_road/conglomerate",
-        "rnr:rock/cobbled_road/dolomite",
-        "rnr:rock/gravel_road/dolomite",
-        "rnr:rock/cobbled_road/granite",
-        "rnr:rock/gravel_road/granite",
-        "rnr:rock/cobbled_road/diorite",
-        "rnr:rock/gravel_road/diorite",
-        "rnr:rock/cobbled_road/gabbro",
-        "rnr:rock/gravel_road/gabbro",
-        "rnr:rock/cobbled_road/shale",
-        "rnr:rock/gravel_road/shale",
-        "rnr:rock/cobbled_road/claystone",
-        "rnr:rock/gravel_road/claystone",
-        "rnr:rock/cobbled_road/limestone",
-        "rnr:rock/gravel_road/limestone",
-        "rnr:rock/cobbled_road/chert",
-        "rnr:rock/gravel_road/chert",
-        "rnr:rock/cobbled_road/chalk",
-        "rnr:rock/gravel_road/chalk",
-        "rnr:rock/cobbled_road/rhyolite",
-        "rnr:rock/gravel_road/rhyolite",
-        "rnr:rock/cobbled_road/basalt",
-        "rnr:rock/gravel_road/basalt",
-        "rnr:rock/cobbled_road/andesite",
-        "rnr:rock/gravel_road/andesite",
-        "rnr:rock/cobbled_road/dacite",
-        "rnr:rock/gravel_road/dacite",
-        "rnr:rock/cobbled_road/quartzite",
-        "rnr:rock/gravel_road/quartzite",
-        "rnr:rock/cobbled_road/slate",
-        "rnr:rock/gravel_road/slate",
-        "rnr:rock/cobbled_road/phyllite",
-        "rnr:rock/gravel_road/phyllite",
-        "rnr:rock/cobbled_road/schist",
-        "rnr:rock/gravel_road/schist",
-        "rnr:rock/cobbled_road/gneiss",
-        "rnr:rock/gravel_road/gneiss",
-        "rnr:rock/cobbled_road/marble",
-        "rnr:rock/gravel_road/marble"
-      ]
-    },
-    {
-      "original": "minecraft:carved_pumpkin",
-      "perBlock": true,
-      "replacements": [
-        "minecraft:carved_pumpkin",
-        "firmalife:carved_pumpkin/circle",
-        "firmalife:carved_pumpkin/creeper",
-        "firmalife:carved_pumpkin/axe",
-        "firmalife:carved_pumpkin/hammer",
-        "firmalife:carved_pumpkin/pickaxe",
-        "firmalife:carved_pumpkin/left",
-        "firmalife:carved_pumpkin/right"
-      ]
-    },
-    {
-      "original": "minecraft:decorated_pot",
-      "perBlock": true,
-      "replacements": [
-        "tfc:ceramic/large_vessel",
-        "tfc:ceramic/large_vessel/white",
-        "tfc:ceramic/large_vessel/orange",
-        "tfc:ceramic/large_vessel/magenta",
-        "tfc:ceramic/large_vessel/light_blue",
-        "tfc:ceramic/large_vessel/yellow",
-        "tfc:ceramic/large_vessel/lime",
-        "tfc:ceramic/large_vessel/pink",
-        "tfc:ceramic/large_vessel/gray",
-        "tfc:ceramic/large_vessel/light_gray",
-        "tfc:ceramic/large_vessel/cyan",
-        "tfc:ceramic/large_vessel/purple",
-        "tfc:ceramic/large_vessel/blue",
-        "tfc:ceramic/large_vessel/brown",
-        "tfc:ceramic/large_vessel/green",
-        "tfc:ceramic/large_vessel/red",
-        "tfc:ceramic/large_vessel/black"
       ]
     }
   ],

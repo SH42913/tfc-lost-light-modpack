@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "tfc_structures:is_badlands",
+      "id": "tfc_structures:is_any_badlands",
       "tagValues": {
         "values": [
           "tfc:badlands",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "tfc_structures:is_mountains",
+      "id": "tfc_structures:is_common_mountains",
       "tagValues": {
         "values": [
           "tfc:mountains",
@@ -112,7 +112,7 @@
       "id": "tfc_structures:is_any_mountains",
       "tagValues": {
         "values": [
-          "#tfc_structures:is_mountains",
+          "#tfc_structures:is_common_mountains",
           "#tfc_structures:is_volcanic_mountains"
         ]
       }
@@ -161,6 +161,52 @@
           "tfc:plateau"
         ]
       }
+    },
+    {
+      "id": "tfc_structures:village_biomes",
+      "tagValues": {
+        "values": [
+          "#tfc_structures:is_plains",
+          "#tfc_structures:is_hill"
+        ]
+      }
+    },
+    {
+      "id": "tfc_structures:all_tfc_biomes",
+      "tagValues": {
+        "values": [
+          "tfc:plateau_lake",
+          "tfc:shore",
+          "tfc:plains",
+          "tfc:highlands",
+          "tfc:volcanic_oceanic_mountains",
+          "tfc:lake",
+          "tfc:inverted_badlands",
+          "tfc:lowlands",
+          "tfc:ocean_reef",
+          "tfc:badlands",
+          "tfc:salt_marsh",
+          "tfc:river",
+          "tfc:volcanic_oceanic_mountain_lake",
+          "tfc:old_mountains",
+          "tfc:canyons",
+          "tfc:deep_ocean",
+          "tfc:low_canyons",
+          "tfc:old_mountain_lake",
+          "tfc:ocean",
+          "tfc:deep_ocean_trench",
+          "tfc:oceanic_mountain_lake",
+          "tfc:mountains",
+          "tfc:plateau",
+          "tfc:rolling_hills",
+          "tfc:tidal_flats",
+          "tfc:mountain_lake",
+          "tfc:volcanic_mountain_lake",
+          "tfc:hills",
+          "tfc:volcanic_mountains",
+          "tfc:oceanic_mountains"
+        ]
+      }
     }
   ],
   "activeStructures": [
@@ -173,9 +219,9 @@
       "lootTablesMap": {}
     },
     {
-      "id": "betterdeserttemples:desert_temple",
+      "id": "minecraft:desert_pyramid",
       "allowedBiomes": [
-        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_hill",
         "tfc:shore",
         "tfc:plateau"
@@ -186,10 +232,9 @@
       "id": "minecraft:pillager_outpost",
       "allowedBiomes": [
         "#tfc_structures:is_canyons",
-        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_any_mountains",
-        "tfc:rolling_hills",
-        "tfc:highlands"
+        "#tfc_structures:is_highlands"
       ],
       "lootTablesMap": {}
     },
@@ -209,7 +254,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "betterstrongholds:stronghold",
+      "id": "minecraft:stronghold",
       "allowedBiomes": [
         "#tfc_structures:is_any_mountains"
       ],
@@ -219,8 +264,8 @@
       "id": "minecraft:swamp_hut",
       "allowedBiomes": [
         "#tfc_structures:is_swamp",
-        "#tfc_structures:is_common_lake",
-        "tfc:tidal_flats"
+        "#tfc_structures:is_any_lake",
+        "#tfc_structures:is_beach"
       ],
       "lootTablesMap": {}
     },
@@ -238,85 +283,45 @@
     {
       "id": "minecraft:village_desert",
       "allowedBiomes": [
-        "#tfc_structures:is_beach",
-        "#tfc_structures:is_badlands"
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     },
     {
       "id": "minecraft:village_plains",
       "allowedBiomes": [
-        "#tfc_structures:is_plains",
-        "#tfc_structures:is_hill"
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     },
     {
       "id": "minecraft:village_savanna",
       "allowedBiomes": [
-        "tfc:badlands",
-        "tfc:shore",
-        "tfc:plateau"
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     },
     {
       "id": "minecraft:village_taiga",
       "allowedBiomes": [
-        "#tfc_structures:is_plains",
-        "#tfc_structures:is_hill"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_desert",
-      "allowedBiomes": [
-        "#tfc_structures:is_beach",
-        "#tfc_structures:is_badlands"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_plains",
-      "allowedBiomes": [
-        "#tfc_structures:is_plains",
-        "#tfc_structures:is_hill"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_savanna",
-      "allowedBiomes": [
-        "tfc:badlands",
-        "tfc:shore",
-        "tfc:plateau"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_taiga",
-      "allowedBiomes": [
-        "#tfc_structures:is_plains",
-        "#tfc_structures:is_hill"
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     },
     {
       "id": "minecraft:mansion",
       "allowedBiomes": [
-        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_plains"
       ],
       "lootTablesMap": {}
     },
     {
-      "id": "betterjungletemples:jungle_temple",
+      "id": "minecraft:jungle_pyramid",
       "allowedBiomes": [
-        "#tfc_structures:is_badlands",
+        "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_canyons",
-        "#tfc_structures:is_highlands",
-        "tfc:rolling_hills",
-        "tfc:plateau"
+        "#tfc_structures:is_highlands"
       ],
       "lootTablesMap": {}
     },
@@ -346,8 +351,7 @@
     {
       "id": "minecraft:ruined_portal",
       "allowedBiomes": [
-        "#tfc_structures:is_plains",
-        "#tfc_structures:is_hill"
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     },
@@ -377,83 +381,77 @@
     {
       "id": "minecraft:ruined_portal_desert",
       "allowedBiomes": [
-        "#tfc_structures:is_badlands",
-        "#tfc_structures:is_beach"
+        "#tfc_structures:is_any_badlands"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:ruined_portal_jungle",
+      "allowedBiomes": [
+        "#tfc_structures:is_highlands",
+        "#tfc_structures:is_hill",
+        "#tfc_structures:is_canyons"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "minecraft:mineshaft",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_mountains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_desert",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_plains",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_savanna",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "ivp:small_village_taiga",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
     }
   ],
   "disabledStructures": [
-    "minecraft:ruined_portal_jungle",
     "minecraft:village_snowy",
     "minecraft:igloo",
     "minecraft:mineshaft_mesa",
-    "minecraft:mineshaft",
-    "minecraft:ancient_city",
-    "minecraft:jungle_pyramid",
-    "minecraft:stronghold",
-    "minecraft:desert_pyramid",
     "ivp:small_village_snowy"
   ],
   "unregisteredStructures": [
-    "dungeons_arise:bandit_towers",
     "alekiships:unfinished_rowboat_birch",
-    "dungeons_arise:illager_galley",
-    "dungeons_arise:jungle_tree_house",
-    "dungeons_arise:mushroom_village",
-    "dungeons_arise:bathhouse",
-    "dungeons_arise:abandoned_temple",
-    "dungeons_arise:small_blimp",
-    "dungeons_arise_seven_seas:unicorn_galleon",
-    "dungeons_arise:scorched_mines",
-    "dungeons_arise:lighthouse",
-    "dungeons_arise:merchant_campsite",
-    "dungeons_arise:mushroom_house",
-    "dungeons_arise:small_prairie_house",
-    "dungeons_arise:mining_system",
-    "dungeons_arise_seven_seas:corsair_corvette",
-    "dungeons_arise:ceryneian_hind",
-    "alekiships:unfinished_sloop_spruce",
-    "dungeons_arise:shiraz_palace",
-    "dungeons_arise:aviary",
-    "dungeons_arise:mushroom_mines",
-    "dungeons_arise:fishing_hut",
-    "dungeons_arise:heavenly_challenger",
-    "dungeons_arise:infested_temple",
-    "dungeons_arise:typhon",
-    "alekiships:unfinished_sloop_cherry",
-    "dungeons_arise:illager_campsite",
-    "dungeons_arise_seven_seas:small_yacht",
-    "dungeons_arise:giant_mushroom",
-    "dungeons_arise:illager_fort",
-    "minecraft:nether_fossil",
-    "alekiships:unfinished_sloop_oak",
-    "alekiships:unfinished_rowboat_spruce",
-    "dungeons_arise_seven_seas:victory_frigate",
-    "minecraft:bastion_remnant",
-    "dungeons_arise:heavenly_rider",
-    "dungeons_arise:illager_corsair",
-    "dungeons_arise:thornborn_towers",
-    "alekiships:unfinished_sloop_birch",
-    "dungeons_arise:foundry",
-    "dungeons_arise:heavenly_conqueror",
-    "dungeons_arise:wishing_well",
-    "minecraft:end_city",
     "alekiships:unfinished_rowboat_cherry",
-    "dungeons_arise:greenwood_pub",
-    "dungeons_arise:plague_asylum",
-    "dungeons_arise:bandit_village",
-    "alekiships:unfinished_rowboat_oak",
-    "dungeons_arise:undead_pirate_ship",
-    "minecraft:fortress",
-    "dungeons_arise:keep_kayra",
     "alekiships:unfinished_rowboat_dark_oak",
-    "minecraft:ruined_portal_nether",
-    "dungeons_arise:coliseum",
-    "dungeons_arise_seven_seas:pirate_junk",
-    "dungeons_arise:illager_windmill",
-    "dungeons_arise:mechanical_nest",
+    "alekiships:unfinished_rowboat_oak",
+    "alekiships:unfinished_rowboat_spruce",
+    "alekiships:unfinished_sloop_birch",
+    "alekiships:unfinished_sloop_cherry",
     "alekiships:unfinished_sloop_dark_oak",
-    "dungeons_arise:monastery"
+    "alekiships:unfinished_sloop_oak",
+    "alekiships:unfinished_sloop_spruce",
+    "minecraft:ancient_city",
+    "minecraft:bastion_remnant",
+    "minecraft:end_city",
+    "minecraft:fortress",
+    "minecraft:nether_fossil",
+    "minecraft:ruined_portal_nether"
   ]
 }
