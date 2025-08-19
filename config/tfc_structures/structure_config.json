@@ -428,6 +428,20 @@
         "#tfc_structures:village_biomes"
       ],
       "lootTablesMap": {}
+    },
+    {
+      "id": "alekiships:unfinished_rowboat",
+      "allowedBiomes": [
+        "#tfc_structures:is_swamp"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "alekiships:unfinished_sloop",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach"
+      ],
+      "lootTablesMap": {}
     }
   ],
   "disabledStructures": [

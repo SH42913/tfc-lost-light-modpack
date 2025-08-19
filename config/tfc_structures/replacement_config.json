@@ -319,6 +319,54 @@
     {
       "original": "minecraft:blast_furnace",
       "replacement": "firmalife:insulated_stone_oven_bottom"
+    },
+    {
+      "original": "alekiships:watercraft_frame_angled",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:watercraft_frame_flat",
+      "replacement": "firmaciv:watercraft_frame_flat"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/angled/oak",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/angled/spruce",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/angled/birch",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/angled/cherry",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/angled/dark_oak",
+      "replacement": "firmaciv:watercraft_frame_angled"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/flat/oak",
+      "replacement": "firmaciv:wood/watercraft_frame/flat/oak"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/flat/spruce",
+      "replacement": "firmaciv:wood/watercraft_frame/flat/ash"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/flat/birch",
+      "replacement": "firmaciv:wood/watercraft_frame/flat/birch"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/flat/cherry",
+      "replacement": "firmaciv:wood/watercraft_frame/flat/chestnut"
+    },
+    {
+      "original": "alekiships:wood/watercraft_frame/flat/dark_oak",
+      "replacement": "firmaciv:wood/watercraft_frame/flat/hickory"
     }
   ],
   "randomReplacements": [
