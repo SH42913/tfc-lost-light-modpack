@@ -442,6 +442,80 @@
         "#tfc_structures:all_tfc_biomes"
       ],
       "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:forest_chapel_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:forest_house_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:forest_stonemason_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:plains_house_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:plains_mansion_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:is_plains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:taiga_forge_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:taiga_house_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:taiga_inn_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:taiga_woodcutter_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "simply_houses:forest_fort_biomes",
+      "allowedBiomes": [
+        "#tfc_structures:village_biomes",
+        "#tfc_structures:is_canyons",
+        "#tfc_structures:is_any_badlands",
+        "#tfc_structures:is_any_mountains",
+        "#tfc_structures:is_highlands"
+      ],
+      "lootTablesMap": {}
     }
   ],
   "disabledStructures": [

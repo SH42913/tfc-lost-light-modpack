@@ -2995,7 +2995,7 @@
     }, "categoryIds": [422, 409, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Simply Houses",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "SimplyHouses-1.1.4-1.20.1-forge.jar.disabled",
+    "fileNameOnDisk": "SimplyHouses-1.1.4-1.20.1-forge.jar",
     "authors": [{"id": 101731217, "name": "Aureljz"}, {"id": 101897796, "name": "diamondtown_"}],
     "primaryAuthor": "Aureljz", "primaryCategoryId": 409, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/simply-houses",
@@ -3025,8 +3025,8 @@
       ]
     }, "dateInstalled": "2025-08-17T19:15:38.8214189Z", "dateUpdated": "2025-08-17T19:15:38.8222425Z", "status": 5,
     "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\SimplyHouses-1.1.4-1.20.1-forge.jar.disabled"
+    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\SimplyHouses-1.1.4-1.20.1-forge.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 4607831, "fileName": "SimplyHouses-1.1.4-1.20.1-forge.jar", "fileDate": "2023-06-24T22:31:57.203Z",
@@ -3122,7 +3122,7 @@
     }, "categoryIds": [409, 407, 426, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Forest Ruins",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "forest_ruins-1.0.0-forge-1.20.1.jar.disabled",
+    "fileNameOnDisk": "forest_ruins-1.0.0-forge-1.20.1.jar",
     "authors": [{"id": 110539587, "name": "SuperWarioModTeam"}], "primaryAuthor": "SuperWarioModTeam",
     "primaryCategoryId": 426, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/forest-ruins", "issuesURL": null, "wikiURL": null,
@@ -3149,8 +3149,8 @@
       ]
     }, "dateInstalled": "2025-08-17T19:53:03.6450684Z", "dateUpdated": "2025-08-17T19:53:03.6459199Z", "status": 5,
     "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\forest_ruins-1.0.0-forge-1.20.1.jar.disabled"
+    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\forest_ruins-1.0.0-forge-1.20.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6557258, "fileName": "forest_ruins-1.0.0-forge-1.20.1.jar", "fileDate": "2025-05-23T01:53:49.09Z",
@@ -3259,7 +3259,7 @@
     }, "categoryIds": [406, 422, 409], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Improved Village Placement",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "improved-village-placement-1.1.1.jar", "authors": [{"id": 103472802, "name": "Apollo"}],
+    "fileNameOnDisk": "improved-village-placement-1.1.1.jar.disabled", "authors": [{"id": 103472802, "name": "Apollo"}],
     "primaryAuthor": "Apollo", "primaryCategoryId": 406, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/improved-village-placement", "issuesURL": null,
     "wikiURL": null,
@@ -3291,8 +3291,8 @@
       ]
     }, "dateInstalled": "2025-07-22T17:53:00.7701642Z", "dateUpdated": "2025-07-22T17:53:00.7711197Z", "status": 5,
     "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\improved-village-placement-1.1.1.jar"
+    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\improved-village-placement-1.1.1.jar.disabled"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6680730, "fileName": "improved-village-placement-1.1.1.jar", "fileDate": "2025-06-21T23:00:18.83Z",
@@ -6467,7 +6467,7 @@
     }, "categoryIds": [425, 406, 421], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Lithostitched",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "lithostitched-forge-1.20.1-1.4.11.jar",
+    "fileNameOnDisk": "lithostitched-forge-1.20.1-1.4.11.jar.disabled",
     "authors": [{"id": 103472802, "name": "Apollo"}, {"id": 51432627, "name": "SmellyModder"}],
     "primaryAuthor": "Apollo", "primaryCategoryId": 425, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
@@ -6502,8 +6502,8 @@
       ]
     }, "dateInstalled": "2025-07-22T17:52:57.5475196Z", "dateUpdated": "2025-07-22T17:52:57.5483518Z", "status": 5,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\lithostitched-forge-1.20.1-1.4.11.jar"
+    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\lithostitched-forge-1.20.1-1.4.11.jar.disabled"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6742615, "fileName": "lithostitched-forge-1.20.1-1.4.11.jar", "fileDate": "2025-07-07T23:21:45.877Z",
@@ -6570,11 +6570,11 @@
         {"type": 1, "value": "b4544e81cf391ffd39468ee9fe64958263af6929"},
         {"type": 2, "value": "4b0afb0bb2b682278a018b3c4bd54c2e"}
       ]
-    }, "dateInstalled": "2025-07-22T17:53:40.3549402Z", "dateUpdated": "2025-07-22T17:53:40.3557961Z", "status": 5,
-    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    }, "dateInstalled": "2025-08-20T14:26:18.1095514Z", "dateUpdated": "2025-08-20T14:26:18.1109248Z", "status": 4,
+    "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
       "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\settlement-roads-2.0.1.jar"
-    ], "preferenceIsIgnored": false, "isModified": true, "isWorkingCopy": false, "isFuzzyMatch": false,
+    ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6558962, "fileName": "settlement-roads-2.0.1.jar", "fileDate": "2025-05-23T16:57:05.477Z",
       "fileLength": 124741, "releaseType": 1, "fileStatus": 4,
@@ -7943,7 +7943,7 @@
     }, "categoryIds": [422, 409, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Hopo Better Mineshaft",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar.disabled",
+    "fileNameOnDisk": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
     "authors": [{"id": 103326793, "name": "hoponopono"}], "primaryAuthor": "hoponopono", "primaryCategoryId": 409,
     "packageType": 6, "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/hopo-better-mineshaft",
     "issuesURL": null, "wikiURL": "https://discord.gg/CZQthZJjPc",
@@ -7982,8 +7982,8 @@
       ]
     }, "dateInstalled": "2025-08-17T20:32:25.6527109Z", "dateUpdated": "2025-08-17T20:32:25.6636679Z", "status": 5,
     "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar.disabled"
+    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6631774, "fileName": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
@@ -11674,7 +11674,7 @@
     }, "categoryIds": [422, 409, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "When Dungeons Arise - Forge!",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "DungeonsArise-1.20.x-2.1.58-release.jar.disabled",
+    "fileNameOnDisk": "DungeonsArise-1.20.x-2.1.58-release.jar",
     "authors": [{"id": 101731217, "name": "Aureljz"}, {"id": 101897796, "name": "diamondtown_"}],
     "primaryAuthor": "Aureljz", "primaryCategoryId": 409, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise", "issuesURL": null, "wikiURL": "",
@@ -11707,8 +11707,8 @@
       ]
     }, "dateInstalled": "2025-07-23T12:03:57.1647068Z", "dateUpdated": "2025-07-23T12:03:57.1694162Z", "status": 5,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\DungeonsArise-1.20.x-2.1.58-release.jar.disabled"
+    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\DungeonsArise-1.20.x-2.1.58-release.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 4983862, "fileName": "DungeonsArise-1.20.x-2.1.58-release.jar", "fileDate": "2023-12-26T06:42:43.993Z",
