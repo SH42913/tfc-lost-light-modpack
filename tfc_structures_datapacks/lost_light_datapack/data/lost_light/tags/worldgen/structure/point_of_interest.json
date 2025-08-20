@@ -6,11 +6,6 @@
     "minecraft:village_snowy",
     "minecraft:village_taiga",
     "minecraft:pillager_outpost",
-    "minecraft:mansion",
-    "ivp:small_village_taiga",
-    "ivp:small_village_plains",
-    "ivp:small_village_snowy",
-    "ivp:small_village_savanna",
-    "ivp:small_village_desert"
+    "minecraft:mansion"
   ]
 }

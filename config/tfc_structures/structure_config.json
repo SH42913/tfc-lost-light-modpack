@@ -175,36 +175,36 @@
       "id": "tfc_structures:all_tfc_biomes",
       "tagValues": {
         "values": [
-          "tfc:plateau_lake",
           "tfc:shore",
           "tfc:plains",
-          "tfc:highlands",
-          "tfc:volcanic_oceanic_mountains",
-          "tfc:lake",
-          "tfc:inverted_badlands",
-          "tfc:lowlands",
-          "tfc:ocean_reef",
-          "tfc:badlands",
           "tfc:salt_marsh",
+          "tfc:oceanic_mountains",
+          "tfc:deep_ocean_trench",
+          "tfc:badlands",
+          "tfc:plateau",
+          "tfc:tidal_flats",
+          "tfc:low_canyons",
+          "tfc:inverted_badlands",
+          "tfc:lake",
           "tfc:river",
-          "tfc:volcanic_oceanic_mountain_lake",
-          "tfc:old_mountains",
+          "tfc:ocean_reef",
+          "tfc:highlands",
           "tfc:canyons",
           "tfc:deep_ocean",
-          "tfc:low_canyons",
-          "tfc:old_mountain_lake",
-          "tfc:ocean",
-          "tfc:deep_ocean_trench",
-          "tfc:oceanic_mountain_lake",
-          "tfc:mountains",
-          "tfc:plateau",
-          "tfc:rolling_hills",
-          "tfc:tidal_flats",
           "tfc:mountain_lake",
+          "tfc:volcanic_oceanic_mountain_lake",
+          "tfc:plateau_lake",
+          "tfc:ocean",
+          "tfc:mountains",
+          "tfc:rolling_hills",
+          "tfc:old_mountains",
+          "tfc:old_mountain_lake",
+          "tfc:lowlands",
+          "tfc:oceanic_mountain_lake",
           "tfc:volcanic_mountain_lake",
           "tfc:hills",
           "tfc:volcanic_mountains",
-          "tfc:oceanic_mountains"
+          "tfc:volcanic_oceanic_mountains"
         ]
       }
     }
@@ -309,7 +309,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:mansion",
+      "id": "minecraft:woodland_mansion",
       "allowedBiomes": [
         "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_plains"
@@ -317,7 +317,7 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:jungle_pyramid",
+      "id": "minecraft:jungle_temple",
       "allowedBiomes": [
         "#tfc_structures:is_any_badlands",
         "#tfc_structures:is_canyons",
@@ -342,14 +342,14 @@
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:monument",
+      "id": "minecraft:ocean_monument",
       "allowedBiomes": [
         "#tfc_structures:is_deep_ocean"
       ],
       "lootTablesMap": {}
     },
     {
-      "id": "minecraft:ruined_portal",
+      "id": "minecraft:ruined_portal_standard",
       "allowedBiomes": [
         "#tfc_structures:village_biomes"
       ],
@@ -402,34 +402,6 @@
       "lootTablesMap": {}
     },
     {
-      "id": "ivp:small_village_desert",
-      "allowedBiomes": [
-        "#tfc_structures:village_biomes"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_plains",
-      "allowedBiomes": [
-        "#tfc_structures:village_biomes"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_savanna",
-      "allowedBiomes": [
-        "#tfc_structures:village_biomes"
-      ],
-      "lootTablesMap": {}
-    },
-    {
-      "id": "ivp:small_village_taiga",
-      "allowedBiomes": [
-        "#tfc_structures:village_biomes"
-      ],
-      "lootTablesMap": {}
-    },
-    {
       "id": "alekiships:unfinished_rowboat",
       "allowedBiomes": [
         "#tfc_structures:is_swamp"
@@ -442,30 +414,48 @@
         "#tfc_structures:is_beach"
       ],
       "lootTablesMap": {}
+    },
+    {
+      "id": "waystones:blackstone_waystone",
+      "allowedBiomes": [
+        "#tfc_structures:is_any_mountains"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "waystones:mossy_waystone",
+      "allowedBiomes": [
+        "#tfc_structures:is_swamp"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "waystones:sandy_waystone",
+      "allowedBiomes": [
+        "#tfc_structures:is_beach"
+      ],
+      "lootTablesMap": {}
+    },
+    {
+      "id": "waystones:waystone",
+      "allowedBiomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ],
+      "lootTablesMap": {}
     }
   ],
   "disabledStructures": [
-    "minecraft:village_snowy",
     "minecraft:igloo",
-    "minecraft:mineshaft_mesa",
-    "ivp:small_village_snowy"
+    "minecraft:village_snowy",
+    "minecraft:mineshaft_mesa"
   ],
   "unregisteredStructures": [
-    "alekiships:unfinished_rowboat_birch",
-    "alekiships:unfinished_rowboat_cherry",
-    "alekiships:unfinished_rowboat_dark_oak",
-    "alekiships:unfinished_rowboat_oak",
-    "alekiships:unfinished_rowboat_spruce",
-    "alekiships:unfinished_sloop_birch",
-    "alekiships:unfinished_sloop_cherry",
-    "alekiships:unfinished_sloop_dark_oak",
-    "alekiships:unfinished_sloop_oak",
-    "alekiships:unfinished_sloop_spruce",
     "minecraft:ancient_city",
     "minecraft:bastion_remnant",
     "minecraft:end_city",
-    "minecraft:fortress",
+    "minecraft:nether_fortress",
     "minecraft:nether_fossil",
-    "minecraft:ruined_portal_nether"
+    "minecraft:ruined_portal_nether",
+    "waystones:end_stone_waystone"
   ]
 }
