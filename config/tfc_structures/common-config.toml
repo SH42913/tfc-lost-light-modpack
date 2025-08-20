@@ -9,4 +9,6 @@ mossyBlocks = ["minecraft:mossy_cobblestone", "minecraft:mossy_cobblestone_slab"
 strippedLogs = ["minecraft:stripped_oak_log", "minecraft:stripped_spruce_log", "minecraft:stripped_birch_log", "minecraft:stripped_jungle_log", "minecraft:stripped_acacia_log", "minecraft:stripped_dark_oak_log", "minecraft:stripped_mangrove_log", "minecraft:stripped_cherry_log"]
 #List to separate stripped wood from others (it will generate #stripped_wood tag)
 strippedWood = ["minecraft:stripped_oak_wood", "minecraft:stripped_spruce_wood", "minecraft:stripped_birch_wood", "minecraft:stripped_jungle_wood", "minecraft:stripped_acacia_wood", "minecraft:stripped_dark_oak_wood", "minecraft:stripped_mangrove_wood", "minecraft:stripped_cherry_wood"]
+#List to separate cracked bricks from others (it will generate #cracked_bricks tag)
+crackedBricks = ["minecraft:cracked_stone_bricks", "minecraft:cracked_deepslate_bricks", "minecraft:cracked_deepslate_tiles"]
 
