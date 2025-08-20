@@ -10,10 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "tfc:rolling_hills",
-    "tfc:hills",
-    "tfc:highlands"
-  ],
+  "biomes": "#tfc_structures:is_hill",
   "use_expansion_hack": false
 }
