@@ -1869,41 +1869,27 @@
     }, "categoryIds": [411, 424, 5191], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "[EMF] Entity Model Features [Fabric & Forge]",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "entity_model_features_forge_1.20.1-2.4.1.jar", "authors": [{"id": 102405316, "name": "Traben"}],
+    "fileNameOnDisk": "entity_model_features_1.20.1-forge-3.0.1.jar", "authors": [{"id": 102405316, "name": "Traben"}],
     "primaryAuthor": "Traben", "primaryCategoryId": 424, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
     "issuesURL": "https://github.com/Traben-0/Entity_Model_Features/issues",
     "wikiURL": "https://github.com/Traben-0/Entity_Model_Features/blob/master/FEATURES.md",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/983/284/256/256/638491564386011875.png", "tags": [],
     "installedFile": {
-      "id": 6001134, "fileName": "entity_model_features_forge_1.20.1-2.4.1.jar", "fileDate": "2024-12-18T06:30:41.893Z",
-      "fileLength": 445642, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6001/134/entity_model_features_forge_1.20.1-2.4.1.jar",
+      "id": 6922712, "fileName": "entity_model_features_1.20.1-forge-3.0.1.jar", "fileDate": "2025-08-24T13:40:04.477Z",
+      "fileLength": 657484, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6922/712/entity_model_features_1.20.1-forge-3.0.1.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
       "dependencies": [{"addonId": 568563, "type": 3}], "isAvailable": true, "modules": [
-        {"foldername": "META-INF", "fingerprint": 4235327809, "invalidFingerprint": false}, {
-          "foldername": "architectury_inject_entity_model_features_common_2ecd9670c6e54a288fde9bbc72a910b8_53cc11deced61726a63d81e39fce3c49cd9f55b6f638d27cc690021bdbb2c4b8entity_model_features241devjar",
-          "fingerprint": 2136281031, "invalidFingerprint": false
-        }, {"foldername": "assets", "fingerprint": 30538381, "invalidFingerprint": false}, {
-          "foldername": "entity_model_features-common-refmap.json", "fingerprint": 2812295518,
+        {"foldername": "META-INF", "fingerprint": 3949391290, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 903469926, "invalidFingerprint": false}, {
+          "foldername": "entity_model_features-3.0.1-1.20.1-forge-1.20.1-forge-refmap.json", "fingerprint": 3428061741,
           "invalidFingerprint": false
-        }, {
-          "foldername": "entity_model_features-common.mixins.json", "fingerprint": 3968937097,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "entity_model_features-optional.mixins.json", "fingerprint": 2133231562,
-          "invalidFingerprint": false
-        }, {"foldername": "entity_model_features.mixins.json", "fingerprint": 3958446464, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_4.accesswidener", "fingerprint": 1918748330, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_5.accesswidener", "fingerprint": 1918748330, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_6.accesswidener", "fingerprint": 1918748330, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_7.accesswidener", "fingerprint": 3277387652, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_8.accesswidener", "fingerprint": 3277387652, "invalidFingerprint": false},
-        {"foldername": "entity_model_features_9.accesswidener", "fingerprint": 3277387652, "invalidFingerprint": false},
+        }, {"foldername": "entity_model_features.mixins.json", "fingerprint": 2643466291, "invalidFingerprint": false},
         {"foldername": "icon.png", "fingerprint": 609070734, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 2250763913, "invalidFingerprint": false},
-        {"foldername": "traben", "fingerprint": 1500532824, "invalidFingerprint": false}
-      ], "packageFingerprint": 1034850736, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20"],
+        {"foldername": "traben", "fingerprint": 2057877419, "invalidFingerprint": false}
+      ], "packageFingerprint": 1174162205, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20"],
       "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "Client", "gameVersionTypeId": 75208},
         {"gameVersion": "", "gameVersionName": "NeoForge", "gameVersionTypeId": 68441},
@@ -1912,14 +1898,14 @@
         {"gameVersion": "1.20", "gameVersionName": "1.20", "gameVersionTypeId": 75125}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 844662,
-      "fileNameOnDisk": "entity_model_features_forge_1.20.1-2.4.1.jar", "hashes": [
-        {"type": 1, "value": "2ed40fd0bf3266e67036e5b3857da84c24b045e1"},
-        {"type": 2, "value": "d801a1f8c9425012b82619bcdec06666"}
+      "fileNameOnDisk": "entity_model_features_1.20.1-forge-3.0.1.jar", "hashes": [
+        {"type": 1, "value": "7d1b1b7e07bafce1f6e79e4f3bcc8737dc765fe4"},
+        {"type": 2, "value": "9389de85f96d0a97953c74faab9c4d60"}
       ]
-    }, "dateInstalled": "2025-07-22T08:51:21.5344647Z", "dateUpdated": "2025-07-22T08:51:21.5356631Z", "status": 3,
-    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    }, "dateInstalled": "2025-07-22T08:51:21.5344647Z", "dateUpdated": "2025-08-25T16:13:11.8350152Z", "status": 4,
+    "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\entity_model_features_forge_1.20.1-2.4.1.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\entity_model_features_1.20.1-forge-3.0.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6922712, "fileName": "entity_model_features_1.20.1-forge-3.0.1.jar", "fileDate": "2025-08-24T13:40:04.477Z",
@@ -3108,7 +3094,7 @@
     }, "categoryIds": [409, 407, 426, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Forest Ruins",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "forest_ruins-1.0.0-forge-1.20.1.jar",
+    "fileNameOnDisk": "forest_ruins-1.0.0-forge-1.20.1.jar.disabled",
     "authors": [{"id": 110539587, "name": "SuperWarioModTeam"}], "primaryAuthor": "SuperWarioModTeam",
     "primaryCategoryId": 426, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/forest-ruins", "issuesURL": null, "wikiURL": null,
@@ -3135,8 +3121,8 @@
       ]
     }, "dateInstalled": "2025-08-17T19:53:03.6450684Z", "dateUpdated": "2025-08-17T19:53:03.6459199Z", "status": 5,
     "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
-    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\forest_ruins-1.0.0-forge-1.20.1.jar"
+    "preferenceAlternateFile": false, "isEnabled": false, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\forest_ruins-1.0.0-forge-1.20.1.jar.disabled"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6557258, "fileName": "forest_ruins-1.0.0-forge-1.20.1.jar", "fileDate": "2025-05-23T01:53:49.09Z",
@@ -6258,40 +6244,36 @@
       "gameCategoryId": 6
     }, "categoryIds": [421], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "BaguetteLib",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "baguettelib-1.20.1-Forge-1.0.0.jar", "authors": [{"id": 101661042, "name": "Project8gbDeRam"}],
+    "fileNameOnDisk": "baguettelib-1.20.1-Forge-1.1.0.jar", "authors": [{"id": 101661042, "name": "Project8gbDeRam"}],
     "primaryAuthor": "Project8gbDeRam", "primaryCategoryId": 421, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/baguettelib",
     "issuesURL": "https://github.com/Leclowndu93150/BaguetteLib/issues", "wikiURL": null,
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1312/883/256/256/638853653640016923.png", "tags": [],
     "installedFile": {
-      "id": 6523425, "fileName": "baguettelib-1.20.1-Forge-1.0.0.jar", "fileDate": "2025-05-12T19:47:40.637Z",
-      "fileLength": 26550, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6523/425/baguettelib-1.20.1-Forge-1.0.0.jar",
+      "id": 6909482, "fileName": "baguettelib-1.20.1-Forge-1.1.0.jar", "fileDate": "2025-08-20T23:30:04.997Z",
+      "fileLength": 30314, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6909/482/baguettelib-1.20.1-Forge-1.1.0.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [], "isAvailable": true,
       "modules": [
-        {"foldername": "META-INF", "fingerprint": 3711638346, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 1936697445, "invalidFingerprint": false},
         {"foldername": "assets", "fingerprint": 2174561637, "invalidFingerprint": false},
-        {"foldername": "baguettelib.mixins.json", "fingerprint": 305687878, "invalidFingerprint": false},
-        {"foldername": "baguettelib.refmap.json", "fingerprint": 1755694043, "invalidFingerprint": false},
-        {"foldername": "com", "fingerprint": 85875487, "invalidFingerprint": false},
+        {"foldername": "baguettelib.mixins.json", "fingerprint": 1797238124, "invalidFingerprint": false},
+        {"foldername": "baguettelib.refmap.json", "fingerprint": 3283584385, "invalidFingerprint": false},
+        {"foldername": "com", "fingerprint": 3627135382, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 2057514714, "invalidFingerprint": false}
-      ], "packageFingerprint": 1177717676, "gameVersion": ["1.20.2", "1.20.3", "1.20.1", "Forge", "1.20.4"],
-      "sortableGameVersion": [
-        {"gameVersion": "1.20.2", "gameVersionName": "1.20.2", "gameVersionTypeId": 75125},
-        {"gameVersion": "1.20.3", "gameVersionName": "1.20.3", "gameVersionTypeId": 75125},
+      ], "packageFingerprint": 418799321, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
-        {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441},
-        {"gameVersion": "1.20.4", "gameVersionName": "1.20.4", "gameVersionTypeId": 75125}
+        {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1264423,
-      "fileNameOnDisk": "baguettelib-1.20.1-Forge-1.0.0.jar", "hashes": [
-        {"type": 1, "value": "bb17d8ed796efce38eb8fcc72ec477f3373e6c9f"},
-        {"type": 2, "value": "f27a8d6a333579d93a9881100d559b56"}
+      "fileNameOnDisk": "baguettelib-1.20.1-Forge-1.1.0.jar", "hashes": [
+        {"type": 1, "value": "140ea51f71e5f316e473354cdeeb0dbba5422632"},
+        {"type": 2, "value": "74448bf96f648170cc03ab7bee6a6e3d"}
       ]
-    }, "dateInstalled": "2025-08-19T15:42:01.8673903Z", "dateUpdated": "2025-08-19T15:42:01.8727834Z", "status": 3,
+    }, "dateInstalled": "2025-08-19T15:42:01.8673903Z", "dateUpdated": "2025-08-25T16:13:34.8634656Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\baguettelib-1.20.1-Forge-1.0.0.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\baguettelib-1.20.1-Forge-1.1.0.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6909482, "fileName": "baguettelib-1.20.1-Forge-1.1.0.jar", "fileDate": "2025-08-20T23:30:04.997Z",
@@ -7854,41 +7836,41 @@
       "gameCategoryId": 6
     }, "categoryIds": [421], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "Puzzles Lib",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar", "authors": [{"id": 10384423, "name": "Fuzs"}],
+    "fileNameOnDisk": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar", "authors": [{"id": 10384423, "name": "Fuzs"}],
     "primaryAuthor": "Fuzs", "primaryCategoryId": 421, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
     "issuesURL": "https://github.com/Fuzss/puzzleslib/issues", "wikiURL": "",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/776/232/256/256/638118144989284933.png", "tags": [],
     "installedFile": {
-      "id": 6387081, "fileName": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar", "fileDate": "2025-04-05T11:23:03.413Z",
-      "fileLength": 1342204, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6387/81/PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+      "id": 6918565, "fileName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar", "fileDate": "2025-08-23T12:27:32.2Z",
+      "fileLength": 1342987, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [], "isAvailable": true,
       "modules": [
-        {"foldername": "META-INF", "fingerprint": 744576649, "invalidFingerprint": false},
-        {"foldername": "CHANGELOG.md", "fingerprint": 203430257, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 851909178, "invalidFingerprint": false},
+        {"foldername": "CHANGELOG.md", "fingerprint": 2344473131, "invalidFingerprint": false},
         {"foldername": "LICENSE-ASSETS.md", "fingerprint": 1447192261, "invalidFingerprint": false},
         {"foldername": "LICENSE.md", "fingerprint": 2980605036, "invalidFingerprint": false},
-        {"foldername": "fuzs", "fingerprint": 4248595337, "invalidFingerprint": false},
+        {"foldername": "fuzs", "fingerprint": 1182913029, "invalidFingerprint": false},
         {"foldername": "mod_banner.png", "fingerprint": 1906961265, "invalidFingerprint": false},
         {"foldername": "mod_logo.png", "fingerprint": 921125005, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 1997921311, "invalidFingerprint": false},
         {"foldername": "puzzleslib.common.mixins.json", "fingerprint": 2274296306, "invalidFingerprint": false},
         {"foldername": "puzzleslib.forge.mixins.json", "fingerprint": 601405808, "invalidFingerprint": false},
         {"foldername": "puzzleslib.refmap.json", "fingerprint": 1617600179, "invalidFingerprint": false}
-      ], "packageFingerprint": 3625645991, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
+      ], "packageFingerprint": 3151848185, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 495476,
-      "fileNameOnDisk": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar", "hashes": [
-        {"type": 1, "value": "1f24a25582fa6bb2569e32401a232ee90d34cc1a"},
-        {"type": 2, "value": "3ca3da58d71c0b14241df38578ffdb22"}
+      "fileNameOnDisk": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar", "hashes": [
+        {"type": 1, "value": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf"},
+        {"type": 2, "value": "19f23e3040eaadc7c30ae38f5a3dec68"}
       ]
-    }, "dateInstalled": "2025-07-22T12:32:38.2646377Z", "dateUpdated": "2025-07-22T12:32:38.2684129Z", "status": 3,
+    }, "dateInstalled": "2025-07-22T12:32:38.2646377Z", "dateUpdated": "2025-08-25T16:13:19.4310456Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6918565, "fileName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar", "fileDate": "2025-08-23T12:27:32.2Z",
@@ -10704,37 +10686,37 @@
       "gameCategoryId": 6
     }, "categoryIds": [421], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "GeckoLib",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "geckolib-forge-1.20.1-4.7.3.jar",
+    "fileNameOnDisk": "geckolib-forge-1.20.1-4.7.4.jar",
     "authors": [{"id": 100005756, "name": "Gecko"}, {"id": 102710925, "name": "EliotL"}], "primaryAuthor": "Gecko",
     "primaryCategoryId": 421, "packageType": 6, "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
     "issuesURL": "https://github.com/bernie-g/geckolib/issues", "wikiURL": "https://github.com/bernie-g/geckolib/wiki",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1081/393/256/256/638621132937140582.png", "tags": [],
     "installedFile": {
-      "id": 6789487, "fileName": "geckolib-forge-1.20.1-4.7.3.jar", "fileDate": "2025-07-20T00:06:25.577Z",
-      "fileLength": 1012611, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6789/487/geckolib-forge-1.20.1-4.7.3.jar", "isAlternate": false,
+      "id": 6920925, "fileName": "geckolib-forge-1.20.1-4.7.4.jar", "fileDate": "2025-08-24T01:07:28.857Z",
+      "fileLength": 1013210, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6920/925/geckolib-forge-1.20.1-4.7.4.jar", "isAlternate": false,
       "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [], "isAvailable": true, "modules": [
-        {"foldername": "META-INF", "fingerprint": 3975104736, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 3894706861, "invalidFingerprint": false},
         {"foldername": "LICENSE", "fingerprint": 1281428458, "invalidFingerprint": false},
         {"foldername": "assets", "fingerprint": 1597380512, "invalidFingerprint": false},
         {"foldername": "geckolib.mixins.json", "fingerprint": 2255945478, "invalidFingerprint": false},
         {"foldername": "geckolib.png", "fingerprint": 1492677644, "invalidFingerprint": false},
         {"foldername": "geckolib.refmap.json", "fingerprint": 717967817, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 2978847283, "invalidFingerprint": false},
-        {"foldername": "software", "fingerprint": 134865811, "invalidFingerprint": false}
-      ], "packageFingerprint": 1456720428, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
+        {"foldername": "software", "fingerprint": 1231571600, "invalidFingerprint": false}
+      ], "packageFingerprint": 1584275441, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 388172,
-      "fileNameOnDisk": "geckolib-forge-1.20.1-4.7.3.jar", "hashes": [
-        {"type": 1, "value": "37931d750fe7772f1665da3310321ba812cfcb46"},
-        {"type": 2, "value": "771fb21a83d735260ff271092d8cc311"}
+      "fileNameOnDisk": "geckolib-forge-1.20.1-4.7.4.jar", "hashes": [
+        {"type": 1, "value": "db550c1cab6c5e07a592f7881b6772d45626a50d"},
+        {"type": 2, "value": "13892e4f925b758498e7db2f2235da08"}
       ]
-    }, "dateInstalled": "2025-07-23T18:19:19.3020461Z", "dateUpdated": "2025-07-23T18:19:19.3033065Z", "status": 3,
+    }, "dateInstalled": "2025-07-23T18:19:19.3020461Z", "dateUpdated": "2025-08-25T16:13:20.260014Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\geckolib-forge-1.20.1-4.7.3.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\geckolib-forge-1.20.1-4.7.4.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6920925, "fileName": "geckolib-forge-1.20.1-4.7.4.jar", "fileDate": "2025-08-24T01:07:28.857Z",
@@ -11195,6 +11177,80 @@
       ]
     }, "allowModDistribution": true, "exportDisabledReason": 0, "groupId": null
   }, {
+    "instanceID": "245cf926-9f82-4670-8a65-1bd489084c76", "modSource": 0, "addonID": 876199, "gameID": 432,
+    "categoryClassID": 6, "categorySection": {
+      "id": 8, "gameId": 432, "name": "Mods", "packageType": 6, "path": "mods", "initialInclusionPattern": ".",
+      "gameCategoryId": 6
+    }, "categoryIds": [434, 424], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "Elytra Trims",
+    "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+    "fileNameOnDisk": "elytratrims-forge-3.5.9+1.20.1.jar", "authors": [{"id": 103391021, "name": "KikuGie"}],
+    "primaryAuthor": "KikuGie", "primaryCategoryId": 424, "packageType": 6,
+    "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/elytra-trims",
+    "issuesURL": "https://codeberg.org/KikuGie/elytra-trims/issues", "wikiURL": "",
+    "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/834/579/256/256/638225413143731230.png", "tags": [],
+    "installedFile": {
+      "id": 6563747, "fileName": "elytratrims-forge-3.5.9+1.20.1.jar", "fileDate": "2025-05-25T08:10:05.737Z",
+      "fileLength": 788506, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6563/747/elytratrims-forge-3.5.9%2b1.20.1.jar",
+      "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
+      "dependencies": [{"addonId": 351264, "type": 3}, {"addonId": 667299, "type": 2}], "isAvailable": true,
+      "modules": [
+        {"foldername": "META-INF", "fingerprint": 1475921862, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 3363829556, "invalidFingerprint": false},
+        {"foldername": "data", "fingerprint": 1351111836, "invalidFingerprint": false},
+        {"foldername": "dev", "fingerprint": 3916194725, "invalidFingerprint": false},
+        {"foldername": "elytratrims-client.mixins.json", "fingerprint": 1506569893, "invalidFingerprint": false},
+        {"foldername": "elytratrims-common.mixins.json", "fingerprint": 189843893, "invalidFingerprint": false},
+        {"foldername": "elytratrims-compat.mixins.json", "fingerprint": 382970328, "invalidFingerprint": false}, {
+          "foldername": "elytratrims-forge-1.20.1-forge-refmap.json", "fingerprint": 3691860273,
+          "invalidFingerprint": false
+        }, {"foldername": "pack.mcmeta", "fingerprint": 1816360105, "invalidFingerprint": false},
+        {"foldername": "resourcepacks", "fingerprint": 1957722947, "invalidFingerprint": false}
+      ], "packageFingerprint": 390469433, "gameVersion": ["1.20.1", "Forge", "1.20"], "sortableGameVersion": [
+        {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
+        {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441},
+        {"gameVersion": "1.20", "gameVersionName": "1.20", "gameVersionTypeId": 75125}
+      ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
+      "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 876199,
+      "fileNameOnDisk": "elytratrims-forge-3.5.9+1.20.1.jar", "hashes": [
+        {"type": 1, "value": "8d9ac46666b0fd3f8ba2ed6e40a05d7e2fab1d2a"},
+        {"type": 2, "value": "4b62690fadbe94cd47c93f5aeecc9b86"}
+      ]
+    }, "dateInstalled": "2025-08-25T16:18:55.2826022Z", "dateUpdated": "2025-08-25T16:18:55.2864263Z", "status": 4,
+    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\elytratrims-forge-3.5.9+1.20.1.jar"
+    ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
+    "manifestName": null, "installedTargets": [], "latestFile": {
+      "id": 6563747, "fileName": "elytratrims-forge-3.5.9+1.20.1.jar", "fileDate": "2025-05-25T08:10:05.737Z",
+      "fileLength": 788506, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6563/747/elytratrims-forge-3.5.9%2b1.20.1.jar",
+      "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
+      "dependencies": [{"addonId": 351264, "type": 3}, {"addonId": 667299, "type": 2}], "isAvailable": true,
+      "modules": [
+        {"foldername": "META-INF", "fingerprint": 1475921862, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 3363829556, "invalidFingerprint": false},
+        {"foldername": "data", "fingerprint": 1351111836, "invalidFingerprint": false},
+        {"foldername": "dev", "fingerprint": 3916194725, "invalidFingerprint": false},
+        {"foldername": "elytratrims-client.mixins.json", "fingerprint": 1506569893, "invalidFingerprint": false},
+        {"foldername": "elytratrims-common.mixins.json", "fingerprint": 189843893, "invalidFingerprint": false},
+        {"foldername": "elytratrims-compat.mixins.json", "fingerprint": 382970328, "invalidFingerprint": false}, {
+          "foldername": "elytratrims-forge-1.20.1-forge-refmap.json", "fingerprint": 3691860273,
+          "invalidFingerprint": false
+        }, {"foldername": "pack.mcmeta", "fingerprint": 1816360105, "invalidFingerprint": false},
+        {"foldername": "resourcepacks", "fingerprint": 1957722947, "invalidFingerprint": false}
+      ], "packageFingerprint": 390469433, "gameVersion": ["1.20.1", "Forge", "1.20"], "sortableGameVersion": [
+        {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
+        {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441},
+        {"gameVersion": "1.20", "gameVersionName": "1.20", "gameVersionTypeId": 75125}
+      ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
+      "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 876199,
+      "fileNameOnDisk": "elytratrims-forge-3.5.9+1.20.1.jar", "hashes": [
+        {"type": 1, "value": "8d9ac46666b0fd3f8ba2ed6e40a05d7e2fab1d2a"},
+        {"type": 2, "value": "4b62690fadbe94cd47c93f5aeecc9b86"}
+      ]
+    }, "allowModDistribution": true, "exportDisabledReason": 0, "groupId": null
+  }, {
     "instanceID": "0326c4d1-8206-4725-911a-e9bd47c05ff0", "modSource": 0, "addonID": 508933, "gameID": 432,
     "categoryClassID": 6, "categorySection": {
       "id": 8, "gameId": 432, "name": "Mods", "packageType": 6, "path": "mods", "initialInclusionPattern": ".",
@@ -11380,25 +11436,25 @@
     }, "categoryIds": [424, 421], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Fusion (Connected Textures)",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "fusion-1.2.10-forge-mc1.20.1.jar", "authors": [{"id": 19533279, "name": "SuperMartijn642"}],
+    "fileNameOnDisk": "fusion-1.2.11a-forge-mc1.20.1.jar", "authors": [{"id": 19533279, "name": "SuperMartijn642"}],
     "primaryAuthor": "SuperMartijn642", "primaryCategoryId": 424, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
     "issuesURL": "https://github.com/SuperMartijn642/Fusion/issues",
     "wikiURL": "https://github.com/SuperMartijn642/Fusion/wiki",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/835/860/256/256/638227854854712053.png", "tags": [],
     "installedFile": {
-      "id": 6826826, "fileName": "fusion-1.2.10-forge-mc1.20.1.jar", "fileDate": "2025-07-29T21:53:45.58Z",
-      "fileLength": 542652, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6826/826/fusion-1.2.10-forge-mc1.20.1.jar", "isAlternate": false,
+      "id": 6923652, "fileName": "fusion-1.2.11a-forge-mc1.20.1.jar", "fileDate": "2025-08-24T17:59:41.787Z",
+      "fileLength": 544250, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6923/652/fusion-1.2.11a-forge-mc1.20.1.jar", "isAlternate": false,
       "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [], "isAvailable": true, "modules": [
-        {"foldername": "META-INF", "fingerprint": 1173997785, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 658354226, "invalidFingerprint": false},
         {"foldername": "assets", "fingerprint": 446798968, "invalidFingerprint": false},
-        {"foldername": "com", "fingerprint": 3694376896, "invalidFingerprint": false},
-        {"foldername": "fusion.mixins.json", "fingerprint": 4069710967, "invalidFingerprint": false},
+        {"foldername": "com", "fingerprint": 3317049184, "invalidFingerprint": false},
+        {"foldername": "fusion.mixins.json", "fingerprint": 222369906, "invalidFingerprint": false},
         {"foldername": "fusion.mixins.refmap.json", "fingerprint": 125193620, "invalidFingerprint": false},
         {"foldername": "fusion.png", "fingerprint": 2106792421, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 2959889053, "invalidFingerprint": false}
-      ], "packageFingerprint": 1514304574, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20", "Server"],
+      ], "packageFingerprint": 3813388807, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20", "Server"],
       "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "Client", "gameVersionTypeId": 75208},
         {"gameVersion": "", "gameVersionName": "NeoForge", "gameVersionTypeId": 68441},
@@ -11408,14 +11464,14 @@
         {"gameVersion": "", "gameVersionName": "Server", "gameVersionTypeId": 75208}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 854949,
-      "fileNameOnDisk": "fusion-1.2.10-forge-mc1.20.1.jar", "hashes": [
-        {"type": 1, "value": "372c78d9d28e2974263f31e5c9254b4e986962dc"},
-        {"type": 2, "value": "7eb95405bda76fb35c0e7eb533c9555a"}
+      "fileNameOnDisk": "fusion-1.2.11a-forge-mc1.20.1.jar", "hashes": [
+        {"type": 1, "value": "d356430ff9fe588998f4b85eb3a6b5b0e57e2b85"},
+        {"type": 2, "value": "709b729df7478057bc30c15a6091b274"}
       ]
-    }, "dateInstalled": "2025-07-22T13:30:04.29718Z", "dateUpdated": "2025-07-31T11:52:15.9271246Z", "status": 3,
+    }, "dateInstalled": "2025-07-22T13:30:04.29718Z", "dateUpdated": "2025-08-25T16:13:34.3614379Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\fusion-1.2.10-forge-mc1.20.1.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\fusion-1.2.11a-forge-mc1.20.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6923652, "fileName": "fusion-1.2.11a-forge-mc1.20.1.jar", "fileDate": "2025-08-24T17:59:41.787Z",
@@ -12951,52 +13007,28 @@
     }, "categoryIds": [5191, 424], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "[ETF] Entity Texture Features - [Fabric & Forge]",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "entity_texture_features_forge_1.20.1-6.2.9.jar",
+    "fileNameOnDisk": "entity_texture_features_1.20.1-forge-7.0.1.jar",
     "authors": [{"id": 102405316, "name": "Traben"}], "primaryAuthor": "Traben", "primaryCategoryId": 424,
     "packageType": 6, "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric",
     "issuesURL": "https://github.com/Traben-0/EmissiveMod/issues",
     "wikiURL": "https://github.com/Traben-0/Entity_Texture_Features/blob/master/.github/README.md",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/983/279/256/256/638491557830728907.png", "tags": [],
     "installedFile": {
-      "id": 5982136, "fileName": "entity_texture_features_forge_1.20.1-6.2.9.jar",
-      "fileDate": "2024-12-11T09:25:20.743Z", "fileLength": 676887, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/5982/136/entity_texture_features_forge_1.20.1-6.2.9.jar",
+      "id": 6925372, "fileName": "entity_texture_features_1.20.1-forge-7.0.1.jar",
+      "fileDate": "2025-08-25T03:28:03.527Z", "fileLength": 897448, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6925/372/entity_texture_features_1.20.1-forge-7.0.1.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [], "isAvailable": true,
       "modules": [
-        {"foldername": "META-INF", "fingerprint": 1420917674, "invalidFingerprint": false}, {
-          "foldername": "License_entity_texture_features_6.2.9.txt", "fingerprint": 1136524626,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "architectury_inject_entitytexturefeatures_common_a65a3c1ff8fa4fba99ace653ea2320a5_18029be30787f10db9a198fcce642c25be6a045b836643602b041619479bcf62entity_texture_features629devjar",
-          "fingerprint": 2899140767, "invalidFingerprint": false
-        }, {"foldername": "assets", "fingerprint": 435018565, "invalidFingerprint": false}, {
-          "foldername": "entity_texture_features-common-refmap.json", "fingerprint": 2436241502,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "entity_texture_features-common.mixins.json", "fingerprint": 1911847791,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "entity_texture_features-forge.mixins.json", "fingerprint": 335297157,
-          "invalidFingerprint": false
+        {"foldername": "META-INF", "fingerprint": 144693383, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 1024425819, "invalidFingerprint": false}, {
+          "foldername": "entity_texture_features-7.0.1-1.20.1-forge-1.20.1-forge-refmap.json",
+          "fingerprint": 3110002575, "invalidFingerprint": false
         },
-        {"foldername": "entity_texture_features_4.accesswidener", "fingerprint": 23174691, "invalidFingerprint": false},
-        {"foldername": "entity_texture_features_5.accesswidener", "fingerprint": 23174691, "invalidFingerprint": false},
-        {"foldername": "entity_texture_features_6.accesswidener", "fingerprint": 23174691, "invalidFingerprint": false},
-        {
-          "foldername": "entity_texture_features_7.accesswidener", "fingerprint": 1293303572,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "entity_texture_features_8.accesswidener", "fingerprint": 964255608, "invalidFingerprint": false
-        }, {
-          "foldername": "entity_texture_features_9.accesswidener", "fingerprint": 4193402386,
-          "invalidFingerprint": false
-        }, {
-          "foldername": "entity_texture_features_forge_1.20.1-forge-refmap.json", "fingerprint": 334468375,
-          "invalidFingerprint": false
-        }, {"foldername": "icon.png", "fingerprint": 3814536893, "invalidFingerprint": false},
-        {"foldername": "pack.mcmeta", "fingerprint": 1758820762, "invalidFingerprint": false},
-        {"foldername": "traben", "fingerprint": 4014808024, "invalidFingerprint": false}
-      ], "packageFingerprint": 6660986, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20"],
+        {"foldername": "entity_texture_features.mixins.json", "fingerprint": 2979708652, "invalidFingerprint": false},
+        {"foldername": "icon.png", "fingerprint": 3814536893, "invalidFingerprint": false},
+        {"foldername": "pack.mcmeta", "fingerprint": 2250763913, "invalidFingerprint": false},
+        {"foldername": "traben", "fingerprint": 386115716, "invalidFingerprint": false}
+      ], "packageFingerprint": 2838236196, "gameVersion": ["Client", "NeoForge", "1.20.1", "Forge", "1.20"],
       "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "Client", "gameVersionTypeId": 75208},
         {"gameVersion": "", "gameVersionName": "NeoForge", "gameVersionTypeId": 68441},
@@ -13005,14 +13037,14 @@
         {"gameVersion": "1.20", "gameVersionName": "1.20", "gameVersionTypeId": 75125}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 568563,
-      "fileNameOnDisk": "entity_texture_features_forge_1.20.1-6.2.9.jar", "hashes": [
-        {"type": 1, "value": "55c8a7db3b4ddd28485c4d2bab7381a756b771c6"},
-        {"type": 2, "value": "5364007c2f40cd1bfaf5037d7355ba31"}
+      "fileNameOnDisk": "entity_texture_features_1.20.1-forge-7.0.1.jar", "hashes": [
+        {"type": 1, "value": "15859163cc62136ba5a6bcb084bf4232057a3ffc"},
+        {"type": 2, "value": "4bf4923ccd136e4aa2515114cf0f6622"}
       ]
-    }, "dateInstalled": "2025-07-22T08:51:20.2385176Z", "dateUpdated": "2025-07-22T08:51:20.2397121Z", "status": 3,
-    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    }, "dateInstalled": "2025-07-22T08:51:20.2385176Z", "dateUpdated": "2025-08-25T16:13:31.8312499Z", "status": 4,
+    "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\entity_texture_features_forge_1.20.1-6.2.9.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\entity_texture_features_1.20.1-forge-7.0.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6925372, "fileName": "entity_texture_features_1.20.1-forge-7.0.1.jar",
@@ -13117,37 +13149,37 @@
       "gameCategoryId": 6
     }, "categoryIds": [426, 424], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "TFC Tools Trim",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "tfc_trim-1.3.jar", "authors": [{"id": 118316750, "name": "redstaroverplank"}],
+    "fileNameOnDisk": "tfc_trim-1.4.1.jar", "authors": [{"id": 118316750, "name": "redstaroverplank"}],
     "primaryAuthor": "redstaroverplank", "primaryCategoryId": 426, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/tfc-tools-trim", "issuesURL": null, "wikiURL": null,
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1304/431/256/256/638848202336681486.png", "tags": [],
     "installedFile": {
-      "id": 6871862, "fileName": "tfc_trim-1.3.jar", "fileDate": "2025-08-10T16:59:23.447Z", "fileLength": 624202,
-      "releaseType": 1, "fileStatus": 4, "downloadUrl": "https://edge.forgecdn.net/files/6871/862/tfc_trim-1.3.jar",
+      "id": 6922879, "fileName": "tfc_trim-1.4.1.jar", "fileDate": "2025-08-24T14:17:54.03Z", "fileLength": 685669,
+      "releaseType": 1, "fileStatus": 4, "downloadUrl": "https://edge.forgecdn.net/files/6922/879/tfc_trim-1.4.1.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
       "dependencies": [{"addonId": 302973, "type": 3}, {"addonId": 876199, "type": 2}], "isAvailable": true,
       "modules": [
-        {"foldername": "META-INF", "fingerprint": 2671305778, "invalidFingerprint": false},
-        {"foldername": "assets", "fingerprint": 1619237336, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 3316110082, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 4281599366, "invalidFingerprint": false},
         {"foldername": "com", "fingerprint": 1301688163, "invalidFingerprint": false},
         {"foldername": "data", "fingerprint": 2102056627, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 1271016945, "invalidFingerprint": false}
-      ], "packageFingerprint": 206128670, "gameVersion": ["Client", "1.20.1", "Forge", "Server"],
+      ], "packageFingerprint": 1683679585, "gameVersion": ["Client", "1.20.1", "Forge", "Server"],
       "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "Client", "gameVersionTypeId": 75208},
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441},
         {"gameVersion": "", "gameVersionName": "Server", "gameVersionTypeId": 75208}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
-      "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1281375, "fileNameOnDisk": "tfc_trim-1.3.jar",
+      "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1281375, "fileNameOnDisk": "tfc_trim-1.4.1.jar",
       "hashes": [
-        {"type": 1, "value": "7ad744d49bd7e8a910626774517ca5dc01298791"},
-        {"type": 2, "value": "7c80e48163b27d1358330df7f00172af"}
+        {"type": 1, "value": "63f1ec35c2d3d7021c3109aca6d6fa5d8044f7b7"},
+        {"type": 2, "value": "dcb8f6f2de1e6fd50ad8e04e82903f5a"}
       ]
-    }, "dateInstalled": "2025-07-22T14:44:25.100545Z", "dateUpdated": "2025-08-12T13:04:34.2541377Z", "status": 3,
+    }, "dateInstalled": "2025-07-22T14:44:25.100545Z", "dateUpdated": "2025-08-25T16:13:20.0021884Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true,
-    "filePaths": ["C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\tfc_trim-1.3.jar"],
+    "filePaths": ["C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\tfc_trim-1.4.1.jar"],
     "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6922879, "fileName": "tfc_trim-1.4.1.jar", "fileDate": "2025-08-24T14:17:54.03Z", "fileLength": 685669,
@@ -13555,36 +13587,36 @@
     }, "categoryIds": [422, 411], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Primitive creatures",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "primitive creatures V2.0.3 1.20.1.jar",
+    "fileNameOnDisk": "primitive creatures V2.0.4 1.20.1.jar",
     "authors": [{"id": 104324490, "name": "warden_of_the_swamps"}], "primaryAuthor": "warden_of_the_swamps",
     "primaryCategoryId": 411, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/primitive-creatures", "issuesURL": null,
     "wikiURL": null,
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1357/988/256/256/638882054432439651.png", "tags": [],
     "installedFile": {
-      "id": 6853203, "fileName": "primitive creatures V2.0.3 1.20.1.jar", "fileDate": "2025-08-05T23:32:20.623Z",
-      "fileLength": 500980, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6853/203/primitive%20creatures%20V2.0.3%201.20.1.jar",
+      "id": 6916123, "fileName": "primitive creatures V2.0.4 1.20.1.jar", "fileDate": "2025-08-22T19:27:59.94Z",
+      "fileLength": 501549, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6916/123/primitive%20creatures%20V2.0.4%201.20.1.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
       "dependencies": [{"addonId": 388172, "type": 3}], "isAvailable": true, "modules": [
         {"foldername": "META-INF", "fingerprint": 2995561783, "invalidFingerprint": false},
-        {"foldername": "assets", "fingerprint": 3263382928, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 3900056008, "invalidFingerprint": false},
         {"foldername": "data", "fingerprint": 3756260017, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 3888393594, "invalidFingerprint": false},
-        {"foldername": "primitive_creatures_", "fingerprint": 1585488059, "invalidFingerprint": false}
-      ], "packageFingerprint": 1300669668, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
+        {"foldername": "primitive_creatures_", "fingerprint": 2181496645, "invalidFingerprint": false}
+      ], "packageFingerprint": 450938710, "gameVersion": ["1.20.1", "Forge"], "sortableGameVersion": [
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1218288,
-      "fileNameOnDisk": "primitive creatures V2.0.3 1.20.1.jar", "hashes": [
-        {"type": 1, "value": "e6aeb4812a67d4049589d02470b4d15b4a2be99e"},
-        {"type": 2, "value": "3256742140f86da849ecbb9bdb724d56"}
+      "fileNameOnDisk": "primitive creatures V2.0.4 1.20.1.jar", "hashes": [
+        {"type": 1, "value": "939d37037cc19b15aa8581afa513a724268858b1"},
+        {"type": 2, "value": "9baf3e79f190339e9df0f86bb87bf523"}
       ]
-    }, "dateInstalled": "2025-08-08T16:40:00.1415493Z", "dateUpdated": "2025-08-08T16:40:00.1439667Z", "status": 3,
-    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    }, "dateInstalled": "2025-08-08T16:40:00.1415493Z", "dateUpdated": "2025-08-25T16:13:44.2207909Z", "status": 4,
+    "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\primitive creatures V2.0.3 1.20.1.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\primitive creatures V2.0.4 1.20.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6916123, "fileName": "primitive creatures V2.0.4 1.20.1.jar", "fileDate": "2025-08-22T19:27:59.94Z",
@@ -15917,27 +15949,27 @@
       "gameCategoryId": 6
     }, "categoryIds": [413, 426, 6484], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "WoodenCog",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "woodencog-1.2.1-1.20.1.jar", "authors": [{"id": 103327185, "name": "Manwe_b"}],
+    "fileNameOnDisk": "woodencog-1.2.4-1.20.1.jar", "authors": [{"id": 103327185, "name": "Manwe_b"}],
     "primaryAuthor": "Manwe_b", "primaryCategoryId": 426, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/woodencog", "issuesURL": null, "wikiURL": "",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1157/723/256/256/638725821304718039.png", "tags": [],
     "installedFile": {
-      "id": 6904496, "fileName": "woodencog-1.2.1-1.20.1.jar", "fileDate": "2025-08-19T17:44:12.683Z",
-      "fileLength": 1008884, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6904/496/woodencog-1.2.1-1.20.1.jar", "isAlternate": false,
+      "id": 6923787, "fileName": "woodencog-1.2.4-1.20.1.jar", "fileDate": "2025-08-24T18:28:15.817Z",
+      "fileLength": 1097658, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6923/787/woodencog-1.2.4-1.20.1.jar", "isAlternate": false,
       "alternateFileId": 0, "serverPackFileId": 0,
       "dependencies": [{"addonId": 328085, "type": 3}, {"addonId": 302973, "type": 3}], "isAvailable": true,
       "modules": [
-        {"foldername": "META-INF", "fingerprint": 3445270218, "invalidFingerprint": false},
-        {"foldername": ".cache", "fingerprint": 2966321256, "invalidFingerprint": false},
-        {"foldername": "assets", "fingerprint": 406965510, "invalidFingerprint": false},
-        {"foldername": "data", "fingerprint": 850981967, "invalidFingerprint": false},
-        {"foldername": "net", "fingerprint": 2380788032, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 3468734480, "invalidFingerprint": false},
+        {"foldername": ".cache", "fingerprint": 3325509737, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 1139850851, "invalidFingerprint": false},
+        {"foldername": "data", "fingerprint": 4004515258, "invalidFingerprint": false},
+        {"foldername": "net", "fingerprint": 1454924517, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 1186711145, "invalidFingerprint": false},
         {"foldername": "pack.png", "fingerprint": 457161528, "invalidFingerprint": false},
-        {"foldername": "woodencog.mixins.json", "fingerprint": 2665414471, "invalidFingerprint": false},
-        {"foldername": "woodencog.refmap.json", "fingerprint": 1493072104, "invalidFingerprint": false}
-      ], "packageFingerprint": 2148510863, "gameVersion": ["Client", "1.20.1", "Forge", "Server"],
+        {"foldername": "woodencog.mixins.json", "fingerprint": 3473327710, "invalidFingerprint": false},
+        {"foldername": "woodencog.refmap.json", "fingerprint": 2016426608, "invalidFingerprint": false}
+      ], "packageFingerprint": 2002262247, "gameVersion": ["Client", "1.20.1", "Forge", "Server"],
       "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "Client", "gameVersionTypeId": 75208},
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
@@ -15945,14 +15977,14 @@
         {"gameVersion": "", "gameVersionName": "Server", "gameVersionTypeId": 75208}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1179785,
-      "fileNameOnDisk": "woodencog-1.2.1-1.20.1.jar", "hashes": [
-        {"type": 1, "value": "a3173a2c651820947f05c9c3d424c253f842aa4c"},
-        {"type": 2, "value": "a2821135f8c058af997e13e76e897a34"}
+      "fileNameOnDisk": "woodencog-1.2.4-1.20.1.jar", "hashes": [
+        {"type": 1, "value": "95380ee48f5dc20ca8ae111b0bb89b77ada65c4e"},
+        {"type": 2, "value": "e2cd871a798518db5cc04107bf1a0c3f"}
       ]
-    }, "dateInstalled": "2025-07-23T09:59:28.3386121Z", "dateUpdated": "2025-08-19T18:23:20.8686077Z", "status": 3,
+    }, "dateInstalled": "2025-07-23T09:59:28.3386121Z", "dateUpdated": "2025-08-25T16:13:42.0721011Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\woodencog-1.2.1-1.20.1.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\woodencog-1.2.4-1.20.1.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6923787, "fileName": "woodencog-1.2.4-1.20.1.jar", "fileDate": "2025-08-24T18:28:15.817Z",
@@ -16405,38 +16437,38 @@
       "gameCategoryId": 6
     }, "categoryIds": [426, 411, 408, 406], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e", "name": "Beneath",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "beneath-1.20.1-1.0.4.jar", "authors": [{"id": 100768859, "name": "EERussianguy"}],
+    "fileNameOnDisk": "beneath-1.20.1-1.0.5.jar", "authors": [{"id": 100768859, "name": "EERussianguy"}],
     "primaryAuthor": "EERussianguy", "primaryCategoryId": 426, "packageType": 6,
     "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/beneath",
     "issuesURL": "https://github.com/eerussianguy/Beneath/issues", "wikiURL": null,
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1091/216/256/256/638635141872436956.png", "tags": [],
     "installedFile": {
-      "id": 6180230, "fileName": "beneath-1.20.1-1.0.4.jar", "fileDate": "2025-02-11T01:11:10.83Z",
-      "fileLength": 1500598, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6180/230/beneath-1.20.1-1.0.4.jar", "isAlternate": false,
+      "id": 6905461, "fileName": "beneath-1.20.1-1.0.5.jar", "fileDate": "2025-08-19T22:18:40.447Z",
+      "fileLength": 1500972, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6905/461/beneath-1.20.1-1.0.5.jar", "isAlternate": false,
       "alternateFileId": 0, "serverPackFileId": 0, "dependencies": [{"addonId": 302973, "type": 3}],
       "isAvailable": true, "modules": [
-        {"foldername": "META-INF", "fingerprint": 949324900, "invalidFingerprint": false},
-        {"foldername": "assets", "fingerprint": 2300802971, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 3149835427, "invalidFingerprint": false},
+        {"foldername": "assets", "fingerprint": 2765204031, "invalidFingerprint": false},
         {"foldername": "beneath.mixins.json", "fingerprint": 1284775882, "invalidFingerprint": false},
         {"foldername": "beneath.refmap.json", "fingerprint": 3663626976, "invalidFingerprint": false},
-        {"foldername": "com", "fingerprint": 1043832802, "invalidFingerprint": false},
-        {"foldername": "data", "fingerprint": 3145892312, "invalidFingerprint": false},
+        {"foldername": "com", "fingerprint": 2200062414, "invalidFingerprint": false},
+        {"foldername": "data", "fingerprint": 739903932, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 1726877124, "invalidFingerprint": false}
-      ], "packageFingerprint": 343496574, "gameVersion": ["NeoForge", "1.20.1", "Forge"], "sortableGameVersion": [
+      ], "packageFingerprint": 2046402937, "gameVersion": ["NeoForge", "1.20.1", "Forge"], "sortableGameVersion": [
         {"gameVersion": "", "gameVersionName": "NeoForge", "gameVersionTypeId": 68441},
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 1113980,
-      "fileNameOnDisk": "beneath-1.20.1-1.0.4.jar", "hashes": [
-        {"type": 1, "value": "68fb9b544f582c45f7dc3402b2ae2f084d347a8b"},
-        {"type": 2, "value": "a8b0315801867b2bc4762e14d3a1c0c7"}
+      "fileNameOnDisk": "beneath-1.20.1-1.0.5.jar", "hashes": [
+        {"type": 1, "value": "12edd937a9070a71e50dcb53fd757b30d115bc2a"},
+        {"type": 2, "value": "aeda5af6cf8575a816f7c4ea1630ca97"}
       ]
-    }, "dateInstalled": "2025-07-22T15:59:57.3820706Z", "dateUpdated": "2025-07-22T15:59:57.3857721Z", "status": 3,
-    "installSource": 7, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
+    }, "dateInstalled": "2025-07-22T15:59:57.3820706Z", "dateUpdated": "2025-08-25T16:13:46.9382647Z", "status": 4,
+    "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\beneath-1.20.1-1.0.4.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\beneath-1.20.1-1.0.5.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6905461, "fileName": "beneath-1.20.1-1.0.5.jar", "fileDate": "2025-08-19T22:18:40.447Z",

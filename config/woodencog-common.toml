@@ -1,11 +1,19 @@
 
 [woodencog]
+#Change netherite divingGear to look like red steel armor. (wearing netherite pants disables re-skin)
+netherite_reskin = true
 
 	[woodencog.temperature]
 		#Should create handle temperature ?
 		handle_temperature = true
 		#Should deploying copy input item temperature (ignored if handle temperature disabled)
 		deployer_copy_temperature = true
+    #Blaze Burner Temperature
+    blaze_burner_none = 0.0
+    blaze_burner_smouldering = 80.0
+    blaze_burner_fading = 580.0
+    blaze_burner_kindled = 930.0
+    blaze_burner_seething = 1600.0
 
 	#Density [kg/m3] - HeatCapacity [J/(kg∙K)]
 	[woodencog.materials]
