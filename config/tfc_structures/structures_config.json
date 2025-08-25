@@ -25,7 +25,22 @@
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
     },
+    "ivp:small_village_taiga": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
     "create_rustic_structures:rustic_smithy": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "ivp:small_village_plains": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "ivp:small_village_snowy": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
@@ -200,6 +215,11 @@
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
     },
+    "ivp:small_village_savanna": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
     "minecraft:jungle_pyramid": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "",
@@ -306,6 +326,11 @@
       "lootTablesOverrideMap": {}
     },
     "minecraft:ruined_portal_nether": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "ivp:small_village_desert": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}

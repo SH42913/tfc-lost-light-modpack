@@ -427,14 +427,19 @@
         "simply_houses:forest_chapel",
         "simply_houses:forest_fort",
         "simply_houses:forest_house",
-        "simply_houses:forest_stonemason"
+        "simply_houses:forest_stonemason",
+        "ivp:small_village_desert",
+        "ivp:small_village_plains",
+        "ivp:small_village_savanna",
+        "ivp:small_village_taiga"
       ]
     }
   ],
   "disabledStructures": [
     "minecraft:mineshaft_mesa",
     "minecraft:igloo",
-    "minecraft:village_snowy"
+    "minecraft:village_snowy",
+    "ivp:small_village_snowy"
   ],
   "defaultWorldgenStructures": [
     "minecraft:ancient_city",
