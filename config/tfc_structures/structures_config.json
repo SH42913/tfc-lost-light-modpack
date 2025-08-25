@@ -260,6 +260,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "betterwitchhuts:witch_circle": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "simply_houses:forest_fort": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
@@ -341,6 +346,11 @@
       "lootTablesOverrideMap": {}
     },
     "hobbit_house_:hobbit_house": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "betterwitchhuts:witch_hut": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}

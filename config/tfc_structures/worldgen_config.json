@@ -207,7 +207,8 @@
       "structures": [
         "smallhorsestable:horse_stable",
         "simply_houses:plains_house",
-        "simply_houses:plains_mansion"
+        "simply_houses:plains_mansion",
+        "betterwitchhuts:witch_circle"
       ]
     },
     {
@@ -279,7 +280,8 @@
         "#tfc_structures:is_beach"
       ],
       "structures": [
-        "minecraft:swamp_hut"
+        "minecraft:swamp_hut",
+        "betterwitchhuts:witch_hut"
       ]
     },
     {
