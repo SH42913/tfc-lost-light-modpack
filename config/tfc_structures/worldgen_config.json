@@ -34,7 +34,15 @@
         "tfc:river",
         "tfc:lowlands"
       ],
-      "structures": []
+      "structures": [
+        "forest_ruins:ruin_1",
+        "forest_ruins:ruin_2",
+        "forest_ruins:ruin_3",
+        "forest_ruins:ruin_4",
+        "forest_ruins:ruin_5",
+        "forest_ruins:ruin_6",
+        "forest_ruins:ruin_7"
+      ]
     },
     {
       "id": "tfc_structures:is_beach",
