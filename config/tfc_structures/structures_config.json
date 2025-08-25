@@ -40,6 +40,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:adoberuins": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "ivp:small_village_snowy": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
@@ -75,6 +80,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:mudschoolruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "simply_houses:taiga_inn": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
@@ -100,12 +110,32 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:ruined_ocean_monument": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "minecraft:ruined_portal_ocean": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:ruinedjungletemple": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "simply_houses:forest_stonemason": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "archaeology_ruins:mudblacksmithruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "archaeology_ruins:small_ocean_ruin": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
@@ -165,6 +195,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:warm_ocean_ruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "forest_ruins:ruin_1": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
@@ -216,6 +251,11 @@
       "lootTablesOverrideMap": {}
     },
     "ivp:small_village_savanna": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "archaeology_ruins:ruined_desert_pyramid": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
@@ -280,6 +320,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "archaeology_ruins:smallmudruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "minecraft:mineshaft": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
@@ -336,6 +381,16 @@
       "lootTablesOverrideMap": {}
     },
     "ivp:small_village_desert": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "archaeology_ruins:mudpotterruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "archaeology_ruins:ocean_ruin": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}

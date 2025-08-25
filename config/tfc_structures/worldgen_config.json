@@ -229,7 +229,8 @@
         "tfc:shore"
       ],
       "structures": [
-        "minecraft:desert_pyramid"
+        "minecraft:desert_pyramid",
+        "archaeology_ruins:ruined_desert_pyramid"
       ]
     },
     {
@@ -315,7 +316,8 @@
         "#tfc_structures:is_highlands"
       ],
       "structures": [
-        "minecraft:jungle_pyramid"
+        "minecraft:jungle_pyramid",
+        "archaeology_ruins:ruinedjungletemple"
       ]
     },
     {
@@ -324,7 +326,9 @@
         "#tfc_structures:is_deep_ocean"
       ],
       "structures": [
-        "minecraft:ocean_ruin_cold"
+        "minecraft:ocean_ruin_cold",
+        "archaeology_ruins:ocean_ruin",
+        "archaeology_ruins:small_ocean_ruin"
       ]
     },
     {
@@ -333,7 +337,9 @@
         "#tfc_structures:is_common_ocean"
       ],
       "structures": [
-        "minecraft:ocean_ruin_warm"
+        "minecraft:ocean_ruin_warm",
+        "archaeology_ruins:warm_ocean_ruin",
+        "archaeology_ruins:small_ocean_ruin"
       ]
     },
     {
@@ -342,7 +348,8 @@
         "#tfc_structures:is_deep_ocean"
       ],
       "structures": [
-        "minecraft:monument"
+        "minecraft:monument",
+        "archaeology_ruins:ruined_ocean_monument"
       ]
     },
     {
@@ -433,7 +440,12 @@
         "ivp:small_village_desert",
         "ivp:small_village_plains",
         "ivp:small_village_savanna",
-        "ivp:small_village_taiga"
+        "ivp:small_village_taiga",
+        "archaeology_ruins:adoberuins",
+        "archaeology_ruins:mudblacksmithruin",
+        "archaeology_ruins:mudpotterruin",
+        "archaeology_ruins:mudschoolruin",
+        "archaeology_ruins:smallmudruin"
       ]
     }
   ],
