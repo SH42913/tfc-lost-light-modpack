@@ -444,7 +444,8 @@
         "archaeology_ruins:mudblacksmithruin",
         "archaeology_ruins:mudpotterruin",
         "archaeology_ruins:mudschoolruin",
-        "archaeology_ruins:smallmudruin"
+        "archaeology_ruins:smallmudruin",
+        "theorcs:orc_camp"
       ]
     }
   ],
