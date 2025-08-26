@@ -207,7 +207,7 @@
     },
     "create_rustic_structures:rustic_barn": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
     },
     "minecraft:nether_fossil": {

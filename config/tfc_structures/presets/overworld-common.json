@@ -367,6 +367,10 @@
     {
       "original": "alekiships:wood/watercraft_frame/flat/dark_oak",
       "replacement": "firmaciv:wood/watercraft_frame/flat/hickory"
+    },
+    {
+      "original": "minecraft:barrel",
+      "replacement": "minecraft:barrel"
     }
   ],
   "randomReplacements": [
