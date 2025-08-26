@@ -430,7 +430,6 @@
         "minecraft:village_savanna",
         "minecraft:village_taiga",
         "create_rustic_structures:rustic_barn",
-        "create_rustic_structures:rustic_smithy",
         "create_rustic_structures:rustic_well",
         "create_rustic_structures:rustic_windmill",
         "simply_houses:forest_chapel",
@@ -453,7 +452,8 @@
     "minecraft:mineshaft_mesa",
     "minecraft:igloo",
     "minecraft:village_snowy",
-    "ivp:small_village_snowy"
+    "ivp:small_village_snowy",
+    "create_rustic_structures:rustic_smithy"
   ],
   "defaultWorldgenStructures": [
     "minecraft:ancient_city",
