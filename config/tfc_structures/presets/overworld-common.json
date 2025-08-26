@@ -371,6 +371,10 @@
     {
       "original": "minecraft:barrel",
       "replacement": "minecraft:barrel"
+    },
+    {
+      "original": "minecraft:cocoa",
+      "replacement": "minecraft:air"
     }
   ],
   "randomReplacements": [
