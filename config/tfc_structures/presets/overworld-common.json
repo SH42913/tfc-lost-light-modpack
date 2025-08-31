@@ -305,6 +305,14 @@
       "replacement": "tfc:mud_bricks/sandy_loam_wall"
     },
     {
+      "original": "minecraft:sugar_cane",
+      "replacement": "minecraft:air"
+    },
+    {
+      "original": "minecraft:copper_block",
+      "replacement": "tfc:metal/block/copper"
+    },
+    {
       "original": "minecraft:beehive",
       "replacement": "firmalife:beehive"
     },
@@ -483,6 +491,19 @@
         "tfc:crop/tomato",
         "tfc:crop/yellow_bell_pepper",
         "tfc:crop/red_bell_pepper"
+      ]
+    },
+    {
+      "original": "minecraft:magma_block",
+      "perBlock": true,
+      "replacements": [
+        "tfc:rock/magma/granite",
+        "tfc:rock/magma/diorite",
+        "tfc:rock/magma/gabbro",
+        "tfc:rock/magma/rhyolite",
+        "tfc:rock/magma/basalt",
+        "tfc:rock/magma/andesite",
+        "tfc:rock/magma/dacite"
       ]
     },
     {
@@ -1140,10 +1161,6 @@
       "type": "SOIL"
     },
     {
-      "original": "minecraft:dirt_path",
-      "type": "SOIL"
-    },
-    {
       "original": "minecraft:emerald_ore",
       "type": "ORE"
     },
@@ -1238,10 +1255,6 @@
     {
       "original": "minecraft:lapis_ore",
       "type": "ORE"
-    },
-    {
-      "original": "minecraft:lectern",
-      "type": "WOOD"
     },
     {
       "original": "minecraft:mangrove_button",
