@@ -100740,5 +100740,8 @@
     ],
     "recommendedRam": 8000,
     "enableRecommendedRam": true
+  },
+  "install": {
+    "skipInstallProjectPrerequisite": true
   }
 }
