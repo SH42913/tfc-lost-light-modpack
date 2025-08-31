@@ -257,13 +257,11 @@
         "#tfc_structures:is_highlands"
       ],
       "structures": [
-        "minecraft:pillager_outpost",
         "nova_structures:illager_camp",
         "nova_structures:illager_hideout",
         "nova_structures:illager_manor",
         "nova_structures:stray_fort",
         "nova_structures:witch_villa",
-        "dungeons_arise:illager_campsite",
         "dungeons_arise:illager_fort",
         "dungeons_arise:illager_windmill",
         "dungeons_arise:jungle_tree_house"
@@ -513,7 +511,9 @@
         "dungeons_arise:mushroom_house",
         "dungeons_arise:mushroom_village",
         "dungeons_arise:small_prairie_house",
-        "dungeons_arise:wishing_well"
+        "dungeons_arise:wishing_well",
+        "minecraft:pillager_outpost",
+        "dungeons_arise:illager_campsite"
       ]
     }
   ],
