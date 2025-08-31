@@ -905,6 +905,36 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "tfc_trees:acacia_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_trees:ash_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_trees:hickory_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_trees:kapok_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_trees:oak_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_trees:plum_giant_tree": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
     "theorcs:orc_camp": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
