@@ -117,7 +117,7 @@
     },
     "create_rustic_structures:rustic_barn": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
     "create_rustic_structures:rustic_smithy": {
@@ -361,6 +361,296 @@
       "lootTablesOverrideMap": {}
     },
     "minecraft:village_taiga": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:badlands_miner_outpost": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:bunker": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:conduit_ruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:creeping_crypt": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:desert_ruins": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:donjon": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_birch": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_cherry": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_dark_oak": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_forest": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_jungle": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_mangrove": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_savanna": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_swamp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:firewatch_tower_taiga": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:hamlet": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:illager_camp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:illager_hideout": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:illager_manor": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:jungle_ruins": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:mangrove_witch_hut": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_keep": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_port": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_skeleton_tower_basalt": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_skeleton_tower_crimson": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_skeleton_tower_soul": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:nether_skeleton_tower_warped": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:piglin_camp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:piglin_outstation": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:ruin_town": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:skeleton_camp_crimson": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:skeleton_camp_soul": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:skeleton_camp_warped": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:skeleton_camp_waste": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:stray_fort": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_acacia": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_birch": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_cherry": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_dark_oak": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_desert": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_jungle": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_mangrove": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_oak": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_snowy": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_spruce": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:tavern_swamp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:undead_crypt": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:underground_house": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:village_jungle": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:village_swamp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_birch": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_dark_oak": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_jungle": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_oak": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_savana": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:well_spruce": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:wild_ruin": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "nova_structures:witch_villa": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}

@@ -41,7 +41,8 @@
         "forest_ruins:ruin_4",
         "forest_ruins:ruin_5",
         "forest_ruins:ruin_6",
-        "forest_ruins:ruin_7"
+        "forest_ruins:ruin_7",
+        "nova_structures:wild_ruin"
       ]
     },
     {
@@ -55,7 +56,8 @@
         "alekiships:unfinished_sloop_cherry",
         "alekiships:unfinished_sloop_dark_oak",
         "alekiships:unfinished_sloop_oak",
-        "alekiships:unfinished_sloop_spruce"
+        "alekiships:unfinished_sloop_spruce",
+        "nova_structures:mangrove_witch_hut"
       ]
     },
     {
@@ -112,7 +114,10 @@
         "tfc:badlands",
         "tfc:inverted_badlands"
       ],
-      "structures": []
+      "structures": [
+        "nova_structures:badlands_miner_outpost",
+        "nova_structures:desert_ruins"
+      ]
     },
     {
       "id": "tfc_structures:is_hill",
@@ -242,7 +247,12 @@
         "#tfc_structures:is_highlands"
       ],
       "structures": [
-        "minecraft:pillager_outpost"
+        "minecraft:pillager_outpost",
+        "nova_structures:illager_camp",
+        "nova_structures:illager_hideout",
+        "nova_structures:illager_manor",
+        "nova_structures:stray_fort",
+        "nova_structures:witch_villa"
       ]
     },
     {
@@ -282,7 +292,9 @@
       ],
       "structures": [
         "minecraft:swamp_hut",
-        "betterwitchhuts:witch_hut"
+        "betterwitchhuts:witch_hut",
+        "nova_structures:tavern_swamp",
+        "nova_structures:village_swamp"
       ]
     },
     {
@@ -317,7 +329,8 @@
       ],
       "structures": [
         "minecraft:jungle_pyramid",
-        "archaeology_ruins:ruinedjungletemple"
+        "archaeology_ruins:ruinedjungletemple",
+        "nova_structures:jungle_ruins"
       ]
     },
     {
@@ -339,7 +352,8 @@
       "structures": [
         "minecraft:ocean_ruin_warm",
         "archaeology_ruins:warm_ocean_ruin",
-        "archaeology_ruins:small_ocean_ruin"
+        "archaeology_ruins:small_ocean_ruin",
+        "nova_structures:conduit_ruin"
       ]
     },
     {
@@ -415,7 +429,11 @@
         "#tfc_structures:is_any_mountains"
       ],
       "structures": [
-        "minecraft:mineshaft"
+        "minecraft:mineshaft",
+        "nova_structures:bunker",
+        "nova_structures:creeping_crypt",
+        "nova_structures:undead_crypt",
+        "nova_structures:underground_house"
       ]
     },
     {
@@ -445,7 +463,33 @@
         "archaeology_ruins:mudpotterruin",
         "archaeology_ruins:mudschoolruin",
         "archaeology_ruins:smallmudruin",
-        "theorcs:orc_camp"
+        "theorcs:orc_camp",
+        "nova_structures:firewatch_tower_birch",
+        "nova_structures:firewatch_tower_cherry",
+        "nova_structures:firewatch_tower_dark_oak",
+        "nova_structures:firewatch_tower_forest",
+        "nova_structures:firewatch_tower_jungle",
+        "nova_structures:firewatch_tower_mangrove",
+        "nova_structures:firewatch_tower_savanna",
+        "nova_structures:firewatch_tower_swamp",
+        "nova_structures:firewatch_tower_taiga",
+        "nova_structures:ruin_town",
+        "nova_structures:tavern_acacia",
+        "nova_structures:tavern_birch",
+        "nova_structures:tavern_cherry",
+        "nova_structures:tavern_dark_oak",
+        "nova_structures:tavern_desert",
+        "nova_structures:tavern_jungle",
+        "nova_structures:tavern_mangrove",
+        "nova_structures:tavern_oak",
+        "nova_structures:tavern_spruce",
+        "nova_structures:village_jungle",
+        "nova_structures:well_birch",
+        "nova_structures:well_dark_oak",
+        "nova_structures:well_jungle",
+        "nova_structures:well_oak",
+        "nova_structures:well_savana",
+        "nova_structures:well_spruce"
       ]
     }
   ],
@@ -454,14 +498,29 @@
     "minecraft:igloo",
     "minecraft:village_snowy",
     "ivp:small_village_snowy",
-    "create_rustic_structures:rustic_smithy"
+    "create_rustic_structures:rustic_smithy",
+    "nova_structures:tavern_snowy"
   ],
   "defaultWorldgenStructures": [
     "minecraft:ancient_city",
     "minecraft:bastion_remnant",
+    "nova_structures:donjon",
     "minecraft:end_city",
     "minecraft:fortress",
+    "nova_structures:hamlet",
     "minecraft:nether_fossil",
-    "minecraft:ruined_portal_nether"
+    "nova_structures:nether_keep",
+    "nova_structures:nether_port",
+    "nova_structures:nether_skeleton_tower_basalt",
+    "nova_structures:nether_skeleton_tower_crimson",
+    "nova_structures:nether_skeleton_tower_soul",
+    "nova_structures:nether_skeleton_tower_warped",
+    "nova_structures:piglin_camp",
+    "nova_structures:piglin_outstation",
+    "minecraft:ruined_portal_nether",
+    "nova_structures:skeleton_camp_crimson",
+    "nova_structures:skeleton_camp_soul",
+    "nova_structures:skeleton_camp_warped",
+    "nova_structures:skeleton_camp_waste"
   ]
 }
