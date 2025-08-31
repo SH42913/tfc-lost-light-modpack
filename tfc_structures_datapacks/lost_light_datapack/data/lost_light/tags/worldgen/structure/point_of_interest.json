@@ -40,6 +40,17 @@
     "nova_structures:illager_hideout",
     "nova_structures:illager_manor",
     "nova_structures:village_jungle",
-    "nova_structures:village_swamp"
+    "nova_structures:village_swamp",
+    "dungeons_arise:bandit_village",
+    "dungeons_arise:illager_fort",
+    "dungeons_arise:illager_windmill",
+    "dungeons_arise:bathhouse",
+    "dungeons_arise:lighthouse",
+    "dungeons_arise:greenwood_pub",
+    "dungeons_arise:merchant_campsite",
+    "dungeons_arise:monastery",
+    "dungeons_arise:mushroom_house",
+    "dungeons_arise:mushroom_village",
+    "dungeons_arise:small_prairie_house"
   ]
 }

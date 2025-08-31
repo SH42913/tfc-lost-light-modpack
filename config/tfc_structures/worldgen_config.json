@@ -57,7 +57,9 @@
         "alekiships:unfinished_sloop_dark_oak",
         "alekiships:unfinished_sloop_oak",
         "alekiships:unfinished_sloop_spruce",
-        "nova_structures:mangrove_witch_hut"
+        "nova_structures:mangrove_witch_hut",
+        "dungeons_arise:lighthouse",
+        "dungeons_arise:fishing_hut"
       ]
     },
     {
@@ -83,7 +85,9 @@
         "tfc:lake",
         "tfc:plateau_lake"
       ],
-      "structures": []
+      "structures": [
+        "dungeons_arise:illager_galley"
+      ]
     },
     {
       "id": "tfc_structures:is_any_lake",
@@ -171,7 +175,10 @@
         "tfc:deep_ocean",
         "tfc:deep_ocean_trench"
       ],
-      "structures": []
+      "structures": [
+        "dungeons_arise:ceryneian_hind",
+        "dungeons_arise:typhon"
+      ]
     },
     {
       "id": "tfc_structures:is_common_ocean",
@@ -187,7 +194,10 @@
         "#tfc_structures:is_deep_ocean",
         "#tfc_structures:is_common_ocean"
       ],
-      "structures": []
+      "structures": [
+        "dungeons_arise:illager_corsair",
+        "dungeons_arise:undead_pirate_ship"
+      ]
     },
     {
       "id": "tfc_structures:is_swamp",
@@ -252,7 +262,11 @@
         "nova_structures:illager_hideout",
         "nova_structures:illager_manor",
         "nova_structures:stray_fort",
-        "nova_structures:witch_villa"
+        "nova_structures:witch_villa",
+        "dungeons_arise:illager_campsite",
+        "dungeons_arise:illager_fort",
+        "dungeons_arise:illager_windmill",
+        "dungeons_arise:jungle_tree_house"
       ]
     },
     {
@@ -433,7 +447,9 @@
         "nova_structures:bunker",
         "nova_structures:creeping_crypt",
         "nova_structures:undead_crypt",
-        "nova_structures:underground_house"
+        "nova_structures:underground_house",
+        "dungeons_arise:mining_system",
+        "dungeons_arise:plague_asylum"
       ]
     },
     {
@@ -489,7 +505,15 @@
         "nova_structures:well_jungle",
         "nova_structures:well_oak",
         "nova_structures:well_savana",
-        "nova_structures:well_spruce"
+        "nova_structures:well_spruce",
+        "dungeons_arise:bandit_village",
+        "dungeons_arise:greenwood_pub",
+        "dungeons_arise:merchant_campsite",
+        "dungeons_arise:monastery",
+        "dungeons_arise:mushroom_house",
+        "dungeons_arise:mushroom_village",
+        "dungeons_arise:small_prairie_house",
+        "dungeons_arise:wishing_well"
       ]
     }
   ],
@@ -499,7 +523,23 @@
     "minecraft:village_snowy",
     "ivp:small_village_snowy",
     "create_rustic_structures:rustic_smithy",
-    "nova_structures:tavern_snowy"
+    "nova_structures:tavern_snowy",
+    "dungeons_arise:abandoned_temple",
+    "dungeons_arise:aviary",
+    "dungeons_arise:bandit_towers",
+    "dungeons_arise:bathhouse",
+    "dungeons_arise:giant_mushroom",
+    "dungeons_arise:coliseum",
+    "dungeons_arise:heavenly_challenger",
+    "dungeons_arise:heavenly_conqueror",
+    "dungeons_arise:heavenly_rider",
+    "dungeons_arise:infested_temple",
+    "dungeons_arise:keep_kayra",
+    "dungeons_arise:mechanical_nest",
+    "dungeons_arise:mushroom_mines",
+    "dungeons_arise:shiraz_palace",
+    "dungeons_arise:small_blimp",
+    "dungeons_arise:thornborn_towers"
   ],
   "defaultWorldgenStructures": [
     "minecraft:ancient_city",
@@ -507,6 +547,7 @@
     "nova_structures:donjon",
     "minecraft:end_city",
     "minecraft:fortress",
+    "dungeons_arise:foundry",
     "nova_structures:hamlet",
     "minecraft:nether_fossil",
     "nova_structures:nether_keep",
@@ -518,6 +559,7 @@
     "nova_structures:piglin_camp",
     "nova_structures:piglin_outstation",
     "minecraft:ruined_portal_nether",
+    "dungeons_arise:scorched_mines",
     "nova_structures:skeleton_camp_crimson",
     "nova_structures:skeleton_camp_soul",
     "nova_structures:skeleton_camp_warped",

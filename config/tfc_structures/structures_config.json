@@ -135,6 +135,201 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "dungeons_arise:abandoned_temple": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:aviary": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:bandit_towers": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:bandit_village": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:bathhouse": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:ceryneian_hind": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:coliseum": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:fishing_hut": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:foundry": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:giant_mushroom": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:greenwood_pub": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:heavenly_challenger": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:heavenly_conqueror": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:heavenly_rider": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:illager_campsite": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:illager_corsair": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:illager_fort": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:illager_galley": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:illager_windmill": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:infested_temple": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:jungle_tree_house": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:keep_kayra": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:lighthouse": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:mechanical_nest": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:merchant_campsite": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:mining_system": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:monastery": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:mushroom_house": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:mushroom_mines": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:mushroom_village": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:plague_asylum": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:scorched_mines": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:shiraz_palace": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:small_blimp": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:small_prairie_house": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:thornborn_towers": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:typhon": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:undead_pirate_ship": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
+    "dungeons_arise:wishing_well": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "forest_ruins:ruin_1": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
