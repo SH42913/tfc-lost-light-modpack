@@ -377,10 +377,6 @@
       "replacement": "firmaciv:wood/watercraft_frame/flat/hickory"
     },
     {
-      "original": "minecraft:barrel",
-      "replacement": "minecraft:barrel"
-    },
-    {
       "original": "minecraft:cocoa",
       "replacement": "minecraft:air"
     }
@@ -643,6 +639,19 @@
         "tfc:ceramic/large_vessel/green",
         "tfc:ceramic/large_vessel/red",
         "tfc:ceramic/large_vessel/black"
+      ]
+    },
+    {
+      "original": "minecraft:barrel",
+      "perBlock": true,
+      "replacements": [
+        "tfcbarrels:wood/barrel/acacia", "tfcbarrels:wood/barrel/ash", "tfcbarrels:wood/barrel/aspen",
+        "tfcbarrels:wood/barrel/birch", "tfcbarrels:wood/barrel/blackwood", "tfcbarrels:wood/barrel/chestnut",
+        "tfcbarrels:wood/barrel/douglas_fir", "tfcbarrels:wood/barrel/hickory", "tfcbarrels:wood/barrel/kapok",
+        "tfcbarrels:wood/barrel/mangrove", "tfcbarrels:wood/barrel/maple", "tfcbarrels:wood/barrel/oak",
+        "tfcbarrels:wood/barrel/pine", "tfcbarrels:wood/barrel/palm", "tfcbarrels:wood/barrel/rosewood",
+        "tfcbarrels:wood/barrel/sequoia", "tfcbarrels:wood/barrel/spruce", "tfcbarrels:wood/barrel/sycamore",
+        "tfcbarrels:wood/barrel/white_cedar", "tfcbarrels:wood/barrel/willow"
       ]
     }
   ],
