@@ -8247,41 +8247,41 @@
     }, "categoryIds": [420, 5191], "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
     "name": "Inventory Profiles Next",
     "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-    "fileNameOnDisk": "InventoryProfilesNext-forge-1.20-1.10.18.jar",
+    "fileNameOnDisk": "InventoryProfilesNext-forge-1.20-1.10.19.jar",
     "authors": [{"id": 102407594, "name": "mirinimi"}], "primaryAuthor": "mirinimi", "primaryCategoryId": 420,
     "packageType": 6, "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next",
     "issuesURL": "https://discord.gg/23YCxmveUM", "wikiURL": "https://inventory-profiles-next.github.io/",
     "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1096/926/256/256/638642710780142417.png", "tags": [],
     "installedFile": {
-      "id": 6870340, "fileName": "InventoryProfilesNext-forge-1.20-1.10.18.jar", "fileDate": "2025-08-10T08:07:19.837Z",
-      "fileLength": 1428965, "releaseType": 1, "fileStatus": 4,
-      "downloadUrl": "https://edge.forgecdn.net/files/6870/340/InventoryProfilesNext-forge-1.20-1.10.18.jar",
+      "id": 6948722, "fileName": "InventoryProfilesNext-forge-1.20-1.10.19.jar", "fileDate": "2025-08-31T14:53:23.133Z",
+      "fileLength": 1456863, "releaseType": 1, "fileStatus": 4,
+      "downloadUrl": "https://edge.forgecdn.net/files/6948/722/InventoryProfilesNext-forge-1.20-1.10.19.jar",
       "isAlternate": false, "alternateFileId": 0, "serverPackFileId": 0,
-      "dependencies": [{"addonId": 351264, "type": 3}, {"addonId": 679177, "type": 3}], "isAvailable": true,
+      "dependencies": [{"addonId": 679177, "type": 3}, {"addonId": 351264, "type": 3}], "isAvailable": true,
       "modules": [
         {"foldername": "LICENSE", "fingerprint": 2715976197, "invalidFingerprint": false},
-        {"foldername": "META-INF", "fingerprint": 1855636915, "invalidFingerprint": false},
+        {"foldername": "META-INF", "fingerprint": 2218592732, "invalidFingerprint": false},
         {"foldername": "assets", "fingerprint": 3103339269, "invalidFingerprint": false},
         {"foldername": "ipnext.refmap.json", "fingerprint": 1546567779, "invalidFingerprint": false},
-        {"foldername": "mixins.ipnext.json", "fingerprint": 2407337269, "invalidFingerprint": false},
+        {"foldername": "mixins.ipnext.json", "fingerprint": 809835646, "invalidFingerprint": false},
         {"foldername": "mod-icon-xforge.png", "fingerprint": 3698933607, "invalidFingerprint": false},
         {"foldername": "mod-icon.png", "fingerprint": 1524442632, "invalidFingerprint": false},
-        {"foldername": "org", "fingerprint": 3862732947, "invalidFingerprint": false},
+        {"foldername": "org", "fingerprint": 1336267570, "invalidFingerprint": false},
         {"foldername": "pack.mcmeta", "fingerprint": 1863490242, "invalidFingerprint": false}
-      ], "packageFingerprint": 4190123940, "gameVersion": ["1.20.1", "Forge", "1.20"], "sortableGameVersion": [
+      ], "packageFingerprint": 499959538, "gameVersion": ["1.20.1", "Forge", "1.20"], "sortableGameVersion": [
         {"gameVersion": "1.20.1", "gameVersionName": "1.20.1", "gameVersionTypeId": 75125},
         {"gameVersion": "", "gameVersionName": "Forge", "gameVersionTypeId": 68441},
         {"gameVersion": "1.20", "gameVersionName": "1.20", "gameVersionTypeId": 75125}
       ], "hasInstallScript": false, "isCompatibleWithClient": false, "isEarlyAccessContent": false,
       "restrictProjectFileAccess": 0, "projectStatus": 4, "projectId": 495267,
-      "fileNameOnDisk": "InventoryProfilesNext-forge-1.20-1.10.18.jar", "hashes": [
-        {"type": 1, "value": "e19a747d75338884b3b5fcc76e0feed3986749f2"},
-        {"type": 2, "value": "84627f02aa70fee83aa059693d9cdff7"}
+      "fileNameOnDisk": "InventoryProfilesNext-forge-1.20-1.10.19.jar", "hashes": [
+        {"type": 1, "value": "432f4b107b13818bd2c1d16dccc9212da61e2a17"},
+        {"type": 2, "value": "eafdba0041b0811e9e7afda28a5927fe"}
       ]
-    }, "dateInstalled": "2025-07-22T08:39:28.0340315Z", "dateUpdated": "2025-08-10T11:20:28.7800396Z", "status": 3,
+    }, "dateInstalled": "2025-07-22T08:39:28.0340315Z", "dateUpdated": "2025-08-31T17:22:05.1476427Z", "status": 4,
     "installSource": 0, "preferenceReleaseType": null, "preferenceAutoInstallUpdates": null,
     "preferenceAlternateFile": false, "isEnabled": true, "filePaths": [
-      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\InventoryProfilesNext-forge-1.20-1.10.18.jar"
+      "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\InventoryProfilesNext-forge-1.20-1.10.19.jar"
     ], "preferenceIsIgnored": false, "isModified": false, "isWorkingCopy": false, "isFuzzyMatch": false,
     "manifestName": null, "installedTargets": [], "latestFile": {
       "id": 6948722, "fileName": "InventoryProfilesNext-forge-1.20-1.10.19.jar", "fileDate": "2025-08-31T14:53:23.133Z",
