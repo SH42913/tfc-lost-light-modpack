@@ -194,10 +194,7 @@
         "#tfc_structures:is_deep_ocean",
         "#tfc_structures:is_common_ocean"
       ],
-      "structures": [
-        "dungeons_arise:illager_corsair",
-        "dungeons_arise:undead_pirate_ship"
-      ]
+      "structures": []
     },
     {
       "id": "tfc_structures:is_swamp",
@@ -539,7 +536,9 @@
     "dungeons_arise:mushroom_mines",
     "dungeons_arise:shiraz_palace",
     "dungeons_arise:small_blimp",
-    "dungeons_arise:thornborn_towers"
+    "dungeons_arise:thornborn_towers",
+    "dungeons_arise:illager_corsair",
+    "dungeons_arise:undead_pirate_ship"
   ],
   "defaultWorldgenStructures": [
     "tfc_trees:acacia_giant_tree",
