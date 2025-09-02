@@ -97,7 +97,7 @@
     "pMsXgVXv3BLzUgSXRplE",
     "AZnzlk1XvdvUeBnXmlld"
   ],
-  "guardSpawnFraction": 0.175,
+  "guardSpawnFraction": 0.2,
   "taxesFactor": 0.5,
   "taxSeason": 192000,
   "marriageChancePerMinute": 0.05,
@@ -140,8 +140,7 @@
     "#minecraft:logs": 60
   },
   "validTreeSources": [
-    "minecraft:grass_block",
-    "minecraft:dirt"
+    "#tfc:tree_grows_on"
   ],
   "launchIntoDestiny": false,
   "allowDestinyCommandOnce": true,
@@ -187,7 +186,7 @@
   ],
   "structuresInRumors": [
     "minecraft:igloo",
-    "minecraft:pyramid",
+    "minecraft:desert_pyramid",
     "minecraft:ruined_portal_desert",
     "minecraft:ruined_portal_swamp",
     "minecraft:ruined_portal",
@@ -196,16 +195,23 @@
     "minecraft:monument",
     "minecraft:shipwreck",
     "minecraft:shipwreck_beached",
-    "minecraft:village_desert",
-    "minecraft:village_taiga",
-    "minecraft:village_snowy",
-    "minecraft:village_plains",
-    "minecraft:village_savanna",
     "minecraft:swamp_hut",
     "minecraft:mineshaft",
     "minecraft:jungle_pyramid",
     "minecraft:pillager_outpost",
-    "minecraft:ancient_city"
+    "nova_structures:mangrove_witch_hut",
+    "dungeons_arise:lighthouse",
+    "nova_structures:badlands_miner_outpost",
+    "betterwitchhuts:witch_circle",
+    "nova_structures:illager_camp",
+    "nova_structures:illager_hideout",
+    "nova_structures:illager_manor",
+    "nova_structures:stray_fort",
+    "nova_structures:witch_villa",
+    "dungeons_arise:illager_fort",
+    "dungeons_arise:illager_windmill",
+    "betterwitchhuts:witch_hut",
+    "nova_structures:bunker"
   ],
   "destinySpawnLocations": [
     "somewhere"
@@ -245,6 +251,13 @@
     "TOUGH": true
   },
   "taxesMap": {
-    "minecraft:emerald": 1.0
+    "tfc:gem/pyrite": 1.0,
+    "tfc:gem/topaz": 1.0,
+    "tfc:gem/lapis_lazuli": 1.0,
+    "tfc:gem/amethyst": 1.0,
+    "tfc:gem/ruby": 1.0,
+    "tfc:gem/sapphire": 1.0,
+    "tfc:gem/opal": 1.0,
+    "tfc:gem/emerald": 1.0
   }
 }
