@@ -10,4 +10,5 @@ MoreJSEvents.villagerTrades(function (event) {
     Mason.registerTrades(event)
     Shepherd.registerTrades(event)
     Toolsmith.registerTrades(event)
+    Weaponsmith.registerTrades(event)
 })
