@@ -232,25 +232,6 @@
       }
     ]
   },
-  "stamina+5%": {
-    "title": "+5% Stamina",
-    "icon": {
-      "type": "effect",
-      "data": {
-        "effect": "saturation"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "puffish_skills:player.stamina",
-          "value": 0.05,
-          "operation": "multiply_total"
-        }
-      }
-    ]
-  },
   "healing+5%": {
     "title": "+5% Healing",
     "icon": {

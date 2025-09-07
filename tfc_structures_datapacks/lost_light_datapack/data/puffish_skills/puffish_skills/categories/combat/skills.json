@@ -39,11 +39,6 @@
     "y": 0,
     "definition": "ranged_damage+3%"
   },
-  "-13_5": {
-    "x": -416,
-    "y": 160,
-    "definition": "stamina+5%"
-  },
   "-13_7": {
     "x": -416,
     "y": 224,
@@ -74,11 +69,6 @@
     "y": -192,
     "definition": "ranged_damage+3%"
   },
-  "-11_-1": {
-    "x": -352,
-    "y": -32,
-    "definition": "stamina+5%"
-  },
   "-11_1": {
     "x": -352,
     "y": 32,
@@ -93,11 +83,6 @@
     "x": -320,
     "y": -320,
     "definition": "luck+0.25"
-  },
-  "-10_-8": {
-    "x": -320,
-    "y": -256,
-    "definition": "stamina+5%"
   },
   "-10_-4": {
     "x": -320,
@@ -239,11 +224,6 @@
     "y": 96,
     "definition": "melee_damage+3%"
   },
-  "-5_13": {
-    "x": -160,
-    "y": 416,
-    "definition": "stamina+5%"
-  },
   "-4_-10": {
     "x": -128,
     "y": -320,
@@ -258,11 +238,6 @@
     "x": -128,
     "y": -32,
     "definition": "attack_speed+5%"
-  },
-  "-4_1": {
-    "x": -128,
-    "y": 32,
-    "definition": "stamina+5%"
   },
   "-4_7": {
     "x": -128,
@@ -329,11 +304,6 @@
     "x": -32,
     "y": -128,
     "definition": "attack_speed+5%"
-  },
-  "-1_4": {
-    "x": -32,
-    "y": 128,
-    "definition": "stamina+5%"
   },
   "-1_6": {
     "x": -32,
@@ -421,11 +391,6 @@
     "x": 32,
     "y": 192,
     "definition": "ranged_damage+3%"
-  },
-  "1_11": {
-    "x": 32,
-    "y": 352,
-    "definition": "stamina+5%"
   },
   "1_15": {
     "x": 32,
@@ -583,11 +548,6 @@
     "y": -320,
     "definition": "attack_speed+5%"
   },
-  "8_-8": {
-    "x": 256,
-    "y": -256,
-    "definition": "stamina+5%"
-  },
   "8_-6": {
     "x": 256,
     "y": -192,
@@ -607,11 +567,6 @@
     "x": 256,
     "y": 256,
     "definition": "attack_speed+5%"
-  },
-  "8_10": {
-    "x": 256,
-    "y": 320,
-    "definition": "stamina+5%"
   },
   "9_-2": {
     "x": 288,
@@ -672,11 +627,6 @@
     "x": 352,
     "y": 192,
     "definition": "melee_damage+3%"
-  },
-  "12_-12": {
-    "x": 384,
-    "y": -384,
-    "definition": "stamina+5%"
   },
   "12_-3": {
     "x": 384,
