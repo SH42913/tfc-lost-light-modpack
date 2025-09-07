@@ -321,14 +321,6 @@
       "replacement": "firmalife:cured_oven_bottom"
     },
     {
-      "original": "minecraft:smoker",
-      "replacement": "firmalife:cured_rustic_oven_bottom"
-    },
-    {
-      "original": "minecraft:blast_furnace",
-      "replacement": "firmalife:insulated_stone_oven_bottom"
-    },
-    {
       "original": "alekiships:watercraft_frame_angled",
       "replacement": "firmaciv:watercraft_frame_angled"
     },
