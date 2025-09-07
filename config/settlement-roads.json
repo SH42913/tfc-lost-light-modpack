@@ -1,5 +1,5 @@
 {
-  "maxLocatingCount": 100,
+  "maxLocatingCount": 500,
   "structureToLocate": "#lost_light:point_of_interest",
   "initialLocatingCount": 10,
   "distanceBetweenBuoys": 20,
