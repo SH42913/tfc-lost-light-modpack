@@ -12,4 +12,7 @@ MoreJSEvents.villagerTrades(function (event) {
     Toolsmith.registerTrades(event)
     Weaponsmith.registerTrades(event)
     Armorer.registerTrades(event)
+    Librarian.registerTrades(event)
+    Cleric.registerTrades(event)
+    Cartographer.registerTrades(event)
 })
