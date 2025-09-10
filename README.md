@@ -15,7 +15,7 @@ On top of that: a lot of QoL and optimization mods.
 
 So, pack your backpack, take your sword and go on to adventures! :)
 
-
+If you prefer vanilla music, just disable Medieval Music mod
 
 If you experience low FPS, you may disable next mods:
 - Distant Horizon
