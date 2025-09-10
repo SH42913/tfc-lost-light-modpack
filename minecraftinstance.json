@@ -15,9 +15,9 @@
   },
   "isUnlocked": true,
   "javaArgsOverride": null,
-  "lastPlayed": "2025-09-10T18:08:13.3242314Z",
-  "playedCount": 171,
-  "timePlayed": 12938837,
+  "lastPlayed": "2025-09-10T18:28:23.2005301Z",
+  "playedCount": 173,
+  "timePlayed": 13753477,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -359,6 +359,298 @@
           {
             "type": 2,
             "value": "c43fd1946733b7f23e8d4817faf8ab04"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    }, {
+      "instanceID": "bb0e2350-86b0-4937-8d90-b8c1a08f19b3",
+      "modSource": 0,
+      "addonID": 510089,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [ 406, 422, 409 ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "YUNG's Better Dungeons (Forge/NeoForge)",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "authors": [
+        {
+          "id": 40421595,
+          "name": "YUNGNICKYOUNG"
+        },
+        {
+          "id": 102094599,
+          "name": "EveCommander"
+        }
+      ],
+      "primaryAuthor": "YUNGNICKYOUNG",
+      "primaryCategoryId": 409,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
+      "issuesURL": "https://github.com/YUNG-GANG/YUNGs-Better-Dungeons/issues",
+      "wikiURL": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/881/111/256/256/638311013966535180.png",
+      "tags": [ ],
+      "installedFile": {
+        "id": 5271360,
+        "fileName": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "fileDate": "2024-04-18T05:10:09.167Z",
+        "fileLength": 792381,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 421850,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3294265274,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3691258602,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons.mixins.json",
+            "fingerprint": 902839060,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons.refmap.json",
+            "fingerprint": 1595227358,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons_forge.mixins.json",
+            "fingerprint": 3156488316,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2232744636,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 3743157498,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2878054377,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3488361490,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 2557105704,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1281495261,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2090276492,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1320004755,
+        "gameVersion": [ "1.20.1", "Forge", "1.20" ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 510089,
+        "fileNameOnDisk": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "67a9e1c2ff126ab54cea8e0709d178915243039e"
+          },
+          {
+            "type": 2,
+            "value": "2de2f1be8f528ad139003bb5c73d49f3"
+          }
+        ]
+      },
+      "dateInstalled": "2025-09-10T18:20:11.0175834Z",
+      "dateUpdated": "2025-09-10T18:20:11.2828853Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [ ],
+      "latestFile": {
+        "id": 5271360,
+        "fileName": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "fileDate": "2024-04-18T05:10:09.167Z",
+        "fileLength": 792381,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/5271/360/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [
+          {
+            "addonId": 421850,
+            "type": 3
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3294265274,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3691258602,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons.mixins.json",
+            "fingerprint": 902839060,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons.refmap.json",
+            "fingerprint": 1595227358,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "betterdungeons_forge.mixins.json",
+            "fingerprint": 3156488316,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_background.png",
+            "fingerprint": 2232744636,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "catalogue_icon.png",
+            "fingerprint": 3743157498,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2878054377,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3488361490,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "icon.png",
+            "fingerprint": 2557105704,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1281495261,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2090276492,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1320004755,
+        "gameVersion": [ "1.20.1", "Forge", "1.20" ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "1.20",
+            "gameVersionName": "1.20",
+            "gameVersionTypeId": 75125
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 510089,
+        "fileNameOnDisk": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "67a9e1c2ff126ab54cea8e0709d178915243039e"
+          },
+          {
+            "type": 2,
+            "value": "2de2f1be8f528ad139003bb5c73d49f3"
           }
         ]
       },

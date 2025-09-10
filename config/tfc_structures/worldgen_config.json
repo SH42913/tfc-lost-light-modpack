@@ -41,7 +41,14 @@
         "forest_ruins:ruin_4",
         "forest_ruins:ruin_5",
         "forest_ruins:ruin_6",
-        "forest_ruins:ruin_7", "nova_structures:wild_ruin", "dungeoncrawl:dungeon"
+        "forest_ruins:ruin_7",
+        "nova_structures:wild_ruin",
+        "dungeoncrawl:dungeon",
+        "betterdungeons:skeleton_dungeon",
+        "betterdungeons:small_dungeon",
+        "betterdungeons:small_nether_dungeon",
+        "betterdungeons:spider_dungeon",
+        "betterdungeons:zombie_dungeon"
       ]
     },
     {
