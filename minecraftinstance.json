@@ -15,9 +15,9 @@
   },
   "isUnlocked": true,
   "javaArgsOverride": null,
-  "lastPlayed": "2025-09-10T17:43:57.3300577Z",
-  "playedCount": 169,
-  "timePlayed": 11984713,
+  "lastPlayed": "2025-09-10T18:08:13.3242314Z",
+  "playedCount": 171,
+  "timePlayed": 12938837,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -29197,6 +29197,214 @@
       "exportDisabledReason": 0,
       "groupId": null
     }, {
+      "instanceID": "6b586ede-673d-49e7-a132-54e0cb6147cd",
+      "modSource": 0,
+      "addonID": 324973,
+      "gameID": 432,
+      "categoryClassID": 6,
+      "categorySection": {
+        "id": 8,
+        "gameId": 432,
+        "name": "Mods",
+        "packageType": 6,
+        "path": "mods",
+        "initialInclusionPattern": ".",
+        "gameCategoryId": 6
+      },
+      "categoryIds": [ 409, 406, 422 ],
+      "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
+      "name": "Dungeon Crawl",
+      "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
+      "fileNameOnDisk": "Dungeon Crawl-1.20.1-2.3.15.jar",
+      "authors": [
+        {
+          "id": 61172887,
+          "name": "xiroc_"
+        }
+      ],
+      "primaryAuthor": "xiroc_",
+      "primaryCategoryId": 409,
+      "packageType": 6,
+      "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl",
+      "issuesURL": "https://github.com/xyroc/DungeonCrawl/issues",
+      "wikiURL": "https://github.com/xyroc/DungeonCrawl/wiki",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/410/569/256/256/637627452553277521.png",
+      "tags": [ ],
+      "installedFile": {
+        "id": 6047153,
+        "fileName": "Dungeon Crawl-1.20.1-2.3.15.jar",
+        "fileDate": "2025-01-02T22:25:10.21Z",
+        "fileLength": 758123,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6047/153/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [ ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 194991608,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": ".cache",
+            "fingerprint": 3357470929,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 4234105082,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 722728508,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "xiroc",
+            "fingerprint": 2767595077,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3170941169,
+        "gameVersion": [ "1.20.1", "Forge", "Server" ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Server",
+            "gameVersionTypeId": 75208
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 324973,
+        "fileNameOnDisk": "Dungeon Crawl-1.20.1-2.3.15.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "e17ebc9be0b3f0646f2de10563b72827442cc866"
+          },
+          {
+            "type": 2,
+            "value": "f53b840d17a5805630ec199087babe4b"
+          }
+        ]
+      },
+      "dateInstalled": "2025-09-10T18:07:39.0537718Z",
+      "dateUpdated": "2025-09-10T18:07:39.0637977Z",
+      "status": 4,
+      "installSource": 7,
+      "preferenceReleaseType": null,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "isEnabled": true,
+      "filePaths": [
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\Dungeon Crawl-1.20.1-2.3.15.jar"
+      ],
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "manifestName": null,
+      "installedTargets": [ ],
+      "latestFile": {
+        "id": 6047153,
+        "fileName": "Dungeon Crawl-1.20.1-2.3.15.jar",
+        "fileDate": "2025-01-02T22:25:10.21Z",
+        "fileLength": 758123,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/6047/153/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "serverPackFileId": 0,
+        "dependencies": [ ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 194991608,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": ".cache",
+            "fingerprint": 3357470929,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 4234105082,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 722728508,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "xiroc",
+            "fingerprint": 2767595077,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3170941169,
+        "gameVersion": [ "1.20.1", "Forge", "Server" ],
+        "sortableGameVersion": [
+          {
+            "gameVersion": "1.20.1",
+            "gameVersionName": "1.20.1",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersion": "",
+            "gameVersionName": "Server",
+            "gameVersionTypeId": 75208
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "isEarlyAccessContent": false,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 4,
+        "projectId": 324973,
+        "fileNameOnDisk": "Dungeon Crawl-1.20.1-2.3.15.jar",
+        "hashes": [
+          {
+            "type": 1,
+            "value": "e17ebc9be0b3f0646f2de10563b72827442cc866"
+          },
+          {
+            "type": 2,
+            "value": "f53b840d17a5805630ec199087babe4b"
+          }
+        ]
+      },
+      "allowModDistribution": true,
+      "exportDisabledReason": 0,
+      "groupId": null
+    }, {
       "instanceID": "39c5b6b6-eda9-4190-a5c2-45530494bd6a",
       "modSource": 0,
       "addonID": 228525,
@@ -55769,7 +55977,7 @@
       "gameInstanceID": "0e2846ee-63a6-4ddf-9533-1fbe5e1f715e",
       "name": "Medieval Music[Forge/Fabric]",
       "modFolderPath": "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods",
-      "fileNameOnDisk": "zmedievalmusic-1.20.1-2.2.jar.disabled",
+      "fileNameOnDisk": "zmedievalmusic-1.20.1-2.2.jar",
       "authors": [
         {
           "id": 100114338,
@@ -55878,9 +56086,9 @@
       "preferenceReleaseType": null,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
-      "isEnabled": false,
+      "isEnabled": true,
       "filePaths": [
-        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\zmedievalmusic-1.20.1-2.2.jar.disabled"
+        "C:\\Users\\Farley Duck\\curseforge\\minecraft\\Instances\\TFC Vanilla+\\mods\\zmedievalmusic-1.20.1-2.2.jar"
       ],
       "preferenceIsIgnored": false,
       "isModified": false,
