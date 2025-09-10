@@ -1,0 +1,6 @@
+
+[general]
+	#How many items can be put into skillet block at once.
+	#Range: 1 ~ 32
+	skilletSlotNumber = 8
+
