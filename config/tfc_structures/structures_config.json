@@ -108,27 +108,27 @@
     "betterdungeons:skeleton_dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "betterdungeons:small_dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "betterdungeons:small_nether_dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "betterdungeons:spider_dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "betterdungeons:zombie_dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "betterwitchhuts:witch_circle": {
       "replacementPreset": "overworld-common",
@@ -163,7 +163,7 @@
     "dungeoncrawl:dungeon": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
-      "lootTablesOverrideMap": { }
+      "lootTablesOverrideMap": {}
     },
     "dungeons_arise:abandoned_temple": {
       "replacementPreset": "overworld-common",
