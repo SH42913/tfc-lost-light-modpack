@@ -1,0 +1,15 @@
+{
+  "ingredient": [
+    {
+      "tag": "tfc:chisels"
+    },
+    {
+      "tag": "tfc:knives"
+    },
+    {
+      "tag": "tfc:shears"
+    }
+  ],
+  "size": "normal",
+  "weight": "medium"
+}
