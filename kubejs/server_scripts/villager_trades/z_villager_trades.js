@@ -1,4 +1,4 @@
-MoreJSEvents.villagerTrades(function (event) {
+MoreJSEvents.villagerTrades(event => {
     event.removeVanillaTrades();
     event.removeModdedTrades();
 

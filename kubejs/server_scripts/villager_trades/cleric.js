@@ -1,12 +1,10 @@
-var I = VillagerTrades.createTradeItem;
-
-var Cleric = {
+const Cleric = {
     name: "cleric",
 
     registerTrades: function (event) {
         this.event = event
 
-        var healingPotion = this.newPotion("minecraft:healing")
+        const healingPotion = this.newPotion("minecraft:healing");
         this.newTrade(1, healingPotion, [I("tfc:gem/amethyst", 2, 4)]);
     },
 
@@ -15,9 +13,9 @@ var Cleric = {
     },
 
     newPotion: function (effectId) {
-        var itemStack = Item.of("minecraft:potion").withNBT({
+        const itemStack = Item.of("minecraft:potion").withNBT({
             Potion: effectId
-        })
+        });
         return TradeItem.of(itemStack, 1, 1);
     }
-}
+};

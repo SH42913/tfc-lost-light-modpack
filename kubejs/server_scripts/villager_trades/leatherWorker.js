@@ -1,6 +1,4 @@
-var I = VillagerTrades.createTradeItem;
-
-var LeatherWorker = {
+const LeatherWorker = {
     name: "leatherworker",
 
     registerTrades: function (event) {
@@ -26,4 +24,4 @@ var LeatherWorker = {
     newTrade: function (level, result, resources) {
         VillagerTrades.registerTrade(this.event, this.name, level, result, resources)
     }
-}
+};

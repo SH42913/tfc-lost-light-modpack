@@ -1,4 +1,4 @@
-ServerEvents.recipes(function (event) {
+ServerEvents.recipes(event => {
     event.replaceInput(
         {},
         "minecraft:barrel",

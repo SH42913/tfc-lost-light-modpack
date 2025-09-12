@@ -1,6 +1,4 @@
-var I = VillagerTrades.createTradeItem;
-
-var Armorer = {
+const Armorer = {
     name: "armorer",
 
     registerTrades: function (event) {
@@ -40,4 +38,4 @@ var Armorer = {
     newTrade: function (level, result, resources) {
         VillagerTrades.registerTrade(this.event, this.name, level, result, resources)
     }
-}
+};

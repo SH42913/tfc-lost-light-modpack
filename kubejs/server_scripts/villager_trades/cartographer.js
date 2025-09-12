@@ -1,12 +1,10 @@
-var I = VillagerTrades.createTradeItem;
-
-var Cartographer = {
+const Cartographer = {
     name: "cartographer",
 
     registerTrades: function (event) {
         this.event = event
 
-        var junglePyramidMap = this.newStructureMap("minecraft:jungle_pyramid", "Map to Jungle Pyramid");
+        const junglePyramidMap = this.newStructureMap("minecraft:jungle_pyramid", "Map to Jungle Pyramid");
         this.newTrade(1, junglePyramidMap, [I("tfc:gem/amethyst", 2, 4)]);
     },
 
@@ -15,11 +13,11 @@ var Cartographer = {
     },
 
     newStructureMap: function (structureId, name) {
-        var itemStack = Item.of("minecraft:map").withNBT({
+        const itemStack = Item.of("minecraft:map").withNBT({
             display: {Name: '{"text":"' + name + '"}'},
             destination: structureId,
             map_type: "structure"
         });
         return TradeItem.of(itemStack, 1, 1);
     }
-}
+};

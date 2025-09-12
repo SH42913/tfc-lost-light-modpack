@@ -1,6 +1,4 @@
-var I = VillagerTrades.createTradeItem;
-
-var Fletcher = {
+const Fletcher = {
     name: "fletcher",
 
     registerTrades: function (event) {
@@ -25,4 +23,4 @@ var Fletcher = {
     newTrade: function (level, result, resources) {
         VillagerTrades.registerTrade(this.event, this.name, level, result, resources)
     }
-}
+};
