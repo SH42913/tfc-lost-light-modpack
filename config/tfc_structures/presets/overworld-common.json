@@ -221,56 +221,84 @@
       "replacement": "tfc:rock/smooth/andesite_slab"
     },
     {
-      "original": "minecraft:blackstone",
+      "original": "minecraft:deepslate",
       "replacement": "tfc:rock/hardened/basalt"
     },
     {
-      "original": "minecraft:blackstone_stairs",
-      "replacement": "tfc:rock/raw/basalt_stairs"
+      "original": "minecraft:cobbled_deepslate",
+      "replacement": "tfc:rock/cobble/basalt"
     },
     {
-      "original": "minecraft:blackstone_slab",
-      "replacement": "tfc:rock/raw/basalt_slab"
+      "original": "minecraft:cobbled_deepslate_stairs",
+      "replacement": "tfc:rock/cobble/basalt_stairs"
     },
     {
-      "original": "minecraft:blackstone_wall",
-      "replacement": "tfc:rock/raw/basalt_wall"
+      "original": "minecraft:cobbled_deepslate_slab",
+      "replacement": "tfc:rock/cobble/basalt_slab"
     },
     {
-      "original": "minecraft:polished_blackstone",
+      "original": "minecraft:cobbled_deepslate_wall",
+      "replacement": "tfc:rock/cobble/basalt_wall"
+    },
+    {
+      "original": "minecraft:polished_deepslate",
       "replacement": "tfc:rock/smooth/basalt"
     },
     {
-      "original": "minecraft:polished_blackstone_stairs",
+      "original": "minecraft:polished_deepslate_stairs",
       "replacement": "tfc:rock/smooth/basalt_stairs"
     },
     {
-      "original": "minecraft:polished_blackstone_slab",
+      "original": "minecraft:polished_deepslate_slab",
       "replacement": "tfc:rock/smooth/basalt_slab"
     },
     {
-      "original": "minecraft:polished_blackstone_wall",
+      "original": "minecraft:polished_deepslate_wall",
       "replacement": "tfc:rock/smooth/basalt_wall"
     },
     {
-      "original": "minecraft:chiseled_polished_blackstone",
+      "original": "minecraft:deepslate_bricks",
+      "replacement": "tfc:rock/bricks/basalt"
+    },
+    {
+      "original": "minecraft:deepslate_brick_stairs",
+      "replacement": "tfc:rock/bricks/basalt_stairs"
+    },
+    {
+      "original": "minecraft:deepslate_brick_slab",
+      "replacement": "tfc:rock/bricks/basalt_slab"
+    },
+    {
+      "original": "minecraft:deepslate_brick_wall",
+      "replacement": "tfc:rock/bricks/basalt_wall"
+    },
+    {
+      "original": "minecraft:deepslate_tiles",
+      "replacement": "tfc:rock/bricks/basalt"
+    },
+    {
+      "original": "minecraft:deepslate_tile_stairs",
+      "replacement": "tfc:rock/bricks/basalt_stairs"
+    },
+    {
+      "original": "minecraft:deepslate_tile_slab",
+      "replacement": "tfc:rock/bricks/basalt_slab"
+    },
+    {
+      "original": "minecraft:deepslate_tile_wall",
+      "replacement": "tfc:rock/bricks/basalt_wall"
+    },
+    {
+      "original": "minecraft:cracked_deepslate_bricks",
+      "replacement": "tfc:rock/cracked_bricks/basalt"
+    },
+    {
+      "original": "minecraft:cracked_deepslate_tiles",
+      "replacement": "tfc:rock/cracked_bricks/basalt"
+    },
+    {
+      "original": "minecraft:chiseled_deepslate",
       "replacement": "tfc:rock/chiseled/basalt"
-    },
-    {
-      "original": "minecraft:polished_blackstone_bricks",
-      "replacement": "tfc:rock/smooth/basalt"
-    },
-    {
-      "original": "minecraft:polished_blackstone_brick_stairs",
-      "replacement": "tfc:rock/smooth/basalt_stairs"
-    },
-    {
-      "original": "minecraft:polished_blackstone_brick_slab",
-      "replacement": "tfc:rock/smooth/basalt_slab"
-    },
-    {
-      "original": "minecraft:polished_blackstone_brick_wall",
-      "replacement": "tfc:rock/smooth/basalt_wall"
     },
     {
       "original": "minecraft:raw_iron_block",
@@ -306,7 +334,7 @@
     },
     {
       "original": "minecraft:sugar_cane",
-      "replacement": "minecraft:air"
+      "replacement": "tfc:wild_crop/sugarcane"
     },
     {
       "original": "minecraft:copper_block",
@@ -918,6 +946,10 @@
       "type": "ORE"
     },
     {
+      "original": "minecraft:coarse_dirt",
+      "type": "SOIL"
+    },
+    {
       "original": "minecraft:cobblestone",
       "type": "STONE"
     },
@@ -1150,6 +1182,10 @@
       "type": "ORE"
     },
     {
+      "original": "minecraft:deepslate_redstone_ore",
+      "type": "ORE"
+    },
+    {
       "original": "minecraft:diamond_ore",
       "type": "ORE"
     },
@@ -1171,10 +1207,6 @@
     },
     {
       "original": "minecraft:grass_block",
-      "type": "SOIL"
-    },
-    {
-      "original": "minecraft:coarse_dirt",
       "type": "SOIL"
     },
     {
@@ -1536,6 +1568,10 @@
     {
       "original": "minecraft:red_sandstone_wall",
       "type": "SAND"
+    },
+    {
+      "original": "minecraft:redstone_ore",
+      "type": "ORE"
     },
     {
       "original": "minecraft:rooted_dirt",
