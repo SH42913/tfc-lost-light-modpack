@@ -19,6 +19,9 @@
       "structure": "minecraft:mansion",
       "factor": 5
     }, {
+      "structure": "theorcs:orc_camp",
+      "factor": 1
+    }, {
       "structure": "minecraft:mineshaft_mesa",
       "factor": 0
     }
