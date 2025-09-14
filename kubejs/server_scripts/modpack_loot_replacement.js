@@ -190,6 +190,7 @@ const lootReplacementMap = {
     "minecraft:wooden_axe": "tfc:stone/axe/igneous_extrusive",
     "minecraft:wooden_hoe": "tfc:stone/hoe/igneous_extrusive",
     "minecraft:wooden_pickaxe": "tfc:stone/shovel/igneous_extrusive",
+    "minecraft:cobblestone": "tfc:rock/cobble/dacite",
     "farmersdelight:cabbage_seeds": "tfc:seeds/cabbage",
     "farmersdelight:diamond_knife": "tfc:metal/knife/wrought_iron",
     "farmersdelight:flint_knife": "bsa:stone/knife/flint",
@@ -202,9 +203,11 @@ const lootReplacementMap = {
 };
 
 LootJS.modifiers((event) => {
-    const lootModifier = event.addLootTypeModifier(LootType.CHEST);
+    const chestLootModifier = event.addLootTypeModifier(LootType.CHEST);
+    const realmrpgModifier = event.addLootTableModifier(/realmrpg.*/);
 
     for (const [original, replacement] of Object.entries(lootReplacementMap)) {
-        lootModifier.replaceLoot(original, replacement)
+        chestLootModifier.replaceLoot(original, replacement)
+        realmrpgModifier.replaceLoot(original, replacement)
     }
 });
