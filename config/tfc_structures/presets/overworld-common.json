@@ -407,6 +407,10 @@
     {
       "original": "farmersdelight:cabbages",
       "replacement": "tfc:crop/cabbage"
+    },
+    {
+      "original": "minecraft:calcite",
+      "replacement": "tfc:rock/smooth/chalk"
     }
   ],
   "randomReplacements": [
