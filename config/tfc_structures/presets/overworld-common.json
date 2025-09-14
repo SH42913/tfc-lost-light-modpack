@@ -399,6 +399,14 @@
     {
       "original": "minecraft:cocoa",
       "replacement": "minecraft:air"
+    },
+    {
+      "original": "farmersdelight:budding_tomatoes",
+      "replacement": "tfc:crop/tomato"
+    },
+    {
+      "original": "farmersdelight:cabbages",
+      "replacement": "tfc:crop/cabbage"
     }
   ],
   "randomReplacements": [
