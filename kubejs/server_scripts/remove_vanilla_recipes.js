@@ -10,5 +10,4 @@ ServerEvents.recipes(event => {
     //     mod: "minecraft",
     //     type: "minecraft:crafting_shaped"
     // })
-
 })
