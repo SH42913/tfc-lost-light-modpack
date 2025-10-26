@@ -248,7 +248,8 @@
     "COELIAC_DISEASE": true,
     "UNKNOWN": true,
     "DWARFISM": true,
-    "TOUGH": true
+    "TOUGH": true,
+    "ASEXUAL": true
   },
   "taxesMap": {
     "tfc:gem/pyrite": 1.0,

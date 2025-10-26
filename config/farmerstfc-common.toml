@@ -1,0 +1,4 @@
+#对沃土耕地施肥的养分加成倍率
+#Range: 1.0 ~ 10.0
+fertilizerOnRichFarmland = 2.5
+
