@@ -3,6 +3,9 @@ ServerEvents.recipes(event => {
     event.remove({type: "minecraft:blasting"})
     event.remove({type: "minecraft:smoking"})
 
+    event.remove({input: /minecraft:raw.*/});
+    event.remove({output: /minecraft:raw.*/});
+
     event.remove({id: "minecraft:coarse_dirt"})
     event.remove({id: "minecraft:shears"})
 
