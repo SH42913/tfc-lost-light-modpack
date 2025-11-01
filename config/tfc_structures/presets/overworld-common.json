@@ -405,8 +405,20 @@
       "replacement": "tfc:crop/tomato"
     },
     {
+      "original": "farmersdelight:tomatoes",
+      "replacement": "tfc:crop/tomato"
+    },
+    {
       "original": "farmersdelight:cabbages",
       "replacement": "tfc:crop/cabbage"
+    },
+    {
+      "original": "farmersdelight:onions",
+      "replacement": "tfc:crop/onion"
+    },
+    {
+      "original": "farmersdelight:rice",
+      "replacement": "tfc:crop/rice"
     },
     {
       "original": "minecraft:calcite",
