@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:stripped_logs"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:stick_bunch"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:stick"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:stick"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:stick"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

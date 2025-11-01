@@ -1,0 +1,16 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:gem/amethyst"
+      }, {
+        "item": "tfc:sandpaper"
+      }
+    ],
+    "result": {
+      "item": "minecraft:amethyst_shard"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "create:zinc_nugget"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/zinc",
+    "amount": 5
+  },
+  "temperature": 420
+}

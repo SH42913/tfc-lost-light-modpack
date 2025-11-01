@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "tag": "forge:ingots/zinc"
+    },
+    "result": {
+        "item": "create:zinc_nugget",
+        "count": 20
+    },
+    "tier": 1,
+    "rules": [
+        "hit_third_last",
+        "hit_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": false
+}

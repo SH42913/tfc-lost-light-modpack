@@ -1,13 +1,13 @@
 ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:barrel", "#tfcbarrels:barrels")
+    event.replaceInput({}, "mca:rose_gold_ingot", "#forge:ingots/rose_gold")
 
-    event.replaceInput({}, "minecraft:emerald", "tfc:gem/emerald")
-    event.replaceInput({}, "minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
-    event.replaceInput({}, "minecraft:diamond", "tfc:gem/diamond")
-    event.replaceInput({}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
+    event.replaceInput({}, "minecraft:emerald", "#forge:gems/emerald")
+    event.replaceInput({}, "minecraft:lapis_lazuli", "#forge:gems/lapis")
+    event.replaceInput({}, "minecraft:diamond", "#forge:gems/diamond")
+    event.replaceInput({}, "minecraft:gold_ingot", "#forge:ingots/gold")
+    event.replaceInput({}, "minecraft:iron_ingot", "#forge:ingots/iron")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
-    event.replaceOutput({}, "minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
-    event.replaceOutput({}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
 })
