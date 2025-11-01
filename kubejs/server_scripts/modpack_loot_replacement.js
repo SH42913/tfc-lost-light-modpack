@@ -177,6 +177,7 @@ const lootReplacementMap = {
     "minecraft:stone_sword": "tfc:metal/sword/copper",
     "minecraft:string": "tfc:wool_yarn",
     "minecraft:sugar_cane": "tfc:food/sugarcane",
+    "minecraft:pumpkin_pie": "firmalife:food/toast_with_jam",
     "minecraft:sweet_berries": "tfc:food/cranberry",
     "minecraft:tall_grass": "tfc:plant/tall_fescue_grass",
     "minecraft:tnt": "minecraft:gunpowder",
