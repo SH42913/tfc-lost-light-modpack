@@ -48,7 +48,8 @@
         "betterdungeons:small_dungeon",
         "betterdungeons:small_nether_dungeon",
         "betterdungeons:spider_dungeon",
-        "betterdungeons:zombie_dungeon"
+        "betterdungeons:zombie_dungeon",
+        "mowziesmobs:wrought_chamber"
       ]
     },
     {
@@ -157,7 +158,9 @@
         "tfc:mountains",
         "tfc:old_mountains"
       ],
-      "structures": []
+      "structures": [
+        "mowziesmobs:monastery"
+      ]
     },
     {
       "id": "tfc_structures:is_volcanic_mountains",
@@ -165,7 +168,9 @@
         "tfc:volcanic_mountains",
         "tfc:volcanic_oceanic_mountains"
       ],
-      "structures": []
+      "structures": [
+        "mowziesmobs:umvuthana_grove"
+      ]
     },
     {
       "id": "tfc_structures:is_any_mountains",
@@ -173,7 +178,9 @@
         "#tfc_structures:is_common_mountains",
         "#tfc_structures:is_volcanic_mountains"
       ],
-      "structures": []
+      "structures": [ 
+        "mowziesmobs:frostmaw_spawn" 
+      ]
     },
     {
       "id": "tfc_structures:is_deep_ocean",

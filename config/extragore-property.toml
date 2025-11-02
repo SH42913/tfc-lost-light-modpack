@@ -48,21 +48,21 @@ behavior = "Bounce"
 weight = "Heavy"
 state = "Solid"
 color = "255,255,255"
-entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2"]
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:grottol", "mowziesmobs:frostmaw"]
 
 ["Green Group"]
 behavior = "Stuck"
 weight = "Light"
 state = "Liquid"
 color = "0,255,0"
-entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch", "minecraft:pufferfish", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zoglin", "minecraft:zombie_horse", "mca:female_zombie_villager", "mca:male_zombie_villager", "primitive_creatures:tfc"]
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch", "minecraft:pufferfish", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zoglin", "minecraft:zombie_horse", "mca:female_zombie_villager", "mca:male_zombie_villager", "primitive_creatures:tfc", "mowziesmobs:foliaath", "mowziesmobs:baby_foliaath", "mowziesmobs:lantern", "mowziesmobs:naga"]
 
 ["Yellow Group"]
 behavior = "Bounce"
 weight = "Heavy"
 state = "Solid"
 color = "255,255,0"
-entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider", "minecraft:bee", "firmalife:bee"]
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider", "minecraft:bee", "firmalife:bee", "mowziesmobs:umvuthi", "mowziesmobs:umvuthana", "mowziesmobs:umvuthana_raptor", "mowziesmobs:umvuthana_follower_raptor", "mowziesmobs:umvuthana_crane", "mowziesmobs:umvuthana_crane_player", "mowziesmobs:umvuthana_follower_player", "mowziesmobs:bluff"]
 
 ["Blue Group"]
 behavior = "None"

@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "mowziesmobs:clawed_log"
+    }
+  ],
+  "result": {
+    "item": "tfc:wood/stripped_wood/palm",
+    "count": 1
+  }
+}
