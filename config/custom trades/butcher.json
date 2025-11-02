@@ -1,0 +1,430 @@
+{
+  "profession": "minecraft:butcher", "removeOtherTrades": true, "maxTrades": 2, "trades": [
+  {
+    "offer": {
+      "itemKey": "tfc:food/pork", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/pyrite", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/topaz", "amount": 1
+      }
+    ],
+    "tradeExp": 1,
+    "maxUses": 4,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:butcher_food/pork_for_multirequest_gem/pyrite"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/chicken", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/pyrite", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/topaz", "amount": 1
+      }
+    ],
+    "tradeExp": 1,
+    "maxUses": 4,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:butcher_food/chicken_for_multirequest_gem/pyrite"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/rabbit", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/topaz", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }
+    ],
+    "tradeExp": 1,
+    "maxUses": 4,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:butcher_food/rabbit_for_multirequest_gem/topaz"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/wolf", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/topaz", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }
+    ],
+    "tradeExp": 1,
+    "maxUses": 4,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:butcher_food/wolf_for_multirequest_gem/topaz"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/quail", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 1,
+    "maxUses": 4,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:butcher_food/quail_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "firmalife:food/bacon", "amount": 3
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 10,
+    "maxUses": 6,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:butcher_food/bacon_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/gran_feline", "amount": 3
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 10,
+    "maxUses": 6,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:butcher_food/gran_feline_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/chevon", "amount": 4
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 10,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:butcher_food/chevon_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/camelidae", "amount": 4
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 10,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:butcher_food/camelidae_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/venison", "amount": 4
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/ruby", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 20,
+    "maxUses": 7,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:butcher_food/venison_for_multirequest_gem/ruby"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/turtle", "amount": 4
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/ruby", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 20,
+    "maxUses": 7,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:butcher_food/turtle_for_multirequest_gem/ruby"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/duck", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/ruby", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 20,
+    "maxUses": 6,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:butcher_food/duck_for_multirequest_gem/ruby"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/mutton", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 20,
+    "maxUses": 6,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:butcher_food/mutton_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/bear", "amount": 2
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 20,
+    "maxUses": 6,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:butcher_food/bear_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/horse_meat", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 9,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 4,
+    "UTID": "minecraft:butcher_food/horse_meat_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/turkey", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/lapis_lazuli", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 9,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 4,
+    "UTID": "minecraft:butcher_food/turkey_for_multirequest_gem/lapis_lazuli"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/pheasant", "amount": 5
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/opal", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/sapphire", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 4,
+    "UTID": "minecraft:butcher_food/pheasant_for_multirequest_gem/opal"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/peafowl", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/opal", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/sapphire", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 4,
+    "UTID": "minecraft:butcher_food/peafowl_for_multirequest_gem/opal"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/beef", "amount": 8
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/sapphire", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 12,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/beef_for_multirequest_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/chicken", "amount": 8
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/sapphire", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 12,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/chicken_for_multirequest_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/venison", "amount": 8
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/sapphire", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 12,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/venison_for_multirequest_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/cooked_horse_meat", "amount": 8
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/sapphire", "amount": 2
+      }, {
+        "itemKey": "tfc:gem/amethyst", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 12,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/cooked_horse_meat_for_multirequest_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/cooked_pheasant", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/opal", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/sapphire", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 20,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/cooked_pheasant_for_multirequest_gem/opal"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/cooked_beef", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/opal", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/sapphire", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 20,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/cooked_beef_for_multirequest_gem/opal"
+  }, {
+    "offer": {
+      "itemKey": "tfc:food/cooked_turkey", "amount": 6
+    },
+    "multiRequest": [
+      {
+        "itemKey": "tfc:gem/opal", "amount": 1
+      }, {
+        "itemKey": "tfc:gem/sapphire", "amount": 1
+      }
+    ],
+    "tradeExp": 30,
+    "maxUses": 20,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:butcher_food/cooked_turkey_for_multirequest_gem/opal"
+  }
+]
+}

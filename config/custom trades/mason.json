@@ -1,0 +1,311 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:clay",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_clay_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/gabbro",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_rock/raw/gabbro_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/andesite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_rock/raw/andesite_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/conglomerate",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_rock/raw/conglomerate_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/dolomite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_rock/raw/dolomite_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:calcite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_calcite_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/schist",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_rock/raw/schist_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/phyllite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_rock/raw/phyllite_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/chalk",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_rock/raw/chalk_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/basalt",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 8
+      },
+      "tradeExp": 3,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_rock/raw/basalt_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/raw/marble",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 8
+      },
+      "tradeExp": 3,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_rock/raw/marble_for_gem/emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/gabbro",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 4,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_rock/hardened/gabbro_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/andesite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 4,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_rock/hardened/andesite_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/conglomerate",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 4,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_rock/hardened/conglomerate_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/dolomite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 4,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_rock/hardened/dolomite_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/schist",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_rock/hardened/schist_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/phyllite",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_rock/hardened/phyllite_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/chalk",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_rock/hardened/chalk_for_gem/ruby"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:rock/hardened/marble",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "tfc:gem/ruby",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_rock/hardened/marble_for_gem/ruby"
+    }
+  ]
+}

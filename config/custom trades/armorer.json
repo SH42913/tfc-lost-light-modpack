@@ -1,0 +1,291 @@
+{
+  "profession": "minecraft:armorer", "removeOtherTrades": true, "maxTrades": 4, "trades": [
+  {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/emerald", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/ingot/copper_for_gem/emerald"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/opal", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/opal_for_metal/ingot/copper"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/pyrite", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/pyrite_for_metal/ingot/copper"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/ruby", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/ruby_for_metal/ingot/copper"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/diamond", "amount": 5
+    },
+    "tradeExp": 2,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/ingot/bronze_for_gem/diamond"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/sapphire", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/sapphire_for_metal/ingot/bronze"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/topaz", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/topaz_for_metal/ingot/bronze"
+  }, {
+    "offer": {
+      "itemKey": "tfc:gem/emerald", "amount": 5
+    },
+    "request": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 8,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_gem/emerald_for_metal/ingot/bronze"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/helmet/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/sapphire", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 5,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/helmet/copper_for_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/chestplate/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/amethyst", "amount": 5
+    },
+    "tradeExp": 2,
+    "maxUses": 5,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/chestplate/copper_for_gem/amethyst"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/greaves/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/topaz", "amount": 4
+    },
+    "tradeExp": 2,
+    "maxUses": 5,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/greaves/copper_for_gem/topaz"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/boots/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/pyrite", "amount": 3
+    },
+    "tradeExp": 2,
+    "maxUses": 5,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 1,
+    "UTID": "minecraft:armorer_metal/boots/copper_for_gem/pyrite"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/sapphire", "amount": 3
+    },
+    "tradeExp": 5,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:armorer_metal/ingot/copper_for_gem/sapphire"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/topaz", "amount": 3
+    },
+    "tradeExp": 5,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:armorer_metal/ingot/copper_for_gem/topaz"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/copper", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/diamond", "amount": 3
+    },
+    "tradeExp": 5,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:armorer_metal/ingot/copper_for_gem/diamond"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/amethyst", "amount": 5
+    },
+    "tradeExp": 5,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:armorer_metal/ingot/bronze_for_gem/amethyst"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/bronze", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/opal", "amount": 5
+    },
+    "tradeExp": 5,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 2,
+    "UTID": "minecraft:armorer_metal/ingot/bronze_for_gem/opal"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/wrought_iron", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/ruby", "amount": 7
+    },
+    "tradeExp": 10,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 3,
+    "UTID": "minecraft:armorer_metal/ingot/wrought_iron_for_gem/ruby"
+  }, {
+    "offer": {
+      "itemKey": "tfc:metal/ingot/black_steel", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/emerald", "amount": 16
+    },
+    "tradeExp": 15,
+    "maxUses": 10,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 4,
+    "UTID": "minecraft:armorer_metal/ingot/black_steel_for_gem/emerald"
+  }, {
+    "offer": {
+      "itemKey": "sns:ore_sack", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/amethyst", "amount": 15
+    },
+    "tradeExp": 30,
+    "maxUses": 3,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:armorer_ore_sack_for_gem/amethyst"
+  }, {
+    "offer": {
+      "itemKey": "sns:frame_pack", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/ruby", "amount": 35
+    },
+    "tradeExp": 30,
+    "maxUses": 1,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:armorer_frame_pack_for_gem/ruby"
+  }, {
+    "offer": {
+      "itemKey": "sns:quiver", "amount": 1
+    },
+    "request": {
+      "itemKey": "tfc:gem/opal", "amount": 15
+    },
+    "tradeExp": 30,
+    "maxUses": 3,
+    "priceMultiplier": 0.05,
+    "demand": 0,
+    "tradeLevel": 5,
+    "UTID": "minecraft:armorer_quiver_for_gem/opal"
+  }
+]
+}

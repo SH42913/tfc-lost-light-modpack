@@ -1,0 +1,1387 @@
+{
+  "profession": "wanderer",
+  "removeOtherTrades": true,
+  "maxCommonTrades": 5,
+  "maxRareTrades": 1,
+  "trades": [
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:sea_pickle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:slime_ball",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:glowstone",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:nautilus_shell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/lady_fern",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:food/sugarcane",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:pumpkin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/leafy_kelp",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/barrel_cactus",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/dandelion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/poppy",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/blue_orchid",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/allium",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/houstonia",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/tulip_red",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/tulip_orange",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/tulip_white",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/tulip_pink",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/oxeye_daisy",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/pickerelweed",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/lily_of_the_valley",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 7,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/wheat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/beet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/pumpkin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/melon",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/acacia",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/birch",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/hickory",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/palm",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/palm",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:wood/sapling/spruce",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:red_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:white_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:blue_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:pink_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:black_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:green_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:light_gray_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:magenta_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:yellow_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:gray_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:purple_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:light_blue_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:lime_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:orange_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:brown_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:cyan_dye",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:brain_coral_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:bubble_coral_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:fire_coral_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:horn_coral_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:tube_coral_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/jungle_vines",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:brown_mushroom_colony",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:red_mushroom_colony",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:plant/water_lily",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:sand/yellow",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:sand/red",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 6,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:pointed_dripstone",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:moss_block",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:gazelle_horns_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:duck_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:horse_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:crown_decoration",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 1,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:unicorn_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:bullhorns_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:dragon_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:minicrown_decoration",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 1,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:antlers_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:bear_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:lily_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:lion_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:demon_horns_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "magistuarmory:griffin_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 5,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "antiquelegacy:golden_laurel_wreath_decoration",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 1,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "antiquelegacy:laurel_wreath_decoration",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 7,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "antiquelegacy:bronze_small_wings_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 7,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "antiquelegacy:bronze_horns_decoration",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 7,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "antiquelegacy:fur_cloak_decoration",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 0,
+      "maxUses": 7,
+      "priceMultiplier": 1.0,
+      "demand": 0,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/cabbage",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/tomato",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:seeds/rice",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "tradeLevel": 1
+    }, {
+      "isRare": false,
+      "offer": {
+        "itemKey": "tfc:food/onion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "tfc:bucket/tropical_fish",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "tfc:bucket/pufferfish",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 4,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:packed_ice",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 6,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:blue_ice",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 6,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "minecraft:gunpowder",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "tradeLevel": 1
+    }, {
+      "isRare": true,
+      "offer": {
+        "itemKey": "farmersdelight:rich_soil",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "tfc:gem/emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 6,
+      "tradeLevel": 1
+    }
+  ]
+}
