@@ -201,6 +201,7 @@ const lootReplacementMap = {
     "farmersdelight:onion_crate": "tfc:food/onion",
     "farmersdelight:rice": "tfc:seeds/rice",
     "farmersdelight:tomato_seeds": "tfc:seeds/tomato",
+    "create:sweet_roll": "firmalife:food/toast",
 };
 
 LootJS.modifiers((event) => {
