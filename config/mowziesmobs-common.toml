@@ -463,7 +463,7 @@
 		[mobs.lantern.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 4
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
@@ -484,13 +484,13 @@
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 60
+			height_min = -65
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
+			needs_cant_see_sky = true
 			#Names of structures this mob will avoid spawning near.
 			avoid_structures = []
 
@@ -694,7 +694,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["tfc_structures:is_canyons"]
+			biome_whitelist = ["tfc_structures:is_canyons", "tfc_structures:is_any_mountains"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
