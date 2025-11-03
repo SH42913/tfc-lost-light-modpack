@@ -1,0 +1,14 @@
+{
+  "values": [
+    "valarian_conquest:galician_fort",
+    "valarian_conquest:galiciancastle",
+    "ivp:small_village_desert",
+    "minecraft:village_desert",
+    "ctov:medium/village_desert",
+    "ctov:medium/village_desert_oasis",
+    "ctov:small/village_desert",
+    "ctov:small/village_desert_oasis",
+    "nova_structures:tavern_desert",
+    "nova_structures:tavern_mangrove"
+  ]
+}

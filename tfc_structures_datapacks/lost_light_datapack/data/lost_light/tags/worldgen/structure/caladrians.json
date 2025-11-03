@@ -1,0 +1,15 @@
+{
+  "values": [
+    "valarian_conquest:caladrian_castle",
+    "valarian_conquest:caladrianfort",
+    "ctov:small/village_beach",
+    "ctov:medium/village_beach",
+    "ctov:medium/village_swamp",
+    "ctov:medium/village_swamp_fortified",
+    "ctov:small/village_swamp",
+    "ctov:small/village_swamp_fortified",
+    "nova_structures:tavern_swamp",
+    "nova_structures:village_swamp",
+    "nova_structures:tavern_oak"
+  ]
+}

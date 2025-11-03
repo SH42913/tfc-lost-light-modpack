@@ -1,0 +1,13 @@
+{
+  "values": [
+    "valarian_conquest:valariancastle",
+    "valarian_conquest:valarianfort",
+    "minecraft:village_plains",
+    "ivp:small_village_plains",
+    "ctov:small/village_plains",
+    "ctov:small/village_plains_fortified",
+    "ctov:medium/village_plains",
+    "ctov:medium/village_plains_fortified",
+    "nova_structures:tavern_cherry"
+  ]
+}

@@ -14,17 +14,114 @@
   "idBasedSalt": true,
   // this is a list of custom spread factors
   "customSpreadFactors": [
-    // example of the mansion being doubled in rarity (the mod's default)
     {
-      "structure": "minecraft:mansion",
-      "factor": 5
-    }, {
-      "structure": "theorcs:orc_camp",
+      "structure": "ctov:medium/village_mountain",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_mountain_alpine",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_underground",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_plains",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_plains_fortified",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_beach",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_swamp",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_swamp_fortified",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_taiga",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_taiga_fortified",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_desert",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_desert_oasis",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_mesa",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_mesa_fortified",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_savanna",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_savanna_na",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_jungle",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_jungle_tree",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_dark_forest",
+      "factor": 10
+    },
+    {
+      "structure": "ctov:medium/village_mushroom",
+      "factor": 10
+    },
+    {
+      "structure": "tfc_trees:acacia_giant_tree",
       "factor": 1
-    }, {
+    },
+    {
+      "structure": "tfc_trees:ash_giant_tree",
+      "factor": 1
+    },
+    {
+      "structure": "tfc_trees:hickory_giant_tree",
+      "factor": 1
+    },
+    {
+      "structure": "tfc_trees:kapok_giant_tree",
+      "factor": 1
+    },
+    {
+      "structure": "tfc_trees:oak_giant_tree",
+      "factor": 1
+    },
+    {
+      "structure": "tfc_trees:plum_giant_tree",
+      "factor": 1
+    },
+    {
       "structure": "minecraft:mineshaft_mesa",
       "factor": 0
-    }
+    },
     // add the structures you want to modify in the format:
     // (don't forget to remove "//", and use dots for decimal numbers)
     //

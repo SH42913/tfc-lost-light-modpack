@@ -1,0 +1,17 @@
+{
+  "values": [
+    "create_rustic_structures:rustic_barn",
+    "create_rustic_structures:rustic_windmill",
+    "dungeons_arise:greenwood_pub",
+    "dungeons_arise:monastery",
+    "dungeons_arise:wishing_well",
+    "dungeons_arise:mushroom_house",
+    "ctov:small/village_mushroom",
+    "smallhorsestable:horse_stable",
+    "dungeons_arise:small_prairie_house",
+    "simply_houses:plains_house",
+    "simply_houses:plains_mansion",
+    "dungeons_arise:mushroom_village",
+    "ctov:medium/village_mushroom"
+  ]
+}
