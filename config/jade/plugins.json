@@ -157,6 +157,13 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "dynamictrees": {
+    "rooty_water": true,
+    "pod": true,
+    "fruit": true,
+    "rooty": true,
+    "branch": true
+  },
   "survivorsdelight": {
     "feast_decay": true
   },

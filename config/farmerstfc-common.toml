@@ -1,4 +1,11 @@
 #对沃土耕地施肥的养分加成倍率
 #Range: 1.0 ~ 10.0
 fertilizerOnRichFarmland = 2.5
+#煎锅适配加热配方温度（默认200）
+#如果不想让物品添加进煎锅加热，给物品添加#farmerstfc:cant_cook
+#Range: 200.0 ~ 2000.0
+skilletCookTemperature = 200.0
+#烤炉提供群峦热源可达到的最高温度（默认450）
+#Range: 200.0 ~ 2000.0
+stoveTemperature = 450.0
 
