@@ -423,6 +423,10 @@
     {
       "original": "minecraft:calcite",
       "replacement": "tfc:rock/smooth/chalk"
+    },
+    {
+      "original": "minecraft:smooth_basalt",
+      "replacement": "tfc:rock/smooth/basalt"
     }
   ],
   "randomReplacements": [
