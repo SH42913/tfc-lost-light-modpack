@@ -481,7 +481,7 @@
 			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_max = -65
+			height_max = 62
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_min = -65
