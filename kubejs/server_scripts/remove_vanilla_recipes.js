@@ -4,15 +4,18 @@ ServerEvents.recipes(event => {
     event.remove({type: "minecraft:smoking"})
     event.remove({type: "minecraft:campfire_cooking"})
 
-    event.remove({input: /minecraft:raw.*/});
-    event.remove({output: /minecraft:raw.*/});
-    event.remove({input: /minecraft:.*_ore/});
     event.remove({output: /minecraft:.*_ingot/});
-    event.remove({input: /minecraft:netherite.*/});
 
     event.remove({id: "minecraft:coarse_dirt"})
     event.remove({id: "minecraft:shears"})
     event.remove({id: /minecraft:.*_nugget/})
+    event.remove({id: /minecraft:.*netherite.*/});
+    event.remove({id: "minecraft:blast_furnace"})
+    event.remove({id: "minecraft:cartography_table"})
+    event.remove({id: "minecraft:brewing_stand"})
+    event.remove({id: "minecraft:stonecutter"})
+    event.remove({id: "minecraft:grindstone"})
+    event.remove({id: "minecraft:cauldron"})
 
     // event.remove({
     //     mod: "minecraft",

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "item": "minecraft:leather_helmet" },
+    "B": { "tag": "forge:coal" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "forge:ingots" },
+    "E": { "tag": "tfc:hammers" }
+  },
+  "result": { "item": "minecraft:blast_furnace" }
+}

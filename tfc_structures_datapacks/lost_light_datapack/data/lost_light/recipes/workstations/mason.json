@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "tfc:chisels" },
+    "B": { "tag": "tfc:rock/raw" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "tfc:rock/smooth" },
+    "E": { "tag": "minecraft:pickaxes" }
+  },
+  "result": { "item": "minecraft:stonecutter" }
+}

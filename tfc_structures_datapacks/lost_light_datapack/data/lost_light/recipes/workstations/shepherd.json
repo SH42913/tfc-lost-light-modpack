@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "tfc:sewing_needles" },
+    "B": { "tag": "minecraft:wool" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "tfc:high_quality_cloth" },
+    "E": { "tag": "forge:shears" }
+  },
+  "result": { "item": "minecraft:loom" }
+}

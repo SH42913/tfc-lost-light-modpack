@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "minecraft:hoes" },
+    "B": { "tag": "forge:seeds" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "tfc:foods/grains" },
+    "E": { "tag": "tfc:buckets" }
+  },
+  "result": { "item": "minecraft:composter" }
+}

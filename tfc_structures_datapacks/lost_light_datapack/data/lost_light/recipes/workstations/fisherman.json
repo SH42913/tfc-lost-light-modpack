@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "forge:fishing_rods" },
+    "B": { "tag": "tfc:small_fishing_bait" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "minecraft:fishes" },
+    "E": { "tag": "tfc:buckets" }
+  },
+  "result": { "item": "minecraft:barrel" }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "item": "minecraft:feather" },
+    "B": { "tag": "minecraft:compasses" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "item": "minecraft:map" },
+    "E": { "item": "minecraft:paper" }
+  },
+  "result": { "item": "minecraft:cartography_table" }
+}

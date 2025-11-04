@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "item": "minecraft:glass_bottle" },
+    "B": { "item": "minecraft:rotten_flesh" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "item": "minecraft:gold_nugget" },
+    "E": { "item": "minecraft:blaze_rod" }
+  },
+  "result": { "item": "minecraft:brewing_stand" }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "tfc:knives" },
+    "B": { "tag": "forge:coal" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "tfc:foods/cooked_meats" },
+    "E": { "item": "farmersdelight:cutting_board" }
+  },
+  "result": { "item": "minecraft:smoker" }
+}

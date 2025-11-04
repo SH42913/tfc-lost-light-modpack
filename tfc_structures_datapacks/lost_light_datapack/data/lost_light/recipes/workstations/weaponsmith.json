@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": { "tag": "tfc:hammers" },
+    "B": { "tag": "forge:coal" },
+    "C": { "tag": "tfc:workbenches" },
+    "D": { "tag": "forge:ingots" },
+    "E": { "tag": "minecraft:swords" }
+  },
+  "result": { "item": "minecraft:grindstone" }
+}
