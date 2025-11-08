@@ -14,6 +14,7 @@ And on top of that: a lot of QoL and optimization mods.
 
 Structures are back in TFC world, so now you have more reasons to explore this overworld, but Nether is also available to reach.
 So, pack your backpack, take your sword, mount your horse and go on to adventures! :)
+Btw, TFC Lost Light has its own Discord, you're welcome - https://discord.gg/rJb8mGTg4Q
 
 If you prefer vanilla music, just disable Medieval Music mod
 
