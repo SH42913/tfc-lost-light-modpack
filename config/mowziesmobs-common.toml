@@ -285,9 +285,9 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["!minecraft:is_ocean"]
+			biome_tags = []
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["tfc_structures:all_tfc_biomes"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = []
 
@@ -297,12 +297,12 @@
 			#Maximum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			#Range: > -1
-			generation_distance = 15
+			generation_distance = -1
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			#Range: > -1
-			generation_separation = 5
+			generation_separation = -1
 			#Maximum height for generation placement. -65 to ignore
 			#Range: -65.0 ~ 256.0
 			height_max = 50.0

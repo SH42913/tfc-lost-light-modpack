@@ -150,8 +150,7 @@
         "tfc:old_mountains"
       ],
       "structures": [
-        "mowziesmobs:monastery",
-        "mowziesmobs:wrought_chamber"
+        "mowziesmobs:monastery"
       ]
     },
     {
@@ -767,7 +766,8 @@
     "ctov:large/village_swamp_fortified",
     "ctov:large/village_taiga",
     "ctov:large/village_taiga_fortified",
-    "ctov:large/village_underground"
+    "ctov:large/village_underground",
+    "mowziesmobs:wrought_chamber"
   ],
   "defaultWorldgenStructures": [
     "dungeons_arise:foundry",
