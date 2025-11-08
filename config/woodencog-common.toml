@@ -93,6 +93,10 @@
 		wrought_iron = [7870, 449]
 
 	[woodencog.stress]
-		#Stress Impact
+		#Stress impact of the transformer
 		ct_transformer_impact = 64
+		#Stress generation factors, this values are multiplied
+		wooden_generator_base_su = 64
+		wooden_generator_wind_factor = 4
+		wooden_generator_speed_factor = 16
 
