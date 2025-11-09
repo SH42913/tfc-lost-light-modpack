@@ -19,6 +19,11 @@
     "modId": "achiopt",
     "version": "1.0.5"
   },
+  "AdvancedLootInfo-forge-1.20.1-1.4.0.jar": {
+    "jarName": "AdvancedLootInfo-forge-1.20.1-1.4.0.jar",
+    "modId": "ali",
+    "version": "1.20.1-1.4.0"
+  },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
     "modId": "aiimprovements",
@@ -785,6 +790,11 @@
     "modId": "particle_core",
     "version": "0.2.6+1.20.1+forge"
   },
+  "particle_effects-1.20.1-Forge-1.0.1.jar": {
+    "jarName": "particle_effects-1.20.1-Forge-1.0.1.jar",
+    "modId": "particle_effects",
+    "version": "1.0.1"
+  },
   "passiveshield-1.20.1-3.7.jar": {
     "jarName": "passiveshield-1.20.1-3.7.jar",
     "modId": "passiveshield",
@@ -895,6 +905,11 @@
     "modId": "scaffoldingdropsnearby",
     "version": "3.4"
   },
+  "seamless-loading-screen-2.0.3+1.20.1-forge.jar": {
+    "jarName": "seamless-loading-screen-2.0.3+1.20.1-forge.jar",
+    "modId": "seamless_loading_screen",
+    "version": "2.0.3+1.20.1"
+  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
     "modId": "searchables",
@@ -924,6 +939,11 @@
     "jarName": "skinlayers3d-forge-1.9.2-mc1.20.1.jar",
     "modId": "skinlayers3d",
     "version": "1.9.2"
+  },
+  "SlimyBoyos-forge-1.20.1-7.0.0.4.jar": {
+    "jarName": "SlimyBoyos-forge-1.20.1-7.0.0.4.jar",
+    "modId": "slimyboyos",
+    "version": "7.0.0.4"
   },
   "smallhorsestable-1.2.0-forge-1.20.1.jar": {
     "jarName": "smallhorsestable-1.2.0-forge-1.20.1.jar",
@@ -1129,6 +1149,11 @@
     "jarName": "TravelersTitles-1.20-Forge-4.0.2.jar",
     "modId": "travelerstitles",
     "version": "1.20-Forge-4.0.2"
+  },
+  "treasuredistance-1.20-1.2.jar": {
+    "jarName": "treasuredistance-1.20-1.2.jar",
+    "modId": "treasuredistance",
+    "version": "1.20-1.2"
   },
   "Tumbleweed-forge-1.20.1-0.5.5.jar": {
     "jarName": "Tumbleweed-forge-1.20.1-0.5.5.jar",
