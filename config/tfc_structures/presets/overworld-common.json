@@ -1522,6 +1522,10 @@
       "type": "SOIL"
     },
     {
+      "original": "minecraft:mycelium",
+      "type": "SOIL"
+    },
+    {
       "original": "minecraft:potted_acacia_sapling",
       "type": "WOOD"
     },
