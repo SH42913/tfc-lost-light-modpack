@@ -49,13 +49,14 @@ They're disabled by default, but you may enable them:
   - `BetterAdvancements-Forge-1.20.1-0.4.2.25.jar`
   - `chat_heads-0.14.0-forge-1.20.jar`
   - `controllable-forge-1.20.1-0.21.7.jar`
+  - `CrashAssistant-forge-1.19-1.20.1-1.10.19.jar`
   - `Ding-1.20.1-Forge-1.5.0.jar`
   - `DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar`
   - `embeddium-0.3.31+mc1.20.1.jar`
-  - `entityculling-forge-1.9.3-mc1.20.1.jar`
   - `entity_model_features_1.20.1-forge-3.0.1.jar`
   - `entity_sound_features_1.20.4-forge-0.7.1.jar`
   - `entity_texture_features_1.20.1-forge-7.0.2.jar`
+  - `entityculling-forge-1.9.3-mc1.20.1.jar`
   - `experimentalsettingsdisabler-1.20.1-3.0.jar`
   - `framework-forge-1.20.1-0.7.15.jar`
   - `ImmediatelyFast-Forge-1.5.2+1.20.4.jar`
@@ -65,10 +66,10 @@ They're disabled by default, but you may enable them:
   - `modelfix-1.15.jar`
   - `notenoughanimations-forge-1.10.6-mc1.20.1.jar`
   - `oculus-mc1.20.1-1.8.0.jar`
+  - `particle_core-0.2.6+1.20.1+forge.jar`
   - `skinlayers3d-forge-1.9.2-mc1.20.1.jar`
   - `sodiumextras-forge-1.0.7-1.20.1.jar`
   - `Sounds-2.2.1+1.20.1+forge.jar`
-  - `particle_core-0.2.6+1.20.1+forge.jar`
   - `tfc_season_notifier-1.20.1-1.1.0.jar`
   - `zmedievalmusic-1.20.1-2.2.jar`
 - Move everything from copied folder to server folder

@@ -62,11 +62,43 @@
         "isSelected": false
       },
       {
+        "path": ".mixin.out\\class\\com",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\com\\illusivesoulworks",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\com\\illusivesoulworks\\elytraslot",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\com\\illusivesoulworks\\elytraslot\\client",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\com\\illusivesoulworks\\elytraslot\\client\\ElytraSlotLayer.class",
+        "isSelected": false
+      },
+      {
         "path": ".mixin.out\\class\\net",
         "isSelected": false
       },
       {
         "path": ".mixin.out\\class\\net\\minecraft",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\net\\minecraft\\client",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\net\\minecraft\\client\\renderer",
+        "isSelected": false
+      },
+      {
+        "path": ".mixin.out\\class\\net\\minecraft\\client\\renderer\\LevelRenderer.class",
         "isSelected": false
       },
       {
@@ -143,6 +175,14 @@
       },
       {
         "path": "config\\achievement_optimizer\\Achievement-Optimizer.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ali",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ali\\ali_common.json",
         "isSelected": true
       },
       {
@@ -251,6 +291,30 @@
       },
       {
         "path": "config\\CoroUtil\\General.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\crash_assistant_localization_overrides",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\crash_assistant_localization_overrides\\README.md",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\config.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\modlist.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\problematic_mods_config.json",
         "isSelected": true
       },
       {
@@ -439,6 +503,10 @@
       },
       {
         "path": "config\\fabric\\indigo-renderer.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\functionalstorage",
         "isSelected": true
       },
       {
@@ -766,6 +834,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\spark",
+        "isSelected": true
+      },
+      {
+        "path": "config\\spark\\config.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\tfc_structures",
         "isSelected": true
       },
@@ -791,6 +867,10 @@
       },
       {
         "path": "config\\tfc_structures\\worldgen_config.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\titanium",
         "isSelected": true
       },
       {
@@ -866,6 +946,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\alltheleaks.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\ambientsounds-client.json",
         "isSelected": true
       },
@@ -910,6 +994,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\blueprint-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\blueprint-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\brutalbosses.json",
         "isSelected": true
       },
@@ -927,6 +1019,10 @@
       },
       {
         "path": "config\\chalk-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\charmofundying-server.toml",
         "isSelected": true
       },
       {
@@ -950,6 +1046,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\connectivity.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\connector.json",
         "isSelected": true
       },
@@ -963,6 +1063,10 @@
       },
       {
         "path": "config\\create-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\createoreexcavation-common.toml",
         "isSelected": true
       },
       {
@@ -1058,6 +1162,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\enchantedbookredesign-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\enchantmentlevelcapindicator.json5",
         "isSelected": true
       },
@@ -1131,6 +1239,18 @@
       },
       {
         "path": "config\\forge-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\functionalarmortrim.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\gallery-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\gallery-common.toml",
         "isSelected": true
       },
       {
@@ -1210,6 +1330,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\letmedespawn.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\libraryferret_1.properties",
         "isSelected": true
       },
@@ -1278,6 +1402,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\particle_effects-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\passiveshield.json5",
         "isSelected": true
       },
@@ -1314,6 +1442,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\seamless_loading_screen.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\secondchanceforge-common.toml",
         "isSelected": true
       },
@@ -1323,6 +1455,10 @@
       },
       {
         "path": "config\\skinlayers.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\smoothchunk.json",
         "isSelected": true
       },
       {
@@ -1626,6 +1762,14 @@
         "isSelected": false
       },
       {
+        "path": "crash-reports\\crash-2025-11-09_14.20.53-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-11-09_19.36.25-fml.txt",
+        "isSelected": false
+      },
+      {
         "path": "ct_dumps",
         "isSelected": false
       },
@@ -1730,6 +1874,10 @@
         "isSelected": true
       },
       {
+        "path": "defaultconfigs\\createoreexcavation-server.toml",
+        "isSelected": true
+      },
+      {
         "path": "defaultconfigs\\curios-server.toml",
         "isSelected": true
       },
@@ -1759,6 +1907,10 @@
       },
       {
         "path": "defaultconfigs\\mermod-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "defaultconfigs\\precision-prospecting.toml",
         "isSelected": true
       },
       {
@@ -21546,6 +21698,1110 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\AchievementOptimizer-1.20.1-1.0.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\AdvancedLootInfo-forge-1.20.1-1.4.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\AI-Improvements-1.20-0.5.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\alekiEHM-FORGE-1.20.1-1.0.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\alekiNiftyShips-FORGE-1.20.1-1.0.14.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\alltheleaks-1.1.0+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\almanac-1.20.x-forge-1.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\AmbientSounds_FORGE_v6.1.11_mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\archaeology_ruins-1.0.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\architectury-9.2.14-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\astikorcarts-1.20.1-1.1.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Auroras-1.20.1-1.6.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\BadOptimizations-2.3.1-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\baguettelib-1.20.1-Forge-1.1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\balm-forge-1.20.1-7.3.37-all.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\beneath-1.20.1-1.0.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\BetterAdvancements-Forge-1.20.1-0.4.2.25.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\bettercombat-forge-1.8.6+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\bettermobcombat-forge-1.20.1-1.3.0-all.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\bettervillage-forge-1.20.1-3.3.1-all.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\blueprint-1.20.1-7.1.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Bookshelf-Forge-1.20.1-20.2.13.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\brutalbosses-1.20.1-8.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\bsa-1.2.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\caelus-forge-3.2.0+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\canary-mc1.20.1-0.3.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\CastIronGrill-1.20.1-2.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\catalogue-forge-1.20.1-1.8.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\chalk-1.20.1-1.6.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\charmofundying-forge-6.5.0+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\chat_heads-0.14.0-forge-1.20.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\chunksending-1.20.1-2.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\clickadv-1.20.1-3.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\cloth-config-11.1.136-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\collective-1.20.1-8.13.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\configured-forge-1.20.1-2.2.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\connectivity-1.20.1-7.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\controllable-forge-1.20.1-0.21.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\corals-tfc-1.0.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\coroutil-forge-1.20.1-1.3.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\CrashAssistant-forge-1.19-1.20.1-1.10.19.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\create-1.20.1-6.0.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\createoreexcavation-1.20-1.6.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\create_netherless-1.20.1-1.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\create_rustic_structures-1.0.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\CreativeCore_FORGE_v2.12.32_mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\creepycrawlies-1.1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\cupboard-1.20.1-2.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\curios-forge-5.14.1+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\curious_armor_stands-1.20-5.1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\customvillagertrades-forge-20.25.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\cyclepaintings-1.20.1-4.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DarkPaintings-Forge-1.20.1-17.0.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\deathquotes-forge-1.20.1_1.20.4-3.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\defaultoptions-forge-1.20.1-18.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DiagonalFences-v8.1.5-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DiagonalWalls-v8.0.4-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DiagonalWindows-v8.1.5-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Ding-1.20.1-Forge-1.5.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\dismountentity-1.20.1-3.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DistantHorizons-2.3.6-b-1.20.1-fabric-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\distraction_free_recipes-forge-1.2.1-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\doubledoors-1.20.1-7.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\dragonfight-1.20.1-4.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DripSounds-1.19.4-0.3.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Dungeon Crawl-1.20.1-2.3.15.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\dungeons-and-taverns-3.0.3.f[Forge].mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\dungeons-and-taverns-pillager-outpost-rework-1.1 [Forge].mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\dungeons-and-taverns-stronghold-rework-1 [Forge].mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\DungeonsArise-1.20.x-2.1.58-release.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\elytraslot-forge-6.4.4+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\elytratrims-forge-3.9.1+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\embeddium-0.3.31+mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Enchanted-Book-Redesign-forge-1.20.1-0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Enchanting With TFC 1.20.1-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\enchantmentlevelcapindicator-1.20.1-1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\entityculling-forge-1.9.3-mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\entity_model_features_1.20.1-forge-3.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\entity_sound_features_1.20.4-forge-0.7.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\entity_texture_features_1.20.1-forge-7.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\epic-knights-1.20.1-forge-9.31.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\experimentalsettingsdisabler-1.20.1-3.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\extragore-1.20.1-5.2.3.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\fabric-api-0.92.6+1.11.14+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\fallthroughslime-1.20.1-3.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\FarmersDelight-1.20.1-1.2.9.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\farmerstfc-1.2.2-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\fastasyncworldsave-1.20.1-2.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\FastFurnace-1.20.1-8.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\FastSuite-1.20.1-5.1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\FastWorkbench-1.20.1-8.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ferritecore-6.0.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\FirmaCivilization-1.20.1-1.0.9.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\firmacivplus-1.0.1-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Firmalife-1.20.1-2.1.24.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\followersteleporttoo-1.20.1-2.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\forest_ruins-1.0.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\framework-forge-1.20.1-0.7.15.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\functionalarmortrim-1.20.1-5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\fusion-1.2.11a-forge-mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\fzzy_config-0.7.3+1.20.1+forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\gallery-1.20.1-1.0.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\geckolib-forge-1.20.1-4.8.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\gpumemleakfix-1.20.1-1.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\grabbymobs-1.20.1-1.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\gravestone-forge-1.20.1-1.0.35.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\gravestonecurioscompat-1.20.x-Forge-3.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\guieffecttimer-1.20.1-1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\guifollowers-1.20.1-4.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\handoveryouritems-1.20.1-3.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Highlighter-1.20.1-forge-1.1.9.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\hobbit_house_-1.0.1-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\HorseExpert-v8.1.1-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\hourglass-1.20-1.2.1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Iceberg-1.20.1-forge-1.1.25.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\iChunUtil-1.20.1-Forge-1.0.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ihearttfc-1.20.1-1.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ImmediatelyFast-Forge-1.5.2+1.20.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ImmersiveUI-FORGE-0.3.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\improved-village-placement-1.1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\improvedsignediting-1.20.1-1.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\InventoryProfilesNext-forge-1.20-1.10.19.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ItemPhysicLite_FORGE_v1.6.6_mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Jade-1.20.1-Forge-11.13.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\JadeAddons-1.20.1-Forge-5.5.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\jearchaeology-1.20.1-1.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\jeed-1.20-2.2.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\jei-1.20.1-forge-15.20.0.112.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\JustEnoughProfessions-forge-1.20.1-3.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Kambrik-6.1.1+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\keysmithing-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\knightsofterrafirma-3.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\kubejs-create-forge-2001.3.0-build.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\kubejs-forge-2001.6.5-build.16.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\kubejsdelight-1.1.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\kubejs_tfc-1.20.1-1.3.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\letmedespawn-1.20.x-forge-1.5.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\libIPN-forge-1.20-4.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\libraryferret-forge-1.20.1-4.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\lithostitched-forge-1.20.1-1.4.11.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\lootjs-forge-1.20.1-2.13.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Lychee-1.20.1-Forge-5.1.21.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Mc style paintings 1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\mcw-paintings-1.0.5-1.20.1forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\mermod-forge-1.20.1-3.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\minecraft-comes-alive-7.6.12+1.20.1-universal.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\mobplayeranimator-forge-1.20.1-1.3.3-all.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\modelfix-1.15.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\modernfix-forge-5.25.1+mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\MouseTweaks-forge-mc1.20.1-2.25.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\mowziesmobs-1.7.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\MRU-1.0.4+1.20.1+forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\netherportalfix-forge-1.20-13.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\netherportalspread-1.20.1-8.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\notenoughanimations-forge-1.10.6-mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\nyfsspiders-forge-1.20.1-2.1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\OctoLib-FORGE-0.5.0.1+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\oculus-mc1.20.1-1.8.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\particle_core-0.2.6+1.20.1+forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\particle_effects-1.20.1-Forge-1.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\passiveshield-1.20.1-3.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Patchouli-1.20.1-84.1-FORGE.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\petnames-1.20.1-3.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\piglinnames-1.20.1-1.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Placebo-1.20.1-8.6.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\player-animation-lib-forge-1.0.2-rc1+1.20.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\polymorph-forge-0.49.10+1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\precisionprospecting-1.20.1-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\primitive creatures V2.2 1.20.1 .mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\puffish_attributes-0.7.7-1.20-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\puffish_skills-0.16.8-1.20-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\PuzzlesLib-v8.1.33-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\randombonemealflowers-1.20.1-4.7.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\realmrpg_skeletons-1.1.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\REBIRTH Paintings 5.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\recipeessentials-1.20.1-4.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\resourcefulconfig-forge-1.20.1-2.1.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\ResourcePackOverrides-v8.0.3-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\rhino-forge-2001.2.3-build.10.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\rnr-0.2.1-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\rubidium-extra-0.5.4.4+mc1.20.1-build.131.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Sacks 'N Such-1.20.1-1.2.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\scaffoldingdropsnearby-1.20.1-3.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\seamless-loading-screen-2.0.3+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Searchables-forge-1.20.1-1.0.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\secondchanceforge-1.20-1.5.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\seriousplayeranimations-1.1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\settlement-roads-2.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\SimplyHouses-1.1.4-1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\skinlayers3d-forge-1.9.2-mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\SlimyBoyos-forge-1.20.1-7.0.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\smallhorsestable-1.2.0-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\smoothchunk-1.20.1-4.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\snowballsfreezemobs-1.20.1-3.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sodiumdynamiclights-forge-1.0.10-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sodiumextras-forge-1.0.7-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sodiumoptionsapi-forge-1.0.10-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sodiumoptionsmodcompat-forge-1.0.0-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sound-physics-remastered-forge-1.20.1-1.5.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Sounds-2.2.1+1.20.1+forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\sparsestructures-forge-1.20.1-3.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\starlight-1.1.2+forge.1cda73c.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Stellar View-1.20.1-0.5.2-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\structureessentials-1.20.1-4.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\structure_layout_optimizer-forge-1.0.11.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\survivorsabilities-1.2.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\survivorsdelight-2.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\SwordBlockingMechanics-v8.0.2-1.20.1-Forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TerraFirmaCraft-Forge-1.20.1-3.2.19.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc-ore-excavation-1.20.1-forge-1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCAgedAlcohol-1.20.1-2.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCAstikorCarts-1.20.1-1.1.8.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfcbarrels-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCBetterBlastFurnace-1.20.1-1.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfcchannelcasting-0.2.3-beta.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfccreatechaincompt-1.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCDesirePaths-1.20.1-1.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCGyres-OreHints-2.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCImprovedBadlands-1.20.1-1.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCRegrowingForests-1.20.1-1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCTumbleweed-1.20.1-1.2.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCVesselTooltip-1.20.1-1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCVolcanoes-1.20.1-1.3.16.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCWeather-1.20.1-1.6.12.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TFCWeldButton-1.20.1-1.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_curios_weight-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_loot-1.20.1-forge-ver.1.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_season_notifier-1.20.1-1.1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_structures-1.20.1-0.3.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_support_indicator-1.0.3+mc1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_trees-1.20.1-forge-1.0.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\tfc_trim-1.4.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\TravelersTitles-1.20-Forge-4.0.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\treasuredistance-1.20-1.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Tumbleweed-forge-1.20.1-0.5.5.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\twoplayersonehorse-forge-1.20.1-1.0.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\txnilib-forge-1.0.24-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Updating World Icon-forge-1.20.1-1.0.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\valarian_conquest-3.2.1-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\villagerskeeptfclampslit-1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\villagespawnpoint-1.20.1-4.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\waterflasks-3.0.10.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\watut-forge-1.20.1-1.2.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Waves-1.20.1-1.6a.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\waystones-forge-1.20.1-14.1.17.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\weakerspiderwebs-1.20.1-3.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\weaponmaster_ydm-forge-1.20.1-4.2.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\weather2-1.20.1-2.8.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\weather2modcompat-1.1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\woodencog-1.2.8-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\worldplaytime-1.2.3-1.20.x-FORGE.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\XaerosWorldMap_1.39.12_Forge_1.20.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\Xaeros_Minimap_25.2.10_Forge_1.20.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\xaeros_waystones_compability-1.0.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\yet_another_config_lib_v3-3.6.6+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\YungsApi-1.20-Forge-4.0.6.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\YungsBetterDungeons-1.20-Forge-4.0.4.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\YungsBetterWitchHuts-1.20-Forge-3.0.3.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\zmedievalmusic-1.20.1-2.2.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\[1.20.x-forge]-Epic-Knights-Antique-Legacy-1.8.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\[forge]ctov-3.4.14.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\23388_1762705541443.info",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\23388_1762705541443_app.jar",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\23388_1762705541443_args.info",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\23388_1762705541443_gpu-detect-jni.dll",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\23388_1762705541443_mod.jar",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\CONFIG_LOCK.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\gpu-detect-jni-README.MD",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\local_config.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\normal_stop_pid23388.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\renderer_pid23388.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\successful_launch_pid23388.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\username.info",
+        "isSelected": false
+      },
+      {
         "path": "local\\kubejs",
         "isSelected": false
       },
@@ -22214,6 +23470,58 @@
         "isSelected": false
       },
       {
+        "path": "logs\\crash_assistant",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_18-48-05.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-01-37.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-08-55.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-16-30.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-21-54.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-36-11.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-39-32.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_19-49-05.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_20-00-28.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_20-09-42.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-11-09_20-19-40.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\kubejs",
         "isSelected": false
       },
@@ -22234,7 +23542,11 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20251102-1.json.gz",
+        "path": "logs\\telemetry\\20251109-1.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20251109-2.json.gz",
         "isSelected": false
       },
       {
@@ -22254,7 +23566,67 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-11-05-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-08-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-11-09-7.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\modlist.txt",
         "isSelected": false
       },
       {
@@ -35334,6 +36706,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\AdvancedLootInfo-forge-1.20.1-1.4.0.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\AI-Improvements-1.20-0.5.2.jar",
         "isSelected": true
       },
@@ -35343,6 +36719,14 @@
       },
       {
         "path": "mods\\alekiNiftyShips-FORGE-1.20.1-1.0.14.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\alltheleaks-1.1.0+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\almanac-1.20.x-forge-1.0.2.jar",
         "isSelected": true
       },
       {
@@ -35398,6 +36782,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\blueprint-1.20.1-7.1.3.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Bookshelf-Forge-1.20.1-20.2.13.jar",
         "isSelected": true
       },
@@ -35407,6 +36795,10 @@
       },
       {
         "path": "mods\\bsa-1.2.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\caelus-forge-3.2.0+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -35423,6 +36815,10 @@
       },
       {
         "path": "mods\\chalk-1.20.1-1.6.6.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\charmofundying-forge-6.5.0+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -35450,6 +36846,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\connectivity-1.20.1-7.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Connector-1.0.0-beta.46+1.20.1.jar",
         "isSelected": true
       },
@@ -35467,6 +36867,10 @@
       },
       {
         "path": "mods\\create-1.20.1-6.0.8.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\createoreexcavation-1.20-1.6.5.jar",
         "isSelected": true
       },
       {
@@ -35499,10 +36903,6 @@
       },
       {
         "path": "mods\\customvillagertrades-forge-20.25.0.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\cyclepaintings-1.20.1-4.1.jar",
         "isSelected": true
       },
       {
@@ -35594,6 +36994,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\elytraslot-forge-6.4.4+1.20.1.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\elytratrims-forge-3.9.1+1.20.1.jar",
         "isSelected": true
       },
@@ -35603,6 +37007,10 @@
       },
       {
         "path": "mods\\emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\Enchanted-Book-Redesign-forge-1.20.1-0.jar",
         "isSelected": true
       },
       {
@@ -35654,7 +37062,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\farmerstfc-1.2.1-1.20.1.jar",
+        "path": "mods\\farmerstfc-1.2.2-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\fastasyncworldsave-1.20.1-2.6.jar",
         "isSelected": true
       },
       {
@@ -35698,11 +37110,19 @@
         "isSelected": true
       },
       {
+        "path": "mods\\functionalarmortrim-1.20.1-5.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\fusion-1.2.11a-forge-mc1.20.1.jar",
         "isSelected": true
       },
       {
         "path": "mods\\fzzy_config-0.7.3+1.20.1+forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\gallery-1.20.1-1.0.3.jar",
         "isSelected": true
       },
       {
@@ -35846,6 +37266,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\letmedespawn-1.20.x-forge-1.5.0.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\libIPN-forge-1.20-4.0.2.jar",
         "isSelected": true
       },
@@ -35870,6 +37294,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\mcw-paintings-1.0.5-1.20.1forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\mermod-forge-1.20.1-3.0.1.jar",
         "isSelected": true
       },
@@ -35886,7 +37314,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\modernfix-forge-5.24.4+mc1.20.1.jar",
+        "path": "mods\\modernfix-forge-5.25.1+mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -35926,6 +37354,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\particle_effects-1.20.1-Forge-1.0.1.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\passiveshield-1.20.1-3.7.jar",
         "isSelected": true
       },
@@ -35954,6 +37386,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\precisionprospecting-1.20.1-1.0.0.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\primitive creatures V2.2 1.20.1 .jar",
         "isSelected": true
       },
@@ -35971,10 +37407,6 @@
       },
       {
         "path": "mods\\PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\randombonemealflowers-1.20.1-4.7.jar",
         "isSelected": true
       },
       {
@@ -36014,6 +37446,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\seamless-loading-screen-2.0.3+1.20.1-forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Searchables-forge-1.20.1-1.0.3.jar",
         "isSelected": true
       },
@@ -36038,7 +37474,15 @@
         "isSelected": true
       },
       {
+        "path": "mods\\SlimyBoyos-forge-1.20.1-7.0.0.4.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\smallhorsestable-1.2.0-forge-1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\smoothchunk-1.20.1-4.1.jar",
         "isSelected": true
       },
       {
@@ -36070,7 +37514,15 @@
         "isSelected": true
       },
       {
+        "path": "mods\\spark-1.10.53-forge.jar.disabled",
+        "isSelected": true
+      },
+      {
         "path": "mods\\sparsestructures-forge-1.20.1-3.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\starlight-1.1.2+forge.1cda73c.jar",
         "isSelected": true
       },
       {
@@ -36090,7 +37542,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\survivorsdelight-1.5.3.jar",
+        "path": "mods\\survivorsdelight-2.0.0.jar",
         "isSelected": true
       },
       {
@@ -36099,6 +37551,10 @@
       },
       {
         "path": "mods\\TerraFirmaCraft-Forge-1.20.1-3.2.19.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\tfc-ore-excavation-1.20.1-forge-1.0.jar",
         "isSelected": true
       },
       {
@@ -36111,6 +37567,10 @@
       },
       {
         "path": "mods\\tfcbarrels-1.0.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\TFCBetterBlastFurnace-1.20.1-1.0.1.jar",
         "isSelected": true
       },
       {
@@ -36190,6 +37650,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\treasuredistance-1.20-1.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Tumbleweed-forge-1.20.1-0.5.5.jar",
         "isSelected": true
       },
@@ -36246,7 +37710,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\woodencog-1.2.7-1.20.1.jar",
+        "path": "mods\\woodencog-1.2.8-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -36378,6 +37842,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\data\\blueprint_storage.dat",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\data\\capabilities.dat",
         "isSelected": false
       },
@@ -36391,14 +37859,6 @@
       },
       {
         "path": "saves\\New World\\data\\MCA-FamilyTree.dat",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\data\\mca_civil_registry_0.dat",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\data\\mca_graveyard.dat",
         "isSelected": false
       },
       {
@@ -36427,10 +37887,6 @@
       },
       {
         "path": "saves\\New World\\data\\random_sequences.dat",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\data\\scoreboard.dat",
         "isSelected": false
       },
       {
@@ -36502,39 +37958,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-1.-3.mca",
+        "path": "saves\\New World\\entities\\r.-1.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-1.-4.mca",
+        "path": "saves\\New World\\entities\\r.-1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-4.-4.mca",
+        "path": "saves\\New World\\entities\\r.-2.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-4.-5.mca",
+        "path": "saves\\New World\\entities\\r.-2.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-5.-1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\entities\\r.-5.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\entities\\r.-5.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\entities\\r.-5.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\entities\\r.0.-4.mca",
+        "path": "saves\\New World\\entities\\r.-7.-6.mca",
         "isSelected": false
       },
       {
@@ -36554,47 +37994,11 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\poi\\r.-1.-4.mca",
+        "path": "saves\\New World\\poi\\r.-2.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\poi\\r.-4.-1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-4.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-4.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-4.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-5.-1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-5.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-5.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-5.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-5.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.0.-4.mca",
+        "path": "saves\\New World\\poi\\r.-2.0.mca",
         "isSelected": false
       },
       {
@@ -36602,35 +38006,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-1.-3.mca",
+        "path": "saves\\New World\\region\\r.-1.-1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-1.-4.mca",
+        "path": "saves\\New World\\region\\r.-1.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-1.-5.mca",
+        "path": "saves\\New World\\region\\r.-10.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-10.-10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-10.-17.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-10.-19.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-10.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-10.11.mca",
+        "path": "saves\\New World\\region\\r.-10.12.mca",
         "isSelected": false
       },
       {
@@ -36638,23 +38026,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-10.30.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-11.-12.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-11.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-11.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-11.14.mca",
+        "path": "saves\\New World\\region\\r.-11.13.mca",
         "isSelected": false
       },
       {
@@ -36662,75 +38034,83 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.-4.mca",
+        "path": "saves\\New World\\region\\r.-12.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.-7.mca",
+        "path": "saves\\New World\\region\\r.-12.12.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.-8.mca",
+        "path": "saves\\New World\\region\\r.-12.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.18.mca",
+        "path": "saves\\New World\\region\\r.-12.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.21.mca",
+        "path": "saves\\New World\\region\\r.-13.-15.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.-13.mca",
+        "path": "saves\\New World\\region\\r.-13.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.-15.mca",
+        "path": "saves\\New World\\region\\r.-13.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.-3.mca",
+        "path": "saves\\New World\\region\\r.-13.14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.0.mca",
+        "path": "saves\\New World\\region\\r.-13.17.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.28.mca",
+        "path": "saves\\New World\\region\\r.-14.5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-15.12.mca",
+        "path": "saves\\New World\\region\\r.-14.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-15.19.mca",
+        "path": "saves\\New World\\region\\r.-14.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-15.2.mca",
+        "path": "saves\\New World\\region\\r.-15.-15.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-16.-6.mca",
+        "path": "saves\\New World\\region\\r.-15.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-16.0.mca",
+        "path": "saves\\New World\\region\\r.-16.-16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-16.19.mca",
+        "path": "saves\\New World\\region\\r.-16.-20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-16.20.mca",
+        "path": "saves\\New World\\region\\r.-16.16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-17.-12.mca",
+        "path": "saves\\New World\\region\\r.-16.18.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-17.11.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-17.13.mca",
         "isSelected": false
       },
       {
@@ -36738,35 +38118,15 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-17.4.mca",
+        "path": "saves\\New World\\region\\r.-17.6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-18.-10.mca",
+        "path": "saves\\New World\\region\\r.-18.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-18.-26.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.-29.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.17.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.20.mca",
+        "path": "saves\\New World\\region\\r.-18.4.mca",
         "isSelected": false
       },
       {
@@ -36774,11 +38134,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-19.-30.mca",
+        "path": "saves\\New World\\region\\r.-19.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-2.-2.mca",
+        "path": "saves\\New World\\region\\r.-19.13.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-19.21.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-19.24.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-2.-1.mca",
         "isSelected": false
       },
       {
@@ -36790,27 +38162,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.-29.mca",
+        "path": "saves\\New World\\region\\r.-20.-17.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.-6.mca",
+        "path": "saves\\New World\\region\\r.-20.-20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.0.mca",
+        "path": "saves\\New World\\region\\r.-20.-9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.20.mca",
+        "path": "saves\\New World\\region\\r.-21.14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-22.-38.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-23.-12.mca",
+        "path": "saves\\New World\\region\\r.-22.-20.mca",
         "isSelected": false
       },
       {
@@ -36818,39 +38186,39 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-24.-23.mca",
+        "path": "saves\\New World\\region\\r.-23.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-24.-31.mca",
+        "path": "saves\\New World\\region\\r.-25.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-24.-5.mca",
+        "path": "saves\\New World\\region\\r.-26.-18.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-24.-6.mca",
+        "path": "saves\\New World\\region\\r.-26.-19.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-27.-29.mca",
+        "path": "saves\\New World\\region\\r.-26.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-27.-9.mca",
+        "path": "saves\\New World\\region\\r.-26.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-28.22.mca",
+        "path": "saves\\New World\\region\\r.-29.-19.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-28.24.mca",
+        "path": "saves\\New World\\region\\r.-29.2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-3.-2.mca",
+        "path": "saves\\New World\\region\\r.-3.-1.mca",
         "isSelected": false
       },
       {
@@ -36858,59 +38226,15 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-3.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-3.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-3.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-3.-7.mca",
-        "isSelected": false
-      },
-      {
         "path": "saves\\New World\\region\\r.-3.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-3.19.mca",
+        "path": "saves\\New World\\region\\r.-34.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-30.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-30.21.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-30.30.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-34.-34.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-35.23.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-39.-22.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-39.-33.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-4.-1.mca",
+        "path": "saves\\New World\\region\\r.-35.-12.mca",
         "isSelected": false
       },
       {
@@ -36918,19 +38242,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-4.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-4.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-4.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-4.-6.mca",
+        "path": "saves\\New World\\region\\r.-4.-12.mca",
         "isSelected": false
       },
       {
@@ -36938,11 +38250,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-42.57.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-45.-44.mca",
+        "path": "saves\\New World\\region\\r.-40.-6.mca",
         "isSelected": false
       },
       {
@@ -36950,39 +38258,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-3.mca",
+        "path": "saves\\New World\\region\\r.-5.-11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-4.mca",
+        "path": "saves\\New World\\region\\r.-5.-14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-5.mca",
+        "path": "saves\\New World\\region\\r.-5.-9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-5.0.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-5.23.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.-13.mca",
+        "path": "saves\\New World\\region\\r.-6.-14.mca",
         "isSelected": false
       },
       {
         "path": "saves\\New World\\region\\r.-6.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.-4.mca",
         "isSelected": false
       },
       {
@@ -36998,35 +38290,59 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-6.-8.mca",
+        "path": "saves\\New World\\region\\r.-6.2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-6.14.mca",
+        "path": "saves\\New World\\region\\r.-7.-3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-7.-14.mca",
+        "path": "saves\\New World\\region\\r.-7.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-7.20.mca",
+        "path": "saves\\New World\\region\\r.-7.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-7.25.mca",
+        "path": "saves\\New World\\region\\r.-7.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-8.18.mca",
+        "path": "saves\\New World\\region\\r.-7.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-8.27.mca",
+        "path": "saves\\New World\\region\\r.-8.-16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.20.mca",
+        "path": "saves\\New World\\region\\r.-8.-22.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-8.-6.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-9.-10.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-9.-19.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-9.-26.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-9.-8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-9.0.mca",
         "isSelected": false
       },
       {
@@ -37034,51 +38350,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.0.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.0.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.0.-6.mca",
-        "isSelected": false
-      },
-      {
         "path": "saves\\New World\\region\\r.0.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.20.mca",
+        "path": "saves\\New World\\region\\r.0.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.22.mca",
+        "path": "saves\\New World\\region\\r.0.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.23.mca",
+        "path": "saves\\New World\\region\\r.0.12.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.29.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.1.-10.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.1.-19.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.1.-25.mca",
+        "path": "saves\\New World\\region\\r.0.17.mca",
         "isSelected": false
       },
       {
@@ -37090,175 +38378,223 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.-8.mca",
+        "path": "saves\\New World\\region\\r.1.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.-9.mca",
+        "path": "saves\\New World\\region\\r.1.13.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.-20.mca",
+        "path": "saves\\New World\\region\\r.1.17.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.-18.mca",
+        "path": "saves\\New World\\region\\r.1.20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.-30.mca",
+        "path": "saves\\New World\\region\\r.1.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.12.-23.mca",
+        "path": "saves\\New World\\region\\r.1.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.14.-26.mca",
+        "path": "saves\\New World\\region\\r.10.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.15.-22.mca",
+        "path": "saves\\New World\\region\\r.10.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.17.14.mca",
+        "path": "saves\\New World\\region\\r.10.20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.17.19.mca",
+        "path": "saves\\New World\\region\\r.10.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.18.-24.mca",
+        "path": "saves\\New World\\region\\r.10.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.19.-31.mca",
+        "path": "saves\\New World\\region\\r.11.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-12.mca",
+        "path": "saves\\New World\\region\\r.11.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-13.mca",
+        "path": "saves\\New World\\region\\r.11.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-3.mca",
+        "path": "saves\\New World\\region\\r.11.13.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-37.mca",
+        "path": "saves\\New World\\region\\r.11.2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-5.mca",
+        "path": "saves\\New World\\region\\r.11.23.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-6.mca",
+        "path": "saves\\New World\\region\\r.11.6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-9.mca",
+        "path": "saves\\New World\\region\\r.11.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.18.mca",
+        "path": "saves\\New World\\region\\r.12.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.28.mca",
+        "path": "saves\\New World\\region\\r.12.14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.34.mca",
+        "path": "saves\\New World\\region\\r.12.22.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.22.45.mca",
+        "path": "saves\\New World\\region\\r.14.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.23.0.mca",
+        "path": "saves\\New World\\region\\r.14.2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.24.-30.mca",
+        "path": "saves\\New World\\region\\r.16.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.24.0.mca",
+        "path": "saves\\New World\\region\\r.17.-11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.24.11.mca",
+        "path": "saves\\New World\\region\\r.19.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.26.25.mca",
+        "path": "saves\\New World\\region\\r.2.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.29.17.mca",
+        "path": "saves\\New World\\region\\r.2.-11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.-5.mca",
+        "path": "saves\\New World\\region\\r.2.20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.-6.mca",
+        "path": "saves\\New World\\region\\r.2.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.31.mca",
+        "path": "saves\\New World\\region\\r.2.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.4.-3.mca",
+        "path": "saves\\New World\\region\\r.20.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.4.31.mca",
+        "path": "saves\\New World\\region\\r.21.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.43.-29.mca",
+        "path": "saves\\New World\\region\\r.3.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.5.-15.mca",
+        "path": "saves\\New World\\region\\r.3.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.6.-7.mca",
+        "path": "saves\\New World\\region\\r.3.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.6.20.mca",
+        "path": "saves\\New World\\region\\r.3.24.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.-7.mca",
+        "path": "saves\\New World\\region\\r.31.28.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.45.mca",
+        "path": "saves\\New World\\region\\r.32.38.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.-22.mca",
+        "path": "saves\\New World\\region\\r.33.16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.-29.mca",
+        "path": "saves\\New World\\region\\r.37.21.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.4.-7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.4.10.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.6.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.7.-23.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.7.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.7.5.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.7.8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.8.17.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.8.3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.-3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.0.mca",
         "isSelected": false
       },
       {
         "path": "saves\\New World\\region\\r.9.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.14.mca",
         "isSelected": false
       },
       {
@@ -37275,6 +38611,10 @@
       },
       {
         "path": "saves\\New World\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\serverconfig\\createoreexcavation-server.toml",
         "isSelected": false
       },
       {
@@ -37307,6 +38647,10 @@
       },
       {
         "path": "saves\\New World\\serverconfig\\mermod-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\serverconfig\\precision-prospecting.toml",
         "isSelected": false
       },
       {
@@ -37359,6 +38703,30 @@
       },
       {
         "path": "screenshots",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\archive",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\realms",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\servers",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\singleplayer",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\worlds\\singleplayer\\New World.png",
         "isSelected": false
       },
       {
@@ -37419,6 +38787,14 @@
       },
       {
         "path": "screenshots\\2025-11-01_22.17.20.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2025-11-09_20.03.27.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2025-11-09_20.03.27_2.png",
         "isSelected": false
       },
       {
@@ -37571,6 +38947,22 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_tomatoes.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags\\items",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags\\items\\fishing_rods.json",
         "isSelected": false
       },
       {
@@ -37906,6 +39298,10 @@
         "isSelected": false
       },
       {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\worldgen",
+        "isSelected": false
+      },
+      {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\minecraft",
         "isSelected": true
       },
@@ -37935,6 +39331,18 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\mowziesmobs\\recipes\\jungle_planks_from_clawed_log.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures\\worldgen",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures\\worldgen\\structure",
         "isSelected": false
       },
       {
@@ -39218,23 +40626,31 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\New World\\null\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\New World\\null\\cache\\3",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\New World\\null\\cache_1",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-4_-4.xwmc.outdated",
+        "path": "xaero\\world-map\\New World\\null\\cache_1\\-1_-1.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-4_-5.xwmc",
+        "path": "xaero\\world-map\\New World\\null\\cache_1\\-1_0.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-5_-4.xwmc.outdated",
+        "path": "xaero\\world-map\\New World\\null\\cache_1\\-2_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-5_-5.xwmc",
+        "path": "xaero\\world-map\\New World\\null\\cache_1\\-2_0.xwmc.outdated",
         "isSelected": false
       },
       {
