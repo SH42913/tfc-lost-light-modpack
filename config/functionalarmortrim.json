@@ -1,0 +1,115 @@
+{
+    "tfc:metal/ingot/bismuth": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 2.0
+        }
+    ],
+    "tfc:gem/diamond": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 2.0
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "amount": 2.0
+        }
+    ],
+    "tfc:metal/ingot/sterling_silver": [
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "amount": 2.0
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.25
+        }
+    ],
+    "tfc:gem/ruby": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "amount": 0.1
+        },
+        {
+            "attribute": "forge:step_height_addition",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "tfc:gem/sapphire": [
+        {
+            "attribute": "forge:swim_speed",
+            "operation": "multiply_total",
+            "amount": 0.1
+        }
+    ],
+    "tfc:gem/amethyst": [
+        {
+            "attribute": "functionalarmortrim:night_vision",
+            "operation": "addition",
+            "amount": 0.25
+        }
+    ],
+    "tfc:gem/lapis_lazuli": [
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_total",
+            "amount": 0.1
+        }
+    ],
+    "tfc:gem/pyrite": [
+        {
+            "attribute": "functionalarmortrim:thorns",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "tfc:gem/emerald": [
+        {
+            "attribute": "functionalarmortrim:gossip_boost",
+            "operation": "multiply_total",
+            "amount": 0.1
+        }
+    ],
+    "tfc:metal/ingot/gold": [
+        {
+            "attribute": "minecraft:generic.luck",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "tfc:gem/topaz": [
+        {
+            "attribute": "puffish_attributes:sprinting_speed",
+            "operation": "multiply_total",
+            "amount": 0.1
+        }
+    ],
+    "tfc:metal/ingot/rose_gold": [
+        {
+            "attribute": "functionalarmortrim:gossip_boost",
+            "operation": "multiply_total",
+            "amount": 0.15
+        }
+    ],
+    "tfc:metal/ingot/silver": [
+        {
+            "attribute": "puffish_attributes:resistance",
+            "operation": "multiply_total",
+            "amount": 0.1
+        }
+    ],
+    "tfc:gem/opal": [
+        {
+            "attribute": "puffish_attributes:stealth",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ]
+}
