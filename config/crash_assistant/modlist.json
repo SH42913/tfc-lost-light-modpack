@@ -124,6 +124,11 @@
     "modId": "bsa",
     "version": "1.2.1"
   },
+  "caelus-forge-3.2.0+1.20.1.jar": {
+    "jarName": "caelus-forge-3.2.0+1.20.1.jar",
+    "modId": "caelus",
+    "version": "3.2.0+1.20.1"
+  },
   "canary-mc1.20.1-0.3.3.jar": {
     "jarName": "canary-mc1.20.1-0.3.3.jar",
     "modId": "canary",
@@ -143,6 +148,11 @@
     "jarName": "chalk-1.20.1-1.6.6.jar",
     "modId": "chalk",
     "version": "1.6.6"
+  },
+  "charmofundying-forge-6.5.0+1.20.1.jar": {
+    "jarName": "charmofundying-forge-6.5.0+1.20.1.jar",
+    "modId": "charmofundying",
+    "version": "6.5.0+1.20.1"
   },
   "chat_heads-0.14.0-forge-1.20.jar": {
     "jarName": "chat_heads-0.14.0-forge-1.20.jar",
@@ -346,6 +356,11 @@
     "jarName": "DungeonsArise-1.20.x-2.1.58-release.jar",
     "modId": "dungeons_arise",
     "version": "2.1.58-1.20.x"
+  },
+  "elytraslot-forge-6.4.4+1.20.1.jar": {
+    "jarName": "elytraslot-forge-6.4.4+1.20.1.jar",
+    "modId": "elytraslot",
+    "version": "6.4.4+1.20.1"
   },
   "elytratrims-forge-3.9.1+1.20.1.jar": {
     "jarName": "elytratrims-forge-3.9.1+1.20.1.jar",
