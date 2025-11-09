@@ -382,6 +382,11 @@
     "modId": "emotecraft",
     "version": "2.2.7-b.build.50"
   },
+  "Enchanted-Book-Redesign-forge-1.20.1-0.jar": {
+    "jarName": "Enchanted-Book-Redesign-forge-1.20.1-0.jar",
+    "modId": "enchantedbookredesign",
+    "version": "0"
+  },
   "Enchanting With TFC 1.20.1-1.0.0.jar": {
     "jarName": "Enchanting With TFC 1.20.1-1.0.0.jar",
     "modId": "enchanting_with_tfc",
