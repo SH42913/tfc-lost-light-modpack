@@ -1,0 +1,32 @@
+{
+  "replace": false, "values": [
+  "mca:grim_reaper",
+  "minecraft:cat",
+  "minecraft:ender_dragon",
+  "minecraft:ocelot",
+  "minecraft:panda",
+  "minecraft:phantom",
+  "minecraft:piglin_brute",
+  "minecraft:polar_bear",
+  "minecraft:vex",
+  "minecraft:vindicator",
+  "minecraft:wither_skeleton",
+  "minecraft:wolf",
+  "minecraft:zombified_piglin",
+  "primitive_creatures:beast",
+  "tfc:black_bear",
+  "tfc:cat",
+  "tfc:cougar",
+  "tfc:dog",
+  "tfc:fox",
+  "tfc:grizzly_bear",
+  "tfc:hyena",
+  "tfc:lion",
+  "tfc:ocelot",
+  "tfc:panda",
+  "tfc:panther",
+  "tfc:polar_bear",
+  "tfc:sabertooth",
+  "tfc:tiger"
+]
+}
