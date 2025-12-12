@@ -202,6 +202,7 @@ const lootReplacementMap = {
     "farmersdelight:rice": "tfc:seeds/rice",
     "farmersdelight:tomato_seeds": "tfc:seeds/tomato",
     "create:sweet_roll": "firmalife:food/toast",
+    "minecraft:rabbit_hide": "tfc:small_raw_hide"
 };
 
 LootJS.modifiers((event) => {

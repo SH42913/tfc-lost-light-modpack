@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "minecraft:stonecutter"})
     event.remove({id: "minecraft:grindstone"})
     event.remove({id: "minecraft:cauldron"})
+    event.remove({id: "minecraft:leather"})
 
     // event.remove({
     //     mod: "minecraft",
