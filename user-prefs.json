@@ -602,6 +602,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\inventoryprofilesnext\\My Real World",
+        "isSelected": true
+      },
+      {
         "path": "config\\inventoryprofilesnext\\New World",
         "isSelected": true
       },
@@ -663,6 +667,10 @@
       },
       {
         "path": "config\\jei\\world\\local",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\local\\My_Real_World",
         "isSelected": true
       },
       {
@@ -1334,6 +1342,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\LibertyVillagers.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\libraryferret_1.properties",
         "isSelected": true
       },
@@ -1506,6 +1518,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\survivorsabilities-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\survivorsdelight-common.toml",
         "isSelected": true
       },
@@ -1566,7 +1582,15 @@
         "isSelected": true
       },
       {
+        "path": "config\\transition.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\travelerstitles-forge-1_20.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\trender.json",
         "isSelected": true
       },
       {
@@ -1767,6 +1791,18 @@
       },
       {
         "path": "crash-reports\\crash-2025-11-09_19.36.25-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-12-12_01.16.17-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-12-12_01.18.02-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-12-12_01.22.34-client.txt",
         "isSelected": false
       },
       {
@@ -21654,6 +21690,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\server_scripts\\entity_loot_replacement.js",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\server_scripts\\leaves_loot_table.js",
         "isSelected": true
       },
@@ -23542,14 +23582,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20251109-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20251109-2.json.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\2025-11-04-1.log.gz",
         "isSelected": false
       },
@@ -23618,7 +23650,39 @@
         "isSelected": false
       },
       {
-        "path": "logs\\2025-11-09-7.log.gz",
+        "path": "logs\\2025-12-11-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-11-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-12-7.log.gz",
         "isSelected": false
       },
       {
@@ -36706,7 +36770,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\AdvancedLootInfo-forge-1.20.1-1.4.0.jar",
+        "path": "mods\\AdvancedLootInfo-forge-1.20.1-1.6.0.jar",
         "isSelected": true
       },
       {
@@ -36722,7 +36786,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\alltheleaks-1.1.0+1.20.1-forge.jar",
+        "path": "mods\\alltheleaks-1.1.1+1.20.1-forge.jar",
         "isSelected": true
       },
       {
@@ -36730,7 +36794,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+        "path": "mods\\AmbientSounds_FORGE_v6.3.1_mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -36750,11 +36814,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\BadOptimizations-2.3.1-1.20.1.jar",
+        "path": "mods\\BadOptimizations-2.4.0-1.20.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\baguettelib-1.20.1-Forge-1.1.1.jar",
+        "path": "mods\\baguettelib-1.20.1-Forge-1.1.5.jar",
         "isSelected": true
       },
       {
@@ -36770,7 +36834,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\bettercombat-forge-1.8.6+1.20.1.jar",
+        "path": "mods\\bettercombat-forge-1.9.0+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -36822,7 +36886,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\chat_heads-0.14.0-forge-1.20.jar",
+        "path": "mods\\chat_heads-0.14.2-forge-1.20.jar",
         "isSelected": true
       },
       {
@@ -36850,7 +36914,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Connector-1.0.0-beta.46+1.20.1.jar",
+        "path": "mods\\Connector-1.0.0-beta.47+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -36982,7 +37046,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\DynamicTrees-1.20.1-1.4.7.jar.disabled",
+        "path": "mods\\DynamicTrees-1.20.1-1.4.8.jar.disabled",
         "isSelected": true
       },
       {
@@ -36998,7 +37062,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\elytratrims-forge-3.9.1+1.20.1.jar",
+        "path": "mods\\elytratrims-forge-3.9.3+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37022,11 +37086,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\entityculling-forge-1.9.3-mc1.20.1.jar",
+        "path": "mods\\entityculling-forge-1.9.4-mc1.20.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\entity_model_features_1.20.1-forge-3.0.1.jar",
+        "path": "mods\\entity_model_features_1.20.1-forge-3.0.7.jar",
         "isSelected": true
       },
       {
@@ -37034,7 +37098,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\entity_texture_features_1.20.1-forge-7.0.2.jar",
+        "path": "mods\\entity_texture_features_1.20.1-forge-7.0.6.jar",
         "isSelected": true
       },
       {
@@ -37186,11 +37250,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ImmediatelyFast-Forge-1.5.2+1.20.4.jar",
+        "path": "mods\\ImmediatelyFast-Forge-1.5.3+1.20.4.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\improved-village-placement-1.1.1.jar",
+        "path": "mods\\improved-village-placement-1.1.2.jar",
         "isSelected": true
       },
       {
@@ -37242,7 +37306,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\kotlinforforge-4.11.0-all.jar",
+        "path": "mods\\kotlinforforge-4.12.0-all.jar",
         "isSelected": true
       },
       {
@@ -37258,7 +37322,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\kubejsoffline-5.0.7.jar.disabled",
+        "path": "mods\\kubejsoffline-5.2.0.26.jar.disabled",
         "isSelected": true
       },
       {
@@ -37267,6 +37331,10 @@
       },
       {
         "path": "mods\\letmedespawn-1.20.x-forge-1.5.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\libertyvillagers-2.0.0+forge+1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37302,7 +37370,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\minecraft-comes-alive-7.6.12+1.20.1-universal.jar",
+        "path": "mods\\minecraft-comes-alive-7.6.13+1.20.1-universal.jar",
         "isSelected": true
       },
       {
@@ -37314,7 +37382,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\modernfix-forge-5.25.1+mc1.20.1.jar",
+        "path": "mods\\modernfix-forge-5.25.2+mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37338,7 +37406,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\notenoughanimations-forge-1.10.6-mc1.20.1.jar",
+        "path": "mods\\notenoughanimations-forge-1.11.0-mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37390,7 +37458,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\primitive creatures V2.2 1.20.1 .jar",
+        "path": "mods\\primitive_creatures_2.7forge1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37398,11 +37466,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\puffish_attributes-0.7.7-1.20-forge.jar",
+        "path": "mods\\puffish_attributes-0.8.0-1.20-forge.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\puffish_skills-0.16.8-1.20-forge.jar",
+        "path": "mods\\puffish_skills-0.17.0-1.20-forge.jar",
         "isSelected": true
       },
       {
@@ -37514,7 +37582,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\spark-1.10.53-forge.jar.disabled",
+        "path": "mods\\spark-1.10.53-forge.jar",
         "isSelected": true
       },
       {
@@ -37538,11 +37606,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\survivorsabilities-1.2.0.jar",
+        "path": "mods\\survivorsabilities-1.3.4-all.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\survivorsdelight-2.0.0.jar",
+        "path": "mods\\survivorsdelight-2.2.1.jar",
         "isSelected": true
       },
       {
@@ -37686,7 +37754,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Waves-1.20.1-1.6a.jar",
+        "path": "mods\\Waves-1.20.1-1.6.1.jar",
         "isSelected": true
       },
       {
@@ -37710,7 +37778,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\woodencog-1.2.8-1.20.1.jar",
+        "path": "mods\\woodencog-1.2.12-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37958,23 +38026,23 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-1.-1.mca",
+        "path": "saves\\New World\\entities\\r.1.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-1.0.mca",
+        "path": "saves\\New World\\entities\\r.1.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-2.-1.mca",
+        "path": "saves\\New World\\entities\\r.1.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-2.0.mca",
+        "path": "saves\\New World\\entities\\r.2.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\entities\\r.-7.-6.mca",
+        "path": "saves\\New World\\entities\\r.2.-7.mca",
         "isSelected": false
       },
       {
@@ -37994,11 +38062,7 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\poi\\r.-2.-1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\poi\\r.-2.0.mca",
+        "path": "saves\\New World\\poi\\r.1.-7.mca",
         "isSelected": false
       },
       {
@@ -38006,123 +38070,71 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-1.-1.mca",
+        "path": "saves\\New World\\region\\r.-1.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-1.0.mca",
+        "path": "saves\\New World\\region\\r.-10.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-10.-4.mca",
+        "path": "saves\\New World\\region\\r.-10.19.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-10.12.mca",
+        "path": "saves\\New World\\region\\r.-11.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-10.13.mca",
+        "path": "saves\\New World\\region\\r.-11.15.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-11.13.mca",
+        "path": "saves\\New World\\region\\r.-13.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-11.23.mca",
+        "path": "saves\\New World\\region\\r.-13.2.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.11.mca",
+        "path": "saves\\New World\\region\\r.-14.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.12.mca",
+        "path": "saves\\New World\\region\\r.-14.18.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.7.mca",
+        "path": "saves\\New World\\region\\r.-15.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-12.8.mca",
+        "path": "saves\\New World\\region\\r.-16.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.-15.mca",
+        "path": "saves\\New World\\region\\r.-16.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.-6.mca",
+        "path": "saves\\New World\\region\\r.-16.12.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.10.mca",
+        "path": "saves\\New World\\region\\r.-16.19.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.14.mca",
+        "path": "saves\\New World\\region\\r.-17.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-13.17.mca",
+        "path": "saves\\New World\\region\\r.-17.23.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-14.5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-14.7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-14.9.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-15.-15.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-15.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-16.-16.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-16.-20.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-16.16.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-16.18.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-17.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-17.13.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-17.22.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-17.6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-18.10.mca",
+        "path": "saves\\New World\\region\\r.-18.24.mca",
         "isSelected": false
       },
       {
@@ -38130,27 +38142,19 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-19.-10.mca",
+        "path": "saves\\New World\\region\\r.-19.-16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-19.10.mca",
+        "path": "saves\\New World\\region\\r.-19.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-19.13.mca",
+        "path": "saves\\New World\\region\\r.-19.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-19.21.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-19.24.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-2.-1.mca",
+        "path": "saves\\New World\\region\\r.-19.23.mca",
         "isSelected": false
       },
       {
@@ -38158,11 +38162,11 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-2.0.mca",
+        "path": "saves\\New World\\region\\r.-2.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.-17.mca",
+        "path": "saves\\New World\\region\\r.-2.-7.mca",
         "isSelected": false
       },
       {
@@ -38170,55 +38174,15 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-20.-9.mca",
+        "path": "saves\\New World\\region\\r.-20.19.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-21.14.mca",
+        "path": "saves\\New World\\region\\r.-22.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-22.-20.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-23.-23.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-23.8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-25.1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-26.-18.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-26.-19.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-26.1.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-26.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-29.-19.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-29.2.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-3.-1.mca",
+        "path": "saves\\New World\\region\\r.-26.3.mca",
         "isSelected": false
       },
       {
@@ -38226,91 +38190,55 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-3.0.mca",
+        "path": "saves\\New World\\region\\r.-3.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-34.4.mca",
+        "path": "saves\\New World\\region\\r.-3.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-35.-12.mca",
+        "path": "saves\\New World\\region\\r.-30.-26.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-4.-11.mca",
+        "path": "saves\\New World\\region\\r.-4.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-4.-12.mca",
+        "path": "saves\\New World\\region\\r.-4.5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-4.0.mca",
+        "path": "saves\\New World\\region\\r.-4.6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-40.-6.mca",
+        "path": "saves\\New World\\region\\r.-5.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-1.mca",
+        "path": "saves\\New World\\region\\r.-5.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-11.mca",
+        "path": "saves\\New World\\region\\r.-6.-15.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-14.mca",
+        "path": "saves\\New World\\region\\r.-6.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-5.-9.mca",
+        "path": "saves\\New World\\region\\r.-7.-17.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-6.-14.mca",
+        "path": "saves\\New World\\region\\r.-7.7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-6.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.-5.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.-7.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-6.2.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-7.-3.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-7.-4.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-7.-6.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-7.-8.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.-7.3.mca",
+        "path": "saves\\New World\\region\\r.-7.8.mca",
         "isSelected": false
       },
       {
@@ -38318,31 +38246,31 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-8.-22.mca",
+        "path": "saves\\New World\\region\\r.-8.-25.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-8.-6.mca",
+        "path": "saves\\New World\\region\\r.-8.10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.-10.mca",
+        "path": "saves\\New World\\region\\r.-8.9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.-19.mca",
+        "path": "saves\\New World\\region\\r.-9.-20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.-26.mca",
+        "path": "saves\\New World\\region\\r.-9.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.-8.mca",
+        "path": "saves\\New World\\region\\r.-9.11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.-9.0.mca",
+        "path": "saves\\New World\\region\\r.-9.3.mca",
         "isSelected": false
       },
       {
@@ -38350,23 +38278,47 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.1.mca",
+        "path": "saves\\New World\\region\\r.0.-3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.10.mca",
+        "path": "saves\\New World\\region\\r.0.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.11.mca",
+        "path": "saves\\New World\\region\\r.0.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.12.mca",
+        "path": "saves\\New World\\region\\r.0.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.0.17.mca",
+        "path": "saves\\New World\\region\\r.0.-7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.0.-8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.0.-9.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.0.24.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.1.-10.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.1.-11.mca",
         "isSelected": false
       },
       {
@@ -38378,99 +38330,99 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.1.-5.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.1.-6.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.1.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.13.mca",
+        "path": "saves\\New World\\region\\r.1.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.17.mca",
+        "path": "saves\\New World\\region\\r.1.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.20.mca",
+        "path": "saves\\New World\\region\\r.10.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.8.mca",
+        "path": "saves\\New World\\region\\r.10.22.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.1.9.mca",
+        "path": "saves\\New World\\region\\r.10.8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.-4.mca",
+        "path": "saves\\New World\\region\\r.11.-16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.-5.mca",
+        "path": "saves\\New World\\region\\r.11.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.20.mca",
+        "path": "saves\\New World\\region\\r.11.18.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.4.mca",
+        "path": "saves\\New World\\region\\r.11.3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.10.7.mca",
+        "path": "saves\\New World\\region\\r.12.-11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.-6.mca",
+        "path": "saves\\New World\\region\\r.12.4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.-7.mca",
+        "path": "saves\\New World\\region\\r.13.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.1.mca",
+        "path": "saves\\New World\\region\\r.13.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.13.mca",
+        "path": "saves\\New World\\region\\r.14.-14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.2.mca",
+        "path": "saves\\New World\\region\\r.14.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.23.mca",
+        "path": "saves\\New World\\region\\r.14.13.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.6.mca",
+        "path": "saves\\New World\\region\\r.15.15.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.11.7.mca",
+        "path": "saves\\New World\\region\\r.15.16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.12.-6.mca",
+        "path": "saves\\New World\\region\\r.15.18.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.12.14.mca",
+        "path": "saves\\New World\\region\\r.15.20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.12.22.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.14.11.mca",
-        "isSelected": false
-      },
-      {
-        "path": "saves\\New World\\region\\r.14.2.mca",
+        "path": "saves\\New World\\region\\r.15.9.mca",
         "isSelected": false
       },
       {
@@ -38478,79 +38430,95 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.17.-11.mca",
+        "path": "saves\\New World\\region\\r.16.17.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.19.4.mca",
+        "path": "saves\\New World\\region\\r.2.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-10.mca",
+        "path": "saves\\New World\\region\\r.2.-6.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.-11.mca",
+        "path": "saves\\New World\\region\\r.2.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.20.mca",
+        "path": "saves\\New World\\region\\r.2.-8.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.8.mca",
+        "path": "saves\\New World\\region\\r.2.-9.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.2.9.mca",
+        "path": "saves\\New World\\region\\r.2.16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.20.-8.mca",
+        "path": "saves\\New World\\region\\r.21.-7.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.21.10.mca",
+        "path": "saves\\New World\\region\\r.21.20.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.-7.mca",
+        "path": "saves\\New World\\region\\r.23.-11.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.0.mca",
+        "path": "saves\\New World\\region\\r.23.-16.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.1.mca",
+        "path": "saves\\New World\\region\\r.23.12.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.3.24.mca",
+        "path": "saves\\New World\\region\\r.23.24.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.31.28.mca",
+        "path": "saves\\New World\\region\\r.28.-28.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.32.38.mca",
+        "path": "saves\\New World\\region\\r.4.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.33.16.mca",
+        "path": "saves\\New World\\region\\r.4.14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.37.21.mca",
+        "path": "saves\\New World\\region\\r.44.-27.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.4.-7.mca",
+        "path": "saves\\New World\\region\\r.46.5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.4.10.mca",
+        "path": "saves\\New World\\region\\r.5.-5.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.5.-6.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.5.-8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.5.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.6.-10.mca",
         "isSelected": false
       },
       {
@@ -38558,43 +38526,75 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.-23.mca",
+        "path": "saves\\New World\\region\\r.6.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.1.mca",
+        "path": "saves\\New World\\region\\r.7.-10.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.5.mca",
+        "path": "saves\\New World\\region\\r.7.-5.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.7.8.mca",
+        "path": "saves\\New World\\region\\r.8.-14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.8.17.mca",
+        "path": "saves\\New World\\region\\r.8.-3.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.8.3.mca",
+        "path": "saves\\New World\\region\\r.8.-4.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.-3.mca",
+        "path": "saves\\New World\\region\\r.8.0.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.0.mca",
+        "path": "saves\\New World\\region\\r.8.1.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.1.mca",
+        "path": "saves\\New World\\region\\r.8.14.mca",
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\region\\r.9.14.mca",
+        "path": "saves\\New World\\region\\r.8.15.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.8.4.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.-13.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.-6.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.-7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.-8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.15.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.20.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.9.3.mca",
         "isSelected": false
       },
       {
@@ -38619,6 +38619,14 @@
       },
       {
         "path": "saves\\New World\\serverconfig\\curios-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\serverconfig\\dynamictrees-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\serverconfig\\dynamictreesplus-server.toml",
         "isSelected": false
       },
       {
@@ -38726,6 +38734,10 @@
         "isSelected": false
       },
       {
+        "path": "screenshots\\worlds\\singleplayer\\My Real World.png",
+        "isSelected": false
+      },
+      {
         "path": "screenshots\\worlds\\singleplayer\\New World.png",
         "isSelected": false
       },
@@ -38798,6 +38810,14 @@
         "isSelected": false
       },
       {
+        "path": "screenshots\\2025-12-12_20.46.45.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2025-12-12_20.46.46.png",
+        "isSelected": false
+      },
+      {
         "path": "shaderpacks",
         "isSelected": true
       },
@@ -38810,7 +38830,7 @@
         "isSelected": true
       },
       {
-        "path": "shaderpacks\\MakeUp-UltraFast-9.3e.zip",
+        "path": "shaderpacks\\MakeUp-UltraFast-9.3h.zip",
         "isSelected": true
       },
       {
@@ -38963,6 +38983,34 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags\\items\\fishing_rods.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\all.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\antiquespear.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\concavehalberd.json",
         "isSelected": false
       },
       {
@@ -39298,10 +39346,6 @@
         "isSelected": false
       },
       {
-        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\worldgen",
-        "isSelected": false
-      },
-      {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\minecraft",
         "isSelected": true
       },
@@ -39360,6 +39404,810 @@
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\blocks\\mineable_with_sharp_tool.json",
         "isSelected": true
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_crushing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_piercing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_slashing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\axes.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_greens_high.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_greens_low.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_poisons.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_crushing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_piercing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_slashing_damage.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\hammers.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\javelins.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\knives.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\maces.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\pickaxes.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\swords.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\usable_on_tool_rack.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\beneath_red_elk.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\firmalife_bee.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\gravestone_player_ghost.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_female_zombie_villager.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_grim_reaper.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_male_zombie_villager.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_allay.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_axolotl.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_bat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_bee.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_blaze.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_camel.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cave_spider.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_chicken.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cod.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cow.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_creeper.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_dolphin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_donkey.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_drowned.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_elder_guardian.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_enderman.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_endermite.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ender_dragon.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_evoker.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_fox.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_frog.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ghast.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_giant.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_glow_squid.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_goat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_guardian.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_hoglin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_horse.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_husk.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_illusioner.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_iron_golem.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_llama.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_magma_cube.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_mooshroom.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_mule.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ocelot.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_panda.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_parrot.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_phantom.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pig.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_piglin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_piglin_brute.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pillager.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_polar_bear.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pufferfish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_rabbit.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ravager.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_salmon.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_sheep.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_shulker.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_silverfish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_skeleton.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_skeleton_horse.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_slime.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_sniffer.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_snow_golem.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_spider.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_squid.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_stray.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_strider.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_tadpole.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_trader_llama.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_tropical_fish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_turtle.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_vex.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_vindicator.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wandering_trader.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_warden.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_witch.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wither.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wither_skeleton.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wolf.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zoglin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie_horse.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie_villager.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombified_piglin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_baby_foliaath.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_bluff.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_ferrous_wroughtnaut.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_foliaath.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_frostmaw.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_grottol.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_lantern.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_naga.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_crane.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_crane_player.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_follower_player.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_follower_raptor.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_raptor.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthi.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_beast.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_golem_2.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_idolater_.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_1.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_2.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_3.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_4.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_5.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_6.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_musselwarden.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_nahida.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_piloger_9.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_tfc.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_viloger_10.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_wiloger.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_alpaca.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_black_bear.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_bluegill.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_boar.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_bongo.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_caribou.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_chicken.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cod.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cougar.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cow.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crappie.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crayfish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crocodile.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_deer.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_direwolf.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_dog.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_dolphin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_donkey.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_duck.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_fox.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_frog.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_gazelle.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_goat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_grizzly_bear.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_grouse.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_horse.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_horseshoe_crab.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_hyena.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_isopod.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_jellyfish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lake_trout.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_largemouth_bass.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lion.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lobster.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_manatee.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_moose.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_mule.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_musk_ox.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_ocelot.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_octopoteuthis.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_orca.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_panda.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_panther.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_peafowl.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_penguin.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pheasant.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pig.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_polar_bear.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pufferfish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_quail.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rabbit.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rainbow_trout.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rat.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_sabertooth.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_salmon.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_sheep.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_smallmouth_bass.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_squid.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_tiger.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_tropical_fish.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_turkey.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_turtle.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_wildebeest.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_wolf.json",
+        "isSelected": false
+      },
+      {
+        "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_yak.json",
+        "isSelected": false
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\worldgen",
@@ -40582,6 +41430,30 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\My Real World",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\My Real World\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\My Real World\\null\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\My Real World\\null\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\My Real World\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\My Real World\\server_config.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\New World",
         "isSelected": false
       },
@@ -40635,22 +41507,6 @@
       },
       {
         "path": "xaero\\world-map\\New World\\null\\cache_1",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-1_-1.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-1_0.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-2_-1.xwmc.outdated",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\New World\\null\\cache_1\\-2_0.xwmc.outdated",
         "isSelected": false
       },
       {
