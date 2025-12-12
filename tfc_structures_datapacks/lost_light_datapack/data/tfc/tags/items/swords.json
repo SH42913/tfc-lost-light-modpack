@@ -1,0 +1,33 @@
+{
+  "replace": false, "values": [
+  "valarian_conquest:valarian_sword",
+  "valarian_conquest:bohemian_sword",
+  "valarian_conquest:caladrian_sword",
+  "valarian_conquest:galician_sword",
+  "valarian_conquest:numerian_sword",
+  "valarian_conquest:mercenary_sword",
+  "valarian_conquest:sword_of_courage",
+  "valarian_conquest:gardonian_sword",
+  "valarian_conquest:visgothian_sword",
+  "valarian_conquest:lancastian_sword",
+  "valarian_conquest:gilded_legion_sword",
+  "valarian_conquest:bandit_sword",
+  "valarian_conquest:draugr_sword",
+  "#knightsofterrafirma:weapons/antiquesword",
+  "#knightsofterrafirma:weapons/celticsword",
+  "#knightsofterrafirma:weapons/early_spatha",
+  "#knightsofterrafirma:weapons/gladiator",
+  "#knightsofterrafirma:weapons/gladius",
+  "#knightsofterrafirma:weapons/kopis",
+  "#knightsofterrafirma:weapons/republic_gladius",
+  "#knightsofterrafirma:weapons/rhomphaia",
+  "#knightsofterrafirma:weapons/singleedged",
+  "#knightsofterrafirma:weapons/spatha",
+  "#knightsofterrafirma:weapons/xiphos",
+  "#knightsofterrafirma:weapons/flamebladedsword",
+  "#knightsofterrafirma:weapons/katzbalger",
+  "#knightsofterrafirma:weapons/bastardsword",
+  "#knightsofterrafirma:weapons/claymore",
+  "#knightsofterrafirma:weapons/zweihander"
+]
+}

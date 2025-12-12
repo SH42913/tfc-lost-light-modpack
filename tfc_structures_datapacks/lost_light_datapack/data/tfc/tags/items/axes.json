@@ -1,0 +1,12 @@
+{
+  "replace": false, "values": [
+  "valarian_conquest:light_axe",
+  "valarian_conquest:heavy_axe",
+  "valarian_conquest:draugr_axe",
+  "valarian_conquest:dwarven_axe",
+  "valarian_conquest:light_axe",
+  "#knightsofterrafirma:weapons/concavehalberd",
+  "#knightsofterrafirma:weapons/guisarme",
+  "#knightsofterrafirma:weapons/lochaberaxe"
+]
+}
