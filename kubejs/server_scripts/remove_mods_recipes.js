@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "magistuarmory:steel_ingot_to_steel_nuggets"})
     event.remove({id: "magistuarmory:steel_nuggets_to_steel_ingot"})
+    event.remove({id: /magistuarmory:.*shield.*/})
     event.remove({id: "knightsofterrafirma:anvil/iron_nugget"})
 
     event.remove({id: "create:crafting/materials/copper_nugget"})
