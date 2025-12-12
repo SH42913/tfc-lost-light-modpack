@@ -1,0 +1,9 @@
+{
+  "replace": false, "values": [
+  "#knightsofterrafirma:weapons/guisarme",
+  "#knightsofterrafirma:weapons/shortsword",
+  "#knightsofterrafirma:weapons/stylet",
+  "#knightsofterrafirma:weapons/katzbalger",
+  "magistuarmory:rusted_bastardsword"
+]
+}
