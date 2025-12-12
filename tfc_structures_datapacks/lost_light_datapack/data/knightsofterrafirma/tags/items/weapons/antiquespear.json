@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "valarian_conquest:soldiers_spear",
+    "valarian_conquest:knights_spear",
+    "valarian_conquest:refined_spear",
+    "valarian_conquest:gilded_legion_spear",
+    "valarian_conquest:draugr_spear"
+  ]
+}

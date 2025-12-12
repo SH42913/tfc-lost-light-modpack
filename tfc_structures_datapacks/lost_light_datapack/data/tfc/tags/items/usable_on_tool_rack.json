@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#knightsofterrafirma:weapons/all",
+    "#minecraft:swords",
+    "#minecraft:tools",
+    "valarian_conquest:shaman_staff"
+  ]
+}
