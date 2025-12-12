@@ -48,7 +48,7 @@ behavior = "Bounce"
 weight = "Heavy"
 state = "Solid"
 color = "255,255,255"
-entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:grottol", "mowziesmobs:frostmaw"]
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:grottol", "mowziesmobs:frostmaw", "valarian_conquest:valarian_cannon", "valarian_conquest:caladrian_cannon", "valarian_conquest:catapult", "valarian_conquest:battering_ram", "valarian_conquest:carriage"]
 
 ["Green Group"]
 behavior = "Stuck"
@@ -176,7 +176,6 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "tfc:lake_trout",
     "tfc:dog",
     "tfc:sheep",
-    "valarian_conquest:battering_ram",
     "tfc:gazelle",
     "valarian_conquest:bandit_1",
     "minecraft:bat",
@@ -214,11 +213,9 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "tfc:black_bear",
     "minecraft:piglin_brute",
     "valarian_conquest:valarian_guard",
-    "valarian_conquest:catapult",
     "tfc:jellyfish",
     "valarian_conquest:lancastian_archer",
     "tfc:grouse",
-    "valarian_conquest:caladrian_cannon",
     "minecraft:parrot",
     "valarian_conquest:numerian_spearman",
     "valarian_conquest:dwarven_guard",
@@ -258,7 +255,6 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "valarian_conquest:gardonian_villager",
     "tfc:salmon",
     "tfc:largemouth_bass",
-    "valarian_conquest:valarian_cannon",
     "tfc:penguin",
     "minecraft:cow",
     "tfc:rabbit",
@@ -299,6 +295,5 @@ entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian",
     "minecraft:ocelot",
     "valarian_conquest:galician_villager",
     "minecraft:wolf",
-    "tfc:horse",
-    "valarian_conquest:carriage"
+    "tfc:horse"
 ]
