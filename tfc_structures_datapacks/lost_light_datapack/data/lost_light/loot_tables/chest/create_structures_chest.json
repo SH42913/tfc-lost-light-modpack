@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:chest", "pools": [
+  {
+    "name": "pool_structure_and_basics", "rolls": {
+    "min": 5, "max": 8
+  }, "entries": [
+    {
+      "type": "minecraft:item", "name": "tfc:wood/lumber/oak", "weight": 9, "functions": [
+      {
+        "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+      }
+    ]
+    }, {
+      "type": "minecraft:item", "name": "tfc:wood/lumber/maple", "weight": 9, "functions": [
+        {
+          "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+        }
+      ]
+    }, {
+      "type": "minecraft:item", "name": "tfc:wood/lumber/spruce", "weight": 9, "functions": [
+        {
+          "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+        }
+      ]
+    }, {
+      "type": "minecraft:item", "name": "tfc:wood/lumber/birch", "weight": 9, "functions": [
+        {
+          "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+        }
+      ]
+    }, {
+      "type": "minecraft:item", "name": "create:shaft", "weight": 13, "functions": [
+        {
+          "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+        }
+      ]
+    }, {
+      "type": "minecraft:item", "name": "create:andesite_casing", "weight": 10, "functions": [
+        {
+          "function": "minecraft:set_count", "count": 1
+        }
+      ]
+    }, {
+      "type": "minecraft:item", "name": "tfc:wool_yarn", "weight": 8, "functions": [
+        {
+          "function": "minecraft:set_count", "count": { "min": 1, "max": 2 }
+        }
+      ]
+    }
+  ]
+  }, {
+    "name": "pool_machinery", "rolls": {
+      "min": 1, "max": 3
+    }, "entries": [
+      {
+        "type": "minecraft:item", "name": "create:cogwheel", "weight": 10, "functions": [
+        {
+          "function": "minecraft:set_count", "count": 1
+        }
+      ]
+      }, {
+        "type": "minecraft:item", "name": "create:large_cogwheel", "weight": 10, "functions": [
+          {
+            "function": "minecraft:set_count", "count": 1
+          }
+        ]
+      }, {
+        "type": "minecraft:item", "name": "create:sail_frame", "weight": 4, "functions": [
+          {
+            "function": "minecraft:set_count", "count": 1
+          }
+        ]
+      }, {
+        "type": "minecraft:item", "name": "create:white_sail", "weight": 2, "functions": [
+          {
+            "function": "minecraft:set_count", "count": 1
+          }
+        ]
+      }, {
+        "type": "minecraft:item", "name": "create:gearbox", "weight": 3, "functions": [
+          {
+            "function": "minecraft:set_count", "count": 1
+          }
+        ]
+      }, {
+        "type": "minecraft:item", "name": "create:water_wheel", "weight": 1, "functions": [
+          {
+            "function": "minecraft:set_count", "count": 1
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "pool_agriculture_and_food", "rolls": {
+      "min": 1, "max": 3
+    }, "entries": [
+      { "type": "minecraft:item", "name": "tfc:seeds/barley", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:seeds/oat", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:seeds/rye", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:seeds/maize", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:seeds/wheat", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:seeds/rice", "weight": 4 },
+      { "type": "minecraft:item", "name": "tfc:food/maize_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/oat_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/rye_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/barley_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/rice_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/wheat_flour", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/red_apple", "weight": 3 },
+      { "type": "minecraft:item", "name": "tfc:food/green_apple", "weight": 3 },
+      {
+        "type": "minecraft:item", "name": "minecraft:leather", "weight": 5, "functions": [
+        {
+          "function": "minecraft:set_count", "count": 1
+        }
+      ]
+      },
+      {
+        "type": "minecraft:item", "name": "tfc:wooden_bucket", "weight": 4, "functions": [
+        {
+          "function": "minecraft:set_count", "count": 1
+        }
+      ]
+      },
+      {
+        "type": "minecraft:item", "name": "farmersdelight:cake_slice", "weight": 2, "functions": [
+        {
+          "function": "minecraft:set_count", "count": 1
+        }
+      ]
+      }
+    ]
+  }, {
+    "name": "pool_rare_glue", "rolls": 1, "entries": [
+      {
+        "type": "minecraft:item", "name": "create:super_glue", "weight": 1
+      }
+    ], "conditions": [
+      {
+        "condition": "minecraft:random_chance", "chance": 0.067
+      }
+    ]
+  }
+]
+}

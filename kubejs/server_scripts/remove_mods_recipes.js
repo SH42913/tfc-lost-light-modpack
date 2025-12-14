@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "create:crafting/materials/copper_nugget"})
     event.remove({id: "create:crafting/materials/zinc_nugget_from_decompacting"})
     event.remove({id: "create:crafting/materials/brass_nugget_from_decompacting"})
+    event.remove({id: "create:crafting/curiosities/cake"})
     event.remove({id: "tfc:crafting/vanilla/loom"})
 
     event.remove({id: "farmersdelight:canvas"})

@@ -142,22 +142,22 @@
     },
     "create_rustic_structures:rustic_barn": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "",
+      "emptyChestLootTable": "lost_light:chest/create_structures_chest",
       "lootTablesOverrideMap": {}
     },
     "create_rustic_structures:rustic_smithy": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "emptyChestLootTable": "lost_light:chest/create_structures_chest",
       "lootTablesOverrideMap": {}
     },
     "create_rustic_structures:rustic_well": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "emptyChestLootTable": "lost_light:chest/create_structures_chest",
       "lootTablesOverrideMap": {}
     },
     "create_rustic_structures:rustic_windmill": {
       "replacementPreset": "overworld-common",
-      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "emptyChestLootTable": "lost_light:chest/create_structures_chest",
       "lootTablesOverrideMap": {}
     },
     "ctov:large/village_beach": {
