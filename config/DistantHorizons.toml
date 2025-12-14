@@ -8,6 +8,13 @@ _version = 3
 	[client.advanced]
 
 		[client.advanced.graphics]
+			#
+			# If true some vanilla graphics settings will be automatically changed 
+			# during DH setup to provide a better experience. 
+			#  
+			# IE disabling vanilla clouds (which render on top of DH LODs), 
+			#    and chunk fading (DH already fades MC chunks)
+			overrideVanillaGraphicsSettings = true
 
 			[client.advanced.graphics.quality]
 				#
@@ -59,7 +66,7 @@ _version = 3
 				# False: skipped blocks will not change color of surface below them.
 				tintWithAvoidedBlocks = true
 				#
-				# What the value should vanilla Minecraft's texture LodBias be? 
+				# What value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
 				lodBias = "0.0"
 				#
@@ -111,6 +118,10 @@ _version = 3
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
 				lodBiomeBlending = 3
+				#
+				# Should DH fade out before reaching the far clip plane? 
+				# This is helpful to prevent DH clouds from cutting off in the distance.
+				dhFadeFarClipPlane = true
 
 			[client.advanced.graphics.ssao]
 				#
@@ -365,6 +376,12 @@ _version = 3
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				earthCurveRatio = 100
+				#
+				# For internal testing:
+				# Skips loading adjacent LODs to significantly reduce load times (~5x)
+				# but causes lighting on LOD borders to appear as full-bright
+				# and other graphical bugs.
+				onlyLoadCenterLods = false
 
 		[client.advanced.multiplayer]
 			#
@@ -491,6 +508,9 @@ _version = 3
 				# Massively reduces FPS. 
 				# Should only be used if mysterious EXCEPTION_ACCESS_VIOLATION crashes are happening in DH's rendering code for troubleshooting.
 				validateBufferIdsBeforeRendering = false
+				#
+				# 
+				glUploadMode = "AUTO"
 
 			[client.advanced.debugging.f3Screen]
 				#
@@ -581,6 +601,20 @@ _version = 3
 		# are being generated. 
 		# This can be useful for troubleshooting performance.
 		generationProgressIncludeChunksPerSecond = true
+		#
+		# The center X chunk position that the world gen max radius is centered around.
+		generationCenterChunkX = 0
+		#
+		# The center Z chunk position that the world gen max radius is centered around.
+		generationCenterChunkZ = 0
+		#
+		# The max radius in chunks around the central point where world generation is allowed. 
+		# If this value is set to 0, generation bounds are disabled and the render distance will be used. 
+		# 
+		# This should only be set if you have a pre-generated world that has a very limited size. 
+		# Setting this on a normal MC world will prevent the world generator from filling 
+		# out your render distance.
+		generationMaxChunkRadius = 0
 
 	[common.lodBuilding]
 		#
@@ -698,6 +732,12 @@ _version = 3
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
 		threadRunTimeRatio = "1.0"
+		#
+		# What Java thread priority should DH's primary thread pools run with? 
+		# 
+		# You probably don't need to change this unless you are also 
+		# running C2ME and are seeing thread starvation in either C2ME or DH.
+		threadPriority = 5
 
 	[common.logging]
 		#
@@ -724,6 +764,36 @@ _version = 3
 		# If enabled, the mod will log information about network operations. 
 		# This can be useful for debugging.
 		logNetworkEvent = "LOG_ERROR_TO_CHAT_AND_INFO_TO_FILE"
+		#
+		# 
+		globalFileMaxLevel = "INFO"
+		#
+		# 
+		globalChatMaxLevel = "ERROR"
+		#
+		# If enabled, the mod will log information about the world generation process. 
+		# This can be useful for debugging.
+		logWorldGenEventToFile = "INFO"
+		#
+		# If enabled, the mod will log information about the world generation process. 
+		# This can be useful for debugging.
+		logWorldGenChunkLoadEventToFile = "INFO"
+		#
+		# If enabled, the mod will log information about the renderer setup, cleanup, and any issues it may encounter. 
+		# This can be useful for debugging.
+		logRendererEventToFile = "INFO"
+		#
+		# If enabled, the mod will log information about the renderer OpenGL process. 
+		# This can be useful for debugging.
+		logRendererGLEventToFile = "INFO"
+		#
+		# If enabled, the mod will log information about the renderer OpenGL process. 
+		# This can be useful for debugging.
+		logRendererGLEventToChat = "ERROR"
+		#
+		# If enabled, the mod will log information about network operations. 
+		# This can be useful for debugging.
+		logNetworkEventToFile = "INFO"
 
 		[common.logging.warning]
 			#
@@ -750,6 +820,10 @@ _version = 3
 			# If enabled, a chat message will be displayed when a potentially problematic 
 			# mod is installed alongside DH.
 			showModCompatibilityWarningsOnStartup = true
+			#
+			# If enabled, a chat message will be displayed when DH has too many chunks 
+			# queued for updating.
+			showSlowWorldGenSettingWarnings = true
 
 [server]
 	#
@@ -812,6 +886,17 @@ _version = 3
 	# Maximum global speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
 	globalBandwidthLimit = 0
+	#
+	# DO NOT CHANGE UNLESS YOU KNOW WHAT YOU'RE DOING.
+	# Autogenerated ID used to prevent multiple independent servers from accidentally
+	# writing over each other's LODs when the same serverKey is set on both.
+	serverId = -1661326630
+	#
+	# Custom server key used which can be used to always reuse the same LOD data folder,
+	# for cases when the server doesn't have a static IP for some reason.
+	# If this value is empty, the client itself decides which folder name to use.
+	# Requires rejoining the server to apply after changing.
+	serverKey = ""
 
 	[server.experimental]
 		#
