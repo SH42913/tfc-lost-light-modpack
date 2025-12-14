@@ -12,9 +12,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:kelp", "tfc:plant/leafy_kelp")
     event.replaceInput({}, "minecraft:string", "#forge:string")
     event.replaceInput({}, "minecraft:rabbit_hide", "#forge:leather")
+    event.replaceInput({}, "farmersdelight:straw", "#forge:straw")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
+    event.replaceOutput({}, "farmersdelight:straw", "tfc:straw")
 
     let mcaFilter = {mod: "mca"}
     event.replaceInput(mcaFilter, "minecraft:oak_sapling", "tfc:wood/sapling/oak")
