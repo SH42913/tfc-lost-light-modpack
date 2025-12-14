@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "tfc:damage_inputs_shapeless_crafting", "recipe": {
+  "type": "minecraft:crafting_shapeless", "ingredients": [
     { "item": "minecraft:rotten_flesh" },
     { "item": "minecraft:rotten_flesh" },
     { "item": "minecraft:rotten_flesh" },
@@ -9,8 +9,8 @@
     { "item": "minecraft:rotten_flesh" },
     { "item": "tfc:bone_needle" },
     { "tag": "forge:string" }
-  ],
-  "result": {
+  ], "result": {
     "item": "tfc:small_raw_hide"
   }
+}
 }
