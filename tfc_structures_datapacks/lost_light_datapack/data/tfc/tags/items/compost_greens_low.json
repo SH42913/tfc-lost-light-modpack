@@ -1,4 +1,3 @@
 {
-  "replace": false,
-  "values": [ "minecraft:brown_mushroom" ]
+  "replace": false, "values": [ "minecraft:brown_mushroom", "minecraft:sweet_berries" ]
 }
