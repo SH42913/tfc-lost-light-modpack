@@ -13,6 +13,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:string", "#forge:string")
     event.replaceInput({}, "minecraft:rabbit_hide", "#forge:leather")
     event.replaceInput({}, "farmersdelight:straw", "#forge:straw")
+    event.replaceInput({}, "magistuarmory:leather_strip", "#lost_light:leather_strips")
+    event.replaceInput({}, "sns:leather_strip", "#lost_light:leather_strips")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
