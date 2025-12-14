@@ -226,19 +226,19 @@
     },
     {
       "original": "minecraft:cobbled_deepslate",
-      "replacement": "tfc:rock/cobble/basalt"
+      "replacement": "tfc:rock/hardened/basalt"
     },
     {
       "original": "minecraft:cobbled_deepslate_stairs",
-      "replacement": "tfc:rock/cobble/basalt_stairs"
+      "replacement": "tfc:rock/raw/basalt_stairs"
     },
     {
       "original": "minecraft:cobbled_deepslate_slab",
-      "replacement": "tfc:rock/cobble/basalt_slab"
+      "replacement": "tfc:rock/raw/basalt_slab"
     },
     {
       "original": "minecraft:cobbled_deepslate_wall",
-      "replacement": "tfc:rock/cobble/basalt_wall"
+      "replacement": "tfc:rock/raw/basalt_wall"
     },
     {
       "original": "minecraft:polished_deepslate",
@@ -427,6 +427,14 @@
     {
       "original": "minecraft:smooth_basalt",
       "replacement": "tfc:rock/smooth/basalt"
+    },
+    {
+      "original": "farmersdelight:brown_mushroom_colony",
+      "replacement": "farmerstfc:brown_mushroom_bunch"
+    },
+    {
+      "original": "farmersdelight:red_mushroom_colony",
+      "replacement": "farmerstfc:red_mushroom_bunch"
     }
   ],
   "randomReplacements": [
