@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "farmersdelight:straw", "#forge:straw")
     event.replaceInput({}, "magistuarmory:leather_strip", "#lost_light:leather_strips")
     event.replaceInput({}, "sns:leather_strip", "#lost_light:leather_strips")
+    event.replaceInput({}, "minecraft:bowl", "#tfc:bowls")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
