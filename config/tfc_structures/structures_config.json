@@ -1345,6 +1345,21 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "tfc_ruins:ruin_beach": {
+      "replacementPreset": "overworld-tfc-structures",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_ruins:ruin_rich": {
+      "replacementPreset": "overworld-tfc-structures",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_ruins:ruin_small": {
+      "replacementPreset": "overworld-tfc-structures",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
     "tfc_trees:acacia_giant_tree": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "",

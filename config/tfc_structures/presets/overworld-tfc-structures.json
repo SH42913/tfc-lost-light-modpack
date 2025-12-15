@@ -1,0 +1,66 @@
+{
+  "directReplacements": [ ], "randomReplacements": [
+  {
+    "original": "tfc:ceramic/bowl", "perBlock": true, "replacements": [
+    "tfc:ceramic/bowl", "tfc:wooden_bowl"
+  ]
+  }, {
+    "original": "tfc:pink_kaolin_clay", "replacements": [
+      "tfc:white_kaolin_clay",
+      "tfc:pink_kaolin_clay",
+      "tfc:red_kaolin_clay",
+      "tfc:clay/silt",
+      "tfc:clay/loam",
+      "tfc:clay/sandy_loam",
+      "tfc:clay/silty_loam",
+      "minecraft:clay"
+    ]
+  }, {
+    "original": "tfc:ceramic/large_vessel", "perBlock": true, "replacements": [
+      "tfc:ceramic/large_vessel",
+      "tfc:ceramic/large_vessel/white",
+      "tfc:ceramic/large_vessel/orange",
+      "tfc:ceramic/large_vessel/magenta",
+      "tfc:ceramic/large_vessel/light_blue",
+      "tfc:ceramic/large_vessel/yellow",
+      "tfc:ceramic/large_vessel/lime",
+      "tfc:ceramic/large_vessel/pink",
+      "tfc:ceramic/large_vessel/gray",
+      "tfc:ceramic/large_vessel/light_gray",
+      "tfc:ceramic/large_vessel/cyan",
+      "tfc:ceramic/large_vessel/purple",
+      "tfc:ceramic/large_vessel/blue",
+      "tfc:ceramic/large_vessel/brown",
+      "tfc:ceramic/large_vessel/green",
+      "tfc:ceramic/large_vessel/red",
+      "tfc:ceramic/large_vessel/black"
+    ]
+  }
+], "tfcWorldReplacements": [
+  {
+    "original": "tfc:wood/planks/birch_fence", "type": "WOOD"
+  }, {
+    "original": "tfc:rock/cobble/conglomerate", "type": "STONE"
+  }, {
+    "original": "tfc:rock/mossy_cobble/conglomerate", "type": "STONE"
+  }, {
+    "original": "tfc:rock/raw/conglomerate", "type": "STONE"
+  }, {
+    "original": "tfc:rock/cobble/conglomerate_slab", "type": "STONE"
+  }, {
+    "original": "tfc:rock/cobble/claystone", "type": "STONE"
+  }, {
+    "original": "tfc:rock/mossy_cobble/claystone", "type": "STONE"
+  }, {
+    "original": "tfc:rock/cobble/claystone_slab", "type": "STONE"
+  }, {
+    "original": "tfc:rock/cobble/phyllite", "type": "STONE"
+  }, {
+    "original": "tfc:rock/mossy_cobble/phyllite", "type": "STONE"
+  }, {
+    "original": "tfc:rock/cobble/phyllite_slab", "type": "STONE"
+  }, {
+    "original": "tfc:rock/mossy_cobble/phyllite_slab", "type": "STONE"
+  }
+]
+}
