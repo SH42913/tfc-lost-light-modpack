@@ -1390,6 +1390,11 @@
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
     },
+    "tfchuts:settlement": {
+      "replacementPreset": "overworld-tfc-structures",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "valarian_conquest:aegis_castle_structure": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",

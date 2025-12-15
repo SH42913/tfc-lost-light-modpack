@@ -800,6 +800,7 @@
     "tfc_trees:hickory_giant_tree",
     "tfc_trees:kapok_giant_tree",
     "tfc_trees:oak_giant_tree",
-    "tfc_trees:plum_giant_tree"
+    "tfc_trees:plum_giant_tree",
+    "tfchuts:settlement"
   ]
 }
