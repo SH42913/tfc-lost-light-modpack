@@ -353,7 +353,12 @@ _version = 3
 				#
 				# A comma separated list of block resource locations that won't be rendered by DH. 
 				# Air is always included in this list. 
-				# Requires a restart to change.
+				# Requires a restart to change. 
+				# 
+				# Note:
+				# If you see gaps, or holes you may have to change
+				# worldCompression to [MERGE_SAME_BLOCKS] and re-generate the LODs.
+				# Black spots may happen occur to block lighting being zero for covered blocks.
 				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom"
 				#
 				# A comma separated list of block resource locations that shouldn't be rendered 
@@ -824,6 +829,11 @@ _version = 3
 			# If enabled, a chat message will be displayed when DH has too many chunks 
 			# queued for updating.
 			showSlowWorldGenSettingWarnings = true
+			#
+			# If enabled, a message will be logged if the garbage 
+			# collector Java is currently using is known 
+			# to cause stutters and/or issues.
+			logGarbageCollectorWarning = true
 
 [server]
 	#
