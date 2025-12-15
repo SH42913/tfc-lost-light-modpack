@@ -866,6 +866,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\tfc_structures\\presets\\overworld-tfc-structures.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\tfc_structures\\common-config.toml",
         "isSelected": true
       },
@@ -21259,7 +21263,7 @@
       },
       {
         "path": "kubejs\\client_scripts",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "kubejs\\config",
@@ -21723,11 +21727,11 @@
       },
       {
         "path": "kubejs\\startup_scripts",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "kubejs\\startup_scripts\\@recipes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "kubejs\\jsconfig.json",
@@ -23710,7 +23714,31 @@
         "isSelected": false
       },
       {
-        "path": "logs\\2025-12-14-7.log.gz",
+        "path": "logs\\2025-12-15-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-12-15-7.log.gz",
         "isSelected": false
       },
       {
@@ -37030,7 +37058,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\DistantHorizons-2.4.0-b-1.20.1-fabric-forge.jar",
+        "path": "mods\\DistantHorizons-2.4.2-b-1.20.1-fabric-forge.jar",
         "isSelected": true
       },
       {
@@ -37210,7 +37238,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fzzy_config-0.7.3+1.20.1+forge.jar",
+        "path": "mods\\fzzy_config-0.7.4+1.20.1+forge.jar",
         "isSelected": true
       },
       {
@@ -37411,6 +37439,10 @@
       },
       {
         "path": "mods\\modernfix-forge-5.25.2+mc1.20.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\morelavatfc-1.0.0.jar",
         "isSelected": true
       },
       {
@@ -37646,6 +37678,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\TFC Huts.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\tfc-ore-excavation-1.20.1-forge-1.0.jar",
         "isSelected": true
       },
@@ -37690,6 +37726,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\tfcscraping-1.0.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\TFCTumbleweed-1.20.1-1.2.2.jar",
         "isSelected": true
       },
@@ -37714,7 +37754,15 @@
         "isSelected": true
       },
       {
+        "path": "mods\\tfc_derbys_spindles-1.1.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\tfc_loot-1.20.1-forge-ver.1.0.4.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\tfc_ruins-1.0.1-forge-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -37954,10 +38002,6 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World\\data\\mca_civil_registry_0.dat",
-        "isSelected": false
-      },
-      {
         "path": "saves\\New World\\data\\mca_nationality.dat",
         "isSelected": false
       },
@@ -38074,6 +38118,22 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\entities\\r.1.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\entities\\r.1.8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\entities\\r.2.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\entities\\r.2.8.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\entities\\r.6.-5.mca",
         "isSelected": false
       },
@@ -38110,6 +38170,26 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\poi\\r.1.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\poi\\r.1.8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\poi\\r.2.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\poi\\r.2.8.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\poi\\r.6.-5.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region",
         "isSelected": false
       },
@@ -38119,6 +38199,10 @@
       },
       {
         "path": "saves\\New World\\region\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-1.10.mca",
         "isSelected": false
       },
       {
@@ -38154,6 +38238,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.-10.5.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.-11.-2.mca",
         "isSelected": false
       },
@@ -38186,6 +38274,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.-13.24.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.-14.-13.mca",
         "isSelected": false
       },
@@ -38207,6 +38299,10 @@
       },
       {
         "path": "saves\\New World\\region\\r.-16.-23.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-16.17.mca",
         "isSelected": false
       },
       {
@@ -38271,6 +38367,14 @@
       },
       {
         "path": "saves\\New World\\region\\r.-2.3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-2.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-2.8.mca",
         "isSelected": false
       },
       {
@@ -38354,6 +38458,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.-3.6.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.-30.-20.mca",
         "isSelected": false
       },
@@ -38375,6 +38483,10 @@
       },
       {
         "path": "saves\\New World\\region\\r.-35.46.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.-4.12.mca",
         "isSelected": false
       },
       {
@@ -38518,6 +38630,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.1.16.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.1.18.mca",
         "isSelected": false
       },
@@ -38535,6 +38651,14 @@
       },
       {
         "path": "saves\\New World\\region\\r.1.3.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.1.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.1.8.mca",
         "isSelected": false
       },
       {
@@ -38582,11 +38706,19 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.12.18.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.12.21.mca",
         "isSelected": false
       },
       {
         "path": "saves\\New World\\region\\r.12.6.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.13.20.mca",
         "isSelected": false
       },
       {
@@ -38607,6 +38739,10 @@
       },
       {
         "path": "saves\\New World\\region\\r.16.17.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.16.7.mca",
         "isSelected": false
       },
       {
@@ -38655,6 +38791,14 @@
       },
       {
         "path": "saves\\New World\\region\\r.2.4.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.2.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.2.8.mca",
         "isSelected": false
       },
       {
@@ -38826,6 +38970,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.6.18.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.7.-5.mca",
         "isSelected": false
       },
@@ -38838,7 +38986,15 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\region\\r.8.10.mca",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\region\\r.8.7.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\region\\r.8.8.mca",
         "isSelected": false
       },
       {
@@ -40359,103 +40515,103 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\bsa",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\bsa\\recipes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\bsa\\recipes\\crafting",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\bsa\\recipes\\crafting\\sinew_string.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_beetroots.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_cabbages.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_carrots.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_onions.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_potatoes.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_rice.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\farmersdelight\\worldgen\\placed_feature\\patch_wild_tomatoes.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags\\items",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\forge\\tags\\items\\fishing_rods.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\all.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\antiquespear.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\knightsofterrafirma\\tags\\items\\weapons\\concavehalberd.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light",
@@ -40471,7 +40627,7 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\loot_tables\\chest\\create_structures_chest.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\loot_tables\\chest\\pretty_simple_chest.json",
@@ -40479,195 +40635,195 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat\\category.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat\\connections.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat\\definitions.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat\\experience.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\combat\\skills.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining\\category.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining\\connections.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining\\definitions.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining\\experience.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\categories\\mining\\skills.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\puffish_skills\\config.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil\\brass_to_brass_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil\\copper_to_copper_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil\\gold_to_gold_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil\\iron_to_iron_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\anvil\\zinc_to_zinc_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\farmersdelight",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\farmersdelight\\cutting",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\farmersdelight\\cutting\\stripped_logs_to_sticks.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\brass_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\copper_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\gold_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\gold_pressure_plate.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\iron_pressure_plate.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\heating\\zinc_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\armorer.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\butcher.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\cartographer.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\cleric.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\farmer.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\fisherman.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\fletcher.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\mason.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\shepherd.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\workstations\\weaponsmith.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\fd_canvas.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\gem_amethyst_to_vanilla.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\logs_to_sticks.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\obsidian_from_scrap.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\recipes\\rotten_flesh_to_small_raw_hide.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags",
@@ -40675,15 +40831,15 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\items",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\items\\dttfc_seeds.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\items\\leather_strips.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen",
@@ -40695,43 +40851,43 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\bohemians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\caladrians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\dwarves.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\galicians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\gardonians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\lancastians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\mercenaries.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\numerians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\other_villages.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\pillagers.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\point_of_interest.json",
@@ -40739,67 +40895,67 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\valarians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tags\\worldgen\\structure\\visgothians.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\food_items",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\food_items\\enchanted_golden_apple.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\food_items\\golden_apple.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\brass_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\copper_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\dttfc_seeds.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\gold_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\gold_pressure_plate.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\iron_pressure_plate.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_heats\\zinc_nugget.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_sizes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\lost_light\\tfc\\item_sizes\\small_tools.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\minecraft",
@@ -40823,47 +40979,47 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\mowziesmobs",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\mowziesmobs\\recipes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\mowziesmobs\\recipes\\jungle_planks_from_clawed_log.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures\\worldgen",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\nova_structures\\worldgen\\structure",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\sns",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\sns\\recipes",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\sns\\recipes\\crafting",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\sns\\recipes\\crafting\\bound_leather_strip.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\sns\\recipes\\crafting\\leather_sack.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc",
@@ -40883,807 +41039,807 @@
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_crushing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_piercing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\entity_types\\deals_slashing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\axes.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_greens_high.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_greens_low.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\compost_poisons.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_crushing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_piercing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\deals_slashing_damage.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\hammers.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\javelins.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\knives.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\maces.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\pickaxes.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\swords.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tags\\items\\usable_on_tool_rack.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\beneath_red_elk.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\firmalife_bee.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\gravestone_player_ghost.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_female_zombie_villager.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_grim_reaper.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mca_male_zombie_villager.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_allay.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_axolotl.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_bat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_bee.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_blaze.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_camel.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cave_spider.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_chicken.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cod.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_cow.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_creeper.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_dolphin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_donkey.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_drowned.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_elder_guardian.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_enderman.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_endermite.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ender_dragon.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_evoker.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_fox.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_frog.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ghast.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_giant.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_glow_squid.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_goat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_guardian.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_hoglin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_horse.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_husk.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_illusioner.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_iron_golem.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_llama.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_magma_cube.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_mooshroom.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_mule.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ocelot.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_panda.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_parrot.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_phantom.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pig.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_piglin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_piglin_brute.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pillager.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_polar_bear.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_pufferfish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_rabbit.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_ravager.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_salmon.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_sheep.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_shulker.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_silverfish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_skeleton.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_skeleton_horse.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_slime.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_sniffer.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_snow_golem.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_spider.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_squid.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_stray.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_strider.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_tadpole.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_trader_llama.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_tropical_fish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_turtle.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_vex.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_vindicator.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wandering_trader.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_warden.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_witch.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wither.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wither_skeleton.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_wolf.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zoglin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie_horse.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombie_villager.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\minecraft_zombified_piglin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_baby_foliaath.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_bluff.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_ferrous_wroughtnaut.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_foliaath.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_frostmaw.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_grottol.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_lantern.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_naga.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_crane.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_crane_player.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_follower_player.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_follower_raptor.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthana_raptor.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\mowziesmobs_umvuthi.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_beast.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_golem_2.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_idolater_.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_1.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_2.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_3.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_4.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_5.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_iloger_6.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_musselwarden.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_nahida.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_piloger_9.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_tfc.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_viloger_10.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\primitive_creatures_wiloger.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_alpaca.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_black_bear.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_bluegill.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_boar.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_bongo.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_caribou.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_chicken.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cod.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cougar.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_cow.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crappie.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crayfish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_crocodile.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_deer.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_direwolf.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_dog.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_dolphin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_donkey.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_duck.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_fox.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_frog.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_gazelle.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_goat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_grizzly_bear.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_grouse.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_horse.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_horseshoe_crab.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_hyena.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_isopod.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_jellyfish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lake_trout.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_largemouth_bass.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lion.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_lobster.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_manatee.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_moose.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_mule.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_musk_ox.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_ocelot.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_octopoteuthis.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_orca.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_panda.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_panther.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_peafowl.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_penguin.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pheasant.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pig.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_polar_bear.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_pufferfish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_quail.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rabbit.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rainbow_trout.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_rat.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_sabertooth.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_salmon.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_sheep.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_smallmouth_bass.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_squid.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_tiger.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_tropical_fish.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_turkey.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_turtle.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_wildebeest.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_wolf.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\tfc\\entity_damage_resistances\\tfc_yak.json",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "tfc_structures_datapacks\\lost_light_datapack\\data\\tfc\\worldgen",
