@@ -1,0 +1,7 @@
+
+[general]
+	#If true, all vanilla lava will be replaced with intermediate lava during generation.
+	replaceAllVanillaLava = false
+	#If false, different lavas do not interact with each other.
+	lavaMix = true
+

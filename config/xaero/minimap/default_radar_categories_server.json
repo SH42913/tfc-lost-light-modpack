@@ -3,29 +3,10 @@
   "includeList": [],
   "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
-  "excludeList": [
-    "minecraft:glow_item_frame",
-    "minecraft:item_frame"
-  ],
+  "excludeList": [],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
-  "settingOverrides": {
-    "displayHeight": 0.0,
-    "displayed": true,
-    "heightBasedFade": true,
-    "renderOrder": 0.0,
-    "color": 13.0,
-    "displayNameWhenIconFails": true,
-    "entityNumber": 1000.0,
-    "alwaysDisplayNametags": true,
-    "dotSize": 2.0,
-    "startFadingAt": 0.0,
-    "renderOverMinimapFrame": 1.0,
-    "icons": 1.0,
-    "heightLimit": 10.0,
-    "names": 0.0,
-    "iconScale": 1.0
-  },
+  "settingOverrides": {},
   "subCategories": [
     {
       "hardInclude": "living",
@@ -37,11 +18,7 @@
       ],
       "name": "gui.xaero_entity_category_living",
       "protection": true,
-      "settingOverrides": {
-        "renderOrder": 2.0,
-        "names": 1.0,
-        "color": 14.0
-      },
+      "settingOverrides": {},
       "subCategories": [
         {
           "hardInclude": "players",
@@ -51,12 +28,7 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_players",
           "protection": true,
-          "settingOverrides": {
-            "renderOrder": 6.0,
-            "names": 2.0,
-            "heightLimit": 2050.0,
-            "color": 15.0
-          },
+          "settingOverrides": {},
           "subCategories": [
             {
               "hardInclude": "nothing",
@@ -77,9 +49,7 @@
               "excludeList": [],
               "name": "gui.xaero_entity_category_tracked",
               "protection": true,
-              "settingOverrides": {
-                "icons": 2.0
-              },
+              "settingOverrides": {},
               "subCategories": []
             },
             {
@@ -101,9 +71,7 @@
               "excludeList": [],
               "name": "gui.xaero_entity_category_other_teams",
               "protection": true,
-              "settingOverrides": {
-                "renderOrder": 7.0
-              },
+              "settingOverrides": {},
               "subCategories": []
             }
           ]
@@ -116,10 +84,7 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
-          "settingOverrides": {
-            "renderOrder": 3.0,
-            "icons": 2.0
-          },
+          "settingOverrides": {},
           "subCategories": [
             {
               "hardInclude": "tamed",
@@ -129,9 +94,7 @@
               "excludeList": [],
               "name": "gui.xaero_entity_category_hostile_tamed",
               "protection": true,
-              "settingOverrides": {
-                "renderOrder": 5.0
-              },
+              "settingOverrides": {},
               "subCategories": []
             }
           ]
@@ -144,10 +107,7 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
-          "settingOverrides": {
-            "names": 1.0,
-            "icons": 2.0
-          },
+          "settingOverrides": {},
           "subCategories": [
             {
               "hardInclude": "tamed",
@@ -157,9 +117,7 @@
               "excludeList": [],
               "name": "gui.xaero_entity_category_friendly_tamed",
               "protection": true,
-              "settingOverrides": {
-                "renderOrder": 4.0
-              },
+              "settingOverrides": {},
               "subCategories": []
             }
           ]
@@ -174,11 +132,7 @@
       "excludeList": [],
       "name": "gui.xaero_entity_category_items",
       "protection": true,
-      "settingOverrides": {
-        "renderOrder": 1.0,
-        "names": 1.0,
-        "color": 10.0
-      },
+      "settingOverrides": {},
       "subCategories": []
     },
     {
@@ -189,36 +143,8 @@
       "excludeList": [],
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
-      "settingOverrides": {
-        "names": 1.0,
-        "color": 5.0
-      },
-      "subCategories": [
-        {
-          "hardInclude": "nothing",
-          "includeList": [
-            "create:carriage_contraption",
-            "create:contraption",
-            "create:gantry_contraption",
-            "create:stationary_contraption",
-            "create:super_glue",
-            "minecraft:armor_stand",
-            "minecraft:arrow",
-            "minecraft:painting",
-            "tumbleweed:tumbleweed",
-            "waves:waves"
-          ],
-          "includeListInSuperCategory": true,
-          "excludeMode": "ONLY",
-          "excludeList": [],
-          "name": "Environment entities",
-          "protection": false,
-          "settingOverrides": {
-            "displayed": false
-          },
-          "subCategories": []
-        }
-      ]
+      "settingOverrides": {},
+      "subCategories": []
     }
   ]
 }
