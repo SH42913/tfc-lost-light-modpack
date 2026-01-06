@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Turn up the heat!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "all fires have a heat value. Grays are the coolest, reds and yellows in the middle, and bright white is at the very top. Careful not to burn yourself, or your food!"
+  }
+}

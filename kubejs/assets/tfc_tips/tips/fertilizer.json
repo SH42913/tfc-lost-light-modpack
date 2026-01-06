@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Fertilizer",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Need to quickly restore soil nutrients? Compost, bone meal, saltpeter, and wood ash are just some of the items that can be used as fertilizer"
+  }
+}

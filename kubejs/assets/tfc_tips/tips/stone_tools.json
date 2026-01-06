@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Sticks and Stones",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Need some tools? Grab 2 rocks and right click to start knapping!"
+  }
+}

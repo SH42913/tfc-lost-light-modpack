@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Don't break your back!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "All items have weights associated with them. The more an item can stack, the less the individual items weigh. Carrying too much, or super heavy items like Anvils, can cause you to burn food much faster and move slower!"
+  }
+}

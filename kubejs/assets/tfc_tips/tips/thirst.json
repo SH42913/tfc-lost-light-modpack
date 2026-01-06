@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Thirsty?",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Fresh water can be found in springs, lakes, and rivers. Avoid drinking salt water, as this only makes you more thirsty!"
+  }
+}

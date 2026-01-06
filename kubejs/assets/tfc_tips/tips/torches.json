@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Light it up!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Torches can be made by heating up sticks, either in a fire pit or using another torch. These only last 3 days, but can be re-ignited with other torches"
+  }
+}

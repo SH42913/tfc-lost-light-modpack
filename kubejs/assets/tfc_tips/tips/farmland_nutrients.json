@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Dirty Deeds!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "farmland not only has to have water, but also the right nutrient! Crops have a favored nutrient, which increases grow speed and yield! Rotate your crops to avoid soil depletion!"
+  }
+}

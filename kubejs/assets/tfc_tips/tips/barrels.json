@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Do a Barrel Roll!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Barrels are a versitile blocks that can store fluids, preserve food, ferment fruit, and make mixtures like lime, vinnegar, or tannin!"
+  }
+}

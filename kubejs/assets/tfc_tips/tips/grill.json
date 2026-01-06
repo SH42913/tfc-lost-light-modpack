@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "grillmaster",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Using wrought iron (or cast iron with an addon), it is possible to craft a grill for a firepit. This allows you to cook multiple meats at once, and they will last slightly longer!"
+  }
+}

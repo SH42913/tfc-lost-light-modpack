@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Making Friends",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Animals gain familiarity with you when you feed them. This decays over time, unless they reach max familiarity. Only babies can reach max familiarity."
+  }
+}

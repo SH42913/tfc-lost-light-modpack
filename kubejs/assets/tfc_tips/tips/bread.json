@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Breaking Bread",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Got some grains? Use a knife to refine them, then grind it in a quern to make flour. From there, you can mix that with water to make flour! The Firmalife addon changes this process slightly, requiring yeast."
+  }
+}

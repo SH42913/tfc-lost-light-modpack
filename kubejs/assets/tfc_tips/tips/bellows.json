@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Hot Air",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "combine planks and leather to make bellows. These can be used to increase the heat (and fuel consumption) of a fire!"
+  }
+}

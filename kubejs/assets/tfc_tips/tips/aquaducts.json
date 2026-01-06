@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Pesky Plumbers",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Need to move water around? Use bricks and mortar to create aquaducts!"
+  }
+}

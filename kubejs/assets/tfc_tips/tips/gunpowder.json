@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "My main goal is to blow up",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Need something blown up? Gunpowder can be made with saltpeter, sulfur, and charcoal (and optionally, graphite). Throw that into a powder keg, and run away really fast when you hit the fuse!"
+  }
+}

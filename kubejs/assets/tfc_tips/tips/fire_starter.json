@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Let there be light!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Need some fire? Craft a firestarter using 2 sticks! May take a while to light..."
+  }
+}

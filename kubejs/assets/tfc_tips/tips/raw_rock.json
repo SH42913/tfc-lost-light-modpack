@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "it's RAW",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can make a rock anvil with any raw Igneous rock. To extract the block, mine all 6 sides around it."
+  }
+}

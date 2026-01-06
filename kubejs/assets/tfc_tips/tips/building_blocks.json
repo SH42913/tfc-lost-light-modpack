@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "No more dirt huts!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Natural blocks will fall down when placed. Invest in some thatch, mud, or wood planks to get some walls up!"
+  }
+}

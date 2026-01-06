@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "THIS... is a bucket",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Use 3 lumber to make a wooden bucket! It can transport any fluid, but it can't place source blocks."
+  }
+}

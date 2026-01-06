@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Balanced Diet",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Every food has different nutritional values. Eating a variety of food increases your max health!"
+  }
+}

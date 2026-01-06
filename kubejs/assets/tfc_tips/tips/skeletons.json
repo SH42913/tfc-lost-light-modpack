@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Spooky Scary Skeletons!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Skeletons are immune to all peircing damage. Beat them with hammers or other blunt damage instead! What, you thought you could just stab them in the ribs?"
+  }
+}

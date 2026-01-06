@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Goldrush",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Found an ore deposit in some water? Knap out a pan and you can start pulling ore from the water!"
+  }
+}

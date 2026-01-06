@@ -1,0 +1,10 @@
+{
+ "title": {
+    "text": "Watch your head!",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Support beams can support up to 4 blocks away horizontally. Make an arch at least 3x3 blocks, and it can prevent cave-ins! Just don't dig straight up"
+  }
+}
