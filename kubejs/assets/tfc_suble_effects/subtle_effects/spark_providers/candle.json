@@ -1,0 +1,109 @@
+{
+  "states": [
+    {
+      "name": "tfc:candle",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/white",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/orange",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/magenta",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/light_blue",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/yellow",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/lime",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/pink",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/gray",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/light_gray",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/cyan",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/purple",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/blue",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/brown",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/green",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/red",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:candle/black",
+      "properties": {
+        "lit": "true"
+      }
+    }
+  ],
+    "options": {
+    "preset": "candle"
+  }
+}

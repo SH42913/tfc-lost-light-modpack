@@ -1,0 +1,13 @@
+{
+  "states": [
+    {
+      "name": "tfc:firepit",
+      "properties": {
+        "lit": "true"
+      }
+    }
+  ],
+    "options": {
+    "preset": "campfire"
+  }
+}

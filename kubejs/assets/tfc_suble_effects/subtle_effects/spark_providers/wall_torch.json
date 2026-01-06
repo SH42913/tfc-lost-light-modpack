@@ -1,0 +1,10 @@
+{
+  "states": [
+    {
+      "name": "tfc:wall_torch"
+    }
+  ],
+    "options": {
+    "preset": "wall_torch"
+  }
+}

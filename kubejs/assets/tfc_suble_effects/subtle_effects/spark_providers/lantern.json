@@ -1,0 +1,61 @@
+{
+  "states": [
+    {
+      "name": "tfc:metal/lamp/bismuth_bronze",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/black_bronze",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/bronze",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/copper",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/wrought_iron",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/steel",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/black_steel",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/blue_steel",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "name": "tfc:metal/lamp/red_steel",
+      "properties": {
+        "lit": "true"
+      }
+    }
+  ],
+    "options": {
+    "preset": "lantern"
+  }
+}

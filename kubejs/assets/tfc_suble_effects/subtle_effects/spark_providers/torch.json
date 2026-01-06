@@ -1,0 +1,10 @@
+{
+  "states": [
+    {
+      "name": "tfc:torch"
+    }
+  ],
+    "options": {
+    "preset": "torch"
+  }
+}
