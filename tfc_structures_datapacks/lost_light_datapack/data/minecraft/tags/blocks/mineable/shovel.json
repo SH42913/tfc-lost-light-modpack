@@ -1,0 +1,8 @@
+{
+  "replace": false, "values": [
+  "tfc:groundcover/salt_lick",
+  "tfc:groundcover/guano",
+  "tfc:groundcover/humus",
+  "tfc:groundcover/rotten_flesh"
+]
+}
