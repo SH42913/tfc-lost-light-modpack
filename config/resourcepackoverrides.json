@@ -2,19 +2,19 @@
   "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "file/Rus-For-Mods-1.20-1.4.zip",
     "file/RTF_v.2.8.4_1.20.x.zip",
     "file/TFC-Patchouli-RUS-1.20.1-13-beta.zip",
     "file/TFC_Updated_UKR_1.1.1.zip",
     "file/Vexxed_Visuals_TFC_v1.2.7.1.zip",
     "file/TFC Ore Marker Expanded v1.1.zip",
-    "file/TFC Simple Forging.zip",
     "file/PS Shielded - Xaero Frame 1.0.0.zip",
     "file/Icon Xaero\u0027s 1.21.zip",
     "file/Valarian_Conquest_Textures_1.20.1.zip",
-    "precisionprospecting:vexxed_items",
     "file/Naturalis 0.2.2 Fields of Gold [Hotfix].zip",
-    "file/TerraFirmaCraft_New_Animals.zip"
+    "file/TerraFirmaCraft_New_Animals.zip",
+    "file/Rus-For-Mods-1.20-B6.zip",
+    "file/TFC Vexxed Visuals Anvil Helper.zip",
+    "mod/subtle_effects:resourcepacks/biome_color_water_particles"
   ],
   "default_overrides": {
     "force_compatible": true
