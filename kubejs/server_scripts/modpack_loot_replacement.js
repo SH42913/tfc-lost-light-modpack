@@ -202,15 +202,24 @@ const lootReplacementMap = {
     "farmersdelight:rice": "tfc:seeds/rice",
     "farmersdelight:tomato_seeds": "tfc:seeds/tomato",
     "create:sweet_roll": "firmalife:food/toast",
-    "minecraft:rabbit_hide": "tfc:small_raw_hide"
+    "minecraft:rabbit_hide": "tfc:small_raw_hide",
+    "minecraft:bow": "tfc_arch:shortbow",
+    "minecraft:crossbow": "tfc_arch:copper_crossbow",
+    "minecraft:arrow": "tfc_arch:stone_arrow"
 };
 
 LootJS.modifiers((event) => {
-    const chestLootModifier = event.addLootTypeModifier(LootType.CHEST);
-    const realmrpgModifier = event.addLootTableModifier(/realmrpg.*/);
+    const tableModifiers = [
+        event.addLootTypeModifier(LootType.CHEST),
+        event.addLootTableModifier(LootType.BLOCK, /realmrpg.*/),
+        event.addLootTypeModifier(LootType.FISHING),
+        event.addLootTypeModifier(LootType.GIFT),
+        event.addLootTypeModifier(LootType.PIGLIN_BARTER),
+    ]
 
     for (const [original, replacement] of Object.entries(lootReplacementMap)) {
-        chestLootModifier.replaceLoot(original, replacement)
-        realmrpgModifier.replaceLoot(original, replacement)
+        for (let modifier of tableModifiers) {
+            modifier.replaceLoot(original, replacement)
+        }
     }
 });

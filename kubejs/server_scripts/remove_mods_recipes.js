@@ -23,6 +23,10 @@ ServerEvents.recipes(event => {
     event.remove({id: "create:crafting/curiosities/cake"})
     event.remove({id: "tfc:crafting/vanilla/loom"})
 
+    event.remove({id: "knightsofterrafirma:crafting/longbow"})
+    event.remove({id: "knightsofterrafirma:crafting/heavy_crossbow"})
+    event.remove({id: /bsa:.*_knapping.*arrowhead.*/})
+
     event.remove({id: "farmersdelight:canvas"})
     event.remove({id: "farmersdelight:straw"})
     event.remove({id: "farmersdelight:straw_bale"})
