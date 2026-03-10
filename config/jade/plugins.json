@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "dtaddon_lib": {
+    "maple_spile": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -173,6 +176,9 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "afc": {
+    "tap": true
   },
   "tfc_support_indicator": {
     "support_indicator": true
