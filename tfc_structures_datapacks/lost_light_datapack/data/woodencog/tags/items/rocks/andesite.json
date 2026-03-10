@@ -1,0 +1,10 @@
+{
+  "replace": false, "values": [
+  "tfc:rock/loose/dacite",
+  "tfc:rock/mossy_loose/dacite",
+  "tfc:rock/loose/diorite",
+  "tfc:rock/mossy_loose/diorite",
+  "tfc:rock/loose/basalt",
+  "tfc:rock/mossy_loose/basalt"
+]
+}
