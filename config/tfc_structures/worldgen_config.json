@@ -46,6 +46,35 @@
       ]
     },
     {
+      "id": "tfc_structures:all_surface_biomes",
+      "biomes": [
+        "tfc:tidal_flats",
+        "tfc:volcanic_mountains",
+        "tfc:oceanic_mountains",
+        "tfc:canyons",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:old_mountains",
+        "tfc:low_canyons",
+        "tfc:mountains",
+        "tfc:inverted_badlands",
+        "tfc:salt_marsh",
+        "tfc:shore",
+        "tfc:plateau",
+        "tfc:volcanic_oceanic_mountains",
+        "tfc:rolling_hills",
+        "tfc:badlands",
+        "tfc:plains",
+        "tfc:lowlands"
+      ],
+      "structures": [
+        "magical_relics:buried_dungeon",
+        "magical_relics:large_wizard_tower",
+        "magical_relics:medium_wizard_tower",
+        "magical_relics:small_wizard_tower"
+      ]
+    },
+    {
       "id": "tfc_structures:is_beach",
       "biomes": [
         "tfc:tidal_flats",

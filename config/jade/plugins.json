@@ -79,6 +79,9 @@
     "block": true,
     "note_block": true
   },
+  "magical_relics": {
+    "display_camos": true
+  },
   "balm": {
     "jade": true
   },
