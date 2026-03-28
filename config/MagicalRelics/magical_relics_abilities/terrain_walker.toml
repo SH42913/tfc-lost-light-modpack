@@ -1,0 +1,23 @@
+# magical_relics:magical_relics_abilities/terrain_walker.toml
+# This config contains options for the magical_relics:terrain_walker ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: terrain_walker
+# Options for the step-boost this ability provides
+
+  # The minimum and maximum (inclusive) percentage multiplier of boosted step-height this ability can apply to an
+  #   artifact item, .
+  # When this ability is applied to an artifact, a random modifier between minimum and maximum is picked.
+  # <Number> Range: ≥ 0.0, Default: 0.2
+  terrain_walker.boost.min = 0.2
+  # <Number> Range: ≥ 0.0, Default: 1.6
+  terrain_walker.boost.max = 1.6

@@ -1,0 +1,36 @@
+# magical_relics:magical_relics_abilities/slow_falling.toml
+# This config contains options for the magical_relics:slow_falling ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 2400.0
+  cooldown.cooldown = 2400
+
+
+# Category: slow_falling
+# Options for the slow falling effect applied by this ability.
+
+  # The duration (in ticks) of the potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 2400
+  slow_falling.use_duration = 2400
+  # The duration (in ticks) of the potion effect when this ability has the passive trigger.
+  # <Integer> Range: ≥ 1, Default: 10
+  slow_falling.passive_duration = 10
+
+  # The minimum and maximum (inclusive) effect amplifier that is picked for the potion effect granted by this ability.
+  # <Integer> Range: ≥ 0, Default: 0
+  slow_falling.amplifier.min = 0
+  # <Integer> Range: ≥ 0, Default: 2
+  slow_falling.amplifier.max = 2

@@ -1,0 +1,23 @@
+# magical_relics:magical_relics_abilities/reach_boost.toml
+# This config contains options for the magical_relics:reach_boost ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: reach_boost
+# Options for the reach boost this ability provides
+
+  # The minimum and maximum (inclusive) amount of extra reach the boost of this ability can grant (for example, a
+  #   value of 0.5 would equal half a block more range).
+  # When this ability is applied to an artifact, a random value between minimum and maximum is picked.
+  # <Number> Range: 0.01 ~ 10.0, Default: 0.1
+  reach_boost.boost.min = 0.1
+  # <Number> Range: 0.01 ~ 10.0, Default: 0.7
+  reach_boost.boost.max = 0.7

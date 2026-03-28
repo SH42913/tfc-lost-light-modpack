@@ -1,0 +1,16 @@
+# magical_relics:worldgen.toml
+# This config contains options related to world generation added by Magical Relics.
+
+
+# Category: structure_processors
+# Options to customize various properties for structure processor types added by Magical Relics.
+
+  # Spawner Type Processor:
+
+  # (NIY) A set of entity types that should ignore light values when spawning from a spawner modified by this processor.
+  # <"minecraft:entity_type" Registry Set> Format: [ "key_1", "key_2 exclude", "key_3", ... ]
+  # Key Patterns: "namespace:path", "namespace:partial_path*", "#namespace:tag_path"
+  # Default: [ "minecraft:slime" ]
+  structure_processors.light_ignoring_entities = [
+    "minecraft:slime"
+  ]

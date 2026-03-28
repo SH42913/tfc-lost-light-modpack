@@ -1,0 +1,11 @@
+# magical_relics:magical_relics_abilities/spider.toml
+# This config contains options for the magical_relics:spider ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"

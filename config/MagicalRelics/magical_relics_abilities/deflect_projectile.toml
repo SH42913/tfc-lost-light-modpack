@@ -1,0 +1,31 @@
+# magical_relics:magical_relics_abilities/deflect_projectile.toml
+# This config contains options for the magical_relics:deflect_projectile ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: deflect_projectile
+# Options for this ability's projectile deflection behavior.
+
+  # The chance for an incoming projectile to be deflected.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.3
+  deflect_projectile.deflect_chance = 0.3
+
+  # The radius around the player in which the ability can detect projectiles.
+  # <Number> Range: ≥ 0.0, Default: 2.5
+  deflect_projectile.deflect_radius = 2.5
+
+  # A set of projectile entity types that can be deflected by this ability.
+  # <"minecraft:entity_type" Registry Set> Format: [ "key_1", "key_2 exclude", "key_3", ... ]
+  # Key Patterns: "namespace:path", "namespace:partial_path*", "#namespace:tag_path"
+  # Default: [ "#minecraft:impact_projectiles" ]
+  deflect_projectile.deflectable_projectiles = [
+    "#minecraft:impact_projectiles"
+  ]

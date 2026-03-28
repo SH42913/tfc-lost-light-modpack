@@ -1,0 +1,47 @@
+# magical_relics:magical_relics_abilities/obscurity.toml
+# This config contains options for the magical_relics:obscurity ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 610.0
+  cooldown.cooldown = 610
+
+
+# Category: obscurity
+# Options for the potion effects applied by this ability.
+
+  # The duration (in ticks) of the invisibility potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 810
+  obscurity.invisibility_use_duration = 810
+  # The duration (in ticks) of the invisibility potion effect when this ability has the hurt trigger.
+  # <Integer> Range: ≥ 1, Default: 610
+  obscurity.invisibility_damaged_duration = 610
+  # The duration (in ticks) of the invisibility potion effect when this ability has the attack trigger.
+  # <Integer> Range: ≥ 1, Default: 610
+  obscurity.invisibility_attack_duration = 610
+
+  # The duration (in ticks) of the cloudy vision potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 810
+  obscurity.cloudy_vision_use_duration = 810
+  # The duration (in ticks) of the cloudy vision potion effect when this ability has the hurt trigger.
+  # <Integer> Range: ≥ 1, Default: 610
+  obscurity.cloudy_vision_damaged_duration = 610
+  # The duration (in ticks) of the cloudy vision potion effect when this ability has the attack trigger.
+  # <Integer> Range: ≥ 1, Default: 610
+  obscurity.cloudy_vision_attack_duration = 610
+
+  # If greater than 0.0, pathfinder mobs (e.g. Creepers and Zombies) withing this range will lose aggro on the player.
+  # <Number> Range: ≥ 0.0, Default: 30.0
+  obscurity.reset_aggro_range = 30.0

@@ -1,0 +1,23 @@
+# magical_relics:magical_relics_abilities/speed_boost.toml
+# This config contains options for the magical_relics:speed_boost ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: speed
+# Options for the speed boost this ability provides
+
+  # The minimum and maximum (inclusive) percentage multiplier of speed boost this ability can apply to an artifact
+  #   item, .
+  # When this ability is applied to an artifact, a random modifier between minimum and maximum is picked.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.04
+  speed.boost.min = 0.04
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.12
+  speed.boost.max = 0.12

@@ -1,0 +1,51 @@
+# magical_relics:magical_relics_abilities/baker.toml
+# This config contains options for the magical_relics:baker ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 20.0
+  cooldown.cooldown = 20
+
+
+# Category: baker
+# Options for the cakes this ability can summon.
+
+  # A weighted list of types of cake blocks that can be summoned by this ability.
+  # <"minecraft:block" Registry Weighted List> Format: [ "weight_1 key_1", "weight_2 null", "weight_3 key_3", ... ]
+  # Weight Format: <Integer (≥ 0)>
+  # Key Patterns: "null", "namespace:path", "#namespace:tag_path"
+  # Default: [ "20 minecraft:cake", "1 minecraft:candle_cake", "1 minecraft:white_candle_cake", "1
+  #   minecraft:orange_candle_cake", "1 minecraft:magenta_candle_cake", "1 minecraft:light_blue_candle_cake", "1
+  #   minecraft:yellow_candle_cake", "1 minecraft:lime_candle_cake", "1 minecraft:pink_candle_cake", ... ]
+  baker.summonable_cakes = [
+    "20 minecraft:cake",
+    "1 minecraft:candle_cake",
+    "1 minecraft:white_candle_cake",
+    "1 minecraft:orange_candle_cake",
+    "1 minecraft:magenta_candle_cake",
+    "1 minecraft:light_blue_candle_cake",
+    "1 minecraft:yellow_candle_cake",
+    "1 minecraft:lime_candle_cake",
+    "1 minecraft:pink_candle_cake",
+    "1 minecraft:gray_candle_cake",
+    "1 minecraft:light_gray_candle_cake",
+    "1 minecraft:cyan_candle_cake",
+    "1 minecraft:purple_candle_cake",
+    "1 minecraft:blue_candle_cake",
+    "1 minecraft:brown_candle_cake",
+    "1 minecraft:green_candle_cake",
+    "1 minecraft:red_candle_cake",
+    "1 minecraft:black_candle_cake"
+  ]

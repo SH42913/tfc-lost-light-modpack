@@ -1,0 +1,20 @@
+# magical_relics:magical_relics_abilities/ore_radar.toml
+# This config contains options for the magical_relics:ore_radar ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "epic"
+  general.rarity = "epic"
+
+
+# Category: ore_radar
+# Options for the in-world visual this ability grants.
+
+  # The radius of the spherical area around the player in which ore-ping particles are spawned.
+  # Keep in mind that larger values may cause poor performance on the client.
+  # <Integer> Range: ≥ 0, Default: 7
+  ore_radar.radius = 7

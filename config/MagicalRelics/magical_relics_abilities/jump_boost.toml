@@ -1,0 +1,39 @@
+# magical_relics:magical_relics_abilities/jump_boost.toml
+# This config contains options for the magical_relics:jump_boost ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 900.0
+  cooldown.cooldown = 900
+
+
+# Category: jump_boost
+# Options for the jump boost effect applied by this ability.
+
+  # The duration (in ticks) of the potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 900
+  jump_boost.use_duration = 900
+  # The duration (in ticks) of the potion effect when this ability has the passive trigger.
+  # <Integer> Range: ≥ 1, Default: 10
+  jump_boost.passive_duration = 10
+  # The duration (in ticks) of the potion effect when this ability has the attack trigger.
+  # <Integer> Range: ≥ 1, Default: 125
+  jump_boost.attack_duration = 125
+
+  # The minimum and maximum (inclusive) effect amplifier that is picked for the potion effect granted by this ability.
+  # <Integer> Range: ≥ 0, Default: 0
+  jump_boost.amplifier.min = 0
+  # <Integer> Range: ≥ 0, Default: 2
+  jump_boost.amplifier.max = 2

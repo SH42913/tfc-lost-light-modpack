@@ -1,0 +1,32 @@
+# magical_relics:magical_relics_abilities/night_vision.toml
+# This config contains options for the magical_relics:night_vision ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 2400.0
+  cooldown.cooldown = 2400
+
+
+# Category: night_vision
+# Options for the night vision effect applied by this ability.
+
+  # The duration (in ticks) of the potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 2400
+  night_vision.use_duration = 2400
+  # The duration (in ticks) of the potion effect when this ability has the passive trigger.
+  # If you are affected by flashing lights, note that values below or equal to 200 (10 seconds) will likely make the
+  #   Night Vision effect flicker, as the effect is reapplied once every tick.
+  # <Integer> Range: ≥ 1, Default: 218
+  night_vision.passive_duration = 218

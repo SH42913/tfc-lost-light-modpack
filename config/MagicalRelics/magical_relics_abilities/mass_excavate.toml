@@ -1,0 +1,32 @@
+# magical_relics:magical_relics_abilities/mass_excavate.toml
+# This config contains options for the magical_relics:mass_excavate ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "uncommon"
+  general.rarity = "uncommon"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 20.0
+  cooldown.cooldown = 20
+
+
+# Category: mass_excavate
+# Options for which blocks can be efficiently mined by this ability.
+
+  # A set of blocks that this ability can mine.
+  # <"minecraft:block" Registry Set> Format: [ "key_1", "key_2 exclude", "key_3", ... ]
+  # Key Patterns: "namespace:path", "namespace:partial_path*", "#namespace:tag_path"
+  # Default: [ "#minecraft:mineable/pickaxe", "#minecraft:mineable/shovel" ]
+  mass_excavate.effective_on = [
+    "#minecraft:mineable/pickaxe",
+    "#minecraft:mineable/shovel"
+  ]

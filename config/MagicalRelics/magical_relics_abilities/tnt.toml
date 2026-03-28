@@ -1,0 +1,27 @@
+# magical_relics:magical_relics_abilities/tnt.toml
+# This config contains options for the magical_relics:tnt ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 120.0
+  cooldown.cooldown = 120
+
+
+# Category: tnt
+# Options for the step-boost this ability provides
+
+  # The fuse length (in ticks) of the TNT summoned by this ability.
+  # <Integer> Range: ≥ 0, Default: 80
+  tnt.fuse = 80

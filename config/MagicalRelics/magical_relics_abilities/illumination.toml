@@ -1,0 +1,24 @@
+# magical_relics:magical_relics_abilities/illumination.toml
+# This config contains options for the magical_relics:illumination ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: illumination
+# Options for the light sources this ability places in the world.
+
+  # When the light level at the player's location is lower or equal to this number, light sources will be placed.
+  # <Integer> Range: 0 ~ 15, Default: 3
+  illumination.light_threshold = 3
+  # What type of light layer to check when determining if light sources should be placed.
+  # By default only block light is checked, so skylight does not matter.
+  # If both are enabled, the greater light value of the two is picked.
+  # <Enum> Valid Values: { "block", "sky", "both" }, Default: "block"
+  illumination.light_check_mode = "block"

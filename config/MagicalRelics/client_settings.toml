@@ -1,0 +1,12 @@
+# magical_relics:client_settings.toml
+# This config contains various client-sided options.
+
+
+# Category: misc
+# Settings that don't fit in other categories.
+
+  # If enabled, Magical Relics will try and stop the "pulsating" visual effect on potion effect icons in the GUI that
+  #   happen when a potion effect is about to run out.
+  # This only applies to effects with 10 ticks or less of duration.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  misc.no_effect_icon_flicker = true

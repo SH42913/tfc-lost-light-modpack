@@ -1,0 +1,19 @@
+# magical_relics:magical_relics_abilities/cashout.toml
+# This config contains options for the magical_relics:cashout ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cashout
+# Options for the loot dropped by this ability.
+
+  # The ID of the loot table to drop when this ability converts its artifact into treasure.
+  # <String> Default: "magical_relics:misc/cashout_ability"
+  cashout.loot_table_id = "magical_relics:misc/cashout_ability"

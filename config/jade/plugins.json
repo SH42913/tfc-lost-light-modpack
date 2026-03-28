@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "dtaddon_lib": {
-    "maple_spile": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -164,12 +161,11 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
+  "farmerstfc": {
+    "decaying": true,
+    "cake": true,
+    "stove": true,
+    "crate": true
   },
   "survivorsdelight": {
     "feast_decay": true

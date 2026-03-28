@@ -1,0 +1,22 @@
+# magical_relics:magical_relics_abilities/health_boost.toml
+# This config contains options for the magical_relics:health_boost ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: health_boost
+# Options for the health boost this ability provides
+
+  # The minimum and maximum (inclusive) amount of health boost this ability can apply to an artifact item.
+  # When this ability is applied to an artifact, a random value between minimum and maximum is picked.
+  # <Integer> Range: ≥ 0, Default: 1
+  health_boost.boost.min = 1
+  # <Integer> Range: ≥ 0, Default: 5
+  health_boost.boost.max = 5

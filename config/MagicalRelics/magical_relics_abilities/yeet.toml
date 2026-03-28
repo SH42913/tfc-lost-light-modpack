@@ -1,0 +1,32 @@
+# magical_relics:magical_relics_abilities/yeet.toml
+# This config contains options for the magical_relics:yeet ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 300.0
+  cooldown.cooldown = 300
+
+
+# Category: yeet
+# Options for the throwing power of this ability.
+
+  # The strength of the knockback applied by this ability.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  yeet.power = 5.0
+
+  # The radius of the spherical area around the player in which mobs should be yeeted.
+  # This is only relevant when this ability has the 'dropped' trigger.
+  # <Number> Range: ≥ 0.0, Default: 5.0
+  yeet.dropped_radius = 5.0

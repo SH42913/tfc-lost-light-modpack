@@ -1,0 +1,56 @@
+# magical_relics:magical_relics_abilities/adrenaline.toml
+# This config contains options for the magical_relics:adrenaline ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 600.0
+  cooldown.cooldown = 600
+
+
+# Category: adrenaline
+# Options for the potion effects applied by this ability.
+
+  # The minimum and maximum (inclusive) number of ticks that the speed effect lasts for.
+  # <Integer> Range: ≥ 1, Default: 80
+  adrenaline.speed_duration.min = 80
+  # <Integer> Range: ≥ 1, Default: 120
+  adrenaline.speed_duration.max = 120
+  # The minimum and maximum (inclusive) amplifier for the speed effect.
+  # <Integer> Range: ≥ 0, Default: 0
+  adrenaline.speed_amplifier.min = 0
+  # <Integer> Range: ≥ 0, Default: 1
+  adrenaline.speed_amplifier.max = 1
+
+  # The minimum and maximum (inclusive) number of ticks that the damage boost effect lasts for.
+  # <Integer> Range: ≥ 1, Default: 80
+  adrenaline.damage_boost_duration.min = 80
+  # <Integer> Range: ≥ 1, Default: 120
+  adrenaline.damage_boost_duration.max = 120
+  # The minimum and maximum (inclusive) amplifier for the damage boost effect.
+  # <Integer> Range: ≥ 0, Default: 0
+  adrenaline.damage_boost_amplifier.min = 0
+  # <Integer> Range: ≥ 0, Default: 1
+  adrenaline.damage_boost_amplifier.max = 1
+
+  # The minimum and maximum (inclusive) number of ticks that the damage resistance effect lasts for.
+  # <Integer> Range: ≥ 1, Default: 60
+  adrenaline.resistance_duration.min = 60
+  # <Integer> Range: ≥ 1, Default: 140
+  adrenaline.resistance_duration.max = 140
+  # The minimum and maximum (inclusive) amplifier for the damage resistance effect.
+  # <Integer> Range: ≥ 0, Default: 0
+  adrenaline.resistance_amplifier.min = 0
+  # <Integer> Range: ≥ 0, Default: 2
+  adrenaline.resistance_amplifier.max = 2

@@ -1,0 +1,32 @@
+# magical_relics:magical_relics_abilities/glow_vision.toml
+# This config contains options for the magical_relics:glow_vision ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 400.0
+  cooldown.cooldown = 400
+
+
+# Category: glow_vision
+# Options for the glow effect this ability applies to mobs.
+
+  # The radius of the spherical area around the player in which mobs should start glowing.
+  # <Number> Range: ≥ 0.0, Default: 30.0
+  glow_vision.radius = 30.0
+
+  # The duration of the glowing effect given to mobs.
+  # Setting this to -1 effectively makes the mobs glow forever.
+  # <Integer> Range: ≥ -1, Default: 180
+  glow_vision.effect_duration = 180

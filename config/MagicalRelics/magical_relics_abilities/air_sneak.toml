@@ -1,0 +1,19 @@
+# magical_relics:magical_relics_abilities/air_sneak.toml
+# This config contains options for the magical_relics:air_sneak ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: air_sneak
+# Options for the general behavior of this ability.
+
+  # If enabled, solid air can replace blocks that are considered replaceable, such as tall grass, snow, dead bushes etc.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  air_sneak.allow_replacing = false

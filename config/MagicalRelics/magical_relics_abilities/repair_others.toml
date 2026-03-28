@@ -1,0 +1,31 @@
+# magical_relics:magical_relics_abilities/repair_others.toml
+# This config contains options for the magical_relics:repair_others ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 20.0
+  cooldown.cooldown = 20
+
+
+# Category: repair_others
+# Options for this ability repairing other items in the inventory.
+
+  # The amount of durability that is restored for the target item in the inventory when this ability has a use trigger.
+  # <Integer> Range: ≥ 1, Default: 1
+  repair_others.durability_restoration.active = 1
+  # The amount of durability that is restored for the target item in the inventory when this ability has a passive
+  #   trigger.
+  # <Integer> Range: ≥ 1, Default: 1
+  repair_others.durability_restoration.passive = 1

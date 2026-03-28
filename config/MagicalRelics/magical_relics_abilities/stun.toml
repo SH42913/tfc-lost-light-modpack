@@ -1,0 +1,33 @@
+# magical_relics:magical_relics_abilities/stun.toml
+# This config contains options for the magical_relics:stun ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 500.0
+  cooldown.cooldown = 500
+
+
+# Category: stun
+# Options for the slowness effect this ability inflicts on nearby mobs.
+
+  # The duration (in ticks) of the slowness effect when this ability has an attack trigger.
+  # <Integer> Range: ≥ 1, Default: 100
+  stun.attack_duration = 100
+  # The duration (in ticks) of the slowness effect when this ability has a drop trigger.
+  # <Integer> Range: ≥ 1, Default: 120
+  stun.drop_duration = 120
+  # The radius of the spherical area around the player in which mobs should be inflicted with slowness.
+  # <Number> Range: ≥ 0.0, Default: 20.0
+  stun.radius = 20.0

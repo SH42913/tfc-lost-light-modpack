@@ -1,0 +1,36 @@
+# magical_relics:magical_relics_abilities/water_breathing.toml
+# This config contains options for the magical_relics:water_breathing ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "rare"
+  general.rarity = "rare"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 1200.0
+  cooldown.cooldown = 1200
+
+
+# Category: water_breathing
+# Options for the water breathing effect applied by this ability.
+
+  # The duration (in ticks) of the potion effect when this ability has the use trigger.
+  # <Integer> Range: ≥ 1, Default: 1200
+  water_breathing.use_duration = 1200
+  # The duration (in ticks) of the potion effect when this ability has the passive trigger.
+  # <Integer> Range: ≥ 1, Default: 10
+  water_breathing.passive_duration = 10
+  # The duration (in ticks) of the potion effect when this ability has the attack trigger.
+  # <Integer> Range: ≥ 1, Default: 120
+  water_breathing.attack_duration = 120
+  # The duration (in ticks) of the potion effect when this ability is triggered by drowning.
+  # <Integer> Range: ≥ 1, Default: 50
+  water_breathing.drowning_duration = 50

@@ -1,2 +1,0 @@
-#Fri Aug 01 13:37:17 AMT 2025
-FOG_ACTIVE=false

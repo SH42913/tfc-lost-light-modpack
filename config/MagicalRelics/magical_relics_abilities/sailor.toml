@@ -1,0 +1,21 @@
+# magical_relics:magical_relics_abilities/sailor.toml
+# This config contains options for the magical_relics:sailor ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: sailor
+# Options for how this ability affects boat travel.
+
+  # The row speed multiplier granted by this ability.
+  # A value of 0.0 would equal 100% of normal boat speed (no change).
+  # A value of 0.05 would equal a 5% increase. 
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  sailor.speed_multiplier = 0.05

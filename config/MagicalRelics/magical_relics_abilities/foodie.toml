@@ -1,0 +1,40 @@
+# magical_relics:magical_relics_abilities/foodie.toml
+# This config contains options for the magical_relics:foodie ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 20.0
+  cooldown.cooldown = 20
+
+
+# Category: foodie
+# Options for the amount of hunger restored by this ability.
+
+  # When this ability has a passive trigger, the wielder's hunger level will not drop below this value.
+  # <Integer> Range: ≥ 1, Default: 10
+  foodie.passive_hunger_threshold = 10
+
+  # The amount of hunger this ability restores for its wielder when used.
+  # This only applies when the ability has a use trigger type.
+  # <Integer> Range: ≥ -1, Default: 2
+  foodie.hunger_on_use = 2
+
+  # The amount of hunger this ability restores for its wielder when dealing damage to a creature.
+  # This only applies when the ability has an attack trigger type.
+  # <Integer> Range: ≥ -1, Default: 1
+  foodie.hunger_on_attack = 1
+  # The chance for hunger to be restored when attacking a creature.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.25
+  foodie.restore_hunger_chance = 0.25

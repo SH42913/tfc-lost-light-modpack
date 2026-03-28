@@ -1,0 +1,112 @@
+# magical_relics:_main.toml
+# This config contains options for miscellaneous features in the mod.
+
+
+# Category: abilities
+# Options to customize settings that apply to artifact abilities as a whole.
+
+  # The minimum and maximum (inclusive) number of abilities that can be applied to non-legendary artifacts.
+  # <Integer> Range: ≥ 1, Default: 1
+  abilities.normal_max_abilities.min = 1
+  # <Integer> Range: ≥ 1, Default: 2
+  abilities.normal_max_abilities.max = 2
+
+  # The chance in percentage for a randomly generated artifact to be of legendary quality.
+  # <Number> Range: 0.0 ~ 1.0, Default: 0.05
+  abilities.legendary_chance = 0.05
+
+  # The minimum and maximum (inclusive) level that legendary artifacts will be enchanted with when they are created.
+  # <Integer> Range: ≥ 1, Default: 20
+  abilities.legendary_enchant_level.min = 20
+  # <Integer> Range: ≥ 1, Default: 30
+  abilities.legendary_enchant_level.max = 30
+
+  # The minimum and maximum (inclusive) number of abilities that can be applied to legendary artifacts.
+  # <Integer> Range: ≥ 1, Default: 3
+  abilities.legendary_max_abilities.min = 3
+  # <Integer> Range: ≥ 1, Default: 4
+  abilities.legendary_max_abilities.max = 4
+
+  # A list of artifact abilities that are blacklisted and cannot be obtained without using commands.
+  # <"magical_relics:artifact_abilities" Registry Set> Format: [ "key_1", "key_2 exclude", "key_3", ... ]
+  # Key Patterns: "namespace:path", "namespace:partial_path*", "#namespace:tag_path"
+  # Default: [ "magical_relics:resurrect", "magical_relics:deflect_projectile" ]
+  abilities.unobtainable_abilities = [
+    "magical_relics:resurrect",
+    "magical_relics:deflect_projectile"
+  ]
+
+  # A list of colors to pick from when picking a random color for a randomly generated artifact item.
+  # Note that armor artifact items are handled a bit differently and instead picks a random armor trim.
+  # If this list is empty, a completely randomly generated color is picked.
+  # Adding multiple entries with the same color to this list is allowed, and effectively increases the odds of said
+  #   color being picked.
+  # <Color List> Format: [ "color1", "color2", ... ], Default: [ "00B6FF", "1466FF", "6647FF", "C23FFF", "FF00A5",
+  #   "FF0010", "FF5F0F", "FF9D00", "FFE500", ... ]
+  abilities.artifact_colors = [
+    "00B6FF",
+    "1466FF",
+    "6647FF",
+    "C23FFF",
+    "FF00A5",
+    "FF0010",
+    "FF5F0F",
+    "FF9D00",
+    "FFE500",
+    "2FBC00",
+    "00BA6F",
+    "37B7AA",
+    "915E35",
+    "C4746F",
+    "C170BC",
+    "84BF4E",
+    "6B75BC",
+    "D8D8D8"
+  ]
+
+
+# Category: anti_builder
+# Contains options related to the anti-builder block (Core of Warding)
+
+  # If enabled, Core of Warding blocks will prevent most world interactions within their effective area.
+  # This includes breaking blocks, placing blocks, explosions, mob griefing etc.
+  # If this is disabled, the anti-builder will instead punish players with negative potion effects instead of just
+  #   straight up disallowing the interaction.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  anti_builder.blocks_building = false
+
+  # If the above setting is disabled, the anti-builder will pick a random potion effect from this list and inflict it
+  #   on meddling players within its area instead of blocking building directly.
+  # You can effectively disable anti-builders by emptying this list and disabling the "blocks_building" setting.
+  # <"minecraft:mob_effect" Registry Value List> Format: [ "key_1 value_1", "key_2 value_2", ... ]
+  # Key Patterns: "namespace:path", "#namespace:tag_path"
+  # Value Format: <Duration (≥ 0)> <Amplifier (Any Value)>
+  # Default: [ "minecraft:wither 80 1", "minecraft:poison 80 1", "minecraft:hunger 240 2", "minecraft:slowness 160 2",
+  #   "minecraft:mining_fatigue 160 2", "minecraft:unluck 400 3" ]
+  anti_builder.maladies = [
+    "minecraft:wither 80 1",
+    "minecraft:poison 80 1",
+    "minecraft:hunger 240 2",
+    "minecraft:slowness 160 2",
+    "minecraft:mining_fatigue 160 2",
+    "minecraft:unluck 400 3"
+  ]
+
+
+# Category: misc
+# Options that do not fit in other categories.
+
+  # A list of items that should not be findable in "Wizard's Favorite" display pedestals in wizard tower structures.
+  # <"minecraft:item" Registry Set> Format: [ "key_1", "key_2 exclude", "key_3", ... ]
+  # Key Patterns: "namespace:path", "namespace:partial_path*", "#namespace:tag_path"
+  # Default: [ "minecraft:bedrock", "minecraft:structure_block", "minecraft:jigsaw", "minecraft:structure_void",
+  #   "minecraft:barrier", "minecraft:air", "minecraft:debug_stick" ]
+  misc.wizards_favorite_blacklist = [
+    "minecraft:bedrock",
+    "minecraft:structure_block",
+    "minecraft:jigsaw",
+    "minecraft:structure_void",
+    "minecraft:barrier",
+    "minecraft:air",
+    "minecraft:debug_stick"
+  ]

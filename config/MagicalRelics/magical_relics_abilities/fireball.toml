@@ -1,0 +1,29 @@
+# magical_relics:magical_relics_abilities/fireball.toml
+# This config contains options for the magical_relics:fireball ability.
+
+
+# Category: general
+# General settings for this ability.
+
+  # The rarity of this ability. Primarily only determines the color of the ability's description.
+  # <Enum> Valid Values: { "common", "uncommon", "rare", "epic", "magical_relics:mundane", "magical_relics:glorious"
+  #   }, Default: "magical_relics:mundane"
+  general.rarity = "magical_relics:mundane"
+
+
+# Category: cooldown
+# Settings for this ability's cooldown.
+
+  # The number of ticks to put this ability on cooldown for after use.
+  # <Number> Range: 0.0 ~ 9.223372036854776E18, Default: 20.0
+  cooldown.cooldown = 20
+
+
+# Category: fireball
+# Options for the fireball summoned by this ability.
+
+  # The explosion power of the fireballs summoned by this ability.
+  # Be a bit careful with larger numbers, since the fireballs explode automatically after having traveled a good
+  #   distance.
+  # <Integer> Range: ≥ 0, Default: 1
+  fireball.explosion_power = 1

@@ -1,18 +1,21 @@
 # 
-#Nutrient addition ratio for fertilizing fertile farmland
+#Nutrient addition ratio for fertilizing rich farmland
 #对沃土耕地施肥的养分加成倍率
+#2.5
 #Range: 1.0 ~ 10.0
 fertilizerOnRichFarmland = 2.5
 # 
-#Skillet adapted heating recipe temperature (default 200)
-#If you don't want the item to be added to the skillet for heating，add item tag #farmerstfc:cant_cook
-#煎锅适配加热配方温度（默认200）
-#如果不想让物品添加进煎锅加热，给物品添加#farmerstfc:cant_cook
-#Range: 200.0 ~ 2000.0
-skilletCookTemperature = 200.0
+#The stove provides the highest temperature or the temperature of heating recipe suitable for skillet.
+#烤炉提供群峦热源可达到的最高温度 或 煎锅适配加热配方的温度
+#450.0
+#Range: 0.0 ~ 2800.0
+heatingTemperature = 450.0
 # 
-#The stove provides the highest temperature that can be reached by a cluster of heat sources (default 450)
-#烤炉提供群峦热源可达到的最高温度（默认450）
-#Range: 200.0 ~ 2000.0
-stoveTemperature = 450.0
+#The stove needs fuel to keep burning.
+#炉灶需要燃料维持燃烧
+stoveNeedsFuel = true
+# 
+#Rich soil will attempt to ripen the plants in the vanilla way
+#沃土会尝试用原版的方式催熟植物
+tryBoosting = false
 
