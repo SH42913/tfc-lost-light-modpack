@@ -1,6 +1,7 @@
 const entityLootReplacementMap = {
     "minecraft:rabbit_hide": "tfc:small_raw_hide",
-    "minecraft:arrow": "tfc_arch:stone_arrow"
+    "minecraft:arrow": "tfc_arch:stone_arrow",
+    "minecraft:iron_ingot": "tfc:metal/ingot/cast_iron",
 };
 
 LootJS.modifiers((event) => {
