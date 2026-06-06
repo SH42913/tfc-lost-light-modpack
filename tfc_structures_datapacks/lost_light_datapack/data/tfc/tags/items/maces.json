@@ -2,6 +2,8 @@
   "replace": false, "values": [
   "#knightsofterrafirma:weapons/chainmorgenstern",
   "#knightsofterrafirma:weapons/heavymace",
-  "#knightsofterrafirma:weapons/morgenstern"
+  "#knightsofterrafirma:weapons/morgenstern",
+  "primitive_creatures:yhgi",
+  "primitive_creatures:reh"
 ]
 }

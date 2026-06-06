@@ -14,3 +14,13 @@ ServerEvents.tags('block', event => {
         "tfc:groundcover/mussel",
     ])
 })
+
+ServerEvents.tags('item', event => {
+    let noSwords = [
+        "primitive_creatures:yhgi",
+        "primitive_creatures:reh"
+    ];
+    event.remove('minecraft:swords', noSwords)
+    event.remove('c:swords', noSwords)
+    event.remove('tfc:deals_slashing_damage', noSwords)
+})
