@@ -48,7 +48,7 @@ behavior = "Bounce"
 weight = "Heavy"
 state = "Solid"
 color = "255,255,255"
-entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:grottol", "mowziesmobs:frostmaw", "valarian_conquest:valarian_cannon", "valarian_conquest:caladrian_cannon", "valarian_conquest:catapult", "valarian_conquest:battering_ram", "valarian_conquest:carriage"]
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither", "gravestone:player_ghost", "mca:grim_reaper", "primitive_creatures:golem_2", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:grottol", "mowziesmobs:frostmaw", "mowziesmobs:elokosa_howler", "mowziesmobs:elokosa_follower_howler", "valarian_conquest:valarian_cannon", "valarian_conquest:caladrian_cannon", "valarian_conquest:catapult", "valarian_conquest:battering_ram", "valarian_conquest:carriage"]
 
 ["Green Group"]
 behavior = "Stuck"
