@@ -1,16 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " A ",
-    "BCD",
-    " E "
-  ],
-  "key": {
-    "A": { "tag": "forge:string" },
-    "B": { "item": "bsa:bone/arrowhead" },
-    "C": { "tag": "tfc:workbenches" },
-    "D": { "tag": "bsa:arrowheads" },
-    "E": { "tag": "minecraft:arrows" }
-  },
-  "result": { "item": "minecraft:fletching_table" }
+  "type": "minecraft:crafting_shaped", "pattern": [
+  " S ", "HWH", " A "
+], "key": {
+  "S": { "tag": "forge:string" },
+  "H": { "tag": "tfc_arch:arrowheads" },
+  "W": { "tag": "tfc:workbenches" },
+  "A": { "tag": "tfc_arch:arrows" }
+}, "result": { "item": "minecraft:fletching_table" }
 }
