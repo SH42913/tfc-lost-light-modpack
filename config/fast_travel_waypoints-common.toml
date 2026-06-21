@@ -1,14 +1,11 @@
 
 [fast_travel]
-	#Internal config version used by the mod for future migrations. Current version: 3
-	#Range: > 1
-	config_version = 3
-	#How many XP levels are consumed when a player fast-travels to a waystone waypoint. 0 = free.
+	#How many XP levels are consumed when a player fast-travels to a waystone waypoint. 0 = free. Ignored when use_waystones_xp_cost_scaling=true.
 	#Range: 0 ~ 1000
 	level_cost = 0
 	#If true, players can fast-travel to waystone waypoints in other dimensions using Xaero World Map's dimension toggle. If false, only same-dimension fast travel is allowed.
 	enable_cross_dimensional_travel = true
-	#Additional XP levels consumed only when fast-traveling between dimensions. This is added on top of level_cost. 0 = no extra cross-dimensional cost.
+	#Additional XP levels consumed only when fast-traveling between dimensions. This is added on top of level_cost. 0 = no extra cross-dimensional cost. Ignored when use_waystones_xp_cost_scaling=true.
 	#Range: 0 ~ 1000
 	additional_level_cost_dimensional_travel = 0
 	#If true, players must be near any Waystone before they can start fast travel from the world map.
@@ -31,4 +28,6 @@
 	#Minimum Y level required to start fast travel (only used when enable_min_y_check=true).
 	#Range: -64 ~ 320
 	min_y = 60
+	#If true, map-based fast travel uses Waystones' configured waystone-to-waystone XP level calculation, including distance scaling and dimensional costs, instead of level_cost and additional_level_cost_dimensional_travel. Default: false
+	use_waystones_xp_cost_scaling = false
 

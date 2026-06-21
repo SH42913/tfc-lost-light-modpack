@@ -190,6 +190,9 @@
 	#Auto-reject learning mode prompt after this many seconds
 	#Range: 1 ~ 300
 	learning_mode_timeout_seconds = 10
+	#Flat block distance from an explosion's center within which a player carrying explosives, or a nitro barrel, will chain-detonate. Independent of the triggering explosion's power.
+	#Range: 0.0 ~ 64.0
+	blast_chain_radius = 7.0
 
 #Fuse Cord - links two dynamite blocks for near-instant chain detonation
 [fuse_cord]

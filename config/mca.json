@@ -13,6 +13,7 @@
   "villagerChatPrefix": "",
   "canHurtBabies": true,
   "enterVillageNotification": true,
+  "giveAdvancementBooks": true,
   "villagerMarriageNotification": true,
   "villagerBirthNotification": true,
   "innArrivalNotification": true,
@@ -31,6 +32,8 @@
   "villagerMaxHealth": 20,
   "allowVillagerTeleporting": false,
   "villagerMinTeleportationDistance": 128.0,
+  "villagerPathfindingDistance": 192,
+  "villagerFollowRange": 48,
   "childInitialHearts": 100,
   "greetHeartsThreshold": 75,
   "greetAfterDays": 1,
@@ -59,6 +62,7 @@
   "burnedClothingTickLength": 3600,
   "coloredHairChance": 0.02,
   "heartsRequiredToAutoSpawnGravestone": 10,
+  "defaultHeadstoneType": "cross_headstone",
   "useSmarterDoorAI": false,
   "procreationCooldown": 72000,
   "trackVillagerPosition": true,
@@ -70,6 +74,7 @@
   "villagerChatAIToken": "",
   "villagerChatAIModel": "default",
   "villagerChatAISystemPrompt": "",
+  "villagerChatAIFuseSystemPrompt": false,
   "villagerChatAIUseLongTermMemory": false,
   "villagerChatAIUseSharedLongTermMemory": false,
   "villagerChatAIIncludeSessionInformation": false,
@@ -94,6 +99,58 @@
     "AZnzlk1XvdvUeBnXmlld"
   ],
   "guardSpawnFraction": 0.2,
+  "guardEquipment": {
+    "0": {
+      "mainHand": "tfc:metal/sword/bronze",
+      "offHand": "air",
+      "head": "air",
+      "chest": "tfc:metal/chestplate/bronze",
+      "legs": "leather_leggings",
+      "feet": "leather_boots"
+    },
+    "1": {
+      "mainHand": "tfc:metal/sword/bronze",
+      "offHand": "magistuarmory:wood_heatershield",
+      "head": "tfc:metal/helmet/bronze",
+      "chest": "tfc:metal/chestplate/bronze",
+      "legs": "leather_leggings",
+      "feet": "tfc:metal/boots/bronze"
+    },
+    "2": {
+      "mainHand": "tfc:metal/sword/wrought_iron",
+      "offHand": "magistuarmory:wood_heatershield",
+      "head": "tfc:metal/helmet/bronze",
+      "chest": "tfc:metal/chestplate/bronze",
+      "legs": "tfc:metal/greaves/bronze",
+      "feet": "tfc:metal/boots/bronze"
+    }
+  },
+  "archerEquipment": {
+    "0": {
+      "mainHand": "bow",
+      "offHand": "air",
+      "head": "air",
+      "chest": "leather_chestplate",
+      "legs": "air",
+      "feet": "air"
+    },
+    "1": {
+      "mainHand": "bow",
+      "offHand": "air",
+      "head": "air",
+      "chest": "tfc:metal/chestplate/bronze",
+      "legs": "leather_leggings",
+      "feet": "leather_boots"
+    },
+    "2": {
+      "mainHand": "bow",
+      "offHand": "air",
+      "head": "air",
+      "chest": "tfc:metal/chestplate/wrought_iron",
+      "legs": "leather_leggings",
+      "feet": "tfc:metal/boots/bronze"
+    }
+  },
   "taxesFactor": 0.5,
   "taxSeason": 192000,
   "marriageChancePerMinute": 0.05,
@@ -196,6 +253,10 @@
     "#minecraft:trapdoors",
     "#minecraft:walls"
   ],
+  "villagerPathfindingCollisionCheckBlocks": [
+    "#mca:villager_pathfinding_collision_checks"
+  ],
+  "villagerPathfindingCheckAllNodeCollisions": false,
   "structuresInRumors": [
     "minecraft:igloo",
     "minecraft:desert_pyramid",
@@ -250,6 +311,7 @@
   "villagerMaxAgeTime": 384000,
   "allowEveryoneToAddContentGlobally": false,
   "allowPlayerSizeAdjustment": true,
+  "scalePlayerHitboxWithSizeAndWidth": false,
   "allowBodyCustomizationInDestiny": true,
   "allowTraitCustomizationInDestiny": true,
   "destinySpawnLocations": [
@@ -277,6 +339,9 @@
     "UNKNOWN": true,
     "DWARFISM": true,
     "TOUGH": true,
-    "ASEXUAL": true
+    "ASEXUAL": true,
+    "RAINBOW_EYES": true,
+    "INFERTILE": true,
+    "NO_AGING": true
   }
 }
