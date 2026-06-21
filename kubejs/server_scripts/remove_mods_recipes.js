@@ -41,4 +41,6 @@ ServerEvents.recipes(event => {
     event.remove({id: "farmersdelight:wheat_dough_from_egg"})
     event.remove({id: /survivorsdelight:crafting.*tfc_straw2fd_straw/})
     event.remove({id: /survivorsdelight:crafting.*fd_straw2tfc_straw/})
+
+    event.remove({id: /chalk:chalk_.*/})
 })
