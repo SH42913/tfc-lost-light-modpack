@@ -1,0 +1,21 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "woodencog:rocks/andesite"
+    },
+    {
+      "tag": "tfc:chisels"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 2
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 0.25
+    }
+  ]
+}
