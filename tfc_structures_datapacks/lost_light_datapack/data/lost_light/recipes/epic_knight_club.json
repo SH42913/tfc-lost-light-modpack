@@ -1,0 +1,17 @@
+{
+  "type": "tfc:damage_inputs_shaped_crafting", "recipe": {
+  "type": "minecraft:crafting_shaped", "pattern": [
+    "A L", " L ", "S  "
+  ], "key": {
+    "A": {
+      "tag": "minecraft:axes"
+    }, "L": {
+      "tag": "minecraft:logs"
+    }, "S": {
+      "item": "minecraft:stick"
+    }
+  }, "result": {
+    "item": "magistuarmory:club"
+  }
+}
+}
