@@ -18,6 +18,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "minecraft:cauldron"})
     event.remove({id: "minecraft:leather"})
     event.remove({id: "minecraft:crossbow"})
+    event.remove({id: "minecraft:fletching_table"})
 
     // event.remove({
     //     mod: "minecraft",

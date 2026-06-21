@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "farmersdelight:canvas"})
     event.remove({id: "farmersdelight:straw"})
+    event.remove({id: "farmersdelight:tatami"})
     event.remove({id: "farmersdelight:straw_bale"})
     event.remove({id: "farmersdelight:lead_from_straw"})
     event.remove({id: "farmersdelight:packed_mud_from_straw"})
@@ -36,6 +37,8 @@ ServerEvents.recipes(event => {
     event.remove({id: "farmersdelight:cutting/rice_panicle"})
     event.remove({id: "farmersdelight:integration/create/milling/wild_rice"})
     event.remove({id: "farmersdelight:integration/create/milling/rice_panicle"})
+    event.remove({id: "farmersdelight:wheat_dough_from_water"})
+    event.remove({id: "farmersdelight:wheat_dough_from_egg"})
     event.remove({id: /survivorsdelight:crafting.*tfc_straw2fd_straw/})
     event.remove({id: /survivorsdelight:crafting.*fd_straw2tfc_straw/})
 })
