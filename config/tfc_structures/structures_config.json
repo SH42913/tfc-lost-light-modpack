@@ -1365,6 +1365,11 @@
       "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
       "lootTablesOverrideMap": {}
     },
+    "supplementaries:way_sign": {
+      "replacementPreset": "overworld-common",
+      "emptyChestLootTable": "lost_light:chest/pretty_simple_chest",
+      "lootTablesOverrideMap": {}
+    },
     "tfc_ruins:ruin_beach": {
       "replacementPreset": "overworld-tfc-structures",
       "emptyChestLootTable": "",

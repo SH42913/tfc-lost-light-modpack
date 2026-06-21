@@ -167,6 +167,9 @@
     "stove": true,
     "crate": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "survivorsdelight": {
     "feast_decay": true
   },
@@ -175,6 +178,13 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "firmasupps": {
+    "candle_holder": true,
+    "sconce": true,
+    "fire_pit": true,
+    "sconce_lever": true,
+    "sconce_wall": true
   },
   "afc": {
     "tap": true
