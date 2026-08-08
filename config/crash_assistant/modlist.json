@@ -1747,6 +1747,14 @@
     "curseForgeHash": 3430737075,
     "modrinthHash": "0df8fbeed3bdbaed69e422d18f83f8ec2a0d0b47"
   },
+  "rnr-concrete-flow-1.20.1-1.0.0.jar": {
+    "jarName": "rnr-concrete-flow-1.20.1-1.0.0.jar",
+    "modId": "rnr_concrete_flow",
+    "name": "RNR Concrete Flow",
+    "version": "1.0.0",
+    "curseForgeHash": 1090787466,
+    "modrinthHash": "53ccb00661ecc8d9d04acfa63b1a1adf2815a46b"
+  },
   "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar": {
     "jarName": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
     "modId": "embeddium_extra",
@@ -2074,6 +2082,14 @@
     "version": "1.0.4",
     "curseForgeHash": 2197305034,
     "modrinthHash": "4c4ed0a1fcfe3b0eb951139e799aa9e651d3cbf8"
+  },
+  "tfc_preservation_predictor-1.20.1-1.0.1.jar": {
+    "jarName": "tfc_preservation_predictor-1.20.1-1.0.1.jar",
+    "modId": "tfc_preservation_predictor",
+    "name": "TFC Preservation Predictor",
+    "version": "1.0.1",
+    "curseForgeHash": 1758059055,
+    "modrinthHash": "0afa68a4c349a3661335ec5445f6a2ffe117b5a5"
   },
   "tfc_ruins-1.0.1-forge-1.20.1.jar": {
     "jarName": "tfc_ruins-1.0.1-forge-1.20.1.jar",
