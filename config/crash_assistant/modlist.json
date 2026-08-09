@@ -1939,6 +1939,14 @@
     "curseForgeHash": 550849047,
     "modrinthHash": "9031d03219fa5ec6805cba418cc1b31d215a0704"
   },
+  "StorageDrawers-forge-1.20.1-12.14.3.jar": {
+    "jarName": "StorageDrawers-forge-1.20.1-12.14.3.jar",
+    "modId": "storagedrawers",
+    "name": "Storage Drawers",
+    "version": "12.14.3",
+    "curseForgeHash": 1405447780,
+    "modrinthHash": "afca74c6e18883632e74e15a549004bfca245a90"
+  },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
     "modId": "structure_layout_optimizer",
@@ -2250,6 +2258,14 @@
     "version": "1.0.0",
     "curseForgeHash": 3387855394,
     "modrinthHash": "b4c123e69d5904136c2f0c63ddf3bdcf4444b653"
+  },
+  "tfcstoragedrawers-1.0.0.jar": {
+    "jarName": "tfcstoragedrawers-1.0.0.jar",
+    "modId": "tfcstoragedrawers",
+    "name": "TFC Storage Drawers",
+    "version": "1.0.0",
+    "curseForgeHash": 2530263860,
+    "modrinthHash": "12a328d16b78e270ea369af9dd94d513611d4701"
   },
   "TFCTumbleweed-1.20.1-1.2.2.jar": {
     "jarName": "TFCTumbleweed-1.20.1-1.2.2.jar",

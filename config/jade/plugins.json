@@ -191,5 +191,11 @@
   },
   "tfc_support_indicator": {
     "support_indicator": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }
