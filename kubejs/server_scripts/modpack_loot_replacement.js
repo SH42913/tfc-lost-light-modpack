@@ -205,7 +205,8 @@ const lootReplacementMap = {
     "minecraft:rabbit_hide": "tfc:small_raw_hide",
     "minecraft:bow": "tfc_arch:shortbow",
     "minecraft:crossbow": "tfc_arch:copper_crossbow",
-    "minecraft:arrow": "tfc_arch:stone_arrow"
+    "minecraft:arrow": "tfc_arch:stone_arrow",
+    "supplementaries:quiver": "sns:quiver",
 };
 
 LootJS.modifiers((event) => {
