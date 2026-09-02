@@ -158,6 +158,9 @@
     "tfc_chest": true,
     "barrel": true
   },
+  "tfc_crude_crucible": {
+    "crude_crucible": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

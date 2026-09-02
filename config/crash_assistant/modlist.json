@@ -21,6 +21,14 @@
     "curseForgeHash": 1849083843,
     "modrinthHash": "40bfd89ad3bb5d9f6c6d08cba4dee0e89330ab2b"
   },
+  "advanced_tfc_info-1.0.0-1.20.1.jar": {
+    "jarName": "advanced_tfc_info-1.0.0-1.20.1.jar",
+    "modId": "advanced_tfc_info",
+    "name": "advanced tfc info",
+    "version": "1.0.0-1.20.1",
+    "curseForgeHash": 3783017455,
+    "modrinthHash": "62b41b7d5238ed77f7cffa7f7e87ce8175a5ff97"
+  },
   "AdvancedCoreInfo-forge-1.20.1-1.1.0.jar": {
     "jarName": "AdvancedCoreInfo-forge-1.20.1-1.1.0.jar",
     "modId": "aci",
@@ -2059,6 +2067,14 @@
     "curseForgeHash": 653060827,
     "modrinthHash": "31c9fa1f33adcf66dd299698729162a705819384"
   },
+  "tfc_anvil_enhancer-1.20.1-1.0.0.jar": {
+    "jarName": "tfc_anvil_enhancer-1.20.1-1.0.0.jar",
+    "modId": "tfc_anvil_enhancer",
+    "name": "TFC Anvil Enhancer",
+    "version": "1.0.0",
+    "curseForgeHash": 2269948039,
+    "modrinthHash": "58ee35c23751d0e1ce8f174333172f5518ab925b"
+  },
   "tfc_arch-1.3.1-forge-1.20.1.jar": {
     "jarName": "tfc_arch-1.3.1-forge-1.20.1.jar",
     "modId": "tfc_arch",
@@ -2066,6 +2082,14 @@
     "version": "1.0",
     "curseForgeHash": 4101460630,
     "modrinthHash": "c7fc3fa4a1f06a2cff28a827daa10a6863562da3"
+  },
+  "tfc_crude_crucible-1.0.1-1.20.1.jar": {
+    "jarName": "tfc_crude_crucible-1.0.1-1.20.1.jar",
+    "modId": "tfc_crude_crucible",
+    "name": "TFC Crude Crucible",
+    "version": "1.0.1-1.20.1",
+    "curseForgeHash": 609515887,
+    "modrinthHash": "e2abe2a82b92dd76426a7d338d81692d1e5ef619"
   },
   "tfc_curios_weight-1.0.0.jar": {
     "jarName": "tfc_curios_weight-1.0.0.jar",

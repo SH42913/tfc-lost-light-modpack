@@ -1,0 +1,26 @@
+
+#Placement and size of the step panel drawn beside the anvil GUI.
+#JEI's item list sits along the right edge of the screen, so these exist mainly to move
+#the panel out from underneath it.
+[panel]
+	#Which side of the anvil GUI the panel prefers. If that side has no room, the
+	#other one is used anyway.
+	#Allowed Values: RIGHT, LEFT
+	side = "RIGHT"
+	#Horizontal nudge in pixels, applied after the side has been chosen.
+	#Positive moves right.
+	#Range: -320 ~ 320
+	offsetX = 0
+	#Vertical nudge in pixels from the top of the anvil GUI. Positive moves down.
+	#Range: -320 ~ 320
+	offsetY = 0
+	#Width cap in pixels. Lines longer than this wrap onto the next row.
+	#0 makes the panel exactly as wide as its widest line.
+	#Range: 0 ~ 400
+	maxWidth = 0
+	#Size multiplier for the whole panel, text included.
+	#Range: 0.5 ~ 2.0
+	scale = 1.0
+	#Draw TerraFirmaCraft's own action icon in front of each step name.
+	showIcons = true
+
