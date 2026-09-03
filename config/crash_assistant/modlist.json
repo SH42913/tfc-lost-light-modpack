@@ -834,6 +834,14 @@
     "curseForgeHash": 1473382339,
     "modrinthHash": "3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6"
   },
+  "fastchunkgen-0.24-all.jar": {
+    "jarName": "fastchunkgen-0.24-all.jar",
+    "modId": "fastchunkgen",
+    "name": "FastChunkGen",
+    "version": "0.24",
+    "curseForgeHash": 1374288523,
+    "modrinthHash": "0f14169cc0a1b18a3c65f989dbc89a359b6b7b10"
+  },
   "FastFurnace-1.20.1-8.0.2.jar": {
     "jarName": "FastFurnace-1.20.1-8.0.2.jar",
     "modId": "fastfurnace",
