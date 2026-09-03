@@ -285,14 +285,6 @@
     "curseForgeHash": 2212904341,
     "modrinthHash": "fa834f140bf7dce7b67c29b46cb531f4309d3209"
   },
-  "canary-mc1.20.1-0.3.3.jar": {
-    "jarName": "canary-mc1.20.1-0.3.3.jar",
-    "modId": "canary",
-    "name": "Canary",
-    "version": "0.3.3",
-    "curseForgeHash": 178846246,
-    "modrinthHash": "898abd9e337ef1c677ce93f5589497a09c7e9850"
-  },
   "CastIronGrill-1.20.1-2.3.jar": {
     "jarName": "CastIronGrill-1.20.1-2.3.jar",
     "modId": "castirongrill",
@@ -1706,6 +1698,14 @@
     "version": "8.1.33",
     "curseForgeHash": 3151848185,
     "modrinthHash": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf"
+  },
+  "radium-mc1.20.1-0.12.4+git.26c9d8e.jar": {
+    "jarName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+    "modId": "radium",
+    "name": "Radium",
+    "version": "0.12.4+git.26c9d8e",
+    "curseForgeHash": 1441086174,
+    "modrinthHash": "f5f5f792473bb7b85ec221f75c5afb3740afb13a"
   },
   "randomworldname-3.0.2.jar": {
     "jarName": "randomworldname-3.0.2.jar",
