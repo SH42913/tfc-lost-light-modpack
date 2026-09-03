@@ -722,13 +722,13 @@
     "curseForgeHash": 1511043282,
     "modrinthHash": "7b72b5902fb57d3a01daa450e1eef9476b5cefc2"
   },
-  "entity_model_features-3.3.3-1.20.1-forge.jar": {
-    "jarName": "entity_model_features-3.3.3-1.20.1-forge.jar",
+  "entity_model_features-3.3.5-1.20.1-forge.jar": {
+    "jarName": "entity_model_features-3.3.5-1.20.1-forge.jar",
     "modId": "entity_model_features",
     "name": "Entity Model Features",
-    "version": "3.3.3",
-    "curseForgeHash": 2396307136,
-    "modrinthHash": "138715acf73157a83d941bf348255734c966b636"
+    "version": "3.3.5",
+    "curseForgeHash": 2906612030,
+    "modrinthHash": "0f5cacdc6473b272f867a892bb55ae2e68d66e16"
   },
   "entity_sound_features-0.8.2-1.20.1-forge.jar": {
     "jarName": "entity_sound_features-0.8.2-1.20.1-forge.jar",
@@ -946,13 +946,13 @@
     "curseForgeHash": 993363708,
     "modrinthHash": "7a3addd8dfb8c2e961e2a9cd52241c9b756a97f2"
   },
-  "fusion-1.3.14a-forge-mc1.20.1.jar": {
-    "jarName": "fusion-1.3.14a-forge-mc1.20.1.jar",
+  "fusion-1.3.15-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.3.15-forge-mc1.20.1.jar",
     "modId": "fusion",
     "name": "Fusion",
-    "version": "1.3.14+a",
-    "curseForgeHash": 2774548811,
-    "modrinthHash": "75983e3723c9f05c105301ccf227de242f0e2a43"
+    "version": "1.3.15",
+    "curseForgeHash": 1173978316,
+    "modrinthHash": "3f97f185606c3445c4ae054b6672031e262fb7c5"
   },
   "fzzy_config-0.7.6+1.20.1+forge.jar": {
     "jarName": "fzzy_config-0.7.6+1.20.1+forge.jar",
@@ -1683,13 +1683,13 @@
     "curseForgeHash": 4100785731,
     "modrinthHash": "c6ff07c4ee3111b480fee577cb98c3671cf063b8"
   },
-  "puffish_skills-0.18.3-1.20-forge.jar": {
-    "jarName": "puffish_skills-0.18.3-1.20-forge.jar",
+  "puffish_skills-0.19.0-1.20-forge.jar": {
+    "jarName": "puffish_skills-0.19.0-1.20-forge.jar",
     "modId": "puffish_skills",
     "name": "Pufferfish\u0027s Skills",
-    "version": "0.18.3",
-    "curseForgeHash": 3208714085,
-    "modrinthHash": "8b5899ae3483747b5dacef84ba07981948f562c0"
+    "version": "0.19.0",
+    "curseForgeHash": 3194464690,
+    "modrinthHash": "3fbe2918d020511103e7d1e73adc3b03534aba7e"
   },
   "PuzzlesLib-v8.1.33-1.20.1-Forge.jar": {
     "jarName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
