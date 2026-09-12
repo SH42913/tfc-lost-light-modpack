@@ -57,7 +57,7 @@ globalExecutorParallelism = "default"
 	recoverFromErrors = "default"
 	# (Default: true) Fire Forge ChunkDataEvent.Save on async saves. Off means mods lose per-chunk data.
 	fireForgeChunkDataEvents = "default"
-	# (Default: true) Fire Forge chunk data events on the server thread. Off is unsafe for most mods.
+	# (Default: true) Fire Forge chunk data events and deserialize chunk capabilities on the server thread. Off is unsafe for most mods.
 	forgeChunkDataEventsOnMainThread = "default"
 	# (Default: true) Snapshot block entity NBT on the server thread when a chunk save starts. Disabling serializes them on IO workers instead, which is faster but races modded block entities and Forge capabilities.
 	serializeBlockEntitiesOnMainThread = "default"
@@ -71,6 +71,10 @@ globalExecutorParallelism = "default"
 	optimizeAquifer = "default"
 	# (Default: true) Cache End biome lookups.
 	useEndBiomeCache = "default"
+	# (Default: true) Cache the hashCode of density function and spline records. They are immutable, so the value never changes.
+	cacheDensityFunctionHashes = "default"
+	# (Default: true) Skip the NoiseChunk wrapper map for density functions it would hand straight back. Only marker nodes own a cache that has to be shared.
+	skipRedundantDensityFunctionWrapping = "default"
 
 [threadedLighting]
 	# (Default: true) Run light updates on a dedicated thread.

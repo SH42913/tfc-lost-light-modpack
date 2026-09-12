@@ -6,6 +6,7 @@ biomesTagsStructuresToLogs = false
 #(eg, it will use tfc_structures:chests/desert_pyramid instead of minecraft:chests/desert_pyramid)
 fallbackToTfcStructuresLoot = false
 #Dimensions where structure blocks will be replaced
+#Empty list disables block replacements in all dimensions
 allowedDimensions = ["minecraft:overworld"]
 #List to separate mossy blocks from others (it will generate #mossy_stones tag)
 mossyBlocks = ["minecraft:mossy_cobblestone", "minecraft:mossy_cobblestone_slab", "minecraft:mossy_cobblestone_stairs", "minecraft:mossy_cobblestone_wall", "minecraft:mossy_stone_brick_slab", "minecraft:mossy_stone_brick_stairs", "minecraft:mossy_stone_brick_wall", "minecraft:mossy_stone_bricks"]
@@ -17,4 +18,8 @@ strippedWood = ["minecraft:stripped_oak_wood", "minecraft:stripped_spruce_wood",
 crackedBricks = ["minecraft:cracked_stone_bricks", "minecraft:cracked_deepslate_bricks", "minecraft:cracked_deepslate_tiles"]
 #Loot table that will be used as emptyChestLootTable field for every new Structure in StructureConfig
 defaultEmptyChestLootTable = "lost_light:chest/pretty_simple_chest"
+#Folder relative to game folder where datapacks(incl. generated one) will be placed
+#Eg, you can use "datapacks" name to load all datapacks from that folder
+#Be cautious, all datapacks in this folder will always be loaded
+datapacksFolder = "tfc_structures_datapacks"
 
