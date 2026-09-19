@@ -1851,6 +1851,14 @@
     "curseForgeHash": 258080833,
     "modrinthHash": "b4544e81cf391ffd39468ee9fe64958263af6929"
   },
+  "simple_tfc_ore_sluicing-1.0.0-1.20.1.jar": {
+    "jarName": "simple_tfc_ore_sluicing-1.0.0-1.20.1.jar",
+    "modId": "simple_tfc_ore_sluicing",
+    "name": "simple tfc ore sluicing",
+    "version": "1.0.0-1.20.1",
+    "curseForgeHash": 1232415579,
+    "modrinthHash": "7fb0af3b4482e68a98a4f2ebf28794c69f2ec90a"
+  },
   "SimplyHouses-1.1.4-1.20.1-forge.jar": {
     "jarName": "SimplyHouses-1.1.4-1.20.1-forge.jar",
     "modId": "simply_houses",
