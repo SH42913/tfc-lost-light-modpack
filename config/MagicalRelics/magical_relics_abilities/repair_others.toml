@@ -22,10 +22,16 @@
 # Category: repair_others
 # Options for this ability repairing other items in the inventory.
 
-  # The amount of durability that is restored for the target item in the inventory when this ability has a use trigger.
+  # The minimum and maximum (inclusive) amount of durability that can be restored for the target item in the user's
+  #   inventory when this ability has a use trigger.
   # <Integer> Range: ≥ 1, Default: 1
-  repair_others.durability_restoration.active = 1
-  # The amount of durability that is restored for the target item in the inventory when this ability has a passive
-  #   trigger.
+  repair_others.durability_restoration.use.min = 1
+  # <Integer> Range: ≥ 1, Default: 5
+  repair_others.durability_restoration.use.max = 5
+
+  # The minimum and maximum (inclusive) amount of durability that can be restored for the target item in the user's
+  #   inventory when this ability has a passive trigger.
   # <Integer> Range: ≥ 1, Default: 1
-  repair_others.durability_restoration.passive = 1
+  repair_others.durability_restoration.passive.min = 1
+  # <Integer> Range: ≥ 1, Default: 2
+  repair_others.durability_restoration.passive.max = 2
