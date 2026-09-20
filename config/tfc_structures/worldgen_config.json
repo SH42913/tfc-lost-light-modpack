@@ -42,7 +42,8 @@
         "forest_ruins:ruin_5",
         "forest_ruins:ruin_6",
         "forest_ruins:ruin_7",
-        "nova_structures:wild_ruin"
+        "nova_structures:wild_ruin",
+        "repurposed_structures:ruins_land_warm"
       ]
     },
     {
@@ -147,7 +148,9 @@
         "tfc:inverted_badlands"
       ],
       "structures": [
-        "nova_structures:desert_ruins"
+        "nova_structures:desert_ruins",
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:ruins_land_hot"
       ]
     },
     {
@@ -161,7 +164,8 @@
         "simply_houses:taiga_forge",
         "simply_houses:taiga_house",
         "simply_houses:taiga_inn",
-        "simply_houses:taiga_woodcutter"
+        "simply_houses:taiga_woodcutter",
+        "repurposed_structures:igloo_grassy"
       ]
     },
     {
@@ -227,7 +231,13 @@
         "#tfc_structures:is_deep_ocean",
         "#tfc_structures:is_common_ocean"
       ],
-      "structures": []
+      "structures": [
+        "repurposed_structures:ancient_city_ocean",
+        "repurposed_structures:pyramid_ocean",
+        "repurposed_structures:temple_ocean",
+        "repurposed_structures:mineshaft_ocean",
+        "repurposed_structures:village_ocean"
+      ]
     },
     {
       "id": "tfc_structures:is_swamp",
@@ -270,7 +280,8 @@
       ],
       "structures": [
         "minecraft:desert_pyramid",
-        "archaeology_ruins:ruined_desert_pyramid"
+        "archaeology_ruins:ruined_desert_pyramid",
+        "repurposed_structures:pyramid_badlands"
       ]
     },
     {
@@ -298,7 +309,8 @@
         "#tfc_structures:is_any_mountains"
       ],
       "structures": [
-        "minecraft:stronghold"
+        "minecraft:stronghold",
+        "repurposed_structures:city_overworld"
       ]
     },
     {
@@ -326,7 +338,8 @@
         "tfc:plateau"
       ],
       "structures": [
-        "minecraft:trail_ruins"
+        "minecraft:trail_ruins",
+        "repurposed_structures:ruins_land_cold"
       ]
     },
     {
@@ -339,7 +352,9 @@
       "structures": [
         "minecraft:jungle_pyramid",
         "archaeology_ruins:ruinedjungletemple",
-        "nova_structures:jungle_ruins"
+        "nova_structures:jungle_ruins",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:monument_jungle"
       ]
     },
     {
@@ -445,7 +460,9 @@
         "ctov:medium/village_mountain_alpine",
         "ctov:pillager_outpost_mountain",
         "nova_structures:bunker",
-        "dungeons_arise:mining_system"
+        "dungeons_arise:mining_system",
+        "repurposed_structures:igloo_stone",
+        "repurposed_structures:village_mountains"
       ]
     },
     {
@@ -457,7 +474,8 @@
         "ctov:small/village_underground",
         "ctov:medium/village_underground",
         "minecraft:mineshaft",
-        "nova_structures:underground_house"
+        "nova_structures:underground_house",
+        "repurposed_structures:mineshaft_stone"
       ]
     },
     {
@@ -472,7 +490,8 @@
         "valarian_conquest:orc_fort",
         "valarian_conquest:orc_outpost",
         "ctov:pillager_outpost_badlands",
-        "nova_structures:badlands_miner_outpost"
+        "nova_structures:badlands_miner_outpost",
+        "repurposed_structures:outpost_badlands"
       ]
     },
     {
@@ -541,7 +560,13 @@
         "ctov:medium/village_plains_fortified",
         "ctov:pillager_outpost_plains",
         "nova_structures:firewatch_tower_cherry",
-        "nova_structures:tavern_cherry"
+        "nova_structures:tavern_cherry",
+        "repurposed_structures:pyramid_flower_forest",
+        "repurposed_structures:village_cherry",
+        "repurposed_structures:village_oak",
+        "repurposed_structures:outpost_oak",
+        "repurposed_structures:witch_hut_oak",
+        "repurposed_structures:mansion_oak"
       ]
     },
     {
@@ -555,7 +580,12 @@
         "valarian_conquest:bohemiantower",
         "nova_structures:firewatch_tower_birch",
         "nova_structures:tavern_birch",
-        "nova_structures:well_birch"
+        "nova_structures:well_birch",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:outpost_birch",
+        "repurposed_structures:witch_hut_birch",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mineshaft_birch"
       ]
     },
     {
@@ -579,7 +609,13 @@
         "nova_structures:village_swamp",
         "nova_structures:firewatch_tower_swamp",
         "nova_structures:tavern_oak",
-        "nova_structures:well_oak"
+        "nova_structures:well_oak",
+        "repurposed_structures:igloo_mangrove",
+        "repurposed_structures:village_swamp",
+        "repurposed_structures:outpost_mangrove",
+        "repurposed_structures:witch_hut_mangrove",
+        "repurposed_structures:mansion_mangrove",
+        "repurposed_structures:mineshaft_swamp"
       ]
     },
     {
@@ -600,7 +636,16 @@
         "ctov:pillager_outpost_taiga",
         "nova_structures:firewatch_tower_taiga",
         "nova_structures:tavern_spruce",
-        "nova_structures:well_spruce"
+        "nova_structures:well_spruce",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:temple_taiga",
+        "repurposed_structures:village_giant_taiga",
+        "repurposed_structures:outpost_giant_tree_taiga",
+        "repurposed_structures:outpost_taiga",
+        "repurposed_structures:witch_hut_giant_tree_taiga",
+        "repurposed_structures:witch_hut_taiga",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:mineshaft_taiga"
       ]
     },
     {
@@ -621,7 +666,10 @@
         "ctov:pillager_outpost_desert",
         "nova_structures:tavern_desert",
         "nova_structures:firewatch_tower_mangrove",
-        "nova_structures:tavern_mangrove"
+        "nova_structures:tavern_mangrove",
+        "repurposed_structures:outpost_desert",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:mineshaft_desert"
       ]
     },
     {
@@ -647,7 +695,10 @@
         "ctov:pillager_outpost_savanna",
         "nova_structures:firewatch_tower_savanna",
         "nova_structures:tavern_acacia",
-        "nova_structures:well_savana"
+        "nova_structures:well_savana",
+        "repurposed_structures:village_badlands",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mineshaft_savanna"
       ]
     },
     {
@@ -667,7 +718,12 @@
         "nova_structures:firewatch_tower_jungle",
         "nova_structures:tavern_jungle",
         "nova_structures:well_jungle",
-        "dungeons_arise:jungle_tree_house"
+        "dungeons_arise:jungle_tree_house",
+        "repurposed_structures:village_bamboo",
+        "repurposed_structures:village_jungle",
+        "repurposed_structures:outpost_jungle",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mineshaft_jungle"
       ]
     },
     {
@@ -689,7 +745,11 @@
         "simply_houses:forest_chapel",
         "simply_houses:forest_fort",
         "simply_houses:forest_house",
-        "simply_houses:forest_stonemason"
+        "simply_houses:forest_stonemason",
+        "repurposed_structures:pyramid_dark_forest",
+        "repurposed_structures:village_dark_forest",
+        "repurposed_structures:witch_hut_dark_forest",
+        "repurposed_structures:mineshaft_dark_forest"
       ]
     },
     {
@@ -725,7 +785,10 @@
         "dungeons_arise:monastery",
         "dungeons_arise:wishing_well",
         "dungeons_arise:mushroom_house",
-        "ctov:small/village_mushroom"
+        "ctov:small/village_mushroom",
+        "repurposed_structures:igloo_mushroom",
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:village_mushroom"
       ]
     },
     {
@@ -796,7 +859,15 @@
     "ctov:large/village_taiga",
     "ctov:large/village_taiga_fortified",
     "ctov:large/village_underground",
-    "mowziesmobs:wrought_chamber"
+    "mowziesmobs:wrought_chamber",
+    "repurposed_structures:mansion_snowy",
+    "repurposed_structures:outpost_snowy",
+    "repurposed_structures:pyramid_snowy",
+    "repurposed_structures:ruins_land_icy",
+    "repurposed_structures:monument_icy",
+    "repurposed_structures:mineshaft_icy",
+    "repurposed_structures:outpost_icy",
+    "repurposed_structures:pyramid_icy"
   ],
   "defaultWorldgenStructures": [
     "dungeons_arise:foundry",
@@ -821,6 +892,37 @@
     "nova_structures:skeleton_camp_soul",
     "nova_structures:skeleton_camp_warped",
     "nova_structures:skeleton_camp_waste",
+    "repurposed_structures:ancient_city_end",
+    "repurposed_structures:ancient_city_nether",
+    "repurposed_structures:bastion_underground",
+    "repurposed_structures:city_nether",
+    "repurposed_structures:fortress_jungle",
+    "repurposed_structures:mineshaft_crimson",
+    "repurposed_structures:mineshaft_end",
+    "repurposed_structures:mineshaft_nether",
+    "repurposed_structures:mineshaft_warped",
+    "repurposed_structures:monument_nether",
+    "repurposed_structures:outpost_crimson",
+    "repurposed_structures:outpost_end",
+    "repurposed_structures:outpost_nether_brick",
+    "repurposed_structures:outpost_warped",
+    "repurposed_structures:pyramid_end",
+    "repurposed_structures:pyramid_nether",
+    "repurposed_structures:ruined_portal_end",
+    "repurposed_structures:ruins_nether",
+    "repurposed_structures:shipwreck_crimson",
+    "repurposed_structures:shipwreck_end",
+    "repurposed_structures:shipwreck_nether_bricks",
+    "repurposed_structures:shipwreck_warped",
+    "repurposed_structures:stronghold_end",
+    "repurposed_structures:stronghold_nether",
+    "repurposed_structures:temple_nether_basalt",
+    "repurposed_structures:temple_nether_crimson",
+    "repurposed_structures:temple_nether_soul",
+    "repurposed_structures:temple_nether_warped",
+    "repurposed_structures:temple_nether_wasteland",
+    "repurposed_structures:village_crimson",
+    "repurposed_structures:village_warped",
     "supplementaries:way_sign",
     "tfc_ruins:ruin_beach",
     "tfc_ruins:ruin_rich",

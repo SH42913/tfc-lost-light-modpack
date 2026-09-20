@@ -1731,6 +1731,14 @@
     "curseForgeHash": 2081161564,
     "modrinthHash": "e689f61f6799acf2af6b970c964aa65f50290ec4"
   },
+  "repurposed_structures-7.1.25+1.20.1-forge.jar": {
+    "jarName": "repurposed_structures-7.1.25+1.20.1-forge.jar",
+    "modId": "repurposed_structures",
+    "name": "Repurposed Structures",
+    "version": "7.1.25+1.20.1-forge",
+    "curseForgeHash": 2822896061,
+    "modrinthHash": "a1534373cf9bcd237d5c444ebdfdbd9a04584006"
+  },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
     "modId": "resourcefulconfig",
