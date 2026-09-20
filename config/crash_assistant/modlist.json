@@ -746,13 +746,13 @@
     "curseForgeHash": 4013698041,
     "modrinthHash": "0932b2cf25d7667abbaab4f1859435adc5480621"
   },
-  "epic-knights-1.20.1-forge-10.11.jar": {
-    "jarName": "epic-knights-1.20.1-forge-10.11.jar",
+  "epic-knights-1.20.1-forge-10.15.jar": {
+    "jarName": "epic-knights-1.20.1-forge-10.15.jar",
     "modId": "magistuarmory",
     "name": "Epic-Knights: Shields, Armor and Weapons",
-    "version": "10.11",
-    "curseForgeHash": 2090708231,
-    "modrinthHash": "b76f56523dcde7ae30f4a3c299b1d104348b92eb"
+    "version": "10.15",
+    "curseForgeHash": 2426879317,
+    "modrinthHash": "8f6019735436fb5a0056916e25f62b363baddafa"
   },
   "epic-knights-antique-legacy-1.20.x-forge-1.13.jar": {
     "jarName": "epic-knights-antique-legacy-1.20.x-forge-1.13.jar",
@@ -2395,13 +2395,13 @@
     "curseForgeHash": 2041389298,
     "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
-  "tooltipoverhaul-forge-1.20.1-2.0.0.jar": {
-    "jarName": "tooltipoverhaul-forge-1.20.1-2.0.0.jar",
+  "tooltipoverhaul-forge-1.20.1-2.0.1.jar": {
+    "jarName": "tooltipoverhaul-forge-1.20.1-2.0.1.jar",
     "modId": "tooltipoverhaul",
     "name": "Tooltip Overhaul",
-    "version": "2.0.0",
-    "curseForgeHash": 2442914880,
-    "modrinthHash": "3203c58fda92da8de886b4b3ff547266f099e8fb"
+    "version": "2.0.1",
+    "curseForgeHash": 18591487,
+    "modrinthHash": "9959a3b2bca96a641453b6ff5e970c6ae645c2b4"
   },
   "TravelersTitles-1.20-Forge-4.0.2.jar": {
     "jarName": "TravelersTitles-1.20-Forge-4.0.2.jar",
