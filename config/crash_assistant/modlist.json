@@ -746,13 +746,13 @@
     "curseForgeHash": 3829058299,
     "modrinthHash": "1ee3606828a796d1fdcd90c85c4fb12fc1a36fc4"
   },
-  "entityculling-forge-1.10.5-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.10.5-mc1.20.1.jar",
+  "entityculling-forge-1.11.1-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.11.1-mc1.20.1.jar",
     "modId": "entityculling",
     "name": "EntityCulling",
-    "version": "1.10.5",
-    "curseForgeHash": 4018169999,
-    "modrinthHash": "b818f6d792b79f4ec116c89704e70292bd6f72b5"
+    "version": "1.11.1",
+    "curseForgeHash": 4013698041,
+    "modrinthHash": "0932b2cf25d7667abbaab4f1859435adc5480621"
   },
   "epic-knights-1.20.1-forge-10.11.jar": {
     "jarName": "epic-knights-1.20.1-forge-10.11.jar",
@@ -834,13 +834,13 @@
     "curseForgeHash": 1473382339,
     "modrinthHash": "3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6"
   },
-  "fastchunkgen-0.27-all.jar": {
-    "jarName": "fastchunkgen-0.27-all.jar",
+  "fastchunkgen-0.28-all.jar": {
+    "jarName": "fastchunkgen-0.28-all.jar",
     "modId": "fastchunkgen",
     "name": "FastChunkGen",
-    "version": "0.27",
-    "curseForgeHash": 1597625992,
-    "modrinthHash": "f998f48f69ff0430248ad358f6f112663652c342"
+    "version": "0.28",
+    "curseForgeHash": 2218572370,
+    "modrinthHash": "1c183bcfcc80cb1f3d709e075f7f49a802a69f7a"
   },
   "FastFurnace-1.20.1-8.0.2.jar": {
     "jarName": "FastFurnace-1.20.1-8.0.2.jar",
@@ -1404,13 +1404,13 @@
     "curseForgeHash": 3315618055,
     "modrinthHash": "ff01aa718b71249012c41d9926d3fd2982809fdb"
   },
-  "minecraft-comes-alive-7.7.1-beta.1+1.20.1-universal.jar": {
-    "jarName": "minecraft-comes-alive-7.7.1-beta.1+1.20.1-universal.jar",
+  "minecraft-comes-alive-7.7.1-beta.2+1.20.1-universal.jar": {
+    "jarName": "minecraft-comes-alive-7.7.1-beta.2+1.20.1-universal.jar",
     "modId": "mca",
     "name": "Minecraft Comes Alive",
-    "version": "7.7.1-beta.1+1.20.1",
-    "curseForgeHash": 3431614214,
-    "modrinthHash": "943166665800c0773a246b0619800b31717441f5"
+    "version": "7.7.1-beta.2+1.20.1",
+    "curseForgeHash": 778013289,
+    "modrinthHash": "f9356b5a47f70100edfb58a809e8d620bd9d55fb"
   },
   "minecraft_style_paintings-1.0.0-forge-1.20.1.jar": {
     "jarName": "minecraft_style_paintings-1.0.0-forge-1.20.1.jar",
@@ -1523,13 +1523,13 @@
     "curseForgeHash": 2034225621,
     "modrinthHash": "6f6a75273520a9f2ace22f592ee414d7a4f039e8"
   },
-  "notenoughanimations-forge-1.12.4-mc1.20.1.jar": {
-    "jarName": "notenoughanimations-forge-1.12.4-mc1.20.1.jar",
+  "notenoughanimations-forge-1.12.6-mc1.20.1.jar": {
+    "jarName": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
     "modId": "notenoughanimations",
     "name": "NotEnoughAnimations",
-    "version": "1.12.4",
-    "curseForgeHash": 4178741651,
-    "modrinthHash": "71484079011f71a37d913b491828412992fd8314"
+    "version": "1.12.6",
+    "curseForgeHash": 4216813964,
+    "modrinthHash": "993252c9946e22aa4ba0b28cb5b81183d5bcf50d"
   },
   "nyfsspiders-Forge-1.20.1-3.0.1.jar": {
     "jarName": "nyfsspiders-Forge-1.20.1-3.0.1.jar",
@@ -2403,13 +2403,13 @@
     "curseForgeHash": 2041389298,
     "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
-  "tooltipoverhaul-forge-1.20.1-1.5.2.jar": {
-    "jarName": "tooltipoverhaul-forge-1.20.1-1.5.2.jar",
+  "tooltipoverhaul-forge-1.20.1-2.0.0.jar": {
+    "jarName": "tooltipoverhaul-forge-1.20.1-2.0.0.jar",
     "modId": "tooltipoverhaul",
     "name": "Tooltip Overhaul",
-    "version": "1.5.2",
-    "curseForgeHash": 922646372,
-    "modrinthHash": "31d0bb7df98e8bfa5a61377f5b2e57e77820cd46"
+    "version": "2.0.0",
+    "curseForgeHash": 2442914880,
+    "modrinthHash": "3203c58fda92da8de886b4b3ff547266f099e8fb"
   },
   "TravelersTitles-1.20-Forge-4.0.2.jar": {
     "jarName": "TravelersTitles-1.20-Forge-4.0.2.jar",

@@ -47,32 +47,7 @@
       "priority": 5
     },
     {
-      "id": "amber",
-      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
-      "items": [
-        "minecraft:elytra",
-        "minecraft:experience_bottle",
-        "minecraft:skeleton_skull",
-        "minecraft:wither_skeleton_skull",
-        "minecraft:nether_star",
-        "minecraft:enchanted_book",
-        "minecraft:dragon_breath",
-        "minecraft:totem_of_undying",
-        "minecraft:heart_of_the_sea",
-        "minecraft:creeper_banner_pattern",
-        "minecraft:skull_banner_pattern"
-      ],
-      "gradientType": "custom",
-      "borderType": "gradient",
-      "gradientColors": [
-        "#9EA41A",
-        "#696D0D",
-        "#434509"
-      ],
-      "dividerLineColor": "#9BA323",
-      "priority": 3
-    },
-    {
+      "id": "silver",
       "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
       "items": [
         "minecraft:netherite_upgrade_smithing_template",
@@ -100,35 +75,49 @@
         "minecraft:diamond_boots",
         "minecraft:diamond_horse_armor",
         "minecraft:saddle",
-        "minecraft:trident",
         "minecraft:shield",
         "minecraft:turtle_helmet",
         "minecraft:crossbow",
         "minecraft:bow",
-        "tfc_arch:shortbow",
-        "tfc_arch:longbow",
-        "tfc_arch:plains_bow",
-        "tfc_arch:copper_crossbow",
-        "tfc_arch:bismuth_bronze_crossbow",
-        "tfc_arch:bronze_crossbow",
-        "tfc_arch:black_bronze_crossbow",
-        "tfc_arch:wrought_iron_crossbow",
-        "tfc_arch:steel_crossbow",
-        "tfc_arch:black_steel_crossbow",
-        "tfc_arch:blue_steel_crossbow",
-        "tfc_arch:red_steel_crossbow",
         "minecraft:ender_pearl",
-        "minecraft:eye_of_ender",
         "minecraft:blaze_rod",
-        "minecraft:netherite_scrap"
+        "minecraft:ender_eye"
+      ],
+      "gradientType": "common",
+      "borderType": "gradient",
+      "gradientColors": [
+        "#A9A9A9",
+        "#545454",
+        "#303030"
+      ],
+      "dividerLineColor": "#A2A2A2",
+      "priority": 4
+    },
+    {
+      "id": "amber",
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        "minecraft:elytra",
+        "minecraft:experience_bottle",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:nether_star",
+        "minecraft:enchanted_book",
+        "minecraft:dragon_breath",
+        "minecraft:totem_of_undying",
+        "minecraft:heart_of_the_sea",
+        "minecraft:creeper_banner_pattern",
+        "minecraft:skull_banner_pattern"
       ],
       "gradientType": "custom",
       "borderType": "gradient",
       "gradientColors": [
-        "#A9A9A9",
-        "#999999",
-        "#8F8F8F"
-      ]
+        "#9EA41A",
+        "#696D0D",
+        "#434509"
+      ],
+      "dividerLineColor": "#9BA323",
+      "priority": 3
     },
     {
       "items": [
@@ -257,6 +246,25 @@
           "variation": 48.0
         }
       }
+    },
+    {
+      "items": [
+        "minecraft:trident"
+      ],
+      "name": "Bubbles",
+      "specialEffect": "bubbles",
+      "effectSettings": {
+        "bubbles": {
+          "density": 0.710216,
+          "thickness": 1.0,
+          "size": 1.0,
+          "variation": 23.0,
+          "travel": 1.6142118,
+          "turbulence": 3.0,
+          "stretch": 1.0
+        }
+      },
+      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png"
     },
     {
       "items": [
