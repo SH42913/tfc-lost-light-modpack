@@ -108,6 +108,8 @@
     "original": "tfc:rock/cobble/phyllite_slab", "type": "STONE"
   }, {
     "original": "tfc:rock/mossy_cobble/phyllite_slab", "type": "STONE"
+  }, {
+    "original": "minecraft:stone_brick_stairs", "type": "BRICK"
   }
 ]
 }
