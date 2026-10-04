@@ -48,7 +48,14 @@ config_enabled = false
   spawning.do_mob_spawning = true
   spawning.do_patrol_spawning = true
   spawning.do_trader_spawning = true
+  spawning.do_treasure_balloon_spawning = true
   spawning.do_warden_spawning = true
+  spawning.treasure_balloon_announcement = 1
+  spawning.treasure_balloon_chest_life_time = 12000
+  spawning.treasure_balloon_height_offset = 32
+  spawning.treasure_balloon_life_time = 6000
+  spawning.treasure_balloon_multiplayer_cooldown = true
+  spawning.treasure_balloon_spawn_time = 18000
 
 
 # Category: drops

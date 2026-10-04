@@ -1739,6 +1739,14 @@
     "curseForgeHash": 4009149513,
     "modrinthHash": "ccb01ebe6e603d5b0335e225a148911a2aad4919"
   },
+  "realmrpg_balloons-1.0.0-forge-1.20.1.jar": {
+    "jarName": "realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+    "modId": "realmrpg_balloons",
+    "name": "[NoCube\u0027s] Realm RPG: Treasure Balloons",
+    "version": "1.0.0",
+    "curseForgeHash": 226084292,
+    "modrinthHash": "2ca7dc891be7654ac2cfc3e4b1f1dc45f72671df"
+  },
   "realmrpg_skeletons-1.1.0-forge-1.20.1.jar": {
     "jarName": "realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
     "modId": "realmrpg_skeletons",
