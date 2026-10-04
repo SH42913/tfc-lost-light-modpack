@@ -786,6 +786,14 @@
     "curseForgeHash": 869978099,
     "modrinthHash": "de812ad140b67bbace4ef7be33e035c7e1beca89"
   },
+  "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar": {
+    "jarName": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+    "modId": "euphoria_patcher",
+    "name": "Euphoria Patcher",
+    "version": "1.10.5-r5.9.3-forge",
+    "curseForgeHash": 1271676245,
+    "modrinthHash": "66c44811b2972871aa6855b89c45e05d509efed9"
+  },
   "extragore-1.20.1-5.2.3.1.jar": {
     "jarName": "extragore-1.20.1-5.2.3.1.jar",
     "modId": "extragore",
