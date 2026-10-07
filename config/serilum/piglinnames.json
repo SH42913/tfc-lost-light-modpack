@@ -1,0 +1,27 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Piglin Names -> Config",
+	"Enable Piglin Names": {
+		"//": "Whether Piglin Names is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"useCustomNames": {
+		"//": "Use the custom name list, editable in ./mods/piglinnames/customnames.txt, seperated by a comma. If custom names are found, the default name list is ignored.",
+		"value": true
+	},
+	"useDefaultFemaleNames": {
+		"//": "Use the list of pre-defined female names when naming piglins.",
+		"value": true
+	},
+	"useDefaultMaleNames": {
+		"//": "Use the list of pre-defined male names when naming piglins.",
+		"value": true
+	},
+	"useBothCustomAndDefaultNames": {
+		"//": "Disabled by default. Whether both custom and default names should be used to name piglins.",
+		"value": false
+	},
+	"shouldCapitalizeNames": {
+		"//": "If enabled, the mod capitalizes each word in the custom name list.",
+		"value": true
+	}
+}

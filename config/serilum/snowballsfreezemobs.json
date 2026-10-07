@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Snowballs Freeze Mobs -> Config",
+	"Enable Snowballs Freeze Mobs": {
+		"//": "Whether Snowballs Freeze Mobs is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"freezeTimeMs": {
+		"//": "The amount of time in ms the mob hit will be frozen for. min: 0, max: 3,600,000",
+		"value": 5000
+	}
+}

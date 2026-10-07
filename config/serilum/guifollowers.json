@@ -1,0 +1,75 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> GUI Followers -> Config",
+	"Enable GUI Followers": {
+		"//": "Whether GUI Followers is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"showFollowerList": {
+		"//": "If disabled, the follower list is not shown at all.",
+		"value": true
+	},
+	"followerListHeaderFormat": {
+		"//": "The header text above the follower list.",
+		"value": "Followers:"
+	},
+	"showFollowerHealth": {
+		"//": "If enabled, shows the follower's health in the GUI list.",
+		"value": true
+	},
+	"followerHealthFormat": {
+		"//": "The format of the health string in the GUI. <health> will be replaced by the percentage of total health.",
+		"value": ": <health>%"
+	},
+	"showFollowerDistance": {
+		"//": "If enabled, shows the follower's distance in blocks to the player in the GUI list.",
+		"value": true
+	},
+	"followerDistanceFormat": {
+		"//": "The format of the distance string in the GUI. <distance> will be replaced by distance in blocks.",
+		"value": " (<distance> blocks)"
+	},
+	"distanceToCheckForFollowersAround": {
+		"//": "The distance in blocks around the player where the mod checks for tamed, non-sitting followers to add to the list. A value of -1 disables this feature. min: -1, max: 300",
+		"value": 50
+	},
+	"timeBetweenChecksInSeconds": {
+		"//": "The time in seconds in between checking for tamed, non-sitting followers around the player. min: 0, max: 3,600",
+		"value": 2
+	},
+	"entityTypesToIgnore": {
+		"//": "A comma-separated list of entity ids that are never shown in the follower list. Use '<modid>:*' to ignore every entity of a mod. By default contains the workers from the Villager Workers mod, which always follow.",
+		"value": "workers:*"
+	},
+	"followerListPosition": {
+		"//": "Where the follower list is shown at the top of the screen. options: Left, Center, Right",
+		"value": "Right"
+	},
+	"followerListHeightOffset": {
+		"//": "The vertical offset (y coord) for the follower list. This determines how far down the list should be on the screen. Can be changed to prevent GUIs from overlapping. min: 0, max: 3,000",
+		"value": 20
+	},
+	"followerListWidthOffset": {
+		"//": "The horizontal offset (x coord) for the follower list. A positive value moves the list to the right, a negative value to the left. min: -3,000, max: 3,000",
+		"value": 0
+	},
+	"followerListTextScale": {
+		"//": "The size of the follower list text. 1.0 is the normal size. min: 0.5, max: 3",
+		"value": 1.0
+	},
+	"drawTextShadow": {
+		"//": "If the text displayed should have a shadow drawn below it.",
+		"value": true
+	},
+	"colourFollowerByHealth": {
+		"//": "If enabled, a follower's line changes colour based on its health, using followerHealthColours.",
+		"value": false
+	},
+	"followerHealthColours": {
+		"//": "A list of <health percentage>:<R>,<G>,<B> entries separated by a semicolon, with RGB values from 0 to 255. A follower at or below that health percentage is shown in that colour. Used when colourFollowerByHealth is enabled.",
+		"value": "75:255,255,85;50:255,170,0;25:255,85,85"
+	},
+	"RGB": {
+		"//": "The colour of the follower list text, as red, green and blue values from 0 to 255.",
+		"value": "255,255,255"
+	}
+}

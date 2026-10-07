@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> GUI Effect Timer -> Config",
+	"Enable GUI Effect Timer": {
+		"//": "Whether GUI Effect Timer is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"timerColourRGB": {
+		"//": "The colour of the timer text, as red, green and blue values from 0 to 255.",
+		"value": "255,255,255"
+	}
+}

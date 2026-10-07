@@ -1,0 +1,39 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Pet Names -> Config",
+	"Enable Pet Names": {
+		"//": "Whether Pet Names is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"_useFemaleNames": {
+		"//": "Use the list of female names when naming pets.",
+		"value": true
+	},
+	"_useMaleNames": {
+		"//": "Use the list of male names when naming pets.",
+		"value": true
+	},
+	"nameWolves": {
+		"//": "Give baby wolves a name.",
+		"value": true
+	},
+	"nameCats": {
+		"//": "Give kittens a name.",
+		"value": true
+	},
+	"nameHorses": {
+		"//": "Give baby horses a name.",
+		"value": true
+	},
+	"nameDonkeys": {
+		"//": "Give baby donkeys a name.",
+		"value": true
+	},
+	"nameMules": {
+		"//": "Give baby mules a name.",
+		"value": true
+	},
+	"nameLlamas": {
+		"//": "Give baby llamas a name.",
+		"value": true
+	}
+}

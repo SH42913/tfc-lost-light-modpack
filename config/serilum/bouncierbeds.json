@@ -1,0 +1,15 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Bouncier Beds -> Config",
+	"Enable Bouncier Beds": {
+		"//": "Whether Bouncier Beds is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"bedsPreventFallDamage": {
+		"//": "Whether beds should prevent fall damage when a player lands on them. It's recommended to keep this enabled if you have lots of bounciness.",
+		"value": true
+	},
+	"bedBounciness": {
+		"//": "The modifier of how much a bed bounces. A value of 2.0 makes the player jump around 30 blocks. A value of 100.0 makes the player jump around 4500 blocks. min: 0, max: 100",
+		"value": 1.5
+	}
+}

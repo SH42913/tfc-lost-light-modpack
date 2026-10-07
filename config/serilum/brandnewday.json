@@ -1,0 +1,87 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Brand New Day -> Config",
+	"Enable Brand New Day": {
+		"//": "Whether Brand New Day is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"showHeader": {
+		"//": "If the header image should be shown at the top of the new day screen.",
+		"value": true
+	},
+	"showDayCount": {
+		"//": "If the current day number should be shown on the new day screen.",
+		"value": true
+	},
+	"showStats": {
+		"//": "If a summary of the previous day should be shown. Each line can be toggled individually below.",
+		"value": true
+	},
+	"playSound": {
+		"//": "If a sound plays when the new day screen appears.",
+		"value": true
+	},
+	"newDayScreenDurationTicks": {
+		"//": "How many ticks the new day screen stays on screen in total. 20 ticks = 1 second. min: 1, max: 1,200",
+		"value": 200
+	},
+	"newDayScreenFadeInTicks": {
+		"//": "How many ticks the screen takes to fade in. 20 ticks = 1 second. min: 1, max: 200",
+		"value": 20
+	},
+	"newDayScreenFadeOutTicks": {
+		"//": "How many ticks the screen takes to fade out before disappearing. 20 ticks = 1 second. min: 1, max: 200",
+		"value": 20
+	},
+	"guiScaleModifier": {
+		"//": "Scales the day number, stats text, and header image together, based on the player's GUI scale. 1.0 matches the configured sizes at GUI scale 4; higher makes everything bigger. min: 0.1, max: 5",
+		"value": 1.0
+	},
+	"headerImageWidth": {
+		"//": "The width in pixels the header image is rendered at on screen. min: 0, max: 2,000",
+		"value": 64
+	},
+	"headerImageHeight": {
+		"//": "The height in pixels the header image is rendered at on screen. min: 0, max: 2,000",
+		"value": 64
+	},
+	"headerImageYOffset": {
+		"//": "How far down from the top of the screen the header image is drawn, in pixels. 0 is flush against the top. min: 0, max: 1,000",
+		"value": 10
+	},
+	"dayFontScale": {
+		"//": "How much bigger the day number text should be rendered. 1 is the normal font size. min: 1, max: 8",
+		"value": 3
+	},
+	"dayTextRGB": {
+		"//": "The colour of the day number text, as red, green and blue values from 0 to 255.",
+		"value": "218,164,40"
+	},
+	"showMobsKilled": {
+		"//": "If the monsters slain line is shown in the day summary.",
+		"value": true
+	},
+	"showBlocksBroken": {
+		"//": "If the blocks broken line is shown in the day summary.",
+		"value": true
+	},
+	"showDistanceTraveled": {
+		"//": "If the distance traveled line is shown in the day summary.",
+		"value": true
+	},
+	"showDeaths": {
+		"//": "If the deaths line is shown in the day summary.",
+		"value": true
+	},
+	"showItemsCrafted": {
+		"//": "If the items crafted line is shown in the day summary.",
+		"value": true
+	},
+	"statsKeyTextRGB": {
+		"//": "The colour of the stat labels (the key text), as red, green and blue values from 0 to 255.",
+		"value": "216,196,180"
+	},
+	"statsValueTextRGB": {
+		"//": "The colour of the stat values (the numbers), as red, green and blue values from 0 to 255.",
+		"value": "255,234,210"
+	}
+}

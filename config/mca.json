@@ -311,6 +311,7 @@
   "babyItemGrowUpTime": 24000,
   "villagerMaxAgeTime": 384000,
   "allowEveryoneToAddContentGlobally": false,
+  "addContentGloballyPermissionLevel": 3,
   "allowPlayerSizeAdjustment": true,
   "scalePlayerHitboxWithSizeAndWidth": false,
   "allowBodyCustomizationInDestiny": true,
