@@ -72,7 +72,15 @@
         "magical_relics:buried_dungeon",
         "magical_relics:large_wizard_tower",
         "magical_relics:medium_wizard_tower",
-        "magical_relics:small_wizard_tower"
+        "magical_relics:small_wizard_tower",
+        "tfc_spirits:fairy_ring",
+        "tfc_spirits:shrine/argon",
+        "tfc_spirits:shrine/esret",
+        "tfc_spirits:shrine/gwanador",
+        "tfc_spirits:shrine/maldor",
+        "tfc_spirits:shrine/nessus",
+        "tfc_spirits:shrine/typhon",
+        "tfc_spirits:shrine/venusia"
       ]
     },
     {

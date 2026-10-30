@@ -1890,6 +1890,46 @@
       "emptyChestLootTable": "",
       "lootTablesOverrideMap": {}
     },
+    "tfc_spirits:fairy_ring": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/argon": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/esret": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/gwanador": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/maldor": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/nessus": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/typhon": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
+    "tfc_spirits:shrine/venusia": {
+      "replacementPreset": "no-replace",
+      "emptyChestLootTable": "",
+      "lootTablesOverrideMap": {}
+    },
     "tfc_trees:acacia_giant_tree": {
       "replacementPreset": "overworld-common",
       "emptyChestLootTable": "",
