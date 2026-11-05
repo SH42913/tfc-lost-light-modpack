@@ -119,6 +119,38 @@
       "factor": 1
     },
     {
+      "structure": "tfc_spirits:fairy_ring",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/argon",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/esret",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/gwanador",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/maldor",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/nessus",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/typhon",
+      "factor": 3
+    },
+    {
+      "structure": "tfc_spirits:shrine/venusia",
+      "factor": 3
+    },
+    {
       "structure": "minecraft:mineshaft_mesa",
       "factor": 0
     },
