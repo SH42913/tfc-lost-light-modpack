@@ -22,6 +22,7 @@ const lootReplacementMap = {
     "minecraft:bucket": "tfc:wooden_bucket",
     "minecraft:cactus": "tfc:plant/barrel_cactus",
     "minecraft:cake": "tfc:cake",
+    "minecraft:campfire": "tfc:firestarter",
     "minecraft:candle": "tfc:candle",
     "minecraft:carrot": "tfc:food/carrot",
     "minecraft:chain": "tfc:metal/chain/bronze",
