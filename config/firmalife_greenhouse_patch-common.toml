@@ -67,7 +67,7 @@
 	#Format: block_or_tag
 	#Defaults already include IE LV/MV/HV capacitors.
 	#These blocks still need a sturdy face unless they are also listed in greenhouseAlwaysValidWalls.
-	greenhouseSealOnlyWalls = ["immersiveengineering:capacitor_lv", "immersiveengineering:capacitor_mv", "immersiveengineering:capacitor_hv"]
+	greenhouseSealOnlyWalls = []
 	#匹配这些标签或方块后，可跳过温室墙的结实面检查。
 	#格式：方块ID或标签
 	#默认跳过门和活板门，也适合端口、电缆、管道等功能接口方块。
@@ -115,7 +115,7 @@
 	#Format: block id or tag
 	#Defaults already include IE LV/MV/HV capacitors.
 	#These blocks can seal the cellar shell but do not contribute to insulated wall coverage.
-	cellarSealOnlyWalls = ["immersiveengineering:capacitor_lv", "immersiveengineering:capacitor_mv", "immersiveengineering:capacitor_hv"]
+	cellarSealOnlyWalls = []
 	#地窖保温墙在所有被计入的地窖壳体中的最低占比。
 	#例如 0.95 = 95%。
 	#纯功能墙地窖或保温墙占比太低的地窖会直接失效。
