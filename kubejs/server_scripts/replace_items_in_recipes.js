@@ -10,13 +10,17 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:copper_ingot", "#forge:ingots/copper")
     event.replaceInput({}, "minecraft:iron_bars", "tfc:metal/bars/wrought_iron")
     event.replaceInput({}, "minecraft:kelp", "tfc:plant/leafy_kelp")
+    event.replaceInput({output: /mcw_tfc_aio:bridges\/.*rope.*/}, "minecraft:string", "#supplementaries:ropes")
     event.replaceInput({}, "minecraft:string", "#forge:string")
     event.replaceInput({}, "minecraft:rabbit_hide", "#forge:leather")
     event.replaceInput({}, "farmersdelight:straw", "#forge:straw")
     event.replaceInput({}, "magistuarmory:leather_strip", "#lost_light:leather_strips")
     event.replaceInput({}, "sns:leather_strip", "#lost_light:leather_strips")
+    event.replaceInput({}, "farmersdelight:rope", "#supplementaries:ropes")
     event.replaceInput({}, "minecraft:bowl", "#tfc:bowls")
     event.replaceInput({}, "minecraft:bow", "#forge:bows")
+
+    event.replaceInput({id: "create:crafting/kinetics/rope_pulley"}, "#minecraft:wool", "firmaciv:rope_coil")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
