@@ -2019,14 +2019,6 @@
     "curseForgeHash": 1515254383,
     "modrinthHash": "231fb325368c0660954f47bfb03493f5246fa4d1"
   },
-  "sparsestructures-forge-1.20.1-3.0.jar": {
-    "jarName": "sparsestructures-forge-1.20.1-3.0.jar",
-    "modId": "sparsestructures",
-    "name": "SparseStructures",
-    "version": "3.0",
-    "curseForgeHash": 3386940382,
-    "modrinthHash": "3a14160106a66c54ce47c5e26d8a20c70b44d4c1"
-  },
   "Stellar.View-1.20.1-0.5.3-Forge.jar": {
     "jarName": "Stellar.View-1.20.1-0.5.3-Forge.jar",
     "modId": "stellarview",
@@ -2058,6 +2050,14 @@
     "version": "1.20.1-5.0",
     "curseForgeHash": 4289404090,
     "modrinthHash": "a902167c4c3009d7271f60708b9f29f5d6a9a4ca"
+  },
+  "structurify-forge-2.0.43+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.43+mc1.20.1.jar",
+    "modId": "structurify",
+    "name": "Structurify",
+    "version": "2.0.43",
+    "curseForgeHash": 2891025195,
+    "modrinthHash": "2fd01fd319d19cf8ce544fe13ca974d256986a6b"
   },
   "SubtleEffects-forge-1.20.1-1.15.1-hotfix.1.jar": {
     "jarName": "SubtleEffects-forge-1.20.1-1.15.1-hotfix.1.jar",

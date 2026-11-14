@@ -1,0 +1,691 @@
+{
+  "config_version": "2.0.43",
+  "config_datetime": "2026-11-14_18-06-54",
+  "general": {
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 8.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "minecraft:village_desert",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_plains_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_taiga_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_desert",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_desert_oasis",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mesa",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mesa_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna_na",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_jungle_tree",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mushroom",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mountain",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mountain_alpine",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_plains_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_taiga_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_desert",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_desert_oasis",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_mesa",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_mesa_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_savanna",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_savanna_na",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_jungle_tree",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_mushroom",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_mountain",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_mountain_alpine",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mountains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_cherry",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_oak",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_birch",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_giant_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_badlands",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_bamboo",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mushroom",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "dungeons_arise:bandit_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mushroom_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
+    },
+    {
+      "name": "ctov:small/village_beach",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "ctov:small/village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "ctov:small/village_swamp_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_beach",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_swamp_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "minecraft:villages",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 450,
+      "separation": 200
+    },
+    {
+      "name": "tfc_spirits:fairy_ring",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 63,
+      "separation": 24
+    },
+    {
+      "name": "tfc_spirits:shrine_ruins",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 264,
+      "separation": 60
+    },
+    {
+      "name": "tfc_trees:acacia_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "tfc_trees:ash_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "tfc_trees:hickory_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "tfc_trees:kapok_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "tfc_trees:oak_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    },
+    {
+      "name": "tfc_trees:plum_giant_tree",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 30
+    }
+  ],
+  "structure_template_pools": []
+}
