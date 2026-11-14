@@ -33,7 +33,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 4
+            "amount": 8
           }
         ]
       },
@@ -75,7 +75,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 16
           }
         ]
       },
@@ -117,7 +117,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 12
+            "amount": 24
           }
         ]
       },
@@ -134,8 +134,16 @@
         ]
       },
       {
-        "id": "tfc:metal/ingot/silver",
-        "amount": 2
+        "itemArray": [
+          {
+            "id": "tfc:metal/ingot/gold",
+            "amount": 2
+          },
+          {
+            "id": "tfc:metal/ingot/silver",
+            "amount": 2
+          }
+        ]
       }
     ]
   }

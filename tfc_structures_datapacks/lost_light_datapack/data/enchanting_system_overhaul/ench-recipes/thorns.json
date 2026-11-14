@@ -29,7 +29,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 4
+            "amount": 8
           }
         ]
       },
@@ -44,6 +44,10 @@
             "amount": 2
           }
         ]
+      },
+      {
+        "id": "tfc:metal/ingot/wrought_iron",
+        "amount": 2
       }
     ],
     "2": [
@@ -67,7 +71,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 16
           }
         ]
       },
@@ -82,6 +86,10 @@
             "amount": 4
           }
         ]
+      },
+      {
+        "id": "tfc:metal/ingot/wrought_iron",
+        "amount": 3
       }
     ],
     "3": [
@@ -105,7 +113,7 @@
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 12
+            "amount": 24
           }
         ]
       },
@@ -122,8 +130,8 @@
         ]
       },
       {
-        "id": "tfc:metal/ingot/silver",
-        "amount": 2
+        "id": "tfc:metal/ingot/wrought_iron",
+        "amount": 4
       }
     ]
   }
