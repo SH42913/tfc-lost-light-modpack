@@ -1,0 +1,13 @@
+{
+    "content": {
+        "librarian_obj_paper": {"type":"item","content":"minecraft:paper","amount":{"min":8,"max":32},"unitWorth":60},
+        "librarian_obj_unrefined_paper": {"type":"item","content":"tfc:unrefined_paper","amount":{"min":8,"max":32},"unitWorth":40},
+        "librarian_obj_ink_sac": {"type":"item","content":"minecraft:ink_sac","amount":{"min":4,"max":16},"unitWorth":80},
+        "librarian_obj_glow_ink_sac": {"type":"item","content":"minecraft:glow_ink_sac","amount":{"min":2,"max":8},"unitWorth":200,"rarity":"UNCOMMON"},
+        "librarian_obj_feather": {"type":"item","content":"minecraft:feather","amount":{"min":8,"max":24},"unitWorth":40},
+        "librarian_obj_leather": {"type":"item","content":"minecraft:leather","amount":{"min":2,"max":8},"unitWorth":250},
+        "librarian_obj_soot": {"type":"item","content":"tfc:soot","amount":{"min":4,"max":16},"unitWorth":60},
+        "librarian_obj_candle": {"type":"item","content":"tfc:candle","amount":{"min":2,"max":8},"unitWorth":150},
+        "librarian_obj_book": {"type":"item","content":"minecraft:book","amount":{"min":2,"max":8},"unitWorth":300,"rarity":"UNCOMMON"}
+    }
+}

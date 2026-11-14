@@ -1,0 +1,24 @@
+{
+    "content": {
+        "fisherman_rew_fishing_rod_copper": {"type":"item","content":"tfc:metal/fishing_rod/copper","amount":{"min":1,"max":1},"unitWorth":3400,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "fisherman_rew_fishing_rod_bronze": {"type":"item","content":"tfc:metal/fishing_rod/bronze","amount":{"min":1,"max":1},"unitWorth":7500,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "fisherman_rew_fishing_rod_wrought_iron": {"type":"item","content":"tfc:metal/fishing_rod/wrought_iron","amount":{"min":1,"max":1},"unitWorth":11500,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]},
+        "fisherman_rew_cooked_cod": {"type":"item","content":"tfc:food/cooked_cod","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "fisherman_rew_cooked_salmon": {"type":"item","content":"tfc:food/cooked_salmon","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "fisherman_rew_cooked_lake_trout": {"type":"item","content":"tfc:food/cooked_lake_trout","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "fisherman_rew_cooked_rainbow_trout": {"type":"item","content":"tfc:food/cooked_rainbow_trout","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "fisherman_rew_seeds_barley": {"type":"item","content":"tfc:seeds/barley","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_oat": {"type":"item","content":"tfc:seeds/oat","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_rye": {"type":"item","content":"tfc:seeds/rye","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_rice": {"type":"item","content":"tfc:seeds/rice","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_soybean": {"type":"item","content":"tfc:seeds/soybean","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_melon": {"type":"item","content":"tfc:seeds/melon","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_pumpkin": {"type":"item","content":"tfc:seeds/pumpkin","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_seeds_squash": {"type":"item","content":"tfc:seeds/squash","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.3},
+        "fisherman_rew_salt": {"type":"item","content":"tfc:powder/salt","amount":{"min":4,"max":16},"unitWorth":150},
+        "fisherman_rew_canoe_paddle": {"type":"item","content":"firmaciv:canoe_paddle","amount":{"min":1,"max":1},"unitWorth":1500},
+        "fisherman_rew_kayak_paddle": {"type":"item","content":"firmaciv:kayak_paddle","amount":{"min":1,"max":1},"unitWorth":1800},
+        "fisherman_rew_rope_coil": {"type":"item","content":"firmaciv:rope_coil","amount":{"min":2,"max":6},"unitWorth":400},
+        "fisherman_rew_small_sail": {"type":"item","content":"firmaciv:small_triangular_sail","amount":{"min":1,"max":1},"unitWorth":3000,"rarity":"UNCOMMON"}
+    }
+}

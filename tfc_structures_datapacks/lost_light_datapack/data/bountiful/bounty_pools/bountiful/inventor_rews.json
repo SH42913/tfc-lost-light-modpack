@@ -1,0 +1,22 @@
+{
+    "content": {
+        "inventor_rew_wrench": {"type":"item","content":"create:wrench","amount":{"min":1,"max":1},"unitWorth":2000},
+        "inventor_rew_goggles": {"type":"item","content":"create:goggles","amount":{"min":1,"max":1},"unitWorth":3000,"rarity":"UNCOMMON"},
+        "inventor_rew_hand_crank": {"type":"item","content":"create:hand_crank","amount":{"min":1,"max":1},"unitWorth":800},
+        "inventor_rew_gearbox": {"type":"item","content":"create:gearbox","amount":{"min":1,"max":2},"unitWorth":1200},
+        "inventor_rew_water_wheel": {"type":"item","content":"create:water_wheel","amount":{"min":1,"max":1},"unitWorth":2500},
+        "inventor_rew_millstone": {"type":"item","content":"create:millstone","amount":{"min":1,"max":1},"unitWorth":3000},
+        "inventor_rew_basin": {"type":"item","content":"create:basin","amount":{"min":1,"max":1},"unitWorth":1500},
+        "inventor_rew_fluid_tank": {"type":"item","content":"create:fluid_tank","amount":{"min":1,"max":2},"unitWorth":2500},
+        "inventor_rew_windmill_bearing": {"type":"item","content":"create:windmill_bearing","amount":{"min":1,"max":1},"unitWorth":4000,"rarity":"UNCOMMON"},
+        "inventor_rew_encased_fan": {"type":"item","content":"create:encased_fan","amount":{"min":1,"max":1},"unitWorth":4000,"rarity":"UNCOMMON"},
+        "inventor_rew_mechanical_pump": {"type":"item","content":"create:mechanical_pump","amount":{"min":1,"max":1},"unitWorth":3500,"rarity":"UNCOMMON"},
+        "inventor_rew_mechanical_press": {"type":"item","content":"create:mechanical_press","amount":{"min":1,"max":1},"unitWorth":5000,"rarity":"UNCOMMON"},
+        "inventor_rew_mechanical_mixer": {"type":"item","content":"create:mechanical_mixer","amount":{"min":1,"max":1},"unitWorth":6000,"rarity":"UNCOMMON"},
+        "inventor_rew_mechanical_drill": {"type":"item","content":"create:mechanical_drill","amount":{"min":1,"max":1},"unitWorth":4500,"rarity":"UNCOMMON"},
+        "inventor_rew_mechanical_saw": {"type":"item","content":"create:mechanical_saw","amount":{"min":1,"max":1},"unitWorth":4500,"rarity":"UNCOMMON"},
+        "inventor_rew_deployer": {"type":"item","content":"create:deployer","amount":{"min":1,"max":1},"unitWorth":7000,"rarity":"RARE"},
+        "inventor_rew_brass_casing": {"type":"item","content":"create:brass_casing","amount":{"min":2,"max":8},"unitWorth":2000,"rarity":"RARE"},
+        "inventor_rew_precision_mechanism": {"type":"item","content":"create:precision_mechanism","amount":{"min":1,"max":1},"unitWorth":10000,"rarity":"EPIC","weightMult":0.5}
+    }
+}

@@ -245,6 +245,14 @@
     "curseForgeHash": 697595771,
     "modrinthHash": "fe64496a124572a261031640677b4822f64e8445"
   },
+  "Bountiful-6.0.4+1.20.1-forge.jar": {
+    "jarName": "Bountiful-6.0.4+1.20.1-forge.jar",
+    "modId": "bountiful",
+    "name": "Bountiful",
+    "version": "6.0.4+1.20.1",
+    "curseForgeHash": 3861227374,
+    "modrinthHash": "3627112f17aeef9018d98883a2469e7f90afc3c4"
+  },
   "brandnewday-1.20.1-1.2.jar": {
     "jarName": "brandnewday-1.20.1-1.2.jar",
     "modId": "brandnewday",

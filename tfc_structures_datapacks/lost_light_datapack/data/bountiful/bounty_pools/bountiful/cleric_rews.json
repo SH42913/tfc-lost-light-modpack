@@ -1,0 +1,10 @@
+{
+    "content": {
+        "cleric_rew_xp_bottle": {"type":"item","content":"minecraft:experience_bottle","amount":{"min":2,"max":8},"unitWorth":600},
+        "cleric_rew_ender_pearl": {"type":"item","content":"minecraft:ender_pearl","amount":{"min":1,"max":2},"unitWorth":1500,"rarity":"UNCOMMON","forbids":[{"type":"item","content":"minecraft:ender_pearl"}]},
+        "cleric_rew_candle": {"type":"item","content":"tfc:candle","amount":{"min":4,"max":12},"unitWorth":200,"forbids":[{"type":"item","content":"tfc:candle"}]},
+        "cleric_rew_bone_meal": {"type":"item","content":"minecraft:bone_meal","amount":{"min":8,"max":24},"unitWorth":50},
+        "cleric_rew_honey": {"type":"item","content":"firmalife:raw_honey","amount":{"min":1,"max":4},"unitWorth":600},
+        "cleric_rew_gold_ingot": {"type":"item","content":"tfc:metal/ingot/gold","amount":{"min":1,"max":2},"unitWorth":4000,"rarity":"UNCOMMON"}
+    }
+}

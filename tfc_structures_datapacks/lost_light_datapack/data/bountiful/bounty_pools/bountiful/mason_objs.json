@@ -1,0 +1,21 @@
+{
+    "content": {
+        "mason_obj_raw_granite": {"type":"item","content":"tfc:rock/raw/granite","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_granite": {"type":"item","content":"tfc:brick/granite","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_raw_limestone": {"type":"item","content":"tfc:rock/raw/limestone","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_limestone": {"type":"item","content":"tfc:brick/limestone","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_raw_marble": {"type":"item","content":"tfc:rock/raw/marble","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_marble": {"type":"item","content":"tfc:brick/marble","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_raw_basalt": {"type":"item","content":"tfc:rock/raw/basalt","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_basalt": {"type":"item","content":"tfc:brick/basalt","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_raw_andesite": {"type":"item","content":"tfc:rock/raw/andesite","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_andesite": {"type":"item","content":"tfc:brick/andesite","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_raw_chalk": {"type":"item","content":"tfc:rock/raw/chalk","amount":{"min":8,"max":32},"unitWorth":40,"weightMult":0.4},
+        "mason_obj_brick_chalk": {"type":"item","content":"tfc:brick/chalk","amount":{"min":16,"max":64},"unitWorth":20,"weightMult":0.4},
+        "mason_obj_mortar": {"type":"item","content":"tfc:mortar","amount":{"min":8,"max":32},"unitWorth":50},
+        "mason_obj_lime": {"type":"item","content":"tfc:powder/lime","amount":{"min":8,"max":32},"unitWorth":40},
+        "mason_obj_alabaster": {"type":"item","content":"tfc:alabaster/raw","amount":{"min":8,"max":32},"unitWorth":100,"rarity":"UNCOMMON"},
+        "mason_obj_fire_clay": {"type":"item","content":"tfc:fire_clay","amount":{"min":4,"max":16},"unitWorth":200,"rarity":"UNCOMMON"},
+        "mason_obj_kaolin_clay": {"type":"item","content":"tfc:kaolin_clay","amount":{"min":2,"max":8},"unitWorth":400,"rarity":"RARE"}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "content": {
+        "librarian_rew_book": {"type":"item","content":"minecraft:book","amount":{"min":2,"max":6},"unitWorth":350,"forbids":[{"type":"item","content":"minecraft:book"}]},
+        "librarian_rew_writable_book": {"type":"item","content":"minecraft:writable_book","amount":{"min":1,"max":2},"unitWorth":900},
+        "librarian_rew_bookshelf": {"type":"item","content":"tfc:wood/planks/oak_bookshelf","amount":{"min":1,"max":2},"unitWorth":1500},
+        "librarian_rew_lantern": {"type":"item","content":"minecraft:lantern","amount":{"min":1,"max":2},"unitWorth":1200},
+        "librarian_rew_name_tag": {"type":"item","content":"minecraft:name_tag","amount":{"min":1,"max":1},"unitWorth":2500,"rarity":"UNCOMMON"},
+        "librarian_rew_xp_bottle": {"type":"item","content":"minecraft:experience_bottle","amount":{"min":2,"max":8},"unitWorth":600,"rarity":"UNCOMMON"},
+        "librarian_rew_lamp_copper": {"type":"item","content":"tfc:metal/lamp/copper","amount":{"min":1,"max":1},"unitWorth":3400,"forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "librarian_rew_lamp_bronze": {"type":"item","content":"tfc:metal/lamp/bronze","amount":{"min":1,"max":1},"unitWorth":7500,"rarity":"UNCOMMON","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "librarian_rew_lamp_wrought_iron": {"type":"item","content":"tfc:metal/lamp/wrought_iron","amount":{"min":1,"max":1},"unitWorth":11500,"rarity":"RARE","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]}
+    }
+}

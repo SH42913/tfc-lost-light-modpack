@@ -1,0 +1,25 @@
+{
+    "content": {
+        "metal_obj_lignite": {"type": "item", "content": "tfc:ore/lignite", "amount": {"min": 4, "max": 32}, "unitWorth": 90},
+        "metal_obj_bituminous_coal": {"type": "item", "content": "tfc:ore/bituminous_coal", "amount": {"min": 4, "max": 32}, "unitWorth": 120},
+        "metal_obj_charcoal": {"type": "item", "content": "minecraft:charcoal", "amount": {"min": 8, "max": 48}, "unitWorth": 60},
+        "metal_obj_flux": {"type": "item", "content": "tfc:powder/flux", "amount": {"min": 4, "max": 24}, "unitWorth": 100},
+
+        "metal_obj_native_copper": {"type": "item", "content": "tfc:ore/normal_native_copper", "amount": {"min": 4, "max": 24}, "unitWorth": 400},
+        "metal_obj_malachite": {"type": "item", "content": "tfc:ore/normal_malachite", "amount": {"min": 4, "max": 24}, "unitWorth": 400},
+        "metal_obj_tetrahedrite": {"type": "item", "content": "tfc:ore/normal_tetrahedrite", "amount": {"min": 4, "max": 24}, "unitWorth": 400},
+        "metal_obj_cassiterite": {"type": "item", "content": "tfc:ore/normal_cassiterite", "amount": {"min": 4, "max": 16}, "unitWorth": 500},
+        "metal_obj_bismuthinite": {"type": "item", "content": "tfc:ore/normal_bismuthinite", "amount": {"min": 4, "max": 16}, "unitWorth": 500},
+        "metal_obj_sphalerite": {"type": "item", "content": "tfc:ore/normal_sphalerite", "amount": {"min": 4, "max": 16}, "unitWorth": 500},
+        "metal_obj_native_gold": {"type": "item", "content": "tfc:ore/normal_native_gold", "amount": {"min": 2, "max": 12}, "unitWorth": 650, "rarity": "UNCOMMON"},
+        "metal_obj_native_silver": {"type": "item", "content": "tfc:ore/normal_native_silver", "amount": {"min": 2, "max": 12}, "unitWorth": 600, "rarity": "UNCOMMON"},
+        "metal_obj_hematite": {"type": "item", "content": "tfc:ore/normal_hematite", "amount": {"min": 4, "max": 16}, "unitWorth": 650, "rarity": "UNCOMMON"},
+        "metal_obj_magnetite": {"type": "item", "content": "tfc:ore/normal_magnetite", "amount": {"min": 4, "max": 16}, "unitWorth": 650, "rarity": "UNCOMMON"},
+        "metal_obj_limonite": {"type": "item", "content": "tfc:ore/normal_limonite", "amount": {"min": 4, "max": 16}, "unitWorth": 650, "rarity": "UNCOMMON"},
+
+        "metal_obj_ingot_copper": {"type": "item", "content": "tfc:metal/ingot/copper", "amount": {"min": 1, "max": 8}, "unitWorth": 2500},
+        "metal_obj_ingot_tin": {"type": "item", "content": "tfc:metal/ingot/tin", "amount": {"min": 1, "max": 6}, "unitWorth": 2500},
+        "metal_obj_ingot_bronze": {"type": "item", "content": "tfc:metal/ingot/bronze", "amount": {"min": 1, "max": 6}, "unitWorth": 5500, "rarity": "UNCOMMON"},
+        "metal_obj_ingot_wrought_iron": {"type": "item", "content": "tfc:metal/ingot/wrought_iron", "amount": {"min": 1, "max": 4}, "unitWorth": 8500, "rarity": "RARE"}
+    }
+}

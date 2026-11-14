@@ -1,0 +1,10 @@
+{
+    "objectives": [
+        "mason_objs",
+        "_all_objs"
+    ],
+    "rewards": [
+        "mason_rews",
+        "_all_rews"
+    ]
+}

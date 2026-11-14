@@ -1,0 +1,21 @@
+{
+    "content": {
+        "fisherman_obj_cod": {"type":"item","content":"tfc:food/cod","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_salmon": {"type":"item","content":"tfc:food/salmon","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_lake_trout": {"type":"item","content":"tfc:food/lake_trout","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_rainbow_trout": {"type":"item","content":"tfc:food/rainbow_trout","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_bluegill": {"type":"item","content":"tfc:food/bluegill","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_crappie": {"type":"item","content":"tfc:food/crappie","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_largemouth_bass": {"type":"item","content":"tfc:food/largemouth_bass","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_smallmouth_bass": {"type":"item","content":"tfc:food/smallmouth_bass","amount":{"min":2,"max":12},"unitWorth":200,"weightMult":0.5},
+        "fisherman_obj_tropical_fish": {"type":"item","content":"tfc:food/tropical_fish","amount":{"min":2,"max":8},"unitWorth":300,"rarity":"UNCOMMON","weightMult":0.5},
+        "fisherman_obj_calamari": {"type":"item","content":"tfc:food/calamari","amount":{"min":2,"max":8},"unitWorth":300,"rarity":"UNCOMMON","weightMult":0.5},
+        "fisherman_obj_shellfish": {"type":"item","content":"tfc:food/shellfish","amount":{"min":2,"max":8},"unitWorth":300,"rarity":"UNCOMMON","weightMult":0.5},
+        "fisherman_obj_clam": {"type":"item","content":"tfc:groundcover/clam","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.5},
+        "fisherman_obj_mussel": {"type":"item","content":"tfc:groundcover/mussel","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.5},
+        "fisherman_obj_mollusk": {"type":"item","content":"tfc:groundcover/mollusk","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.5},
+        "fisherman_obj_seaweed": {"type":"item","content":"tfc:food/fresh_seaweed","amount":{"min":8,"max":32},"unitWorth":40},
+        "fisherman_obj_kelp": {"type":"item","content":"minecraft:kelp","amount":{"min":8,"max":32},"unitWorth":30},
+        "fisherman_obj_driftwood": {"type":"item","content":"tfc:groundcover/driftwood","amount":{"min":4,"max":16},"unitWorth":60}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "content": {
+        "fletcher_obj_feather": {"type":"item","content":"minecraft:feather","amount":{"min":8,"max":32},"unitWorth":40},
+        "fletcher_obj_string": {"type":"item","content":"minecraft:string","amount":{"min":4,"max":16},"unitWorth":60},
+        "fletcher_obj_sinew": {"type":"item","content":"bsa:sinew","amount":{"min":2,"max":8},"unitWorth":200},
+        "fletcher_obj_sinew_string": {"type":"item","content":"bsa:sinew_string","amount":{"min":2,"max":8},"unitWorth":350,"rarity":"UNCOMMON"},
+        "fletcher_obj_flint_arrowhead": {"type":"item","content":"tfc_arch:flint_arrowhead","amount":{"min":8,"max":24},"unitWorth":50},
+        "fletcher_obj_stone_arrowhead": {"type":"item","content":"tfc_arch:stone_arrowhead","amount":{"min":8,"max":24},"unitWorth":50},
+        "fletcher_obj_bone_arrowhead": {"type":"item","content":"tfc_arch:bone_arrowhead","amount":{"min":8,"max":24},"unitWorth":50},
+        "fletcher_obj_copper_arrowhead": {"type":"item","content":"tfc_arch:copper_arrowhead","amount":{"min":8,"max":16},"unitWorth":300,"rarity":"UNCOMMON"}
+    }
+}

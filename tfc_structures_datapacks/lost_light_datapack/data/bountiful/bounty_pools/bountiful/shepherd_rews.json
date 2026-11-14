@@ -1,0 +1,15 @@
+{
+    "content": {
+        "shepherd_rew_wool_cloth": {"type":"item","content":"tfc:wool_cloth","amount":{"min":4,"max":12},"unitWorth":250},
+        "shepherd_rew_burlap_cloth": {"type":"item","content":"tfc:burlap_cloth","amount":{"min":4,"max":16},"unitWorth":120},
+        "shepherd_rew_silk_cloth": {"type":"item","content":"tfc:silk_cloth","amount":{"min":2,"max":8},"unitWorth":600,"rarity":"UNCOMMON"},
+        "shepherd_rew_white_wool": {"type":"item","content":"minecraft:white_wool","amount":{"min":4,"max":16},"unitWorth":250},
+        "shepherd_rew_white_carpet": {"type":"item","content":"minecraft:white_carpet","amount":{"min":4,"max":16},"unitWorth":150},
+        "shepherd_rew_white_bed": {"type":"item","content":"minecraft:white_bed","amount":{"min":1,"max":1},"unitWorth":2500,"rarity":"UNCOMMON"},
+        "shepherd_rew_spindle": {"type":"item","content":"tfc:spindle","amount":{"min":1,"max":1},"unitWorth":500},
+        "shepherd_rew_treated_hide": {"type":"item","content":"tfc:treated_hide","amount":{"min":1,"max":4},"unitWorth":800},
+        "shepherd_rew_shears_copper": {"type":"item","content":"tfc:metal/shears/copper","amount":{"min":1,"max":1},"unitWorth":6900,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "shepherd_rew_shears_bronze": {"type":"item","content":"tfc:metal/shears/bronze","amount":{"min":1,"max":1},"unitWorth":14900,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "shepherd_rew_shears_wrought_iron": {"type":"item","content":"tfc:metal/shears/wrought_iron","amount":{"min":1,"max":1},"unitWorth":23000,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]}
+    }
+}

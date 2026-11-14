@@ -1,0 +1,31 @@
+{
+    "content": {
+        "farmer_obj_wheat": {"type":"item","content":"tfc:food/wheat","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_barley": {"type":"item","content":"tfc:food/barley","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_oat": {"type":"item","content":"tfc:food/oat","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_rye": {"type":"item","content":"tfc:food/rye","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_rice": {"type":"item","content":"tfc:food/rice","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_maize": {"type":"item","content":"tfc:food/maize","amount":{"min":8,"max":32},"unitWorth":50,"weightMult":0.5},
+        "farmer_obj_potato": {"type":"item","content":"tfc:food/potato","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_carrot": {"type":"item","content":"tfc:food/carrot","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_beet": {"type":"item","content":"tfc:food/beet","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_onion": {"type":"item","content":"tfc:food/onion","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_garlic": {"type":"item","content":"tfc:food/garlic","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_cabbage": {"type":"item","content":"tfc:food/cabbage","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_tomato": {"type":"item","content":"tfc:food/tomato","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_squash": {"type":"item","content":"tfc:food/squash","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_soybean": {"type":"item","content":"tfc:food/soybean","amount":{"min":8,"max":24},"unitWorth":60,"weightMult":0.5},
+        "farmer_obj_red_apple": {"type":"item","content":"tfc:food/red_apple","amount":{"min":8,"max":24},"unitWorth":90,"rarity":"UNCOMMON","weightMult":0.5},
+        "farmer_obj_green_apple": {"type":"item","content":"tfc:food/green_apple","amount":{"min":8,"max":24},"unitWorth":90,"rarity":"UNCOMMON","weightMult":0.5},
+        "farmer_obj_peach": {"type":"item","content":"tfc:food/peach","amount":{"min":8,"max":24},"unitWorth":90,"rarity":"UNCOMMON","weightMult":0.5},
+        "farmer_obj_plum": {"type":"item","content":"tfc:food/plum","amount":{"min":8,"max":24},"unitWorth":90,"rarity":"UNCOMMON","weightMult":0.5},
+        "farmer_obj_olive": {"type":"item","content":"tfc:food/olive","amount":{"min":8,"max":24},"unitWorth":90,"rarity":"UNCOMMON","weightMult":0.5},
+        "farmer_obj_blueberry": {"type":"item","content":"tfc:food/blueberry","amount":{"min":8,"max":24},"unitWorth":70,"weightMult":0.3},
+        "farmer_obj_strawberry": {"type":"item","content":"tfc:food/strawberry","amount":{"min":8,"max":24},"unitWorth":70,"weightMult":0.3},
+        "farmer_obj_raspberry": {"type":"item","content":"tfc:food/raspberry","amount":{"min":8,"max":24},"unitWorth":70,"weightMult":0.3},
+        "farmer_obj_cranberry": {"type":"item","content":"tfc:food/cranberry","amount":{"min":8,"max":24},"unitWorth":70,"weightMult":0.3},
+        "farmer_obj_elderberry": {"type":"item","content":"tfc:food/elderberry","amount":{"min":8,"max":24},"unitWorth":70,"weightMult":0.3},
+        "farmer_obj_jute": {"type":"item","content":"tfc:jute","amount":{"min":8,"max":32},"unitWorth":40},
+        "farmer_obj_sugarcane": {"type":"item","content":"tfc:food/sugarcane","amount":{"min":8,"max":32},"unitWorth":50}
+    }
+}

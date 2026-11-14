@@ -1,0 +1,16 @@
+{
+    "content": {
+        "gardening_rew_copper_hoe": {"type": "item", "content": "tfc:metal/hoe/copper", "amount": {"min": 1, "max": 1}, "unitWorth": 3500, "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/copper"}]},
+        "gardening_rew_copper_shovel": {"type": "item", "content": "tfc:metal/shovel/copper", "amount": {"min": 1, "max": 1}, "unitWorth": 3500, "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/copper"}]},
+        "gardening_rew_copper_scythe": {"type": "item", "content": "tfc:metal/scythe/copper", "amount": {"min": 1, "max": 1}, "unitWorth": 3500, "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/copper"}]},
+        "gardening_rew_bronze_hoe": {"type": "item", "content": "tfc:metal/hoe/bronze", "amount": {"min": 1, "max": 1}, "unitWorth": 7500, "rarity": "UNCOMMON", "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/bronze"}]},
+        "gardening_rew_bronze_scythe": {"type": "item", "content": "tfc:metal/scythe/bronze", "amount": {"min": 1, "max": 1}, "unitWorth": 7500, "rarity": "UNCOMMON", "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/bronze"}]},
+        "gardening_rew_wrought_iron_hoe": {"type": "item", "content": "tfc:metal/hoe/wrought_iron", "amount": {"min": 1, "max": 1}, "unitWorth": 11500, "rarity": "RARE", "nbt": "{Damage:0}",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/wrought_iron"}]}
+    }
+}

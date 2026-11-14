@@ -1,0 +1,15 @@
+{
+    "content": {
+        "inventor_obj_andesite_alloy": {"type":"item","content":"create:andesite_alloy","amount":{"min":4,"max":16},"unitWorth":300},
+        "inventor_obj_shaft": {"type":"item","content":"create:shaft","amount":{"min":8,"max":32},"unitWorth":100},
+        "inventor_obj_cogwheel": {"type":"item","content":"create:cogwheel","amount":{"min":4,"max":16},"unitWorth":250},
+        "inventor_obj_large_cogwheel": {"type":"item","content":"create:large_cogwheel","amount":{"min":2,"max":8},"unitWorth":400},
+        "inventor_obj_andesite_casing": {"type":"item","content":"create:andesite_casing","amount":{"min":2,"max":8},"unitWorth":600},
+        "inventor_obj_belt_connector": {"type":"item","content":"create:belt_connector","amount":{"min":1,"max":4},"unitWorth":800},
+        "inventor_obj_brass_mechanisms": {"type":"item","content":"tfc:brass_mechanisms","amount":{"min":1,"max":4},"unitWorth":2000,"rarity":"UNCOMMON"},
+        "inventor_obj_zinc_ingot": {"type":"item","content":"tfc:metal/ingot/zinc","amount":{"min":1,"max":6},"unitWorth":2500},
+        "inventor_obj_brass_ingot": {"type":"item","content":"tfc:metal/ingot/brass","amount":{"min":1,"max":6},"unitWorth":3500,"rarity":"UNCOMMON"},
+        "inventor_obj_electron_tube": {"type":"item","content":"create:electron_tube","amount":{"min":1,"max":4},"unitWorth":1500,"rarity":"UNCOMMON"},
+        "inventor_obj_copper_rod": {"type":"item","content":"tfc:metal/rod/copper","amount":{"min":2,"max":8},"unitWorth":1400}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "content": {
+        "weaponsmith_obj_sword_blade_copper": {"type":"item","content":"tfc:metal/sword_blade/copper","amount":{"min":1,"max":2},"unitWorth":5500},
+        "weaponsmith_obj_mace_head_copper": {"type":"item","content":"tfc:metal/mace_head/copper","amount":{"min":1,"max":2},"unitWorth":5500},
+        "weaponsmith_obj_javelin_head_copper": {"type":"item","content":"tfc:metal/javelin_head/copper","amount":{"min":1,"max":3},"unitWorth":2800},
+        "weaponsmith_obj_sword_blade_bronze": {"type":"item","content":"tfc:metal/sword_blade/bronze","amount":{"min":1,"max":2},"unitWorth":12100,"rarity":"UNCOMMON"},
+        "weaponsmith_obj_mace_head_bronze": {"type":"item","content":"tfc:metal/mace_head/bronze","amount":{"min":1,"max":2},"unitWorth":12100,"rarity":"UNCOMMON"},
+        "weaponsmith_obj_javelin_head_bronze": {"type":"item","content":"tfc:metal/javelin_head/bronze","amount":{"min":1,"max":3},"unitWorth":6100,"rarity":"UNCOMMON"},
+        "weaponsmith_obj_leather": {"type":"item","content":"minecraft:leather","amount":{"min":4,"max":12},"unitWorth":250},
+        "weaponsmith_obj_glue": {"type":"item","content":"tfc:glue","amount":{"min":4,"max":16},"unitWorth":120}
+    }
+}

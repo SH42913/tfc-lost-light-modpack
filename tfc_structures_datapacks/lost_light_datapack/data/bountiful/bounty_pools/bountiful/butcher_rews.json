@@ -1,0 +1,18 @@
+{
+    "content": {
+        "butcher_rew_cooked_beef": {"type":"item","content":"tfc:food/cooked_beef","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_pork": {"type":"item","content":"tfc:food/cooked_pork","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_mutton": {"type":"item","content":"tfc:food/cooked_mutton","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_chicken": {"type":"item","content":"tfc:food/cooked_chicken","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_venison": {"type":"item","content":"tfc:food/cooked_venison","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_turkey": {"type":"item","content":"tfc:food/cooked_turkey","amount":{"min":4,"max":12},"unitWorth":250,"weightMult":0.5},
+        "butcher_rew_cooked_bacon": {"type":"item","content":"firmalife:food/cooked_bacon","amount":{"min":4,"max":12},"unitWorth":300},
+        "butcher_rew_salt": {"type":"item","content":"tfc:powder/salt","amount":{"min":4,"max":16},"unitWorth":150,"forbids":[{"type":"item","content":"tfc:powder/salt"}]},
+        "butcher_rew_leather": {"type":"item","content":"minecraft:leather","amount":{"min":2,"max":8},"unitWorth":300},
+        "butcher_rew_feather": {"type":"item","content":"minecraft:feather","amount":{"min":8,"max":24},"unitWorth":40},
+        "butcher_rew_sinew": {"type":"item","content":"bsa:sinew","amount":{"min":2,"max":8},"unitWorth":200},
+        "butcher_rew_knife_copper": {"type":"item","content":"tfc:metal/knife/copper","amount":{"min":1,"max":1},"unitWorth":3400,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "butcher_rew_knife_bronze": {"type":"item","content":"tfc:metal/knife/bronze","amount":{"min":1,"max":1},"unitWorth":7500,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "butcher_rew_knife_wrought_iron": {"type":"item","content":"tfc:metal/knife/wrought_iron","amount":{"min":1,"max":1},"unitWorth":11500,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]}
+    }
+}

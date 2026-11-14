@@ -1,0 +1,17 @@
+{
+    "content": {
+        "mapper_rew_map": {"type":"item","content":"minecraft:map","amount":{"min":1,"max":3},"unitWorth":800},
+        "mapper_rew_item_frame": {"type":"item","content":"minecraft:item_frame","amount":{"min":2,"max":6},"unitWorth":300},
+        "mapper_rew_compass": {"type":"item","content":"minecraft:compass","amount":{"min":1,"max":1},"unitWorth":2800,"rarity":"UNCOMMON","forbids":[{"type":"item","content":"minecraft:compass"}]},
+        "mapper_rew_firmaciv_compass": {"type":"item","content":"firmaciv:firmaciv_compass","amount":{"min":1,"max":1},"unitWorth":3000,"rarity":"UNCOMMON"},
+        "mapper_rew_clock": {"type":"item","content":"minecraft:clock","amount":{"min":1,"max":1},"unitWorth":3500,"rarity":"RARE"},
+        "mapper_rew_spyglass": {"type":"item","content":"minecraft:spyglass","amount":{"min":1,"max":1},"unitWorth":4500,"rarity":"RARE"},
+        "mapper_rew_barometer": {"type":"item","content":"firmaciv:barometer","amount":{"min":1,"max":1},"unitWorth":5000,"rarity":"RARE"},
+        "mapper_rew_sextant": {"type":"item","content":"firmaciv:sextant","amount":{"min":1,"max":1},"unitWorth":6000,"rarity":"RARE"},
+        "mapper_rew_nav_clock": {"type":"item","content":"firmaciv:nav_clock","amount":{"min":1,"max":1},"unitWorth":7000,"rarity":"EPIC","weightMult":0.5},
+        "mapper_rew_white_banner": {"type":"item","content":"minecraft:white_banner","amount":{"min":1,"max":2},"unitWorth":1200,"weightMult":0.3},
+        "mapper_rew_red_banner": {"type":"item","content":"minecraft:red_banner","amount":{"min":1,"max":2},"unitWorth":1200,"weightMult":0.3},
+        "mapper_rew_blue_banner": {"type":"item","content":"minecraft:blue_banner","amount":{"min":1,"max":2},"unitWorth":1200,"weightMult":0.3},
+        "mapper_rew_black_banner": {"type":"item","content":"minecraft:black_banner","amount":{"min":1,"max":2},"unitWorth":1200,"weightMult":0.3}
+    }
+}

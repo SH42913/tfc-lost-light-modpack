@@ -1,0 +1,12 @@
+{
+    "objectives": [
+        "weaponsmith_objs",
+        "_metal_objs",
+        "_all_objs"
+    ],
+    "rewards": [
+        "weaponsmith_rews",
+        "_all_rews",
+        "_equip_rews"
+    ]
+}

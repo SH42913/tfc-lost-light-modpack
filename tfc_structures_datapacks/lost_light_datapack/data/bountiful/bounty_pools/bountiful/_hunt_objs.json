@@ -1,0 +1,15 @@
+{
+    "content": {
+        "hunt_obj_direwolf": {"type":"entity","content":"tfc:direwolf","amount":{"min":1,"max":3},"unitWorth":1500,"timeMult":8,"weightMult":0.4},
+        "hunt_obj_hyena": {"type":"entity","content":"tfc:hyena","amount":{"min":1,"max":3},"unitWorth":1200,"timeMult":8,"weightMult":0.4},
+        "hunt_obj_cougar": {"type":"entity","content":"tfc:cougar","amount":{"min":1,"max":2},"unitWorth":1500,"timeMult":8,"weightMult":0.4},
+        "hunt_obj_panther": {"type":"entity","content":"tfc:panther","amount":{"min":1,"max":2},"unitWorth":1500,"timeMult":8,"weightMult":0.4},
+        "hunt_obj_crocodile": {"type":"entity","content":"tfc:crocodile","amount":{"min":1,"max":2},"unitWorth":2000,"timeMult":8,"weightMult":0.4,"rarity":"UNCOMMON"},
+        "hunt_obj_lion": {"type":"entity","content":"tfc:lion","amount":{"min":1,"max":2},"unitWorth":2000,"timeMult":8,"weightMult":0.4,"rarity":"UNCOMMON"},
+        "hunt_obj_tiger": {"type":"entity","content":"tfc:tiger","amount":{"min":1,"max":2},"unitWorth":2500,"timeMult":8,"weightMult":0.4,"rarity":"UNCOMMON"},
+        "hunt_obj_black_bear": {"type":"entity","content":"tfc:black_bear","amount":{"min":1,"max":2},"unitWorth":2000,"timeMult":8,"weightMult":0.4,"rarity":"UNCOMMON"},
+        "hunt_obj_grizzly_bear": {"type":"entity","content":"tfc:grizzly_bear","amount":{"min":1,"max":2},"unitWorth":2500,"timeMult":8,"weightMult":0.4,"rarity":"RARE"},
+        "hunt_obj_polar_bear": {"type":"entity","content":"tfc:polar_bear","amount":{"min":1,"max":2},"unitWorth":2500,"timeMult":8,"weightMult":0.4,"rarity":"RARE"},
+        "hunt_obj_sabertooth": {"type":"entity","content":"tfc:sabertooth","amount":{"min":1,"max":1},"unitWorth":4000,"timeMult":8,"weightMult":0.4,"rarity":"RARE"}
+    }
+}

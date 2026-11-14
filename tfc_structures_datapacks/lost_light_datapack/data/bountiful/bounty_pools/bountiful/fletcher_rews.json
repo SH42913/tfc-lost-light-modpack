@@ -1,0 +1,17 @@
+{
+    "content": {
+        "fletcher_rew_shortbow": {"type":"item","content":"tfc_arch:shortbow","amount":{"min":1,"max":1},"unitWorth":2500,"nbt":"{Damage:0}"},
+        "fletcher_rew_plains_bow": {"type":"item","content":"tfc_arch:plains_bow","amount":{"min":1,"max":1},"unitWorth":3500,"rarity":"UNCOMMON","nbt":"{Damage:0}"},
+        "fletcher_rew_longbow": {"type":"item","content":"tfc_arch:longbow","amount":{"min":1,"max":1},"unitWorth":6000,"rarity":"RARE","nbt":"{Damage:0}"},
+        "fletcher_rew_copper_crossbow": {"type":"item","content":"tfc_arch:copper_crossbow","amount":{"min":1,"max":1},"unitWorth":6900,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "fletcher_rew_bronze_crossbow": {"type":"item","content":"tfc_arch:bronze_crossbow","amount":{"min":1,"max":1},"unitWorth":14900,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "fletcher_rew_wrought_iron_crossbow": {"type":"item","content":"tfc_arch:wrought_iron_crossbow","amount":{"min":1,"max":1},"unitWorth":23000,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]},
+        "fletcher_rew_flint_arrow": {"type":"item","content":"tfc_arch:flint_arrow","amount":{"min":8,"max":32},"unitWorth":60},
+        "fletcher_rew_stone_arrow": {"type":"item","content":"tfc_arch:stone_arrow","amount":{"min":8,"max":32},"unitWorth":60},
+        "fletcher_rew_bone_arrow": {"type":"item","content":"tfc_arch:bone_arrow","amount":{"min":8,"max":32},"unitWorth":60},
+        "fletcher_rew_copper_arrow": {"type":"item","content":"tfc_arch:copper_arrow","amount":{"min":8,"max":24},"unitWorth":250},
+        "fletcher_rew_bronze_arrow": {"type":"item","content":"tfc_arch:bronze_arrow","amount":{"min":8,"max":16},"unitWorth":500,"rarity":"UNCOMMON"},
+        "fletcher_rew_wrought_iron_arrow": {"type":"item","content":"tfc_arch:wrought_iron_arrow","amount":{"min":4,"max":16},"unitWorth":800,"rarity":"RARE"},
+        "fletcher_rew_quiver": {"type":"item","content":"sns:quiver","amount":{"min":1,"max":1},"unitWorth":2500,"rarity":"UNCOMMON"}
+    }
+}

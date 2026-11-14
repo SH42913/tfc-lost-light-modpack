@@ -1,0 +1,13 @@
+{
+    "content": {
+        "armorer_obj_sheet_copper": {"type":"item","content":"tfc:metal/sheet/copper","amount":{"min":1,"max":4},"unitWorth":5500},
+        "armorer_obj_double_ingot_copper": {"type":"item","content":"tfc:metal/double_ingot/copper","amount":{"min":1,"max":4},"unitWorth":5500},
+        "armorer_obj_sheet_bronze": {"type":"item","content":"tfc:metal/sheet/bronze","amount":{"min":1,"max":4},"unitWorth":12100,"rarity":"UNCOMMON"},
+        "armorer_obj_double_ingot_bronze": {"type":"item","content":"tfc:metal/double_ingot/bronze","amount":{"min":1,"max":4},"unitWorth":12100,"rarity":"UNCOMMON"},
+        "armorer_obj_sheet_wrought_iron": {"type":"item","content":"tfc:metal/sheet/wrought_iron","amount":{"min":1,"max":4},"unitWorth":18700,"rarity":"RARE"},
+        "armorer_obj_double_ingot_wrought_iron": {"type":"item","content":"tfc:metal/double_ingot/wrought_iron","amount":{"min":1,"max":4},"unitWorth":18700,"rarity":"RARE"},
+        "armorer_obj_double_sheet_copper": {"type":"item","content":"tfc:metal/double_sheet/copper","amount":{"min":1,"max":2},"unitWorth":11000},
+        "armorer_obj_double_sheet_bronze": {"type":"item","content":"tfc:metal/double_sheet/bronze","amount":{"min":1,"max":2},"unitWorth":24200,"rarity":"UNCOMMON"},
+        "armorer_obj_leather": {"type":"item","content":"minecraft:leather","amount":{"min":4,"max":16},"unitWorth":250}
+    }
+}

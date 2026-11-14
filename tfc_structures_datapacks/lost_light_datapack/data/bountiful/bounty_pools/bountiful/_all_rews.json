@@ -1,0 +1,34 @@
+{
+    "content": {
+        "all_rew_gem_pyrite": {"type": "item", "content": "tfc:gem/pyrite", "amount": {"min": 1, "max": 4}, "unitWorth": 700},
+        "all_rew_gem_lapis": {"type": "item", "content": "tfc:gem/lapis_lazuli", "amount": {"min": 1, "max": 4}, "unitWorth": 800},
+        "all_rew_gem_amethyst": {"type": "item", "content": "tfc:gem/amethyst", "amount": {"min": 1, "max": 4}, "unitWorth": 800},
+        "all_rew_gem_opal": {"type": "item", "content": "tfc:gem/opal", "amount": {"min": 1, "max": 4}, "unitWorth": 900},
+        "all_rew_gem_emerald": {"type": "item", "content": "tfc:gem/emerald", "amount": {"min": 1, "max": 4}, "unitWorth": 1000, "weightMult": 1.3},
+        "all_rew_gem_topaz": {"type": "item", "content": "tfc:gem/topaz", "amount": {"min": 1, "max": 3}, "unitWorth": 1100, "rarity": "UNCOMMON"},
+        "all_rew_gem_ruby": {"type": "item", "content": "tfc:gem/ruby", "amount": {"min": 1, "max": 3}, "unitWorth": 1200, "rarity": "UNCOMMON"},
+        "all_rew_gem_sapphire": {"type": "item", "content": "tfc:gem/sapphire", "amount": {"min": 1, "max": 3}, "unitWorth": 1200, "rarity": "UNCOMMON"},
+        "all_rew_gem_diamond": {"type": "item", "content": "tfc:gem/diamond", "amount": {"min": 1, "max": 2}, "unitWorth": 1500, "rarity": "RARE"},
+        "all_rew_ingot_copper": {
+            "type": "item", "content": "tfc:metal/ingot/copper", "amount": {"min": 1, "max": 3}, "unitWorth": 3000, "rarity": "UNCOMMON",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/copper"}]
+        },
+        "all_rew_ingot_bronze": {
+            "type": "item", "content": "tfc:metal/ingot/bronze", "amount": {"min": 1, "max": 2}, "unitWorth": 6500, "rarity": "RARE",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/bronze"}]
+        },
+        "all_rew_ingot_bismuth_bronze": {
+            "type": "item", "content": "tfc:metal/ingot/bismuth_bronze", "amount": {"min": 1, "max": 2}, "unitWorth": 6500, "rarity": "RARE",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/bismuth_bronze"}]
+        },
+        "all_rew_ingot_black_bronze": {
+            "type": "item", "content": "tfc:metal/ingot/black_bronze", "amount": {"min": 1, "max": 2}, "unitWorth": 7000, "rarity": "RARE",
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/black_bronze"}]
+        },
+        "all_rew_ingot_wrought_iron": {
+            "type": "item", "content": "tfc:metal/ingot/wrought_iron", "amount": {"min": 1, "max": 2}, "unitWorth": 10000, "rarity": "EPIC", "weightMult": 0.5,
+            "forbids": [{"type": "item", "content": "tfc:metal/ingot/wrought_iron"}]
+        },
+        "all_rew_decree": {"type": "item", "content": "bountiful:decree", "amount": {"min": 1, "max": 1}, "unitWorth": 800, "rarity": "UNCOMMON", "weightMult": 0.35}
+    }
+}

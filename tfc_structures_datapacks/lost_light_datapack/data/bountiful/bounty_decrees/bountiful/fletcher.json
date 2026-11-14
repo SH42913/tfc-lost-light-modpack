@@ -1,0 +1,11 @@
+{
+    "objectives": [
+        "fletcher_objs",
+        "_hunt_objs",
+        "_all_objs"
+    ],
+    "rewards": [
+        "fletcher_rews",
+        "_all_rews"
+    ]
+}
