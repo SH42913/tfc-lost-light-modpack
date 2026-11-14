@@ -1,413 +1,1750 @@
 {
-  "profession": "minecraft:fisherman", "removeOtherTrades": true, "maxTrades": 2, "trades": [
-  {
-    "offer": {
-      "itemKey": "tfc:food/shellfish", "amount": 2
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 3,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/cod",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/salmon",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/lake_trout",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/rainbow_trout",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/bluegill",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/crappie",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/largemouth_bass",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:food/smallmouth_bass",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:buys_food_cod_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/pyrite", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 4,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:fisherman_food/shellfish_for_multirequest_gem/pyrite"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/calamari", "amount": 2
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/fresh_seaweed",
+          "amount": 50
+        },
+        {
+          "itemKey": "minecraft:kelp",
+          "amount": 50
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:buys_food_fresh_seaweed_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/pyrite", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 4,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:fisherman_food/calamari_for_multirequest_gem/pyrite"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/oat", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "aquaculture:fish_bones",
+          "amount": 50
+        },
+        {
+          "itemKey": "aquaculture:algae",
+          "amount": 50
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:buys_fish_bones_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:fisherman_seeds/oat_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/rye", "amount": 4
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/copper",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:sells_metal_fishing_rod_copper_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:fisherman_seeds/rye_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/rice", "amount": 4
+    {
+      "offer": {
+        "itemKey": "aquaculture:worm",
+        "amount": 4,
+        "amountRange": 9
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:sells_worm_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:fisherman_seeds/rice_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/cod", "amount": 3
+    {
+      "offer": {
+        "itemKey": "bsa:bone/fishing_rod",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:sells_bone_fishing_rod_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 2,
-    "maxUses": 6,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:fisherman_food/cod_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/tropical_fish", "amount": 3
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/copper",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman:crafts_metal_fishing_rod_copper_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 2,
-    "maxUses": 6,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:fisherman_food/tropical_fish_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/pumpkin", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/shellfish",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:food/calamari",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:food/tropical_fish",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:buys_food_shellfish_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 2,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:fisherman_seeds/pumpkin_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/melon", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:groundcover/clam",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:groundcover/mussel",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:groundcover/mollusk",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:groundcover/sea_urchin",
+          "amount": 10
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:buys_groundcover_clam_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 2,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:fisherman_seeds/melon_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/lake_trout", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:food/cooked_cod",
+          "amount": 3,
+          "amountRange": 6
+        },
+        {
+          "itemKey": "tfc:food/cooked_salmon",
+          "amount": 3,
+          "amountRange": 6
+        },
+        {
+          "itemKey": "tfc:food/cooked_lake_trout",
+          "amount": 3,
+          "amountRange": 6
+        },
+        {
+          "itemKey": "tfc:food/cooked_rainbow_trout",
+          "amount": 3,
+          "amountRange": 6
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:sells_food_cooked_cod_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 3,
-    "maxUses": 7,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:fisherman_food/lake_trout_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/rainbow_trout", "amount": 4
+    {
+      "offer": {
+        "itemKey": "firmaciv:rope_coil",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:sells_rope_coil_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 3,
-    "maxUses": 7,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:fisherman_food/rainbow_trout_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/barley", "amount": 12
+    {
+      "offer": {
+        "itemKey": "supplementaries:rope",
+        "amount": 8,
+        "amountRange": 17
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:sells_rope_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 3,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:fisherman_seeds/barley_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/soybean", "amount": 12
+    {
+      "offer": {
+        "itemKey": "firmaciv:canoe_paddle",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:sells_canoe_paddle_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 3,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:fisherman_seeds/soybean_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/squash", "amount": 12
+    {
+      "multiOffer": [
+        {
+          "itemKey": "aquaculture:bobber",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:fishing_line",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman:sells_bobber_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 3,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:fisherman_seeds/squash_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/lake_trout", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:groundcover/driftwood",
+        "amount": 24
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:buys_groundcover_driftwood_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 2
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 4,
-    "maxUses": 9,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:fisherman_food/lake_trout_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/rainbow_trout", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/dried_kelp",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/dried_seaweed",
+          "amount": 30
+        }
+      ],
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:buys_food_dried_kelp_etc_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 2
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 4,
-    "maxUses": 9,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:fisherman_food/rainbow_trout_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/barley", "amount": 16
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:sells_metal_fishing_rod_bronze_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 4,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:fisherman_seeds/barley_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/soybean", "amount": 16
+    {
+      "offer": {
+        "itemKey": "firmaciv:kayak_paddle",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:sells_kayak_paddle_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 4,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:fisherman_seeds/soybean_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/squash", "amount": 16
+    {
+      "multiOffer": [
+        {
+          "itemKey": "aquaculture:light_hook",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:heavy_hook",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:double_hook",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:sells_light_hook_etc_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 4,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:fisherman_seeds/squash_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/cod", "amount": 8
+    {
+      "offer": {
+        "itemKey": "tfc:jute_net",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:sells_jute_net_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/sapphire", "amount": 2
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 5,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:fisherman_food/cod_for_multirequest_gem/sapphire"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/salmon", "amount": 8
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/bronze",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman:crafts_metal_fishing_rod_bronze_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/sapphire", "amount": 2
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 5,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:fisherman_food/salmon_for_multirequest_gem/sapphire"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/barley", "amount": 16
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "aquaculture:message_in_a_bottle",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:buys_message_in_a_bottle_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 5,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:fisherman_seeds/barley_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/soybean", "amount": 16
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:sells_metal_fishing_rod_wrought_iron_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 5,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:fisherman_seeds/soybean_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/squash", "amount": 16
+    {
+      "offer": {
+        "itemKey": "firmaciv:small_triangular_sail",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:sells_small_triangular_sail_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 5,
-    "maxUses": 20,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:fisherman_seeds/squash_for_multirequest_gem/opal"
-  }
-]
+    {
+      "offer": {
+        "itemKey": "aquaculture:tackle_box",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:sells_tackle_box_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "aquaculture:worm_farm",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:oak_fish_mount",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:sells_worm_farm_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman:crafts_metal_fishing_rod_wrought_iron_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/steel",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 10
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman:sells_metal_fishing_rod_steel_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "firmaciv:medium_triangular_sail",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman:sells_medium_triangular_sail_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "aquaculture:gold_hook",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:redstone_hook",
+          "amount": 1
+        },
+        {
+          "itemKey": "aquaculture:note_hook",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman:sells_gold_hook_etc_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "aquaculture:treasure_chest",
+          "amount": 1
+        },
+        {
+          "itemKey": "survivorsaquaculture:neptunian_pearl",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman:sells_treasure_chest_etc_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/fishing_rod/steel",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/steel",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman:crafts_metal_fishing_rod_steel_l5"
+    }
+  ]
 }

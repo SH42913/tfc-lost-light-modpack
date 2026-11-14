@@ -1,183 +1,2046 @@
 {
   "profession": "minecraft:leatherworker",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:small_raw_hide",
+        "amount": 5
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:buys_small_raw_hide_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:leather",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:buys_leather_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:small_scraped_hide",
+        "amount": 5
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:buys_small_scraped_hide_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:sells_leather_l1"
+    },
     {
       "offer": {
         "itemKey": "waterflasks:leather_flask",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/lapis_lazuli",
-        "amount": 4
-      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "tradeExp": 1,
-      "maxUses": 1,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_leather_flask_for_gem/lapis_lazuli"
+      "UTID": "minecraft:leatherworker:sells_leather_flask_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:leather_helmet",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:leather_boots",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:sells_leather_helmet_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "sns:leather_strip",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "sns:reinforced_fiber",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker:sells_leather_strip_etc_l1"
     },
     {
       "offer": {
         "itemKey": "minecraft:leather",
-        "amount": 2
-      },
-      "request": {
-        "itemKey": "tfc:gem/lapis_lazuli",
         "amount": 4
       },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_leather_for_gem/lapis_lazuli"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 1
-      },
-      "request": {
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
         "itemKey": "tfc:small_raw_hide",
         "amount": 4
       },
       "tradeExp": 1,
-      "maxUses": 5,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_gem/ruby_for_small_raw_hide"
+      "UTID": "minecraft:leatherworker:crafts_leather_l1"
     },
     {
-      "offer": {
-        "itemKey": "minecraft:leather_helmet",
-        "amount": 1
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 2
+        "itemKey": "tfc:medium_raw_hide",
+        "amount": 3
       },
       "tradeExp": 10,
-      "maxUses": 1,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:leatherworker_leather_helmet_for_gem/amethyst"
+      "UTID": "minecraft:leatherworker:buys_medium_raw_hide_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:glue",
+        "amount": 13
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:buys_glue_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:small_prepared_hide",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:medium_scraped_hide",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:buys_small_prepared_hide_etc_l2"
     },
     {
       "offer": {
-        "itemKey": "tfc:gem/ruby",
+        "itemKey": "tfc:treated_hide",
+        "amount": 1,
+        "amountRange": 3
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:sells_treated_hide_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:leather_chestplate",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:leather_leggings",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:sells_leather_chestplate_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lead",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:small_raw_hide",
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:sells_lead_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "waterflasks:leather_side",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "waterflasks:bladder",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "sns:bound_leather_strip",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:sells_leather_side_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather",
         "amount": 4
       },
-      "tradeExp": 10,
-      "maxUses": 5,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:leatherworker_gem/ruby_for_small_raw_hide"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:leather_chestplate",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 2
-      },
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:leatherworker_leather_chestplate_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:leather_leggings",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 2
-      },
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:leatherworker_leather_leggings_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:leather_boots",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 2
-      },
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:leatherworker_leather_boots_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 2
-      },
-      "request": {
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
         "itemKey": "tfc:medium_raw_hide",
         "amount": 2
       },
-      "tradeExp": 30,
-      "maxUses": 4,
+      "tradeExp": 5,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:leatherworker_gem/opal_for_medium_raw_hide"
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:crafts_leather_l2"
     },
     {
       "offer": {
-        "itemKey": "tfc:gem/emerald",
+        "itemKey": "sns:leather_sack",
         "amount": 1
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 2
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker:crafts_leather_sack_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
         "itemKey": "tfc:large_raw_hide",
-        "amount": 1
+        "amount": 2
       },
-      "tradeExp": 30,
-      "maxUses": 3,
+      "tradeExp": 20,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:leatherworker_gem/emerald_for_large_raw_hide"
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:buys_large_raw_hide_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:powder/wood_ash",
+        "amount": 50
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:buys_powder_wood_ash_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:medium_prepared_hide",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:large_scraped_hide",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:buys_medium_prepared_hide_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:gem/emerald",
+        "itemKey": "minecraft:saddle",
         "amount": 1
       },
-      "request": {
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:sells_saddle_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:leather_sack",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:sells_leather_sack_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "firmaciv:large_waterproof_hide",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:sells_large_waterproof_hide_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "sns:burlap_sack",
+          "amount": 1
+        },
+        {
+          "itemKey": "sns:buckle",
+          "amount": 1
+        },
+        {
+          "itemKey": "bsa:hide_door",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:sells_burlap_sack_etc_l3"
+    },
+    {
+      "offer": {
         "itemKey": "minecraft:leather",
-        "amount": 5
+        "amount": 6
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:large_raw_hide",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:crafts_leather_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:saddle",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:leather",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker:crafts_saddle_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:large_prepared_hide",
+        "amount": 1
       },
       "tradeExp": 30,
-      "maxUses": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:buys_large_prepared_hide_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:hiking_boots",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_hiking_boots_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:leather_horse_armor",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_leather_horse_armor_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "waterflasks:iron_flask",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_iron_flask_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:reinforced_fabric",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_reinforced_fabric_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:beekeeper_helmet",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:beekeeper_chestplate",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:beekeeper_leggings",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:beekeeper_boots",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_beekeeper_helmet_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "antiquelegacy:sandals",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_sandals_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "firmalife:pineapple_leather",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker:sells_pineapple_leather_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:frame_pack",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker:sells_frame_pack_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:steel_toe_hiking_boots",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 14
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker:sells_steel_toe_hiking_boots_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:mob_net",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:leatherworker_gem/emerald_for_leather"
+      "UTID": "minecraft:leatherworker:sells_mob_net_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:pack_frame",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker:sells_pack_frame_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfcscraping:metal/scraping_knife/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker:sells_metal_scraping_knife_bronze_l5"
     }
   ]
 }

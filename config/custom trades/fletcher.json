@@ -1,167 +1,1863 @@
 {
   "profession": "minecraft:fletcher",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "tfc_arch:stone_arrowhead",
-        "amount": 2
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1
+        "itemKey": "minecraft:feather",
+        "amount": 50
       },
-      "tradeExp": 1,
-      "maxUses": 8,
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fletcher_stone/arrowhead_for_gem/emerald"
+      "UTID": "minecraft:fletcher:buys_feather_l1"
     },
     {
-      "offer": {
-        "itemKey": "tfc_arch:bone_arrowhead",
-        "amount": 2
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1
+        "itemKey": "minecraft:string",
+        "amount": 38
       },
-      "tradeExp": 1,
-      "maxUses": 8,
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fletcher_bone/arrowhead_for_gem/emerald"
+      "UTID": "minecraft:fletcher:buys_string_l1"
     },
     {
-      "offer": {
-        "itemKey": "tfc_arch:flint_arrowhead",
-        "amount": 2
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 2
-      },
-      "tradeExp": 10,
-      "maxUses": 8,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc_arch:flint_arrowhead",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc_arch:stone_arrowhead",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc_arch:bone_arrowhead",
+          "amount": 30
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:fletcher_flint_for_gem/emerald"
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher:buys_flint_arrowhead_etc_l1"
     },
     {
-      "offer": {
-        "itemKey": "bsa:sinew_string",
-        "amount": 8
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc_arch:flint_arrow",
+          "amount": 12,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "tfc_arch:stone_arrow",
+          "amount": 12,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "tfc_arch:bone_arrow",
+          "amount": 12,
+          "amountRange": 17
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher:sells_flint_arrow_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc_arch:flint_arrowhead",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc_arch:stone_arrowhead",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc_arch:bone_arrowhead",
+          "amount": 8,
+          "amountRange": 13
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher:sells_flint_arrowhead_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc_arch:paper_fletching",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "mowziesmobs:dart",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher:sells_paper_fletching_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 8
+        "itemKey": "bsa:sinew",
+        "amount": 10
       },
       "tradeExp": 10,
       "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:fletcher_sinew_string_for_gem/amethyst"
+      "UTID": "minecraft:fletcher:buys_sinew_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc_arch:copper_arrowhead",
+        "amount": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:buys_copper_arrowhead_l2"
     },
     {
       "offer": {
         "itemKey": "tfc_arch:shortbow",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 6
-      },
-      "tradeExp": 20,
-      "maxUses": 1,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:fletcher_bow_for_gem/emerald"
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:sells_shortbow_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:copper_arrow",
+        "amount": 6,
+        "amountRange": 11
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:sells_copper_arrow_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc_arch:shortbow_frame",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc_arch:crossbow_frame",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:sells_shortbow_frame_etc_l2"
     },
     {
       "offer": {
         "itemKey": "tfc_arch:copper_arrowhead",
         "amount": 8
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:crafts_copper_arrowhead_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:copper_arrow",
         "amount": 8
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc_arch:copper_arrowhead",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher:crafts_copper_arrow_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "bsa:sinew_string",
+        "amount": 5
+      },
       "tradeExp": 20,
-      "maxUses": 24,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:fletcher_arrow_for_gem/emerald"
+      "UTID": "minecraft:fletcher:buys_sinew_string_l3"
     },
     {
-      "offer": {
-        "itemKey": "tfc_arch:diamond_arrow",
-        "amount": 4
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 6
+        "itemKey": "tfc_arch:bronze_arrowhead",
+        "amount": 3
       },
-      "tradeExp": 30,
-      "maxUses": 16,
+      "tradeExp": 20,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:fletcher_glow_arrow_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc_arch:longbow",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 16
-      },
-      "tradeExp": 30,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:fletcher_crossbow_for_gem/sapphire"
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:buys_bronze_arrowhead_l3"
     },
     {
       "offer": {
         "itemKey": "tfc_arch:plains_bow",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 28
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:sells_plains_bow_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc_arch:bronze_arrow",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc_arch:bismuth_bronze_arrow",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc_arch:black_bronze_arrow",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:sells_bronze_arrow_etc_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "sns:quiver",
+        "amount": 1
       },
-      "tradeExp": 30,
-      "maxUses": 1,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:fletcher_longbow_for_gem/opal"
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:sells_quiver_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "supplementaries:rope_arrow",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:sells_rope_arrow_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:plains_bow_frame",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:sells_plains_bow_frame_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:bronze_arrowhead",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/bronze",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:crafts_bronze_arrowhead_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:bronze_arrow",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc_arch:bronze_arrowhead",
+        "amount": 8
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher:crafts_bronze_arrow_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc_arch:wrought_iron_arrowhead",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:buys_wrought_iron_arrowhead_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:longbow",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:sells_longbow_l4"
     },
     {
       "offer": {
         "itemKey": "tfc_arch:copper_crossbow",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 28
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:sells_copper_crossbow_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:wrought_iron_arrow",
+        "amount": 4,
+        "amountRange": 9
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 7
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:sells_wrought_iron_arrow_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "mowziesmobs:blowgun",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc_arch:longbow_frame",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:sells_blowgun_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:wrought_iron_arrowhead",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:crafts_wrought_iron_arrowhead_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:wrought_iron_arrow",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc_arch:wrought_iron_arrowhead",
+        "amount": 8
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher:crafts_wrought_iron_arrow_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:bronze_crossbow",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 10
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher:sells_bronze_crossbow_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:wrought_iron_crossbow",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 33
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 26
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 16
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher:sells_wrought_iron_crossbow_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:bronze_arrow",
+        "amount": 16,
+        "amountRange": 25
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 14
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher:sells_bronze_arrow_bulk_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:steel_arrow",
+        "amount": 4,
+        "amountRange": 7
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 7
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher:sells_steel_arrow_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:steel_arrowhead",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/steel",
+        "amount": 1
       },
       "tradeExp": 30,
-      "maxUses": 1,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:fletcher_heavy_crossbow_for_gem/emerald"
+      "UTID": "minecraft:fletcher:crafts_steel_arrowhead_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_arch:steel_arrow",
+        "amount": 8
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc_arch:steel_arrowhead",
+        "amount": 8
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher:crafts_steel_arrow_l5"
     }
   ]
 }

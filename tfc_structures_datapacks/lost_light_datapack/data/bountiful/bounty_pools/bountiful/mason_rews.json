@@ -16,10 +16,10 @@
         "mason_rew_bricks_basalt": {"type":"item","content":"tfc:rock/bricks/basalt","amount":{"min":16,"max":48},"unitWorth":90,"weightMult":0.5},
         "mason_rew_chiseled_basalt": {"type":"item","content":"tfc:rock/chiseled/basalt","amount":{"min":8,"max":32},"unitWorth":120,"weightMult":0.5},
         "mason_rew_alabaster_bricks": {"type":"item","content":"tfc:alabaster/bricks","amount":{"min":8,"max":32},"unitWorth":150,"rarity":"UNCOMMON"},
-        "mason_rew_fire_bricks": {"type":"item","content":"tfc:fire_bricks","amount":{"min":2,"max":8},"unitWorth":800,"rarity":"UNCOMMON"},
+        "mason_rew_fire_bricks": {"type":"item","content":"tfc:fire_bricks","amount":{"min":2,"max":8},"unitWorth":1800,"rarity":"UNCOMMON"},
         "mason_rew_large_vessel": {"type":"item","content":"tfc:ceramic/large_vessel","amount":{"min":1,"max":1},"unitWorth":2000,"rarity":"UNCOMMON"},
-        "mason_rew_chisel_copper": {"type":"item","content":"tfc:metal/chisel/copper","amount":{"min":1,"max":1},"unitWorth":3400,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
-        "mason_rew_chisel_bronze": {"type":"item","content":"tfc:metal/chisel/bronze","amount":{"min":1,"max":1},"unitWorth":7500,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
-        "mason_rew_chisel_wrought_iron": {"type":"item","content":"tfc:metal/chisel/wrought_iron","amount":{"min":1,"max":1},"unitWorth":11500,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]}
+        "mason_rew_chisel_copper": {"type":"item","content":"tfc:metal/chisel/copper","amount":{"min":1,"max":1},"unitWorth":3500,"nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/copper"},{"type":"item","content":"tfc:metal/sheet/copper"},{"type":"item","content":"tfc:metal/double_sheet/copper"}]},
+        "mason_rew_chisel_bronze": {"type":"item","content":"tfc:metal/chisel/bronze","amount":{"min":1,"max":1},"unitWorth":7600,"rarity":"UNCOMMON","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/bronze"},{"type":"item","content":"tfc:metal/sheet/bronze"},{"type":"item","content":"tfc:metal/double_sheet/bronze"}]},
+        "mason_rew_chisel_wrought_iron": {"type":"item","content":"tfc:metal/chisel/wrought_iron","amount":{"min":1,"max":1},"unitWorth":11600,"rarity":"RARE","nbt":"{Damage:0}","forbids":[{"type":"item","content":"tfc:metal/ingot/wrought_iron"},{"type":"item","content":"tfc:metal/sheet/wrought_iron"},{"type":"item","content":"tfc:metal/double_sheet/wrought_iron"}]}
     }
 }

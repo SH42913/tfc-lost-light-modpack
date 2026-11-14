@@ -1,755 +1,1957 @@
 {
   "profession": "minecraft:weaponsmith",
   "removeOtherTrades": true,
-  "maxTrades": 4,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 12
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_metal/ingot/copper_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/amethyst_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/diamond_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/opal_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 14
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_metal/ingot/bronze_for_gem/opal"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/ruby_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/pyrite",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/pyrite_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_gem/emerald_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:copper_stiletto_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1
-        },
+      "multiOffer": [
         {
           "itemKey": "tfc:gem/pyrite",
-          "amount": 3
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_copper_stiletto_blade_for_multirequest_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:copper_short_sword_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 2
-        },
-        {
-          "itemKey": "tfc:gem/lapis_lazuli",
-          "amount": 5
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_copper_short_sword_blade_for_multirequest_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:copper_katzbalger_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 2
-        },
-        {
-          "itemKey": "tfc:gem/topaz",
-          "amount": 4
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_copper_katzbalger_blade_for_multirequest_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:copper_ahlspiess_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1
-        },
-        {
-          "itemKey": "tfc:gem/amethyst",
-          "amount": 3
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_copper_ahlspiess_blade_for_multirequest_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:copper_estoc_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 2
+          "amount": 7
         },
         {
           "itemKey": "tfc:gem/lapis_lazuli",
           "amount": 6
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_copper_estoc_blade_for_multirequest_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 12
-      },
-      "tradeExp": 2,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/copper_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/pyrite",
-        "amount": 12
-      },
-      "tradeExp": 2,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/copper_for_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 12
-      },
-      "tradeExp": 2,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/copper_for_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 14
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/bronze_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 14
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/bronze_for_gem/diamond"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 14
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/bronze_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bismuth_bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 14
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_metal/ingot/bismuth_bronze_for_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bismuth_bronze",
-        "amount": 3
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_gem/ruby_for_metal/ingot/bismuth_bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bismuth_bronze",
-        "amount": 3
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_gem/topaz_for_metal/ingot/bismuth_bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 12
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bismuth_bronze",
-        "amount": 3
-      },
-      "tradeExp": 2,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_gem/opal_for_metal/ingot/bismuth_bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 16
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_metal/ingot/wrought_iron_for_gem/diamond"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/pyrite",
-        "amount": 16
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_metal/ingot/wrought_iron_for_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 16
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_metal/ingot/wrought_iron_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 3
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_gem/sapphire_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 3
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_gem/topaz_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 3
-      },
-      "tradeExp": 3,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_gem/opal_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 18
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_metal/ingot/black_steel_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 18
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_metal/ingot/black_steel_for_gem/opal"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 18
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_metal/ingot/black_steel_for_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 3
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_gem/emerald_for_metal/ingot/black_steel"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 3
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_gem/sapphire_for_metal/ingot/black_steel"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 16
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 3
-      },
-      "tradeExp": 4,
-      "maxUses": 4,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_gem/topaz_for_metal/ingot/black_steel"
-    },
-    {
-      "offer": {
-        "itemKey": "sns:ore_sack",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 21
-      },
-      "tradeExp": 5,
-      "maxUses": 3,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_ore_sack_for_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "sns:frame_pack",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 54
-      },
-      "tradeExp": 5,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_frame_pack_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "sns:quiver",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 24
-      },
-      "tradeExp": 5,
-      "maxUses": 3,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_quiver_for_gem/opal"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:bronze_zweihander_blade",
-        "amount": 1
-      },
-      "multiRequest": [
+        },
         {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 3
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
         },
         {
           "itemKey": "tfc:gem/emerald",
-          "amount": 8
-        }
-      ],
-      "tradeExp": 5,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_bronze_zweihander_blade_for_multirequest_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:bismuth_bronze_claymore_blade",
-        "amount": 1
-      },
-      "multiRequest": [
+          "amount": 5
+        },
         {
-          "itemKey": "tfc:metal/ingot/bismuth_bronze",
-          "amount": 3
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
         },
         {
           "itemKey": "tfc:gem/ruby",
-          "amount": 9
-        }
-      ],
-      "tradeExp": 5,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_bismuth_bronze_claymore_blade_for_multirequest_metal/ingot/bismuth_bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:black_bronze_flame_bladed_sword_blade",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:metal/ingot/black_bronze",
-          "amount": 3
+          "amount": 4
         },
         {
           "itemKey": "tfc:gem/sapphire",
-          "amount": 9
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
         }
       ],
-      "tradeExp": 5,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_black_bronze_flame_bladed_sword_blade_for_multirequest_metal/ingot/black_bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "knightsofterrafirma:bronze_rhomphaia_blade",
-        "amount": 1
-      },
       "multiRequest": [
         {
-          "itemKey": "tfc:metal/ingot/bronze",
+          "itemKey": "tfc:metal/sword_blade/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace_head/copper",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:buys_metal_sword_blade_copper_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
           "amount": 3
         },
         {
           "itemKey": "tfc:gem/opal",
-          "amount": 7
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
         }
       ],
-      "tradeExp": 5,
-      "maxUses": 1,
+      "request": {
+        "itemKey": "tfc:metal/javelin_head/copper",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_bronze_rhomphaia_blade_for_multirequest_metal/ingot/bronze"
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:buys_metal_javelin_head_copper_l1"
     },
     {
       "offer": {
-        "itemKey": "knightsofterrafirma:black_bronze_zweihander_blade",
+        "itemKey": "tfc:metal/javelin/copper",
         "amount": 1
       },
       "multiRequest": [
         {
-          "itemKey": "tfc:metal/ingot/black_bronze",
-          "amount": 3
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
         },
         {
           "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:sells_metal_javelin_copper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/copper",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
           "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:sells_metal_sword_copper_etc_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shield/copper",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:sells_metal_shield_copper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_shortsword",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_stylet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_estoc",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:sells_copper_shortsword_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/copper",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith:crafts_metal_sword_copper_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:metal/sword_blade/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace_head/bronze",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:buys_metal_sword_blade_bronze_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:metal/javelin_head/bronze",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:buys_metal_javelin_head_bronze_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "knightsofterrafirma:copper_short_sword_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_stiletto_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_heavy_mace_head",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:buys_copper_short_sword_blade_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/javelin/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
         }
       ],
       "tradeExp": 5,
-      "maxUses": 1,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:sells_metal_javelin_bronze_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 16
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 11
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:sells_metal_sword_bronze_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shield/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 16
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 12
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:sells_metal_shield_bronze_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "knightsofterrafirma:copper_stiletto_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_short_sword_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_katzbalger_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_ahlspiess_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:copper_estoc_blade",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:sells_copper_stiletto_blade_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_pike",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_heavymace",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_morgenstern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_lochaberaxe",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:sells_copper_pike_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/bronze",
+        "amount": 2
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith:crafts_metal_sword_bronze_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "minecraft:leather",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:glue",
+          "amount": 13
+        }
+      ],
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:buys_leather_etc_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/javelin/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:sells_metal_javelin_wrought_iron_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/wrought_iron",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 35
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 31
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 31
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 27
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 17
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:sells_metal_sword_wrought_iron_etc_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shield/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 37
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 26
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 17
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:sells_metal_shield_wrought_iron_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:bronze_shortsword",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_stylet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_estoc",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_pike",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_heavymace",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_morgenstern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_lochaberaxe",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 10
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:sells_bronze_shortsword_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/wrought_iron",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:crafts_metal_sword_wrought_iron_etc_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/javelin/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith:crafts_metal_javelin_wrought_iron_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "knightsofterrafirma:bronze_gladius",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bronze_antique_sword",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bronze_celtic_sword",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bronze_rhomphaia",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 13
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:sells_bronze_gladius_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "knightsofterrafirma:bismuth_bronze_bastard_sword",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bismuth_bronze_claymore",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 13
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:sells_bismuth_bronze_bastard_sword_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 45
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 40
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 40
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 35
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 27
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 27
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 21
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:sells_metal_sword_steel_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:bronze_claymore",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_zweihander",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bronze_bastardsword",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 15
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:sells_bronze_claymore_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "antiquelegacy:iron_gladius",
+          "amount": 1
+        },
+        {
+          "itemKey": "antiquelegacy:iron_kopis",
+          "amount": 1
+        },
+        {
+          "itemKey": "antiquelegacy:iron_xiphos",
+          "amount": 1
+        },
+        {
+          "itemKey": "antiquelegacy:iron_spatha",
+          "amount": 1
+        },
+        {
+          "itemKey": "antiquelegacy:iron_doru",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 36
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 32
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 17
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:sells_iron_gladius_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/steel",
+        "amount": 2
+      },
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith:crafts_metal_sword_steel_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "knightsofterrafirma:bronze_zweihander_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bismuth_bronze_claymore_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:black_bronze_flame_bladed_sword_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:bronze_rhomphaia_blade",
+          "amount": 1
+        },
+        {
+          "itemKey": "knightsofterrafirma:black_bronze_zweihander_blade",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 16
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 11
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith:sells_bronze_zweihander_blade_etc_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/sword/black_steel",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 61
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 61
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 54
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 49
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 45
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 41
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 41
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 33
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith:sells_metal_sword_black_steel_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shield/steel",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 48
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 42
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 42
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 37
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 33
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 22
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith:sells_metal_shield_steel_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "valarian_conquest:bandit_sword",
+          "amount": 1
+        },
+        {
+          "itemKey": "valarian_conquest:heavy_axe",
+          "amount": 1
+        },
+        {
+          "itemKey": "valarian_conquest:knights_spear",
+          "amount": 1
+        },
+        {
+          "itemKey": "valarian_conquest:mercenary_sword",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 43
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 34
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 28
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 20
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith:sells_bandit_sword_etc_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/sword/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/mace/black_steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/black_steel",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 6,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_black_bronze_zweihander_blade_for_multirequest_metal/ingot/black_bronze"
+      "UTID": "minecraft:weaponsmith:crafts_metal_sword_black_steel_etc_l5"
     }
   ]
 }

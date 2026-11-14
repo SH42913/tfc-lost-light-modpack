@@ -1,14 +1,14 @@
 {
     "content": {
-        "cleric_obj_rotten_flesh": {"type":"item","content":"minecraft:rotten_flesh","amount":{"min":4,"max":24},"unitWorth":60},
-        "cleric_obj_bone": {"type":"item","content":"minecraft:bone","amount":{"min":4,"max":24},"unitWorth":60},
+        "cleric_obj_rotten_flesh": {"type":"item","content":"minecraft:rotten_flesh","amount":{"min":4,"max":24},"unitWorth":65},
+        "cleric_obj_bone": {"type":"item","content":"minecraft:bone","amount":{"min":4,"max":24},"unitWorth":65},
         "cleric_obj_spider_eye": {"type":"item","content":"minecraft:spider_eye","amount":{"min":2,"max":8},"unitWorth":150},
-        "cleric_obj_gunpowder": {"type":"item","content":"minecraft:gunpowder","amount":{"min":2,"max":8},"unitWorth":250,"rarity":"UNCOMMON"},
+        "cleric_obj_gunpowder": {"type":"item","content":"minecraft:gunpowder","amount":{"min":2,"max":8},"unitWorth":320,"rarity":"UNCOMMON"},
         "cleric_obj_glass_bottle": {"type":"item","content":"minecraft:glass_bottle","amount":{"min":4,"max":12},"unitWorth":100},
-        "cleric_obj_candle": {"type":"item","content":"tfc:candle","amount":{"min":4,"max":12},"unitWorth":150},
+        "cleric_obj_candle": {"type":"item","content":"tfc:candle","amount":{"min":4,"max":12},"unitWorth":160},
         "cleric_obj_sulfur": {"type":"item","content":"tfc:powder/sulfur","amount":{"min":4,"max":16},"unitWorth":80},
         "cleric_obj_saltpeter": {"type":"item","content":"tfc:powder/saltpeter","amount":{"min":4,"max":16},"unitWorth":80},
-        "cleric_obj_beeswax": {"type":"item","content":"firmalife:beeswax","amount":{"min":2,"max":8},"unitWorth":300},
-        "cleric_obj_ender_pearl": {"type":"item","content":"minecraft:ender_pearl","amount":{"min":1,"max":4},"unitWorth":1000,"rarity":"RARE"}
+        "cleric_obj_beeswax": {"type":"item","content":"firmalife:beeswax","amount":{"min":2,"max":8},"unitWorth":240},
+        "cleric_obj_ender_pearl": {"type":"item","content":"minecraft:ender_pearl","amount":{"min":1,"max":4},"unitWorth":1200,"rarity":"RARE"}
     }
 }

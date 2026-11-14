@@ -1,6 +1,6 @@
 {
     "content": {
-        "leatherer_rew_leather": {"type":"item","content":"minecraft:leather","amount":{"min":4,"max":12},"unitWorth":300,"forbids":[{"type":"item","content":"minecraft:leather"}]},
+        "leatherer_rew_leather": {"type":"item","content":"minecraft:leather","amount":{"min":4,"max":12},"unitWorth":560,"forbids":[{"type":"item","content":"minecraft:leather"}]},
         "leatherer_rew_treated_hide": {"type":"item","content":"tfc:treated_hide","amount":{"min":1,"max":4},"unitWorth":800},
         "leatherer_rew_helmet": {"type":"item","content":"minecraft:leather_helmet","amount":{"min":1,"max":1},"unitWorth":1500,"nbt":"{Damage:0}"},
         "leatherer_rew_chestplate": {"type":"item","content":"minecraft:leather_chestplate","amount":{"min":1,"max":1},"unitWorth":2500,"nbt":"{Damage:0}"},

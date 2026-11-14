@@ -1,1151 +1,2199 @@
 {
   "profession": "minecraft:toolsmith",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/pyrite",
-        "amount": 6
-      },
-      "tradeExp": 1,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/ingot/copper_for_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 5
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/sapphire_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 5
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/topaz_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 5
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/copper",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/emerald_for_metal/ingot/copper"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 6
-      },
-      "tradeExp": 1,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/ingot/bronze_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 7
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/diamond_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 7
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/amethyst_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 7
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_gem/opal_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/pickaxe_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
         {
           "itemKey": "tfc:gem/emerald",
-          "amount": 5,
-          "priceModifier": 0
+          "amount": 2
         },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/pickaxe_head/copper_for_multirequest_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/axe_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
         {
           "itemKey": "tfc:gem/topaz",
-          "amount": 5,
-          "priceModifier": 0
+          "amount": 2
         },
         {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
         }
       ],
-      "tradeExp": 1,
-      "maxUses": 6,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:metal/pickaxe_head/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe_head/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer_head/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw_blade/copper",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/axe_head/copper_for_multirequest_gem/topaz"
+      "UTID": "minecraft:toolsmith:buys_metal_pickaxe_head_copper_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:buys_metal_ingot_copper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "minecraft:charcoal",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:powder/flux",
+          "amount": 24
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:buys_charcoal_etc_l1"
     },
     {
       "offer": {
-        "itemKey": "tfc:metal/shovel_head/copper",
+        "itemKey": "tfc:metal/ingot/copper",
         "amount": 1
       },
       "multiRequest": [
         {
           "itemKey": "tfc:gem/pyrite",
-          "amount": 4,
-          "priceModifier": 0
+          "amount": 5
         },
         {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/shovel_head/copper_for_multirequest_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/chisel_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
         {
           "itemKey": "tfc:gem/amethyst",
-          "amount": 4,
-          "priceModifier": 0
+          "amount": 4
         },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/chisel_head/copper_for_multirequest_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/hammer_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 5,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/hammer_head/copper_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/saw_blade/copper",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 5,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/saw_blade/copper_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/propick_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 5,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/propick_head/copper_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/scythe_blade/copper",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 5,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/scythe_blade/copper_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/hoe_head/copper",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 5,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/copper",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 1,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_metal/hoe_head/copper_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 7
-      },
-      "tradeExp": 10,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/ingot/bronze_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 10,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_gem/topaz_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 10,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_gem/ruby_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 10,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_gem/diamond_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/bronze",
-        "amount": 3
-      },
-      "tradeExp": 10,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_gem/opal_for_metal/ingot/bronze"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 8
-      },
-      "tradeExp": 10,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/ingot/wrought_iron_for_gem/topaz"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/pickaxe_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/diamond",
-          "amount": 6,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/pickaxe_head/bronze_for_multirequest_gem/diamond"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/axe_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/sapphire",
-          "amount": 6,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/axe_head/bronze_for_multirequest_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/hammer_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
         {
           "itemKey": "tfc:gem/opal",
-          "amount": 6,
-          "priceModifier": 0
+          "amount": 4
         },
         {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/hammer_head/bronze_for_multirequest_gem/opal"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/chisel_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/amethyst",
-          "amount": 5,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
         },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/chisel_head/bronze_for_multirequest_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/saw_blade/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
         {
           "itemKey": "tfc:gem/topaz",
-          "amount": 6,
-          "priceModifier": 0
+          "amount": 3
         },
         {
-          "itemKey": "tfc:metal/ingot/bronze",
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:sells_metal_ingot_copper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/copper",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:sells_metal_pickaxe_copper_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:firestarter",
           "amount": 1,
-          "priceModifier": 0
+          "amountRange": 3
+        },
+        {
+          "itemKey": "tfc:sandpaper",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:sells_firestarter_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/copper",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith:crafts_metal_pickaxe_copper_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:metal/pickaxe_head/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe_head/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer_head/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw_blade/bronze",
+          "amount": 1
         }
       ],
       "tradeExp": 10,
-      "maxUses": 6,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/saw_blade/bronze_for_multirequest_gem/topaz"
+      "UTID": "minecraft:toolsmith:buys_metal_pickaxe_head_bronze_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:metal/ingot/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/ingot/bismuth_bronze",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:buys_metal_ingot_bronze_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/ingot/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/ingot/bismuth_bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:sells_metal_ingot_bronze_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:sells_metal_pickaxe_bronze_etc_l2"
     },
     {
       "offer": {
-        "itemKey": "tfc:metal/shovel_head/bronze",
+        "itemKey": "tfc:metal/rod/copper",
+        "amount": 2
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:sells_metal_rod_copper_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "precisionprospecting:metal/prospector_hammer/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/mineral_prospector/copper",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/prospector_drill/copper",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:sells_metal_prospector_hammer_copper_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/chain/copper",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:metal/bars/copper",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:sells_metal_chain_copper_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/bronze",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:crafts_metal_pickaxe_bronze_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/lamp/copper",
         "amount": 1
       },
       "multiRequest": [
         {
           "itemKey": "tfc:gem/pyrite",
-          "amount": 5,
-          "priceModifier": 0
+          "amount": 1
         },
         {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/shovel_head/bronze_for_multirequest_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/scythe_blade/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 6,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
         },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/scythe_blade/bronze_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/propick_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/emerald",
-          "amount": 6,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/propick_head/bronze_for_multirequest_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/hoe_head/bronze",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/sapphire",
-          "amount": 6,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/bronze",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 10,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_metal/hoe_head/bronze_for_multirequest_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 8
-      },
-      "tradeExp": 20,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/ingot/wrought_iron_for_gem/diamond"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 8
-      },
-      "tradeExp": 20,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/ingot/steel_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/opal_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/ruby_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/diamond_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/sapphire_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/topaz_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 10
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/wrought_iron",
-        "amount": 5
-      },
-      "tradeExp": 20,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_gem/amethyst_for_metal/ingot/wrought_iron"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/pickaxe_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/pickaxe_head/wrought_iron_for_multirequest_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/axe_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/opal",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/axe_head/wrought_iron_for_multirequest_gem/opal"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/hammer_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/sapphire",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/hammer_head/wrought_iron_for_multirequest_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/chisel_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/topaz",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/chisel_head/wrought_iron_for_multirequest_gem/topaz"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/saw_blade/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/diamond",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/saw_blade/wrought_iron_for_multirequest_gem/diamond"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/shovel_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
         {
           "itemKey": "tfc:gem/amethyst",
-          "amount": 7,
-          "priceModifier": 0
+          "amount": 1
         },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/shovel_head/wrought_iron_for_multirequest_gem/amethyst"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/scythe_blade/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
-        {
-          "itemKey": "tfc:gem/emerald",
-          "amount": 8,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
-        }
-      ],
-      "tradeExp": 20,
-      "maxUses": 6,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/scythe_blade/wrought_iron_for_multirequest_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/propick_head/wrought_iron",
-        "amount": 1
-      },
-      "multiRequest": [
         {
           "itemKey": "tfc:gem/opal",
-          "amount": 8,
-          "priceModifier": 0
+          "amount": 1
         },
         {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/copper",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith:crafts_metal_lamp_copper_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:metal/pickaxe_head/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe_head/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer_head/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw_blade/wrought_iron",
+          "amount": 1
         }
       ],
       "tradeExp": 20,
-      "maxUses": 6,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/propick_head/wrought_iron_for_multirequest_gem/opal"
+      "UTID": "minecraft:toolsmith:buys_metal_pickaxe_head_wrought_iron_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:buys_metal_ingot_wrought_iron_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:metal/hoe_head/wrought_iron",
+        "itemKey": "tfc:metal/ingot/wrought_iron",
         "amount": 1
       },
       "multiRequest": [
         {
-          "itemKey": "tfc:gem/ruby",
-          "amount": 8,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 15
         },
         {
-          "itemKey": "tfc:metal/ingot/wrought_iron",
-          "amount": 1,
-          "priceModifier": 0
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 7
         }
       ],
-      "tradeExp": 20,
+      "tradeExp": 10,
       "maxUses": 6,
-      "priceMultiplier": 0.05,
+      "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_metal/hoe_head/wrought_iron_for_multirequest_gem/ruby"
+      "UTID": "minecraft:toolsmith:sells_metal_ingot_wrought_iron_l3"
     },
     {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/pyrite",
-        "amount": 12
-      },
-      "tradeExp": 30,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/wrought_iron",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
       "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_metal/ingot/black_steel_for_gem/pyrite"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/sapphire",
-        "amount": 12
-      },
-      "tradeExp": 30,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_metal/ingot/black_steel_for_gem/sapphire"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "tfc:gem/topaz",
-        "amount": 12
-      },
-      "tradeExp": 30,
-      "maxUses": 10,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_metal/ingot/black_steel_for_gem/topaz"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/diamond",
-        "amount": 20
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 4
-      },
-      "tradeExp": 30,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_gem/diamond_for_metal/ingot/black_steel"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 20
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 4
-      },
-      "tradeExp": 30,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_gem/amethyst_for_metal/ingot/black_steel"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 20
-      },
-      "request": {
-        "itemKey": "tfc:metal/ingot/black_steel",
-        "amount": 4
-      },
-      "tradeExp": 30,
-      "maxUses": 8,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_gem/ruby_for_metal/ingot/black_steel"
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:sells_metal_pickaxe_wrought_iron_etc_l3"
     },
     {
       "offer": {
         "itemKey": "sns:ore_sack",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/amethyst",
-        "amount": 18
-      },
-      "tradeExp": 30,
-      "maxUses": 3,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_ore_sack_for_gem/amethyst"
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:sells_ore_sack_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "precisionprospecting:metal/prospector_hammer/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/mineral_prospector/bronze",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/prospector_drill/bronze",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:sells_metal_prospector_hammer_bronze_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem_saw",
+          "amount": 1
+        },
+        {
+          "itemKey": "create:wrench",
+          "amount": 1
+        },
+        {
+          "itemKey": "supplementaries:wrench",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:sells_gem_saw_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/wrought_iron",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith:crafts_metal_pickaxe_wrought_iron_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:metal/ingot/steel",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:buys_metal_ingot_steel_l4"
     },
     {
       "offer": {
-        "itemKey": "sns:frame_pack",
+        "itemKey": "tfc:metal/ingot/steel",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 45
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 9
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:sells_metal_ingot_steel_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 10
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:sells_metal_pickaxe_steel_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "precisionprospecting:metal/prospector_hammer/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/mineral_prospector/wrought_iron",
+          "amount": 1
+        },
+        {
+          "itemKey": "precisionprospecting:metal/prospector_drill/wrought_iron",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:sells_metal_prospector_hammer_wrought_iron_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/chain/wrought_iron",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:metal/bars/wrought_iron",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:sells_metal_chain_wrought_iron_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/steel",
+        "amount": 1
       },
-      "tradeExp": 30,
-      "maxUses": 1,
+      "tradeExp": 15,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_frame_pack_for_gem/ruby"
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith:crafts_metal_pickaxe_steel_etc_l4"
     },
     {
       "offer": {
-        "itemKey": "sns:quiver",
+        "itemKey": "tfc:metal/ingot/black_steel",
         "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 20
-      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 25
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 23
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 14
+        }
+      ],
       "tradeExp": 30,
       "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith:sells_metal_ingot_black_steel_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/black_steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 33
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 26
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 16
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith:sells_metal_pickaxe_black_steel_etc_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/propick/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/chisel/black_steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 33
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 26
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 16
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith:sells_metal_propick_black_steel_etc_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:metal/pickaxe/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/axe/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hammer/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/saw/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/propick/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/shovel/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/hoe/black_steel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:metal/scythe/black_steel",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/black_steel",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_quiver_for_gem/opal"
+      "UTID": "minecraft:toolsmith:crafts_metal_pickaxe_black_steel_etc_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/lamp/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:metal/ingot/wrought_iron",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith:crafts_metal_lamp_wrought_iron_l5"
     }
   ]
 }

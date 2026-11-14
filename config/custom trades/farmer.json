@@ -1,719 +1,1781 @@
 {
-  "profession": "minecraft:farmer", "removeOtherTrades": true, "maxTrades": 2, "trades": [
-  {
-    "offer": {
-      "itemKey": "tfc:wood/sapling/birch", "amount": 2
+  "profession": "minecraft:farmer",
+  "removeOtherTrades": true,
+  "maxTrades": 3,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/wheat",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/barley",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/oat",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/rye",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/rice",
+          "amount": 30
+        },
+        {
+          "itemKey": "tfc:food/maize",
+          "amount": 30
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:buys_food_wheat_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/pyrite", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 4,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_wood/sapling/birch_for_multirequest_gem/pyrite"
-  }, {
-    "offer": {
-      "itemKey": "tfc:wood/sapling/spruce", "amount": 2
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/potato",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/carrot",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/beet",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/onion",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/garlic",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/cabbage",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/tomato",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/squash",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:food/soybean",
+          "amount": 24
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:buys_food_potato_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/pyrite", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 4,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_wood/sapling/spruce_for_multirequest_gem/pyrite"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/wheat", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:jute",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:food/sugarcane",
+          "amount": 38
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:buys_jute_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_food/wheat_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/wheat", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:straw",
+        "amount": 64
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:buys_straw_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_seeds/wheat_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/beet", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:seeds/wheat",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/barley",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/oat",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/rye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/rice",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/maize",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:sells_seeds_wheat_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_food/beet_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/beet", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:seeds/potato",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/carrot",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/beet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/onion",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:sells_seeds_potato_etc_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 1,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:farmer_seeds/beet_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/green_apple_sapling", "amount": 1
+    {
+      "offer": {
+        "itemKey": "tfc:compost",
+        "amount": 4,
+        "amountRange": 9
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer:sells_compost_l1"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_plant/green_apple_sapling_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/red_apple_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/red_apple",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:food/green_apple",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:food/peach",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:food/plum",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:food/olive",
+          "amount": 17
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:buys_food_red_apple_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/topaz", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_plant/red_apple_sapling_for_multirequest_gem/topaz"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/red_apple", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:food/blueberry",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:food/strawberry",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:food/raspberry",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:food/cranberry",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:food/elderberry",
+          "amount": 22
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:buys_food_blueberry_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_food/red_apple_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/green_apple", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:groundcover/guano",
+        "amount": 24
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:buys_groundcover_guano_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_food/green_apple_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/carrot", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:seeds/garlic",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/cabbage",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/tomato",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/squash",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/soybean",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "tfc:seeds/jute",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:sells_seeds_garlic_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_food/carrot_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/carrot", "amount": 4
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:food/wheat_bread",
+          "amount": 4,
+          "amountRange": 7
+        },
+        {
+          "itemKey": "tfc:food/barley_bread",
+          "amount": 4,
+          "amountRange": 7
+        },
+        {
+          "itemKey": "tfc:food/oat_bread",
+          "amount": 4,
+          "amountRange": 7
+        },
+        {
+          "itemKey": "tfc:food/rye_bread",
+          "amount": 4,
+          "amountRange": 7
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:sells_food_wheat_bread_etc_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_seeds/carrot_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/potato", "amount": 6
+    {
+      "offer": {
+        "itemKey": "sns:straw_basket",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:sells_straw_basket_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_food/potato_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/potato", "amount": 4
+    {
+      "offer": {
+        "itemKey": "firmalife:seed_ball",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer:sells_seed_ball_l2"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 10,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:farmer_seeds/potato_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/olive_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "firmalife:beeswax",
+        "amount": 7
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:buys_beeswax_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_plant/olive_sapling_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/cherry_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:plant/red_apple_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/green_apple_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/cherry_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/plum_sapling",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:sells_plant_red_apple_sapling_etc_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/lapis_lazuli", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_plant/cherry_sapling_for_multirequest_gem/lapis_lazuli"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/olive", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:seeds/melon",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:seeds/pumpkin",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:seeds/red_bell_pepper",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:seeds/yellow_bell_pepper",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:sells_seeds_melon_etc_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_food/olive_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/maize", "amount": 6
+    {
+      "offer": {
+        "itemKey": "tfc:food/cheese",
+        "amount": 2,
+        "amountRange": 4
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:sells_food_cheese_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_food/maize_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/tomato", "amount": 6
+    {
+      "offer": {
+        "itemKey": "sns:seed_pouch",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:sells_seed_pouch_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_food/tomato_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/onion", "amount": 6
+    {
+      "offer": {
+        "itemKey": "firmalife:watering_can",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer:sells_watering_can_l3"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_food/onion_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/tomato", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "firmalife:beehive_frame",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer:buys_beehive_frame_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_seeds/tomato_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/onion", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:plant/peach_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/olive_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/orange_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/banana_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:plant/lemon_sapling",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer:sells_plant_peach_sapling_etc_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_seeds/onion_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/maize", "amount": 6
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:plant/basil",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/cilantro",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/cumin",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/oregano",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/pimento",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer:sells_plant_basil_etc_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 20,
-    "maxUses": 8,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:farmer_seeds/maize_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/peach_sapling", "amount": 1
+    {
+      "offer": {
+        "itemKey": "firmalife:raw_honey",
+        "amount": 2,
+        "amountRange": 4
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer:sells_raw_honey_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_plant/peach_sapling_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/plum_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:jar/plum",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/cherry",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/blueberry",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/strawberry",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/peach",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/red_apple",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/orange",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:jar/raspberry",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer:sells_jar_plum_etc_l4"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_plant/plum_sapling_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/banana_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:plant/cocoa_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/fig_sapling",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/pineapple_bush",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer:sells_plant_cocoa_sapling_etc_l5"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_plant/banana_sapling_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:plant/orange_sapling", "amount": 1
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:plant/bay_laurel",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/cardamom",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/vanilla",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer:sells_plant_bay_laurel_etc_l5"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/amethyst", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_plant/orange_sapling_for_multirequest_gem/amethyst"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/peach", "amount": 12
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:plant/wild_red_grapes",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmalife:plant/wild_white_grapes",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer:sells_plant_wild_red_grapes_etc_l5"
     },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_food/peach_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/plum", "amount": 12
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_food/plum_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:food/garlic", "amount": 12
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_food/garlic_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/garlic", "amount": 8
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_seeds/garlic_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/jute", "amount": 8
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_seeds/jute_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "tfc:seeds/cabbage", "amount": 8
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:farmer_seeds/cabbage_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/cilantro", "amount": 1
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/cilantro_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/basil", "amount": 1
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/ruby", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/basil_for_multirequest_gem/ruby"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/oregano", "amount": 6
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/oregano_for_multirequest_gem/sapphire"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/pimento", "amount": 6
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/pimento_for_multirequest_gem/sapphire"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/cumin", "amount": 6
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/sapphire", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/cumin_for_multirequest_gem/sapphire"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:food/tofu", "amount": 6
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/opal", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/emerald", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_food/tofu_for_multirequest_gem/opal"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/cocoa_sapling", "amount": 1
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/emerald", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/diamond", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/cocoa_sapling_for_multirequest_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/fig_sapling", "amount": 1
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/emerald", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/diamond", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/fig_sapling_for_multirequest_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "firmalife:plant/pineapple_bush", "amount": 1
-    },
-    "multiRequest": [
-      {
-        "itemKey": "tfc:gem/emerald", "amount": 1
-      }, {
-        "itemKey": "tfc:gem/diamond", "amount": 1
-      }
-    ],
-    "tradeExp": 30,
-    "maxUses": 2,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:farmer_plant/pineapple_bush_for_multirequest_gem/emerald"
-  }
-]
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:jar/plum",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/cherry",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/blueberry",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/strawberry",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/peach",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/red_apple",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/orange",
+          "amount": 8,
+          "amountRange": 13
+        },
+        {
+          "itemKey": "tfc:jar/raspberry",
+          "amount": 8,
+          "amountRange": 13
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer:sells_jar_bulk_etc_l5"
+    }
+  ]
 }

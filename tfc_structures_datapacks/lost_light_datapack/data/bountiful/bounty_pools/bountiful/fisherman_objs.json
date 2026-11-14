@@ -16,6 +16,6 @@
         "fisherman_obj_mollusk": {"type":"item","content":"tfc:groundcover/mollusk","amount":{"min":2,"max":8},"unitWorth":150,"weightMult":0.5},
         "fisherman_obj_seaweed": {"type":"item","content":"tfc:food/fresh_seaweed","amount":{"min":8,"max":32},"unitWorth":40},
         "fisherman_obj_kelp": {"type":"item","content":"minecraft:kelp","amount":{"min":8,"max":32},"unitWorth":30},
-        "fisherman_obj_driftwood": {"type":"item","content":"tfc:groundcover/driftwood","amount":{"min":4,"max":16},"unitWorth":60}
+        "fisherman_obj_driftwood": {"type":"item","content":"tfc:groundcover/driftwood","amount":{"min":4,"max":16},"unitWorth":65}
     }
 }

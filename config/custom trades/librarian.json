@@ -1,283 +1,1968 @@
 {
   "profession": "minecraft:librarian",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
         "itemKey": "minecraft:paper",
-        "amount": 24,
-        "priceModifier": 0
+        "amount": 24
       },
       "tradeExp": 2,
       "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:librarian_gem/emerald_for_paper"
+      "UTID": "minecraft:librarian:buys_paper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:unrefined_paper",
+        "amount": 38
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian:buys_unrefined_paper_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:papyrus",
+        "amount": 60
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian:buys_papyrus_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "amountRange": 3
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian:sells_book_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:notice_board",
+          "amount": 1
+        },
+        {
+          "itemKey": "create:clipboard",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian:sells_notice_board_etc_l1"
     },
     {
       "offer": {
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
-        "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:1s}]}"
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:crushing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:piercing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:slashing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:feather_falling",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:fire_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:projectile_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 1
+          }
+        ]
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 15,
-        "priceModifier": 0
-      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
       "additionalRequest": {
         "itemKey": "minecraft:book",
-        "amount": 1,
-        "priceModifier": 0
+        "amount": 1
       },
       "tradeExp": 1,
-      "maxUses": 12,
+      "maxUses": 3,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:librarian_enchanted_book_for_gem/emerald_and_book"
+      "UTID": "minecraft:librarian:sells_book_common_1_l1"
     },
     {
-      "offer": {
-        "itemKey": "tfc:wood/planks/mangrove_bookshelf",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 9,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:librarian_wood/planks/mangrove_bookshelf_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:book",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "tradeExp": 10,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:librarian_gem/emerald_for_book"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 11,
-        "priceModifier": 0
-      },
-      "additionalRequest": {
-        "itemKey": "minecraft:book",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 5,
-      "maxUses": 12,
-      "priceMultiplier": 0.2,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:librarian_enchanted_book_for_gem/emerald_and_book"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:metal/lamp/copper",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 5,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:librarian_metal/lamp/copper_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
         "itemKey": "minecraft:ink_sac",
-        "amount": 5,
-        "priceModifier": 0
+        "amount": 19
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:buys_ink_sac_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:feather",
+        "amount": 50
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:buys_feather_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:sells_writable_book_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lantern",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:sells_lantern_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "firmalife:bottle_label",
+        "amount": 38
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:buys_bottle_label_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:blackboard",
+          "amount": 1
+        },
+        {
+          "itemKey": "supplementaries:key",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:sells_blackboard_etc_l2"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:aqua_affinity",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:bane_of_arthropods",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:blast_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "create:capacity",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "create:potato_recovery",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:depth_strider",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:crushing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:hunting",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:piercing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:slashing_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:slow_aspect",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:feather_falling",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:fire_aspect",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:fire_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:flame",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:impaling",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:knockback",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:loyalty",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:luck_of_the_sea",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:lure",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:piercing",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:projectile_protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:punch",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:quick_charge",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:respiration",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:smite",
+            "enchantmentLevel": 1
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian:sells_book_common_uncommon_1_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:soot",
+        "amount": 24
       },
       "tradeExp": 20,
       "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:librarian_gem/emerald_for_ink_sac"
+      "UTID": "minecraft:librarian:buys_soot_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:book",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian:buys_book_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/planks/oak_bookshelf",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/birch_bookshelf",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/spruce_bookshelf",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/hickory_bookshelf",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/maple_bookshelf",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/chestnut_bookshelf",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian:sells_wood_planks_oak_bookshelf_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:4s}]}"
+        "itemKey": "tfc:metal/lamp/copper",
+        "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 54,
-        "priceModifier": 0
-      },
-      "additionalRequest": {
-        "itemKey": "minecraft:book",
-        "amount": 1,
-        "priceModifier": 0
-      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
       "tradeExp": 10,
       "maxUses": 12,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:librarian_enchanted_book_for_gem/emerald_and_book"
+      "UTID": "minecraft:librarian:sells_metal_lamp_copper_l3"
     },
     {
-      "offer": {
-        "itemKey": "minecraft:glass",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/lectern/oak",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/lectern/birch",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/lectern/spruce",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "tradeExp": 10,
-      "maxUses": 12,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:librarian_glass_for_gem/emerald"
+      "UTID": "minecraft:librarian:sells_wood_lectern_oak_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:gem/emerald",
+        "itemKey": "minecraft:enchanted_book",
         "amount": 1,
-        "priceModifier": 0
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:aqua_affinity",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:bane_of_arthropods",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:blast_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "create:capacity",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "create:potato_recovery",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:depth_strider",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:crushing_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:hunting",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:piercing_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:slashing_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "enchanting_with_tfc:slow_aspect",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:feather_falling",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:fire_aspect",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:fire_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:flame",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:impaling",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:knockback",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:loyalty",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:luck_of_the_sea",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:lure",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:piercing",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:projectile_protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:punch",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:quick_charge",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:respiration",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:smite",
+            "enchantmentLevel": 2
+          }
+        ]
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian:sells_book_common_uncommon_2_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "minecraft:writable_book",
-        "amount": 2,
-        "priceModifier": 0
+        "itemKey": "minecraft:glow_ink_sac",
+        "amount": 8
       },
       "tradeExp": 30,
       "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:librarian_gem/emerald_for_writable_book"
+      "UTID": "minecraft:librarian:buys_glow_ink_sac_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:leather",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian:buys_leather_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/lamp/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian:sells_metal_lamp_bronze_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/scribing_table/oak",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/scribing_table/birch",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/scribing_table/spruce",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian:sells_wood_scribing_table_oak_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:hourglass",
+          "amount": 1
+        },
+        {
+          "itemKey": "supplementaries:antique_ink",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian:sells_hourglass_etc_l4"
     },
     {
       "offer": {
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
-        "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:2s}]}"
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:fortune",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:frost_walker",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:looting",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:silk_touch",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:soul_speed",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "supplementaries:stasis",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:sweeping",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:swift_sneak",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:thorns",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 1
+          }
+        ]
       },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 32,
-        "priceModifier": 0
-      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
       "additionalRequest": {
         "itemKey": "minecraft:book",
-        "amount": 1,
-        "priceModifier": 0
+        "amount": 1
       },
       "tradeExp": 15,
-      "maxUses": 12,
+      "maxUses": 3,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:librarian_enchanted_book_for_gem/emerald_and_book"
+      "UTID": "minecraft:librarian:sells_book_rare_1_l4"
     },
     {
-      "offer": {
-        "itemKey": "minecraft:clock",
-        "amount": 1,
-        "priceModifier": 0
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 5,
-        "priceModifier": 0
-      },
-      "tradeExp": 15,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:librarian_clock_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:compass",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "tradeExp": 15,
-      "maxUses": 12,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:librarian_compass_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:name_tag",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 20,
-        "priceModifier": 0
+        "itemKey": "tfc:candle",
+        "amount": 10
       },
       "tradeExp": 30,
       "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:librarian_name_tag_for_gem/emerald"
+      "UTID": "minecraft:librarian:buys_candle_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:name_tag",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian:sells_name_tag_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/lamp/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian:sells_metal_lamp_wrought_iron_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:globe",
+          "amount": 1
+        },
+        {
+          "itemKey": "beneath:lost_page",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian:sells_globe_etc_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:channeling",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:fortune",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:frost_walker",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:infinity",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:looting",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:multishot",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:riptide",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:silk_touch",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:soul_speed",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "supplementaries:stasis",
+            "enchantmentLevel": 1
+          },
+          {
+            "enchantmentKey": "minecraft:sweeping",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:swift_sneak",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:thorns",
+            "enchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 2
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 18
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 16
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 10
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian:sells_book_rare_treasure_2_l5"
     }
   ]
 }

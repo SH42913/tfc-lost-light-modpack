@@ -17,6 +17,6 @@
         "butcher_obj_wolf": {"type":"item","content":"tfc:food/wolf","amount":{"min":2,"max":8},"unitWorth":250,"rarity":"UNCOMMON","weightMult":0.5},
         "butcher_obj_gran_feline": {"type":"item","content":"tfc:food/gran_feline","amount":{"min":2,"max":8},"unitWorth":250,"rarity":"UNCOMMON","weightMult":0.5},
         "butcher_obj_blubber": {"type":"item","content":"tfc:blubber","amount":{"min":2,"max":8},"unitWorth":200,"rarity":"UNCOMMON"},
-        "butcher_obj_salt": {"type":"item","content":"tfc:powder/salt","amount":{"min":4,"max":16},"unitWorth":100}
+        "butcher_obj_salt": {"type":"item","content":"tfc:powder/salt","amount":{"min":4,"max":16},"unitWorth":120}
     }
 }

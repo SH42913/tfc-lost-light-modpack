@@ -1,87 +1,1973 @@
 {
   "profession": "minecraft:shepherd",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "tfc:small_raw_hide",
-        "amount": 1
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
+        "itemKey": "tfc:wool",
+        "amount": 15
       },
-      "tradeExp": 1,
-      "maxUses": 4,
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:shepherd_small_raw_hide_for_gem/emerald"
+      "UTID": "minecraft:shepherd:buys_wool_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:jute_fiber",
+        "amount": 50
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:buys_jute_fiber_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "supplementaries:flax",
+        "amount": 50
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:buys_flax_l1"
     },
     {
       "offer": {
-        "itemKey": "tfc:medium_raw_hide",
-        "amount": 1
+        "itemKey": "tfc:burlap_cloth",
+        "amount": 2,
+        "amountRange": 5
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:sells_burlap_cloth_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:white_wool",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:sells_white_wool_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:red_dye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:yellow_dye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:blue_dye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:green_dye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:black_dye",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:white_dye",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:sells_red_dye_etc_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:burlap_cloth",
+        "amount": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:jute_fiber",
+        "amount": 60
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd:crafts_burlap_cloth_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 8
+        "itemKey": "tfc:wool_yarn",
+        "amount": 64
       },
       "tradeExp": 10,
-      "maxUses": 4,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:shepherd_medium_raw_hide_for_gem/emerald"
+      "UTID": "minecraft:shepherd:buys_wool_yarn_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:small_sheepskin_hide",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd:buys_small_sheepskin_hide_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "minecraft:red_dye",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:yellow_dye",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:blue_dye",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:green_dye",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:black_dye",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:white_dye",
+          "amount": 24
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd:buys_red_dye_etc_l2"
     },
     {
       "offer": {
-        "itemKey": "tfc:large_raw_hide",
-        "amount": 1
+        "itemKey": "tfc:wool_cloth",
+        "amount": 2,
+        "amountRange": 5
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd:sells_wool_cloth_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:white_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:orange_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:magenta_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:light_blue_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:yellow_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:lime_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:pink_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:gray_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:light_gray_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:cyan_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:purple_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:blue_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:brown_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:green_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:red_carpet",
+          "amount": 4,
+          "amountRange": 9
+        },
+        {
+          "itemKey": "minecraft:black_carpet",
+          "amount": 4,
+          "amountRange": 9
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd:sells_white_carpet_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:doormat",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "farmersdelight:half_tatami_mat",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "tfc:thatch_bed",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd:sells_doormat_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 16
+        "itemKey": "tfc:medium_sheepskin_hide",
+        "amount": 2
       },
       "tradeExp": 20,
-      "maxUses": 4,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:shepherd_large_raw_hide_for_gem/emerald"
+      "UTID": "minecraft:shepherd:buys_medium_sheepskin_hide_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "firmalife:pineapple_fiber",
+          "amount": 50
+        },
+        {
+          "itemKey": "firmalife:pineapple_yarn",
+          "amount": 50
+        }
+      ],
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:buys_pineapple_fiber_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "minecraft:leather",
-        "amount": 4
+        "itemKey": "tfc:spindle",
+        "amount": 1
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:sells_spindle_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:white_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:orange_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:magenta_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:light_blue_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:yellow_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:lime_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:pink_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:gray_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:light_gray_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:cyan_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:purple_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:blue_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:brown_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:green_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:red_wool",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "minecraft:black_wool",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:sells_white_wool_etc_l3"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shears/copper",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:sells_metal_shears_copper_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "farmersdelight:canvas",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "farmersdelight:canvas_rug",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "farmersdelight:full_tatami_mat",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:sells_canvas_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/planks/oak_loom",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/birch_loom",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/planks/spruce_loom",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd:sells_wood_planks_oak_loom_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 32
+        "itemKey": "tfc:large_sheepskin_hide",
+        "amount": 1
       },
       "tradeExp": 30,
-      "maxUses": 8,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:shepherd_leather_for_gem/emerald"
+      "UTID": "minecraft:shepherd:buys_large_sheepskin_hide_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:white_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:orange_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:magenta_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:light_blue_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:yellow_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:lime_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:pink_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:gray_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:light_gray_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:cyan_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:purple_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:blue_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:brown_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:green_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:red_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:black_bed",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:sells_white_bed_etc_l4"
     },
     {
       "offer": {
-        "itemKey": "tfc:treated_hide",
-        "amount": 1
+        "itemKey": "tfc:silk_cloth",
+        "amount": 1,
+        "amountRange": 3
       },
-      "request": {
-        "itemKey": "tfc:gem/opal",
-        "amount": 4
-      },
-      "tradeExp": 30,
-      "maxUses": 3,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:sells_silk_cloth_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shears/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 22
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 19
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 16
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 14
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 11
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:sells_metal_shears_bronze_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc_derbys_spindles:copper_spindle",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc_derbys_spindles:bronze_spindle",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:sells_copper_spindle_etc_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/sewing_table/oak",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/sewing_table/birch",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:wood/sewing_table/spruce",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:sells_wood_sewing_table_oak_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:silk_cloth",
+        "amount": 2
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:string",
+        "amount": 48
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:crafts_silk_cloth_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:white_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:orange_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:magenta_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:light_blue_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:yellow_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:lime_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:pink_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:gray_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:light_gray_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:cyan_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:purple_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:blue_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:brown_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:green_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:red_bed",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:black_bed",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:white_wool",
+        "amount": 3
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd:crafts_white_bed_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/shears/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 33
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 29
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 26
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 24
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 21
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 20
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 16
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:shepherd_treated_hide_for_gem/opal"
+      "UTID": "minecraft:shepherd:sells_metal_shears_wrought_iron_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:silk_cloth",
+        "amount": 3,
+        "amountRange": 6
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd:sells_silk_bulk_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:wool_cloth",
+        "amount": 12,
+        "amountRange": 17
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd:sells_wool_cloth_bulk_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc_derbys_spindles:wrought_iron_spindle",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd:sells_wrought_iron_spindle_l5"
     }
   ]
 }

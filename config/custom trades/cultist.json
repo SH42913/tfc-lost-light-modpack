@@ -1,174 +1,322 @@
 {
-  "profession": "mca:cultist", "removeOtherTrades": true, "maxTrades": 2, "trades": [
-  {
-    "offer": {
-      "itemKey": "mca:sirben_baby_boy", "amount": 1, "priceModifier": 0
+  "profession": "mca:cultist",
+  "removeOtherTrades": true,
+  "maxTrades": 3,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "mca:sirben_baby_boy",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:sirben_baby_girl",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:sells_sirben_baby_boy_etc_l1"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 5, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "mca:baby_boy",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:baby_girl",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:buys_baby_boy_etc_l1"
     },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_sirben_baby_boy_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:sirben_baby_girl", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "mca:book_cult_0",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:book_cult_1",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:book_cult_2",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:sells_book_cult_0_etc_l1"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 5, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "mca:book_death",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:book_infection",
+          "amount": 1
+        },
+        {
+          "itemKey": "mca:book_supporters",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:sells_book_death_etc_l1"
     },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_sirben_baby_girl_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "minecraft:rotten_flesh",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:bone",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:spider_eye",
+          "amount": 24
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:buys_rotten_flesh_etc_l1"
     },
-    "request": {
-      "itemKey": "mca:baby_boy", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_gem/emerald_for_baby_boy"
-  }, {
-    "offer": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "mca:baby_girl", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_gem/emerald_for_baby_girl"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_0", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_0_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_0", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_0_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_1", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_1_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_1", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_1_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_2", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_2_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_cult_2", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_cult_2_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_death", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_death_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_infection", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_infection_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "mca:book_supporters", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
-    },
-    "tradeExp": 1,
-    "maxUses": 1,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "mca:cultist_book_supporters_for_gem/emerald"
-  }
-]
+    {
+      "offer": {
+        "itemKey": "tfc:candle",
+        "amount": 4,
+        "amountRange": 9
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "mca:cultist:sells_candle_l1"
+    }
+  ]
 }

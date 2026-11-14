@@ -1,329 +1,1518 @@
 {
-  "profession": "minecraft:cartographer", "removeOtherTrades": true, "maxTrades": 2, "trades": [
-  {
-    "offer": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
+  "profession": "minecraft:cartographer",
+  "removeOtherTrades": true,
+  "maxTrades": 3,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:paper",
+        "amount": 24
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer:buys_paper_l1"
     },
-    "request": {
-      "itemKey": "minecraft:paper", "amount": 24, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:unrefined_paper",
+        "amount": 38
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer:buys_unrefined_paper_l1"
     },
-    "tradeExp": 2,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:cartographer_gem/emerald_for_paper"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:map", "amount": 1, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:map",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer:sells_map_l1"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 7, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:item_frame",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer:sells_item_frame_l1"
     },
-    "tradeExp": 1,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 1,
-    "UTID": "minecraft:cartographer_map_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:wood/sign/oak",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:wood/sign/birch",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "tfc:wood/sign/spruce",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer:sells_wood_sign_oak_etc_l1"
     },
-    "request": {
-      "itemKey": "minecraft:glass_pane", "amount": 11, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "minecraft:ink_sac",
+          "amount": 24
+        },
+        {
+          "itemKey": "minecraft:black_dye",
+          "amount": 24
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:buys_ink_sac_etc_l2"
     },
-    "tradeExp": 10,
-    "maxUses": 16,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:cartographer_gem/emerald_for_glass_pane"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:filled_map",
-      "amount": 1,
-      "priceModifier": 0,
-      "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:9b,x:-3968.0d,z:3632.0d}],display:{MapColor:3830373,Name:\u0027{\"translate\":\"filled_map.monument\"}\u0027},map:0}"
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:glass_pane",
+        "amount": 13
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:buys_glass_pane_l2"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 13, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:compass",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:sells_compass_l2"
     },
-    "additionalRequest": {
-      "itemKey": "minecraft:compass", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:silica_glass_bottle",
+        "amount": 10
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:buys_silica_glass_bottle_l2"
     },
-    "tradeExp": 5,
-    "maxUses": 12,
-    "priceMultiplier": 0.2,
-    "demand": 0,
-    "tradeLevel": 2,
-    "UTID": "minecraft:cartographer_filled_map_for_gem/emerald_and_compass"
-  }, {
-    "offer": {
-      "itemKey": "tfc:gem/emerald", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:tfc/sign_post_oak",
+          "amount": 1,
+          "amountRange": 4
+        },
+        {
+          "itemKey": "supplementaries:tfc/sign_post_birch",
+          "amount": 1,
+          "amountRange": 4
+        },
+        {
+          "itemKey": "supplementaries:tfc/sign_post_spruce",
+          "amount": 1,
+          "amountRange": 4
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:sells_tfc_sign_post_oak_etc_l2"
     },
-    "request": {
-      "itemKey": "minecraft:compass", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:white_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:orange_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:magenta_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:light_blue_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:yellow_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:lime_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:pink_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:gray_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:light_gray_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:cyan_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:purple_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:blue_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:brown_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:green_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:red_banner",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:black_banner",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer:sells_white_banner_etc_l2"
     },
-    "tradeExp": 20,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:cartographer_gem/emerald_for_compass"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:filled_map",
-      "amount": 1,
-      "priceModifier": 0,
-      "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:8b,x:768.0d,z:32.0d}],display:{MapColor:5393476,Name:\u0027{\"translate\":\"filled_map.mansion\"}\u0027},map:1}"
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:lens",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:buys_lens_l3"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 14, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "firmaciv:firmaciv_compass",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:sells_firmaciv_compass_l3"
     },
-    "additionalRequest": {
-      "itemKey": "minecraft:compass", "amount": 1, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:clock",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:sells_clock_l3"
     },
-    "tradeExp": 10,
-    "maxUses": 12,
-    "priceMultiplier": 0.2,
-    "demand": 0,
-    "tradeLevel": 3,
-    "UTID": "minecraft:cartographer_filled_map_for_gem/emerald_and_compass"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:item_frame", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "firmaciv:copper_bolt",
+        "amount": 7
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:buys_copper_bolt_l3"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 7, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:wind_vane",
+          "amount": 1
+        },
+        {
+          "itemKey": "supplementaries:slice_map",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:sells_wind_vane_etc_l3"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_item_frame_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:white_banner", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:globe_banner_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:flower_banner_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:creeper_banner_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:skull_banner_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:mojang_banner_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:piglin_banner_pattern",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer:sells_globe_banner_pattern_etc_l3"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:compass",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:buys_compass_l4"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_white_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:blue_banner", "amount": 1, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:spyglass",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:sells_spyglass_l4"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "firmaciv:barometer",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:sells_barometer_l4"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_blue_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:light_blue_banner", "amount": 1, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "tfc:brass_mechanisms",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:buys_brass_mechanisms_l4"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmaciv:unfinished_barometer",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmaciv:unfinished_sextant",
+          "amount": 1
+        },
+        {
+          "itemKey": "firmaciv:unfinished_nav_clock",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:sells_unfinished_barometer_etc_l4"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_light_blue_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:red_banner", "amount": 1, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "minecraft:map",
+        "amount": 4
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cartographer:sells_map_bulk_l4"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "firmaciv:sextant",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer:sells_sextant_l5"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_red_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:pink_banner", "amount": 1, "priceModifier": 0
+    {
+      "offer": {
+        "itemKey": "firmaciv:nav_clock",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer:sells_nav_clock_l5"
     },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:altimeter",
+          "amount": 1
+        },
+        {
+          "itemKey": "supplementaries:globe_sepia",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer:sells_altimeter_etc_l5"
     },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_pink_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:green_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_green_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:lime_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_lime_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:gray_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_gray_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:black_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_black_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:purple_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_purple_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:magenta_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_magenta_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:cyan_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_cyan_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:brown_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_brown_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:yellow_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_yellow_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:orange_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_orange_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:light_gray_banner", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 3, "priceModifier": 0
-    },
-    "tradeExp": 15,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 4,
-    "UTID": "minecraft:cartographer_light_gray_banner_for_gem/emerald"
-  }, {
-    "offer": {
-      "itemKey": "minecraft:globe_banner_pattern", "amount": 1, "priceModifier": 0
-    },
-    "request": {
-      "itemKey": "tfc:gem/emerald", "amount": 8, "priceModifier": 0
-    },
-    "tradeExp": 30,
-    "maxUses": 12,
-    "priceMultiplier": 0.05,
-    "demand": 0,
-    "tradeLevel": 5,
-    "UTID": "minecraft:cartographer_globe_banner_pattern_for_gem/emerald"
-  }
-]
+    {
+      "multiOffer": [
+        {
+          "itemKey": "waystones:warp_scroll",
+          "amount": 1
+        },
+        {
+          "itemKey": "waystones:return_scroll",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer:sells_warp_scroll_etc_l5"
+    }
+  ]
 }

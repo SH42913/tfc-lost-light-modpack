@@ -1,311 +1,2167 @@
 {
   "profession": "minecraft:mason",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 3,
   "trades": [
     {
-      "offer": {
-        "itemKey": "minecraft:clay",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 32,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:rock/raw/granite",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:rock/raw/limestone",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:rock/raw/marble",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:rock/raw/basalt",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:rock/raw/andesite",
+          "amount": 38
+        },
+        {
+          "itemKey": "tfc:rock/raw/chalk",
+          "amount": 38
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:mason_clay_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_rock_raw_granite_etc_l1"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/raw/gabbro",
-        "amount": 8
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 32,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:mason_rock/raw/gabbro_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/raw/andesite",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 32,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:mason_rock/raw/andesite_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/raw/conglomerate",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 32,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:mason_rock/raw/conglomerate_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/raw/dolomite",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 32,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:mason_rock/raw/dolomite_for_gem/emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:calcite",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
+        "itemKey": "tfc:mortar",
+        "amount": 30
       },
       "tradeExp": 2,
-      "maxUses": 32,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:buys_mortar_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:aggregate",
+          "amount": 64
+        },
+        {
+          "itemKey": "rnr:crushed_base_course",
+          "amount": 64
+        },
+        {
+          "itemKey": "rnr:hoggin_mix",
+          "amount": 64
+        }
+      ],
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:buys_aggregate_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:rock/hardened/andesite",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:rock/hardened/basalt",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:rock/hardened/chalk",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:rock/hardened/marble",
+          "amount": 16,
+          "amountRange": 25
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:sells_rock_hardened_andesite_etc_l1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 12,
+        "amountRange": 21
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:sells_clay_ball_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:daub",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:wattle",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:smooth_mud_bricks",
+          "amount": 16,
+          "amountRange": 25
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:sells_daub_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "rnr:hoggin",
+          "amount": 16,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "rnr:base_course",
+          "amount": 16,
+          "amountRange": 33
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason:sells_hoggin_etc_l1"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:brick/granite",
+          "amount": 60
+        },
+        {
+          "itemKey": "tfc:brick/limestone",
+          "amount": 60
+        },
+        {
+          "itemKey": "tfc:brick/marble",
+          "amount": 60
+        },
+        {
+          "itemKey": "tfc:brick/basalt",
+          "amount": 60
+        },
+        {
+          "itemKey": "tfc:brick/andesite",
+          "amount": 60
+        },
+        {
+          "itemKey": "tfc:brick/chalk",
+          "amount": 60
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_calcite_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_brick_granite_etc_l2"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/raw/schist",
-        "amount": 8
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
+        "itemKey": "tfc:powder/lime",
+        "amount": 38
       },
-      "tradeExp": 2,
-      "maxUses": 32,
+      "tradeExp": 10,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_rock/raw/schist_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_powder_lime_l2"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/raw/phyllite",
-        "amount": 8
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
+        "itemKey": "tfc:groundcover/pumice",
+        "amount": 19
       },
-      "tradeExp": 2,
-      "maxUses": 32,
+      "tradeExp": 10,
+      "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_rock/raw/phyllite_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_groundcover_pumice_l2"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/raw/chalk",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 4
-      },
-      "tradeExp": 2,
-      "maxUses": 32,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:rock/bricks/granite",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:rock/bricks/marble",
+          "amount": 16,
+          "amountRange": 25
+        },
+        {
+          "itemKey": "tfc:rock/bricks/basalt",
+          "amount": 16,
+          "amountRange": 25
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_rock/raw/chalk_for_gem/emerald"
+      "UTID": "minecraft:mason:sells_rock_bricks_granite_etc_l2"
     },
     {
       "offer": {
-        "itemKey": "tfc:rock/raw/basalt",
-        "amount": 8
+        "itemKey": "tfc:metal/chisel/copper",
+        "amount": 1
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason:sells_metal_chisel_copper_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "rnr:ceramic_roof_tile",
+          "amount": 16,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "rnr:flagstone/red_sandstone",
+          "amount": 16,
+          "amountRange": 33
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason:sells_ceramic_roof_tile_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "chalk:white_chalk",
+          "amount": 2,
+          "amountRange": 5
+        },
+        {
+          "itemKey": "chalk:red_chalk",
+          "amount": 2,
+          "amountRange": 5
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason:sells_white_chalk_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:ceramic/vessel",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/ingot_mold",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason:crafts_ceramic_vessel_etc_l2"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
-        "amount": 8
+        "itemKey": "tfc:alabaster/raw",
+        "amount": 15
       },
-      "tradeExp": 3,
-      "maxUses": 24,
+      "tradeExp": 20,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:mason_rock/raw/basalt_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_alabaster_raw_l3"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/raw/marble",
-        "amount": 8
-      },
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/emerald",
+        "itemKey": "tfc:fire_clay",
         "amount": 8
       },
-      "tradeExp": 3,
-      "maxUses": 24,
+      "tradeExp": 20,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:mason_rock/raw/marble_for_gem/emerald"
+      "UTID": "minecraft:mason:buys_fire_clay_l3"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/hardened/gabbro",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 4,
-      "maxUses": 24,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:calcite",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:ore/gypsum",
+          "amount": 13
+        }
+      ],
+      "tradeExp": 20,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:mason_rock/hardened/gabbro_for_gem/ruby"
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:buys_calcite_etc_l3"
     },
     {
-      "offer": {
-        "itemKey": "tfc:rock/hardened/andesite",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 4,
-      "maxUses": 24,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:mason_rock/hardened/andesite_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/hardened/conglomerate",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 4,
-      "maxUses": 24,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:mason_rock/hardened/conglomerate_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/hardened/dolomite",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 4,
-      "maxUses": 24,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:mason_rock/hardened/dolomite_for_gem/ruby"
-    },
-    {
-      "offer": {
-        "itemKey": "tfc:rock/hardened/schist",
-        "amount": 8
-      },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 5,
+      "multiOffer": [
+        {
+          "itemKey": "tfc:rock/chiseled/granite",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "tfc:rock/chiseled/marble",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "tfc:rock/chiseled/basalt",
+          "amount": 8,
+          "amountRange": 17
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
       "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:mason_rock/hardened/schist_for_gem/ruby"
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:sells_rock_chiseled_granite_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:rock/hardened/phyllite",
-        "amount": 8
+        "itemKey": "tfc:alabaster/bricks",
+        "amount": 12,
+        "amountRange": 17
       },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 5,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:sells_alabaster_bricks_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "rnr:ceramic_roof",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "rnr:brick_road",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "alekiroofs:brick_roofing",
+          "amount": 8,
+          "amountRange": 17
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:sells_ceramic_roof_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "supplementaries:timber_frame",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "supplementaries:timber_brace",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "supplementaries:timber_cross_brace",
+          "amount": 8,
+          "amountRange": 17
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
       "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:mason_rock/hardened/phyllite_for_gem/ruby"
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:sells_timber_frame_etc_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:rock/hardened/chalk",
-        "amount": 8
+        "itemKey": "chalk:chalk_box",
+        "amount": 1
       },
-      "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
-      },
-      "tradeExp": 5,
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "tradeExp": 10,
       "maxUses": 16,
       "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:mason_rock/hardened/chalk_for_gem/ruby"
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:sells_chalk_box_l3"
     },
     {
       "offer": {
-        "itemKey": "tfc:rock/hardened/marble",
-        "amount": 8
+        "itemKey": "tfc:ceramic/large_vessel",
+        "amount": 1
       },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:crafts_ceramic_large_vessel_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:ceramic/axe_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/chisel_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/hammer_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/hoe_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/javelin_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/knife_blade_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/mace_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/pickaxe_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/propick_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/saw_blade_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/scythe_blade_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/shovel_head_mold",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:ceramic/sword_blade_mold",
+          "amount": 1
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason:crafts_ceramic_axe_head_mold_etc_l3"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "tfc:gem/ruby",
-        "amount": 8
+        "itemKey": "tfc:kaolin_clay",
+        "amount": 4
       },
-      "tradeExp": 5,
-      "maxUses": 16,
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:buys_kaolin_clay_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:fire_bricks",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 6
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 4
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:sells_fire_bricks_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/chisel/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 6
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:sells_metal_chisel_bronze_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:ceramic/large_vessel",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:sells_ceramic_large_vessel_l4"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "firmalife:tiles",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "firmalife:sealed_bricks",
+          "amount": 8,
+          "amountRange": 17
+        },
+        {
+          "itemKey": "firmalife:rustic_bricks",
+          "amount": 8,
+          "amountRange": 17
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:sells_tiles_etc_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "rnr:metal/mattock/copper",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 3
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:sells_metal_mattock_copper_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:ceramic/fire_brick",
+        "amount": 4
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 1
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 1
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "tfc:fire_clay",
+        "amount": 10
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason:crafts_ceramic_fire_brick_l4"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:metal/chisel/wrought_iron",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 17
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 15
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 13
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 12
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 8
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason:sells_metal_chisel_wrought_iron_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:fire_clay",
+        "amount": 6,
+        "amountRange": 11
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:mason_rock/hardened/marble_for_gem/ruby"
+      "UTID": "minecraft:mason:sells_fire_clay_l5"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tfc:rock/hardened/dolomite",
+          "amount": 24,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "tfc:rock/hardened/gabbro",
+          "amount": 24,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "tfc:rock/hardened/schist",
+          "amount": 24,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "tfc:rock/hardened/phyllite",
+          "amount": 24,
+          "amountRange": 33
+        },
+        {
+          "itemKey": "tfc:rock/hardened/conglomerate",
+          "amount": 24,
+          "amountRange": 33
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason:sells_rock_hardened_dolomite_etc_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:kaolin_clay",
+        "amount": 3,
+        "amountRange": 6
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 2
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason:sells_kaolin_clay_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "tfc:crucible",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 5
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 4
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 3
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 2
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason:sells_crucible_l5"
+    },
+    {
+      "offer": {
+        "itemKey": "rnr:metal/mattock/bronze",
+        "amount": 1
+      },
+      "multiRequest": [
+        {
+          "itemKey": "tfc:gem/pyrite",
+          "amount": 11
+        },
+        {
+          "itemKey": "tfc:gem/lapis_lazuli",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/amethyst",
+          "amount": 10
+        },
+        {
+          "itemKey": "tfc:gem/opal",
+          "amount": 9
+        },
+        {
+          "itemKey": "tfc:gem/emerald",
+          "amount": 8
+        },
+        {
+          "itemKey": "tfc:gem/topaz",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/ruby",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/sapphire",
+          "amount": 7
+        },
+        {
+          "itemKey": "tfc:gem/diamond",
+          "amount": 5
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 6,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason:sells_metal_mattock_bronze_l5"
     }
   ]
 }
