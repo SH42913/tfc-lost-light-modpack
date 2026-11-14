@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/stripped_wood/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_wood/tualang",
+      "required": false
+    }
+  ]
+}

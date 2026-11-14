@@ -1,0 +1,201 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/leaves/acacia_koa",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/atlas_cedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/bald_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/balsam_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/bigleaf_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/black_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/coast_redwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/coast_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/flame_of_the_forest",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/giant_rosewood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/horsetail_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/iroko_teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/lebombo_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/live_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/mountain_ash",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/mountain_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/mpingo_blackwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/red_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/sapele_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/scrub_hickory",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/sitka_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/small_leaf_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/stone_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/tamarack",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/weeping_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/weeping_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/weeping_willow",
+      "required": false
+    },
+    {
+      "id": "firmalife:plant/cocoa_leaves",
+      "required": false
+    },
+    {
+      "id": "firmalife:plant/fig_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cherry_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/green_apple_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/lemon_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/olive_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/orange_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/peach_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/plum_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/red_apple_leaves",
+      "required": false
+    }
+  ]
+}

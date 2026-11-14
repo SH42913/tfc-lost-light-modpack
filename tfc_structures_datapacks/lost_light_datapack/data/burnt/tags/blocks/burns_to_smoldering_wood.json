@@ -1,0 +1,209 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/wood/ancient_acacia",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_ash",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_aspen",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_birch",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_blackwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_chestnut",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_douglas_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_hickory",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_kapok",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_palm",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_rosewood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_sequoia",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_sycamore",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_tualang",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_white_cedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ancient_willow",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/wood/tualang",
+      "required": false
+    }
+  ]
+}

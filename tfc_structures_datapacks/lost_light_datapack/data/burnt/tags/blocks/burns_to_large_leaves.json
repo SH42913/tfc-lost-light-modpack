@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/leaves/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/jaggery_palm",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/red_silk_cotton",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/leaves/tualang",
+      "required": false
+    }
+  ]
+}

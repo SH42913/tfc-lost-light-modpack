@@ -1,0 +1,209 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/planks/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/baobab_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang_bookshelf",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/acacia",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ash",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/aspen",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/baobab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/birch",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/blackwood",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/chestnut",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/cypress",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/fig",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/hevea",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/hickory",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ipe",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ironwood",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/kapok",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/mahogany",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/mangrove",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/maple",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/oak",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/palm",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/pine",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/rosewood",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/sequoia",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/spruce",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/sycamore",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/teak",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/tualang",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/white_cedar",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_mosaic",
+      "required": false
+    }
+  ]
+}

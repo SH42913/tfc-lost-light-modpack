@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "firmalife:plant/cocoa_branch",
+      "required": false
+    },
+    {
+      "id": "firmalife:plant/cocoa_growing_branch",
+      "required": false
+    },
+    {
+      "id": "firmalife:plant/fig_branch",
+      "required": false
+    },
+    {
+      "id": "firmalife:plant/fig_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cherry_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cherry_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/green_apple_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/green_apple_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/lemon_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/lemon_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/olive_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/olive_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/orange_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/orange_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/peach_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/peach_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/plum_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/plum_growing_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/red_apple_branch",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/red_apple_growing_branch",
+      "required": false
+    }
+  ]
+}

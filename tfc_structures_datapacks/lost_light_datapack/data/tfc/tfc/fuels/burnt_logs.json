@@ -1,0 +1,34 @@
+{
+  "ingredient": [
+    {
+      "item": "burnt:burnt_log"
+    },
+    {
+      "item": "burnt:burnt_wood"
+    },
+    {
+      "item": "burnt:stripped_burnt_log"
+    },
+    {
+      "item": "burnt:stripped_burnt_wood"
+    },
+    {
+      "item": "burnt:burnt_hollow_log"
+    },
+    {
+      "item": "burnt:small_burnt_log"
+    },
+    {
+      "item": "burnt:broken_burnt_log"
+    },
+    {
+      "item": "burnt:stripped_broken_burnt_log"
+    },
+    {
+      "item": "burnt:stripped_broken_burnt_log_2"
+    }
+  ],
+  "duration": 1500,
+  "temperature": 650,
+  "purity": 0.9
+}

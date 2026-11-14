@@ -1,0 +1,177 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/log/ancient_acacia",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_ash",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_aspen",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_birch",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_blackwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_chestnut",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_douglas_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_hickory",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_kapok",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_palm",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_rosewood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_sequoia",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_sycamore",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_tualang",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_white_cedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_willow",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/tualang",
+      "required": false
+    }
+  ]
+}

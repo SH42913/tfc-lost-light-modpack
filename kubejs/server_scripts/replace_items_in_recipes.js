@@ -40,4 +40,9 @@ ServerEvents.recipes(event => {
     event.replaceInput(mcaFilter, "minecraft:birch_fence", "tfc:wood/planks/birch_fence")
     event.replaceInput(mcaFilter, "minecraft:acacia_planks", "tfc:wood/planks/acacia")
     event.replaceInput(mcaFilter, "minecraft:acacia_fence", "tfc:wood/planks/acacia_fence")
+
+    let burntFilter = {mod: "burnt"}
+    event.replaceInput(burntFilter, "minecraft:fire_charge", "minecraft:gunpowder")
+    event.replaceInput(burntFilter, "minecraft:stone", "#forge:smooth_stone")
+    event.replaceInput(burntFilter, "minecraft:sculk_sensor", "minecraft:observer")
 })

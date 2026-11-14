@@ -44,4 +44,7 @@ ServerEvents.recipes(event => {
     event.remove({id: /aquaculture:.*_fillet_knife/});
 
     event.remove({id: /chalk:chalk_.*/})
+
+    event.remove({id: "burnt:golden_apple"})
+    event.remove({id: "burnt:extinguisher_recipe"})
 })

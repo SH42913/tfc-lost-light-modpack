@@ -285,6 +285,14 @@
     "curseForgeHash": 4280760245,
     "modrinthHash": "87080d764fbcc2ca13ca453a8bd34d356666e4c4"
   },
+  "burnt_basic-1.10.5.3-forge-1.20.1.jar": {
+    "jarName": "burnt_basic-1.10.5.3-forge-1.20.1.jar",
+    "modId": "burnt",
+    "name": "Burnt Basic",
+    "version": "1.10.5.3",
+    "curseForgeHash": 492159203,
+    "modrinthHash": "803d4ba0bf577240714b887ebd7e53e367508e2e"
+  },
   "c2tfc-1.1.0-1.20.1.jar": {
     "jarName": "c2tfc-1.1.0-1.20.1.jar",
     "modId": "c2tfc",

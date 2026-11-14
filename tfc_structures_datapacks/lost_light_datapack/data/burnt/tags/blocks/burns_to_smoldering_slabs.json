@@ -1,0 +1,169 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/planks/baobab_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak_slab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/acacia_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ash_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/aspen_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/baobab_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/birch_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/blackwood_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/chestnut_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/cypress_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/douglas_fir_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/eucalyptus_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/fig_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/hevea_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/hickory_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ipe_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/ironwood_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/kapok_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/mahogany_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/mangrove_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/maple_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/oak_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/palm_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/pine_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/rosewood_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/sequoia_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/spruce_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/sycamore_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/teak_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/tualang_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/white_cedar_slab",
+      "required": false
+    },
+    {
+      "id": "rnr:wood/shingles/willow_slab",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_mosaic_slab",
+      "required": false
+    }
+  ]
+}

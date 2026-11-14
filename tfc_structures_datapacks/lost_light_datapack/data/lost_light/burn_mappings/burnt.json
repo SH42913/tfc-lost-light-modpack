@@ -1,0 +1,20 @@
+{
+  "mappings": [
+    {
+      "from": "firmaciv:thatch_roofing",
+      "to": "burnt:smoldering_hay"
+    },
+    {
+      "from": "rnr:thatch_roof",
+      "to": "burnt:smoldering_hay"
+    },
+    {
+      "from": "tfc:clay_grass/loam",
+      "to": "burnt:smoldering_grass_start"
+    },
+    {
+      "from": "tfc:grass/loam",
+      "to": "burnt:smoldering_grass_start"
+    }
+  ]
+}

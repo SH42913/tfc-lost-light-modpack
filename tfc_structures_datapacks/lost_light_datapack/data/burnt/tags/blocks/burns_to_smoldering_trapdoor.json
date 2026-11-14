@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/planks/baobab_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak_trapdoor",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang_trapdoor",
+      "required": false
+    }
+  ]
+}

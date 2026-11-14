@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/planks/baobab_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak_door",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang_door",
+      "required": false
+    }
+  ]
+}

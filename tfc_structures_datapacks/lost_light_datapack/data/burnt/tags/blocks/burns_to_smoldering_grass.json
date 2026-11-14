@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfc:clay_grass/silt",
+      "required": false
+    },
+    {
+      "id": "tfc:clay_grass/silty_loam",
+      "required": false
+    },
+    {
+      "id": "tfc:grass/silt",
+      "required": false
+    },
+    {
+      "id": "tfc:grass/silty_loam",
+      "required": false
+    }
+  ]
+}

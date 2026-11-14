@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/planks/baobab_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/cypress_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/eucalyptus_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/fig_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/hevea_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ipe_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/ironwood_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/mahogany_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/teak_button",
+      "required": false
+    },
+    {
+      "id": "afc:wood/planks/tualang_button",
+      "required": false
+    }
+  ]
+}

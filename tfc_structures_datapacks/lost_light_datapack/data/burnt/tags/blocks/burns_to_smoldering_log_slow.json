@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/log/ancient_ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ancient_teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/log/teak",
+      "required": false
+    }
+  ]
+}

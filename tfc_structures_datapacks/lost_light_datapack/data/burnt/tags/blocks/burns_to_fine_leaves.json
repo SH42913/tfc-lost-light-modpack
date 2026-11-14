@@ -1,0 +1,185 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/fallen_leaves/acacia_koa",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/atlas_cedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/bald_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/balsam_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/bigleaf_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/black_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/black_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/coast_redwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/coast_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/flame_of_the_forest",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/giant_rosewood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/gum_arabic",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/horsetail_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/iroko_teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/jaggery_palm",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/lebombo_ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/live_oak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/mountain_ash",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/mountain_fir",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/mpingo_blackwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/poplar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/rainbow_eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/red_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/red_silk_cotton",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/redcedar",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/rubber_fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/sapele_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/scrub_hickory",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/sitka_spruce",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/small_leaf_mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/stone_pine",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/tamarack",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/tualang",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/weeping_cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/weeping_maple",
+      "required": false
+    },
+    {
+      "id": "afc:wood/fallen_leaves/weeping_willow",
+      "required": false
+    }
+  ]
+}

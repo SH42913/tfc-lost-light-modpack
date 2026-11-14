@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "afc:wood/stripped_log/baobab",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/cypress",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/eucalyptus",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/fig",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/hevea",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/ipe",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/ironwood",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/mahogany",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/teak",
+      "required": false
+    },
+    {
+      "id": "afc:wood/stripped_log/tualang",
+      "required": false
+    }
+  ]
+}
