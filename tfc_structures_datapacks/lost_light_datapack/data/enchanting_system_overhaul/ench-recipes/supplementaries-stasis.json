@@ -1,0 +1,59 @@
+{
+  "enchantment_id": "supplementaries:stasis",
+  "dependsOn": [
+    "supplementaries"
+  ],
+  "maxLevel": 0,
+  "useExpPoints": false,
+  "xp": {
+    "1": 3
+  },
+  "levels": {
+    "1": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:brown_mushroom",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:red_mushroom",
+            "amount": 8
+          },
+          {
+            "id": "farmerstfc:brown_mushroom_bunch",
+            "amount": 8
+          },
+          {
+            "id": "farmerstfc:red_mushroom_bunch",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 2
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:slime_ball",
+            "amount": 4
+          },
+          {
+            "id": "beneath:raw_slime",
+            "amount": 4
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "enchantment_id": "minecraft:protection",
+  "maxLevel": 0,
+  "useExpPoints": false,
+  "xp": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 5
+  },
+  "levels": {
+    "1": [
+      {
+        "itemArray": [
+          {
+            "id": "tfc:rotten_compost",
+            "amount": 8
+          },
+          {
+            "id": "tfc:groundcover/guano",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 2
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "id": "tfc:treated_hide",
+        "amount": 1
+      }
+    ],
+    "2": [
+      {
+        "itemArray": [
+          {
+            "id": "tfc:rotten_compost",
+            "amount": 16
+          },
+          {
+            "id": "tfc:groundcover/guano",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 4
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "id": "tfc:treated_hide",
+        "amount": 2
+      }
+    ],
+    "3": [
+      {
+        "itemArray": [
+          {
+            "id": "tfc:rotten_compost",
+            "amount": 24
+          },
+          {
+            "id": "tfc:groundcover/guano",
+            "amount": 24
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 6
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 12
+          }
+        ]
+      },
+      {
+        "id": "tfc:treated_hide",
+        "amount": 3
+      },
+      {
+        "id": "tfc:metal/ingot/silver",
+        "amount": 2
+      }
+    ],
+    "4": [
+      {
+        "itemArray": [
+          {
+            "id": "tfc:rotten_compost",
+            "amount": 32
+          },
+          {
+            "id": "tfc:groundcover/guano",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 8
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "id": "tfc:treated_hide",
+        "amount": 4
+      },
+      {
+        "id": "tfc:metal/ingot/sterling_silver",
+        "amount": 3
+      }
+    ]
+  }
+}

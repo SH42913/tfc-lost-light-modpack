@@ -786,6 +786,14 @@
     "curseForgeHash": 869978099,
     "modrinthHash": "de812ad140b67bbace4ef7be33e035c7e1beca89"
   },
+  "eso-forge-1.20.1-1.2.2-all.jar": {
+    "jarName": "eso-forge-1.20.1-1.2.2-all.jar",
+    "modId": "enchanting_system_overhaul",
+    "name": "Enchanting System Overhaul",
+    "version": "1.2.2",
+    "curseForgeHash": 4260416317,
+    "modrinthHash": "f3441d0fabc5ff5f169e333ed570b0805537d27a"
+  },
   "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar": {
     "jarName": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
     "modId": "euphoria_patcher",
@@ -2226,14 +2234,6 @@
     "version": "1.1.0",
     "curseForgeHash": 1897666736,
     "modrinthHash": "0689601eb35427d6fd2aa9e70566a38525ed4f79"
-  },
-  "tfc_structures-1.20.1-0.3.2.jar": {
-    "jarName": "tfc_structures-1.20.1-0.3.2.jar",
-    "modId": "tfc_structures",
-    "name": "Dynamic TFC Structures",
-    "version": "1.20.1-0.3.2",
-    "curseForgeHash": 183818730,
-    "modrinthHash": "de94a0dcdfc5b983512c47f7c5a03edcd22059bf"
   },
   "tfc_structures-1.20.1-0.3.3.jar": {
     "jarName": "tfc_structures-1.20.1-0.3.3.jar",

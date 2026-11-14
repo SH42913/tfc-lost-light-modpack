@@ -1,0 +1,60 @@
+{
+  "enchantment_id": "minecraft:mending",
+  "maxLevel": 0,
+  "useExpPoints": false,
+  "xp": {
+    "1": 10
+  },
+  "levels": {
+    "1": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:brown_mushroom",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:red_mushroom",
+            "amount": 8
+          },
+          {
+            "id": "farmerstfc:brown_mushroom_bunch",
+            "amount": 8
+          },
+          {
+            "id": "farmerstfc:red_mushroom_bunch",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 2
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "id": "tfc:glue",
+        "amount": 8
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:metal/ingot/rose_gold",
+            "amount": 1
+          },
+          {
+            "id": "tfc:metal/ingot/sterling_silver",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  }
+}
