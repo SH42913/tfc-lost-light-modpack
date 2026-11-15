@@ -1,0 +1,2466 @@
+{
+  "config_version": "2.0.17",
+  "config_datetime": "2026-11-15_15-42-19",
+  "global": {
+    "disable_all_placed_features": false
+  },
+  "placed_features": [
+    {
+      "name": "minecraft:acacia",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:acacia_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:amethyst_geode",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:bamboo",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:bamboo_light",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:bamboo_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:birch_bees_0002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:birch_bees_002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:birch_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:birch_tall",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:blue_ice",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:brown_mushroom_old_growth",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:brown_mushroom_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:brown_mushroom_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:cave_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:cherry_bees_005",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:cherry_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:classic_vines_cave_feature",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:dark_forest_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:dark_oak_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:desert_well",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:disk_clay",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:disk_grass",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:disk_gravel",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:disk_sand",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:donjon_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:dripstone_cluster",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fancy_oak_bees",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fancy_oak_bees_0002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fancy_oak_bees_002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fancy_oak_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_default",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_flower_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_forest_flowers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_meadow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_plain",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_plains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:flower_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:forest_flowers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:forest_rock",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fossil_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:fossil_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:freeze_top_layer",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:glow_lichen",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:grass_bonemeal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ice_patch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ice_spike",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:iceberg_blue",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:iceberg_packed",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:illager_mansion_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:illager_mansion_base_andesite",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:illager_mansion_base_dark_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:jungle_bush",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:jungle_tree",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:kelp_cold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:kelp_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:lake_lava_surface",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:lake_lava_underground",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:large_dripstone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:lush_caves_ceiling_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:lush_caves_clay",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:lush_caves_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mangrove_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mangrove_witch_hut_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mega_jungle_tree_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mega_pine_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mega_spruce_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:monster_room",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:monster_room_deep",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:mushroom_island_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:nether_fortress_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:oak_bees_0002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:oak_bees_002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:oak_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_andesite_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_andesite_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_clay",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_coal_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_coal_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_copper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_copper_large",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_diamond",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_diamond_buried",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_diamond_large",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_diorite_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_diorite_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_dirt",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_emerald",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_gold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_gold_extra",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_gold_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_granite_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_granite_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_gravel",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_infested",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_iron_middle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_iron_small",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_iron_upper",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_lapis",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_lapis_buried",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_redstone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_redstone_lower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:ore_tuff",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_berry_bush",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_berry_common",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_berry_rare",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_cactus",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_cactus_decorated",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_cactus_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_dead_bush",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_dead_bush_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_dead_bush_badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_normal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_plain",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_grass_taiga_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_large_fern",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_melon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_melon_sparse",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_pumpkin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_sugar_cane",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_sugar_cane_badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_sugar_cane_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_sugar_cane_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_sunflower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_taiga_grass",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_tall_grass",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_tall_grass_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:patch_waterlily",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pile_hay",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pile_ice",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pile_melon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pile_pumpkin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pile_snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pine",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pine_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pine_on_snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pointed_dripstone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:red_mushroom_old_growth",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:red_mushroom_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:red_mushroom_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:rooted_azalea_tree",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:sculk_patch_ancient_city",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:sculk_patch_deep_dark",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:sculk_vein",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:sea_pickle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_cold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_deep",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_deep_cold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_deep_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_normal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_river",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_simple",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:seagrass_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spore_blossom",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spring_lava_frozen",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spring_water",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spruce",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spruce_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:spruce_on_snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:super_birch_bees",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:super_birch_bees_0002",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:tall_mangrove_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_birch_and_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_flower_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_grove",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_mangrove",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_meadow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_old_growth_pine_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_old_growth_spruce_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_plains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_snowy",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_sparse_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_water",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_windswept_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_windswept_hills",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trees_windswept_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:underwater_magma",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:void_start_platform",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:warm_ocean_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:witch_hut_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "antiquelegacy:deepslate_tin_ore",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "antiquelegacy:tin_ore",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "create:striated_ores_overworld",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "create:zinc_ore",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "ctov:village_flowers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_brown_mushroom_colony",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_red_mushroom_colony",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_beetroots",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_cabbages",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_carrots",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_onions",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_potatoes",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_rice",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "farmersdelight:patch_wild_tomatoes",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "magical_relics:quicksand_lake_surface",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:jungle_ruins_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:azalea_bees_05",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:big_coral",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:brown_mushroom_normal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:brown_mushroom_old_growth",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:cherry_bees_05",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:chorus_plant_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/crimson_mineshaft_dense_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/crimson_mineshaft_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/crimson_mineshaft_plants_long",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/dark_forest_mineshaft_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/dark_forest_mineshaft_vines_long",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/end_ancient_city_chorus_plant",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/end_mineshaft_chorus",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/end_mineshaft_dense_chorus",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/end_stronghold_chains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/flower_forest_pyramid_structure_flowers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/flower_forest_pyramid_structure_grass",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/icy_ruins_powder_snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_fortress_structure_breakage",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_fortress_structure_vine_breakage",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_fortress_structure_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_mineshaft_leaves_and_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_mineshaft_vines_long",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_pyramid_structure_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/jungle_pyramid_structure_vines_narrow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/nether_ancient_city_fire",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/nether_mineshaft_dense_fire",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/nether_mineshaft_fire",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/nether_mineshaft_netherwart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/nether_stronghold_chains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/ocean_ancient_city_structure_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/ocean_mineshaft_dense_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/ocean_mineshaft_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/ocean_pyramid_structure_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/post_process_connecting_blocks",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/swamp_mineshaft_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/swamp_mineshaft_vines_long",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/swamp_village_structure_vines",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/warped_mineshaft_dense_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/warped_mineshaft_plants",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:decor/warped_mineshaft_plants_long",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dense_dead_bush",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dense_large_fern",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dense_tall_grass",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/dark_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/deep",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/icy",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/mushroom",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/ocean_cold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/ocean_frozen",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/ocean_lukewarm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/ocean_neutral",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/ocean_warm",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:dungeons/swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:flower_default",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:flower_forest_flowers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:flower_petals",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:flower_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:huge_brown_mushroom",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:huge_crimson_fungus",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:huge_red_mushroom",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:huge_warped_fungus",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:lily_of_the_valley",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/birch_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/crimson_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/dark_forest_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/desert_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/end_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/icy_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/jungle_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/nether_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/ocean_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/savanna_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/stone_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/swamp_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/taiga_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:minecarts/warped_mineshaft_minecart",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/drowned_with_armor",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/shulker_mob",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_bow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_bow_deadliest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_bow_deadly",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_horseman_bow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_horseman_sword",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_sword",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_sword_deadliest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/skeleton_sword_deadly",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:mobs/wither_skeleton_with_bow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:patch_cactus_decorated",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:patch_crimson_roots",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:patch_dead_bush",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:patch_grass_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:patch_large_fern",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:pile_cobblestone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:red_mushroom_normal",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:red_mushroom_old_growth",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/birch_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/birch_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/crimson_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/crimson_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/dark_forest_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/dark_forest_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/desert_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/desert_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/end_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/icy_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/icy_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/jungle_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/jungle_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/nether_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/nether_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/ocean_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/ocean_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/savanna_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/savanna_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/stone_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/stone_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/swamp_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/swamp_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/taiga_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/taiga_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/warped_mineshaft",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:supports/warped_mineshaft_support",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:swamp_tree_checked",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:underwater_pile_dried_kelp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:underwater_pile_hay_bale",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:underwater_pile_melon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:underwater_pile_pumpkin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:warped_forest_vegetation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/badlands",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/mossy_stone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/mushroom",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "repurposed_structures:wells/snow",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "supplementaries:cave_urns",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "supplementaries:road_sign",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "supplementaries:wild_flax",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "valarian_conquest:caladrian_ship",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "valarian_conquest:dwarven_mine",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "valarian_conquest:gilded_legion_ship",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "valarian_conquest:valarian_ship",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:blackstone_waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:deepslate_waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:end_stone_waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:mossy_waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:sandy_waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "waystones:waystone",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    }
+  ],
+  "biomes": [
+    {
+      "name": "minecraft:badlands",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:bamboo_jungle",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:beach",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:birch_forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:cherry_grove",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:cold_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:dark_forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:deep_cold_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:deep_dark",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:deep_frozen_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:deep_lukewarm_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:deep_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:desert",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:dripstone_caves",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:eroded_badlands",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:flower_forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:frozen_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:frozen_peaks",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:frozen_river",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:grove",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:ice_spikes",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:jagged_peaks",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:jungle",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:lukewarm_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:lush_caves",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:mangrove_swamp",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:meadow",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:mushroom_fields",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:old_growth_birch_forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:old_growth_pine_taiga",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:old_growth_spruce_taiga",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:plains",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:river",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:savanna",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:savanna_plateau",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:snowy_beach",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:snowy_plains",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:snowy_slopes",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:snowy_taiga",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:sparse_jungle",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:stony_peaks",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:stony_shore",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:sunflower_plains",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:swamp",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:taiga",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:warm_ocean",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:windswept_forest",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:windswept_gravelly_hills",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:windswept_hills",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:windswept_savanna",
+      "is_disabled": true,
+      "replacement_biome": ""
+    },
+    {
+      "name": "minecraft:wooded_badlands",
+      "is_disabled": true,
+      "replacement_biome": ""
+    }
+  ]
+}

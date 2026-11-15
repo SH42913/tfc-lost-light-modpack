@@ -906,6 +906,14 @@
     "curseForgeHash": 3125406473,
     "modrinthHash": "1a322a85e7c7024b8a0715c12d27b5ed0930d729"
   },
+  "featurify-forge-2.0.17+mc1.20.1.jar": {
+    "jarName": "featurify-forge-2.0.17+mc1.20.1.jar",
+    "modId": "featurify",
+    "name": "Featurify",
+    "version": "2.0.17",
+    "curseForgeHash": 3251686250,
+    "modrinthHash": "a23059542a741240580609af15848c447aac5c51"
+  },
   "ferritecore-6.0.1-forge.jar": {
     "jarName": "ferritecore-6.0.1-forge.jar",
     "modId": "ferritecore",
