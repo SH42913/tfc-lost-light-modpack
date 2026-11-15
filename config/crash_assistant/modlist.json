@@ -474,6 +474,14 @@
     "curseForgeHash": 83853571,
     "modrinthHash": "d9a7a2298bfe79ce9cdbaebf22e58454414105eb"
   },
+  "createpickywheels-forge-1.20.1-6.0.8-6.jar": {
+    "jarName": "createpickywheels-forge-1.20.1-6.0.8-6.jar",
+    "modId": "createpickywheels",
+    "name": "Create Picky Wheels",
+    "version": "1.20.1-6.0.8-6",
+    "curseForgeHash": 134770152,
+    "modrinthHash": "e863d29bc576114d3517c8ae2f6ffdb47d68a547"
+  },
   "CreativeCore_FORGE_v2.12.42_mc1.20.1.jar": {
     "jarName": "CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
     "modId": "creativecore",
@@ -2034,6 +2042,14 @@
     "version": "1.10.53",
     "curseForgeHash": 1515254383,
     "modrinthHash": "231fb325368c0660954f47bfb03493f5246fa4d1"
+  },
+  "starlight-1.1.5+forge.c562a3a.jar": {
+    "jarName": "starlight-1.1.5+forge.c562a3a.jar",
+    "modId": "starlight",
+    "name": "Starlight",
+    "version": "1.1.5+forge.c562a3a",
+    "curseForgeHash": 3021599215,
+    "modrinthHash": "9f4b9804f2d168f61fa10b5b0cc3284cb16eb474"
   },
   "Stellar.View-1.20.1-0.5.3-Forge.jar": {
     "jarName": "Stellar.View-1.20.1-0.5.3-Forge.jar",
