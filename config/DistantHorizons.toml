@@ -702,7 +702,7 @@ _version = 5
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		chunkGeneratorMode = "INTERNAL_SERVER"
+		chunkGeneratorMode = "FEATURES"
 		#
 		# If the Minecraft server thread is taking too long 
 		# Distant Horizons will pause world gen to reduce server stuttering/lag.
@@ -818,7 +818,7 @@ _version = 5
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 8
+		numberOfThreads = 2
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 

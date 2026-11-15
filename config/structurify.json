@@ -3,7 +3,7 @@
   "config_datetime": "2026-11-14_18-06-54",
   "general": {
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 8.0
+    "global_spacing_and_separation_modifier": 7.0
   },
   "structure_namespaces": [],
   "structures": [

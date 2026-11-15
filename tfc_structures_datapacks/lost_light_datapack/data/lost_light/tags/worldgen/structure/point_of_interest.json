@@ -11,6 +11,9 @@
     "#lost_light:lancastians",
     "#lost_light:mercenaries",
     "#lost_light:other_villages",
-    "#lost_light:pillagers"
+    "#lost_light:pillagers",
+    "#lost_light:bandits",
+    "#lost_light:orcs",
+    "#lost_light:start_villages"
   ]
 }

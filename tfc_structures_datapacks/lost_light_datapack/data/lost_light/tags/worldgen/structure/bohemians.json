@@ -2,6 +2,8 @@
   "values": [
     "valarian_conquest:bohemiancastle",
     "valarian_conquest:bohemiantower",
-    "nova_structures:tavern_birch"
+    "nova_structures:tavern_birch",
+    "repurposed_structures:village_birch",
+    "valarian_conquest:bohemianoutpost"
   ]
 }

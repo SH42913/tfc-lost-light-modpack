@@ -7,6 +7,8 @@
     "ctov:small/village_jungle_tree",
     "nova_structures:village_jungle",
     "nova_structures:tavern_jungle",
-    "dungeons_arise:jungle_tree_house"
+    "dungeons_arise:jungle_tree_house",
+    "repurposed_structures:village_jungle",
+    "repurposed_structures:village_bamboo"
   ]
 }
