@@ -1,0 +1,13 @@
+{
+  "replace": false, "values": [
+    "tfc:ore/amethyst",
+    "tfc:ore/diamond",
+    "tfc:ore/emerald",
+    "tfc:ore/lapis_lazuli",
+    "tfc:ore/opal",
+    "tfc:ore/pyrite",
+    "tfc:ore/ruby",
+    "tfc:ore/sapphire",
+    "tfc:ore/topaz"
+  ]
+}

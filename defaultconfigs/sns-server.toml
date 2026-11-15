@@ -10,7 +10,7 @@
 		doInventoryTransfer = true
 		#Controls the amount of slots this container has
 		#Range: 1 ~ 27
-		slotCount = 4
+		slotCount = 8
 		#Item stack max for the type of container
 		#Range: 1 ~ 512
 		slotCap = 32
@@ -27,7 +27,7 @@
 		doInventoryTransfer = true
 		#Controls the amount of slots this container has
 		#Range: 1 ~ 27
-		slotCount = 4
+		slotCount = 8
 		#Item stack max for the type of container
 		#Range: 1 ~ 512
 		slotCap = 64
@@ -41,10 +41,10 @@
 		#Determines if this container can void items on pickup
 		doVoiding = true
 		#Determines if this container can transfer items in an inventory
-		doInventoryTransfer = false
+		doInventoryTransfer = true
 		#Controls the amount of slots this container has
 		#Range: 1 ~ 27
-		slotCount = 8
+		slotCount = 12
 		#Item stack max for the type of container
 		#Range: 1 ~ 512
 		slotCap = 48
@@ -61,10 +61,10 @@
 		doInventoryTransfer = true
 		#Controls the amount of slots this container has
 		#Range: 1 ~ 27
-		slotCount = 1
+		slotCount = 4
 		#Item stack max for the type of container
 		#Range: 1 ~ 512
-		slotCap = 512
+		slotCap = 256
 		#The maximum item size allowed in the container
 		#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
 		allowedSize = "SMALL"
@@ -115,7 +115,7 @@
 		slotCount = 8
 		#Item stack max for the type of container
 		#Range: 1 ~ 512
-		slotCap = 4
+		slotCap = 8
 		#The maximum item size allowed in the container
 		#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
 		allowedSize = "NORMAL"
@@ -126,7 +126,7 @@
 		#Determines if this container can void items on pickup
 		doVoiding = false
 		#Determines if this container can transfer items in an inventory
-		doInventoryTransfer = false
+		doInventoryTransfer = true
 		#Controls the amount of slots this container has
 		#Range: 1 ~ 27
 		slotCount = 8
