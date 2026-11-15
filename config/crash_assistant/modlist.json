@@ -626,13 +626,13 @@
     "curseForgeHash": 3260406299,
     "modrinthHash": "22f8460831cc245abdd3ae32004c266f14410e64"
   },
-  "dragonfight-1.20.1-5.0.jar": {
-    "jarName": "dragonfight-1.20.1-5.0.jar",
+  "dragonfight-1.20.1-5.1.jar": {
+    "jarName": "dragonfight-1.20.1-5.1.jar",
     "modId": "dragonfight",
     "name": "dragonfight mod",
-    "version": "1.20.1-5.0",
-    "curseForgeHash": 1678054176,
-    "modrinthHash": "9f7215c27bd6ca0eca3818dbdf0db018b7efe3eb"
+    "version": "1.20.1-5.1",
+    "curseForgeHash": 4038503866,
+    "modrinthHash": "5cb604061e5b085703497586e2b634ed3f25ddf3"
   },
   "Drip Sounds-0.6.3+1.20.1-Forge.jar": {
     "jarName": "Drip Sounds-0.6.3+1.20.1-Forge.jar",
@@ -778,13 +778,13 @@
     "curseForgeHash": 3891498463,
     "modrinthHash": "5a331e97045010b4851e7fc0fb8ac5184c6adcf7"
   },
-  "entityculling-forge-1.12.0-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.12.0-mc1.20.1.jar",
+  "entityculling-forge-1.12.1-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.12.1-mc1.20.1.jar",
     "modId": "entityculling",
     "name": "EntityCulling",
-    "version": "1.12.0",
-    "curseForgeHash": 395470101,
-    "modrinthHash": "2085a22c9e0d38213c0164d3d4365b958688f099"
+    "version": "1.12.1",
+    "curseForgeHash": 1321029288,
+    "modrinthHash": "571a91dc42a266a70e44b6b459f996a0f7876c29"
   },
   "epic-knights-1.20.1-forge-10.15.jar": {
     "jarName": "epic-knights-1.20.1-forge-10.15.jar",
@@ -1452,13 +1452,13 @@
     "curseForgeHash": 3315618055,
     "modrinthHash": "ff01aa718b71249012c41d9926d3fd2982809fdb"
   },
-  "minecraft-comes-alive-7.7.1-beta.5+1.20.1-universal.jar": {
-    "jarName": "minecraft-comes-alive-7.7.1-beta.5+1.20.1-universal.jar",
+  "minecraft-comes-alive-7.7.1-beta.6-1.20.1-universal.jar": {
+    "jarName": "minecraft-comes-alive-7.7.1-beta.6-1.20.1-universal.jar",
     "modId": "mca",
     "name": "Minecraft Comes Alive",
-    "version": "7.7.1-beta.5+1.20.1",
-    "curseForgeHash": 2705996662,
-    "modrinthHash": "66955aac690c91f090a54f47d56359aea7cbaace"
+    "version": "7.7.1-beta.6+1.20.1",
+    "curseForgeHash": 629857162,
+    "modrinthHash": "618c86fac048679fe3adde1ff06bff1daa064e16"
   },
   "minecraft_style_paintings-1.0.0-forge-1.20.1.jar": {
     "jarName": "minecraft_style_paintings-1.0.0-forge-1.20.1.jar",
@@ -1484,13 +1484,13 @@
     "curseForgeHash": 3993116548,
     "modrinthHash": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
-  "modernfix-forge-5.27.92-mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.92-mc1.20.1.jar",
+  "modernfix-forge-5.27.93-mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.93-mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.92+mc1.20.1",
-    "curseForgeHash": 3910606246,
-    "modrinthHash": "431849bdf006a3994d47684ba2a66c4852e53950"
+    "version": "5.27.93+mc1.20.1",
+    "curseForgeHash": 1674557126,
+    "modrinthHash": "a88e749a40778753fd2f6c649339dc1b6c572e5b"
   },
   "moonlight-1.20-2.16.39-forge.jar": {
     "jarName": "moonlight-1.20-2.16.39-forge.jar",
@@ -2043,13 +2043,13 @@
     "curseForgeHash": 2199189342,
     "modrinthHash": "7ccbbd9b26296e58069db9926cb3a0e40f24927a"
   },
-  "structure_layout_optimizer-forge-1.0.11.jar": {
-    "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
+  "structure_layout_optimizer-forge-1.0.12.jar": {
+    "jarName": "structure_layout_optimizer-forge-1.0.12.jar",
     "modId": "structure_layout_optimizer",
     "name": "Structure Layout Optimizer",
-    "version": "1.0.11",
-    "curseForgeHash": 315474361,
-    "modrinthHash": "c2f2d42c987a611c6a14769ec02099e3439dc0f3"
+    "version": "1.0.12",
+    "curseForgeHash": 359736851,
+    "modrinthHash": "0a2515c6c6109ae5caa36707e7e1806f3ad0cab0"
   },
   "structureessentials-1.20.1-5.1.jar": {
     "jarName": "structureessentials-1.20.1-5.1.jar",
