@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_trees:acacia_giant_tree",
+    "tfc_trees:ash_giant_tree",
+    "tfc_trees:hickory_giant_tree",
+    "tfc_trees:kapok_giant_tree",
+    "tfc_trees:oak_giant_tree",
+    "tfc_trees:plum_giant_tree"
+  ]
+}

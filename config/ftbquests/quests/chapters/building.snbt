@@ -1,0 +1,357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "6B67347BCB69F342"
+	icon: "rnr:wood/shingles/oak"
+	id: "0B90FD934AC2BEA5"
+	order_index: 1
+	quest_links: [
+		{
+			id: "7A6908B7D148A11F"
+			linked_quest: "030167B2AF5D93FA"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "08016AB82D3319A4"
+			linked_quest: "57F1E00817D83532"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "2FD0090873833536"
+			linked_quest: "5CACAF8442B94ABA"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["33018BAD796A3823"]
+			description: [
+				"{quests.lost_light.building.mattock.desc.0}"
+				""
+				"{quests.lost_light.building.mattock.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "rnr:metal/mattock/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2614DC03961A2AC8"
+			rewards: [{
+				id: "5AD5ACAF2EE5BADA"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.mattock.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "rnr:metal/mattock/bronze"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6CCAD0F3D60ACEB8"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(rnr:metal/mattock/copper)item(rnr:metal/mattock/bronze)item(rnr:metal/mattock/bismuth_bronze)item(rnr:metal/mattock/black_bronze)item(rnr:metal/mattock/wrought_iron)item(rnr:metal/mattock/steel)item(rnr:metal/mattock/black_steel)item(rnr:metal/mattock/blue_steel)item(rnr:metal/mattock/red_steel))"
+						}
+					}
+					title: "{quests.lost_light.building.mattock.task0}"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7C4E26147E04F2FE"
+					item: "rnr:crushed_base_course"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.building.mattock.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2614DC03961A2AC8"]
+			description: [
+				"{quests.lost_light.building.road.desc.0}"
+				"{quests.lost_light.building.road.desc.1}"
+				"{quests.lost_light.building.road.desc.2}"
+				"{quests.lost_light.building.road.desc.3}"
+			]
+			icon: "rnr:hoggin_mix"
+			id: "049CA16515854FB6"
+			rewards: [{
+				id: "396636CE942CB443"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.road.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "5EE88BF431946797"
+				item: "rnr:hoggin_mix"
+				type: "item"
+			}]
+			title: "{quests.lost_light.building.road.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"049CA16515854FB6"
+				"20BA7EBDB378E2DC"
+			]
+			description: [
+				"{quests.lost_light.building.concrete_road.desc.0}"
+				""
+				"{quests.lost_light.building.concrete_road.desc.2}"
+			]
+			icon: "rnr:concrete_road"
+			id: "794C9317729BBD63"
+			rewards: [{
+				id: "6174A87A566CFFEA"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.concrete_road.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "022371DA87BC3973"
+					item: "rnr:concrete_powder"
+					type: "item"
+				}
+				{
+					icon: "rnr:concrete_road"
+					id: "0CFC71F71F1BF67F"
+					observe_type: 1
+					timer: 20L
+					title: "{quests.lost_light.building.concrete_road.task1}"
+					to_observe: "lost_light:quests/building_concrete_road_1"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.building.concrete_road.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B102CCCE92C4475"]
+			description: [
+				"{quests.lost_light.building.roof.desc.0}"
+				"{quests.lost_light.building.roof.desc.1}"
+				"{quests.lost_light.building.roof.desc.2}"
+				"{quests.lost_light.building.roof.desc.3}"
+			]
+			icon: "rnr:wood/shingles/oak"
+			id: "0418D4C7B017E6A7"
+			rewards: [{
+				id: "0C11B19F690E71CE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.roof.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "02EF98E1DC4E8CFD"
+					item: "rnr:roof_frame"
+					type: "item"
+				}
+				{
+					icon: "rnr:wood/shingles/oak"
+					id: "444690A6F20B86CD"
+					observe_type: 1
+					timer: 20L
+					title: "{quests.lost_light.building.roof.task1}"
+					to_observe: "lost_light:quests/building_roof_1"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.building.roof.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B102CCCE92C4475"]
+			description: [
+				"{quests.lost_light.building.furniture.desc.0}"
+				""
+				"{quests.lost_light.building.furniture.desc.2}"
+			]
+			icon: "mcw_tfc_aio:furniture/oak_furniture/oak_chair"
+			id: "6C3BC07653EE3613"
+			rewards: [{
+				id: "2C35741E593F5F69"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.furniture.subtitle}"
+			tasks: [
+				{
+					icon: "mcw_tfc_aio:furniture/oak_furniture/oak_chair"
+					id: "1967FAF8FA8F96DF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mcw_tfc_aio:furniture/acacia_furniture/acacia_chair)item(mcw_tfc_aio:furniture/ash_furniture/ash_chair)item(mcw_tfc_aio:furniture/aspen_furniture/aspen_chair)item(mcw_tfc_aio:furniture/birch_furniture/birch_chair)item(mcw_tfc_aio:furniture/blackwood_furniture/blackwood_chair)item(mcw_tfc_aio:furniture/chestnut_furniture/chestnut_chair)item(mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_chair)item(mcw_tfc_aio:furniture/hickory_furniture/hickory_chair)item(mcw_tfc_aio:furniture/kapok_furniture/kapok_chair)item(mcw_tfc_aio:furniture/mangrove_furniture/mangrove_chair)item(mcw_tfc_aio:furniture/maple_furniture/maple_chair)item(mcw_tfc_aio:furniture/oak_furniture/oak_chair)item(mcw_tfc_aio:furniture/palm_furniture/palm_chair)item(mcw_tfc_aio:furniture/pine_furniture/pine_chair)item(mcw_tfc_aio:furniture/rosewood_furniture/rosewood_chair)item(mcw_tfc_aio:furniture/sequoia_furniture/sequoia_chair)item(mcw_tfc_aio:furniture/spruce_furniture/spruce_chair)item(mcw_tfc_aio:furniture/sycamore_furniture/sycamore_chair)item(mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_chair)item(mcw_tfc_aio:furniture/willow_furniture/willow_chair))"
+						}
+					}
+					title: "{quests.lost_light.building.furniture.task0}"
+					type: "item"
+				}
+				{
+					icon: "mcw_tfc_aio:furniture/oak_furniture/oak_desk"
+					id: "171BDA25B30EC6ED"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mcw_tfc_aio:furniture/acacia_furniture/acacia_desk)item(mcw_tfc_aio:furniture/ash_furniture/ash_desk)item(mcw_tfc_aio:furniture/aspen_furniture/aspen_desk)item(mcw_tfc_aio:furniture/birch_furniture/birch_desk)item(mcw_tfc_aio:furniture/blackwood_furniture/blackwood_desk)item(mcw_tfc_aio:furniture/chestnut_furniture/chestnut_desk)item(mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_desk)item(mcw_tfc_aio:furniture/hickory_furniture/hickory_desk)item(mcw_tfc_aio:furniture/kapok_furniture/kapok_desk)item(mcw_tfc_aio:furniture/mangrove_furniture/mangrove_desk)item(mcw_tfc_aio:furniture/maple_furniture/maple_desk)item(mcw_tfc_aio:furniture/oak_furniture/oak_desk)item(mcw_tfc_aio:furniture/palm_furniture/palm_desk)item(mcw_tfc_aio:furniture/pine_furniture/pine_desk)item(mcw_tfc_aio:furniture/rosewood_furniture/rosewood_desk)item(mcw_tfc_aio:furniture/sequoia_furniture/sequoia_desk)item(mcw_tfc_aio:furniture/spruce_furniture/spruce_desk)item(mcw_tfc_aio:furniture/sycamore_furniture/sycamore_desk)item(mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_desk)item(mcw_tfc_aio:furniture/willow_furniture/willow_desk))"
+						}
+					}
+					title: "{quests.lost_light.building.furniture.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.building.furniture.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6C3BC07653EE3613"
+				"71E05063B9046AA8"
+			]
+			description: [
+				"{quests.lost_light.building.decor.desc.0}"
+				"{quests.lost_light.building.decor.desc.1}"
+				"{quests.lost_light.building.decor.desc.2}"
+				"{quests.lost_light.building.decor.desc.3}"
+			]
+			icon: "supplementaries:jar"
+			id: "08DAD190022C4AFD"
+			rewards: [{
+				id: "03746CD857D4A444"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.decor.subtitle}"
+			tasks: [{
+				count: 2L
+				icon: "supplementaries:jar"
+				id: "227D07A0C787C9F9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(supplementaries:jar)item(supplementaries:notice_board)item(supplementaries:item_shelf))"
+					}
+				}
+				title: "{quests.lost_light.building.decor.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.building.decor.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20BA7EBDB378E2DC"]
+			description: ["{quests.lost_light.building.chalk.desc.0}"]
+			icon: {
+				Count: 1
+				id: "chalk:white_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CE537D4A458A344"
+			optional: true
+			rewards: [{
+				id: "2612CA740F0C7BAE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.chalk.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "chalk:white_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "694D6E29183C33DB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(chalk:white_chalk)item(chalk:black_chalk)item(chalk:blue_chalk)item(chalk:brown_chalk)item(chalk:cyan_chalk)item(chalk:gray_chalk)item(chalk:green_chalk)item(chalk:light_blue_chalk)item(chalk:light_gray_chalk)item(chalk:lime_chalk)item(chalk:magenta_chalk)item(chalk:orange_chalk)item(chalk:pink_chalk)item(chalk:purple_chalk)item(chalk:red_chalk)item(chalk:yellow_chalk))"
+					}
+				}
+				title: "{quests.lost_light.building.chalk.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.building.chalk.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C3BC07653EE3613"]
+			description: [
+				"{quests.lost_light.building.drawers.desc.0}"
+				""
+				"{quests.lost_light.building.drawers.desc.2}"
+			]
+			icon: "tfcstoragedrawers:tfc_oak_full_drawers_1"
+			id: "667918D58504A77F"
+			rewards: [{
+				id: "448131D1CC2D7988"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.building.drawers.subtitle}"
+			tasks: [{
+				count: 4L
+				icon: "tfcstoragedrawers:tfc_oak_full_drawers_1"
+				id: "7AB1AC6431706291"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfcstoragedrawers:tfc_acacia_full_drawers_1)item(tfcstoragedrawers:tfc_acacia_half_drawers_1)item(tfcstoragedrawers:tfc_acacia_full_drawers_2)item(tfcstoragedrawers:tfc_acacia_half_drawers_2)item(tfcstoragedrawers:tfc_acacia_full_drawers_4)item(tfcstoragedrawers:tfc_acacia_half_drawers_4)item(tfcstoragedrawers:tfc_ash_full_drawers_1)item(tfcstoragedrawers:tfc_ash_half_drawers_1)item(tfcstoragedrawers:tfc_ash_full_drawers_2)item(tfcstoragedrawers:tfc_ash_half_drawers_2)item(tfcstoragedrawers:tfc_ash_full_drawers_4)item(tfcstoragedrawers:tfc_ash_half_drawers_4)item(tfcstoragedrawers:tfc_aspen_full_drawers_1)item(tfcstoragedrawers:tfc_aspen_half_drawers_1)item(tfcstoragedrawers:tfc_aspen_full_drawers_2)item(tfcstoragedrawers:tfc_aspen_half_drawers_2)item(tfcstoragedrawers:tfc_aspen_full_drawers_4)item(tfcstoragedrawers:tfc_aspen_half_drawers_4)item(tfcstoragedrawers:tfc_birch_full_drawers_1)item(tfcstoragedrawers:tfc_birch_half_drawers_1)item(tfcstoragedrawers:tfc_birch_full_drawers_2)item(tfcstoragedrawers:tfc_birch_half_drawers_2)item(tfcstoragedrawers:tfc_birch_full_drawers_4)item(tfcstoragedrawers:tfc_birch_half_drawers_4)item(tfcstoragedrawers:tfc_blackwood_full_drawers_1)item(tfcstoragedrawers:tfc_blackwood_half_drawers_1)item(tfcstoragedrawers:tfc_blackwood_full_drawers_2)item(tfcstoragedrawers:tfc_blackwood_half_drawers_2)item(tfcstoragedrawers:tfc_blackwood_full_drawers_4)item(tfcstoragedrawers:tfc_blackwood_half_drawers_4)item(tfcstoragedrawers:tfc_chestnut_full_drawers_1)item(tfcstoragedrawers:tfc_chestnut_half_drawers_1)item(tfcstoragedrawers:tfc_chestnut_full_drawers_2)item(tfcstoragedrawers:tfc_chestnut_half_drawers_2)item(tfcstoragedrawers:tfc_chestnut_full_drawers_4)item(tfcstoragedrawers:tfc_chestnut_half_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_4)item(tfcstoragedrawers:tfc_hickory_full_drawers_1)item(tfcstoragedrawers:tfc_hickory_half_drawers_1)item(tfcstoragedrawers:tfc_hickory_full_drawers_2)item(tfcstoragedrawers:tfc_hickory_half_drawers_2)item(tfcstoragedrawers:tfc_hickory_full_drawers_4)item(tfcstoragedrawers:tfc_hickory_half_drawers_4)item(tfcstoragedrawers:tfc_kapok_full_drawers_1)item(tfcstoragedrawers:tfc_kapok_half_drawers_1)item(tfcstoragedrawers:tfc_kapok_full_drawers_2)item(tfcstoragedrawers:tfc_kapok_half_drawers_2)item(tfcstoragedrawers:tfc_kapok_full_drawers_4)item(tfcstoragedrawers:tfc_kapok_half_drawers_4)item(tfcstoragedrawers:tfc_mangrove_full_drawers_1)item(tfcstoragedrawers:tfc_mangrove_half_drawers_1)item(tfcstoragedrawers:tfc_mangrove_full_drawers_2)item(tfcstoragedrawers:tfc_mangrove_half_drawers_2)item(tfcstoragedrawers:tfc_mangrove_full_drawers_4)item(tfcstoragedrawers:tfc_mangrove_half_drawers_4)item(tfcstoragedrawers:tfc_maple_full_drawers_1)item(tfcstoragedrawers:tfc_maple_half_drawers_1)item(tfcstoragedrawers:tfc_maple_full_drawers_2)item(tfcstoragedrawers:tfc_maple_half_drawers_2)item(tfcstoragedrawers:tfc_maple_full_drawers_4)item(tfcstoragedrawers:tfc_maple_half_drawers_4)item(tfcstoragedrawers:tfc_oak_full_drawers_1)item(tfcstoragedrawers:tfc_oak_half_drawers_1)item(tfcstoragedrawers:tfc_oak_full_drawers_2)item(tfcstoragedrawers:tfc_oak_half_drawers_2)item(tfcstoragedrawers:tfc_oak_full_drawers_4)item(tfcstoragedrawers:tfc_oak_half_drawers_4)item(tfcstoragedrawers:tfc_palm_full_drawers_1)item(tfcstoragedrawers:tfc_palm_half_drawers_1)item(tfcstoragedrawers:tfc_palm_full_drawers_2)item(tfcstoragedrawers:tfc_palm_half_drawers_2)item(tfcstoragedrawers:tfc_palm_full_drawers_4)item(tfcstoragedrawers:tfc_palm_half_drawers_4)item(tfcstoragedrawers:tfc_pine_full_drawers_1)item(tfcstoragedrawers:tfc_pine_half_drawers_1)item(tfcstoragedrawers:tfc_pine_full_drawers_2)item(tfcstoragedrawers:tfc_pine_half_drawers_2)item(tfcstoragedrawers:tfc_pine_full_drawers_4)item(tfcstoragedrawers:tfc_pine_half_drawers_4)item(tfcstoragedrawers:tfc_rosewood_full_drawers_1)item(tfcstoragedrawers:tfc_rosewood_half_drawers_1)item(tfcstoragedrawers:tfc_rosewood_full_drawers_2)item(tfcstoragedrawers:tfc_rosewood_half_drawers_2)item(tfcstoragedrawers:tfc_rosewood_full_drawers_4)item(tfcstoragedrawers:tfc_rosewood_half_drawers_4)item(tfcstoragedrawers:tfc_sequoia_full_drawers_1)item(tfcstoragedrawers:tfc_sequoia_half_drawers_1)item(tfcstoragedrawers:tfc_sequoia_full_drawers_2)item(tfcstoragedrawers:tfc_sequoia_half_drawers_2)item(tfcstoragedrawers:tfc_sequoia_full_drawers_4)item(tfcstoragedrawers:tfc_sequoia_half_drawers_4)item(tfcstoragedrawers:tfc_spruce_full_drawers_1)item(tfcstoragedrawers:tfc_spruce_half_drawers_1)item(tfcstoragedrawers:tfc_spruce_full_drawers_2)item(tfcstoragedrawers:tfc_spruce_half_drawers_2)item(tfcstoragedrawers:tfc_spruce_full_drawers_4)item(tfcstoragedrawers:tfc_spruce_half_drawers_4)item(tfcstoragedrawers:tfc_sycamore_full_drawers_1)item(tfcstoragedrawers:tfc_sycamore_half_drawers_1)item(tfcstoragedrawers:tfc_sycamore_full_drawers_2)item(tfcstoragedrawers:tfc_sycamore_half_drawers_2)item(tfcstoragedrawers:tfc_sycamore_full_drawers_4)item(tfcstoragedrawers:tfc_sycamore_half_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_4)item(tfcstoragedrawers:tfc_willow_full_drawers_1)item(tfcstoragedrawers:tfc_willow_half_drawers_1)item(tfcstoragedrawers:tfc_willow_full_drawers_2)item(tfcstoragedrawers:tfc_willow_half_drawers_2)item(tfcstoragedrawers:tfc_willow_full_drawers_4)item(tfcstoragedrawers:tfc_willow_half_drawers_4))"
+					}
+				}
+				title: "{quests.lost_light.building.drawers.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.building.drawers.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{quests.lost_light.building.subtitle.0}"]
+	title: "{quests.lost_light.building.title}"
+}

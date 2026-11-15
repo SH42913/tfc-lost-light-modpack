@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "valarian_conquest:valarianfort",
+    "valarian_conquest:valarianoutpost",
+    "valarian_conquest:bohemianoutpost",
+    "valarian_conquest:bohemiantower",
+    "valarian_conquest:caladrianfort",
+    "valarian_conquest:caladrianoutpost",
+    "valarian_conquest:visgothianoutpost",
+    "valarian_conquest:galician_fort",
+    "valarian_conquest:galicianoutpost",
+    "valarian_conquest:numerianoutpost",
+    "valarian_conquest:lancastianoutpost",
+    "valarian_conquest:aegis_outpost_structure",
+    "valarian_conquest:gilded_legion_fort"
+  ]
+}

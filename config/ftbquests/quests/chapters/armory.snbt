@@ -1,0 +1,703 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armory"
+	group: "075658BB454D6270"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "magistuarmory:armet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "537023019153D22D"
+	order_index: 2
+	quest_links: [
+		{
+			id: "49AE44B8BC70FB36"
+			linked_quest: "1D6B426E123A36D1"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0F34B8FD7CB8321C"
+			linked_quest: "33018BAD796A3823"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "7849F457F6828AE4"
+			linked_quest: "49EE3213E760984D"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1D6B426E123A36D1"
+				"45460FD55EB4A912"
+			]
+			description: [
+				"{quests.lost_light.armory.hilt.desc.0}"
+				""
+				"{quests.lost_light.armory.hilt.desc.2}"
+			]
+			icon: "magistuarmory:hilt"
+			id: "66FCF2A017EBD5DF"
+			rewards: [{
+				id: "105919330EEDC30A"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.hilt.subtitle}"
+			tasks: [{
+				id: "231D9E1F30E5BA6E"
+				item: "magistuarmory:hilt"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.hilt.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"66FCF2A017EBD5DF"
+				"33018BAD796A3823"
+			]
+			description: [
+				"{quests.lost_light.armory.bastard_sword.desc.0}"
+				""
+				"{quests.lost_light.armory.bastard_sword.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "magistuarmory:steel_bastardsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28F3F0193541E3B0"
+			rewards: [{
+				id: "2E6AC6FB25D5A392"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.bastard_sword.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "magistuarmory:steel_bastardsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A128DCB820264A9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(magistuarmory:copper_bastardsword)item(magistuarmory:bronze_bastardsword)item(magistuarmory:iron_bastardsword)item(magistuarmory:steel_bastardsword)item(knightsofterrafirma:bismuth_bronze_bastard_sword)item(knightsofterrafirma:black_bronze_bastard_sword)item(knightsofterrafirma:black_steel_bastard_sword)item(knightsofterrafirma:blue_steel_bastard_sword)item(knightsofterrafirma:red_steel_bastard_sword))"
+					}
+				}
+				title: "{quests.lost_light.armory.bastard_sword.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.bastard_sword.title}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"66FCF2A017EBD5DF"
+				"33018BAD796A3823"
+			]
+			description: ["{quests.lost_light.armory.lance.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "magistuarmory:steel_chivalrylance"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46F11FC45C4DC85D"
+			rewards: [{
+				id: "4041711B49D9CF6B"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.lance.subtitle}"
+			tasks: [
+				{
+					id: "2B8CC6DDB2CF7188"
+					item: "magistuarmory:pole"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "magistuarmory:steel_chivalrylance"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0F834DE40E080FCB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(magistuarmory:copper_chivalrylance)item(magistuarmory:bronze_chivalrylance)item(magistuarmory:iron_chivalrylance)item(magistuarmory:steel_chivalrylance)item(knightsofterrafirma:bismuth_bronze_giant_lance)item(knightsofterrafirma:black_bronze_giant_lance)item(knightsofterrafirma:black_steel_giant_lance)item(knightsofterrafirma:blue_steel_giant_lance)item(knightsofterrafirma:red_steel_giant_lance))"
+						}
+					}
+					title: "{quests.lost_light.armory.lance.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.armory.lance.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33018BAD796A3823"]
+			description: [
+				"{quests.lost_light.armory.buckler.desc.0}"
+				""
+				"{quests.lost_light.armory.buckler.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "magistuarmory:steel_buckler"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69396B14B44D32B2"
+			rewards: [{
+				id: "6C85A3A6B659D64B"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.buckler.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "magistuarmory:steel_buckler"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E80E0259BB64D19"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(magistuarmory:copper_buckler)item(magistuarmory:bronze_buckler)item(magistuarmory:iron_buckler)item(magistuarmory:steel_buckler)item(knightsofterrafirma:bismuth_bronze_buckler)item(knightsofterrafirma:black_bronze_buckler)item(knightsofterrafirma:black_steel_buckler)item(knightsofterrafirma:blue_steel_buckler)item(knightsofterrafirma:red_steel_buckler))"
+					}
+				}
+				title: "{quests.lost_light.armory.buckler.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.buckler.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33018BAD796A3823"]
+			description: [
+				"{quests.lost_light.armory.antique_helmet.desc.0}"
+				""
+				"{quests.lost_light.armory.antique_helmet.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "antiquelegacy:corinthian_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C32DE16EFDD39A7"
+			rewards: [{
+				id: "5CE3607F26042BED"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.antique_helmet.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "antiquelegacy:corinthian_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "085F21127A8771C1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(antiquelegacy:bronze_apulo_corinthian_helmet)item(antiquelegacy:attic_helmet)item(antiquelegacy:beotian_helmet)item(antiquelegacy:celtic_montefortino_helmet)item(antiquelegacy:chalcidian_helmet)item(antiquelegacy:bronze_coolus)item(antiquelegacy:corinthian_helmet)item(antiquelegacy:illirian_helmet)item(antiquelegacy:kuban_helmet)item(antiquelegacy:bronze_montefortino_helmet)item(antiquelegacy:bronze_niederbieber_helmet)item(antiquelegacy:open_attic_helmet)item(antiquelegacy:bronze_phrygian_helmet)item(antiquelegacy:bronze_ridge_helmet)item(antiquelegacy:roman_parade_helmet)item(antiquelegacy:scythian_attic_helmet)item(antiquelegacy:thracian_helmet)item(antiquelegacy:waterloo_helmet)item(knightsofterrafirma:bismuth_bronze_corinthian_helmet)item(knightsofterrafirma:black_bronze_corinthian_helmet))"
+					}
+				}
+				title: "{quests.lost_light.armory.antique_helmet.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.antique_helmet.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49EE3213E760984D"]
+			description: [
+				"{quests.lost_light.armory.chainmail.desc.0}"
+				""
+				"{quests.lost_light.armory.chainmail.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "magistuarmory:chainmail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11CC7F897ABDADF0"
+			rewards: [{
+				id: "41EC2977CAD8274D"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.chainmail.subtitle}"
+			tasks: [
+				{
+					id: "749621B326E87056"
+					item: "magistuarmory:steel_chainmail"
+					type: "item"
+				}
+				{
+					id: "5E5C1466BB9F8729"
+					item: {
+						Count: 1
+						id: "magistuarmory:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.armory.chainmail.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11CC7F897ABDADF0"]
+			description: [
+				"{quests.lost_light.armory.armet.desc.0}"
+				""
+				"{quests.lost_light.armory.armet.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "magistuarmory:armet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6077204AA32B2706"
+			rewards: [{
+				id: "21103D57EBD0D5E7"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.armet.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "magistuarmory:armet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "37767657E8E87112"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(magistuarmory:armet)item(knightsofterrafirma:black_steel_armet)item(knightsofterrafirma:blue_steel_armet)item(knightsofterrafirma:red_steel_armet))"
+					}
+				}
+				title: "{quests.lost_light.armory.armet.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.armet.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6077204AA32B2706"]
+			description: [
+				"{quests.lost_light.armory.plate_armor.desc.0}"
+				""
+				"{quests.lost_light.armory.plate_armor.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "magistuarmory:knight_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "697298F50E599258"
+			rewards: [{
+				id: "4A690D960947136D"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.plate_armor.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "magistuarmory:knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "31E31DEDEA8732E0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(magistuarmory:knight_chestplate)item(knightsofterrafirma:black_steel_knight_chestplate)item(knightsofterrafirma:blue_steel_knight_chestplate)item(knightsofterrafirma:red_steel_knight_chestplate))"
+					}
+				}
+				title: "{quests.lost_light.armory.plate_armor.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.plate_armor.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6077204AA32B2706"]
+			description: [
+				"{quests.lost_light.armory.gilding.desc.0}"
+				""
+				"{quests.lost_light.armory.gilding.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "magistuarmory:ceremonialarmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70AE31445FBE0706"
+			optional: true
+			rewards: [{
+				id: "4E88B252A321B4A9"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.gilding.subtitle}"
+			tasks: [
+				{
+					id: "764C488D6238CC2B"
+					item: "magistuarmory:gilding_template"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "magistuarmory:ceremonialarmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "40A0952B87FD3BF2"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(magistuarmory:ceremonialarmet)item(knightsofterrafirma:brass_steel_ceremonialarmet)item(knightsofterrafirma:rose_gold_steel_ceremonialarmet)item(knightsofterrafirma:silver_steel_ceremonialarmet)item(knightsofterrafirma:sterling_silver_steel_ceremonialarmet)item(knightsofterrafirma:brass_black_steel_armet)item(knightsofterrafirma:brass_blue_steel_armet)item(knightsofterrafirma:brass_red_steel_armet)item(knightsofterrafirma:gold_black_steel_armet)item(knightsofterrafirma:gold_blue_steel_armet)item(knightsofterrafirma:gold_red_steel_armet)item(knightsofterrafirma:rose_gold_black_steel_armet)item(knightsofterrafirma:rose_gold_blue_steel_armet)item(knightsofterrafirma:rose_gold_red_steel_armet)item(knightsofterrafirma:silver_black_steel_armet)item(knightsofterrafirma:silver_blue_steel_armet)item(knightsofterrafirma:silver_red_steel_armet)item(knightsofterrafirma:sterling_silver_black_steel_armet)item(knightsofterrafirma:sterling_silver_blue_steel_armet)item(knightsofterrafirma:sterling_silver_red_steel_armet))"
+						}
+					}
+					title: "{quests.lost_light.armory.gilding.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.armory.gilding.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D6B426E123A36D1"]
+			description: [
+				"{quests.lost_light.armory.bows.desc.0}"
+				""
+				"{quests.lost_light.armory.bows.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "tfc_arch:longbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E199CF229E33CE0"
+			rewards: [{
+				id: "7A22C27CE95948FB"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.bows.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tfc_arch:longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D55EBB842F0090E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_arch:shortbow)item(tfc_arch:longbow)item(tfc_arch:plains_bow))"
+					}
+				}
+				title: "{quests.lost_light.armory.bows.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.bows.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E199CF229E33CE0"]
+			description: [
+				"{quests.lost_light.armory.arrows.desc.0}"
+				""
+				"{quests.lost_light.armory.arrows.desc.2}"
+			]
+			icon: "tfc_arch:flint_arrow"
+			id: "5F2F83415AEBD255"
+			rewards: [{
+				id: "302C4D44EB7EA7A4"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.arrows.subtitle}"
+			tasks: [
+				{
+					count: 16L
+					icon: "tfc_arch:flint_arrow"
+					id: "7636CA206F49A9ED"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc_arch:flint_arrow)item(tfc_arch:stone_arrow)item(tfc_arch:bone_arrow)item(tfc_arch:obsidian_arrow))"
+						}
+					}
+					title: "{quests.lost_light.armory.arrows.task0}"
+					type: "item"
+				}
+				{
+					count: 8L
+					icon: "tfc_arch:steel_arrow"
+					id: "3227AD05B6458268"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc_arch:copper_arrow)item(tfc_arch:bronze_arrow)item(tfc_arch:bismuth_bronze_arrow)item(tfc_arch:black_bronze_arrow)item(tfc_arch:wrought_iron_arrow)item(tfc_arch:steel_arrow)item(tfc_arch:black_steel_arrow)item(tfc_arch:blue_steel_arrow)item(tfc_arch:red_steel_arrow)item(tfc_arch:amethyst_arrow)item(tfc_arch:diamond_arrow)item(tfc_arch:emerald_arrow)item(tfc_arch:opal_arrow)item(tfc_arch:pyrite_arrow)item(tfc_arch:ruby_arrow)item(tfc_arch:sapphire_arrow)item(tfc_arch:topaz_arrow))"
+						}
+					}
+					title: "{quests.lost_light.armory.arrows.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.armory.arrows.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5F2F83415AEBD255"
+				"33018BAD796A3823"
+			]
+			description: ["{quests.lost_light.armory.crossbow.desc.0}"]
+			icon: {
+				Count: 1
+				id: "tfc_arch:steel_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "115D0A172FF0367D"
+			rewards: [{
+				id: "5345558F6ABA1E97"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.crossbow.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tfc_arch:steel_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "28A7857BFB0DEBD8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_arch:copper_crossbow)item(tfc_arch:bronze_crossbow)item(tfc_arch:bismuth_bronze_crossbow)item(tfc_arch:black_bronze_crossbow)item(tfc_arch:wrought_iron_crossbow)item(tfc_arch:steel_crossbow)item(tfc_arch:black_steel_crossbow)item(tfc_arch:blue_steel_crossbow)item(tfc_arch:red_steel_crossbow))"
+					}
+				}
+				title: "{quests.lost_light.armory.crossbow.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.crossbow.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5653CD8045C01378"]
+			description: [
+				"{quests.lost_light.armory.armor_trim.desc.0}"
+				"{quests.lost_light.armory.armor_trim.desc.1}"
+				"{quests.lost_light.armory.armor_trim.desc.2}"
+				"{quests.lost_light.armory.armor_trim.desc.3}"
+				"{quests.lost_light.armory.armor_trim.desc.4}"
+				"{quests.lost_light.armory.armor_trim.desc.5}"
+			]
+			icon: "minecraft:wild_armor_trim_smithing_template"
+			id: "4B6EE5E80199D79A"
+			optional: true
+			rewards: [{
+				id: "3634727326B9C914"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.armor_trim.subtitle}"
+			tasks: [{
+				icon: "minecraft:wild_armor_trim_smithing_template"
+				id: "010EFC84BFC068C8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(minecraft:coast_armor_trim_smithing_template)item(minecraft:dune_armor_trim_smithing_template)item(minecraft:eye_armor_trim_smithing_template)item(minecraft:host_armor_trim_smithing_template)item(minecraft:raiser_armor_trim_smithing_template)item(minecraft:rib_armor_trim_smithing_template)item(minecraft:sentry_armor_trim_smithing_template)item(minecraft:shaper_armor_trim_smithing_template)item(minecraft:silence_armor_trim_smithing_template)item(minecraft:snout_armor_trim_smithing_template)item(minecraft:spire_armor_trim_smithing_template)item(minecraft:tide_armor_trim_smithing_template)item(minecraft:vex_armor_trim_smithing_template)item(minecraft:ward_armor_trim_smithing_template)item(minecraft:wayfinder_armor_trim_smithing_template)item(minecraft:wild_armor_trim_smithing_template))"
+					}
+				}
+				title: "{quests.lost_light.armory.armor_trim.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.armor_trim.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11CC7F897ABDADF0"]
+			description: [
+				"{quests.lost_light.armory.armor_stand.desc.0}"
+				""
+				"{quests.lost_light.armory.armor_stand.desc.2}"
+			]
+			icon: "minecraft:armor_stand"
+			id: "3B20DE083D38F7C2"
+			optional: true
+			rewards: [{
+				id: "3384455D7CE2AD71"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.armory.armor_stand.subtitle}"
+			tasks: [{
+				id: "143D5DE779B08A03"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			title: "{quests.lost_light.armory.armor_stand.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.armory.subtitle.0}"]
+	title: "{quests.lost_light.armory.title}"
+}

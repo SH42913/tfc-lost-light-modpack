@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spirits"
+	group: "4C8D6353CE248C78"
+	icon: "tfc_spirits:spirit_seal"
+	id: "70BF1B0C85CC462A"
+	order_index: 2
+	quest_links: [
+		{
+			id: "40A5EF42A11BE710"
+			linked_quest: "5846B3F991F5D3F9"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7C0B11EEF416FA16"
+			linked_quest: "1D6D1CE07C60CAD6"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "1E6812E625E5615A"
+			linked_quest: "565E30EE9365F274"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "4499BD571F160A20"
+			linked_quest: "454D7758BA33241C"
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["5846B3F991F5D3F9"]
+			description: [
+				"{quests.lost_light.spirits.spirit_totem.desc.0}"
+				""
+				"{quests.lost_light.spirits.spirit_totem.desc.2}"
+			]
+			icon: "tfc_spirits:spirit_totem"
+			id: "4134E761AEA4D159"
+			rewards: [{
+				id: "7BEEFA33BC1EDD4A"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.spirit_totem.subtitle}"
+			tasks: [{
+				id: "38460C6938480B85"
+				item: "tfc_spirits:spirit_totem"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.spirit_totem.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4134E761AEA4D159"]
+			description: ["{quests.lost_light.spirits.spirit_statue.desc.0}"]
+			icon: "tfc_spirits:shade_statue/granite"
+			id: "5AC9E54D0B006126"
+			optional: true
+			rewards: [{
+				id: "60AF8A167A33C38B"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.spirit_statue.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:shade_statue/granite"
+				id: "43634C8ECF7C96A4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:shade_statue/andesite)item(tfc_spirits:shade_statue/basalt)item(tfc_spirits:shade_statue/chalk)item(tfc_spirits:shade_statue/chert)item(tfc_spirits:shade_statue/claystone)item(tfc_spirits:shade_statue/conglomerate)item(tfc_spirits:shade_statue/dacite)item(tfc_spirits:shade_statue/diorite)item(tfc_spirits:shade_statue/dolomite)item(tfc_spirits:shade_statue/gabbro)item(tfc_spirits:shade_statue/gneiss)item(tfc_spirits:shade_statue/granite)item(tfc_spirits:shade_statue/limestone)item(tfc_spirits:shade_statue/marble)item(tfc_spirits:shade_statue/phyllite)item(tfc_spirits:shade_statue/quartzite)item(tfc_spirits:shade_statue/rhyolite)item(tfc_spirits:shade_statue/schist)item(tfc_spirits:shade_statue/shale)item(tfc_spirits:shade_statue/slate))"
+					}
+				}
+				title: "{quests.lost_light.spirits.spirit_statue.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.spirit_statue.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4134E761AEA4D159"
+				"1D6D1CE07C60CAD6"
+			]
+			description: [
+				"{quests.lost_light.spirits.spirit_altar.desc.0}"
+				""
+				"{quests.lost_light.spirits.spirit_altar.desc.2}"
+				""
+				"{quests.lost_light.spirits.spirit_altar.desc.4}"
+			]
+			icon: "tfc_spirits:spirit_altar/granite"
+			id: "790CF68FCDC49325"
+			rewards: [{
+				id: "311CECB560D742A6"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.spirit_altar.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:spirit_altar/granite"
+				id: "6F704892E6549003"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:spirit_altar/andesite)item(tfc_spirits:spirit_altar/basalt)item(tfc_spirits:spirit_altar/chalk)item(tfc_spirits:spirit_altar/chert)item(tfc_spirits:spirit_altar/claystone)item(tfc_spirits:spirit_altar/conglomerate)item(tfc_spirits:spirit_altar/dacite)item(tfc_spirits:spirit_altar/diorite)item(tfc_spirits:spirit_altar/dolomite)item(tfc_spirits:spirit_altar/gabbro)item(tfc_spirits:spirit_altar/gneiss)item(tfc_spirits:spirit_altar/granite)item(tfc_spirits:spirit_altar/limestone)item(tfc_spirits:spirit_altar/marble)item(tfc_spirits:spirit_altar/phyllite)item(tfc_spirits:spirit_altar/quartzite)item(tfc_spirits:spirit_altar/rhyolite)item(tfc_spirits:spirit_altar/schist)item(tfc_spirits:spirit_altar/shale)item(tfc_spirits:spirit_altar/slate))"
+					}
+				}
+				title: "{quests.lost_light.spirits.spirit_altar.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.spirit_altar.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["790CF68FCDC49325"]
+			description: ["{quests.lost_light.spirits.holy_water.desc.0}"]
+			icon: "tfc_spirits:holy_water_bucket"
+			id: "2F916D27C68591CE"
+			rewards: [{
+				id: "6F6CA623E0793F89"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.holy_water.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:holy_water_bucket"
+				id: "1ABB845565E17612"
+				title: "{quests.lost_light.spirits.holy_water.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.spirits.holy_water.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F916D27C68591CE"]
+			description: [
+				"{quests.lost_light.spirits.altar_gifts.desc.0}"
+				""
+				"{quests.lost_light.spirits.altar_gifts.desc.2}"
+				"{quests.lost_light.spirits.altar_gifts.desc.3}"
+				"{quests.lost_light.spirits.altar_gifts.desc.4}"
+				"{quests.lost_light.spirits.altar_gifts.desc.5}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/sword/black_bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E881C1B7ADAAE2E"
+			optional: true
+			rewards: [{
+				id: "7DEBF6C29BACD056"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.altar_gifts.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							traits: [ ]
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				id: "780CCC2DEE491C46"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(minecraft:golden_apple)item(minecraft:glowstone_dust))"
+					}
+				}
+				title: "{quests.lost_light.spirits.altar_gifts.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.altar_gifts.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"790CF68FCDC49325"
+				"454D7758BA33241C"
+			]
+			description: [
+				"{quests.lost_light.spirits.greater_seal.desc.0}"
+				""
+				"{quests.lost_light.spirits.greater_seal.desc.2}"
+			]
+			icon: "tfc_spirits:greater_spirit_seal"
+			id: "10DDF4EFCECB2CF4"
+			rewards: [{
+				id: "3584172178F67947"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.greater_seal.subtitle}"
+			tasks: [{
+				id: "29D97615FF4A92F2"
+				item: "tfc_spirits:greater_spirit_seal"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.greater_seal.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["790CF68FCDC49325"]
+			description: ["{quests.lost_light.spirits.pearl_eye.desc.0}"]
+			icon: "tfc_spirits:pearl_eye"
+			id: "32BBE39C50E6325B"
+			optional: true
+			rewards: [{
+				id: "224BB30E4F6E9E8B"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.pearl_eye.subtitle}"
+			tasks: [{
+				id: "74F58BF5B8B265B6"
+				item: "tfc_spirits:pearl_eye"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.pearl_eye.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["790CF68FCDC49325"]
+			description: [
+				"{quests.lost_light.spirits.soul_scythe.desc.0}"
+				"{quests.lost_light.spirits.soul_scythe.desc.1}"
+				"{quests.lost_light.spirits.soul_scythe.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "tfc_spirits:soul_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3032EC68EEE8938D"
+			rewards: [{
+				id: "052DF76F02F6CF2B"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.soul_scythe.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tfc_spirits:soul_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "402F1DD20131091D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:soul_scythe)item(tfc_spirits:reaper_scythe))"
+					}
+				}
+				title: "{quests.lost_light.spirits.soul_scythe.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.soul_scythe.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["790CF68FCDC49325"]
+			description: [
+				"{quests.lost_light.spirits.earth_staffs.desc.0}"
+				"{quests.lost_light.spirits.earth_staffs.desc.1}"
+				"{quests.lost_light.spirits.earth_staffs.desc.2}"
+				"{quests.lost_light.spirits.earth_staffs.desc.3}"
+				"{quests.lost_light.spirits.earth_staffs.desc.4}"
+			]
+			icon: {
+				Count: 1
+				id: "tfc_spirits:rock_melting_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FF538306EB399DA"
+			rewards: [{
+				id: "1353D23C5EDA2700"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.earth_staffs.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tfc_spirits:rock_melting_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5F05A780B2980323"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:staff_of_decay)item(tfc_spirits:staff_of_moss)item(tfc_spirits:rock_melting_staff)item(tfc_spirits:stalactite_staff))"
+					}
+				}
+				title: "{quests.lost_light.spirits.earth_staffs.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.earth_staffs.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2F916D27C68591CE"
+				"0563DD341FA3CE1C"
+			]
+			description: [
+				"{quests.lost_light.spirits.soul_lantern.desc.0}"
+				""
+				"{quests.lost_light.spirits.soul_lantern.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc_spirits:soul_lantern"
+			}
+			id: "6750B3B305C55B91"
+			rewards: [{
+				id: "42992D1C3886776B"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.soul_lantern.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "2ADBCB9C0E6802FC"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "4984DFDBC04FB047"
+					item: "tfc_spirits:soul_lantern"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.spirits.soul_lantern.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6750B3B305C55B91"]
+			description: ["{quests.lost_light.spirits.evil_eye.desc.0}"]
+			icon: {
+				Count: 1
+				id: "tfc_spirits:evil_eye_talisman"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55421C77319ADC01"
+			optional: true
+			rewards: [{
+				id: "22FA61EEC1B2C8C8"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.evil_eye.subtitle}"
+			tasks: [{
+				id: "5BAC841DCA5368FD"
+				item: {
+					Count: 1
+					id: "tfc_spirits:evil_eye_talisman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quests.lost_light.spirits.evil_eye.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5846B3F991F5D3F9"]
+			description: [
+				"{quests.lost_light.spirits.respawn_totem.desc.0}"
+				""
+				"{quests.lost_light.spirits.respawn_totem.desc.2}"
+			]
+			icon: "tfc_spirits:respawn_totem/oak"
+			id: "360DC7135340C58C"
+			rewards: [{
+				id: "6AC562A11E361962"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.spirits.respawn_totem.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:respawn_totem/oak"
+				id: "4FE6F30DE79EBA2E"
+				observe_type: 1
+				timer: 20L
+				title: "{quests.lost_light.spirits.respawn_totem.task0}"
+				to_observe: "lost_light:quests/spirits_respawn_totem_0"
+				type: "observation"
+			}]
+			title: "{quests.lost_light.spirits.respawn_totem.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.spirits.subtitle.0}"]
+	title: "{quests.lost_light.spirits.title}"
+}

@@ -1,0 +1,32 @@
+{
+	icon: "tfc:wood/chest/blackwood"
+	id: "1FD48C6B501CA082"
+	loot_crate: {
+		color: 4947903
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "{quests.lost_light.crate.explore_rare}"
+		string_id: "explore_rare"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "tfc:metal/ingot/bronze", weight: 2.0f }
+		{ item: "tfc:metal/ingot/gold", weight: 2.0f }
+		{ count: 4, item: "tfc:gem/ruby", weight: 2.0f }
+		{ count: 4, item: "tfc:gem/sapphire", weight: 2.0f }
+		{ count: 4, item: "tfc:gem/topaz", weight: 2.0f }
+		{ item: "minecraft:spyglass" }
+		{ item: "minecraft:saddle" }
+		{ count: 2, item: "minecraft:name_tag" }
+		{ count: 2, item: "waystones:return_scroll" }
+		{ count: 2, item: "waystones:warp_scroll" }
+		{ item: "sns:lunchbox" }
+		{ count: 2, item: "minecraft:compass" }
+	]
+	title: "{quests.lost_light.table.explore_rare}"
+	use_title: true
+}

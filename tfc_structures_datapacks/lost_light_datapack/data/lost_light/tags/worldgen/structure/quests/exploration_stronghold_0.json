@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stronghold",
+    "repurposed_structures:city_overworld"
+  ]
+}

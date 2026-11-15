@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_spirits:shrine/argon",
+    "tfc_spirits:shrine/esret",
+    "tfc_spirits:shrine/gwanador",
+    "tfc_spirits:shrine/maldor",
+    "tfc_spirits:shrine/nessus",
+    "tfc_spirits:shrine/typhon",
+    "tfc_spirits:shrine/venusia"
+  ]
+}

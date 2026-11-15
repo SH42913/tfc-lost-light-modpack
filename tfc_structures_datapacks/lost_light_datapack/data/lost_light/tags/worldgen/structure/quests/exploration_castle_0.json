@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "valarian_conquest:valariancastle",
+    "valarian_conquest:bohemiancastle",
+    "valarian_conquest:caladrian_castle",
+    "valarian_conquest:visgothiancastle",
+    "valarian_conquest:galiciancastle",
+    "valarian_conquest:numeriancastle",
+    "valarian_conquest:gardoniancastle",
+    "valarian_conquest:lancastiancastle",
+    "valarian_conquest:aegis_castle_structure"
+  ]
+}

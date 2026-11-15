@@ -9,6 +9,9 @@ ServerEvents.recipes(event => {
     event.remove({output: "create:zinc_ingot"});
     event.remove({output: "create:brass_ingot"});
 
+    event.remove({id: "tfc:amethyst_gem_to_shard"})
+    event.remove({id: "tfc:amethyst_shard_to_gem"})
+
     event.remove({id: "tfcloot:crafting/emerald_polished"})
     event.remove({id: "tfcloot:crafting/diamond_polished"})
 

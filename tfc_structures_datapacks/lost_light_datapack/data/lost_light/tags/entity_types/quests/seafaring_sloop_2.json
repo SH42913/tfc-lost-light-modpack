@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "firmaciv:sloop/acacia",
+    "firmaciv:sloop/ash",
+    "firmaciv:sloop/aspen",
+    "firmaciv:sloop/birch",
+    "firmaciv:sloop/blackwood",
+    "firmaciv:sloop/chestnut",
+    "firmaciv:sloop/hickory",
+    "firmaciv:sloop/maple",
+    "firmaciv:sloop/oak",
+    "firmaciv:sloop/rosewood",
+    "firmaciv:sloop/sycamore"
+  ]
+}

@@ -1,0 +1,827 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travel"
+	group: "3B283BBEC04E42A0"
+	icon: {
+		Count: 1
+		id: "sns:hiking_boots"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "488B32CB8F777920"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{quests.lost_light.travel.first_steps.desc.0}"
+				""
+				"{quests.lost_light.travel.first_steps.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "sns:hiking_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32DCF2F85A9B1D09"
+			rewards: [{
+				count: 3
+				id: "09AD48C9AD94A70C"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.travel.first_steps.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sns:hiking_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "53AECD3B1FAF88E8"
+				title: "{quests.lost_light.travel.first_steps.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.first_steps.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32DCF2F85A9B1D09"]
+			description: ["{quests.lost_light.travel.plains.desc.0}"]
+			icon: "minecraft:hay_block"
+			id: "43515D2C180DE8FD"
+			rewards: [{
+				id: "41C62161A4B4AA7D"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.plains.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_plains_0"
+				icon: "minecraft:hay_block"
+				id: "33D41587C88F8DF6"
+				title: "{quests.lost_light.travel.plains.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.plains.title}"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32DCF2F85A9B1D09"]
+			description: ["{quests.lost_light.travel.hills.desc.0}"]
+			icon: "tfc:groundcover/pinecone"
+			id: "01E8992AFA9D4F1A"
+			rewards: [{
+				id: "5AA33EC682A49371"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.hills.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_hills_0"
+				icon: "tfc:groundcover/pinecone"
+				id: "2FC6A223416969D2"
+				title: "{quests.lost_light.travel.hills.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.hills.title}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43515D2C180DE8FD"]
+			description: ["{quests.lost_light.travel.marsh.desc.0}"]
+			icon: "tfc:plant/cattail"
+			id: "44B85F4A1012F6B3"
+			rewards: [{
+				id: "419929A224636B77"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.marsh.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_marsh_0"
+				icon: "tfc:plant/cattail"
+				id: "10E3894FB98058C1"
+				title: "{quests.lost_light.travel.marsh.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.marsh.title}"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["32DCF2F85A9B1D09"]
+			description: ["{quests.lost_light.travel.waters.desc.0}"]
+			icon: "tfc:plant/water_lily"
+			id: "23855D5E14EC41CE"
+			rewards: [{
+				id: "1E4E2993B5C63028"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.waters.subtitle}"
+			tasks: [
+				{
+					biome: "#lost_light:quests/travel_waters_0"
+					icon: "tfc:plant/water_lily"
+					id: "579E4F25E625606F"
+					title: "{quests.lost_light.travel.waters.task0}"
+					type: "biome"
+				}
+				{
+					biome: "#lost_light:quests/travel_waters_1"
+					icon: "tfc:plant/water_lily"
+					id: "5A220FD3F781A706"
+					title: "{quests.lost_light.travel.waters.task1}"
+					type: "biome"
+				}
+			]
+			title: "{quests.lost_light.travel.waters.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23855D5E14EC41CE"]
+			description: ["{quests.lost_light.travel.shore.desc.0}"]
+			icon: "tfc:groundcover/clam"
+			id: "09B575568C18316D"
+			rewards: [{
+				id: "36D43546D4EBAE66"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.shore.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_shore_0"
+				icon: "tfc:groundcover/clam"
+				id: "33173B03A8CD5E1C"
+				title: "{quests.lost_light.travel.shore.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.shore.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09B575568C18316D"]
+			description: ["{quests.lost_light.travel.ocean.desc.0}"]
+			icon: "tfc:groundcover/seaweed"
+			id: "3DCD83246E542210"
+			rewards: [{
+				id: "76442439DD188F82"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.ocean.subtitle}"
+			tasks: [
+				{
+					biome: "#lost_light:quests/travel_ocean_0"
+					icon: "tfc:groundcover/seaweed"
+					id: "23FC2DD30E699D4F"
+					title: "{quests.lost_light.travel.ocean.task0}"
+					type: "biome"
+				}
+				{
+					biome: "#lost_light:quests/travel_ocean_1"
+					icon: "minecraft:heart_of_the_sea"
+					id: "73705809256B8126"
+					title: "{quests.lost_light.travel.ocean.task1}"
+					type: "biome"
+				}
+			]
+			title: "{quests.lost_light.travel.ocean.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01E8992AFA9D4F1A"]
+			description: ["{quests.lost_light.travel.highlands.desc.0}"]
+			icon: "tfc:rock/raw/granite"
+			id: "70A0ABE70D6D3757"
+			rewards: [{
+				id: "79A90EC6932EEF06"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.highlands.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_highlands_0"
+				icon: "tfc:rock/raw/granite"
+				id: "0EB3F64CA4D00132"
+				title: "{quests.lost_light.travel.highlands.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.highlands.title}"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01E8992AFA9D4F1A"]
+			description: ["{quests.lost_light.travel.canyons.desc.0}"]
+			icon: "tfc:rock/raw/basalt"
+			id: "63E02A6094C9218F"
+			rewards: [{
+				id: "1923A5A227FC84A5"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.canyons.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_canyons_0"
+				icon: "tfc:rock/raw/basalt"
+				id: "759C8055065EDD2A"
+				title: "{quests.lost_light.travel.canyons.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.canyons.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63E02A6094C9218F"]
+			description: ["{quests.lost_light.travel.badlands.desc.0}"]
+			icon: "minecraft:red_sand"
+			id: "403E2DB41C108B87"
+			rewards: [{
+				id: "521010D074EC5A12"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.badlands.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_badlands_0"
+				icon: "minecraft:red_sand"
+				id: "123EE64DFA767851"
+				title: "{quests.lost_light.travel.badlands.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.badlands.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70A0ABE70D6D3757"]
+			description: ["{quests.lost_light.travel.mountains.desc.0}"]
+			icon: "minecraft:goat_horn"
+			id: "39EB66D95C60F263"
+			rewards: [{
+				id: "3E06C5057321C88D"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.mountains.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_mountains_0"
+				icon: "minecraft:goat_horn"
+				id: "78AD9291B8EBB8E1"
+				title: "{quests.lost_light.travel.mountains.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.mountains.title}"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39EB66D95C60F263"]
+			description: [
+				"{quests.lost_light.travel.volcano.desc.0}"
+				""
+				"{quests.lost_light.travel.volcano.desc.2}"
+			]
+			icon: "minecraft:magma_block"
+			id: "679B4DB415C49697"
+			rewards: [{
+				id: "406597C088D128EE"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.volcano.subtitle}"
+			tasks: [{
+				biome: "#lost_light:quests/travel_volcano_0"
+				icon: "minecraft:magma_block"
+				id: "54454D750DECE38E"
+				title: "{quests.lost_light.travel.volcano.task0}"
+				type: "biome"
+			}]
+			title: "{quests.lost_light.travel.volcano.title}"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["43515D2C180DE8FD"]
+			description: [
+				"{quests.lost_light.travel.desert.desc.0}"
+				""
+				"{quests.lost_light.travel.desert.desc.2}"
+			]
+			icon: "minecraft:sand"
+			id: "4E2751F5BB166D43"
+			rewards: [{
+				id: "26F30F2C54A9AC85"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.desert.subtitle}"
+			tasks: [{
+				icon: "minecraft:sand"
+				id: "5C4E92814E9ED7EF"
+				title: "{quests.lost_light.travel.desert.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.desert.title}"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E2751F5BB166D43"]
+			description: ["{quests.lost_light.travel.jungle.desc.0}"]
+			icon: "tfc:wood/log/kapok"
+			id: "3064921A3C6271A8"
+			rewards: [{
+				id: "155E6F32E8ACAC9F"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.jungle.subtitle}"
+			tasks: [{
+				icon: "tfc:wood/log/kapok"
+				id: "5539CB67D575A140"
+				title: "{quests.lost_light.travel.jungle.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.jungle.title}"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["70A0ABE70D6D3757"]
+			description: ["{quests.lost_light.travel.tundra.desc.0}"]
+			icon: "minecraft:ice"
+			id: "31381FBFB191DAEC"
+			rewards: [{
+				id: "0096C1115ED9931A"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.tundra.subtitle}"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "35269656A3E54AF1"
+				title: "{quests.lost_light.travel.tundra.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.tundra.title}"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39EB66D95C60F263"]
+			description: ["{quests.lost_light.travel.summit.desc.0}"]
+			icon: "minecraft:feather"
+			id: "2A3BD5C546FE5C95"
+			rewards: [{
+				id: "7E77D3DBD5B082C5"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.summit.subtitle}"
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "7309DAC61F5013AF"
+				title: "{quests.lost_light.travel.summit.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.summit.title}"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"32DCF2F85A9B1D09"
+				"04D9B929CC6A828E"
+			]
+			description: ["{quests.lost_light.travel.deep_delve.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/pickaxe/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CC53CC4F0725D97"
+			rewards: [{
+				id: "630AB732B0A72019"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.deep_delve.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/pickaxe/bronze"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0FF17361CE267255"
+				title: "{quests.lost_light.travel.deep_delve.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.deep_delve.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32DCF2F85A9B1D09"]
+			description: [
+				"{quests.lost_light.travel.first_winter.desc.0}"
+				""
+				"{quests.lost_light.travel.first_winter.desc.2}"
+			]
+			icon: "minecraft:snowball"
+			id: "54232F50C70BC324"
+			rewards: [{
+				id: "02C2E17F7281163C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.first_winter.subtitle}"
+			tasks: [{
+				icon: "minecraft:snowball"
+				id: "518DC397307AD90C"
+				title: "{quests.lost_light.travel.first_winter.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.first_winter.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54232F50C70BC324"]
+			description: ["{quests.lost_light.travel.spring.desc.0}"]
+			icon: "tfc:wood/sapling/oak"
+			id: "01221DBFEC5DAE3A"
+			rewards: [{
+				id: "282850F147EFC358"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.spring.subtitle}"
+			tasks: [{
+				icon: "tfc:wood/sapling/oak"
+				id: "1B80DCEDF238516B"
+				title: "{quests.lost_light.travel.spring.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.spring.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32DCF2F85A9B1D09"
+				"418AC9119509508A"
+			]
+			description: ["{quests.lost_light.travel.cartographer.desc.0}"]
+			icon: "minecraft:filled_map"
+			id: "13391D94B01B44FE"
+			rewards: [{
+				id: "439A9173BC7EDE43"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.cartographer.subtitle}"
+			tasks: [
+				{
+					id: "7E5CD53A104E6A30"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					icon: "minecraft:map"
+					id: "539AF1094DA89829"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:map)item(minecraft:filled_map))"
+						}
+					}
+					title: "{quests.lost_light.travel.cartographer.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.travel.cartographer.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32DCF2F85A9B1D09"
+				"0204ED5A9B63AD8C"
+			]
+			description: ["{quests.lost_light.travel.waystone.desc.0}"]
+			icon: "waystones:waystone"
+			id: "1FC5493EA312A1DE"
+			rewards: [{
+				count: 2
+				id: "475B63B65286CC28"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.travel.waystone.subtitle}"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "1E347877A1EA7238"
+				observe_type: 1
+				timer: 20L
+				title: "{quests.lost_light.travel.waystone.task0}"
+				to_observe: "lost_light:quests/travel_waystone_0"
+				type: "observation"
+			}]
+			title: "{quests.lost_light.travel.waystone.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FC5493EA312A1DE"]
+			description: [
+				"{quests.lost_light.travel.own_waystone.desc.0}"
+				""
+				"{quests.lost_light.travel.own_waystone.desc.2}"
+			]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E3EEDFAA7DBA459"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3511947B5B3F7820"
+				item: "tfc:gem/emerald"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.travel.own_waystone.subtitle}"
+			tasks: [
+				{
+					id: "1FDBF695D74A0DC1"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6108D28FD5F5D768"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.travel.own_waystone.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"43515D2C180DE8FD"
+				"01E8992AFA9D4F1A"
+				"23855D5E14EC41CE"
+			]
+			description: ["{quests.lost_light.travel.long_road.desc.0}"]
+			icon: {
+				Count: 1
+				id: "sns:hiking_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5783BD9ABB1F36E3"
+			rewards: [{
+				id: "5AEF1F56C0C94F1C"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.long_road.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sns:hiking_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "06A1CAC9D3C1BBAE"
+				title: "{quests.lost_light.travel.long_road.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.long_road.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{quests.lost_light.travel.mount_doom.desc.0}"
+				""
+				"{quests.lost_light.travel.mount_doom.desc.2}"
+			]
+			icon: "minecraft:feather"
+			id: "4FE74D7CAB60EED0"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4A39769B60B961A5"
+				table_id: 5101354976124478578L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.mount_doom.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sns:hiking_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B9FDAEF4E7B7B65"
+				title: "{quests.lost_light.travel.mount_doom.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.travel.mount_doom.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32DCF2F85A9B1D09"
+				"50E893934D419217"
+			]
+			description: ["{quests.lost_light.travel.rider.desc.0}"]
+			icon: "minecraft:saddle"
+			id: "1EF7D770DCC2AE3B"
+			rewards: [{
+				id: "50881F49EB4F2D2A"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.travel.rider.subtitle}"
+			tasks: [{
+				icon: "minecraft:saddle"
+				id: "46F9D5E880E1A4FB"
+				stat: "minecraft:horse_one_cm"
+				title: "{quests.lost_light.travel.rider.task0}"
+				type: "stat"
+				value: 2000000
+			}]
+			title: "{quests.lost_light.travel.rider.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"32DCF2F85A9B1D09"
+				"418AC9119509508A"
+				"33018BAD796A3823"
+			]
+			description: [
+				"{quests.lost_light.travel.wind.desc.0}"
+				""
+				"{quests.lost_light.travel.wind.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfcweather:metal/wind_vane/copper"
+			}
+			id: "4000B3613D298C98"
+			optional: true
+			rewards: [{
+				id: "0DEB6CD7768C0D60"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.travel.wind.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcweather:metal/wind_vane/copper"
+					}
+					id: "1D0A22264EC86E21"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfcweather:metal/wind_vane/copper)item(tfcweather:metal/wind_vane/bronze)item(tfcweather:metal/wind_vane/bismuth_bronze)item(tfcweather:metal/wind_vane/black_bronze)item(tfcweather:metal/wind_vane/brass)item(tfcweather:metal/wind_vane/bismuth)item(tfcweather:metal/wind_vane/tin)item(tfcweather:metal/wind_vane/zinc)item(tfcweather:metal/wind_vane/nickel)item(tfcweather:metal/wind_vane/gold)item(tfcweather:metal/wind_vane/silver)item(tfcweather:metal/wind_vane/rose_gold)item(tfcweather:metal/wind_vane/sterling_silver)item(tfcweather:metal/wind_vane/wrought_iron)item(tfcweather:metal/wind_vane/cast_iron)item(tfcweather:metal/wind_vane/steel)item(tfcweather:metal/wind_vane/black_steel)item(tfcweather:metal/wind_vane/blue_steel)item(tfcweather:metal/wind_vane/red_steel))"
+						}
+					}
+					title: "{quests.lost_light.travel.wind.task0}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfcweather:metal/anemometer/copper"
+					}
+					id: "6A9CE3D62F1B05B0"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfcweather:metal/anemometer/copper)item(tfcweather:metal/anemometer/bronze)item(tfcweather:metal/anemometer/bismuth_bronze)item(tfcweather:metal/anemometer/black_bronze)item(tfcweather:metal/anemometer/brass)item(tfcweather:metal/anemometer/bismuth)item(tfcweather:metal/anemometer/tin)item(tfcweather:metal/anemometer/zinc)item(tfcweather:metal/anemometer/nickel)item(tfcweather:metal/anemometer/gold)item(tfcweather:metal/anemometer/silver)item(tfcweather:metal/anemometer/rose_gold)item(tfcweather:metal/anemometer/sterling_silver)item(tfcweather:metal/anemometer/wrought_iron)item(tfcweather:metal/anemometer/cast_iron)item(tfcweather:metal/anemometer/steel)item(tfcweather:metal/anemometer/black_steel)item(tfcweather:metal/anemometer/blue_steel)item(tfcweather:metal/anemometer/red_steel))"
+						}
+					}
+					title: "{quests.lost_light.travel.wind.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.travel.wind.title}"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4000B3613D298C98"
+				"4196DA67E409F5BA"
+				"069D6DD1E9BF8A8E"
+			]
+			description: [
+				"{quests.lost_light.travel.weather.desc.0}"
+				"{quests.lost_light.travel.weather.desc.1}"
+				"{quests.lost_light.travel.weather.desc.2}"
+				"{quests.lost_light.travel.weather.desc.3}"
+				""
+				"{quests.lost_light.travel.weather.desc.5}"
+			]
+			icon: "weather2:weather_deflector"
+			id: "76B0B34FC348D559"
+			optional: true
+			rewards: [{
+				id: "411BB428AE085A4A"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.travel.weather.subtitle}"
+			tasks: [
+				{
+					id: "6F979077DB7D57C9"
+					item: "weather2:weather_forecast"
+					type: "item"
+				}
+				{
+					id: "2D9D8DF83BA9BE59"
+					item: "weather2:weather_deflector"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.travel.weather.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+	subtitle: ["{quests.lost_light.travel.subtitle.0}"]
+	title: "{quests.lost_light.travel.title}"
+}

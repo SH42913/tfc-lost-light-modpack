@@ -1,0 +1,477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "3A9DDFB4EB5E8FAD"
+	icon: "tfc:seeds/wheat"
+	id: "2B6871D91466C49C"
+	order_index: 1
+	quest_links: [
+		{
+			id: "7708696A7195E286"
+			linked_quest: "21A6AAD76CBD82D3"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "228D16DFD248569B"
+			linked_quest: "38BA4779465E6768"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "653AB648D63E76C4"
+			linked_quest: "05830025EE3B3529"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "3A86980C86045DE5"
+			linked_quest: "161A480C2A325394"
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["200C65104B981E08"]
+			description: [
+				"{quests.lost_light.farming.seeds.desc.0}"
+				""
+				"{quests.lost_light.farming.seeds.desc.2}"
+			]
+			icon: "tfc:seeds/wheat"
+			id: "2F0B6C00534D67CF"
+			rewards: [{
+				id: "44D9F7AF4A2AF71A"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.seeds.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:seeds/wheat"
+					id: "0FBB61F03D9EA436"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(tfc:seeds)"
+						}
+					}
+					title: "{quests.lost_light.farming.seeds.task0}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "tfc:stone/hoe/sedimentary"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "20EC9A34CE3F595B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(tfc:hoes)"
+						}
+					}
+					title: "{quests.lost_light.farming.seeds.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.farming.seeds.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0B6C00534D67CF"]
+			description: [
+				"{quests.lost_light.farming.first_harvest.desc.0}"
+				""
+				"{quests.lost_light.farming.first_harvest.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/wheat"
+			}
+			id: "670333D5D5709404"
+			rewards: [{
+				id: "61D79F028CE5C757"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.first_harvest.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 6000L
+								traits: [ ]
+							}
+						}
+						id: "tfc:food/wheat"
+					}
+					id: "23579CE157F31A1D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(tfc:foods/grains)"
+						}
+					}
+					title: "{quests.lost_light.farming.first_harvest.task0}"
+					type: "item"
+				}
+				{
+					count: 8L
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 6000L
+								traits: [ ]
+							}
+						}
+						id: "tfc:food/carrot"
+					}
+					id: "7065A5194F6AECD0"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(tfc:foods/vegetables)"
+						}
+					}
+					title: "{quests.lost_light.farming.first_harvest.task1}"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.farming.first_harvest.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["670333D5D5709404"]
+			description: [
+				"{quests.lost_light.farming.compost.desc.0}"
+				""
+				"{quests.lost_light.farming.compost.desc.2}"
+			]
+			icon: "tfc:composter"
+			id: "123EA906EC6C99AE"
+			rewards: [{
+				id: "4E6CFD64D667148B"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.compost.subtitle}"
+			tasks: [
+				{
+					id: "6A73D9289B986ECE"
+					item: "tfc:composter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5901210321699AB4"
+					item: "tfc:compost"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.farming.compost.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["123EA906EC6C99AE"]
+			description: [
+				"{quests.lost_light.farming.fertilizers.desc.0}"
+				"{quests.lost_light.farming.fertilizers.desc.1}"
+				"{quests.lost_light.farming.fertilizers.desc.2}"
+				"{quests.lost_light.farming.fertilizers.desc.3}"
+				"{quests.lost_light.farming.fertilizers.desc.4}"
+			]
+			icon: "tfc:groundcover/guano"
+			id: "7F006E798F627EE7"
+			rewards: [{
+				id: "07CBC3B67A3E12FB"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.fertilizers.subtitle}"
+			tasks: [{
+				count: 8L
+				icon: "tfc:groundcover/guano"
+				id: "61942858B596DE2B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:groundcover/guano)item(tfc:powder/saltpeter)item(tfc:powder/sylvite)item(tfc:powder/wood_ash)item(minecraft:bone_meal))"
+					}
+				}
+				title: "{quests.lost_light.farming.fertilizers.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.farming.fertilizers.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F006E798F627EE7"
+				"20BA7EBDB378E2DC"
+			]
+			description: [
+				"{quests.lost_light.farming.liquid_fertilizer.desc.0}"
+				""
+				"{quests.lost_light.farming.liquid_fertilizer.desc.2}"
+			]
+			icon: "tfcfertigation:compost_tea_bucket"
+			id: "304212E7911B6B4B"
+			rewards: [{
+				id: "7E30BE96CB5ED2F7"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.liquid_fertilizer.subtitle}"
+			tasks: [{
+				icon: "tfcfertigation:compost_tea_bucket"
+				id: "469F02174C0BD6EB"
+				title: "{quests.lost_light.farming.liquid_fertilizer.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.farming.liquid_fertilizer.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"304212E7911B6B4B"
+				"418AC9119509508A"
+			]
+			description: [
+				"{quests.lost_light.farming.sprinkler.desc.0}"
+				""
+				"{quests.lost_light.farming.sprinkler.desc.2}"
+			]
+			icon: "tfcfertigation:drip_irrigation_rack"
+			id: "258116E9DCA2CD9E"
+			rewards: [{
+				id: "5BCE3B83371FE93C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.sprinkler.subtitle}"
+			tasks: [{
+				id: "325D6D15D04C7AC9"
+				item: "tfcfertigation:drip_irrigation_rack"
+				type: "item"
+			}]
+			title: "{quests.lost_light.farming.sprinkler.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"258116E9DCA2CD9E"
+				"21A6AAD76CBD82D3"
+			]
+			description: [
+				"{quests.lost_light.farming.injector.desc.0}"
+				""
+				"{quests.lost_light.farming.injector.desc.2}"
+			]
+			icon: "tfcfertigation:fertigation_injector"
+			id: "521F71005665C387"
+			rewards: [{
+				id: "5C117D21EB332CBA"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.injector.subtitle}"
+			tasks: [{
+				id: "0A065557292D63FC"
+				item: "tfcfertigation:fertigation_injector"
+				type: "item"
+			}]
+			title: "{quests.lost_light.farming.injector.title}"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["258116E9DCA2CD9E"]
+			description: [
+				"{quests.lost_light.farming.herbicide.desc.0}"
+				""
+				"{quests.lost_light.farming.herbicide.desc.2}"
+			]
+			icon: "tfcfertigation:rotten_compost_herbicide_bucket"
+			id: "7DEBBF1F3DC38A24"
+			optional: true
+			rewards: [{
+				id: "3C831617DD673C4F"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.herbicide.subtitle}"
+			tasks: [{
+				icon: "tfcfertigation:rotten_compost_herbicide_bucket"
+				id: "2F18D645F69F2865"
+				title: "{quests.lost_light.farming.herbicide.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.farming.herbicide.title}"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["123EA906EC6C99AE"]
+			description: [
+				"{quests.lost_light.farming.rich_soil.desc.0}"
+				""
+				"{quests.lost_light.farming.rich_soil.desc.2}"
+			]
+			icon: "survivorsrichsoils:rich_soil/normal"
+			id: "45C85CE0C57E56F5"
+			rewards: [{
+				id: "3EDB9A0365F6BFB7"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.rich_soil.subtitle}"
+			tasks: [
+				{
+					icon: "survivorsrichsoils:organic_compost/normal"
+					id: "5D2727B85456E0FD"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(survivorsrichsoils:organic_compost/barren)item(survivorsrichsoils:organic_compost/normal)item(survivorsrichsoils:organic_compost/reclaimed)item(survivorsrichsoils:organic_compost/enriched)item(survivorsrichsoils:organic_compost/lush))"
+						}
+					}
+					title: "{quests.lost_light.farming.rich_soil.task0}"
+					type: "item"
+				}
+				{
+					icon: "survivorsrichsoils:rich_soil/normal"
+					id: "4713B6B61190C75E"
+					observe_type: 1
+					timer: 20L
+					title: "{quests.lost_light.farming.rich_soil.task1}"
+					to_observe: "lost_light:quests/farming_rich_soil_1"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.farming.rich_soil.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4196DA67E409F5BA"
+				"20BA7EBDB378E2DC"
+			]
+			description: [
+				"{quests.lost_light.farming.tree_tap.desc.0}"
+				""
+				"{quests.lost_light.farming.tree_tap.desc.2}"
+			]
+			icon: "afc:tree_tap"
+			id: "26C68B9710F65693"
+			rewards: [{
+				id: "52EB89F0AF14113D"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.tree_tap.subtitle}"
+			tasks: [
+				{
+					id: "1D8B7D6D0BB9EF37"
+					item: "afc:tree_tap"
+					type: "item"
+				}
+				{
+					icon: "afc:bucket/maple_sap"
+					id: "4C26A106A5BB97FF"
+					title: "{quests.lost_light.farming.tree_tap.task1}"
+					type: "custom"
+				}
+			]
+			title: "{quests.lost_light.farming.tree_tap.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"26C68B9710F65693"
+				"3FB7FBA5F0DA29D5"
+			]
+			description: [
+				"{quests.lost_light.farming.syrup.desc.0}"
+				""
+				"{quests.lost_light.farming.syrup.desc.2}"
+			]
+			icon: "afc:maple_sugar"
+			id: "6FA2D3FBF818538F"
+			rewards: [{
+				id: "39367FB0F8A0C81A"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.syrup.subtitle}"
+			tasks: [{
+				icon: "afc:maple_sugar"
+				id: "090B8C8D659D5460"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(afc:maple_sugar)item(afc:birch_sugar))"
+					}
+				}
+				title: "{quests.lost_light.farming.syrup.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.farming.syrup.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26C68B9710F65693"]
+			description: ["{quests.lost_light.farming.rubber.desc.0}"]
+			icon: "afc:rubber_bar"
+			id: "7E612F860D138C48"
+			optional: true
+			rewards: [{
+				id: "1720A60306987C30"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.farming.rubber.subtitle}"
+			tasks: [{
+				id: "764D342B743FB729"
+				item: "afc:rubber_bar"
+				type: "item"
+			}]
+			title: "{quests.lost_light.farming.rubber.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{quests.lost_light.farming.subtitle.0}"]
+	title: "{quests.lost_light.farming.title}"
+}

@@ -1,0 +1,435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5B12D878732C925A"
+	icon: "create:cogwheel"
+	id: "5DC920DC6A70B5B6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17BB06B956F6DCC3"]
+			description: ["{quests.lost_light.create.andesite_alloy.desc.0}"]
+			icon: "create:andesite_alloy"
+			id: "6D9F99B44C58848E"
+			rewards: [{
+				count: 4
+				id: "716C45270104A613"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.andesite_alloy.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "0C70B423AA996306"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "{quests.lost_light.create.andesite_alloy.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D9F99B44C58848E"
+				"6B102CCCE92C4475"
+			]
+			description: ["{quests.lost_light.create.cogwheels.desc.0}"]
+			icon: "create:cogwheel"
+			id: "722F9659FEDAAE76"
+			rewards: [{
+				count: 8
+				id: "0F434F8D9646EEA1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.cogwheels.subtitle}"
+			tasks: [
+				{
+					count: 12L
+					id: "165F62BB9E9EC6A6"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0C1D0A02E2717C3B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "45BCB43E049ACE9A"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.cogwheels.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722F9659FEDAAE76"]
+			description: ["{quests.lost_light.create.kinetic_power.desc.0}"]
+			icon: "create:water_wheel"
+			id: "794003BC7889AFCC"
+			rewards: [{
+				count: 16
+				id: "78EEA28EE8EDB483"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.kinetic_power.subtitle}"
+			tasks: [{
+				icon: "create:water_wheel"
+				id: "4E78ABDE7EAE95D0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel)item(create:windmill_bearing)item(create:hand_crank))"
+					}
+				}
+				title: "{quests.lost_light.create.kinetic_power.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.create.kinetic_power.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"794003BC7889AFCC"
+				"4196DA67E409F5BA"
+			]
+			description: ["{quests.lost_light.create.basic_mechanisms.desc.0}"]
+			icon: "create:andesite_casing"
+			id: "4DDF46761DC550A6"
+			rewards: [{
+				id: "4B1290911D7CD6AE"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.basic_mechanisms.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "4B30924799A6C4A3"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "24923BA88AB34E4C"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5F01DCB045759462"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "151612F8111C6D01"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "17EFED57B3ED5AAD"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.basic_mechanisms.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DDF46761DC550A6"]
+			description: ["{quests.lost_light.create.ore_crushing.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:powder/malachite"
+			}
+			id: "69343E717FA80262"
+			rewards: [{
+				count: 8
+				id: "3B502EBA379C49D9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.ore_crushing.subtitle}"
+			tasks: [{
+				count: 16L
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:powder/malachite"
+				}
+				id: "18E68BC70838D3D9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:powder/native_copper)item(tfc:powder/malachite)item(tfc:powder/tetrahedrite)item(tfc:powder/cassiterite)item(tfc:powder/bismuthinite)item(tfc:powder/sphalerite)item(tfc:powder/garnierite)item(tfc:powder/hematite)item(tfc:powder/limonite)item(tfc:powder/magnetite)item(tfc:powder/native_gold)item(tfc:powder/native_silver))"
+					}
+				}
+				title: "{quests.lost_light.create.ore_crushing.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.create.ore_crushing.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DDF46761DC550A6"
+				"418AC9119509508A"
+			]
+			description: ["{quests.lost_light.create.mechanical_tools.desc.0}"]
+			icon: "create:mechanical_drill"
+			id: "213DD42E8A0627CB"
+			rewards: [{
+				count: 2
+				id: "620910E99480FCC6"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.mechanical_tools.subtitle}"
+			tasks: [
+				{
+					id: "1B7CE93ED8B3DBFF"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "479C41AF82C565B8"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "27599F6FC26A045A"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.mechanical_tools.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["213DD42E8A0627CB"]
+			description: ["{quests.lost_light.create.advanced_mechanisms.desc.0}"]
+			icon: "create:mechanical_roller"
+			id: "11D4557A66878DA9"
+			rewards: [
+				{
+					count: 2
+					id: "303A82792FBE20FE"
+					item: "tfc:metal/ingot/brass"
+					type: "item"
+				}
+				{
+					id: "461845C312DA02B3"
+					item: "tfc:metal/ingot/wrought_iron"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.create.advanced_mechanisms.subtitle}"
+			tasks: [
+				{
+					id: "5290DE2584000301"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "62E9063F498E4465"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "6336D6EF54883D3F"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "3B307D307CD70E96"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "495A3E8395A60C8F"
+					item: "create:mechanical_roller"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.advanced_mechanisms.title}"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"11D4557A66878DA9"
+				"49EE3213E760984D"
+			]
+			description: ["{quests.lost_light.create.ore_excavation.desc.0}"]
+			icon: "createoreexcavation:drilling_machine"
+			id: "28ACB065F021CA6A"
+			rewards: [{
+				count: 2
+				id: "312C86A9B6D7CDE0"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.ore_excavation.subtitle}"
+			tasks: [
+				{
+					id: "1601C0A984B5201E"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+				{
+					id: "16A8C808A97A0056"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "1235578D695D4F8A"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.ore_excavation.title}"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["213DD42E8A0627CB"]
+			description: [
+				"{quests.lost_light.create.brass_age.desc.0}"
+				""
+				"{quests.lost_light.create.brass_age.desc.2}"
+			]
+			icon: "create:precision_mechanism"
+			id: "1B222B6FC0564F7F"
+			rewards: [{
+				count: 2
+				id: "0DE555E15B6E21C7"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.brass_age.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "7CFFE6083A36D1E8"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4247E18042606ECA"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "0CBF6C29CE47B3A3"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.brass_age.title}"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11D4557A66878DA9"]
+			description: ["{quests.lost_light.create.steam.desc.0}"]
+			icon: "create:steam_engine"
+			id: "6BA3E3DC4860A377"
+			rewards: [
+				{
+					count: 2
+					id: "1CF95B4647119EF1"
+					item: "tfc:metal/ingot/brass"
+					type: "item"
+				}
+				{
+					id: "6B278C6926A9C9C7"
+					item: "tfc:metal/ingot/wrought_iron"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.create.steam.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "0DBA475EC154F54C"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "065B6960611882B6"
+					item: "create:steam_engine"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.steam.title}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1B222B6FC0564F7F"
+				"49EE3213E760984D"
+			]
+			description: ["{quests.lost_light.create.trains.desc.0}"]
+			icon: "create:track"
+			id: "44F22533F06F6AE7"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "70A5687E1440A35F"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.create.trains.subtitle}"
+			tasks: [
+				{
+					count: 16L
+					id: "003AC5EDAC64C57D"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "6B2D93BEF4B935DD"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2282A06DA793DEEE"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.create.trains.title}"
+			x: 9.0d
+			y: 4.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.create.subtitle.0}"]
+	title: "{quests.lost_light.create.title}"
+}

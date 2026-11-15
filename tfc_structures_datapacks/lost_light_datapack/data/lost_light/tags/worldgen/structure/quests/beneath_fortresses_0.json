@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:fortress",
+    "minecraft:bastion_remnant",
+    "repurposed_structures:fortress_jungle",
+    "repurposed_structures:bastion_underground",
+    "repurposed_structures:stronghold_nether",
+    "repurposed_structures:city_nether",
+    "nova_structures:nether_keep",
+    "nova_structures:nether_port",
+    "nova_structures:piglin_camp",
+    "nova_structures:piglin_outstation"
+  ]
+}

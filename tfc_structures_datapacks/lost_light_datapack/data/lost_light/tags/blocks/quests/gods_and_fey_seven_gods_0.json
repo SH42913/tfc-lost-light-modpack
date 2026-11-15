@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_spirits:god_statue/esret",
+    "tfc_spirits:god_statue/argon",
+    "tfc_spirits:god_statue/maldor",
+    "tfc_spirits:god_statue/typhon",
+    "tfc_spirits:god_statue/venusia",
+    "tfc_spirits:god_statue/nessus",
+    "tfc_spirits:god_statue/gwanador"
+  ]
+}

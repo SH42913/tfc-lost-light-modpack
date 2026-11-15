@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shipwreck",
+    "minecraft:shipwreck_beached",
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ocean_ruin_warm",
+    "minecraft:monument",
+    "nova_structures:conduit_ruin",
+    "archaeology_ruins:ocean_ruin",
+    "archaeology_ruins:small_ocean_ruin",
+    "archaeology_ruins:warm_ocean_ruin",
+    "archaeology_ruins:ruined_ocean_monument",
+    "repurposed_structures:pyramid_ocean",
+    "repurposed_structures:temple_ocean",
+    "repurposed_structures:village_ocean",
+    "dungeons_arise:typhon",
+    "dungeons_arise:ceryneian_hind"
+  ]
+}

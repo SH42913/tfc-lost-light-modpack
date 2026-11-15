@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "forest_ruins:ruin_1",
+    "forest_ruins:ruin_2",
+    "forest_ruins:ruin_3",
+    "forest_ruins:ruin_4",
+    "forest_ruins:ruin_5",
+    "forest_ruins:ruin_6",
+    "forest_ruins:ruin_7",
+    "tfc_ruins:ruin_beach",
+    "tfc_ruins:ruin_rich",
+    "tfc_ruins:ruin_small",
+    "nova_structures:wild_ruin",
+    "nova_structures:ruin_town",
+    "repurposed_structures:ruins_land_warm"
+  ]
+}

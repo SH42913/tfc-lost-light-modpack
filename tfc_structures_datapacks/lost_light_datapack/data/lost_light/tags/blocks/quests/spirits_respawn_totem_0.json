@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc_spirits:respawn_totem/acacia",
+    "tfc_spirits:respawn_totem/ash",
+    "tfc_spirits:respawn_totem/aspen",
+    "tfc_spirits:respawn_totem/birch",
+    "tfc_spirits:respawn_totem/blackwood",
+    "tfc_spirits:respawn_totem/chestnut",
+    "tfc_spirits:respawn_totem/douglas_fir",
+    "tfc_spirits:respawn_totem/hickory",
+    "tfc_spirits:respawn_totem/kapok",
+    "tfc_spirits:respawn_totem/mangrove",
+    "tfc_spirits:respawn_totem/maple",
+    "tfc_spirits:respawn_totem/oak",
+    "tfc_spirits:respawn_totem/palm",
+    "tfc_spirits:respawn_totem/pine",
+    "tfc_spirits:respawn_totem/rosewood",
+    "tfc_spirits:respawn_totem/sequoia",
+    "tfc_spirits:respawn_totem/spruce",
+    "tfc_spirits:respawn_totem/sycamore",
+    "tfc_spirits:respawn_totem/white_cedar",
+    "tfc_spirits:respawn_totem/willow"
+  ]
+}

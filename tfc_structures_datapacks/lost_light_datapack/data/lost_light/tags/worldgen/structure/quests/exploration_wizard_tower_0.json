@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magical_relics:small_wizard_tower",
+    "magical_relics:medium_wizard_tower",
+    "magical_relics:large_wizard_tower",
+    "magical_relics:buried_dungeon"
+  ]
+}

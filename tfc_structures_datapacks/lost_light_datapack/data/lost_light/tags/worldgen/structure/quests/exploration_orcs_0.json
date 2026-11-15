@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "valarian_conquest:orc_fort",
+    "valarian_conquest:orc_outpost",
+    "nova_structures:badlands_miner_outpost",
+    "repurposed_structures:outpost_badlands"
+  ]
+}

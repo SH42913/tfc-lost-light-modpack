@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gods_and_fey"
+	group: "4C8D6353CE248C78"
+	icon: "tfc_spirits:golden_brazier"
+	id: "7D453F1A2E0AA8CD"
+	order_index: 3
+	quest_links: [
+		{
+			id: "039CDB50A360A135"
+			linked_quest: "6678C00F2B6DDF7C"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2C4C8FCD968DD250"
+			linked_quest: "768338FEF6502D83"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0C1BB4E0072CB5CB"
+			linked_quest: "39A3F8C24E5EBA32"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "2210F03A8D927DD7"
+			linked_quest: "790CF68FCDC49325"
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6678C00F2B6DDF7C"]
+			description: [
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.0}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.1}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.2}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.3}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.4}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.5}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.6}"
+				"{quests.lost_light.gods_and_fey.seven_gods.desc.7}"
+			]
+			icon: "tfc_spirits:god_statue/gwanador"
+			id: "5560335254839E87"
+			rewards: [{
+				id: "1B3575666F5D9958"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.seven_gods.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:god_statue/gwanador"
+				id: "782EBE64EC6F12F7"
+				observe_type: 1
+				timer: 20L
+				title: "{quests.lost_light.gods_and_fey.seven_gods.task0}"
+				to_observe: "lost_light:quests/gods_and_fey_seven_gods_0"
+				type: "observation"
+			}]
+			title: "{quests.lost_light.gods_and_fey.seven_gods.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5560335254839E87"]
+			description: [
+				"{quests.lost_light.gods_and_fey.offering.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.offering.desc.2}"
+				""
+				"{quests.lost_light.gods_and_fey.offering.desc.4}"
+			]
+			icon: "tfc_spirits:holy_staff"
+			id: "5A71DAD733A31953"
+			rewards: [{
+				id: "018A441E295C292C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.offering.subtitle}"
+			tasks: [
+				{
+					id: "6D3B9161736CFCEA"
+					item: "tfc_spirits:golden_brazier"
+					type: "item"
+				}
+				{
+					id: "47FAECD91B414401"
+					item: "tfc_spirits:holy_staff"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.gods_and_fey.offering.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5560335254839E87"
+				"0563DD341FA3CE1C"
+			]
+			description: ["{quests.lost_light.gods_and_fey.divine_compass.desc.0}"]
+			icon: "tfc_spirits:divine_compass"
+			id: "3E74BCF3E39BD4C6"
+			rewards: [{
+				id: "58783C079B2655F5"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.divine_compass.subtitle}"
+			tasks: [{
+				id: "25E19A30D932FFC0"
+				item: "tfc_spirits:divine_compass"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.divine_compass.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A71DAD733A31953"]
+			description: [
+				"{quests.lost_light.gods_and_fey.god_statue.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.god_statue.desc.2}"
+			]
+			icon: "tfc_spirits:god_statue/maldor"
+			id: "7A9E5CB9D9F9FC63"
+			optional: true
+			rewards: [{
+				id: "7D56B136D751D993"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.god_statue.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:god_statue/maldor"
+				id: "042B78F8FBADA34D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:god_statue/esret)item(tfc_spirits:god_statue/argon)item(tfc_spirits:god_statue/maldor)item(tfc_spirits:god_statue/typhon)item(tfc_spirits:god_statue/venusia)item(tfc_spirits:god_statue/nessus)item(tfc_spirits:god_statue/gwanador))"
+					}
+				}
+				title: "{quests.lost_light.gods_and_fey.god_statue.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.god_statue.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["768338FEF6502D83"]
+			description: [
+				"{quests.lost_light.gods_and_fey.runestone.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.runestone.desc.2}"
+				""
+				"{quests.lost_light.gods_and_fey.runestone.desc.4}"
+			]
+			icon: "tfc_spirits:runestone"
+			id: "6D9F0D94F165E4EA"
+			rewards: [{
+				id: "4F511A65FDEA50DE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.runestone.subtitle}"
+			tasks: [{
+				id: "4F779B0A86FB0124"
+				item: "tfc_spirits:runestone"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.runestone.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D9F0D94F165E4EA"]
+			description: [
+				"{quests.lost_light.gods_and_fey.adder_stone.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.adder_stone.desc.2}"
+			]
+			icon: "tfc_spirits:adder_stone"
+			id: "2F940B47145278F9"
+			rewards: [{
+				id: "41FE8597FDCFA544"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.adder_stone.subtitle}"
+			tasks: [{
+				id: "3FED8342883F25B3"
+				item: "tfc_spirits:adder_stone"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.adder_stone.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F940B47145278F9"]
+			description: [
+				"{quests.lost_light.gods_and_fey.fey_gifts.desc.0}"
+				"{quests.lost_light.gods_and_fey.fey_gifts.desc.1}"
+				"{quests.lost_light.gods_and_fey.fey_gifts.desc.2}"
+				"{quests.lost_light.gods_and_fey.fey_gifts.desc.3}"
+			]
+			icon: "tfc_spirits:wildrunner_charm"
+			id: "0A1F59A6CA322610"
+			rewards: [{
+				id: "06924F9613F5F75C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.fey_gifts.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:wildrunner_charm"
+				id: "5314501BA9354DFF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:wildrunner_charm)item(tfc_spirits:staff_of_herbs)item(tfc_spirits:enchanted_rock))"
+					}
+				}
+				title: "{quests.lost_light.gods_and_fey.fey_gifts.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.fey_gifts.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1F59A6CA322610"]
+			description: [
+				"{quests.lost_light.gods_and_fey.fey_friend.desc.0}"
+				"{quests.lost_light.gods_and_fey.fey_friend.desc.1}"
+				"{quests.lost_light.gods_and_fey.fey_friend.desc.2}"
+				""
+				"{quests.lost_light.gods_and_fey.fey_friend.desc.4}"
+			]
+			icon: "tfc_spirits:silvery_string"
+			id: "2091ACDFB1B5629B"
+			optional: true
+			rewards: [{
+				id: "2C62C3F38805F437"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.fey_friend.subtitle}"
+			tasks: [{
+				icon: "tfc_spirits:silvery_string"
+				id: "7E284A12EB012422"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc_spirits:silvery_string)item(tfc_spirits:thicket_pact))"
+					}
+				}
+				title: "{quests.lost_light.gods_and_fey.fey_friend.task0}"
+				type: "item"
+			}]
+			title: "{quests.lost_light.gods_and_fey.fey_friend.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{quests.lost_light.gods_and_fey.october.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.october.desc.2}"
+			]
+			icon: "minecraft:jack_o_lantern"
+			id: "65540DD38B73210E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "36888D76501CF656"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.october.subtitle}"
+			tasks: [{
+				icon: "minecraft:jack_o_lantern"
+				id: "2AF69BB5542D10B3"
+				title: "{quests.lost_light.gods_and_fey.october.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.gods_and_fey.october.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{quests.lost_light.gods_and_fey.full_moon.desc.0}"
+				""
+				"{quests.lost_light.gods_and_fey.full_moon.desc.2}"
+			]
+			icon: "minecraft:clock"
+			id: "2DB64D6414E38B70"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "60ABE6AD69D960A1"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.gods_and_fey.full_moon.subtitle}"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "39BA4A1B21B57A2F"
+				title: "{quests.lost_light.gods_and_fey.full_moon.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.gods_and_fey.full_moon.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{quests.lost_light.gods_and_fey.subtitle.0}"]
+	title: "{quests.lost_light.gods_and_fey.title}"
+}

@@ -1002,6 +1002,54 @@
     "curseForgeHash": 174485922,
     "modrinthHash": "27347879f8760a7bc0b4bd71977abc50e498811c"
   },
+  "ftb-filter-system-forge-20.0.1.jar": {
+    "jarName": "ftb-filter-system-forge-20.0.1.jar",
+    "modId": "ftbfiltersystem",
+    "name": "FTB Filter System",
+    "version": "20.0.1",
+    "curseForgeHash": 2703039268,
+    "modrinthHash": "812de9759fe87cb405e14cbb0fe5b72a7ee11f42"
+  },
+  "ftb-library-forge-2001.2.13.jar": {
+    "jarName": "ftb-library-forge-2001.2.13.jar",
+    "modId": "ftblibrary",
+    "name": "FTB Library",
+    "version": "2001.2.13",
+    "curseForgeHash": 777644732,
+    "modrinthHash": "a5427d5ff07eb044144ed0b54308370d88bce17e"
+  },
+  "ftb-quests-forge-2001.4.22.jar": {
+    "jarName": "ftb-quests-forge-2001.4.22.jar",
+    "modId": "ftbquests",
+    "name": "FTB Quests",
+    "version": "2001.4.22",
+    "curseForgeHash": 1456505092,
+    "modrinthHash": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
+  },
+  "ftb-quests-ui-overhaul-forge-1.20.1-1.0.13.jar": {
+    "jarName": "ftb-quests-ui-overhaul-forge-1.20.1-1.0.13.jar",
+    "modId": "ftbquestsvisualoverhaul",
+    "name": "FTB Quests UI Overhaul",
+    "version": "1.0.13",
+    "curseForgeHash": 2159209609,
+    "modrinthHash": "3c6803062525f81770a8fd77619186b547749ea9"
+  },
+  "ftb-teams-forge-2001.3.2.jar": {
+    "jarName": "ftb-teams-forge-2001.3.2.jar",
+    "modId": "ftbteams",
+    "name": "FTB Teams",
+    "version": "2001.3.2",
+    "curseForgeHash": 816412664,
+    "modrinthHash": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
+  },
+  "ftb-xmod-compat-forge-2.1.3.jar": {
+    "jarName": "ftb-xmod-compat-forge-2.1.3.jar",
+    "modId": "ftbxmodcompat",
+    "name": "FTB XMod Compat",
+    "version": "2.1.3",
+    "curseForgeHash": 2853914731,
+    "modrinthHash": "0584f628d2bc6a612d79dee368324357ebae1423"
+  },
   "functionalarmortrim-1.20.1-6.jar": {
     "jarName": "functionalarmortrim-1.20.1-6.jar",
     "modId": "functionalarmortrim",
@@ -1770,6 +1818,14 @@
     "version": "8.1.36",
     "curseForgeHash": 1264434301,
     "modrinthHash": "d2e79bc84f0f2e75e3212ab236af08528117b213"
+  },
+  "quested-1.20.1-1.2-R.jar": {
+    "jarName": "quested-1.20.1-1.2-R.jar",
+    "modId": "quested",
+    "name": "Quested: Reforged",
+    "version": "1.20.1-1.2-R",
+    "curseForgeHash": 4246682309,
+    "modrinthHash": "104c3854466dc148c6f44a53e230eb174da1b757"
   },
   "radium-mc1.20.1-0.12.4+git.26c9d8e.jar": {
     "jarName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:well_birch",
+    "nova_structures:well_oak",
+    "nova_structures:well_spruce",
+    "nova_structures:well_savana",
+    "nova_structures:well_jungle",
+    "nova_structures:well_dark_oak",
+    "create_rustic_structures:rustic_well",
+    "dungeons_arise:wishing_well"
+  ]
+}

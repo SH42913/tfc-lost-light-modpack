@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:trail_ruins",
+    "repurposed_structures:ruins_land_cold",
+    "repurposed_structures:ruins_land_hot",
+    "archaeology_ruins:adoberuins",
+    "archaeology_ruins:mudblacksmithruin",
+    "archaeology_ruins:mudpotterruin",
+    "archaeology_ruins:mudschoolruin",
+    "archaeology_ruins:smallmudruin"
+  ]
+}

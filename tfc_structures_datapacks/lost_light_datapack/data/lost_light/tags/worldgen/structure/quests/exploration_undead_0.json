@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:creeping_crypt",
+    "nova_structures:undead_crypt",
+    "dungeons_arise:plague_asylum",
+    "dungeoncrawl:dungeon",
+    "betterdungeons:skeleton_dungeon",
+    "betterdungeons:small_dungeon",
+    "betterdungeons:spider_dungeon",
+    "betterdungeons:zombie_dungeon"
+  ]
+}

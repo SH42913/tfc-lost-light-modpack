@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "valarian_conquest:dwarven_tower",
+    "nova_structures:bunker",
+    "nova_structures:underground_house",
+    "dungeons_arise:mining_system",
+    "repurposed_structures:village_mountains",
+    "repurposed_structures:igloo_stone",
+    "ctov:small/village_mountain",
+    "ctov:small/village_mountain_alpine",
+    "ctov:medium/village_mountain",
+    "ctov:medium/village_mountain_alpine",
+    "ctov:small/village_underground",
+    "ctov:medium/village_underground"
+  ]
+}

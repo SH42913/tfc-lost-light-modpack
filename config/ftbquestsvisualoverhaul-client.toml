@@ -1,0 +1,20 @@
+
+[ui]
+	#Replace FTB Quests' player-facing quest screen with the addon UI.
+	replace_ftbquests_screen = true
+	#Allow the addon to temporarily open the vanilla FTB Quests screen for unsupported interactions.
+	allow_vanilla_fallback = true
+	#Default quest browser layout.
+	#Allowed Values: GRAPH, LIST
+	default_layout = "GRAPH"
+	#Show a warning banner when a task or reward is routed to vanilla fallback.
+	show_unknown_type_warning = true
+	#Horizontal alignment for quest description text in the detail modal.
+	#CENTER matches the framed UI artwork, LEFT reads more like a book page.
+	#Images keep whatever alignment the quest author gave them either way.
+	#Allowed Values: CENTER, LEFT
+	description_alignment = "CENTER"
+	#Type out a quest's description the first time you open it, with a typewriter reveal and blip sound.
+	#Off by default.
+	enable_quest_narration = false
+

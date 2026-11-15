@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:barrel", "#tfcbarrels:barrels")
     event.replaceInput({}, "mca:rose_gold_ingot", "#forge:ingots/rose_gold")
 
+    event.replaceInput({}, "minecraft:amethyst_shard", "#forge:gems/amethyst")
     event.replaceInput({}, "minecraft:emerald", "#forge:gems/emerald")
     event.replaceInput({}, "minecraft:lapis_lazuli", "#forge:gems/lapis")
     event.replaceInput({}, "minecraft:diamond", "#forge:gems/diamond")
@@ -21,6 +22,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:bow", "#forge:bows")
 
     event.replaceInput({id: "create:crafting/kinetics/rope_pulley"}, "#minecraft:wool", "firmaciv:rope_coil")
+    event.replaceOutput({id: /^create:crushing\/amethyst_(block|cluster)$/}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
 
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
@@ -45,4 +47,8 @@ ServerEvents.recipes(event => {
     event.replaceInput(burntFilter, "minecraft:fire_charge", "minecraft:gunpowder")
     event.replaceInput(burntFilter, "minecraft:stone", "#forge:smooth_stone")
     event.replaceInput(burntFilter, "minecraft:sculk_sensor", "minecraft:observer")
+
+    let waystonesFilter = {mod: "waystones"}
+    event.replaceInput(waystonesFilter, "minecraft:stone_bricks", "#forge:stone_bricks")
+    event.replaceInput(waystonesFilter, "#balm:emeralds", "#forge:gems/emerald")
 })

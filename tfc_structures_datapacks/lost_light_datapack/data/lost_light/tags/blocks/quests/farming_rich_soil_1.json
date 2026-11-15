@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "survivorsrichsoils:rich_soil/barren",
+    "survivorsrichsoils:rich_soil/normal",
+    "survivorsrichsoils:rich_soil/reclaimed",
+    "survivorsrichsoils:rich_soil/enriched",
+    "survivorsrichsoils:rich_soil/lush"
+  ]
+}

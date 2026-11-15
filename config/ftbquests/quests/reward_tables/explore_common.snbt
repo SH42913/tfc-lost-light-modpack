@@ -1,0 +1,38 @@
+{
+	icon: "tfc:wood/chest/oak"
+	id: "7C8579A7F0755F43"
+	loot_crate: {
+		color: 10254923
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "{quests.lost_light.crate.explore_common}"
+		string_id: "explore_common"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "tfc:gem/pyrite", weight: 3.0f }
+		{ count: 2, item: "tfc:gem/lapis_lazuli", weight: 3.0f }
+		{ count: 2, item: "tfc:gem/amethyst", weight: 3.0f }
+		{ count: 2, item: "minecraft:map", weight: 2.0f }
+		{ count: 2, item: "minecraft:lead", weight: 2.0f }
+		{ count: 6, item: "tfc:food/cooked_beef", weight: 3.0f }
+		{ count: 12, item: "tfc_arch:stone_arrow", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "sns:quiver" }
+		{ item: "tfc:metal/ingot/copper" }
+	]
+	title: "{quests.lost_light.table.explore_common}"
+	use_title: true
+}

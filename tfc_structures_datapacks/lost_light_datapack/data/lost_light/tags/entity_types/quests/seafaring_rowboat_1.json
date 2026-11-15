@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "firmaciv:rowboat/acacia",
+    "firmaciv:rowboat/ash",
+    "firmaciv:rowboat/aspen",
+    "firmaciv:rowboat/birch",
+    "firmaciv:rowboat/blackwood",
+    "firmaciv:rowboat/chestnut",
+    "firmaciv:rowboat/hickory",
+    "firmaciv:rowboat/maple",
+    "firmaciv:rowboat/oak",
+    "firmaciv:rowboat/rosewood",
+    "firmaciv:rowboat/sycamore"
+  ]
+}

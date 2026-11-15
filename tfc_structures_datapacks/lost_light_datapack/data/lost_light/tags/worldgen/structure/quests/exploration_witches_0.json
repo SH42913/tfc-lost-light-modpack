@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp_hut",
+    "betterwitchhuts:witch_hut",
+    "betterwitchhuts:witch_circle",
+    "nova_structures:witch_villa",
+    "nova_structures:mangrove_witch_hut",
+    "repurposed_structures:witch_hut_oak",
+    "repurposed_structures:witch_hut_birch",
+    "repurposed_structures:witch_hut_mangrove",
+    "repurposed_structures:witch_hut_giant_tree_taiga",
+    "repurposed_structures:witch_hut_taiga",
+    "repurposed_structures:witch_hut_dark_forest"
+  ]
+}

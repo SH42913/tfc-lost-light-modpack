@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beneath"
+	group: "3B283BBEC04E42A0"
+	icon: "beneath:cursecoal"
+	id: "7F4978889CAA8957"
+	order_index: 3
+	quest_links: [
+		{
+			id: "0238C5B0316D216A"
+			linked_quest: "4196DA67E409F5BA"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "3041131C49AD118D"
+			linked_quest: "11D4557A66878DA9"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["4196DA67E409F5BA"]
+			description: [
+				"{quests.lost_light.beneath.gateway.desc.0}"
+				""
+				"{quests.lost_light.beneath.gateway.desc.2}"
+				""
+				"{quests.lost_light.beneath.gateway.desc.4}"
+			]
+			icon: "minecraft:obsidian"
+			id: "1D53F2EA78556728"
+			rewards: [{
+				id: "388B0095F1C8CFA5"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.gateway.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "6B814025055FCADA"
+				title: "{quests.lost_light.beneath.gateway.task0}"
+				type: "dimension"
+			}]
+			title: "{quests.lost_light.beneath.gateway.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D53F2EA78556728"]
+			description: [
+				"{quests.lost_light.beneath.juicer.desc.0}"
+				""
+				"{quests.lost_light.beneath.juicer.desc.2}"
+			]
+			icon: "beneath:juicer"
+			id: "28943688EEE02474"
+			rewards: [{
+				id: "1D178C628897B76E"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.juicer.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: 6000L
+								traits: [ ]
+							}
+						}
+						id: "beneath:food/portobello"
+					}
+					id: "14FCD683627012A7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(beneath:food/button)item(beneath:food/chantrelle)item(beneath:food/death_cap)item(beneath:food/destroying_angels)item(beneath:food/fools_funnel)item(beneath:food/oyster)item(beneath:food/parasol)item(beneath:food/portobello)item(beneath:food/shittake)item(beneath:food/sulfur_tuft))"
+						}
+					}
+					title: "{quests.lost_light.beneath.juicer.task0}"
+					type: "item"
+				}
+				{
+					id: "0A86AC7E7A4DCBEB"
+					item: "beneath:juicer"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.beneath.juicer.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D53F2EA78556728"]
+			description: [
+				"{quests.lost_light.beneath.nether_ores.desc.0}"
+				"{quests.lost_light.beneath.nether_ores.desc.1}"
+				"{quests.lost_light.beneath.nether_ores.desc.2}"
+				"{quests.lost_light.beneath.nether_ores.desc.3}"
+				""
+				"{quests.lost_light.beneath.nether_ores.desc.5}"
+			]
+			icon: "beneath:cursecoal"
+			id: "5E428B6DD16CC11C"
+			rewards: [{
+				id: "1EFB754C10FE7F63"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.nether_ores.subtitle}"
+			tasks: [{
+				count: 8L
+				icon: "beneath:cursecoal"
+				id: "61D62EA4587587DF"
+				item: "beneath:cursecoal"
+				type: "item"
+			}]
+			title: "{quests.lost_light.beneath.nether_ores.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1D53F2EA78556728"
+				"1E8FC5FA41B219DC"
+			]
+			description: ["{quests.lost_light.beneath.lava.desc.0}"]
+			icon: "tfc:metal/bucket/blue_steel"
+			id: "7F8A471BF3225545"
+			rewards: [{
+				id: "167AF4B8CA62DE5E"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.lava.subtitle}"
+			tasks: [{
+				icon: "tfc:metal/bucket/blue_steel"
+				id: "2D7B3B5E017D8F57"
+				title: "{quests.lost_light.beneath.lava.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.beneath.lava.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D53F2EA78556728"]
+			description: [
+				"{quests.lost_light.beneath.nether_bricks.desc.0}"
+				""
+				"{quests.lost_light.beneath.nether_bricks.desc.2}"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "4959A934B512B259"
+			rewards: [{
+				id: "56B0706CBF80BEB1"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.nether_bricks.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "49E472A98B207967"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			title: "{quests.lost_light.beneath.nether_bricks.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4959A934B512B259"]
+			description: [
+				"{quests.lost_light.beneath.burpflower.desc.0}"
+				""
+				"{quests.lost_light.beneath.burpflower.desc.2}"
+				""
+				"{quests.lost_light.beneath.burpflower.desc.4}"
+			]
+			icon: "beneath:burpflower"
+			id: "015CB31FA6F62EED"
+			rewards: [{
+				id: "4F6DD059AD431F0F"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.burpflower.subtitle}"
+			tasks: [{
+				id: "043E6AC78BDF5B36"
+				item: "beneath:burpflower"
+				type: "item"
+			}]
+			title: "{quests.lost_light.beneath.burpflower.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"015CB31FA6F62EED"
+				"5E428B6DD16CC11C"
+				"7F8A471BF3225545"
+			]
+			description: [
+				"{quests.lost_light.beneath.hellforge.desc.0}"
+				""
+				"{quests.lost_light.beneath.hellforge.desc.2}"
+			]
+			icon: "beneath:hellbricks"
+			id: "24AF341ACBDB6B7D"
+			rewards: [{
+				id: "0E89CD72E7C84ECA"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.hellforge.subtitle}"
+			tasks: [
+				{
+					count: 21L
+					id: "7BCEE625C932385E"
+					item: "beneath:hellbricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00FED53D5176A14C"
+					item: "beneath:blackstone_aqueduct"
+					type: "item"
+				}
+				{
+					icon: "beneath:hellbricks"
+					id: "2E266A68A2AAFE50"
+					observe_type: 0
+					timer: 20L
+					title: "{quests.lost_light.beneath.hellforge.task2}"
+					to_observe: "beneath:hellforge"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.beneath.hellforge.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28943688EEE02474"]
+			description: [
+				"{quests.lost_light.beneath.soul_farming.desc.0}"
+				""
+				"{quests.lost_light.beneath.soul_farming.desc.2}"
+				""
+				"{quests.lost_light.beneath.soul_farming.desc.4}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "beneath:ghost_pepper"
+			}
+			id: "07F1BCD1FEDE0390"
+			rewards: [{
+				id: "51BE3D8841452B08"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.soul_farming.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:soul_soil"
+					id: "79C513A2D1346AAB"
+					observe_type: 0
+					timer: 20L
+					title: "{quests.lost_light.beneath.soul_farming.task0}"
+					to_observe: "beneath:soul_farmland"
+					type: "observation"
+				}
+				{
+					count: 4L
+					id: "7D2C4FEF1CC3C5A5"
+					item: "beneath:ghost_pepper"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.beneath.soul_farming.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07F1BCD1FEDE0390"]
+			description: ["{quests.lost_light.beneath.unposter.desc.0}"]
+			icon: "beneath:unposter"
+			id: "4A5A9F0030ED8604"
+			optional: true
+			rewards: [{
+				id: "48489AA5119E1B74"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.unposter.subtitle}"
+			tasks: [{
+				id: "04A1E72536770D6A"
+				item: "beneath:unposter"
+				type: "item"
+			}]
+			title: "{quests.lost_light.beneath.unposter.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D53F2EA78556728"]
+			description: [
+				"{quests.lost_light.beneath.cursed_hide.desc.0}"
+				""
+				"{quests.lost_light.beneath.cursed_hide.desc.2}"
+			]
+			icon: "beneath:cursed_hide"
+			id: "218B260C4EB122DA"
+			rewards: [{
+				id: "144FD555D938E39C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.cursed_hide.subtitle}"
+			tasks: [
+				{
+					id: "13487F5D2A146402"
+					item: "beneath:cursed_hide"
+					type: "item"
+				}
+				{
+					icon: "beneath:spawn_egg/red_elk"
+					id: "26D5CCABB43C0BA7"
+					observe_type: 5
+					optional_task: true
+					timer: 20L
+					title: "{quests.lost_light.beneath.cursed_hide.task1}"
+					to_observe: "beneath:red_elk"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.beneath.cursed_hide.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D53F2EA78556728"]
+			description: [
+				"{quests.lost_light.beneath.fortresses.desc.0}"
+				""
+				"{quests.lost_light.beneath.fortresses.desc.2}"
+			]
+			icon: "minecraft:nether_brick_fence"
+			id: "24BC64CA2EC5EC58"
+			rewards: [{
+				id: "245328EC2486C9D7"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.fortresses.subtitle}"
+			tasks: [{
+				icon: "minecraft:nether_brick_fence"
+				id: "482D586B6BE0440C"
+				structure: "#lost_light:quests/beneath_fortresses_0"
+				title: "{quests.lost_light.beneath.fortresses.task0}"
+				type: "structure"
+			}]
+			title: "{quests.lost_light.beneath.fortresses.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24BC64CA2EC5EC58"]
+			description: [
+				"{quests.lost_light.beneath.ancient_altar.desc.0}"
+				""
+				"{quests.lost_light.beneath.ancient_altar.desc.2}"
+			]
+			icon: "beneath:ancient_altar"
+			id: "75D5198849E3C349"
+			rewards: [{
+				id: "37D77D9AF228E57B"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.ancient_altar.subtitle}"
+			tasks: [
+				{
+					id: "03B62CCD05679ABD"
+					item: "beneath:lost_page"
+					type: "item"
+				}
+				{
+					id: "0F48F0634BD6144E"
+					item: "beneath:ancient_altar"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.beneath.ancient_altar.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"24BC64CA2EC5EC58"
+				"07F1BCD1FEDE0390"
+			]
+			description: ["{quests.lost_light.beneath.agonizing_fertilizer.desc.0}"]
+			icon: "beneath:agonizing_fertilizer"
+			id: "058E6FE0507701AF"
+			rewards: [{
+				id: "3FFBCFF09683883C"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.agonizing_fertilizer.subtitle}"
+			tasks: [{
+				id: "5F61577CA45EDCF0"
+				item: "beneath:agonizing_fertilizer"
+				type: "item"
+			}]
+			title: "{quests.lost_light.beneath.agonizing_fertilizer.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11D4557A66878DA9"]
+			description: [
+				"{quests.lost_light.beneath.netherless.desc.0}"
+				""
+				"{quests.lost_light.beneath.netherless.desc.2}"
+			]
+			icon: "minecraft:blaze_rod"
+			id: "560AA98E8D0C1F07"
+			optional: true
+			rewards: [{
+				id: "73F73FFC9D3FC67B"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.beneath.netherless.subtitle}"
+			tasks: [
+				{
+					id: "0CE1A291E07B71D3"
+					item: "create_netherless:coal_rod"
+					type: "item"
+				}
+				{
+					id: "627F8927EC46DA58"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.beneath.netherless.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.beneath.subtitle.0}"]
+	title: "{quests.lost_light.beneath.title}"
+}

@@ -1,0 +1,579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "075658BB454D6270"
+	icon: "mowziesmobs:sol_visage"
+	id: "4F61796C7281CE84"
+	order_index: 1
+	quest_links: [
+		{
+			id: "16F1B2463DC53C2D"
+			linked_quest: "1D6B426E123A36D1"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "141860F68ED63632"
+			linked_quest: "4D5A43F026CC38C2"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "76F8135C3CC216F1"
+			linked_quest: "52029DDDDA9CC522"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1D6B426E123A36D1"]
+			description: [
+				"{quests.lost_light.bosses.mountain_lairs.desc.0}"
+				"{quests.lost_light.bosses.mountain_lairs.desc.1}"
+				"{quests.lost_light.bosses.mountain_lairs.desc.2}"
+				"{quests.lost_light.bosses.mountain_lairs.desc.3}"
+				""
+				"{quests.lost_light.bosses.mountain_lairs.desc.5}"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "3DFDFB0673917FD5"
+			rewards: [{
+				id: "6A8205C27B7C7EFD"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.mountain_lairs.subtitle}"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "242A274D02F51762"
+				structure: "#lost_light:quests/bosses_mountain_lairs_0"
+				title: "{quests.lost_light.bosses.mountain_lairs.task0}"
+				type: "structure"
+			}]
+			title: "{quests.lost_light.bosses.mountain_lairs.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DFDFB0673917FD5"]
+			description: [
+				"{quests.lost_light.bosses.frostmaw.desc.0}"
+				""
+				"{quests.lost_light.bosses.frostmaw.desc.2}"
+				""
+				"{quests.lost_light.bosses.frostmaw.desc.4}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D1807A504092726"
+			rewards: [{
+				id: "4E3FB06B302ECF52"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.frostmaw.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:packed_ice"
+					id: "08819B31A276D642"
+					structure: "mowziesmobs:frostmaw_spawn"
+					title: "{quests.lost_light.bosses.frostmaw.task0}"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:frostmaw"
+					icon: "mowziesmobs:frostmaw_spawn_egg"
+					id: "3AFE55CBECDF4F35"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{quests.lost_light.bosses.frostmaw.title}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DFDFB0673917FD5"]
+			description: [
+				"{quests.lost_light.bosses.crystal_thief.desc.0}"
+				""
+				"{quests.lost_light.bosses.crystal_thief.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:potion"
+			id: "0F1F62328986C77B"
+			optional: true
+			rewards: [{
+				id: "4EABE1F21588CB0D"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.crystal_thief.subtitle}"
+			tasks: [{
+				advancement: "mowziesmobs:steal_ice_crystal"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2635F53E905C8525"
+				title: "{quests.lost_light.bosses.crystal_thief.task0}"
+				type: "advancement"
+			}]
+			title: "{quests.lost_light.bosses.crystal_thief.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DFDFB0673917FD5"]
+			description: [
+				"{quests.lost_light.bosses.umvuthi.desc.0}"
+				""
+				"{quests.lost_light.bosses.umvuthi.desc.2}"
+				""
+				"{quests.lost_light.bosses.umvuthi.desc.4}"
+			]
+			hide_until_deps_complete: true
+			icon: "mowziesmobs:sol_visage"
+			id: "73C298295DD40A70"
+			rewards: [{
+				id: "50C98A172B2EBD70"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.umvuthi.subtitle}"
+			tasks: [
+				{
+					icon: "mowziesmobs:thatch_block"
+					id: "0D9EC291F6212A49"
+					structure: "mowziesmobs:umvuthana_grove"
+					title: "{quests.lost_light.bosses.umvuthi.task0}"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:umvuthi"
+					icon: "mowziesmobs:umvuthi_spawn_egg"
+					id: "2BC0413D8E56CE89"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{quests.lost_light.bosses.umvuthi.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DFDFB0673917FD5"]
+			description: [
+				"{quests.lost_light.bosses.suns_blessing.desc.0}"
+				""
+				"{quests.lost_light.bosses.suns_blessing.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4961BE211913C48F"
+			optional: true
+			rewards: [{
+				id: "244CEB930AA42180"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.suns_blessing.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6E84FCDF50D63365"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(mowziesmobs:umvuthana_mask_fury)item(mowziesmobs:umvuthana_mask_fear)item(mowziesmobs:umvuthana_mask_rage)item(mowziesmobs:umvuthana_mask_bliss)item(mowziesmobs:umvuthana_mask_misery)item(mowziesmobs:umvuthana_mask_faith))"
+						}
+					}
+					title: "{quests.lost_light.bosses.suns_blessing.task0}"
+					type: "item"
+				}
+				{
+					advancement: "mowziesmobs:suns_blessing"
+					criterion: ""
+					icon: "mowziesmobs:grant_suns_blessing"
+					id: "6E773B6CFC216E7A"
+					title: "{quests.lost_light.bosses.suns_blessing.task1}"
+					type: "advancement"
+				}
+			]
+			title: "{quests.lost_light.bosses.suns_blessing.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DFDFB0673917FD5"]
+			description: [
+				"{quests.lost_light.bosses.bluff.desc.0}"
+				""
+				"{quests.lost_light.bosses.bluff.desc.2}"
+				""
+				"{quests.lost_light.bosses.bluff.desc.4}"
+			]
+			hide_until_deps_complete: true
+			icon: "mowziesmobs:bluff_rod"
+			id: "3B1CB31E8EF93454"
+			rewards: [{
+				id: "006E3F4671CAE113"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.bluff.subtitle}"
+			tasks: [
+				{
+					entity: "mowziesmobs:bluff"
+					icon: "mowziesmobs:bluff_spawn_egg"
+					id: "0EB306DB511BFB12"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3A70E4FB3BCEBA10"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.bosses.bluff.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B1CB31E8EF93454"]
+			description: [
+				"{quests.lost_light.bosses.sculptor_trial.desc.0}"
+				""
+				"{quests.lost_light.bosses.sculptor_trial.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1388B414B7F9066A"
+			rewards: [{
+				id: "558A81BA571942A5"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.sculptor_trial.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:stone_bricks"
+					id: "08B0375B7D1456D9"
+					structure: "mowziesmobs:monastery"
+					title: "{quests.lost_light.bosses.sculptor_trial.task0}"
+					type: "structure"
+				}
+				{
+					advancement: "mowziesmobs:sculptor_challenge"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0DE55D619EBE8B10"
+					title: "{quests.lost_light.bosses.sculptor_trial.task1}"
+					type: "advancement"
+				}
+			]
+			title: "{quests.lost_light.bosses.sculptor_trial.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1388B414B7F9066A"]
+			description: [
+				"{quests.lost_light.bosses.sculptor.desc.0}"
+				""
+				"{quests.lost_light.bosses.sculptor.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:sculptor_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66B8AA87511AD112"
+			optional: true
+			rewards: [{
+				id: "3519236FB5F138B2"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.sculptor.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: "mowziesmobs:sculptor_spawn_egg"
+				id: "24B4690D764CD120"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{quests.lost_light.bosses.sculptor.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D6B426E123A36D1"]
+			description: [
+				"{quests.lost_light.bosses.naga.desc.0}"
+				""
+				"{quests.lost_light.bosses.naga.desc.2}"
+				""
+				"{quests.lost_light.bosses.naga.desc.4}"
+			]
+			icon: "mowziesmobs:naga_fang"
+			id: "5884E054B7901351"
+			rewards: [{
+				id: "3C02ACEC959B6ADE"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.naga.subtitle}"
+			tasks: [
+				{
+					entity: "mowziesmobs:naga"
+					icon: "mowziesmobs:naga_spawn_egg"
+					id: "3993E1F24CEF0F8A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "149A461452CABB94"
+					item: {
+						Count: 1
+						id: "mowziesmobs:naga_fang_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.bosses.naga.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52029DDDDA9CC522"]
+			description: [
+				"{quests.lost_light.bosses.regicide.desc.0}"
+				""
+				"{quests.lost_light.bosses.regicide.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D4CCDAB68F60F43"
+			rewards: [{
+				id: "28401219CD1699E8"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.regicide.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "29A3A74181B032D3"
+				title: "{quests.lost_light.bosses.regicide.task0}"
+				type: "custom"
+			}]
+			title: "{quests.lost_light.bosses.regicide.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52029DDDDA9CC522"]
+			description: [
+				"{quests.lost_light.bosses.eight_crowns.desc.0}"
+				""
+				"{quests.lost_light.bosses.eight_crowns.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3838FE1E51A242EC"
+			optional: true
+			rewards: [{
+				id: "3CBC77D835CED2B7"
+				table_id: 5101354976124478578L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.bosses.eight_crowns.subtitle}"
+			tasks: [
+				{
+					entity: "valarian_conquest:valarian_king"
+					icon: "valarian_conquest:valarian_king_spawn_egg"
+					id: "14AB785656F85BDF"
+					title: "{quests.lost_light.bosses.eight_crowns.task0}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:bohemian_king"
+					icon: "valarian_conquest:bohemian_king_spawn_egg"
+					id: "75937E460F734B26"
+					title: "{quests.lost_light.bosses.eight_crowns.task1}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:caladrian_king"
+					icon: "valarian_conquest:caladrian_king_spawn_egg"
+					id: "169D2AB1EEB41129"
+					title: "{quests.lost_light.bosses.eight_crowns.task2}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:visgothian_king"
+					icon: "valarian_conquest:visgothian_king_spawn_egg"
+					id: "1CF7829D1EC72BA7"
+					title: "{quests.lost_light.bosses.eight_crowns.task3}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:galician_king"
+					icon: "valarian_conquest:galician_king_spawn_egg"
+					id: "68A9784724E72CFD"
+					title: "{quests.lost_light.bosses.eight_crowns.task4}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:numerian_king"
+					icon: "valarian_conquest:numerian_king_spawn_egg"
+					id: "09F6E7639A62A04A"
+					title: "{quests.lost_light.bosses.eight_crowns.task5}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:gardonian_king"
+					icon: "valarian_conquest:gardonian_king_spawn_egg"
+					id: "0E33996813DC2B09"
+					title: "{quests.lost_light.bosses.eight_crowns.task6}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "valarian_conquest:lancastian_king"
+					icon: "valarian_conquest:lancastian_king_spawn_egg"
+					id: "2700CA55A18A3E07"
+					title: "{quests.lost_light.bosses.eight_crowns.task7}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{quests.lost_light.bosses.eight_crowns.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2D1807A504092726"
+				"73C298295DD40A70"
+				"1388B414B7F9066A"
+				"5884E054B7901351"
+				"3D4CCDAB68F60F43"
+				"4D5A43F026CC38C2"
+			]
+			description: [
+				"{quests.lost_light.bosses.legend.desc.0}"
+				""
+				"{quests.lost_light.bosses.legend.desc.2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -2L
+						traits: [ ]
+					}
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "098174CA9870109F"
+			rewards: [{
+				id: "7680333D65709BC0"
+				table_id: 5101354976124478578L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{quests.lost_light.bosses.legend.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							traits: [ ]
+						}
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				id: "5AEEB1AEB9EC21B5"
+				title: "{quests.lost_light.bosses.legend.task0}"
+				type: "checkmark"
+			}]
+			title: "{quests.lost_light.bosses.legend.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.bosses.subtitle.0}"]
+	title: "{quests.lost_light.bosses.title}"
+}

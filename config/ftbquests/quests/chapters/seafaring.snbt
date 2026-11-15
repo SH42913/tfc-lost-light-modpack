@@ -1,0 +1,328 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seafaring"
+	group: "3B283BBEC04E42A0"
+	icon: "firmaciv:small_triangular_sail"
+	id: "01E3C52835FE8773"
+	order_index: 2
+	quest_links: [
+		{
+			id: "7C1988FDDCFA5E47"
+			linked_quest: "18081AA054516596"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7D88E73A88D0A4AC"
+			linked_quest: "6E9B54070F5912C7"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0CE25AF79664175F"
+			linked_quest: "0C5436C66631405D"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "7DCFB49774417514"
+			linked_quest: "704BCF8A1AAFC62F"
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"18081AA054516596"
+				"33018BAD796A3823"
+			]
+			description: [
+				"{quests.lost_light.seafaring.shipwright.desc.0}"
+				""
+				"{quests.lost_light.seafaring.shipwright.desc.2}"
+			]
+			icon: "firmaciv:watercraft_frame_angled"
+			id: "37E6C4AB49A1AAB1"
+			rewards: [{
+				id: "64D1C64D1C5DD745"
+				item: "tfc:metal/ingot/copper"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.seafaring.shipwright.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					icon: "firmaciv:watercraft_frame_angled"
+					id: "1974EFFFB21A00A3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(firmaciv:watercraft_frame_angled)item(alekiships:watercraft_frame_angled))"
+						}
+					}
+					title: "{quests.lost_light.seafaring.shipwright.task0}"
+					type: "item"
+				}
+				{
+					count: 2L
+					icon: "firmaciv:watercraft_frame_flat"
+					id: "68D7A80062837532"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(firmaciv:watercraft_frame_flat)item(alekiships:watercraft_frame_flat))"
+						}
+					}
+					title: "{quests.lost_light.seafaring.shipwright.task1}"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3158C3F5DE1DF75E"
+					item: "firmaciv:copper_bolt"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.seafaring.shipwright.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37E6C4AB49A1AAB1"]
+			description: ["{quests.lost_light.seafaring.abandoned_ship.desc.0}"]
+			icon: "firmaciv:watercraft_frame_flat"
+			id: "6F3A79B11129AD43"
+			rewards: [{
+				id: "0380EA97CAE33AC1"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
+			subtitle: "{quests.lost_light.seafaring.abandoned_ship.subtitle}"
+			tasks: [{
+				icon: "firmaciv:watercraft_frame_flat"
+				id: "6ED7D54C972B2DDB"
+				structure: "#lost_light:quests/seafaring_abandoned_ship_0"
+				title: "{quests.lost_light.seafaring.abandoned_ship.task0}"
+				type: "structure"
+			}]
+			title: "{quests.lost_light.seafaring.abandoned_ship.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37E6C4AB49A1AAB1"
+				"4196DA67E409F5BA"
+			]
+			description: [
+				"{quests.lost_light.seafaring.rowboat.desc.0}"
+				""
+				"{quests.lost_light.seafaring.rowboat.desc.2}"
+			]
+			icon: "alekiships:oar"
+			id: "249DF88C03CE5C18"
+			rewards: [{
+				id: "0E9B1A7CB7F3D14A"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.seafaring.rowboat.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "1B30E2D0694EC697"
+					item: "alekiships:oar"
+					type: "item"
+				}
+				{
+					icon: "alekiships:oar"
+					id: "185044B4A4F2C37C"
+					observe_type: 6
+					timer: 20L
+					title: "{quests.lost_light.seafaring.rowboat.task1}"
+					to_observe: "lost_light:quests/seafaring_rowboat_1"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.seafaring.rowboat.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"249DF88C03CE5C18"
+				"2624BBAA94AB56FF"
+			]
+			description: [
+				"{quests.lost_light.seafaring.rigging.desc.0}"
+				""
+				"{quests.lost_light.seafaring.rigging.desc.2}"
+			]
+			icon: "firmaciv:rope_coil"
+			id: "18E66D0DC4106BBD"
+			rewards: [{
+				count: 8
+				id: "249C0E3E80F077C6"
+				item: "tfc:wool_cloth"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.seafaring.rigging.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "3ADFC9DE04026C16"
+					item: "firmaciv:rope_coil"
+					type: "item"
+				}
+				{
+					id: "5BC65066B0CB4160"
+					item: "firmaciv:small_triangular_sail"
+					type: "item"
+				}
+				{
+					id: "5087F54E854D6C60"
+					item: "firmaciv:medium_triangular_sail"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.seafaring.rigging.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"18E66D0DC4106BBD"
+				"49EE3213E760984D"
+			]
+			description: [
+				"{quests.lost_light.seafaring.sloop.desc.0}"
+				""
+				"{quests.lost_light.seafaring.sloop.desc.2}"
+				""
+				"{quests.lost_light.seafaring.sloop.desc.4}"
+			]
+			icon: "firmaciv:medium_triangular_sail"
+			id: "03FBBC6A9C0346EE"
+			rewards: [
+				{
+					id: "31614823BDAB0CDC"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+				{
+					id: "4708CD6F16D2BE80"
+					item: "tfc:metal/ingot/steel"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.seafaring.sloop.subtitle}"
+			tasks: [
+				{
+					id: "228BB0B2708AC1DC"
+					item: "alekiships:anchor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FEB75DABF8E45C7"
+					item: "alekiships:cleat"
+					type: "item"
+				}
+				{
+					icon: "firmaciv:medium_triangular_sail"
+					id: "13DC7C2447073B3F"
+					observe_type: 6
+					timer: 20L
+					title: "{quests.lost_light.seafaring.sloop.task2}"
+					to_observe: "lost_light:quests/seafaring_sloop_2"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.seafaring.sloop.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["249DF88C03CE5C18"]
+			description: [
+				"{quests.lost_light.seafaring.cannon.desc.0}"
+				""
+				"{quests.lost_light.seafaring.cannon.desc.2}"
+			]
+			icon: "firmaciv:cannon"
+			id: "2232BF6601780B04"
+			optional: true
+			rewards: [{
+				id: "3D05899AF88A1493"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.seafaring.cannon.subtitle}"
+			tasks: [
+				{
+					icon: "firmaciv:cannon"
+					id: "53DE743D41C67555"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(firmaciv:cannon)item(alekiships:cannon))"
+						}
+					}
+					title: "{quests.lost_light.seafaring.cannon.task0}"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "275DB24AE8513DB3"
+					item: "alekiships:cannonball"
+					type: "item"
+				}
+			]
+			title: "{quests.lost_light.seafaring.cannon.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C5436C66631405D"]
+			description: [
+				"{quests.lost_light.seafaring.timepiece.desc.0}"
+				""
+				"{quests.lost_light.seafaring.timepiece.desc.2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:nav_clock"
+			}
+			id: "25636BF2ACB75401"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "4C1FD0C0EB31C5A3"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.seafaring.timepiece.subtitle}"
+			tasks: [{
+				id: "48FA454F7108DD5C"
+				item: "firmaciv:nav_clock"
+				type: "item"
+			}]
+			title: "{quests.lost_light.seafaring.timepiece.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{quests.lost_light.seafaring.subtitle.0}"]
+	title: "{quests.lost_light.seafaring.title}"
+}
