@@ -629,6 +629,17 @@
         "#tfc:is_river",
         "#tfc:is_lake"
       ]
+    },
+    {
+      "name": "tfchuts:settlement",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean"
+      ]
     }
   ],
   "structure_sets": [
