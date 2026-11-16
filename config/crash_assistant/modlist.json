@@ -1484,6 +1484,22 @@
     "curseForgeHash": 2579913989,
     "modrinthHash": "f795c63f4569eec5d0e3b650edabe244582a84ba"
   },
+  "mcaconversations-1.8.2.jar": {
+    "jarName": "mcaconversations-1.8.2.jar",
+    "modId": "mcaconversations",
+    "name": "MCA: Conversations",
+    "version": "1.8.2",
+    "curseForgeHash": 3712607114,
+    "modrinthHash": "eff1dc3584518a88269d32bd13420edaa48dc32a"
+  },
+  "mcareputation-0.6.2.jar": {
+    "jarName": "mcareputation-0.6.2.jar",
+    "modId": "mcareputation",
+    "name": "MCA: Reputation",
+    "version": "0.6.2",
+    "curseForgeHash": 525117489,
+    "modrinthHash": "e9eadd4ad6b09906052b2237bd8dd42ee3ae2544"
+  },
   "mcw-paintings-1.1.0-mc1.20.1forge.jar": {
     "jarName": "mcw-paintings-1.1.0-mc1.20.1forge.jar",
     "modId": "mcwpaintings",
