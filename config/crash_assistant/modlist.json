@@ -85,13 +85,13 @@
     "curseForgeHash": 370185248,
     "modrinthHash": "c42aaab43cd524c45c4065996cc06b9b48c5682a"
   },
-  "alltheleaks-1.1.5-1.20.1-forge.jar": {
-    "jarName": "alltheleaks-1.1.5-1.20.1-forge.jar",
+  "alltheleaks-1.1.6-1.20.1-forge.jar": {
+    "jarName": "alltheleaks-1.1.6-1.20.1-forge.jar",
     "modId": "alltheleaks",
     "name": "All The Leaks",
-    "version": "1.1.5+1.20.1-forge",
-    "curseForgeHash": 3160170455,
-    "modrinthHash": "97cbda479edec6cb12a256f53635a73d182e1433"
+    "version": "1.1.6+1.20.1-forge",
+    "curseForgeHash": 4182339487,
+    "modrinthHash": "e61dfd54696a2feaa836c14cb4f523b5d227d3d1"
   },
   "almanac-forge-1.20.1-1.26.11.1.jar": {
     "jarName": "almanac-forge-1.20.1-1.26.11.1.jar",
@@ -381,13 +381,13 @@
     "curseForgeHash": 635589968,
     "modrinthHash": "c65d07748acc57ceb45d53b3964368b84f34d54f"
   },
-  "collective-1.20.1-8.86.jar": {
-    "jarName": "collective-1.20.1-8.86.jar",
+  "collective-1.20.1-8.87.jar": {
+    "jarName": "collective-1.20.1-8.87.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.86",
-    "curseForgeHash": 1762949,
-    "modrinthHash": "86de515018d3bb853cf0a91c026acde748c3e29c"
+    "version": "8.87",
+    "curseForgeHash": 3356942475,
+    "modrinthHash": "1e3dd2e0024baee257f27a671cb11b9fd36f6574"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -1090,13 +1090,13 @@
     "curseForgeHash": 3690314662,
     "modrinthHash": "81982cc287f80ffabb2fd36d22cc95e4255c739d"
   },
-  "gnetum-2.5.1+1.20.1-forge.jar": {
-    "jarName": "gnetum-2.5.1+1.20.1-forge.jar",
+  "gnetum-2.5.2-1.20.1-forge.jar": {
+    "jarName": "gnetum-2.5.2-1.20.1-forge.jar",
     "modId": "gnetum",
     "name": "Gnetum",
-    "version": "2.5.1+1.20.1-forge",
-    "curseForgeHash": 2300011464,
-    "modrinthHash": "1482127693ec79ac9287f401dc3fc1c1b09b2456"
+    "version": "2.5.2+1.20.1-forge",
+    "curseForgeHash": 2316549144,
+    "modrinthHash": "63d79aa2f1bdc3a869299a6a6379cb5057798cae"
   },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
@@ -1359,10 +1359,10 @@
     "curseForgeHash": 2392977662,
     "modrinthHash": "962fdb760409d6d71cbf079235f1ca94e3863a22"
   },
-  "KotlinLangForge-kff-compat-2.19.0-k2.4.21-2.0-forge.jar": {
-    "jarName": "KotlinLangForge-kff-compat-2.19.0-k2.4.21-2.0-forge.jar",
-    "curseForgeHash": 4185300470,
-    "modrinthHash": "8aaaf0a65e64235cad293b3b2304b49127ffd5a1"
+  "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar": {
+    "jarName": "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar",
+    "curseForgeHash": 2757926091,
+    "modrinthHash": "e35ef27a9c0110afee73161a3c2b44f8f65195af"
   },
   "kubejs-create-forge-2001.3.0-build.8.jar": {
     "jarName": "kubejs-create-forge-2001.3.0-build.8.jar",
@@ -2155,13 +2155,13 @@
     "curseForgeHash": 2420586859,
     "modrinthHash": "4beb25822bcd76f3137f864615297d053565ef6f"
   },
-  "supplementaries-1.20-3.1.44-forge.jar": {
-    "jarName": "supplementaries-1.20-3.1.44-forge.jar",
+  "supplementaries-1.20-3.1.45-forge.jar": {
+    "jarName": "supplementaries-1.20-3.1.45-forge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.20-3.1.44",
-    "curseForgeHash": 3476983534,
-    "modrinthHash": "01e9bd4c264c6e04c7613095438bf0eee657b16f"
+    "version": "1.20-3.1.45",
+    "curseForgeHash": 29666819,
+    "modrinthHash": "cca362c149570e3926aac82be199d66aaf94928a"
   },
   "survivorsabilities-1.5.1-all.jar": {
     "jarName": "survivorsabilities-1.5.1-all.jar",
@@ -2283,13 +2283,13 @@
     "curseForgeHash": 3685185353,
     "modrinthHash": "c9f18acc1846fd9eaaa40ca3121466269eb78d4a"
   },
-  "tfc_eratosthenes-Forge-1.20.1-3.0.0.jar": {
-    "jarName": "tfc_eratosthenes-Forge-1.20.1-3.0.0.jar",
+  "tfc_eratosthenes-Forge-1.20.1-3.0.1.jar": {
+    "jarName": "tfc_eratosthenes-Forge-1.20.1-3.0.1.jar",
     "modId": "tfc_eratosthenes",
     "name": "TFC Eratosthenes",
-    "version": "3.0.0",
-    "curseForgeHash": 4023450479,
-    "modrinthHash": "7ec397b942f0ae0e065427a3cfdeaf3650897a12"
+    "version": "3.0.1",
+    "curseForgeHash": 2932678496,
+    "modrinthHash": "6df4f3f7cca6564f448d0d6249d8a56c9d29639f"
   },
   "tfc_loot-1.20.1-forge-ver.1.0.4.jar": {
     "jarName": "tfc_loot-1.20.1-forge-ver.1.0.4.jar",
