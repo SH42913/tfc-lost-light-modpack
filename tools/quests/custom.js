@@ -184,4 +184,115 @@ if (stack.getEnchantmentTags().size() >= ${min}) {
 }`), { kind: 'hasEnchanted', min, ...opts });
 }
 
-module.exports = { hasFluid, hasFoodTrait, hasRottenFood, climate, altitude, distance, season, fullMoon, nearFamiliar, killAny, diedTo, hasEnchanted, FOOD_TRAITS };
+/**
+ * Be inside a village as MCA sees it (VillageManager: the village border MCA builds from its buildings - the same check
+ * as its "entering village" notification). Unlike a structure task it works for any village structure (FTB only checks
+ * structure pieces, so the open ground between the houses of e.g. a desert oasis village doesn't count) and for
+ * villages players built. opts: title, icon.
+ */
+function inMcaVillage(opts = {}) {
+  return custom(`
+const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
+const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
+if (village && village.getPopulation() > 0) task.progress++`, { kind: 'inMcaVillage', timer: 40, ...opts });
+}
+
+// ---------- MCA: Reputation (mods/mcareputation-*.jar, API dev.otectus.mcareputation.api.McaReputationApi) ----------
+// Tiers of data/mcareputation/mcareputation/reputation_tiers/default.json, lowest first.
+const REP_TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered'];
+const tierIndex = (t) => {
+  const i = REP_TIERS.indexOf(t);
+  if (i < 0) throw new Error(`reputation: unknown tier ${t}`);
+  return i;
+};
+// Loop over the player's standing snapshots (one per village that knows them); `body` sees `s` and `tier(id)` -
+// the index of a tier id in TIERS (-1 for unknown ladders).
+const forEachSnapshot = (body) => `
+const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+const TIERS = ${list(REP_TIERS)}
+const tier = (id) => TIERS.indexOf(String(id))
+const hasIncident = (s, want) => {
+  const incs = s.incidents()
+  for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+  return false
+}
+const snaps = Api.getAllSnapshots(player.server, player.uuid)
+for (let i = 0; i < snaps.size(); i++) {
+  let s = snaps.get(i)
+${body.trim().split('\n').map((l) => '  ' + l).join('\n')}
+}`;
+// Condition on snapshot `s`: tier at least `t`. current: the tier right now; otherwise also the best tier ever reached
+// (highWaterTierId), so the quest isn't lost when the standing decays.
+const tierAtLeast = (t, current) => (current
+  ? `tier(s.tierId()) >= ${tierIndex(t)}`
+  : `Math.max(tier(s.tierId()), tier(s.highWaterTierId().orElse(''))) >= ${tierIndex(t)}`);
+// Condition on snapshot `s`: it holds an incident whose type path is one of `types` (namespace not compared).
+const hasIncident = (types) => `hasIncident(s, ${list(types)})`;
+
+/**
+ * Reach reputation tier `t` (or higher) with any village. opts: current (the tier right now, not the best ever reached),
+ * title, icon.
+ */
+function reputationTier(t, opts = {}) {
+  const { current, ...rest } = opts;
+  return custom(forEachSnapshot(`
+if (${tierAtLeast(t, current)}) {
+  task.progress++
+  return
+}`), { kind: 'reputationTier', tier: t, current: !!current, timer: 100, ...rest });
+}
+
+/** Fall to reputation tier `t` (or lower) with any village, right now (the lowest tier ever is not stored). */
+function reputationTierAtMost(t, opts = {}) {
+  return custom(forEachSnapshot(`
+if (tier(s.tierId()) >= 0 && tier(s.tierId()) <= ${tierIndex(t)}) {
+  task.progress++
+  return
+}`), { kind: 'reputationTierAtMost', tier: t, timer: 100, ...opts });
+}
+
+/**
+ * A reputation incident of one of `types` (incident ids without namespace: villager_rescued, villager_cured, raid_repelled,
+ * restitution_completed, public_apology, ... - data/mcareputation/mcareputation/incidents/) with any village.
+ * opts: orTier ({ tier, current }) - or reach that tier instead; title, icon.
+ */
+function reputationIncident(types, opts = {}) {
+  types = [].concat(types);
+  const { orTier, ...rest } = opts;
+  const cond = [hasIncident(types), orTier && tierAtLeast(orTier.tier, orTier.current)].filter(Boolean).join(' || ');
+  return custom(forEachSnapshot(`
+if (${cond}) {
+  task.progress++
+  return
+}`), { kind: 'reputationIncident', types, orTier, timer: 100, ...rest });
+}
+
+// ---------- MCA Outlaws (mods/mcaoutlaws-*.jar): illagers drawn as MCA humans, unarmed ones surrender ----------
+const nearEntity = (cond, kind, opts, pre = '') => custom(`${pre}
+const list = player.level.getEntitiesWithin(player.getBoundingBox().inflate(8))
+for (let i = 0; i < list.size(); i++) {
+  let e = list.get(i)
+  if (${cond}) {
+    task.progress++
+    return
+  }
+}`, { kind, timer: 40, ...opts });
+
+/** Stand within 8 blocks of a surrendered outlaw (an unarmed illager). opts: title, icon. */
+function nearSurrenderedOutlaw(opts = {}) {
+  return nearEntity('OutlawRules.isSurrendered(e)', 'nearSurrenderedOutlaw', opts,
+    "const OutlawRules = Java.loadClass('com.tato.mcaoutlaws.OutlawRules')");
+}
+
+/**
+ * Stand within 8 blocks of a redeemed outlaw: an MCA villager still in outlaw clothes
+ * (Redemption -> OutlawLooks.applyTo sets clothes mcaoutlaws:skins/clothing/...). opts: title, icon.
+ */
+function nearRedeemedOutlaw(opts = {}) {
+  return nearEntity(`e.getClothes && String(e.getClothes()).indexOf('mcaoutlaws:') == 0`, 'nearRedeemedOutlaw', opts);
+}
+
+module.exports = {
+  hasFluid, hasFoodTrait, hasRottenFood, climate, altitude, distance, season, fullMoon, nearFamiliar, killAny, diedTo, hasEnchanted,
+  inMcaVillage, reputationTier, reputationTierAtMost, reputationIncident, nearSurrenderedOutlaw, nearRedeemedOutlaw, FOOD_TRAITS,
+};

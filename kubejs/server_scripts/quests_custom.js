@@ -807,6 +807,24 @@ FTBQuestsEvents.customTask('53D312FD6F89AE7D', event => {
   })
 })
 
+// exploration/village task#0
+FTBQuestsEvents.customTask('7471B30593C916A7', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(40)
+  const check = (task, player) => {
+    const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
+    const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
+    if (village && village.getPopulation() > 0) task.progress++
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task exploration/village task#0: ' + e)
+    }
+  })
+})
+
 // travel/first_steps task#0
 FTBQuestsEvents.customTask('53AECD3B1FAF88E8', event => {
   event.maxProgress = 1000
@@ -1098,6 +1116,381 @@ FTBQuestsEvents.customTask('0A40668F8F02567A', event => {
 // bosses/regicide task#0
 FTBQuestsEvents.customTask('29A3A74181B032D3', event => {
   event.maxProgress = 1
+})
+
+// villagers/new_neighbors task#0
+FTBQuestsEvents.customTask('7DB5EBBD3956B734', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(40)
+  const check = (task, player) => {
+    const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
+    const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
+    if (village && village.getPopulation() > 0) task.progress++
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/new_neighbors task#0: ' + e)
+    }
+  })
+})
+
+// villagers/reputation task#0
+FTBQuestsEvents.customTask('1DCE4731DF87664F', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (Math.max(tier(s.tierId()), tier(s.highWaterTierId().orElse(''))) >= 5) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/reputation task#0: ' + e)
+    }
+  })
+})
+
+// villagers/honored task#0
+FTBQuestsEvents.customTask('78A7024D4A591835', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (Math.max(tier(s.tierId()), tier(s.highWaterTierId().orElse(''))) >= 7) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/honored task#0: ' + e)
+    }
+  })
+})
+
+// villagers/revered task#0
+FTBQuestsEvents.customTask('7AE6F2522516BC2D', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (Math.max(tier(s.tierId()), tier(s.highWaterTierId().orElse(''))) >= 8) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/revered task#0: ' + e)
+    }
+  })
+})
+
+// villagers/rescuer task#0
+FTBQuestsEvents.customTask('69EEF5D5CF0E4AB2', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (hasIncident(s, ['villager_rescued'])) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/rescuer task#0: ' + e)
+    }
+  })
+})
+
+// villagers/healer task#0
+FTBQuestsEvents.customTask('38ED9BFCD87A99FC', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (hasIncident(s, ['villager_cured'])) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/healer task#0: ' + e)
+    }
+  })
+})
+
+// villagers/raid_defender task#0
+FTBQuestsEvents.customTask('11B38CB8C2FC9793', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (hasIncident(s, ['raid_repelled'])) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/raid_defender task#0: ' + e)
+    }
+  })
+})
+
+// villagers/distrusted task#0
+FTBQuestsEvents.customTask('522CBD5343A3AB2E', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (tier(s.tierId()) >= 0 && tier(s.tierId()) <= 2) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/distrusted task#0: ' + e)
+    }
+  })
+})
+
+// villagers/outcast task#0
+FTBQuestsEvents.customTask('3D67040ED2534FEA', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (tier(s.tierId()) >= 0 && tier(s.tierId()) <= 1) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/outcast task#0: ' + e)
+    }
+  })
+})
+
+// villagers/scourge task#0
+FTBQuestsEvents.customTask('4CD2CB2150608BA9', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (tier(s.tierId()) >= 0 && tier(s.tierId()) <= 0) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/scourge task#0: ' + e)
+    }
+  })
+})
+
+// villagers/atonement task#0
+FTBQuestsEvents.customTask('0C7B8F1DC900473A', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(100)
+  const check = (task, player) => {
+    const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
+    const tier = (id) => TIERS.indexOf(String(id))
+    const hasIncident = (s, want) => {
+      const incs = s.incidents()
+      for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
+      return false
+    }
+    const snaps = Api.getAllSnapshots(player.server, player.uuid)
+    for (let i = 0; i < snaps.size(); i++) {
+      let s = snaps.get(i)
+      if (hasIncident(s, ['restitution_completed', 'public_apology']) || tier(s.tierId()) >= 5) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/atonement task#0: ' + e)
+    }
+  })
+})
+
+// villagers/surrender task#0
+FTBQuestsEvents.customTask('0A24ACEFE4847DE3', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(40)
+  const check = (task, player) => {
+    const OutlawRules = Java.loadClass('com.tato.mcaoutlaws.OutlawRules')
+    const list = player.level.getEntitiesWithin(player.getBoundingBox().inflate(8))
+    for (let i = 0; i < list.size(); i++) {
+      let e = list.get(i)
+      if (OutlawRules.isSurrendered(e)) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/surrender task#0: ' + e)
+    }
+  })
+})
+
+// villagers/redemption task#0
+FTBQuestsEvents.customTask('310F080264A265D7', event => {
+  event.maxProgress = 1
+  event.setCheckTimer(40)
+  const check = (task, player) => {
+    const list = player.level.getEntitiesWithin(player.getBoundingBox().inflate(8))
+    for (let i = 0; i < list.size(); i++) {
+      let e = list.get(i)
+      if (e.getClothes && String(e.getClothes()).indexOf('mcaoutlaws:') == 0) {
+        task.progress++
+        return
+      }
+    }
+  }
+  event.setCheck((task, player) => {
+    try {
+      check(task, player)
+    } catch (e) {
+      console.error('quest task villagers/redemption task#0: ' + e)
+    }
+  })
 })
 
 // enchanting/first_enchantment task#0

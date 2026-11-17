@@ -165,7 +165,7 @@
   "innSpawnsWanderingTraders": true,
   "fractionOfVanillaVillages": 0.0,
   "fractionOfVanillaZombies": 0.0,
-  "minimumBuildingsToBeConsideredAVillage": 3,
+  "minimumBuildingsToBeConsideredAVillage": 2,
   "villagerDimensionBlacklist": [],
   "allowedSpawnReasons": [
     "natural",

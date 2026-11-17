@@ -4,6 +4,7 @@
 // The world is themed after the peoples of tfc_structures biome groups (dwarves, orcs, bandits, kingdoms).
 // Text formatting: &6 - names, &e - where to look, &r - reset.
 const { chapter, quest, item, structure, checkmark, lootCrate } = require('../lib');
+const { inMcaVillage } = require('../custom');
 
 const ns = (namespace, ids) => ids.map((id) => `${namespace}:${id}`);
 const FACTIONS = ['valarian', 'bohemian', 'caladrian', 'visgothian', 'galician', 'numerian', 'gardonian', 'lancastian'];
@@ -12,21 +13,6 @@ const RUINS = [
   ...ns('forest_ruins', ['ruin_1', 'ruin_2', 'ruin_3', 'ruin_4', 'ruin_5', 'ruin_6', 'ruin_7']),
   ...ns('tfc_ruins', ['ruin_beach', 'ruin_rich', 'ruin_small']),
   'nova_structures:wild_ruin', 'nova_structures:ruin_town', 'repurposed_structures:ruins_land_warm',
-];
-const VILLAGES = [
-  ...ns('minecraft', ['village_plains', 'village_taiga', 'village_desert', 'village_savanna']),
-  ...ns('ctov', ['small/village_plains', 'small/village_plains_fortified', 'medium/village_plains', 'medium/village_plains_fortified',
-    'small/village_beach', 'medium/village_beach', 'small/village_swamp', 'small/village_swamp_fortified', 'medium/village_swamp',
-    'medium/village_swamp_fortified', 'small/village_taiga', 'small/village_taiga_fortified', 'medium/village_taiga',
-    'medium/village_taiga_fortified', 'small/village_desert', 'small/village_desert_oasis', 'medium/village_desert',
-    'medium/village_desert_oasis', 'small/village_mesa', 'small/village_mesa_fortified', 'medium/village_mesa',
-    'medium/village_mesa_fortified', 'small/village_savanna', 'small/village_savanna_na', 'medium/village_savanna',
-    'medium/village_savanna_na', 'small/village_jungle', 'small/village_jungle_tree', 'medium/village_jungle',
-    'medium/village_jungle_tree', 'small/village_dark_forest', 'medium/village_dark_forest', 'small/village_mushroom',
-    'medium/village_mushroom']),
-  ...ns('repurposed_structures', ['village_cherry', 'village_oak', 'village_birch', 'village_swamp', 'village_giant_taiga',
-    'village_badlands', 'village_bamboo', 'village_jungle', 'village_dark_forest', 'village_mushroom', 'village_ocean']),
-  'nova_structures:village_swamp', 'nova_structures:village_jungle', 'dungeons_arise:mushroom_village',
 ];
 const TAVERNS = ns('nova_structures', ['tavern_cherry', 'tavern_birch', 'tavern_swamp', 'tavern_oak', 'tavern_spruce', 'tavern_desert',
   'tavern_mangrove', 'tavern_acacia', 'tavern_jungle', 'tavern_dark_oak']).concat('dungeons_arise:greenwood_pub');
@@ -211,7 +197,8 @@ module.exports = chapter('exploration', {
       },
       icon: 'minecraft:bell',
       deps: ['explorer'],
-      tasks: [structure(VILLAGES, { title: { ru: 'Найди деревню', en: 'Find a village' }, icon: 'minecraft:bell' })],
+      // MCA's own village detection: FTB structure tasks only count structure pieces (see custom.js inMcaVillage)
+      tasks: [inMcaVillage({ title: { ru: 'Найди деревню', en: 'Find a village' }, icon: 'minecraft:bell' })],
       ...COMMON,
     }),
 
