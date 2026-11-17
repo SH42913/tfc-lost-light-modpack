@@ -1,0 +1,38 @@
+{
+  "structures": [
+    {
+      "structure": "tfc_spirits:shrine/argon",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/typhon",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/venusia",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/nessus",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/maldor",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/esret",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_spirits:shrine/gwanador",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1316212734,
+    "spacing": 88,
+    "separation": 20
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "tfc_trees:acacia_giant_tree",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_trees:ash_giant_tree",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_trees:hickory_giant_tree",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_trees:kapok_giant_tree",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_trees:oak_giant_tree",
+      "weight": 1
+    },
+    {
+      "structure": "tfc_trees:plum_giant_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2104496817,
+    "spacing": 60,
+    "separation": 30
+  }
+}

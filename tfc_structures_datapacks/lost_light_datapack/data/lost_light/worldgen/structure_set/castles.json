@@ -1,0 +1,78 @@
+{
+  "structures": [
+    {
+      "structure": "valarian_conquest:aegis_castle_structure",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:bohemiancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:caladrian_castle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:galiciancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:gardoniancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:lancastiancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:numeriancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:valariancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:visgothiancastle",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:caladrianfort",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:galician_fort",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:gilded_legion_fort",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:orc_fort",
+      "weight": 1
+    },
+    {
+      "structure": "valarian_conquest:valarianfort",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:stray_fort",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:fortress_jungle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1008601691,
+    "spacing": 75,
+    "separation": 38,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    }
+  }
+}

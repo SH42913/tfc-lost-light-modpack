@@ -1,0 +1,130 @@
+{
+  "structures": [
+    {
+      "structure": "hobbit_house_:hobbit_house",
+      "weight": 1
+    },
+    {
+      "structure": "smallhorsestable:horse_stable",
+      "weight": 1
+    },
+    {
+      "structure": "create_rustic_structures:rustic_barn",
+      "weight": 1
+    },
+    {
+      "structure": "create_rustic_structures:rustic_well",
+      "weight": 1
+    },
+    {
+      "structure": "create_rustic_structures:rustic_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:forest_house",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:forest_chapel",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:forest_stonemason",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:forest_fort",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:plains_mansion",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:plains_house",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:taiga_forge",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:taiga_woodcutter",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:taiga_inn",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:taiga_house",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_birch",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_dark_oak",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_savana",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_spruce",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:well_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_stone",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_grassy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:igloo_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mushroom_house",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:wishing_well",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:jungle_tree_house",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:lighthouse",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:fishing_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1240817189,
+    "spacing": 32,
+    "separation": 16
+  }
+}

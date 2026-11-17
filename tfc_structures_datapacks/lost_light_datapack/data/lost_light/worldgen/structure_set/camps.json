@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "valarian_conquest:bandit_camp",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:illager_camp",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:merchant_campsite",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:illager_campsite",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 135482876,
+    "spacing": 52,
+    "separation": 24,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    }
+  }
+}

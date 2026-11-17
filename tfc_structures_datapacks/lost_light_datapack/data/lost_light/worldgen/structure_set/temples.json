@@ -1,0 +1,74 @@
+{
+  "structures": [
+    {
+      "structure": "minecraft:desert_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:jungle_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:ruined_desert_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:ruinedjungletemple",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_giant_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_flower_forest",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_badlands",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:pyramid_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:temple_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:temple_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_jungle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 631195124,
+    "spacing": 53,
+    "separation": 23,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    }
+  }
+}

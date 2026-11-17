@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "mowziesmobs:frostmaw_spawn",
+      "weight": 1
+    },
+    {
+      "structure": "mowziesmobs:monastery",
+      "weight": 1
+    },
+    {
+      "structure": "mowziesmobs:umvuthana_grove",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 25678963,
+    "spacing": 128,
+    "separation": 64,
+    "super_exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 28
+    }
+  }
+}

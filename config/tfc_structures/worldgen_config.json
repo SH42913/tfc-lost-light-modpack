@@ -122,9 +122,7 @@
         "tfc:lake",
         "tfc:plateau_lake"
       ],
-      "structures": [
-        "dungeons_arise:illager_galley"
-      ]
+      "structures": []
     },
     {
       "id": "tfc_structures:is_any_lake",
@@ -220,10 +218,7 @@
         "tfc:deep_ocean",
         "tfc:deep_ocean_trench"
       ],
-      "structures": [
-        "dungeons_arise:ceryneian_hind",
-        "dungeons_arise:typhon"
-      ]
+      "structures": []
     },
     {
       "id": "tfc_structures:is_common_ocean",
@@ -545,7 +540,6 @@
         "dungeoncrawl:dungeon",
         "betterdungeons:skeleton_dungeon",
         "betterdungeons:small_dungeon",
-        "betterdungeons:small_nether_dungeon",
         "betterdungeons:spider_dungeon",
         "betterdungeons:zombie_dungeon"
       ]
@@ -875,9 +869,13 @@
     "repurposed_structures:monument_icy",
     "repurposed_structures:mineshaft_icy",
     "repurposed_structures:outpost_icy",
-    "repurposed_structures:pyramid_icy"
+    "repurposed_structures:pyramid_icy",
+    "dungeons_arise:typhon",
+    "dungeons_arise:ceryneian_hind",
+    "dungeons_arise:illager_galley"
   ],
   "defaultWorldgenStructures": [
+    "betterdungeons:small_nether_dungeon",
     "dungeons_arise:foundry",
     "dungeons_arise:scorched_mines",
     "minecraft:ancient_city",

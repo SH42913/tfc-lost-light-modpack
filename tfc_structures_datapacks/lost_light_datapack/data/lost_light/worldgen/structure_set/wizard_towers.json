@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "magical_relics:medium_wizard_tower",
+      "weight": 2
+    },
+    {
+      "structure": "magical_relics:large_wizard_tower",
+      "weight": 1
+    },
+    {
+      "structure": "magical_relics:small_wizard_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 96887900,
+    "spacing": 96,
+    "separation": 48,
+    "super_exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 28
+    }
+  }
+}

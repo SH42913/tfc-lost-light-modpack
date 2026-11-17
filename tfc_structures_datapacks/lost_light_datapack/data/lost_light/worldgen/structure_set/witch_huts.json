@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 1
+    },
+    {
+      "structure": "betterwitchhuts:witch_hut",
+      "weight": 1
+    },
+    {
+      "structure": "betterwitchhuts:witch_circle",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:mangrove_witch_hut",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_giant_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:witch_hut_dark_forest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1828801104,
+    "spacing": 60,
+    "separation": 16,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    }
+  }
+}

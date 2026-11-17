@@ -1,0 +1,38 @@
+{
+  "structures": [
+    {
+      "structure": "minecraft:ocean_ruin_warm",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ocean_ruin_cold",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:ocean_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:warm_ocean_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:small_ocean_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "archaeology_ruins:ruined_ocean_monument",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:conduit_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1932058640,
+    "spacing": 20,
+    "separation": 8
+  }
+}

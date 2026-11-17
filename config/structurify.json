@@ -1,701 +1,3056 @@
 {
   "config_version": "2.0.43",
-  "config_datetime": "2026-11-14_18-06-54",
+  "config_datetime": "2026-11-17_20-19-36",
   "general": {
-    "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 7.0
+    "prevent_structure_overlap": true
   },
   "structure_namespaces": [],
   "structures": [
+    {
+      "name": "minecraft:buried_treasure",
+      "whitelisted_biomes": [
+        "#tfc_structures:buried_treasure"
+      ]
+    },
+    {
+      "name": "minecraft:desert_pyramid",
+      "whitelisted_biomes": [
+        "#tfc_structures:desert_pyramid"
+      ]
+    },
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:jungle_pyramid",
+      "whitelisted_biomes": [
+        "#tfc_structures:jungle_pyramid"
+      ]
+    },
+    {
+      "name": "minecraft:mansion",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves_underground"
+      ]
+    },
     {
       "name": "minecraft:mineshaft_mesa",
       "is_disabled": true
     },
     {
-      "name": "minecraft:village_plains",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "minecraft:monument",
+      "whitelisted_biomes": [
+        "#tfc_structures:monument"
       ]
     },
     {
-      "name": "minecraft:village_taiga",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "minecraft:ocean_ruin_cold",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_cold"
+      ]
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_warm"
+      ]
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal_desert"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal_jungle"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal_mountain"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal_ocean"
+      ]
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "whitelisted_biomes": [
+        "#tfc_structures:ruined_portal_swamp"
+      ]
+    },
+    {
+      "name": "minecraft:shipwreck",
+      "whitelisted_biomes": [
+        "#tfc_structures:shipwreck"
+      ]
+    },
+    {
+      "name": "minecraft:shipwreck_beached",
+      "whitelisted_biomes": [
+        "#tfc_structures:shipwreck_beached"
+      ]
+    },
+    {
+      "name": "minecraft:stronghold",
+      "whitelisted_biomes": [
+        "#tfc_structures:stronghold"
+      ]
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "whitelisted_biomes": [
+        "#tfc_structures:swamp_hut"
+      ]
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "whitelisted_biomes": [
+        "#tfc_structures:trail_ruins"
       ]
     },
     {
       "name": "minecraft:village_desert",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "minecraft:village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
       ]
     },
     {
       "name": "minecraft:village_savanna",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
       ]
     },
     {
-      "name": "ctov:small/village_plains",
+      "name": "minecraft:village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_taiga",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
       ]
     },
     {
-      "name": "ctov:small/village_plains_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_rowboat_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_swamp"
       ]
     },
     {
-      "name": "ctov:small/village_taiga",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_rowboat_cherry",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_swamp"
       ]
     },
     {
-      "name": "ctov:small/village_taiga_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_rowboat_dark_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_swamp"
       ]
     },
     {
-      "name": "ctov:small/village_desert",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_rowboat_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_swamp"
       ]
     },
     {
-      "name": "ctov:small/village_desert_oasis",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_rowboat_spruce",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_swamp"
       ]
     },
     {
-      "name": "ctov:small/village_mesa",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_sloop_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
       ]
     },
     {
-      "name": "ctov:small/village_mesa_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_sloop_cherry",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
       ]
     },
     {
-      "name": "ctov:small/village_savanna",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_sloop_dark_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
       ]
     },
     {
-      "name": "ctov:small/village_savanna_na",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_sloop_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
       ]
     },
     {
-      "name": "ctov:small/village_jungle",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "alekiships:unfinished_sloop_spruce",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
       ]
     },
     {
-      "name": "ctov:small/village_jungle_tree",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:adoberuins",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
       ]
     },
     {
-      "name": "ctov:small/village_dark_forest",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:mudblacksmithruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
       ]
     },
     {
-      "name": "ctov:small/village_mushroom",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:mudpotterruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
       ]
     },
     {
-      "name": "ctov:small/village_mountain",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:mudschoolruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
       ]
     },
     {
-      "name": "ctov:small/village_mountain_alpine",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:ocean_ruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_cold"
       ]
     },
     {
-      "name": "ctov:medium/village_plains",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:ruined_desert_pyramid",
+      "whitelisted_biomes": [
+        "#tfc_structures:desert_pyramid"
       ]
     },
     {
-      "name": "ctov:medium/village_plains_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:ruined_ocean_monument",
+      "whitelisted_biomes": [
+        "#tfc_structures:monument"
       ]
     },
     {
-      "name": "ctov:medium/village_taiga",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+      "name": "archaeology_ruins:ruinedjungletemple",
+      "whitelisted_biomes": [
+        "#tfc_structures:jungle_pyramid"
       ]
     },
     {
-      "name": "ctov:medium/village_taiga_fortified",
+      "name": "archaeology_ruins:small_ocean_ruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_cold",
+        "#tfc_structures:ocean_ruin_warm"
+      ]
+    },
+    {
+      "name": "archaeology_ruins:smallmudruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "archaeology_ruins:warm_ocean_ruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_warm"
+      ]
+    },
+    {
+      "name": "betterdungeons:skeleton_dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "betterdungeons:small_dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "betterdungeons:spider_dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "betterdungeons:zombie_dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "betterwitchhuts:witch_circle",
+      "whitelisted_biomes": [
+        "#tfc_structures:swamp_hut"
+      ]
+    },
+    {
+      "name": "betterwitchhuts:witch_hut",
+      "whitelisted_biomes": [
+        "#tfc_structures:swamp_hut"
+      ]
+    },
+    {
+      "name": "create_rustic_structures:rustic_barn",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "create_rustic_structures:rustic_smithy",
+      "is_disabled": true
+    },
+    {
+      "name": "create_rustic_structures:rustic_well",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "create_rustic_structures:rustic_windmill",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "ctov:large/village_beach",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_christmas",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_dark_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_desert_oasis",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_jungle_tree",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_mesa",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_mesa_fortified",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_mountain_alpine",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_plains_fortified",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_savanna_na",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_snowy_igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_swamp_fortified",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_taiga_fortified",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:large/village_underground",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:medium/village_beach",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_christmas",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:medium/village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
       ]
     },
     {
       "name": "ctov:medium/village_desert",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
       ]
     },
     {
       "name": "ctov:medium/village_desert_oasis",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "ctov:medium/village_mesa",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "ctov:medium/village_mesa_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "ctov:medium/village_savanna",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "ctov:medium/village_savanna_na",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
       ]
     },
     {
       "name": "ctov:medium/village_jungle",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
       ]
     },
     {
       "name": "ctov:medium/village_jungle_tree",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
       ]
     },
     {
-      "name": "ctov:medium/village_dark_forest",
+      "name": "ctov:medium/village_mesa",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
       ]
     },
     {
-      "name": "ctov:medium/village_mushroom",
+      "name": "ctov:medium/village_mesa_fortified",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
       ]
     },
     {
       "name": "ctov:medium/village_mountain",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
       ]
     },
     {
       "name": "ctov:medium/village_mountain_alpine",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
       ]
     },
     {
-      "name": "repurposed_structures:village_mountains",
+      "name": "ctov:medium/village_mushroom",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
       ]
     },
     {
-      "name": "repurposed_structures:village_cherry",
+      "name": "ctov:medium/village_plains",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
       ]
     },
     {
-      "name": "repurposed_structures:village_oak",
+      "name": "ctov:medium/village_plains_fortified",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
       ]
     },
     {
-      "name": "repurposed_structures:village_birch",
+      "name": "ctov:medium/village_savanna",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
       ]
     },
     {
-      "name": "repurposed_structures:village_giant_taiga",
+      "name": "ctov:medium/village_savanna_na",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
       ]
     },
     {
-      "name": "repurposed_structures:village_badlands",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "repurposed_structures:village_bamboo",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "repurposed_structures:village_jungle",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "repurposed_structures:village_dark_forest",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "repurposed_structures:village_mushroom",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "nova_structures:village_jungle",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "dungeons_arise:bandit_village",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "dungeons_arise:mushroom_village",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake",
-        "#tfc:is_ocean"
-      ]
-    },
-    {
-      "name": "ctov:small/village_beach",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake"
-      ]
-    },
-    {
-      "name": "ctov:small/village_swamp",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake"
-      ]
-    },
-    {
-      "name": "ctov:small/village_swamp_fortified",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake"
-      ]
-    },
-    {
-      "name": "ctov:medium/village_beach",
-      "override_global_biome_check": true,
-      "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#tfc:is_river",
-        "#tfc:is_lake"
-      ]
+      "name": "ctov:medium/village_snowy_igloo",
+      "is_disabled": true
     },
     {
       "name": "ctov:medium/village_swamp",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
       ]
     },
     {
       "name": "ctov:medium/village_swamp_fortified",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_taiga_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_underground",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves_underground"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_badlands",
+      "whitelisted_biomes": [
+        "#tfc_structures:orcs"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_beach",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_dark_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_mesa",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_mountain",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_plains",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_savanna",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:pillager_outpost_swamp",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:pillager_outpost_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_beach",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_christmas",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:small/village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_desert",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_desert_oasis",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_jungle_tree",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mesa",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mesa_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mountain",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mountain_alpine",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "ctov:small/village_mushroom",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "ctov:small/village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_plains_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna_na",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_snowy_igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "ctov:small/village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_swamp_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_taiga_fortified",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "ctov:small/village_underground",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves_underground"
+      ]
+    },
+    {
+      "name": "dungeoncrawl:dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "dungeons_arise:abandoned_temple",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:aviary",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:bandit_towers",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:bandit_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:bandits"
+      ]
+    },
+    {
+      "name": "dungeons_arise:bathhouse",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:ceryneian_hind",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:coliseum",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:fishing_hut",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:giant_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:greenwood_pub",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "dungeons_arise:heavenly_challenger",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:heavenly_conqueror",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:heavenly_rider",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:illager_campsite",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "dungeons_arise:illager_corsair",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:illager_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "dungeons_arise:illager_galley",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:illager_windmill",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "dungeons_arise:infested_temple",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:jungle_tree_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "dungeons_arise:keep_kayra",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:lighthouse",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mechanical_nest",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:merchant_campsite",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mining_system",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "dungeons_arise:monastery",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mushroom_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mushroom_mines",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:mushroom_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "dungeons_arise:plague_asylum",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "dungeons_arise:shiraz_palace",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:small_blimp",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:small_prairie_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "dungeons_arise:thornborn_towers",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:typhon",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:undead_pirate_ship",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:wishing_well",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_1",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_2",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_3",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_4",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_5",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_6",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "forest_ruins:ruin_7",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "hobbit_house_:hobbit_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "ivp:small_village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "ivp:small_village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "ivp:small_village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "ivp:small_village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "ivp:small_village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "magical_relics:buried_dungeon",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "magical_relics:large_wizard_tower",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "magical_relics:medium_wizard_tower",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "magical_relics:small_wizard_tower",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawn",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_mountains"
+      ]
+    },
+    {
+      "name": "mowziesmobs:monastery",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_common_mountains"
+      ]
+    },
+    {
+      "name": "mowziesmobs:umvuthana_grove",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_volcanic_mountains"
+      ]
+    },
+    {
+      "name": "mowziesmobs:wrought_chamber",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:badlands_miner_outpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:orcs"
+      ]
+    },
+    {
+      "name": "nova_structures:bunker",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:ocean_ruin_warm"
+      ]
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "nova_structures:desert_ruins",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_badlands"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_cherry",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_dark_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_savanna",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_swamp",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "nova_structures:firewatch_tower_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "nova_structures:illager_manor",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "nova_structures:jungle_ruins",
+      "whitelisted_biomes": [
+        "#tfc_structures:jungle_pyramid"
+      ]
+    },
+    {
+      "name": "nova_structures:mangrove_witch_hut",
+      "whitelisted_biomes": [
+        "#tfc_structures:swamp_hut"
+      ]
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:pillagers"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_acacia",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_cherry",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_dark_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:tavern_spruce",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "nova_structures:undead_crypt",
+      "whitelisted_biomes": [
+        "#tfc_structures:undead"
+      ]
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves_underground"
+      ]
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
       ]
     },
     {
       "name": "nova_structures:village_swamp",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_dark_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_savana",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "nova_structures:well_spruce",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "nova_structures:witch_villa",
+      "whitelisted_biomes": [
+        "#tfc_structures:swamp_hut"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ancient_city_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:city_overworld",
+      "whitelisted_biomes": [
+        "#tfc_structures:stronghold"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_grassy",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_mushroom",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "repurposed_structures:igloo_stone",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_savanna",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mansion_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mansion_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_dark_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshaft_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_savanna",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_stone",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves_underground"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_swamp",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:mineshaft_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:monument_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_badlands"
+      ]
+    },
+    {
+      "name": "repurposed_structures:monument_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:monument_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:jungle_pyramid"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_badlands",
+      "whitelisted_biomes": [
+        "#tfc_structures:orcs"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_desert",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_giant_tree_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outpost_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:outpost_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outpost_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_badlands",
+      "whitelisted_biomes": [
+        "#tfc_structures:desert_pyramid"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_dark_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_flower_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_giant_tree_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_jungle",
+      "whitelisted_biomes": [
+        "#tfc_structures:jungle_pyramid"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_mushroom",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:pyramid_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ruins_land_cold",
+      "whitelisted_biomes": [
+        "#tfc_structures:trail_ruins"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ruins_land_hot",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_badlands"
+      ]
+    },
+    {
+      "name": "repurposed_structures:ruins_land_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ruins_land_warm",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_tfc_biomes"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_ocean"
+      ]
+    },
+    {
+      "name": "repurposed_structures:temple_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_badlands",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_bamboo",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_birch",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_cherry",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_dark_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_giant_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mountains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_mushroom",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_oak",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:village_ocean",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_any_ocean"
       ]
     },
     {
       "name": "repurposed_structures:village_swamp",
-      "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_birch",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_dark_forest",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_giant_tree_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_mangrove",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_oak",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "repurposed_structures:witch_hut_taiga",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "simply_houses:forest_chapel",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "simply_houses:forest_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "simply_houses:forest_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "simply_houses:forest_stonemason",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "simply_houses:plains_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "simply_houses:plains_mansion",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "simply_houses:taiga_forge",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "simply_houses:taiga_house",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "simply_houses:taiga_inn",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "simply_houses:taiga_woodcutter",
+      "whitelisted_biomes": [
+        "#tfc_structures:is_hill"
+      ]
+    },
+    {
+      "name": "smallhorsestable:horse_stable",
+      "whitelisted_biomes": [
+        "#tfc_structures:other_villages_plains_only"
+      ]
+    },
+    {
+      "name": "tfc_spirits:fairy_ring",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/argon",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/esret",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/gwanador",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/maldor",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/nessus",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/typhon",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
+      ]
+    },
+    {
+      "name": "tfc_spirits:shrine/venusia",
+      "whitelisted_biomes": [
+        "#tfc_structures:all_surface_biomes"
       ]
     },
     {
       "name": "tfchuts:settlement",
       "override_global_biome_check": true,
       "enable_biome_check": true,
-      "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#tfc:is_river",
         "#tfc:is_lake",
-        "#tfc:is_ocean"
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ]
+    },
+    {
+      "name": "valarian_conquest:aegis_castle_structure",
+      "whitelisted_biomes": [
+        "#tfc_structures:mercenaries"
+      ]
+    },
+    {
+      "name": "valarian_conquest:aegis_outpost_structure",
+      "whitelisted_biomes": [
+        "#tfc_structures:mercenaries"
+      ]
+    },
+    {
+      "name": "valarian_conquest:bandit_camp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#tfc:is_river",
+        "#tfc:is_lake",
+        "#tfc:is_ocean",
+        "tfc:shore",
+        "tfc:tidal_flats"
+      ],
+      "whitelisted_biomes": [
+        "#tfc_structures:bandits"
+      ]
+    },
+    {
+      "name": "valarian_conquest:bohemiancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:bohemianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:bohemiantower",
+      "whitelisted_biomes": [
+        "#tfc_structures:bohemians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:caladrian_castle",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:caladrianfort",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:caladrianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:caladrians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:dwarven_tower",
+      "whitelisted_biomes": [
+        "#tfc_structures:dwarves"
+      ]
+    },
+    {
+      "name": "valarian_conquest:galician_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:galiciancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:galicianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:galicians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:gardoniancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:gardonians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:gilded_legion_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:mercenaries"
+      ]
+    },
+    {
+      "name": "valarian_conquest:lancastiancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:lancastianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:lancastians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:numeriancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:numerianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:numerians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:orc_fort",
+      "whitelisted_biomes": [
+        "#tfc_structures:orcs"
+      ]
+    },
+    {
+      "name": "valarian_conquest:orc_outpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:orcs"
+      ]
+    },
+    {
+      "name": "valarian_conquest:valariancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:valarianfort",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:valarianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:valarians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:visgothiancastle",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
+      ]
+    },
+    {
+      "name": "valarian_conquest:visgothianoutpost",
+      "whitelisted_biomes": [
+        "#tfc_structures:visgothians"
       ]
     }
   ],
   "structure_sets": [
     {
-      "name": "minecraft:villages",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 450,
-      "separation": 200
+      "name": "alekiships:unfinished_rowboat",
+      "is_disabled": true
     },
     {
-      "name": "tfc_spirits:fairy_ring",
+      "name": "alekiships:unfinished_sloop",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:adoberuins",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:mudblacksmithruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:mudpotterruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:mudschoolruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:ocean_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:ruined_desert_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:ruined_ocean_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:ruinedjungletemple",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:small_ocean_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:smallmudruin",
+      "is_disabled": true
+    },
+    {
+      "name": "archaeology_ruins:warm_ocean_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "betterdungeons:skeleton_dungeons",
+      "is_disabled": true
+    },
+    {
+      "name": "betterdungeons:small_dungeons",
+      "is_disabled": true
+    },
+    {
+      "name": "betterdungeons:spider_dungeons",
+      "is_disabled": true
+    },
+    {
+      "name": "betterdungeons:zombie_dungeons",
+      "is_disabled": true
+    },
+    {
+      "name": "betterwitchhuts:witch_circle",
+      "is_disabled": true
+    },
+    {
+      "name": "betterwitchhuts:witch_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "create_rustic_structures:rustic_barn",
+      "is_disabled": true
+    },
+    {
+      "name": "create_rustic_structures:rustic_smithy",
+      "is_disabled": true
+    },
+    {
+      "name": "create_rustic_structures:rustic_well",
+      "is_disabled": true
+    },
+    {
+      "name": "create_rustic_structures:rustic_windmill",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeoncrawl:dungeons",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:major_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "dungeons_arise:minor_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_1",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_2",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_3",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_4",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_5",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_6",
+      "is_disabled": true
+    },
+    {
+      "name": "forest_ruins:ruin_7",
+      "is_disabled": true
+    },
+    {
+      "name": "hobbit_house_:hobbit_house",
+      "is_disabled": true
+    },
+    {
+      "name": "magical_relics:buried_dungeon",
+      "is_disabled": true
+    },
+    {
+      "name": "magical_relics:lone_wizard_towers",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:buried_treasures",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:desert_pyramids",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:jungle_temples",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mineshafts",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_monuments",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:pillager_outposts",
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 63,
-      "separation": 24
+      "spacing": 60,
+      "separation": 30,
+      "frequency": 1
+    },
+    {
+      "name": "minecraft:shipwrecks",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:swamp_huts",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:villages",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 64,
+      "separation": 48
+    },
+    {
+      "name": "minecraft:woodland_mansions",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawns",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:monasteries",
+      "is_disabled": true
+    },
+    {
+      "name": "mowziesmobs:umvuthana_groves",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:badlands_miner_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:bunker",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:desert_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:firewatch_towers",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:jungle_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:mangrove_witch_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:taverns",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:undead_crypt",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:villages_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:villages_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:wells",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:witch_villa",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ancient_cities_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:bastions_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:cities_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:fortresses_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:igloos_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mansions_mangrove",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mansions_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:monuments_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outposts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramids_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramids_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ruins_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:temples_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:villages_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:villages_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:witch_huts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "simply_houses:forest_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "simply_houses:plains_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "simply_houses:taiga_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "smallhorsestable:horse_stable",
+      "is_disabled": true
+    },
+    {
+      "name": "tfc_ruins:ruins",
+      "is_disabled": true
     },
     {
       "name": "tfc_spirits:shrine_ruins",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 264,
-      "separation": 60
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:acacia_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:ash_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:hickory_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:kapok_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:oak_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
     },
     {
       "name": "tfc_trees:plum_giant_tree",
-      "override_global_spacing_and_separation_modifier": true,
-      "spacing": 60,
-      "separation": 30
+      "is_disabled": true
+    },
+    {
+      "name": "tfchuts:settlement",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:aegis_castle_structure",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:aegis_outpost_structure",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:bandit_camp",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:bohemiancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:bohemianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:bohemiantower",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:caladrian_castle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:caladrianfort",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:caladrianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:dwarven_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:galician_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:galiciancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:galicianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:gardoniancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:gilded_legion_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:lancastiancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:lancastianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:numeriancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:numerianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:orc_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:orc_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:valariancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:valarianfort",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:valarianoutpost",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:visgothiancastle",
+      "is_disabled": true
+    },
+    {
+      "name": "valarian_conquest:visgothianoutpost",
+      "is_disabled": true
     }
   ],
   "structure_template_pools": []

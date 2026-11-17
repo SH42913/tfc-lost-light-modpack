@@ -1,0 +1,90 @@
+{
+  "structures": [
+    {
+      "structure": "nova_structures:illager_manor",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:mansion",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_oak",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_desert",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_birch",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:mansion_mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:witch_villa",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:illager_fort",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:bandit_village",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:monastery",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:plague_asylum",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mining_system",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:foundry",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:scorched_mines",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:illager_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mushroom_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 1558511988,
+    "spacing": 160,
+    "separation": 80,
+    "super_exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 28
+    }
+  }
+}

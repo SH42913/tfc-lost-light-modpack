@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:city_overworld",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:bastion_underground",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:ancient_city_ocean",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1622101499,
+    "spacing": 203,
+    "separation": 113
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "structures": [
+    {
+      "structure": "betterdungeons:small_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:skeleton_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:spider_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "dungeoncrawl:dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "magical_relics:buried_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:undead_crypt",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:creeping_crypt",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:illager_hideout",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:bunker",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:underground_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 322968221,
+    "spacing": 30,
+    "separation": 18,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    }
+  }
+}
