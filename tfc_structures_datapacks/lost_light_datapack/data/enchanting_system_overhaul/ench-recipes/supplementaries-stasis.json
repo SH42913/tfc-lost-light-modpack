@@ -14,19 +14,19 @@
         "itemArray": [
           {
             "id": "minecraft:brown_mushroom",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "minecraft:red_mushroom",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 8
+            "amount": 22
           }
         ]
       },
@@ -34,11 +34,11 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 32
           }
         ]
       },
@@ -46,11 +46,11 @@
         "itemArray": [
           {
             "id": "minecraft:slime_ball",
-            "amount": 4
+            "amount": 6
           },
           {
             "id": "beneath:raw_slime",
-            "amount": 4
+            "amount": 6
           }
         ]
       }

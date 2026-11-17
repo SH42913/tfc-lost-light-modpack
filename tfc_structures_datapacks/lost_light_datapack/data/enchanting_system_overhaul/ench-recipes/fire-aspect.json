@@ -12,15 +12,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 8
+            "amount": 18
           },
           {
             "id": "minecraft:bone",
-            "amount": 8
+            "amount": 18
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 8
+            "amount": 18
           }
         ]
       },
@@ -28,17 +28,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 6
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 24
           }
         ]
       },
       {
         "id": "tfc:powder/sulfur",
-        "amount": 4
+        "amount": 24
       }
     ],
     "2": [
@@ -46,15 +46,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 16
+            "amount": 24
           },
           {
             "id": "minecraft:bone",
-            "amount": 16
+            "amount": 24
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 16
+            "amount": 24
           }
         ]
       },
@@ -62,17 +62,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 4
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 16
+            "amount": 32
           }
         ]
       },
       {
         "id": "tfc:powder/sulfur",
-        "amount": 8
+        "amount": 32
       }
     ]
   }

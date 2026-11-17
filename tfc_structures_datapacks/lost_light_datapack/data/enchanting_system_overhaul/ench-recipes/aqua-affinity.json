@@ -11,15 +11,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 8
+            "amount": 18
           },
           {
             "id": "minecraft:bone",
-            "amount": 8
+            "amount": 18
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 8
+            "amount": 18
           }
         ]
       },
@@ -27,11 +27,11 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 6
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 24
           }
         ]
       },
@@ -39,15 +39,15 @@
         "itemArray": [
           {
             "id": "tfc:plant/winged_kelp",
-            "amount": 8
+            "amount": 24
           },
           {
             "id": "tfc:plant/leafy_kelp",
-            "amount": 8
+            "amount": 24
           },
           {
             "id": "tfc:plant/giant_kelp_flower",
-            "amount": 8
+            "amount": 24
           }
         ]
       }

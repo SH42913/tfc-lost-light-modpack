@@ -15,15 +15,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 8
+            "amount": 5
           },
           {
             "id": "minecraft:bone",
-            "amount": 8
+            "amount": 5
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 8
+            "amount": 5
           }
         ]
       },
@@ -43,15 +43,15 @@
         "itemArray": [
           {
             "id": "tfc:groundcover/sea_urchin",
-            "amount": 4
+            "amount": 6
           },
           {
             "id": "tfc:groundcover/mussel",
-            "amount": 4
+            "amount": 6
           },
           {
             "id": "tfc:groundcover/clam",
-            "amount": 4
+            "amount": 6
           }
         ]
       }
@@ -61,15 +61,61 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 16
+            "amount": 8
           },
           {
             "id": "minecraft:bone",
-            "amount": 16
+            "amount": 8
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 16
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 3
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 12
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:groundcover/sea_urchin",
+            "amount": 10
+          },
+          {
+            "id": "tfc:groundcover/mussel",
+            "amount": 10
+          },
+          {
+            "id": "tfc:groundcover/clam",
+            "amount": 10
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:rotten_flesh",
+            "amount": 12
+          },
+          {
+            "id": "minecraft:bone",
+            "amount": 12
+          },
+          {
+            "id": "aquaculture:fish_bones",
+            "amount": 12
           }
         ]
       },
@@ -89,61 +135,15 @@
         "itemArray": [
           {
             "id": "tfc:groundcover/sea_urchin",
-            "amount": 8
+            "amount": 16
           },
           {
             "id": "tfc:groundcover/mussel",
-            "amount": 8
+            "amount": 16
           },
           {
             "id": "tfc:groundcover/clam",
-            "amount": 8
-          }
-        ]
-      }
-    ],
-    "3": [
-      {
-        "itemArray": [
-          {
-            "id": "minecraft:rotten_flesh",
-            "amount": 24
-          },
-          {
-            "id": "minecraft:bone",
-            "amount": 24
-          },
-          {
-            "id": "aquaculture:fish_bones",
-            "amount": 24
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:gem/lapis_lazuli",
-            "amount": 6
-          },
-          {
-            "id": "tfc:powder/lapis_lazuli",
-            "amount": 24
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:groundcover/sea_urchin",
-            "amount": 12
-          },
-          {
-            "id": "tfc:groundcover/mussel",
-            "amount": 12
-          },
-          {
-            "id": "tfc:groundcover/clam",
-            "amount": 12
+            "amount": 16
           }
         ]
       },
@@ -165,15 +165,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 32
+            "amount": 18
           },
           {
             "id": "minecraft:bone",
-            "amount": 32
+            "amount": 18
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 32
+            "amount": 18
           }
         ]
       },
@@ -181,11 +181,11 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 8
+            "amount": 6
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 32
+            "amount": 24
           }
         ]
       },
@@ -193,15 +193,15 @@
         "itemArray": [
           {
             "id": "tfc:groundcover/sea_urchin",
-            "amount": 16
+            "amount": 24
           },
           {
             "id": "tfc:groundcover/mussel",
-            "amount": 16
+            "amount": 24
           },
           {
             "id": "tfc:groundcover/clam",
-            "amount": 16
+            "amount": 24
           }
         ]
       },
@@ -223,15 +223,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 48
+            "amount": 24
           },
           {
             "id": "minecraft:bone",
-            "amount": 48
+            "amount": 24
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 48
+            "amount": 24
           }
         ]
       },
@@ -239,11 +239,11 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 12
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 48
+            "amount": 32
           }
         ]
       },
@@ -251,15 +251,15 @@
         "itemArray": [
           {
             "id": "tfc:groundcover/sea_urchin",
-            "amount": 24
+            "amount": 32
           },
           {
             "id": "tfc:groundcover/mussel",
-            "amount": 24
+            "amount": 32
           },
           {
             "id": "tfc:groundcover/clam",
-            "amount": 24
+            "amount": 32
           }
         ]
       },

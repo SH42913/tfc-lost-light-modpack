@@ -13,49 +13,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "minecraft:bone",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
-          },
-          {
-            "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "id": "tfc:goat_horn",
-        "amount": 1
-      }
-    ],
-    "2": [
-      {
-        "itemArray": [
-          {
-            "id": "minecraft:rotten_flesh",
-            "amount": 16
-          },
-          {
-            "id": "minecraft:bone",
-            "amount": 16
-          },
-          {
-            "id": "aquaculture:fish_bones",
-            "amount": 16
+            "amount": 12
           }
         ]
       },
@@ -73,7 +39,53 @@
       },
       {
         "id": "tfc:goat_horn",
-        "amount": 2
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:rotten_flesh",
+            "amount": 18
+          },
+          {
+            "id": "minecraft:bone",
+            "amount": 18
+          },
+          {
+            "id": "aquaculture:fish_bones",
+            "amount": 18
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 6
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 24
+          }
+        ]
+      },
+      {
+        "id": "tfc:goat_horn",
+        "amount": 5
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:metal/ingot/gold",
+            "amount": 2
+          },
+          {
+            "id": "tfc:metal/ingot/silver",
+            "amount": 2
+          }
+        ]
       }
     ],
     "3": [
@@ -97,27 +109,27 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 6
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 24
+            "amount": 32
           }
         ]
       },
       {
         "id": "tfc:goat_horn",
-        "amount": 3
+        "amount": 6
       },
       {
         "itemArray": [
           {
-            "id": "tfc:metal/ingot/gold",
-            "amount": 2
+            "id": "tfc:metal/ingot/rose_gold",
+            "amount": 3
           },
           {
-            "id": "tfc:metal/ingot/silver",
-            "amount": 2
+            "id": "tfc:metal/ingot/sterling_silver",
+            "amount": 3
           }
         ]
       }

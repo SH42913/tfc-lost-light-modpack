@@ -30,17 +30,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 3
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 12
           }
         ]
       },
       {
         "id": "tfc_arch:bone_arrowhead",
-        "amount": 4
+        "amount": 8
       }
     ],
     "2": [
@@ -48,15 +48,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 16
+            "amount": 12
           },
           {
             "id": "minecraft:bone",
-            "amount": 16
+            "amount": 12
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 16
+            "amount": 12
           }
         ]
       },
@@ -74,7 +74,7 @@
       },
       {
         "id": "tfc_arch:bone_arrowhead",
-        "amount": 8
+        "amount": 12
       }
     ],
     "3": [
@@ -82,15 +82,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "minecraft:bone",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 24
+            "amount": 18
           }
         ]
       },
@@ -108,7 +108,7 @@
       },
       {
         "id": "tfc_arch:bone_arrowhead",
-        "amount": 12
+        "amount": 18
       },
       {
         "itemArray": [
@@ -128,15 +128,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 32
+            "amount": 24
           },
           {
             "id": "minecraft:bone",
-            "amount": 32
+            "amount": 24
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 32
+            "amount": 24
           }
         ]
       },
@@ -154,7 +154,7 @@
       },
       {
         "id": "tfc_arch:bone_arrowhead",
-        "amount": 16
+        "amount": 24
       },
       {
         "itemArray": [

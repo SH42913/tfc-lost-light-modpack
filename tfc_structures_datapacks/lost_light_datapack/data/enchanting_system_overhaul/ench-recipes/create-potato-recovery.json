@@ -16,57 +16,19 @@
         "itemArray": [
           {
             "id": "tfc:rotten_compost",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "tfc:groundcover/guano",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "minecraft:bone_meal",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "tfc:groundcover/humus",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
-          },
-          {
-            "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "id": "tfc:food/potato",
-        "amount": 8
-      }
-    ],
-    "2": [
-      {
-        "itemArray": [
-          {
-            "id": "tfc:rotten_compost",
-            "amount": 16
-          },
-          {
-            "id": "tfc:groundcover/guano",
-            "amount": 16
-          },
-          {
-            "id": "minecraft:bone_meal",
-            "amount": 16
-          },
-          {
-            "id": "tfc:groundcover/humus",
-            "amount": 16
+            "amount": 12
           }
         ]
       },
@@ -87,24 +49,24 @@
         "amount": 16
       }
     ],
-    "3": [
+    "2": [
       {
         "itemArray": [
           {
             "id": "tfc:rotten_compost",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "tfc:groundcover/guano",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "minecraft:bone_meal",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "tfc:groundcover/humus",
-            "amount": 24
+            "amount": 18
           }
         ]
       },
@@ -133,6 +95,56 @@
           {
             "id": "tfc:metal/ingot/silver",
             "amount": 2
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "itemArray": [
+          {
+            "id": "tfc:rotten_compost",
+            "amount": 24
+          },
+          {
+            "id": "tfc:groundcover/guano",
+            "amount": 24
+          },
+          {
+            "id": "minecraft:bone_meal",
+            "amount": 24
+          },
+          {
+            "id": "tfc:groundcover/humus",
+            "amount": 24
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 8
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "tfc:food/potato",
+        "amount": 32
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:metal/ingot/rose_gold",
+            "amount": 3
+          },
+          {
+            "id": "tfc:metal/ingot/sterling_silver",
+            "amount": 3
           }
         ]
       }

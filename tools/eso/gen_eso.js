@@ -1,12 +1,29 @@
-// One-off generator for ESO recipes (TFC Lost Light). Usage: node gen_eso.js <instanceRoot>
+// Generator for ESO enchantment recipes (TFC Lost Light).
+//
+//   node tools/eso/gen_eso.js .                     write recipes + config/eso defaults
+//   node tools/eso/gen_eso.js . --list-ids          print every item ID the recipes use
+//   node tools/eso/gen_eso.js . --write-stack-dump  write a temporary KubeJS script that logs max stack sizes
+//   node tools/eso/gen_eso.js . --read-stack-dump   parse logs/kubejs/server.log into kubejs/probe/stack_sizes.txt
+//                                                   and delete the temporary script
+//
+// Amounts are anchored to the MAX level: the max level of every enchantment costs about the same,
+// lower levels step down the same ladder. An ESO table slot holds a single stack, so amounts are
+// clamped to the item's max stack size from kubejs/probe/stack_sizes.txt (when it exists).
 const fs = require('fs');
 const path = require('path');
 
 const root = process.argv[2];
+const mode = process.argv[3] || '';
+if (!root) { console.error('Usage: node tools/eso/gen_eso.js <instanceRoot> [--list-ids|--write-stack-dump|--read-stack-dump]'); process.exit(1); }
+
 const outDir = path.join(root, 'tfc_structures_datapacks/lost_light_datapack/data/enchanting_system_overhaul/ench-recipes');
+const stackFile = path.join(root, 'kubejs/probe/stack_sizes.txt');
+const dumpScript = path.join(root, 'kubejs/server_scripts/dump_stack_sizes.js');
+const serverLog = path.join(root, 'logs/kubejs/server.log');
 const items = new Set(fs.readFileSync(path.join(root, 'kubejs/probe/items.txt'), 'utf8').split(/\r?\n/).filter(Boolean));
 
-// --- XP (player levels per operation) ---
+// ---------------------------------------------------------------------------------------------
+// XP: player levels per operation, by rarity (level index, not anchored to max)
 const XP = {
   common:   [1, 2, 3, 5, 7],
   uncommon: [2, 3, 5, 7, 9],
@@ -15,30 +32,40 @@ const XP = {
   curse:    [0, 0, 0, 0, 0],
 };
 
-// --- Slot 1: junk base ---
+// Ladders: an enchantment with N levels takes the LAST N steps. Single-level enchantments use SINGLE.
+const LADDER = {
+  normal:   { steps: [4, 6, 10, 16, 24, 32], single: 24 },
+  valuable: { steps: [6, 10, 16, 24, 32, 48], single: 32 },
+};
+// Top amount of each slot at the max level: [normal, valuable]. amount = ceil(step / ladderTop * slotTop)
+const TOP = {
+  junk:      [24, 32],
+  lapis:     [8, 12],   // gems; powder = gems * POWDER_PER_GEM
+  cheap:     [32, 48],
+  medium:    [24, 32],
+  expensive: [6, 8],
+};
+const POWDER_PER_GEM = 4; // 1 lapis gem grinds into 4 powder
+
+// Slot 1: junk base
 const JUNK = {
   undead:    ['minecraft:rotten_flesh', 'minecraft:bone', 'aquaculture:fish_bones'],
   rot:       ['tfc:rotten_compost', 'tfc:groundcover/guano', 'minecraft:bone_meal', 'tfc:groundcover/humus'],
   mushrooms: ['minecraft:brown_mushroom', 'minecraft:red_mushroom', 'farmerstfc:brown_mushroom_bunch', 'farmerstfc:red_mushroom_bunch'],
   poison:    ['minecraft:spider_eye', 'minecraft:fermented_spider_eye'],
 };
-const JUNK_AMOUNT = [8, 16, 24, 32, 48];
 
-// --- Slot 2: lapis catalyst (gem or powder x2) ---
-const LAPIS_AMOUNT = [2, 4, 6, 8, 12];
-
-// 1 lapis gem grinds into 4 powder
-const POWDER_PER_GEM = 4;
-
-// --- Slot 4: jewellery metal from level III (III: pure metal, IV-V: alloy) ---
-// gold: luck enchantments only; silver: damage vs undead only; any: either metal
+// Slot 4: jewellery metal, anchored to max: the last k levels take the first k steps of the metal ladder.
+// k = 3 for 5 levels, 2 for 3-4 levels, 0 for 1-2 levels.
+// gold: luck enchantments only; silver: damage vs undead only; any: either metal.
 const METAL = {
-  silver: [['tfc:metal/ingot/silver'], ['tfc:metal/ingot/sterling_silver']],
-  gold:   [['tfc:metal/ingot/gold'], ['tfc:metal/ingot/rose_gold']],
-  any:    [['tfc:metal/ingot/gold', 'tfc:metal/ingot/silver'], ['tfc:metal/ingot/rose_gold', 'tfc:metal/ingot/sterling_silver']],
+  silver: { pure: ['tfc:metal/ingot/silver'], alloy: ['tfc:metal/ingot/sterling_silver'] },
+  gold:   { pure: ['tfc:metal/ingot/gold'], alloy: ['tfc:metal/ingot/rose_gold'] },
+  any:    { pure: ['tfc:metal/ingot/gold', 'tfc:metal/ingot/silver'], alloy: ['tfc:metal/ingot/rose_gold', 'tfc:metal/ingot/sterling_silver'] },
 };
-const METAL_AMOUNT = { 3: 2, 4: 3, 5: 4 };
-// Common metal "physically applied" to the item, from level I
+const METAL_LADDER = [['pure', 2], ['alloy', 3], ['alloy', 4]];
+const metalSteps = (max) => (max >= 5 ? 3 : max >= 3 ? 2 : 0);
+// Common metal "physically applied" to the item, from level I (by level index)
 const PLAIN_AMOUNT = [2, 3, 4, 5, 6];
 const PLAIN = {
   iron:   () => ['tfc:metal/ingot/wrought_iron'],
@@ -49,142 +76,239 @@ const PLAIN = {
   ][lvl - 1],
 };
 
-// Theme item: either a single id or array of ids (itemArray). amounts per level.
-// spec: [file, enchId, maxLevel, rarity, junk, theme, themeAmounts, metal|null, dependsOn?]
-const S = (file, id, max, rarity, junk, theme, amt, metal, dependsOn) => ({ file, id, max, rarity, junk, theme, amt, metal, dependsOn });
-const A = (...a) => a;
+// ---------------------------------------------------------------------------------------------
+// spec: file, enchantment, max level, XP rarity, valuable ladder?, junk group,
+//       theme item(s) (array = itemArray), theme value class, metal (null | silver | gold | any | iron | tiered | alloy-any)
+const S = (file, id, max, rarity, valuable, junk, theme, cls, metal, dependsOn) =>
+  ({ file, id, max, rarity, valuable, junk, theme, cls, metal, dependsOn });
+const V = true; // valuable
+const N = false; // normal
+
+const SLIME = ['minecraft:slime_ball', 'beneath:raw_slime'];
+const CLOTH = ['tfc:wool_cloth', 'tfc:burlap_cloth'];
 
 const specs = [
   // Armor
-  S('protection', 'minecraft:protection', 4, 'common', 'rot', 'tfc:treated_hide', A(1, 2, 3, 4), 'any'),
-  S('fire-protection', 'minecraft:fire_protection', 4, 'common', 'rot', 'tfc:fire_clay', A(4, 8, 12, 16), 'any'),
-  S('blast-protection', 'minecraft:blast_protection', 4, 'uncommon', 'rot', 'tfc:powder/saltpeter', A(4, 8, 12, 16), 'any'),
-  S('projectile-protection', 'minecraft:projectile_protection', 4, 'common', 'rot', ['tfc:wool_cloth', 'tfc:burlap_cloth'], A(2, 4, 6, 8), 'any'),
-  S('feather-falling', 'minecraft:feather_falling', 4, 'common', 'rot', 'minecraft:feather', A(4, 8, 12, 16), 'any'),
-  S('thorns', 'minecraft:thorns', 3, 'rare', 'poison', ['tfc:plant/barrel_cactus', 'tfc:plant/rose'], A(2, 4, 6), 'iron'),
-  S('respiration', 'minecraft:respiration', 3, 'uncommon', 'undead', 'tfc:blubber', A(2, 4, 6), 'any'),
-  S('aqua-affinity', 'minecraft:aqua_affinity', 1, 'uncommon', 'undead', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp', 'tfc:plant/giant_kelp_flower'], A(8), null),
-  S('depth-strider', 'minecraft:depth_strider', 3, 'uncommon', 'undead', ['tfc:groundcover/seaweed', 'tfc:food/dried_kelp'], A(8, 16, 24), 'any'),
-  S('frost-walker', 'minecraft:frost_walker', 2, 'rare', 'mushrooms', ['minecraft:ice', 'tfc:sea_ice'], A(8, 16), null),
-  S('soul-speed', 'minecraft:soul_speed', 3, 'rare', 'mushrooms', ['minecraft:soul_sand', 'minecraft:soul_soil'], A(8, 16, 24), 'any'),
-  S('swift-sneak', 'minecraft:swift_sneak', 3, 'rare', 'mushrooms', 'tfc:wool_yarn', A(8, 16, 24), 'any'),
+  S('protection', 'minecraft:protection', 4, 'common', N, 'rot', 'tfc:large_raw_hide', 'expensive', 'any'),
+  S('fire-protection', 'minecraft:fire_protection', 4, 'common', N, 'rot', 'tfc:powder/wood_ash', 'cheap', 'any'),
+  S('blast-protection', 'minecraft:blast_protection', 4, 'uncommon', N, 'rot', 'tfc:powder/saltpeter', 'cheap', 'any'),
+  S('projectile-protection', 'minecraft:projectile_protection', 4, 'common', N, 'rot', CLOTH, 'medium', 'any'),
+  S('feather-falling', 'minecraft:feather_falling', 4, 'common', N, 'rot', 'minecraft:feather', 'cheap', 'any'),
+  S('thorns', 'minecraft:thorns', 3, 'rare', V, 'poison', ['tfc:plant/barrel_cactus', 'tfc:plant/rose'], 'cheap', 'iron'),
+  S('respiration', 'minecraft:respiration', 3, 'uncommon', N, 'undead', 'tfc:blubber', 'medium', 'any'),
+  S('aqua-affinity', 'minecraft:aqua_affinity', 1, 'uncommon', N, 'undead', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp', 'tfc:plant/giant_kelp_flower'], 'cheap', null),
+  S('depth-strider', 'minecraft:depth_strider', 3, 'uncommon', N, 'undead', ['tfc:groundcover/seaweed', 'tfc:food/dried_kelp'], 'cheap', 'any'),
+  S('frost-walker', 'minecraft:frost_walker', 2, 'rare', V, 'mushrooms', 'firmalife:ice_shavings', 'cheap', null),
+  S('soul-speed', 'minecraft:soul_speed', 3, 'rare', V, 'mushrooms', ['minecraft:soul_sand', 'minecraft:soul_soil'], 'cheap', 'any'),
+  S('swift-sneak', 'minecraft:swift_sneak', 3, 'rare', N, 'mushrooms', 'tfc:wool_yarn', 'cheap', 'any'),
   // Melee
-  S('sharpness', 'minecraft:sharpness', 5, 'common', 'undead', 'tfc:sandpaper', A(1, 2, 3, 4, 6), 'any'),
-  S('smite', 'minecraft:smite', 5, 'uncommon', 'undead', 'tfc:powder/salt', A(4, 8, 12, 16, 24), 'silver'),
-  S('bane-of-arthropods', 'minecraft:bane_of_arthropods', 5, 'uncommon', 'poison', 'tfc:powder/lime', A(4, 8, 12, 16, 24), 'any'),
-  S('knockback', 'minecraft:knockback', 2, 'uncommon', 'undead', ['minecraft:slime_ball', 'beneath:raw_slime'], A(2, 4), null),
-  S('fire-aspect', 'minecraft:fire_aspect', 2, 'uncommon', 'undead', 'tfc:powder/sulfur', A(4, 8), null),
-  S('looting', 'minecraft:looting', 3, 'rare', 'undead', 'tfc:powder/native_gold', A(4, 8, 12), 'gold'),
-  S('sweeping', 'minecraft:sweeping', 3, 'rare', 'undead', 'tfc:powder/graphite', A(2, 4, 6), 'any'),
+  S('sharpness', 'minecraft:sharpness', 5, 'common', V, 'undead', 'tfc:groundcover/pumice', 'medium', 'any'),
+  S('smite', 'minecraft:smite', 5, 'uncommon', V, 'undead', 'tfc:powder/salt', 'cheap', 'silver'),
+  S('bane-of-arthropods', 'minecraft:bane_of_arthropods', 5, 'uncommon', N, 'poison', 'tfc:powder/lime', 'cheap', 'any'),
+  S('knockback', 'minecraft:knockback', 2, 'uncommon', N, 'undead', SLIME, 'expensive', null),
+  S('fire-aspect', 'minecraft:fire_aspect', 2, 'uncommon', N, 'undead', 'tfc:powder/sulfur', 'cheap', null),
+  S('looting', 'minecraft:looting', 3, 'rare', V, 'undead', 'tfc:powder/native_gold', 'medium', 'gold'),
+  S('sweeping', 'minecraft:sweeping', 3, 'rare', N, 'undead', 'tfc:powder/graphite', 'cheap', 'any'),
   // Tools
-  S('efficiency', 'minecraft:efficiency', 5, 'common', 'rot', 'tfc:powder/graphite', A(2, 4, 6, 8, 12), 'any'),
-  S('unbreaking', 'minecraft:unbreaking', 3, 'rare', 'rot', 'tfc:glue', A(1, 2, 4), 'tiered'),
-  S('fortune', 'minecraft:fortune', 3, 'rare', 'mushrooms', ['tfc:powder/ruby', 'tfc:powder/sapphire', 'tfc:powder/emerald', 'tfc:powder/topaz', 'tfc:powder/opal'], A(4, 8, 12), 'gold'),
-  S('silk-touch', 'minecraft:silk_touch', 1, 'rare', 'mushrooms', 'tfc:silk_cloth', A(2), null),
+  S('efficiency', 'minecraft:efficiency', 5, 'common', V, 'rot', 'tfc:powder/graphite', 'cheap', 'any'),
+  S('unbreaking', 'minecraft:unbreaking', 3, 'rare', V, 'rot', 'tfc:glue', 'medium', 'tiered'),
+  S('fortune', 'minecraft:fortune', 3, 'rare', V, 'mushrooms', ['tfc:powder/ruby', 'tfc:powder/sapphire', 'tfc:powder/emerald', 'tfc:powder/topaz', 'tfc:powder/opal'], 'medium', 'gold'),
+  S('silk-touch', 'minecraft:silk_touch', 1, 'rare', V, 'mushrooms', 'tfc:silk_cloth', 'expensive', null),
   // minecraft:mending intentionally omitted: excluded from the pack (also stripped from loot by KubeJS)
   // Bow / crossbow
-  S('power', 'minecraft:power', 5, 'common', 'undead', 'tfc_arch:paper_fletching', A(2, 4, 6, 8, 12), 'any'),
-  S('punch', 'minecraft:punch', 2, 'uncommon', 'undead', ['minecraft:slime_ball', 'beneath:raw_slime'], A(2, 4), null),
-  S('flame', 'minecraft:flame', 1, 'uncommon', 'undead', 'tfc:powder/sulfur', A(8), null),
-  S('infinity', 'minecraft:infinity', 1, 'treasure', 'mushrooms', 'tfc_arch:stone_arrow', A(32), 'alloy-any'),
-  S('multishot', 'minecraft:multishot', 1, 'treasure', 'undead', 'tfc_arch:paper_fletching', A(12), null),
-  S('piercing', 'minecraft:piercing', 4, 'uncommon', 'undead', 'tfc_arch:bone_arrowhead', A(4, 8, 12, 16), 'any'),
-  S('quick-charge', 'minecraft:quick_charge', 3, 'uncommon', 'undead', 'tfc:wool_yarn', A(4, 8, 12), 'any'),
+  S('power', 'minecraft:power', 5, 'common', N, 'undead', 'tfc_arch:paper_fletching', 'medium', 'any'),
+  S('punch', 'minecraft:punch', 2, 'uncommon', N, 'undead', SLIME, 'expensive', null),
+  S('flame', 'minecraft:flame', 1, 'uncommon', N, 'undead', 'tfc:powder/sulfur', 'cheap', null),
+  S('infinity', 'minecraft:infinity', 1, 'treasure', V, 'mushrooms', 'tfc_arch:stone_arrow', 'medium', 'alloy-any'),
+  S('multishot', 'minecraft:multishot', 1, 'treasure', V, 'undead', 'tfc_arch:paper_fletching', 'medium', null),
+  S('piercing', 'minecraft:piercing', 4, 'uncommon', N, 'undead', 'tfc_arch:bone_arrowhead', 'medium', 'any'),
+  S('quick-charge', 'minecraft:quick_charge', 3, 'uncommon', N, 'undead', 'tfc:wool_yarn', 'cheap', 'any'),
   // Trident-likes
-  S('loyalty', 'minecraft:loyalty', 3, 'uncommon', 'undead', 'tfc:goat_horn', A(1, 2, 3), 'any'),
-  S('impaling', 'minecraft:impaling', 5, 'uncommon', 'undead', ['tfc:groundcover/sea_urchin', 'tfc:groundcover/mussel', 'tfc:groundcover/clam'], A(4, 8, 12, 16, 24), 'any'),
-  S('riptide', 'minecraft:riptide', 3, 'treasure', 'undead', 'tfc:blubber', A(4, 8, 12), 'any'),
-  S('channeling', 'minecraft:channeling', 1, 'treasure', 'mushrooms', 'tfc:metal/rod/copper', A(8), null),
+  S('loyalty', 'minecraft:loyalty', 3, 'uncommon', N, 'undead', 'tfc:goat_horn', 'expensive', 'any'),
+  S('impaling', 'minecraft:impaling', 5, 'uncommon', N, 'undead', ['tfc:groundcover/sea_urchin', 'tfc:groundcover/mussel', 'tfc:groundcover/clam'], 'cheap', 'any'),
+  S('riptide', 'minecraft:riptide', 3, 'treasure', V, 'undead', 'tfc:blubber', 'medium', 'any'),
+  S('channeling', 'minecraft:channeling', 1, 'treasure', V, 'mushrooms', 'tfc:metal/rod/copper', 'medium', null),
   // Fishing
-  S('luck-of-the-sea', 'minecraft:luck_of_the_sea', 3, 'uncommon', 'undead', ['tfc:food/tropical_fish', 'tfc:food/shellfish'], A(2, 4, 6), 'gold'),
-  S('lure', 'minecraft:lure', 3, 'uncommon', 'rot', 'aquaculture:worm', A(4, 8, 12), 'any'),
-  // Curses: cheap, junk only, 0 xp
-  S('curse-of-binding', 'minecraft:binding_curse', 1, 'curse', 'poison', 'tfc:rotten_compost', A(8), null),
-  S('curse-of-vanishing', 'minecraft:vanishing_curse', 1, 'curse', 'poison', 'minecraft:rotten_flesh', A(16), null),
+  S('luck-of-the-sea', 'minecraft:luck_of_the_sea', 3, 'uncommon', N, 'undead', ['tfc:food/tropical_fish', 'tfc:food/shellfish'], 'medium', 'gold'),
+  S('lure', 'minecraft:lure', 3, 'uncommon', N, 'rot', 'aquaculture:worm', 'cheap', 'any'),
   // Mods
-  S('create-capacity', 'create:capacity', 3, 'uncommon', 'rot', 'tfc:burlap_cloth', A(2, 4, 6), 'any', ['create']),
-  S('create-potato-recovery', 'create:potato_recovery', 3, 'uncommon', 'rot', 'tfc:food/potato', A(8, 16, 24), 'any', ['create']),
+  S('create-capacity', 'create:capacity', 3, 'uncommon', N, 'rot', 'tfc:burlap_cloth', 'medium', 'any', ['create']),
+  S('create-potato-recovery', 'create:potato_recovery', 3, 'uncommon', N, 'rot', 'tfc:food/potato', 'cheap', 'any', ['create']),
   // farmersdelight:backstabbing intentionally omitted: applies only to FD KnifeItem, which is unobtainable in the pack
-  S('supplementaries-stasis', 'supplementaries:stasis', 1, 'rare', 'mushrooms', ['minecraft:slime_ball', 'beneath:raw_slime'], A(4), null, ['supplementaries']),
-  // Enchanting With TFC (max levels unknown → recipe up to V, extra levels are just unused)
-  S('ewt-crushing-protection', 'enchanting_with_tfc:crushing_protection', 5, 'common', 'rot', 'tfc:treated_hide', A(1, 2, 3, 4, 6), 'any', ['enchanting_with_tfc']),
-  S('ewt-piercing-protection', 'enchanting_with_tfc:piercing_protection', 5, 'common', 'rot', ['tfc:wool_cloth', 'tfc:burlap_cloth'], A(2, 4, 6, 8, 12), 'any', ['enchanting_with_tfc']),
-  S('ewt-slashing-protection', 'enchanting_with_tfc:slashing_protection', 5, 'common', 'rot', 'minecraft:leather', A(2, 4, 6, 8, 12), 'any', ['enchanting_with_tfc']),
-  S('ewt-hunting', 'enchanting_with_tfc:hunting', 5, 'uncommon', 'undead', 'tfc:powder/native_silver', A(4, 8, 12, 16, 24), 'gold', ['enchanting_with_tfc']),
-  S('ewt-slow-aspect', 'enchanting_with_tfc:slow_aspect', 5, 'uncommon', 'poison', 'minecraft:fermented_spider_eye', A(2, 4, 6, 8, 12), 'any', ['enchanting_with_tfc']),
+  S('supplementaries-stasis', 'supplementaries:stasis', 1, 'rare', V, 'mushrooms', SLIME, 'expensive', null, ['supplementaries']),
+  // Enchanting With TFC (max levels unknown -> recipe up to V, extra levels are just unused)
+  S('ewt-crushing-protection', 'enchanting_with_tfc:crushing_protection', 5, 'common', N, 'rot', 'tfc:large_raw_hide', 'expensive', 'any', ['enchanting_with_tfc']),
+  S('ewt-piercing-protection', 'enchanting_with_tfc:piercing_protection', 5, 'common', N, 'rot', CLOTH, 'medium', 'any', ['enchanting_with_tfc']),
+  S('ewt-slashing-protection', 'enchanting_with_tfc:slashing_protection', 5, 'common', N, 'rot', 'minecraft:leather', 'medium', 'any', ['enchanting_with_tfc']),
+  S('ewt-hunting', 'enchanting_with_tfc:hunting', 5, 'uncommon', N, 'undead', 'tfc:powder/native_silver', 'medium', 'gold', ['enchanting_with_tfc']),
+  S('ewt-slow-aspect', 'enchanting_with_tfc:slow_aspect', 5, 'uncommon', N, 'poison', 'minecraft:fermented_spider_eye', 'medium', 'any', ['enchanting_with_tfc']),
 ];
 
+// Curses: cheap, junk only, 0 XP, fixed amounts (no ladder). The +1 enchantment slot is the trade-off.
+const curses = [
+  { file: 'curse-of-binding', id: 'minecraft:binding_curse', junk: 'poison', junkAmount: 16, theme: 'tfc:rotten_compost', themeAmount: 8 },
+  { file: 'curse-of-vanishing', id: 'minecraft:vanishing_curse', junk: 'poison', junkAmount: 16, theme: 'minecraft:rotten_flesh', themeAmount: 16 },
+];
+
+// ---------------------------------------------------------------------------------------------
+// Stack sizes (optional)
+const stacks = new Map();
+if (fs.existsSync(stackFile)) {
+  for (const line of fs.readFileSync(stackFile, 'utf8').split(/\r?\n/)) {
+    const [id, n] = line.trim().split(/\s+/);
+    if (id && n) stacks.set(id, Number(n));
+  }
+}
+
 const missing = new Set();
-const check = (id) => { if (!items.has(id)) missing.add(id); return id; };
-const arr = (ids, amount) => ({ itemArray: ids.map((id) => ({ id: check(id), amount })) });
-const one = (id, amount) => ({ id: check(id), amount });
-const theme = (t, amount) => (Array.isArray(t) ? arr(t, amount) : one(t, amount));
+const used = new Set();
+const clamped = [];
+let currentFile = '';
+// Clamp n to the smallest stack among `list`, so every variant of an itemArray costs the same.
+function clamp(list, n) {
+  for (const id of list) { if (!items.has(id)) missing.add(id); used.add(id); }
+  const known = list.map((id) => stacks.get(id)).filter((v) => v !== undefined);
+  if (!known.length) return n;
+  const max = Math.min(...known);
+  if (n > max) { clamped.push(`${currentFile}: ${list.join(' / ')} ${n} -> ${max}`); return max; }
+  return n;
+}
+const one = (id, n) => ({ id, amount: clamp([id], n) });
+const arr = (list, n) => { const c = clamp(list, n); return { itemArray: list.map((id) => ({ id, amount: c })) }; };
+const ids = (list, n) => (list.length === 1 ? one(list[0], n) : arr(list, n));
 
-const ids = (list, amount) => (list.length === 1 ? one(list[0], amount) : arr(list, amount));
+// Ladder step for level l (1-based) of an enchantment with `max` levels, scaled to a slot top.
+function scaled(s, l, slot) {
+  const lad = LADDER[s.valuable ? 'valuable' : 'normal'];
+  const top = lad.steps[lad.steps.length - 1];
+  const step = s.max === 1 ? lad.single : lad.steps[lad.steps.length - s.max + (l - 1)];
+  return Math.max(1, Math.ceil((step / top) * TOP[slot][s.valuable ? 1 : 0]));
+}
 
-function metalSlot(metal, lvl) {
-  if (!metal) return null;
-  if (metal === 'alloy-any') return arr(['tfc:metal/ingot/rose_gold', 'tfc:metal/ingot/sterling_silver'], 1);
-  if (PLAIN[metal]) return ids(PLAIN[metal](lvl), PLAIN_AMOUNT[lvl - 1]);
-  if (lvl < 3) return null;
-  const [pure, alloy] = METAL[metal];
-  return ids(lvl === 3 ? pure : alloy, METAL_AMOUNT[lvl]);
+function lapisSlot(gems) {
+  return { itemArray: [one('tfc:gem/lapis_lazuli', gems), one('tfc:powder/lapis_lazuli', gems * POWDER_PER_GEM)] };
+}
+
+function metalSlot(s, l) {
+  if (!s.metal) return null;
+  if (s.metal === 'alloy-any') return arr(['tfc:metal/ingot/rose_gold', 'tfc:metal/ingot/sterling_silver'], 1);
+  if (PLAIN[s.metal]) return ids(PLAIN[s.metal](l), PLAIN_AMOUNT[l - 1]);
+  const k = metalSteps(s.max);
+  const first = s.max - k + 1; // first level that needs metal
+  if (l < first) return null;
+  const [kind, n] = METAL_LADDER[l - first];
+  return ids(METAL[s.metal][kind], n);
 }
 
 function build(s) {
+  currentFile = s.file;
   const levels = {};
   const xp = {};
   for (let l = 1; l <= s.max; l++) {
-    const i = l - 1;
     const slots = [
-      arr(JUNK[s.junk], s.rarity === 'curse' ? JUNK_AMOUNT[1] : JUNK_AMOUNT[i]),
+      arr(JUNK[s.junk], scaled(s, l, 'junk')),
+      lapisSlot(scaled(s, l, 'lapis')),
+      Array.isArray(s.theme) ? arr(s.theme, scaled(s, l, s.cls)) : one(s.theme, scaled(s, l, s.cls)),
     ];
-    if (s.rarity !== 'curse') {
-      slots.push({ itemArray: [one('tfc:gem/lapis_lazuli', LAPIS_AMOUNT[i]), one('tfc:powder/lapis_lazuli', LAPIS_AMOUNT[i] * POWDER_PER_GEM)] });
-    }
-    slots.push(theme(s.theme, s.amt[i]));
-    const m = metalSlot(s.metal, l);
+    const m = metalSlot(s, l);
     if (m) slots.push(m);
     levels[l] = slots;
-    xp[l] = XP[s.rarity][i];
+    xp[l] = XP[s.rarity][l - 1];
   }
   const out = { enchantment_id: s.id };
   if (s.dependsOn) out.dependsOn = s.dependsOn;
-  out.maxLevel = 0;
-  out.useExpPoints = false;
-  out.xp = xp;
-  out.levels = levels;
-  return out;
+  return Object.assign(out, { maxLevel: 0, useExpPoints: false, xp, levels });
 }
+
+function buildCurse(c) {
+  currentFile = c.file;
+  return {
+    enchantment_id: c.id,
+    maxLevel: 0,
+    useExpPoints: false,
+    xp: { 1: 0 },
+    levels: { 1: [arr(JUNK[c.junk], c.junkAmount), one(c.theme, c.themeAmount)] },
+  };
+}
+
+// Default recipe (config/eso) — only used if enableDefaultRecipe is turned back on. Normal ladder, 5 levels.
+function buildDefault() {
+  currentFile = 'default-recipe';
+  const s = { max: 5, valuable: false };
+  const def = {};
+  for (let l = 1; l <= 5; l++) {
+    def[l] = [
+      arr(JUNK.mushrooms, scaled(s, l, 'junk')),
+      lapisSlot(scaled(s, l, 'lapis')),
+      one('tfc:powder/amethyst', scaled(s, l, 'cheap')),
+    ];
+    const m = metalSlot({ ...s, metal: 'any' }, l);
+    if (m) def[l].push(m);
+  }
+  return def;
+}
+
+const recipes = specs.map((s) => [s.file, build(s)]).concat(curses.map((c) => [c.file, buildCurse(c)]));
+const defaultRecipe = buildDefault();
+
+// ---------------------------------------------------------------------------------------------
+if (mode === '--list-ids') {
+  console.log([...used].sort().join('\n'));
+  process.exit(0);
+}
+
+if (mode === '--write-stack-dump') {
+  const list = [...used].sort();
+  const js = `// TEMPORARY: generated by tools/eso/gen_eso.js --write-stack-dump.
+// Logs max stack sizes of ESO recipe ingredients; parse with --read-stack-dump (which also deletes this file).
+const ESO_STACK_IDS = ${JSON.stringify(list, null, 4)};
+
+ServerEvents.loaded(() => {
+    for (const id of ESO_STACK_IDS) {
+        console.info(\`[eso-stack] \${id} \${Item.of(id).maxStackSize}\`);
+    }
+});
+`;
+  fs.writeFileSync(dumpScript, js);
+  console.log(`written ${path.relative(root, dumpScript)} (${list.length} ids). Start the game, load a world, then run --read-stack-dump.`);
+  process.exit(0);
+}
+
+if (mode === '--read-stack-dump') {
+  const found = new Map();
+  for (const line of fs.readFileSync(serverLog, 'utf8').split(/\r?\n/)) {
+    const m = line.match(/\[eso-stack\] (\S+) (\d+)/);
+    if (m) found.set(m[1], Number(m[2]));
+  }
+  const absent = [...used].filter((id) => !found.has(id));
+  if (absent.length) { console.error('No stack size in server.log for:', absent.join(', ')); process.exit(1); }
+  const lines = [...found.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([id, n]) => `${id} ${n}`);
+  fs.writeFileSync(stackFile, lines.join('\n') + '\n');
+  if (fs.existsSync(dumpScript)) fs.unlinkSync(dumpScript);
+  console.log(`written ${path.relative(root, stackFile)} (${lines.length} ids), removed the temporary script. Now run the generator.`);
+  console.log(lines.filter((l) => !l.endsWith(' 64')).join('\n'));
+  process.exit(0);
+}
+
+if (mode) { console.error('Unknown option', mode); process.exit(1); }
+
+if (missing.size) { console.error('Missing item IDs (not in kubejs/probe/items.txt):', [...missing].join(', ')); process.exit(1); }
 
 const written = new Set();
-for (const s of specs) {
-  fs.writeFileSync(path.join(outDir, s.file + '.json'), JSON.stringify(build(s), null, 2) + '\n');
-  written.add(s.file + '.json');
+for (const [file, json] of recipes) {
+  fs.writeFileSync(path.join(outDir, file + '.json'), JSON.stringify(json, null, 2) + '\n');
+  written.add(file + '.json');
 }
+for (const f of fs.readdirSync(outDir)) if (!written.has(f)) console.log('NOT REGENERATED (delete by hand if obsolete):', f);
 
-// Remove recipes for absent mods
-for (const f of fs.readdirSync(outDir)) {
-  if (/^(azurelib|frostiful|swordparry)-/.test(f)) { fs.unlinkSync(path.join(outDir, f)); console.log('removed', f); }
-}
-// Report any files not regenerated
-for (const f of fs.readdirSync(outDir)) if (!written.has(f)) console.log('NOT REGENERATED', f);
-
-// Default recipe (config/eso) — common scale, mushrooms + lapis + amethyst powder
-const def = {};
-for (let l = 1; l <= 5; l++) {
-  const i = l - 1;
-  const slots = [
-    arr(JUNK.mushrooms, JUNK_AMOUNT[i]),
-    { itemArray: [one('tfc:gem/lapis_lazuli', LAPIS_AMOUNT[i]), one('tfc:powder/lapis_lazuli', LAPIS_AMOUNT[i] * POWDER_PER_GEM)] },
-    one('tfc:powder/amethyst', LAPIS_AMOUNT[i]),
-  ];
-  if (l >= 3) slots.push(arr(l === 3 ? ['tfc:metal/ingot/gold', 'tfc:metal/ingot/silver'] : ['tfc:metal/ingot/rose_gold', 'tfc:metal/ingot/sterling_silver'], METAL_AMOUNT[l]));
-  def[l] = slots;
-}
-fs.writeFileSync(path.join(root, 'config/eso/default-recipe.json'), JSON.stringify(def, null, 2) + '\n');
+fs.writeFileSync(path.join(root, 'config/eso/default-recipe.json'), JSON.stringify(defaultRecipe, null, 2) + '\n');
 const xpMap = { useExpPoints: false, xp: Object.fromEntries(XP.common.map((v, i) => [String(i + 1), v])) };
 fs.writeFileSync(path.join(root, 'config/eso/default-xp-map.json'), JSON.stringify(xpMap, null, 2) + '\n');
 
 console.log('written', written.size, 'recipes');
-console.log('missing ids:', [...missing]);
+if (!stacks.size) console.log('WARN: kubejs/probe/stack_sizes.txt not found, amounts are NOT checked against stack sizes (see --write-stack-dump)');
+else {
+  const unknown = [...used].filter((id) => !stacks.has(id)).sort();
+  if (unknown.length) console.log('WARN: no stack size in stack_sizes.txt (not checked, re-dump with --write-stack-dump):', unknown.join(', '));
+}
+for (const c of clamped) console.log('WARN clamped to stack size:', c);

@@ -34,11 +34,11 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 3
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 12
           }
         ]
       },
@@ -46,11 +46,11 @@
         "itemArray": [
           {
             "id": "tfc:wool_cloth",
-            "amount": 2
+            "amount": 8
           },
           {
             "id": "tfc:burlap_cloth",
-            "amount": 2
+            "amount": 8
           }
         ]
       }
@@ -60,19 +60,19 @@
         "itemArray": [
           {
             "id": "tfc:rotten_compost",
-            "amount": 16
+            "amount": 12
           },
           {
             "id": "tfc:groundcover/guano",
-            "amount": 16
+            "amount": 12
           },
           {
             "id": "minecraft:bone_meal",
-            "amount": 16
+            "amount": 12
           },
           {
             "id": "tfc:groundcover/humus",
-            "amount": 16
+            "amount": 12
           }
         ]
       },
@@ -92,11 +92,11 @@
         "itemArray": [
           {
             "id": "tfc:wool_cloth",
-            "amount": 4
+            "amount": 12
           },
           {
             "id": "tfc:burlap_cloth",
-            "amount": 4
+            "amount": 12
           }
         ]
       }
@@ -106,19 +106,19 @@
         "itemArray": [
           {
             "id": "tfc:rotten_compost",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "tfc:groundcover/guano",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "minecraft:bone_meal",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "tfc:groundcover/humus",
-            "amount": 24
+            "amount": 18
           }
         ]
       },
@@ -138,11 +138,11 @@
         "itemArray": [
           {
             "id": "tfc:wool_cloth",
-            "amount": 6
+            "amount": 18
           },
           {
             "id": "tfc:burlap_cloth",
-            "amount": 6
+            "amount": 18
           }
         ]
       },
@@ -164,19 +164,19 @@
         "itemArray": [
           {
             "id": "tfc:rotten_compost",
-            "amount": 32
+            "amount": 24
           },
           {
             "id": "tfc:groundcover/guano",
-            "amount": 32
+            "amount": 24
           },
           {
             "id": "minecraft:bone_meal",
-            "amount": 32
+            "amount": 24
           },
           {
             "id": "tfc:groundcover/humus",
-            "amount": 32
+            "amount": 24
           }
         ]
       },
@@ -196,11 +196,11 @@
         "itemArray": [
           {
             "id": "tfc:wool_cloth",
-            "amount": 8
+            "amount": 24
           },
           {
             "id": "tfc:burlap_cloth",
-            "amount": 8
+            "amount": 24
           }
         ]
       },

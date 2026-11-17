@@ -18,11 +18,11 @@
         "itemArray": [
           {
             "id": "minecraft:spider_eye",
-            "amount": 8
+            "amount": 5
           },
           {
             "id": "minecraft:fermented_spider_eye",
-            "amount": 8
+            "amount": 5
           }
         ]
       },
@@ -40,7 +40,7 @@
       },
       {
         "id": "minecraft:fermented_spider_eye",
-        "amount": 2
+        "amount": 5
       }
     ],
     "2": [
@@ -48,11 +48,41 @@
         "itemArray": [
           {
             "id": "minecraft:spider_eye",
-            "amount": 16
+            "amount": 8
           },
           {
             "id": "minecraft:fermented_spider_eye",
-            "amount": 16
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 3
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 12
+          }
+        ]
+      },
+      {
+        "id": "minecraft:fermented_spider_eye",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:spider_eye",
+            "amount": 12
+          },
+          {
+            "id": "minecraft:fermented_spider_eye",
+            "amount": 12
           }
         ]
       },
@@ -70,37 +100,7 @@
       },
       {
         "id": "minecraft:fermented_spider_eye",
-        "amount": 4
-      }
-    ],
-    "3": [
-      {
-        "itemArray": [
-          {
-            "id": "minecraft:spider_eye",
-            "amount": 24
-          },
-          {
-            "id": "minecraft:fermented_spider_eye",
-            "amount": 24
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:gem/lapis_lazuli",
-            "amount": 6
-          },
-          {
-            "id": "tfc:powder/lapis_lazuli",
-            "amount": 24
-          }
-        ]
-      },
-      {
-        "id": "minecraft:fermented_spider_eye",
-        "amount": 6
+        "amount": 12
       },
       {
         "itemArray": [
@@ -120,11 +120,11 @@
         "itemArray": [
           {
             "id": "minecraft:spider_eye",
-            "amount": 32
+            "amount": 18
           },
           {
             "id": "minecraft:fermented_spider_eye",
-            "amount": 32
+            "amount": 18
           }
         ]
       },
@@ -132,17 +132,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 8
+            "amount": 6
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 32
+            "amount": 24
           }
         ]
       },
       {
         "id": "minecraft:fermented_spider_eye",
-        "amount": 8
+        "amount": 18
       },
       {
         "itemArray": [
@@ -162,11 +162,11 @@
         "itemArray": [
           {
             "id": "minecraft:spider_eye",
-            "amount": 48
+            "amount": 24
           },
           {
             "id": "minecraft:fermented_spider_eye",
-            "amount": 48
+            "amount": 24
           }
         ]
       },
@@ -174,17 +174,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 12
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 48
+            "amount": 32
           }
         ]
       },
       {
         "id": "minecraft:fermented_spider_eye",
-        "amount": 12
+        "amount": 24
       },
       {
         "itemArray": [

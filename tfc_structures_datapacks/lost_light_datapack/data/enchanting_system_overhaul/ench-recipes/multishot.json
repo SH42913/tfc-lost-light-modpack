@@ -11,15 +11,15 @@
         "itemArray": [
           {
             "id": "minecraft:rotten_flesh",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "minecraft:bone",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "aquaculture:fish_bones",
-            "amount": 8
+            "amount": 22
           }
         ]
       },
@@ -27,17 +27,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 32
           }
         ]
       },
       {
         "id": "tfc_arch:paper_fletching",
-        "amount": 12
+        "amount": 22
       }
     ]
   }

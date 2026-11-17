@@ -4,19 +4,19 @@
       "itemArray": [
         {
           "id": "minecraft:brown_mushroom",
-          "amount": 8
+          "amount": 5
         },
         {
           "id": "minecraft:red_mushroom",
-          "amount": 8
+          "amount": 5
         },
         {
           "id": "farmerstfc:brown_mushroom_bunch",
-          "amount": 8
+          "amount": 5
         },
         {
           "id": "farmerstfc:red_mushroom_bunch",
-          "amount": 8
+          "amount": 5
         }
       ]
     },
@@ -34,7 +34,7 @@
     },
     {
       "id": "tfc:powder/amethyst",
-      "amount": 2
+      "amount": 6
     }
   ],
   "2": [
@@ -42,19 +42,57 @@
       "itemArray": [
         {
           "id": "minecraft:brown_mushroom",
-          "amount": 16
+          "amount": 8
         },
         {
           "id": "minecraft:red_mushroom",
-          "amount": 16
+          "amount": 8
         },
         {
           "id": "farmerstfc:brown_mushroom_bunch",
-          "amount": 16
+          "amount": 8
         },
         {
           "id": "farmerstfc:red_mushroom_bunch",
-          "amount": 16
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "itemArray": [
+        {
+          "id": "tfc:gem/lapis_lazuli",
+          "amount": 3
+        },
+        {
+          "id": "tfc:powder/lapis_lazuli",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "id": "tfc:powder/amethyst",
+      "amount": 10
+    }
+  ],
+  "3": [
+    {
+      "itemArray": [
+        {
+          "id": "minecraft:brown_mushroom",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:red_mushroom",
+          "amount": 12
+        },
+        {
+          "id": "farmerstfc:brown_mushroom_bunch",
+          "amount": 12
+        },
+        {
+          "id": "farmerstfc:red_mushroom_bunch",
+          "amount": 12
         }
       ]
     },
@@ -72,45 +110,7 @@
     },
     {
       "id": "tfc:powder/amethyst",
-      "amount": 4
-    }
-  ],
-  "3": [
-    {
-      "itemArray": [
-        {
-          "id": "minecraft:brown_mushroom",
-          "amount": 24
-        },
-        {
-          "id": "minecraft:red_mushroom",
-          "amount": 24
-        },
-        {
-          "id": "farmerstfc:brown_mushroom_bunch",
-          "amount": 24
-        },
-        {
-          "id": "farmerstfc:red_mushroom_bunch",
-          "amount": 24
-        }
-      ]
-    },
-    {
-      "itemArray": [
-        {
-          "id": "tfc:gem/lapis_lazuli",
-          "amount": 6
-        },
-        {
-          "id": "tfc:powder/lapis_lazuli",
-          "amount": 24
-        }
-      ]
-    },
-    {
-      "id": "tfc:powder/amethyst",
-      "amount": 6
+      "amount": 16
     },
     {
       "itemArray": [
@@ -130,19 +130,19 @@
       "itemArray": [
         {
           "id": "minecraft:brown_mushroom",
-          "amount": 32
+          "amount": 18
         },
         {
           "id": "minecraft:red_mushroom",
-          "amount": 32
+          "amount": 18
         },
         {
           "id": "farmerstfc:brown_mushroom_bunch",
-          "amount": 32
+          "amount": 18
         },
         {
           "id": "farmerstfc:red_mushroom_bunch",
-          "amount": 32
+          "amount": 18
         }
       ]
     },
@@ -150,17 +150,17 @@
       "itemArray": [
         {
           "id": "tfc:gem/lapis_lazuli",
-          "amount": 8
+          "amount": 6
         },
         {
           "id": "tfc:powder/lapis_lazuli",
-          "amount": 32
+          "amount": 24
         }
       ]
     },
     {
       "id": "tfc:powder/amethyst",
-      "amount": 8
+      "amount": 24
     },
     {
       "itemArray": [
@@ -180,19 +180,19 @@
       "itemArray": [
         {
           "id": "minecraft:brown_mushroom",
-          "amount": 48
+          "amount": 24
         },
         {
           "id": "minecraft:red_mushroom",
-          "amount": 48
+          "amount": 24
         },
         {
           "id": "farmerstfc:brown_mushroom_bunch",
-          "amount": 48
+          "amount": 24
         },
         {
           "id": "farmerstfc:red_mushroom_bunch",
-          "amount": 48
+          "amount": 24
         }
       ]
     },
@@ -200,17 +200,17 @@
       "itemArray": [
         {
           "id": "tfc:gem/lapis_lazuli",
-          "amount": 12
+          "amount": 8
         },
         {
           "id": "tfc:powder/lapis_lazuli",
-          "amount": 48
+          "amount": 32
         }
       ]
     },
     {
       "id": "tfc:powder/amethyst",
-      "amount": 12
+      "amount": 32
     },
     {
       "itemArray": [

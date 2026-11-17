@@ -13,57 +13,19 @@
         "itemArray": [
           {
             "id": "minecraft:brown_mushroom",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "minecraft:red_mushroom",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 8
+            "amount": 12
           },
           {
             "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "itemArray": [
-          {
-            "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
-          },
-          {
-            "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "id": "tfc:wool_yarn",
-        "amount": 8
-      }
-    ],
-    "2": [
-      {
-        "itemArray": [
-          {
-            "id": "minecraft:brown_mushroom",
-            "amount": 16
-          },
-          {
-            "id": "minecraft:red_mushroom",
-            "amount": 16
-          },
-          {
-            "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 16
-          },
-          {
-            "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 16
+            "amount": 12
           }
         ]
       },
@@ -84,24 +46,24 @@
         "amount": 16
       }
     ],
-    "3": [
+    "2": [
       {
         "itemArray": [
           {
             "id": "minecraft:brown_mushroom",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "minecraft:red_mushroom",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 24
+            "amount": 18
           },
           {
             "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 24
+            "amount": 18
           }
         ]
       },
@@ -130,6 +92,56 @@
           {
             "id": "tfc:metal/ingot/silver",
             "amount": 2
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:brown_mushroom",
+            "amount": 24
+          },
+          {
+            "id": "minecraft:red_mushroom",
+            "amount": 24
+          },
+          {
+            "id": "farmerstfc:brown_mushroom_bunch",
+            "amount": 24
+          },
+          {
+            "id": "farmerstfc:red_mushroom_bunch",
+            "amount": 24
+          }
+        ]
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:gem/lapis_lazuli",
+            "amount": 8
+          },
+          {
+            "id": "tfc:powder/lapis_lazuli",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "tfc:wool_yarn",
+        "amount": 32
+      },
+      {
+        "itemArray": [
+          {
+            "id": "tfc:metal/ingot/rose_gold",
+            "amount": 3
+          },
+          {
+            "id": "tfc:metal/ingot/sterling_silver",
+            "amount": 3
           }
         ]
       }

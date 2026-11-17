@@ -12,19 +12,19 @@
         "itemArray": [
           {
             "id": "minecraft:brown_mushroom",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "minecraft:red_mushroom",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 8
+            "amount": 22
           },
           {
             "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 8
+            "amount": 22
           }
         ]
       },
@@ -32,25 +32,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 2
+            "amount": 8
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 8
+            "amount": 32
           }
         ]
       },
       {
-        "itemArray": [
-          {
-            "id": "minecraft:ice",
-            "amount": 8
-          },
-          {
-            "id": "tfc:sea_ice",
-            "amount": 8
-          }
-        ]
+        "id": "firmalife:ice_shavings",
+        "amount": 32
       }
     ],
     "2": [
@@ -58,19 +50,19 @@
         "itemArray": [
           {
             "id": "minecraft:brown_mushroom",
-            "amount": 16
+            "amount": 32
           },
           {
             "id": "minecraft:red_mushroom",
-            "amount": 16
+            "amount": 32
           },
           {
             "id": "farmerstfc:brown_mushroom_bunch",
-            "amount": 16
+            "amount": 32
           },
           {
             "id": "farmerstfc:red_mushroom_bunch",
-            "amount": 16
+            "amount": 32
           }
         ]
       },
@@ -78,25 +70,17 @@
         "itemArray": [
           {
             "id": "tfc:gem/lapis_lazuli",
-            "amount": 4
+            "amount": 12
           },
           {
             "id": "tfc:powder/lapis_lazuli",
-            "amount": 16
+            "amount": 48
           }
         ]
       },
       {
-        "itemArray": [
-          {
-            "id": "minecraft:ice",
-            "amount": 16
-          },
-          {
-            "id": "tfc:sea_ice",
-            "amount": 16
-          }
-        ]
+        "id": "firmalife:ice_shavings",
+        "amount": 48
       }
     ]
   }
