@@ -1492,6 +1492,14 @@
     "curseForgeHash": 3712607114,
     "modrinthHash": "eff1dc3584518a88269d32bd13420edaa48dc32a"
   },
+  "mcaoutlaws-1.20.1-0.2.0.jar": {
+    "jarName": "mcaoutlaws-1.20.1-0.2.0.jar",
+    "modId": "mcaoutlaws",
+    "name": "MCA Outlaws",
+    "version": "0.2.0",
+    "curseForgeHash": 2859333809,
+    "modrinthHash": "ef876ece8d643b0a72a307b3aec260502d9de604"
+  },
   "mcareputation-0.6.2.jar": {
     "jarName": "mcareputation-0.6.2.jar",
     "modId": "mcareputation",

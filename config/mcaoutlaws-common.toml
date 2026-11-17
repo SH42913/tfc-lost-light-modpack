@@ -1,0 +1,13 @@
+#Chance that an outlaw (illager) spawns without a weapon outside raids - unarmed outlaws surrender
+#Spellcasters (evokers, illusioners, ...) never carry weapons and never surrender
+#Range: 0.0 ~ 1.0
+unarmedSpawnChance = 0.1
+#Chance that a player's melee hit knocks the weapon out of an outlaw's hand (it drops to the ground)
+#Range: 0.0 ~ 1.0
+disarmChance = 0.1
+#After a player hits a surrendered outlaw it fights back (bare-handed) for this many seconds
+#Range: 0 ~ 3600
+angrySeconds = 30
+#Giving a surrendered outlaw this item turns them into a real MCA villager (they keep their outfit)
+redemptionItem = "tfc:gem/emerald"
+
