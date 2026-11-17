@@ -19,7 +19,7 @@ module.exports = chapter('villagers', {
   title: { ru: 'Жители и торговля', en: 'Villagers and Trade' },
   subtitle: { ru: 'Соседи, сделки и семья', en: 'Neighbours, deals and family' },
   icon: 'minecraft:emerald',
-  links: [link('exploration/village'), link('exploration/tavern'), link('exploration/illagers')],
+  links: [link('exploration/tavern'), link('exploration/illagers')],
   quests: [
     // The MCA basics book is given only here: the mca:root advancement reward is removed by the pack datapack
     // (lost_light_datapack/data/mca/advancements/root.json).
@@ -31,15 +31,11 @@ module.exports = chapter('villagers', {
           'Жители деревень здесь — не безмолвные торговцы, а люди со своей жизнью: они дружат, ссорятся, влюбляются, женятся и растят детей. С ними можно говорить, дарить подарки, нанимать на работу и даже породниться.',
           '',
           'Всё это описано в книге &6«Relationships and You»&r — возьми её и загляни перед первым визитом в деревню.',
-          '',
-          'А &6чертёж&r показывает деревню, её постройки и твой ранг. Если жители ещё не признали поселение деревней, встань в доме с крышей, дверью и кроватью, открой чертёж и нажми &6«Add Building»&r — так можно основать деревню самому.',
         ],
         en: [
           'Villagers here aren\'t silent traders but people with lives of their own: they make friends, quarrel, fall in love, marry and raise children. You can talk to them, give gifts, hire them and even become family.',
           '',
           'It\'s all described in &6Relationships and You&r: take it and have a look before your first visit to a village.',
-          '',
-          'The &6Blueprint&r shows a village, its buildings and your rank. If the villagers don\'t count a settlement as a village yet, stand in a house with a roof, a door and a bed, open the blueprint and press &6Add Building&r: that way you can found a village yourself.',
         ],
       },
       icon: 'mca:book_romance',
@@ -55,17 +51,25 @@ module.exports = chapter('villagers', {
           'Жители деревень — живые люди: у каждого есть имя, характер, настроение и память о тебе. Щёлкни по жителю, чтобы поговорить: поздоровайся, расскажи шутку, обними — или не надо.',
           '',
           'Каждый жест меняет &6отношение&r в сердечках. Удачная беседа зависит от характера и настроения собеседника.',
+          '',
+          'Облик деревни зависит от края: в горах — гномьи, в пустынях — оазисы, в лесах — деревянные срубы.',
+          '',
+          'Не хочешь искать — основи свою. &6Чертёж&r показывает деревню, её постройки и твой ранг. Встань в доме с крышей, дверью и кроватью, открой чертёж и нажми &6«Add Building»&r: так дом станет первой постройкой новой деревни.',
         ],
         en: [
           'Villagers are living people: each has a name, a personality, a mood and a memory of you. Click a villager to talk: greet them, tell a joke, give a hug, or better not.',
           '',
           'Every gesture changes the &6relationship&r in hearts. A good conversation depends on the other person\'s personality and mood.',
+          '',
+          'A village\'s look depends on the land: dwarven in the mountains, oases in deserts, log houses in forests.',
+          '',
+          'Don\'t feel like searching? Found your own. The &6Blueprint&r shows a village, its buildings and your rank. Stand in a house with a roof, a door and a bed, open the blueprint and press &6Add Building&r: the house becomes the first building of a new village.',
         ],
       },
       icon: 'minecraft:bell',
-      deps: ['village_life', 'exploration/village'],
+      deps: ['village_life'],
       // not mca:root - that advancement only knows the 5 vanilla village structures
-      tasks: [inMcaVillage({ title: { ru: 'Войди в деревню', en: 'Enter a village' }, icon: 'minecraft:bell' })],
+      tasks: [inMcaVillage({ title: { ru: 'Найди деревню или основи свою', en: 'Find a village or found your own' }, icon: 'minecraft:bell' })],
       ...COMMON,
     }),
 

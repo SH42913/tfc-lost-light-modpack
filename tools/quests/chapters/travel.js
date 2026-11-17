@@ -36,7 +36,7 @@ module.exports = chapter('travel', {
       },
       icon: 'sns:hiking_boots',
       tasks: [distance(1, { title: { ru: 'Пройди 1 км', en: 'Walk 1 km' }, icon: 'sns:hiking_boots' })],
-      rewards: [reward('tfc:food/cooked_beef', 3)],
+      rewards: [reward('tfc:food/cooked_beef', 2)],
       budget: 750,
     }),
 
@@ -337,7 +337,7 @@ module.exports = chapter('travel', {
         ],
       },
       icon: 'waystones:waystone',
-      deps: ['first_steps', 'exploration/village'],
+      deps: ['first_steps'],
       tasks: [observe.block(['waystones:waystone', 'waystones:mossy_waystone', 'waystones:sandy_waystone'], { title: { ru: 'Найди путевой камень', en: 'Find a waystone' }, icon: 'waystones:waystone' })],
       rewards: [reward('waystones:return_scroll', 2)],
       budget: 5000,

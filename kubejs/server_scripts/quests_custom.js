@@ -347,6 +347,7 @@ FTBQuestsEvents.customTask('730E49B75301829E', event => {
     for (let i = 0; i < inv.getContainerSize(); i++) {
       let stack = inv.getItem(i)
       if (stack.isEmpty()) continue
+      if (String(stack.id) == 'minecraft:rotten_flesh') continue
       let food = FoodCapability.get(stack)
       if (food && food.isRotten()) {
         task.progress++
@@ -807,24 +808,6 @@ FTBQuestsEvents.customTask('53D312FD6F89AE7D', event => {
   })
 })
 
-// exploration/village task#0
-FTBQuestsEvents.customTask('7471B30593C916A7', event => {
-  event.maxProgress = 1
-  event.setCheckTimer(40)
-  const check = (task, player) => {
-    const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
-    const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
-    if (village && village.getPopulation() > 0) task.progress++
-  }
-  event.setCheck((task, player) => {
-    try {
-      check(task, player)
-    } catch (e) {
-      console.error('quest task exploration/village task#0: ' + e)
-    }
-  })
-})
-
 // travel/first_steps task#0
 FTBQuestsEvents.customTask('53AECD3B1FAF88E8', event => {
   event.maxProgress = 1000
@@ -1125,7 +1108,7 @@ FTBQuestsEvents.customTask('7DB5EBBD3956B734', event => {
   const check = (task, player) => {
     const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
     const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
-    if (village && village.getPopulation() > 0) task.progress++
+    if (village && (village.getPopulation() > 0 || village.getMaxPopulation() > 0)) task.progress++
   }
   event.setCheck((task, player) => {
     try {
@@ -1142,10 +1125,13 @@ FTBQuestsEvents.customTask('1DCE4731DF87664F', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1173,10 +1159,13 @@ FTBQuestsEvents.customTask('78A7024D4A591835', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1204,10 +1193,13 @@ FTBQuestsEvents.customTask('7AE6F2522516BC2D', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1235,10 +1227,13 @@ FTBQuestsEvents.customTask('69EEF5D5CF0E4AB2', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1266,10 +1261,13 @@ FTBQuestsEvents.customTask('38ED9BFCD87A99FC', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1297,10 +1295,13 @@ FTBQuestsEvents.customTask('11B38CB8C2FC9793', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1328,10 +1329,13 @@ FTBQuestsEvents.customTask('522CBD5343A3AB2E', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1359,10 +1363,13 @@ FTBQuestsEvents.customTask('3D67040ED2534FEA', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1390,10 +1397,13 @@ FTBQuestsEvents.customTask('4CD2CB2150608BA9', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }
@@ -1421,10 +1431,13 @@ FTBQuestsEvents.customTask('0C7B8F1DC900473A', event => {
   event.setCheckTimer(100)
   const check = (task, player) => {
     const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+    const ArrayList = Java.loadClass('java.util.ArrayList')
     const TIERS = ['infamous', 'hated', 'distrusted', 'wary', 'stranger', 'acquaintance', 'friend', 'honored', 'revered']
     const tier = (id) => TIERS.indexOf(String(id))
     const hasIncident = (s, want) => {
-      const incs = s.incidents()
+      // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+      // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+      const incs = new ArrayList(s.incidents())
       for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
       return false
     }

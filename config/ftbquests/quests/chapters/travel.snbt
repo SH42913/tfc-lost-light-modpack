@@ -18,7 +18,7 @@
 			id: "32DCF2F85A9B1D09"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "09AD48C9AD94A70C"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -562,7 +562,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["32DCF2F85A9B1D09", "0204ED5A9B63AD8C"]
+			dependencies: ["32DCF2F85A9B1D09"]
 			description: ["{quests.lost_light.travel.waystone.desc.0}"]
 			icon: "waystones:waystone"
 			id: "1FC5493EA312A1DE"

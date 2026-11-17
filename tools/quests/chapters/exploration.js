@@ -4,7 +4,6 @@
 // The world is themed after the peoples of tfc_structures biome groups (dwarves, orcs, bandits, kingdoms).
 // Text formatting: &6 - names, &e - where to look, &r - reset.
 const { chapter, quest, item, structure, checkmark, lootCrate } = require('../lib');
-const { inMcaVillage } = require('../custom');
 
 const ns = (namespace, ids) => ids.map((id) => `${namespace}:${id}`);
 const FACTIONS = ['valarian', 'bohemian', 'caladrian', 'visgothian', 'galician', 'numerian', 'gardonian', 'lancastian'];
@@ -131,19 +130,6 @@ module.exports = chapter('exploration', {
       ...COMMON,
     }),
 
-    quest('huts', {
-      title: { ru: 'Хижины', en: 'Huts' },
-      subtitle: { ru: 'Простые люди простого века', en: 'Simple folk of a simple age' },
-      desc: {
-        ru: ['Небольшие поселения из хижин — первое жильё людей. Их обитатели живут так же, как ты в начале пути.'],
-        en: ['Small settlements of huts are the first homes of people. Their dwellers live just like you did at the start of your journey.'],
-      },
-      icon: 'tfc:thatch',
-      deps: ['explorer'],
-      tasks: [structure('tfchuts:settlement', { title: { ru: 'Найди поселение хижин', en: 'Find a hut settlement' }, icon: 'tfc:thatch' })],
-      ...COMMON,
-    }),
-
     quest('hobbit_hole', {
       title: { ru: 'Нора хоббита', en: 'A Hobbit-Hole' },
       subtitle: { ru: 'Круглая дверь в зелёном холме', en: 'A round door in a green hill' },
@@ -184,24 +170,6 @@ module.exports = chapter('exploration', {
     }),
 
     // ---------------- settlements ----------------
-    quest('village', {
-      title: { ru: 'Деревня', en: 'Village' },
-      subtitle: { ru: 'Наконец-то люди', en: 'People at last' },
-      desc: {
-        ru: [
-          'В деревнях живут жители, готовые торговать за самоцветы. Облик деревни зависит от края: в горах — гномьи, в пустынях — оазисы, в лесах — деревянные срубы.',
-        ],
-        en: [
-          'Villages are home to villagers who trade for gems. A village\'s look depends on the land: dwarven in the mountains, oases in deserts, log houses in forests.',
-        ],
-      },
-      icon: 'minecraft:bell',
-      deps: ['explorer'],
-      // MCA's own village detection: FTB structure tasks only count structure pieces (see custom.js inMcaVillage)
-      tasks: [inMcaVillage({ title: { ru: 'Найди деревню', en: 'Find a village' }, icon: 'minecraft:bell' })],
-      ...COMMON,
-    }),
-
     quest('tavern', {
       title: { ru: 'Таверна', en: 'Tavern' },
       subtitle: { ru: 'Кружка эля и свежие слухи', en: 'A mug of ale and fresh rumours' },
@@ -210,7 +178,7 @@ module.exports = chapter('exploration', {
         en: ['Taverns stand along roads and in settlements. Travellers rest here, and the innkeeper always knows what\'s going on nearby. Keep an eye on the quiet stranger in the corner: what if he\'s a ranger?'],
       },
       icon: 'minecraft:lantern',
-      deps: ['village'],
+      deps: ['explorer'],
       tasks: [structure(TAVERNS, { title: { ru: 'Найди таверну', en: 'Find a tavern' }, icon: 'minecraft:lantern' })],
       ...COMMON,
     }),
@@ -223,7 +191,7 @@ module.exports = chapter('exploration', {
         en: ['Wells are the heart of any settlement. And at the bottom of some, they say, lie the coins of those who made wishes.'],
       },
       icon: 'tfc:wooden_bucket',
-      deps: ['village'],
+      deps: ['explorer'],
       tasks: [structure(WELLS, { title: { ru: 'Найди колодец', en: 'Find a well' }, icon: 'tfc:wooden_bucket' })],
       ...COMMON,
     }),
@@ -236,7 +204,7 @@ module.exports = chapter('exploration', {
         en: ['Lone houses, barns, windmills and stables stand far from villages. Their owners are used to relying only on themselves.'],
       },
       icon: 'minecraft:hay_block',
-      deps: ['village'],
+      deps: ['explorer'],
       tasks: [structure(FARMSTEADS, { title: { ru: 'Найди хутор', en: 'Find a farmstead' }, icon: 'minecraft:hay_block' })],
       ...COMMON,
     }),
@@ -249,7 +217,7 @@ module.exports = chapter('exploration', {
         en: ['Kingdoms watch for forest fires and enemies from these towers. Climb up and look around: you might spot something interesting.'],
       },
       icon: 'minecraft:spyglass',
-      deps: ['village'],
+      deps: ['explorer'],
       tasks: [structure(WATCHTOWERS, { title: { ru: 'Найди сторожевую вышку', en: 'Find a watchtower' }, icon: 'minecraft:spyglass' })],
       ...COMMON,
     }),
@@ -275,7 +243,7 @@ module.exports = chapter('exploration', {
         en: ['Merchants set up camp &eon the plains&r on their way between settlements.'],
       },
       icon: 'minecraft:goat_horn',
-      deps: ['village'],
+      deps: ['explorer'],
       tasks: [structure('dungeons_arise:merchant_campsite', { title: { ru: 'Найди купеческий лагерь', en: 'Find a merchant camp' }, icon: 'minecraft:goat_horn' })],
       ...COMMON,
     }),
@@ -289,7 +257,7 @@ module.exports = chapter('exploration', {
         en: ['Dwarves live &ein the mountains and underground&r: their towers, bunkers, mines and underground villages are full of riches, and dangers.'],
       },
       icon: 'tfc:metal/pickaxe/bronze',
-      deps: ['village', 'ruins'],
+      deps: ['ruins'],
       tasks: [structure(DWARVES, { title: { ru: 'Найди обитель гномов', en: 'Find a dwarven dwelling' }, icon: 'tfc:metal/pickaxe/bronze' })],
       ...RARE,
     }),

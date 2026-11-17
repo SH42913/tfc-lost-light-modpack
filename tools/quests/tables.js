@@ -14,11 +14,11 @@ module.exports = [
       entry('tfc:gem/amethyst', 2, 3),
       entry('minecraft:map', 2, 2),
       entry('minecraft:lead', 2, 2),
-      entry('tfc:food/cooked_beef', 6, 3),
+      entry('tfc:food/cooked_beef', 3, 3),
       entry('tfc_arch:stone_arrow', 12, 2),
       entry('supplementaries:flute', 1, 1),
       entry('sns:quiver', 1, 1),
-      entry('tfc:metal/ingot/copper', 1, 1),
+      entry('tfc:ore/normal_native_copper', 2, 1),
     ],
   }),
   table('explore_rare', {

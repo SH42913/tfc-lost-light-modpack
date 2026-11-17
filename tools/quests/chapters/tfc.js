@@ -44,7 +44,6 @@ module.exports = chapter('tfc', {
       tasks: [checkmark()],
       rewards: [
         reward('patchouli:guide_book', 1, { nbt: { 'patchouli:book': 'tfc:field_guide' }, title: { ru: 'Руководство TerraFirmaCraft', en: 'TerraFirmaCraft Field Guide' } }),
-        reward('tfc:food/cooked_beef', 3),
       ],
     }),
 
@@ -71,7 +70,7 @@ module.exports = chapter('tfc', {
         item('#tfc:axes', 1, { icon: 'tfc:stone/axe/sedimentary', title: { ru: 'Любой топор', en: 'Any axe' } }),
         item('#tfc:shovels', 1, { icon: 'tfc:stone/shovel/sedimentary', title: { ru: 'Любая лопата', en: 'Any shovel' } }),
       ],
-      rewards: [reward('tfc:food/cooked_beef', 2), reward('tfc:straw', 16)],
+      rewards: [reward('tfc:food/cooked_beef', 1), reward('tfc:straw', 16)],
       budget: 600,
     }),
 
@@ -102,7 +101,7 @@ module.exports = chapter('tfc', {
         item('tfc:torch'),
         item('tfc:powder/wood_ash'),
       ],
-      rewards: [reward('tfc:food/cooked_beef', 3)],
+      rewards: [reward('tfc:food/cooked_beef', 2)],
       budget: 700,
     }),
 
@@ -142,46 +141,48 @@ module.exports = chapter('tfc', {
       budget: 600,
     }),
 
-    quest('straw_bed', {
-      title: { ru: 'Соломенная подстилка', en: 'Straw Bed' },
+    // thatch bed first: it's assembled from thatch and a hide in the stone age, while the straw bed is a 3x2 recipe
+    // that needs a workbench (copper saw)
+    quest('thatch_bed', {
+      from: 'terrafirmacraft/simple_bed',
+      title: { ru: 'Лежанка', en: 'Thatch Bed' },
       subtitle: { ru: 'Лучше, чем голая земля', en: 'Better than bare ground' },
       desc: {
         ru: [
           'Человеку нужен сон. Если долго не спать, начнутся зевота, слабость, а потом и видения — тех, кто не спит слишком долго, может хватить удар.',
           '',
-          'Простейшую постель собирают из шести пучков &6соломы&r. Спать можно в любое время суток: чем сильнее устал, тем дольше сон.',
+          'Первая постель — лежанка из двух снопов соломы и большой шкуры. Спать можно в любое время суток: чем сильнее устал, тем дольше сон.',
         ],
         en: [
           'People need sleep. Stay awake too long and you\'ll start yawning, weakening, then seeing things, and those who never rest may have a heart attack.',
           '',
-          'The simplest bed is made of six bunches of &6straw&r. You can sleep at any time of day: the more tired you are, the longer you sleep.',
-        ],
-      },
-      icon: 'tfcsleep:straw_bed',
-      deps: ['sticks_and_stones'],
-      tasks: [item('tfcsleep:straw_bed')],
-      rewards: [reward('tfc:straw', 16)],
-      budget: 300,
-    }),
-
-    quest('thatch_bed', {
-      from: 'terrafirmacraft/simple_bed',
-      title: { ru: 'Лежанка', en: 'Thatch Bed' },
-      subtitle: { ru: 'Уже почти уютно', en: 'Almost cosy' },
-      desc: {
-        ru: [
-          'Следующий шаг после подстилки — лежанка из двух снопов соломы и большой шкуры.',
-        ],
-        en: [
-          'The next step after a straw bed is a thatch bed made of two thatch blocks and a large hide.',
+          'Your first bed is a thatch bed made of two thatch blocks and a large hide. You can sleep at any time of day: the more tired you are, the longer you sleep.',
         ],
       },
       icon: 'tfc:thatch_bed',
-      deps: ['straw_bed'],
+      deps: ['sticks_and_stones'],
       // the bed is assembled in the world and has no loot table, so it never exists as an item
       tasks: [observe.block('tfc:thatch_bed', { title: { ru: 'Собери лежанку', en: 'Build a thatch bed' }, icon: 'tfc:thatch_bed' })],
-      rewards: [reward('tfc:food/cooked_beef', 2)],
-      budget: 500,
+      rewards: [reward('tfc:food/cooked_beef', 1)],
+      budget: 250,
+    }),
+
+    quest('straw_bed', {
+      title: { ru: 'Соломенная кровать', en: 'Straw Bed' },
+      subtitle: { ru: 'Постель, которую можно унести', en: 'A bed you can carry' },
+      desc: {
+        ru: [
+          'Когда появится &6верстак&r, из шести пучков &6соломы&r можно сделать кровать. В отличие от лежанки, её можно сломать и забрать с собой.',
+        ],
+        en: [
+          'Once you have a &6workbench&r, six bunches of &6straw&r make a bed. Unlike a thatch bed, you can break it and take it with you.',
+        ],
+      },
+      icon: 'tfcsleep:straw_bed',
+      deps: ['thatch_bed', 'saw'],
+      tasks: [item('tfcsleep:straw_bed')],
+      rewards: [reward('tfc:straw', 16)],
+      budget: 300,
     }),
 
     quest('animals', {
@@ -271,7 +272,7 @@ module.exports = chapter('tfc', {
         item('tfc:ceramic/pot'),
         item('tfc:ceramic/bowl', 3),
       ],
-      rewards: [reward('tfc:powder/salt', 4), reward('tfc:food/cooked_beef', 2)],
+      rewards: [reward('tfc:powder/salt', 4), reward('tfc:food/cooked_beef', 1)],
       budget: 1000,
     }),
 
@@ -290,8 +291,8 @@ module.exports = chapter('tfc', {
       icon: 'tfc:food/grain_soup',
       deps: ['pot'],
       tasks: [item(anyOf('tfc:food/grain_soup', 'tfc:food/fruit_soup', 'tfc:food/vegetables_soup', 'tfc:food/protein_soup', 'tfc:food/dairy_soup'), 1, { icon: 'tfc:food/grain_soup', title: { ru: 'Любой суп', en: 'Any soup' } })],
-      rewards: [reward('tfc:food/cooked_beef', 2)],
-      budget: 600,
+      rewards: [reward('tfc:food/cooked_beef', 1)],
+      budget: 250,
     }),
 
     quest('first_ores', {
@@ -619,8 +620,8 @@ module.exports = chapter('tfc', {
         observe.entity(['firmaciv:dugout_canoe/douglas_fir', 'firmaciv:dugout_canoe/pine', 'firmaciv:dugout_canoe/palm', 'firmaciv:dugout_canoe/spruce', 'firmaciv:dugout_canoe/sequoia', 'firmaciv:dugout_canoe/kapok', 'firmaciv:dugout_canoe/white_cedar', 'firmaciv:dugout_canoe/willow', 'firmaciv:dugout_canoe/acacia', 'firmaciv:dugout_canoe/ash', 'firmaciv:dugout_canoe/aspen', 'firmaciv:dugout_canoe/birch', 'firmaciv:dugout_canoe/blackwood', 'firmaciv:dugout_canoe/chestnut', 'firmaciv:dugout_canoe/hickory', 'firmaciv:dugout_canoe/mangrove', 'firmaciv:dugout_canoe/maple', 'firmaciv:dugout_canoe/oak', 'firmaciv:dugout_canoe/rosewood', 'firmaciv:dugout_canoe/sycamore'], { title: { ru: 'Сделай долблёнку', en: 'Make a dugout canoe' }, icon: 'firmaciv:canoe_paddle' }),
         item('firmaciv:canoe_paddle'),
       ],
-      rewards: [reward('tfc:food/cooked_beef', 4)],
-      budget: 1000,
+      rewards: [reward('tfc:food/cooked_beef', 2)],
+      budget: 500,
     }),
 
     quest('kayak', {
@@ -642,8 +643,8 @@ module.exports = chapter('tfc', {
         item('firmaciv:kayak'),
         item('firmaciv:kayak_paddle'),
       ],
-      rewards: [reward('tfc:food/cooked_beef', 4)],
-      budget: 1000,
+      rewards: [reward('tfc:food/cooked_beef', 2)],
+      budget: 500,
     }),
 
     quest('support_beams', {
@@ -661,7 +662,7 @@ module.exports = chapter('tfc', {
       icon: 'tfc:wood/support/oak',
       deps: ['saw'],
       tasks: [item('#tfc:support_beams', 32, { icon: 'tfc:wood/support/oak', title: { ru: 'Опоры из любого дерева', en: 'Support beams of any wood' } })],
-      rewards: [reward('tfc:food/cooked_beef', 4), reward('minecraft:charcoal', 8)],
+      rewards: [reward('tfc:food/cooked_beef', 2), reward('minecraft:charcoal', 8)],
       budget: 1500,
     }),
 
@@ -807,8 +808,8 @@ module.exports = chapter('tfc', {
       icon: 'waterflasks:leather_flask',
       deps: ['leather'],
       tasks: [item('waterflasks:leather_flask')],
-      rewards: [reward('tfc:food/cooked_beef', 4)],
-      budget: 1000,
+      rewards: [reward('tfc:food/cooked_beef', 2)],
+      budget: 500,
     }),
 
     quest('bed', {
@@ -1199,8 +1200,8 @@ module.exports = chapter('tfc', {
       deps: ['wrought_iron'],
       optional: true,
       tasks: [item('tfc:wrought_iron_grill')],
-      rewards: [reward('tfc:food/cooked_beef', 8)],
-      budget: 2000,
+      rewards: [reward('tfc:food/cooked_beef', 4)],
+      budget: 1000,
     }),
 
     quest('iron_flask', {
@@ -1219,8 +1220,8 @@ module.exports = chapter('tfc', {
       deps: ['wrought_iron', 'water_flask'],
       optional: true,
       tasks: [item('waterflasks:iron_flask')],
-      rewards: [reward('tfc:food/cooked_beef', 8)],
-      budget: 2000,
+      rewards: [reward('tfc:food/cooked_beef', 4)],
+      budget: 1000,
     }),
 
     // ---------------- steel age ----------------

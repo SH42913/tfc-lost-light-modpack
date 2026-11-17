@@ -33,7 +33,7 @@ module.exports = chapter('firmalife', {
       icon: 'firmalife:fruit_leaf',
       deps: ['tfc/sticks_and_stones'],
       tasks: [item('firmalife:fruit_leaf', 32)],
-      rewards: [reward('tfc:food/cooked_beef', 3)],
+      rewards: [reward('tfc:food/cooked_beef', 2)],
       budget: 750,
     }),
 
@@ -52,8 +52,8 @@ module.exports = chapter('firmalife', {
       icon: 'firmalife:drying_mat',
       deps: ['fruit_trees'],
       tasks: [item('firmalife:drying_mat', 2)],
-      rewards: [reward('tfc:food/cooked_beef', 2)],
-      budget: 500,
+      rewards: [reward('tfc:food/cooked_beef', 1)],
+      budget: 250,
     }),
 
     quest('pineapple', {

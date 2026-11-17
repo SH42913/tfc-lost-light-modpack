@@ -40,7 +40,7 @@
 			weight: 2f
 		}
 		{
-			count: 6
+			count: 3
 			item: "tfc:food/cooked_beef"
 			weight: 3f
 		}
@@ -56,7 +56,8 @@
 			item: "sns:quiver"
 		}
 		{
-			item: "tfc:metal/ingot/copper"
+			count: 2
+			item: "tfc:ore/normal_native_copper"
 		}
 	]
 	title: "{quests.lost_light.table.explore_common}"

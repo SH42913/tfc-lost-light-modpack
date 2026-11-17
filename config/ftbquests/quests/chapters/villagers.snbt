@@ -8,12 +8,6 @@
 	order_index: 0
 	quest_links: [
 		{
-			id: "61E8C6A6134AB522"
-			linked_quest: "0204ED5A9B63AD8C"
-			x: -1.5d
-			y: 0.0d
-		}
-		{
 			id: "5727F4C52201956D"
 			linked_quest: "57792700629889E4"
 			x: -1.5d
@@ -32,8 +26,6 @@
 				"{quests.lost_light.villagers.village_life.desc.0}"
 				""
 				"{quests.lost_light.villagers.village_life.desc.2}"
-				""
-				"{quests.lost_light.villagers.village_life.desc.4}"
 			]
 			icon: "mca:book_romance"
 			id: "558D80EAE2E0814B"
@@ -61,11 +53,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["558D80EAE2E0814B", "0204ED5A9B63AD8C"]
+			dependencies: ["558D80EAE2E0814B"]
 			description: [
 				"{quests.lost_light.villagers.new_neighbors.desc.0}"
 				""
 				"{quests.lost_light.villagers.new_neighbors.desc.2}"
+				""
+				"{quests.lost_light.villagers.new_neighbors.desc.4}"
+				""
+				"{quests.lost_light.villagers.new_neighbors.desc.6}"
 			]
 			icon: "minecraft:bell"
 			id: "4CBA527B3D2ED205"

@@ -19,7 +19,7 @@
 			id: "0A61412315533C1B"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "3BCD89FA0F675025"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -45,7 +45,6 @@
 			id: "03B900A38311C95D"
 			rewards: [
 				{
-					count: 2
 					id: "7CFA25FF89DAEA77"
 					item: "tfc:food/cooked_beef"
 					type: "item"

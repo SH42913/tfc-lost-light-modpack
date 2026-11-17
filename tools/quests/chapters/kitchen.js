@@ -43,8 +43,8 @@ module.exports = chapter('kitchen', {
         item(anyOf('farmersdelight:minced_beef', 'farmersdelight:bacon', 'farmersdelight:chicken_cuts', 'farmersdelight:mutton_chops',
           'farmersdelight:cod_slice', 'farmersdelight:salmon_slice'), 1, { icon: 'farmersdelight:minced_beef', title: { ru: 'Нарезка с доски', en: 'Something cut on the board' } }),
       ],
-      rewards: [reward('tfc:food/cooked_beef', 4)],
-      budget: 1000,
+      rewards: [reward('tfc:food/cooked_beef', 2)],
+      budget: 500,
     }),
 
     quest('cooking_pot', {
@@ -86,8 +86,8 @@ module.exports = chapter('kitchen', {
       icon: 'survivorsdelight:skillet/copper',
       deps: ['cutting_board', 'tfc/metal_anvil'],
       tasks: [item(anyOf('farmersdelight:skillet', ...SKILLETS), 1, { icon: 'survivorsdelight:skillet/copper', title: { ru: 'Сковорода из любого металла', en: 'A skillet of any metal' } })],
-      rewards: [reward('tfc:food/cooked_beef', 6)],
-      budget: 1500,
+      rewards: [reward('tfc:food/cooked_beef', 3)],
+      budget: 750,
     }),
 
     // ---------------- dishes ----------------
@@ -270,8 +270,8 @@ module.exports = chapter('kitchen', {
       deps: ['tfc/grill'],
       optional: true,
       tasks: [trait(['tfc:wood_grilled', 'tfc:charcoal_grilled'], 'Еда с гриля', 'Grilled food', 'tfc:wrought_iron_grill')],
-      rewards: [reward('tfc:food/cooked_beef', 4)],
-      budget: 1000,
+      rewards: [reward('tfc:food/cooked_beef', 2)],
+      budget: 500,
     }),
 
     quest('baking', {
@@ -339,10 +339,10 @@ module.exports = chapter('kitchen', {
           'Rot is still good for compost, but don\'t eat it. Here\'s some salt, so it happens less often.',
         ],
       },
-      icon: 'minecraft:rotten_flesh',
+      icon: 'tfc:rotten_compost',
       optional: true,
       hidden: 'invisible',
-      tasks: [hasRottenFood({ title: { ru: 'Сгнои еду в инвентаре', en: 'Let food rot in your inventory' }, icon: 'minecraft:rotten_flesh' })],
+      tasks: [hasRottenFood({ title: { ru: 'Сгнои еду в инвентаре', en: 'Let food rot in your inventory' }, icon: 'tfc:rotten_compost' })],
       rewards: [reward('tfc:powder/salt', 8)],
     }),
   ],

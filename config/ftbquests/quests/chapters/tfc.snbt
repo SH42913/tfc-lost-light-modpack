@@ -31,12 +31,6 @@
 					title: "{quests.lost_light.tfc.welcome.reward0}"
 					type: "item"
 				}
-				{
-					count: 3
-					id: "56F9F719568AEDEC"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
 			]
 			subtitle: "{quests.lost_light.tfc.welcome.subtitle}"
 			tasks: [
@@ -60,7 +54,6 @@
 			id: "17BB06B956F6DCC3"
 			rewards: [
 				{
-					count: 2
 					id: "33A31DBE06F0F61D"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -131,7 +124,7 @@
 			id: "147F9C52726A503F"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "355DA05A7E3A2F9E"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -204,10 +197,38 @@
 		{
 			dependencies: ["17BB06B956F6DCC3"]
 			description: [
-				"{quests.lost_light.tfc.straw_bed.desc.0}"
+				"{quests.lost_light.tfc.thatch_bed.desc.0}"
 				""
-				"{quests.lost_light.tfc.straw_bed.desc.2}"
+				"{quests.lost_light.tfc.thatch_bed.desc.2}"
 			]
+			icon: "tfc:thatch_bed"
+			id: "095392D021F5E3A4"
+			rewards: [
+				{
+					id: "3B9F33D419F73686"
+					item: "tfc:food/cooked_beef"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.tfc.thatch_bed.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:thatch_bed"
+					id: "7DF2E2AE7867FC8C"
+					observe_type: 0
+					timer: 20L
+					title: "{quests.lost_light.tfc.thatch_bed.task0}"
+					to_observe: "tfc:thatch_bed"
+					type: "observation"
+				}
+			]
+			title: "{quests.lost_light.tfc.thatch_bed.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["095392D021F5E3A4", "6B102CCCE92C4475"]
+			description: ["{quests.lost_light.tfc.straw_bed.desc.0}"]
 			icon: "tfcsleep:straw_bed"
 			id: "0B6C73ABBEF771CC"
 			rewards: [
@@ -227,35 +248,6 @@
 				}
 			]
 			title: "{quests.lost_light.tfc.straw_bed.title}"
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0B6C73ABBEF771CC"]
-			description: ["{quests.lost_light.tfc.thatch_bed.desc.0}"]
-			icon: "tfc:thatch_bed"
-			id: "095392D021F5E3A4"
-			rewards: [
-				{
-					count: 2
-					id: "3B9F33D419F73686"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
-			subtitle: "{quests.lost_light.tfc.thatch_bed.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:thatch_bed"
-					id: "7DF2E2AE7867FC8C"
-					observe_type: 0
-					timer: 20L
-					title: "{quests.lost_light.tfc.thatch_bed.task0}"
-					to_observe: "tfc:thatch_bed"
-					type: "observation"
-				}
-			]
-			title: "{quests.lost_light.tfc.thatch_bed.title}"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -360,7 +352,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "4D4861CED9F90B34"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -391,7 +382,6 @@
 			id: "57F1F8790FC6AA15"
 			rewards: [
 				{
-					count: 2
 					id: "5592E4DFE7E1ADE1"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -918,7 +908,7 @@
 			id: "18081AA054516596"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "34D38E27ED784B30"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -953,7 +943,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "35EF70D850F0C047"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -983,7 +973,7 @@
 			id: "04D9B929CC6A828E"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "6AD69CBC0992BDDE"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -1195,7 +1185,7 @@
 			id: "17A9AE7434DDF318"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "58E7E5A0A78A1A48"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -1767,7 +1757,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "29EC188176C6DB13"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -1793,7 +1783,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "57C5A5FE4CDA369D"
 					item: "tfc:food/cooked_beef"
 					type: "item"

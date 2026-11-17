@@ -19,7 +19,7 @@
 			id: "4788B5F4F716CD77"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "432632E63A05CE4E"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -97,7 +97,7 @@
 			id: "3D1A95632C1C0EE9"
 			rewards: [
 				{
-					count: 6
+					count: 3
 					id: "4299F729206B92CA"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -423,7 +423,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "6CD4373E51076C3D"
 					item: "tfc:food/cooked_beef"
 					type: "item"
@@ -537,7 +537,7 @@
 				""
 				"{quests.lost_light.kitchen.rotten.desc.2}"
 			]
-			icon: "minecraft:rotten_flesh"
+			icon: "tfc:rotten_compost"
 			id: "5A9A8BF6768CD320"
 			invisible: true
 			optional: true
@@ -552,7 +552,7 @@
 			subtitle: "{quests.lost_light.kitchen.rotten.subtitle}"
 			tasks: [
 				{
-					icon: "minecraft:rotten_flesh"
+					icon: "tfc:rotten_compost"
 					id: "730E49B75301829E"
 					title: "{quests.lost_light.kitchen.rotten.task0}"
 					type: "custom"

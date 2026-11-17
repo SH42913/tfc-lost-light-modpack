@@ -88,32 +88,6 @@
 		}
 		{
 			dependencies: ["65FF2D8A9CBB9317"]
-			description: ["{quests.lost_light.exploration.huts.desc.0}"]
-			icon: "tfc:thatch"
-			id: "6E143D4179FDDFEC"
-			rewards: [
-				{
-					id: "130FB1DAEB877B09"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
-			subtitle: "{quests.lost_light.exploration.huts.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:thatch"
-					id: "2376DD6867893D7B"
-					structure: "tfchuts:settlement"
-					title: "{quests.lost_light.exploration.huts.task0}"
-					type: "structure"
-				}
-			]
-			title: "{quests.lost_light.exploration.huts.title}"
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["65FF2D8A9CBB9317"]
 			description: ["{quests.lost_light.exploration.hobbit_hole.desc.0}"]
 			icon: "minecraft:oak_door"
 			id: "0724F70A089F11F8"
@@ -192,31 +166,6 @@
 		}
 		{
 			dependencies: ["65FF2D8A9CBB9317"]
-			description: ["{quests.lost_light.exploration.village.desc.0}"]
-			icon: "minecraft:bell"
-			id: "0204ED5A9B63AD8C"
-			rewards: [
-				{
-					id: "2634D891D9A23B58"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
-			subtitle: "{quests.lost_light.exploration.village.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:bell"
-					id: "7471B30593C916A7"
-					title: "{quests.lost_light.exploration.village.task0}"
-					type: "custom"
-				}
-			]
-			title: "{quests.lost_light.exploration.village.title}"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0204ED5A9B63AD8C"]
 			description: ["{quests.lost_light.exploration.tavern.desc.0}"]
 			icon: "minecraft:lantern"
 			id: "57792700629889E4"
@@ -242,7 +191,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0204ED5A9B63AD8C"]
+			dependencies: ["65FF2D8A9CBB9317"]
 			description: ["{quests.lost_light.exploration.wells.desc.0}"]
 			icon: "tfc:wooden_bucket"
 			id: "13BF1C982697F300"
@@ -268,7 +217,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0204ED5A9B63AD8C"]
+			dependencies: ["65FF2D8A9CBB9317"]
 			description: ["{quests.lost_light.exploration.farmstead.desc.0}"]
 			icon: "minecraft:hay_block"
 			id: "279F8736085CBEE1"
@@ -294,7 +243,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0204ED5A9B63AD8C"]
+			dependencies: ["65FF2D8A9CBB9317"]
 			description: ["{quests.lost_light.exploration.watchtower.desc.0}"]
 			icon: "minecraft:spyglass"
 			id: "68462D2B3CFCE446"
@@ -346,7 +295,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0204ED5A9B63AD8C"]
+			dependencies: ["65FF2D8A9CBB9317"]
 			description: ["{quests.lost_light.exploration.merchants.desc.0}"]
 			icon: "minecraft:goat_horn"
 			id: "19E27681C120CA50"
@@ -372,7 +321,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["0204ED5A9B63AD8C", "7E2BB5ED89473718"]
+			dependencies: ["7E2BB5ED89473718"]
 			description: ["{quests.lost_light.exploration.dwarves.desc.0}"]
 			icon: "tfc:metal/pickaxe/bronze"
 			id: "3860A7BFF9738A46"

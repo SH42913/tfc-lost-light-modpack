@@ -241,7 +241,12 @@
     "tfc:wolf": 2,
     "tfc:grizzly_bear": 2,
     "tfc:polar_bear": 2,
-    "tfc:black_bear": 2
+    "tfc:black_bear": 2,
+    "tfc_spirits:tall_shade": 3,
+    "tfc_spirits:hungry_shade": 3,
+    "tfc_spirits:creeping_shade": 3,
+    "tfc_spirits:plague_shade": 3,
+    "tfc_spirits:short_shade": 3
   },
   "unSafeBlocksToTeleportOn": [
     "#minecraft:climbable",

@@ -145,10 +145,14 @@ for (let i = 0; i < list.size(); i++) {
 }`, { kind: 'nearFamiliar', min, timer: 40, ...opts });
 }
 
-/** A rotten TFC food in the inventory. opts: title, icon. */
+/**
+ * A rotten TFC food in the inventory. Rotten flesh is skipped: TFC gives it a food capability that is always rotten,
+ * so it would complete the task the moment it's picked up. opts: title, icon.
+ */
 function hasRottenFood(opts = {}) {
   return custom(`
 const FoodCapability = Java.loadClass('net.dries007.tfc.common.capabilities.food.FoodCapability')${forEachStack(`
+if (String(stack.id) == 'minecraft:rotten_flesh') continue
 let food = FoodCapability.get(stack)
 if (food && food.isRotten()) {
   task.progress++
@@ -188,13 +192,15 @@ if (stack.getEnchantmentTags().size() >= ${min}) {
  * Be inside a village as MCA sees it (VillageManager: the village border MCA builds from its buildings - the same check
  * as its "entering village" notification). Unlike a structure task it works for any village structure (FTB only checks
  * structure pieces, so the open ground between the houses of e.g. a desert oasis village doesn't count) and for
- * villages players built. opts: title, icon.
+ * villages players built. A village founded with the Blueprint (Add Building) may have no residents yet, so beds
+ * (max population) count as well as residents. Only int getters here: MCA collections may be hidden JDK classes that
+ * Rhino can't call into. opts: title, icon.
  */
 function inMcaVillage(opts = {}) {
   return custom(`
 const VillageManager = Java.loadClass('forge.net.conczin.mca.server.world.data.VillageManager')
 const village = VillageManager.get(player.level).findNearestVillage(player).orElse(null)
-if (village && village.getPopulation() > 0) task.progress++`, { kind: 'inMcaVillage', timer: 40, ...opts });
+if (village && (village.getPopulation() > 0 || village.getMaxPopulation() > 0)) task.progress++`, { kind: 'inMcaVillage', timer: 40, ...opts });
 }
 
 // ---------- MCA: Reputation (mods/mcareputation-*.jar, API dev.otectus.mcareputation.api.McaReputationApi) ----------
@@ -209,10 +215,13 @@ const tierIndex = (t) => {
 // the index of a tier id in TIERS (-1 for unknown ladders).
 const forEachSnapshot = (body) => `
 const Api = Java.loadClass('dev.otectus.mcareputation.api.McaReputationApi')
+const ArrayList = Java.loadClass('java.util.ArrayList')
 const TIERS = ${list(REP_TIERS)}
 const tier = (id) => TIERS.indexOf(String(id))
 const hasIncident = (s, want) => {
-  const incs = s.incidents()
+  // incidents() is an immutable List.of(...): Rhino resolves its methods on the hidden JDK class
+  // (ImmutableCollections$ListN) and fails with IllegalAccessException, so copy it into a public ArrayList.
+  const incs = new ArrayList(s.incidents())
   for (let j = 0; j < incs.size(); j++) if (want.indexOf(String(incs.get(j).type()).replace(/^.*:/, '')) >= 0) return true
   return false
 }
