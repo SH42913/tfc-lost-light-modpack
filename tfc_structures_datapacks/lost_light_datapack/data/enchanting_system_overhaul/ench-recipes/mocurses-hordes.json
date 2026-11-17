@@ -1,0 +1,31 @@
+{
+  "enchantment_id": "mocurses:curseof_hordes",
+  "dependsOn": [
+    "mocurses"
+  ],
+  "maxLevel": 0,
+  "useExpPoints": false,
+  "xp": {
+    "1": 0
+  },
+  "levels": {
+    "1": [
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:spider_eye",
+            "amount": 16
+          },
+          {
+            "id": "minecraft:fermented_spider_eye",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "id": "minecraft:rotten_flesh",
+        "amount": 16
+      }
+    ]
+  }
+}

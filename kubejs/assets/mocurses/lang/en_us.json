@@ -1,0 +1,18 @@
+{
+  "enchantment.mocurses.curseof_apnea.desc": "Helmet. On land you slowly suffocate; under water you can breathe.",
+  "enchantment.mocurses.curseof_betrayal.desc": "Disabled in this modpack. Shield: sometimes fails to block a hit.",
+  "enchantment.mocurses.curseof_deterioration.desc": "The cursed item slowly loses durability on its own while held or worn.",
+  "enchantment.mocurses.curseof_disorder.desc": "Chestplate. Items in your inventory periodically swap places.",
+  "enchantment.mocurses.curseof_flammability.desc": "Boots. Once on fire, you don't go out, and you set nearby creatures on fire.",
+  "enchantment.mocurses.curseof_floating.desc": "Chestplate. You float upwards and can't stay on the ground.",
+  "enchantment.mocurses.curseof_frost_imprisonment.desc": "Helmet. Under water, the water above your head freezes, trapping you.",
+  "enchantment.mocurses.curseof_hordes.desc": "Weapon. Hitting a monster may summon another one of the same kind. Doesn't work on animals.",
+  "enchantment.mocurses.curseof_movement.desc": "Boots. They wear out while you walk.",
+  "enchantment.mocurses.curseof_notice.desc": "Chestplate. Hostile mobs notice you from much further away, neutral ones attack on sight.",
+  "enchantment.mocurses.curseof_station.desc": "Disabled in this modpack. Armor: standing still for a while gets you punished.",
+  "enchantment.mocurses.curseof_teleportation.desc": "Chestplate. Every now and then you get teleported a few blocks away.",
+  "enchantment.mocurses.curseof_the_golden_touch.desc": "Disabled in this modpack. A heavily used item turns into gold.",
+  "enchantment.mocurses.curseof_voiding.desc": "Disabled in this modpack. Destroys drops from blocks and mobs.",
+  "enchantment.mocurses.curseof_withering.desc": "Chestplate. Lowers your max health, withers nearby mobs and kills crops and flowers around you.",
+  "enchantment.mocurses.curseof_zone.desc": "The item only works within a set area; carried beyond it, it gets dropped."
+}

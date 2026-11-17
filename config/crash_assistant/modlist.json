@@ -1587,6 +1587,14 @@
     "curseForgeHash": 3915003983,
     "modrinthHash": "f36f0118633d45a7b2c03010aaa28880e9cb4efe"
   },
+  "more_curses-1.20.1-1.3.0.jar": {
+    "jarName": "more_curses-1.20.1-1.3.0.jar",
+    "modId": "mocurses",
+    "name": "Mo\u0027Curses",
+    "version": "1.3.0",
+    "curseForgeHash": 2538618813,
+    "modrinthHash": "fd37f3e27732d3164ead5a98cbecf15eedf21072"
+  },
   "moreculling-0.24.6-all.jar": {
     "jarName": "moreculling-0.24.6-all.jar",
     "modId": "moreculling",

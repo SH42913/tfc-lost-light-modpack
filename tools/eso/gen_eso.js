@@ -145,9 +145,27 @@ const specs = [
 ];
 
 // Curses: cheap, junk only, 0 XP, fixed amounts (no ladder). The +1 enchantment slot is the trade-off.
+const C = (file, id, junk, theme, themeAmount, dependsOn) => ({ file, id, junk, junkAmount: 16, theme, themeAmount, dependsOn });
+const MC = ['mocurses'];
 const curses = [
-  { file: 'curse-of-binding', id: 'minecraft:binding_curse', junk: 'poison', junkAmount: 16, theme: 'tfc:rotten_compost', themeAmount: 8 },
-  { file: 'curse-of-vanishing', id: 'minecraft:vanishing_curse', junk: 'poison', junkAmount: 16, theme: 'minecraft:rotten_flesh', themeAmount: 16 },
+  C('curse-of-binding', 'minecraft:binding_curse', 'poison', 'tfc:rotten_compost', 8),
+  C('curse-of-vanishing', 'minecraft:vanishing_curse', 'poison', 'minecraft:rotten_flesh', 16),
+  // More Curses. Disabled in config/mocurses_common.toml and intentionally without a recipe (hidden in the table):
+  //   curseof_the_golden_touch (turns TFC tools/armor into vanilla golden ones), curseof_station (TFC is full of
+  //   standing still; drops vanilla anvils, explosions), curseof_betrayal (shield-only effect, but applies to any
+  //   breakable item = free slot), curseof_voiding (needs another mod).
+  C('mocurses-apnea', 'mocurses:curseof_apnea', 'poison', 'tfc:groundcover/seaweed', 8, MC),
+  C('mocurses-flammability', 'mocurses:curseof_flammability', 'poison', 'tfc:powder/sulfur', 8, MC),
+  C('mocurses-frost-imprisonment', 'mocurses:curseof_frost_imprisonment', 'poison', 'firmalife:ice_shavings', 16, MC),
+  C('mocurses-floating', 'mocurses:curseof_floating', 'poison', 'minecraft:feather', 8, MC),
+  C('mocurses-withering', 'mocurses:curseof_withering', 'poison', 'minecraft:bone', 16, MC),
+  C('mocurses-deterioration', 'mocurses:curseof_deterioration', 'poison', 'tfc:rotten_compost', 8, MC),
+  C('mocurses-hordes', 'mocurses:curseof_hordes', 'poison', 'minecraft:rotten_flesh', 16, MC),
+  C('mocurses-notice', 'mocurses:curseof_notice', 'undead', 'minecraft:spider_eye', 8, MC),
+  C('mocurses-disorder', 'mocurses:curseof_disorder', 'rot', 'minecraft:fermented_spider_eye', 4, MC),
+  C('mocurses-teleportation', 'mocurses:curseof_teleportation', 'poison', 'tfc:powder/lapis_lazuli', 4, MC),
+  C('mocurses-zone', 'mocurses:curseof_zone', 'poison', 'tfc:straw', 16, MC),
+  C('mocurses-movement', 'mocurses:curseof_movement', 'poison', 'minecraft:bone_meal', 16, MC),
 ];
 
 // ---------------------------------------------------------------------------------------------
@@ -222,13 +240,14 @@ function build(s) {
 
 function buildCurse(c) {
   currentFile = c.file;
-  return {
-    enchantment_id: c.id,
+  const out = { enchantment_id: c.id };
+  if (c.dependsOn) out.dependsOn = c.dependsOn;
+  return Object.assign(out, {
     maxLevel: 0,
     useExpPoints: false,
     xp: { 1: 0 },
     levels: { 1: [arr(JUNK[c.junk], c.junkAmount), one(c.theme, c.themeAmount)] },
-  };
+  });
 }
 
 // Default recipe (config/eso) — only used if enableDefaultRecipe is turned back on. Normal ladder, 5 levels.
