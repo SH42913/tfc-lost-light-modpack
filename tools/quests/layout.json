@@ -396,6 +396,7 @@
   "villagers/new_neighbors": [0, 0],
   "villagers/perfect_gift": [3, -3],
   "villagers/trade": [1.5, 0],
+  "villagers/village_life": [-1.5, -1.5],
   "villagers/village_rank": [3, -1.5],
   "villagers/workstation": [3, 3]
 }

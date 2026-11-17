@@ -22,7 +22,32 @@
 	]
 	quests: [
 		{
-			dependencies: ["0204ED5A9B63AD8C"]
+			description: [
+				"{quests.lost_light.villagers.village_life.desc.0}"
+				""
+				"{quests.lost_light.villagers.village_life.desc.2}"
+			]
+			icon: "mca:book_romance"
+			id: "558D80EAE2E0814B"
+			rewards: [{
+				id: "184CF05EF8A9C380"
+				item: "mca:book_romance"
+				type: "item"
+			}]
+			subtitle: "{quests.lost_light.villagers.village_life.subtitle}"
+			tasks: [{
+				id: "2F868D7EBDA8AB8E"
+				type: "checkmark"
+			}]
+			title: "{quests.lost_light.villagers.village_life.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"558D80EAE2E0814B"
+				"0204ED5A9B63AD8C"
+			]
 			description: [
 				"{quests.lost_light.villagers.new_neighbors.desc.0}"
 				""

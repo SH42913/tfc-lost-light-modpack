@@ -41,7 +41,7 @@ const FARMSTEADS = [...ns('create_rustic_structures', ['rustic_barn', 'rustic_wi
   'dungeons_arise:small_prairie_house', 'dungeons_arise:mushroom_house', 'smallhorsestable:horse_stable'];
 const ILLAGERS = [
   ...ns('nova_structures', ['illager_camp', 'illager_hideout', 'illager_manor', 'stray_fort']),
-  ...ns('dungeons_arise', ['illager_campsite', 'illager_fort', 'illager_windmill', 'illager_galley']),
+  ...ns('dungeons_arise', ['illager_campsite', 'illager_fort', 'illager_windmill']),
   'minecraft:pillager_outpost', 'minecraft:mansion',
   ...ns('ctov', ['pillager_outpost_mountain', 'pillager_outpost_badlands', 'pillager_outpost_plains', 'pillager_outpost_beach',
     'pillager_outpost_swamp', 'pillager_outpost_taiga', 'pillager_outpost_desert', 'pillager_outpost_mesa',
@@ -81,8 +81,7 @@ const DIG_SITES = ['minecraft:trail_ruins', 'repurposed_structures:ruins_land_co
 const SEA = ['minecraft:shipwreck', 'minecraft:shipwreck_beached', 'minecraft:ocean_ruin_cold', 'minecraft:ocean_ruin_warm',
   'minecraft:monument', 'nova_structures:conduit_ruin',
   ...ns('archaeology_ruins', ['ocean_ruin', 'small_ocean_ruin', 'warm_ocean_ruin', 'ruined_ocean_monument']),
-  ...ns('repurposed_structures', ['pyramid_ocean', 'temple_ocean', 'village_ocean']),
-  'dungeons_arise:typhon', 'dungeons_arise:ceryneian_hind'];
+  ...ns('repurposed_structures', ['pyramid_ocean', 'temple_ocean', 'village_ocean'])];
 const GIANT_TREES = ns('tfc_trees', ['acacia_giant_tree', 'ash_giant_tree', 'hickory_giant_tree', 'kapok_giant_tree', 'oak_giant_tree',
   'plum_giant_tree']);
 
@@ -340,8 +339,8 @@ module.exports = chapter('exploration', {
       title: { ru: 'Разбойники', en: 'Raiders' },
       subtitle: { ru: 'Их знамя — дурной знак', en: 'Their banner is a bad omen' },
       desc: {
-        ru: ['Разбойники строят заставы, форты, ветряки и даже целые особняки. Где-то на озёрах стоят их галеры.'],
-        en: ['Raiders build outposts, forts, windmills and even whole mansions. Somewhere on the lakes their galleys lie at anchor.'],
+        ru: ['Разбойники строят заставы, форты, ветряки и даже целые особняки.'],
+        en: ['Raiders build outposts, forts, windmills and even whole mansions.'],
       },
       icon: 'minecraft:white_banner',
       deps: ['watchtower'],

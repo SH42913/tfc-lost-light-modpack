@@ -2,7 +2,7 @@
 // its advancements (data/mca/advancements in the MCA jar), trading with villagers for TFC gems (tools/trades, the
 // currency is tfc:gem/*), Bountiful bounty boards and decrees (pack recipes in lost_light_datapack/data/bountiful).
 // Text formatting: &6 - names, &e - where to look, &r - reset.
-const { chapter, quest, item, observe, advancement, stat, anyOf, link, lootCrate } = require('../lib');
+const { chapter, quest, item, observe, advancement, stat, checkmark, reward, anyOf, link, lootCrate } = require('../lib');
 
 const COMMON = { rewards: [lootCrate('explore_common')], budget: 1500 };
 const RARE = { rewards: [lootCrate('explore_rare')], budget: 4500 };
@@ -18,6 +18,28 @@ module.exports = chapter('villagers', {
   icon: 'minecraft:emerald',
   links: [link('exploration/village'), link('exploration/tavern')],
   quests: [
+    // The MCA basics book is given only here: the mca:root advancement reward is removed by the pack datapack
+    // (lost_light_datapack/data/mca/advancements/root.json).
+    quest('village_life', {
+      title: { ru: 'Деревенская жизнь', en: 'Village Life' },
+      subtitle: { ru: 'Люди, а не болванчики', en: 'People, not puppets' },
+      desc: {
+        ru: [
+          'Жители деревень здесь — не безмолвные торговцы, а люди со своей жизнью: они дружат, ссорятся, влюбляются, женятся и растят детей. С ними можно говорить, дарить подарки, нанимать на работу и даже породниться.',
+          '',
+          'Всё это описано в книге &6«Relationships and You»&r — возьми её и загляни перед первым визитом в деревню.',
+        ],
+        en: [
+          'Villagers here aren\'t silent traders but people with lives of their own: they make friends, quarrel, fall in love, marry and raise children. You can talk to them, give gifts, hire them and even become family.',
+          '',
+          'It\'s all described in &6Relationships and You&r: take it and have a look before your first visit to a village.',
+        ],
+      },
+      icon: 'mca:book_romance',
+      tasks: [checkmark()],
+      rewards: [reward('mca:book_romance')],
+    }),
+
     quest('new_neighbors', {
       title: { ru: 'Новые соседи', en: 'New Neighbors' },
       subtitle: { ru: 'Здесь живут люди', en: 'People live here' },
@@ -34,7 +56,7 @@ module.exports = chapter('villagers', {
         ],
       },
       icon: 'minecraft:bell',
-      deps: ['exploration/village'],
+      deps: ['village_life', 'exploration/village'],
       tasks: [adv('root', 'Войди в деревню', 'Enter a village', 'minecraft:bell')],
       ...COMMON,
     }),

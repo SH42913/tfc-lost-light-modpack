@@ -13,8 +13,6 @@
     "archaeology_ruins:ruined_ocean_monument",
     "repurposed_structures:pyramid_ocean",
     "repurposed_structures:temple_ocean",
-    "repurposed_structures:village_ocean",
-    "dungeons_arise:typhon",
-    "dungeons_arise:ceryneian_hind"
+    "repurposed_structures:village_ocean"
   ]
 }

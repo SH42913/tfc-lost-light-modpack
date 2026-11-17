@@ -71,7 +71,7 @@
 						Count: 1
 						ForgeCaps: {
 							"tfc:food": {
-								creationDate: 6000L
+								creationDate: -9223372036854775808L
 								traits: [ ]
 							}
 						}
@@ -261,7 +261,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 6000L
+						creationDate: -9223372036854775808L
 						traits: [ ]
 					}
 				}
