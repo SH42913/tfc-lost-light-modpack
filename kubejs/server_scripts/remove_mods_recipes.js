@@ -11,9 +11,16 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "tfc:amethyst_gem_to_shard"})
     event.remove({id: "tfc:amethyst_shard_to_gem"})
+    event.remove({id: "tfc:diamond_gem_to_diamond"})
+    event.remove({id: "tfc:diamond_to_gem"})
+    event.remove({id: "tfc:emerald_gem_to_emerald"})
+    event.remove({id: "tfc:emerald_to_gem"})
+    event.remove({id: "tfc:lapis_lazuli_gem_to_lapis_lazuli"})
+    event.remove({id: "tfc:lapis_lazuli_to_gem"})
 
     event.remove({id: "tfcloot:crafting/emerald_polished"})
     event.remove({id: "tfcloot:crafting/diamond_polished"})
+    event.remove({id: "tfcloot:crafting/lapis_lazuli_polished"})
 
     event.remove({id: "magistuarmory:steel_ingot_to_steel_nuggets"})
     event.remove({id: "magistuarmory:steel_nuggets_to_steel_ingot"})

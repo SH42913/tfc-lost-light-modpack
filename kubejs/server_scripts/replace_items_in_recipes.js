@@ -22,9 +22,10 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "minecraft:bow", "#forge:bows")
 
     event.replaceInput({id: "create:crafting/kinetics/rope_pulley"}, "#minecraft:wool", "firmaciv:rope_coil")
-    event.replaceOutput({id: /^create:crushing\/amethyst_(block|cluster)$/}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
 
+    event.replaceOutput({}, "minecraft:amethyst_shard", "tfc:gem/amethyst")
     event.replaceOutput({}, "minecraft:emerald", "tfc:gem/emerald")
+    event.replaceOutput({}, "minecraft:lapis_lazuli", "tfc:gem/lapis_lazuli")
     event.replaceOutput({}, "minecraft:diamond", "tfc:gem/diamond")
     event.replaceOutput({}, "farmersdelight:straw", "tfc:straw")
 
