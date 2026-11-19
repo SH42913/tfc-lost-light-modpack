@@ -17,19 +17,23 @@
 			]
 			icon: "tfc:bucket/beer"
 			id: "1115205A56840400"
-			rewards: [{
-				count: 2
-				id: "4694345A635E1893"
-				item: "tfc:ceramic/jug"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4694345A635E1893"
+					item: "tfc:ceramic/jug"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.first_brew.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/beer"
-				id: "38017AEDC39B595F"
-				title: "{quests.lost_light.brewing.first_brew.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/beer"
+					id: "38017AEDC39B595F"
+					title: "{quests.lost_light.brewing.first_brew.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.first_brew.title}"
 			x: 0.0d
 			y: 0.0d
@@ -39,19 +43,23 @@
 			description: ["{quests.lost_light.brewing.beer.desc.0}"]
 			icon: "tfc:bucket/beer"
 			id: "404C2FF1D556FD9E"
-			rewards: [{
-				count: 3
-				id: "22D7FF613E921A2C"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "22D7FF613E921A2C"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.beer.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/beer"
-				id: "68025F677EDC3069"
-				title: "{quests.lost_light.brewing.beer.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/beer"
+					id: "68025F677EDC3069"
+					title: "{quests.lost_light.brewing.beer.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.beer.title}"
 			x: 1.5d
 			y: -6.0d
@@ -61,19 +69,23 @@
 			description: ["{quests.lost_light.brewing.cider.desc.0}"]
 			icon: "tfc:bucket/cider"
 			id: "325CE26879F47200"
-			rewards: [{
-				count: 3
-				id: "09026A21BF25D6FD"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "09026A21BF25D6FD"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.cider.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/cider"
-				id: "315BC3F6C1506198"
-				title: "{quests.lost_light.brewing.cider.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/cider"
+					id: "315BC3F6C1506198"
+					title: "{quests.lost_light.brewing.cider.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.cider.title}"
 			x: 1.5d
 			y: -4.5d
@@ -83,19 +95,23 @@
 			description: ["{quests.lost_light.brewing.rum.desc.0}"]
 			icon: "tfc:bucket/rum"
 			id: "0E38561DD14A1104"
-			rewards: [{
-				count: 3
-				id: "54017C1B3AFA099C"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "54017C1B3AFA099C"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.rum.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/rum"
-				id: "30D86C2C6B1FDDAE"
-				title: "{quests.lost_light.brewing.rum.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/rum"
+					id: "30D86C2C6B1FDDAE"
+					title: "{quests.lost_light.brewing.rum.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.rum.title}"
 			x: 1.5d
 			y: -3.0d
@@ -105,19 +121,23 @@
 			description: ["{quests.lost_light.brewing.sake.desc.0}"]
 			icon: "tfc:bucket/sake"
 			id: "67A4E75676422057"
-			rewards: [{
-				count: 3
-				id: "0F842B5D2FE7AF30"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0F842B5D2FE7AF30"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.sake.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/sake"
-				id: "10466A82DFBF8C5F"
-				title: "{quests.lost_light.brewing.sake.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/sake"
+					id: "10466A82DFBF8C5F"
+					title: "{quests.lost_light.brewing.sake.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.sake.title}"
 			x: 1.5d
 			y: -1.5d
@@ -127,19 +147,23 @@
 			description: ["{quests.lost_light.brewing.vodka.desc.0}"]
 			icon: "tfc:bucket/vodka"
 			id: "35D64E9F767EC2F6"
-			rewards: [{
-				count: 3
-				id: "1D2EAB079C6C1241"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "1D2EAB079C6C1241"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.vodka.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/vodka"
-				id: "4AFD7B77AC848857"
-				title: "{quests.lost_light.brewing.vodka.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/vodka"
+					id: "4AFD7B77AC848857"
+					title: "{quests.lost_light.brewing.vodka.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.vodka.title}"
 			x: 1.5d
 			y: 0.0d
@@ -149,44 +173,49 @@
 			description: ["{quests.lost_light.brewing.whiskey.desc.0}"]
 			icon: "tfc:bucket/whiskey"
 			id: "6F266A1EB137B7BA"
-			rewards: [{
-				count: 3
-				id: "0180D09785E5FCB7"
-				item: "tfc:silica_glass_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0180D09785E5FCB7"
+					item: "tfc:silica_glass_bottle"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.whiskey.subtitle}"
-			tasks: [{
-				icon: "tfc:bucket/whiskey"
-				id: "1BE0FA838369BDB5"
-				title: "{quests.lost_light.brewing.whiskey.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:bucket/whiskey"
+					id: "1BE0FA838369BDB5"
+					title: "{quests.lost_light.brewing.whiskey.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.whiskey.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1115205A56840400"
-				"776BD111227D8704"
-			]
+			dependencies: ["1115205A56840400", "776BD111227D8704"]
 			description: ["{quests.lost_light.brewing.mead.desc.0}"]
 			icon: "firmalife:bucket/mead"
 			id: "1A8D7288354EA5E4"
-			rewards: [{
-				count: 2
-				id: "746CCB70AF9A991C"
-				item: "firmalife:raw_honey"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "746CCB70AF9A991C"
+					item: "firmalife:raw_honey"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.mead.subtitle}"
-			tasks: [{
-				icon: "firmalife:bucket/mead"
-				id: "5CD1C26F3C505B8D"
-				title: "{quests.lost_light.brewing.mead.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "firmalife:bucket/mead"
+					id: "5CD1C26F3C505B8D"
+					title: "{quests.lost_light.brewing.mead.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.mead.title}"
 			x: 1.5d
 			y: 3.0d
@@ -200,30 +229,29 @@
 			]
 			icon: "tfcagedalcohol:bucket/aged_whiskey"
 			id: "585B6B5690DF8E01"
-			rewards: [{
-				count: 2
-				id: "7DDD7094F263A44F"
-				item: "tfc:gem/emerald"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7DDD7094F263A44F"
+					item: "tfc:gem/emerald"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.aging.subtitle}"
-			tasks: [{
-				icon: "tfcagedalcohol:bucket/aged_whiskey"
-				id: "5C078154703AA15F"
-				title: "{quests.lost_light.brewing.aging.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfcagedalcohol:bucket/aged_whiskey"
+					id: "5C078154703AA15F"
+					title: "{quests.lost_light.brewing.aging.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.aging.title}"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"585B6B5690DF8E01"
-				"1A8D7288354EA5E4"
-				"404C2FF1D556FD9E"
-				"6F266A1EB137B7BA"
-			]
+			dependencies: ["585B6B5690DF8E01", "1A8D7288354EA5E4", "404C2FF1D556FD9E", "6F266A1EB137B7BA"]
 			description: ["{quests.lost_light.brewing.cellar_master.desc.0}"]
 			icon: "tfc:wood/barrel/oak"
 			id: "7D2B6B11E550CEE0"
@@ -267,32 +295,22 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1115205A56840400"
-				"0A61412315533C1B"
-			]
+			dependencies: ["1115205A56840400", "0A61412315533C1B"]
 			description: [
 				"{quests.lost_light.brewing.vineyard.desc.0}"
 				""
 				"{quests.lost_light.brewing.vineyard.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "firmalife:food/red_grapes"
-			}
+			icon: "firmalife:food/red_grapes"
 			id: "262AAFEB51525AA7"
-			rewards: [{
-				count: 16
-				id: "611C74C78C38649F"
-				item: "tfc:jute_fiber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "611C74C78C38649F"
+					item: "tfc:jute_fiber"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.vineyard.subtitle}"
 			tasks: [
 				{
@@ -303,19 +321,10 @@
 				}
 				{
 					count: 16L
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "firmalife:food/red_grapes"
-					}
+					icon: "firmalife:food/red_grapes"
 					id: "4FC37D394F81351A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:food/red_grapes)item(firmalife:food/white_grapes))"
@@ -334,19 +343,21 @@
 			description: ["{quests.lost_light.brewing.wine_press.desc.0}"]
 			icon: "firmalife:wood/stomping_barrel/oak"
 			id: "030B8BD91BE0D2BC"
-			rewards: [{
-				count: 2
-				id: "68C3C501048C4E37"
-				item: "tfc:ceramic/jug"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "68C3C501048C4E37"
+					item: "tfc:ceramic/jug"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.wine_press.subtitle}"
 			tasks: [
 				{
 					icon: "firmalife:wood/stomping_barrel/oak"
 					id: "67E29015418E027A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:wood/stomping_barrel/acacia)item(firmalife:wood/stomping_barrel/ash)item(firmalife:wood/stomping_barrel/aspen)item(firmalife:wood/stomping_barrel/birch)item(firmalife:wood/stomping_barrel/blackwood)item(firmalife:wood/stomping_barrel/chestnut)item(firmalife:wood/stomping_barrel/douglas_fir)item(firmalife:wood/stomping_barrel/hickory)item(firmalife:wood/stomping_barrel/kapok)item(firmalife:wood/stomping_barrel/mangrove)item(firmalife:wood/stomping_barrel/maple)item(firmalife:wood/stomping_barrel/oak)item(firmalife:wood/stomping_barrel/palm)item(firmalife:wood/stomping_barrel/pine)item(firmalife:wood/stomping_barrel/rosewood)item(firmalife:wood/stomping_barrel/sequoia)item(firmalife:wood/stomping_barrel/spruce)item(firmalife:wood/stomping_barrel/sycamore)item(firmalife:wood/stomping_barrel/white_cedar)item(firmalife:wood/stomping_barrel/willow))"
@@ -359,7 +370,7 @@
 					icon: "firmalife:wood/barrel_press/oak"
 					id: "530FC22FC3066A6E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:wood/barrel_press/acacia)item(firmalife:wood/barrel_press/ash)item(firmalife:wood/barrel_press/aspen)item(firmalife:wood/barrel_press/birch)item(firmalife:wood/barrel_press/blackwood)item(firmalife:wood/barrel_press/chestnut)item(firmalife:wood/barrel_press/douglas_fir)item(firmalife:wood/barrel_press/hickory)item(firmalife:wood/barrel_press/kapok)item(firmalife:wood/barrel_press/mangrove)item(firmalife:wood/barrel_press/maple)item(firmalife:wood/barrel_press/oak)item(firmalife:wood/barrel_press/palm)item(firmalife:wood/barrel_press/pine)item(firmalife:wood/barrel_press/rosewood)item(firmalife:wood/barrel_press/sequoia)item(firmalife:wood/barrel_press/spruce)item(firmalife:wood/barrel_press/sycamore)item(firmalife:wood/barrel_press/white_cedar)item(firmalife:wood/barrel_press/willow))"
@@ -374,42 +385,31 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"030B8BD91BE0D2BC"
-				"0563DD341FA3CE1C"
-			]
+			dependencies: ["030B8BD91BE0D2BC", "0563DD341FA3CE1C"]
 			description: [
 				"{quests.lost_light.brewing.wine.desc.0}"
 				""
 				"{quests.lost_light.brewing.wine.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
-				id: "firmalife:volcanic_wine_bottle"
-			}
+			icon: "firmalife:volcanic_wine_bottle"
 			id: "1D4FA4DB42165D12"
-			rewards: [{
-				count: 2
-				id: "1A5C8D65A44116B5"
-				item: "tfc:gem/emerald"
-				type: "item"
-			}]
-			subtitle: "{quests.lost_light.brewing.wine.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "firmalife:volcanic_wine_bottle"
+			rewards: [
+				{
+					count: 2
+					id: "1A5C8D65A44116B5"
+					item: "tfc:gem/emerald"
+					type: "item"
 				}
-				id: "2061AD0A0465D0B9"
-				title: "{quests.lost_light.brewing.wine.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.brewing.wine.subtitle}"
+			tasks: [
+				{
+					icon: "firmalife:volcanic_wine_bottle"
+					id: "2061AD0A0465D0B9"
+					title: "{quests.lost_light.brewing.wine.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.brewing.wine.title}"
 			x: 4.5d
 			y: 6.0d
@@ -417,42 +417,26 @@
 		{
 			dependencies: ["1D4FA4DB42165D12"]
 			description: ["{quests.lost_light.brewing.fine_wine.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
-				id: "firmalife:olivine_wine_bottle"
-			}
+			icon: "firmalife:olivine_wine_bottle"
 			id: "0D4DEC94D8499D84"
 			optional: true
-			rewards: [{
-				id: "4D4BDEF9AF723053"
-				item: "tfc:metal/ingot/gold"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4D4BDEF9AF723053"
+					item: "tfc:metal/ingot/gold"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.brewing.fine_wine.subtitle}"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "firmalife:olivine_wine_bottle"
-					}
+					icon: "firmalife:olivine_wine_bottle"
 					id: "4EDAEB8EA36397A3"
 					title: "{quests.lost_light.brewing.fine_wine.task0}"
 					type: "custom"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "firmalife:hematitic_wine_bottle"
-					}
+					icon: "firmalife:hematitic_wine_bottle"
 					id: "2BE7AED5D37A0657"
 					title: "{quests.lost_light.brewing.fine_wine.task1}"
 					type: "custom"

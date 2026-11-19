@@ -16,16 +16,20 @@
 			]
 			icon: "minecraft:compass"
 			id: "65FF2D8A9CBB9317"
-			rewards: [{
-				id: "46E2DF65B36BDDB3"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "46E2DF65B36BDDB3"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.explorer.subtitle}"
-			tasks: [{
-				id: "526E8AAC9AFD99B5"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "526E8AAC9AFD99B5"
+					type: "checkmark"
+				}
+			]
 			title: "{quests.lost_light.exploration.explorer.title}"
 			x: 0.0d
 			y: 0.0d
@@ -35,19 +39,23 @@
 			description: ["{quests.lost_light.exploration.ruins.desc.0}"]
 			icon: "minecraft:mossy_cobblestone"
 			id: "7E2BB5ED89473718"
-			rewards: [{
-				id: "1F950664D08E5613"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "1F950664D08E5613"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.ruins.subtitle}"
-			tasks: [{
-				icon: "minecraft:mossy_cobblestone"
-				id: "5D8A439669C5E5A9"
-				structure: "#lost_light:quests/exploration_ruins_0"
-				title: "{quests.lost_light.exploration.ruins.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:mossy_cobblestone"
+					id: "5D8A439669C5E5A9"
+					structure: "#lost_light:quests/exploration_ruins_0"
+					title: "{quests.lost_light.exploration.ruins.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.ruins.title}"
 			x: 1.5d
 			y: -4.5d
@@ -57,19 +65,23 @@
 			description: ["{quests.lost_light.exploration.giant_trees.desc.0}"]
 			icon: "tfc:wood/log/kapok"
 			id: "38BA4779465E6768"
-			rewards: [{
-				id: "275B01679DA4A87D"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "275B01679DA4A87D"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.giant_trees.subtitle}"
-			tasks: [{
-				icon: "tfc:wood/log/kapok"
-				id: "34D5BEB02016A9BA"
-				structure: "#lost_light:quests/exploration_giant_trees_0"
-				title: "{quests.lost_light.exploration.giant_trees.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "tfc:wood/log/kapok"
+					id: "34D5BEB02016A9BA"
+					structure: "#lost_light:quests/exploration_giant_trees_0"
+					title: "{quests.lost_light.exploration.giant_trees.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.giant_trees.title}"
 			x: 1.5d
 			y: -3.0d
@@ -79,19 +91,23 @@
 			description: ["{quests.lost_light.exploration.hobbit_hole.desc.0}"]
 			icon: "minecraft:oak_door"
 			id: "0724F70A089F11F8"
-			rewards: [{
-				id: "6F951E60FD391ABE"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6F951E60FD391ABE"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.hobbit_hole.subtitle}"
-			tasks: [{
-				icon: "minecraft:oak_door"
-				id: "5598C29FFAA5F4B0"
-				structure: "hobbit_house_:hobbit_house"
-				title: "{quests.lost_light.exploration.hobbit_hole.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:oak_door"
+					id: "5598C29FFAA5F4B0"
+					structure: "hobbit_house_:hobbit_house"
+					title: "{quests.lost_light.exploration.hobbit_hole.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.hobbit_hole.title}"
 			x: 1.5d
 			y: 0.0d
@@ -101,19 +117,23 @@
 			description: ["{quests.lost_light.exploration.fairy_ring.desc.0}"]
 			icon: "tfc_spirits:fairy_ring_mushroom"
 			id: "768338FEF6502D83"
-			rewards: [{
-				id: "22E89AB822199D9B"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "22E89AB822199D9B"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.fairy_ring.subtitle}"
-			tasks: [{
-				icon: "tfc_spirits:fairy_ring_mushroom"
-				id: "09CDB8116DDCAFA6"
-				structure: "tfc_spirits:fairy_ring"
-				title: "{quests.lost_light.exploration.fairy_ring.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "tfc_spirits:fairy_ring_mushroom"
+					id: "09CDB8116DDCAFA6"
+					structure: "tfc_spirits:fairy_ring"
+					title: "{quests.lost_light.exploration.fairy_ring.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.fairy_ring.title}"
 			x: 1.5d
 			y: 1.5d
@@ -123,19 +143,23 @@
 			description: ["{quests.lost_light.exploration.way_sign.desc.0}"]
 			icon: "supplementaries:sign_post_oak"
 			id: "1D2D2C72728E85F3"
-			rewards: [{
-				id: "73C0FBC10BF9957A"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "73C0FBC10BF9957A"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.way_sign.subtitle}"
-			tasks: [{
-				icon: "supplementaries:sign_post_oak"
-				id: "6E19CEE1B61F4533"
-				structure: "supplementaries:way_sign"
-				title: "{quests.lost_light.exploration.way_sign.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "6E19CEE1B61F4533"
+					structure: "supplementaries:way_sign"
+					title: "{quests.lost_light.exploration.way_sign.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.way_sign.title}"
 			x: 1.5d
 			y: 3.0d
@@ -145,19 +169,23 @@
 			description: ["{quests.lost_light.exploration.tavern.desc.0}"]
 			icon: "minecraft:lantern"
 			id: "57792700629889E4"
-			rewards: [{
-				id: "166DA06A9BC7C64E"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "166DA06A9BC7C64E"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.tavern.subtitle}"
-			tasks: [{
-				icon: "minecraft:lantern"
-				id: "687A9E3D65475B1B"
-				structure: "#lost_light:quests/exploration_tavern_0"
-				title: "{quests.lost_light.exploration.tavern.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:lantern"
+					id: "687A9E3D65475B1B"
+					structure: "#lost_light:quests/exploration_tavern_0"
+					title: "{quests.lost_light.exploration.tavern.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.tavern.title}"
 			x: 3.0d
 			y: 3.0d
@@ -167,19 +195,23 @@
 			description: ["{quests.lost_light.exploration.wells.desc.0}"]
 			icon: "tfc:wooden_bucket"
 			id: "13BF1C982697F300"
-			rewards: [{
-				id: "226DB35D4950F915"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "226DB35D4950F915"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.wells.subtitle}"
-			tasks: [{
-				icon: "tfc:wooden_bucket"
-				id: "7A682B55E04D971E"
-				structure: "#lost_light:quests/exploration_wells_0"
-				title: "{quests.lost_light.exploration.wells.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "tfc:wooden_bucket"
+					id: "7A682B55E04D971E"
+					structure: "#lost_light:quests/exploration_wells_0"
+					title: "{quests.lost_light.exploration.wells.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.wells.title}"
 			x: 3.0d
 			y: 4.5d
@@ -189,19 +221,23 @@
 			description: ["{quests.lost_light.exploration.farmstead.desc.0}"]
 			icon: "minecraft:hay_block"
 			id: "279F8736085CBEE1"
-			rewards: [{
-				id: "28F8618877707743"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "28F8618877707743"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.farmstead.subtitle}"
-			tasks: [{
-				icon: "minecraft:hay_block"
-				id: "78C0AB4030A7C3FA"
-				structure: "#lost_light:quests/exploration_farmstead_0"
-				title: "{quests.lost_light.exploration.farmstead.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:hay_block"
+					id: "78C0AB4030A7C3FA"
+					structure: "#lost_light:quests/exploration_farmstead_0"
+					title: "{quests.lost_light.exploration.farmstead.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.farmstead.title}"
 			x: 3.0d
 			y: 6.0d
@@ -211,19 +247,23 @@
 			description: ["{quests.lost_light.exploration.watchtower.desc.0}"]
 			icon: "minecraft:spyglass"
 			id: "68462D2B3CFCE446"
-			rewards: [{
-				id: "192BCEF31F2DF9E3"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "192BCEF31F2DF9E3"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.watchtower.subtitle}"
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "1FC4684EAF31E5D4"
-				structure: "#lost_light:quests/exploration_watchtower_0"
-				title: "{quests.lost_light.exploration.watchtower.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "1FC4684EAF31E5D4"
+					structure: "#lost_light:quests/exploration_watchtower_0"
+					title: "{quests.lost_light.exploration.watchtower.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.watchtower.title}"
 			x: 3.0d
 			y: 7.5d
@@ -233,19 +273,23 @@
 			description: ["{quests.lost_light.exploration.lighthouse.desc.0}"]
 			icon: "minecraft:lantern"
 			id: "22C88B589184E992"
-			rewards: [{
-				id: "3EB00359BF548122"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3EB00359BF548122"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.lighthouse.subtitle}"
-			tasks: [{
-				icon: "minecraft:lantern"
-				id: "27DE6086AC7890F7"
-				structure: "#lost_light:quests/exploration_lighthouse_0"
-				title: "{quests.lost_light.exploration.lighthouse.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:lantern"
+					id: "27DE6086AC7890F7"
+					structure: "#lost_light:quests/exploration_lighthouse_0"
+					title: "{quests.lost_light.exploration.lighthouse.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.lighthouse.title}"
 			x: 1.5d
 			y: 6.0d
@@ -255,19 +299,23 @@
 			description: ["{quests.lost_light.exploration.merchants.desc.0}"]
 			icon: "minecraft:goat_horn"
 			id: "19E27681C120CA50"
-			rewards: [{
-				id: "77B6BD7D2707193B"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "77B6BD7D2707193B"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.merchants.subtitle}"
-			tasks: [{
-				icon: "minecraft:goat_horn"
-				id: "01B7BE6E2023B4AB"
-				structure: "dungeons_arise:merchant_campsite"
-				title: "{quests.lost_light.exploration.merchants.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:goat_horn"
+					id: "01B7BE6E2023B4AB"
+					structure: "dungeons_arise:merchant_campsite"
+					title: "{quests.lost_light.exploration.merchants.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.merchants.title}"
 			x: 3.0d
 			y: 9.0d
@@ -275,45 +323,25 @@
 		{
 			dependencies: ["7E2BB5ED89473718"]
 			description: ["{quests.lost_light.exploration.dwarves.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:metal/pickaxe/bronze"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "tfc:metal/pickaxe/bronze"
 			id: "3860A7BFF9738A46"
-			rewards: [{
-				id: "0FDC3E035BC471F0"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.exploration.dwarves.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/pickaxe/bronze"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "0FDC3E035BC471F0"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "2C243C09C3FA6149"
-				structure: "#lost_light:quests/exploration_dwarves_0"
-				title: "{quests.lost_light.exploration.dwarves.task0}"
-				type: "structure"
-			}]
+			]
+			subtitle: "{quests.lost_light.exploration.dwarves.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:metal/pickaxe/bronze"
+					id: "2C243C09C3FA6149"
+					structure: "#lost_light:quests/exploration_dwarves_0"
+					title: "{quests.lost_light.exploration.dwarves.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.dwarves.title}"
 			x: 3.0d
 			y: -3.0d
@@ -322,45 +350,25 @@
 			dependencies: ["68462D2B3CFCE446"]
 			description: ["{quests.lost_light.exploration.orcs.desc.0}"]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:metal/axe/bronze"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "tfc:metal/axe/bronze"
 			id: "2D4D3D3AB908CEFC"
-			rewards: [{
-				id: "49D12D2D0C9E7468"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.exploration.orcs.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/axe/bronze"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "49D12D2D0C9E7468"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "065B03880BD1FA54"
-				structure: "#lost_light:quests/exploration_orcs_0"
-				title: "{quests.lost_light.exploration.orcs.task0}"
-				type: "structure"
-			}]
+			]
+			subtitle: "{quests.lost_light.exploration.orcs.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:metal/axe/bronze"
+					id: "065B03880BD1FA54"
+					structure: "#lost_light:quests/exploration_orcs_0"
+					title: "{quests.lost_light.exploration.orcs.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.orcs.title}"
 			x: 4.5d
 			y: 6.0d
@@ -369,33 +377,25 @@
 			dependencies: ["68462D2B3CFCE446"]
 			description: ["{quests.lost_light.exploration.bandits.desc.0}"]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "minecraft:crossbow"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:crossbow"
 			id: "2B9731C51ADF7723"
-			rewards: [{
-				id: "06FF0CB708154A0A"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.exploration.bandits.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:crossbow"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "06FF0CB708154A0A"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "7817D409CB805DAA"
-				structure: "#lost_light:quests/exploration_bandits_0"
-				title: "{quests.lost_light.exploration.bandits.task0}"
-				type: "structure"
-			}]
+			]
+			subtitle: "{quests.lost_light.exploration.bandits.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:crossbow"
+					id: "7817D409CB805DAA"
+					structure: "#lost_light:quests/exploration_bandits_0"
+					title: "{quests.lost_light.exploration.bandits.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.bandits.title}"
 			x: 4.5d
 			y: 7.5d
@@ -406,19 +406,23 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:white_banner"
 			id: "2919D0583768FAD1"
-			rewards: [{
-				id: "78107B3FC58A1216"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "78107B3FC58A1216"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.illagers.subtitle}"
-			tasks: [{
-				icon: "minecraft:white_banner"
-				id: "557FE4083B980F72"
-				structure: "#lost_light:quests/exploration_illagers_0"
-				title: "{quests.lost_light.exploration.illagers.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:white_banner"
+					id: "557FE4083B980F72"
+					structure: "#lost_light:quests/exploration_illagers_0"
+					title: "{quests.lost_light.exploration.illagers.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.illagers.title}"
 			x: 4.5d
 			y: 9.0d
@@ -426,33 +430,25 @@
 		{
 			dependencies: ["68462D2B3CFCE446"]
 			description: ["{quests.lost_light.exploration.forts.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:shield"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:shield"
 			id: "64EA964B6B436B2A"
-			rewards: [{
-				id: "0FC24874032FB1E6"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.exploration.forts.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "0FC24874032FB1E6"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "76EC56F68BF84862"
-				structure: "#lost_light:quests/exploration_forts_0"
-				title: "{quests.lost_light.exploration.forts.task0}"
-				type: "structure"
-			}]
+			]
+			subtitle: "{quests.lost_light.exploration.forts.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:shield"
+					id: "76EC56F68BF84862"
+					structure: "#lost_light:quests/exploration_forts_0"
+					title: "{quests.lost_light.exploration.forts.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.forts.title}"
 			x: 4.5d
 			y: 10.5d
@@ -463,19 +459,23 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:chiseled_stone_bricks"
 			id: "52029DDDDA9CC522"
-			rewards: [{
-				id: "73C0BDFF1F56D177"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "73C0BDFF1F56D177"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.castle.subtitle}"
-			tasks: [{
-				icon: "minecraft:chiseled_stone_bricks"
-				id: "46F9475706CB9162"
-				structure: "#lost_light:quests/exploration_castle_0"
-				title: "{quests.lost_light.exploration.castle.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:chiseled_stone_bricks"
+					id: "46F9475706CB9162"
+					structure: "#lost_light:quests/exploration_castle_0"
+					title: "{quests.lost_light.exploration.castle.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.castle.title}"
 			x: 6.0d
 			y: 10.5d
@@ -486,19 +486,23 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:skeleton_skull"
 			id: "7557163E3A1EC742"
-			rewards: [{
-				id: "23634AA0F945DCA5"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "23634AA0F945DCA5"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.undead.subtitle}"
-			tasks: [{
-				icon: "minecraft:skeleton_skull"
-				id: "714930142959A59B"
-				structure: "#lost_light:quests/exploration_undead_0"
-				title: "{quests.lost_light.exploration.undead.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:skeleton_skull"
+					id: "714930142959A59B"
+					structure: "#lost_light:quests/exploration_undead_0"
+					title: "{quests.lost_light.exploration.undead.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.undead.title}"
 			x: 3.0d
 			y: -7.5d
@@ -508,19 +512,23 @@
 			description: ["{quests.lost_light.exploration.witches.desc.0}"]
 			icon: "minecraft:cauldron"
 			id: "77E33AB6A655EBF6"
-			rewards: [{
-				id: "05F6BE14505747F2"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "05F6BE14505747F2"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.witches.subtitle}"
-			tasks: [{
-				icon: "minecraft:cauldron"
-				id: "5169EA8259595D69"
-				structure: "#lost_light:quests/exploration_witches_0"
-				title: "{quests.lost_light.exploration.witches.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:cauldron"
+					id: "5169EA8259595D69"
+					structure: "#lost_light:quests/exploration_witches_0"
+					title: "{quests.lost_light.exploration.witches.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.witches.title}"
 			x: 3.0d
 			y: -1.5d
@@ -530,19 +538,23 @@
 			description: ["{quests.lost_light.exploration.wizard_tower.desc.0}"]
 			icon: "minecraft:enchanted_book"
 			id: "05E03E84C862B6AC"
-			rewards: [{
-				id: "3B4B30524BA92951"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3B4B30524BA92951"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.wizard_tower.subtitle}"
-			tasks: [{
-				icon: "minecraft:enchanted_book"
-				id: "509D2C963B2E3C18"
-				structure: "#lost_light:quests/exploration_wizard_tower_0"
-				title: "{quests.lost_light.exploration.wizard_tower.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:enchanted_book"
+					id: "509D2C963B2E3C18"
+					structure: "#lost_light:quests/exploration_wizard_tower_0"
+					title: "{quests.lost_light.exploration.wizard_tower.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.wizard_tower.title}"
 			x: 3.0d
 			y: 0.0d
@@ -553,19 +565,23 @@
 			hide_until_deps_complete: true
 			icon: "tfc_spirits:god_statue/typhon"
 			id: "6678C00F2B6DDF7C"
-			rewards: [{
-				id: "528A5B8B1420893A"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "528A5B8B1420893A"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.shrine.subtitle}"
-			tasks: [{
-				icon: "tfc_spirits:god_statue/typhon"
-				id: "0B5CBBFD621F829C"
-				structure: "#lost_light:quests/exploration_shrine_0"
-				title: "{quests.lost_light.exploration.shrine.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "tfc_spirits:god_statue/typhon"
+					id: "0B5CBBFD621F829C"
+					structure: "#lost_light:quests/exploration_shrine_0"
+					title: "{quests.lost_light.exploration.shrine.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.shrine.title}"
 			x: 3.0d
 			y: 1.5d
@@ -573,30 +589,20 @@
 		{
 			dependencies: ["7E2BB5ED89473718"]
 			description: ["{quests.lost_light.exploration.dig_site.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:brush"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:brush"
 			id: "39AEBE52109E9939"
-			rewards: [{
-				id: "25A26B4A59B232E8"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "25A26B4A59B232E8"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.dig_site.subtitle}"
 			tasks: [
 				{
 					id: "10B719FADA224369"
-					item: {
-						Count: 1
-						id: "minecraft:brush"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "minecraft:brush"
 					type: "item"
 				}
 				{
@@ -617,19 +623,23 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:sandstone"
 			id: "006C1A255022EF8D"
-			rewards: [{
-				id: "14F9D7EC0D660BD3"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "14F9D7EC0D660BD3"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.temple.subtitle}"
-			tasks: [{
-				icon: "minecraft:sandstone"
-				id: "2BA93BB354C98F5D"
-				structure: "#lost_light:quests/exploration_temple_0"
-				title: "{quests.lost_light.exploration.temple.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:sandstone"
+					id: "2BA93BB354C98F5D"
+					structure: "#lost_light:quests/exploration_temple_0"
+					title: "{quests.lost_light.exploration.temple.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.temple.title}"
 			x: 4.5d
 			y: -7.5d
@@ -639,19 +649,23 @@
 			description: ["{quests.lost_light.exploration.sunken.desc.0}"]
 			icon: "minecraft:heart_of_the_sea"
 			id: "3CACC1B85D6EBE41"
-			rewards: [{
-				id: "7379E6BE2E79AEA7"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7379E6BE2E79AEA7"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.sunken.subtitle}"
-			tasks: [{
-				icon: "minecraft:heart_of_the_sea"
-				id: "7B22A6BC518C4571"
-				structure: "#lost_light:quests/exploration_sunken_0"
-				title: "{quests.lost_light.exploration.sunken.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:heart_of_the_sea"
+					id: "7B22A6BC518C4571"
+					structure: "#lost_light:quests/exploration_sunken_0"
+					title: "{quests.lost_light.exploration.sunken.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.sunken.title}"
 			x: 3.0d
 			y: 10.5d
@@ -662,45 +676,50 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:filled_map"
 			id: "1399D1A2C095FEB3"
-			rewards: [{
-				id: "67ABADE128369566"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "67ABADE128369566"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.buried_treasure.subtitle}"
-			tasks: [{
-				icon: "minecraft:filled_map"
-				id: "5E62B2D819B35821"
-				structure: "minecraft:buried_treasure"
-				title: "{quests.lost_light.exploration.buried_treasure.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "5E62B2D819B35821"
+					structure: "minecraft:buried_treasure"
+					title: "{quests.lost_light.exploration.buried_treasure.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.buried_treasure.title}"
 			x: 4.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"52029DDDDA9CC522"
-				"006C1A255022EF8D"
-			]
+			dependencies: ["52029DDDDA9CC522", "006C1A255022EF8D"]
 			description: ["{quests.lost_light.exploration.stronghold.desc.0}"]
 			hide_until_deps_complete: true
 			icon: "minecraft:ender_eye"
 			id: "0262B5037C33D17D"
-			rewards: [{
-				id: "7F54445A7FC8CE2C"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7F54445A7FC8CE2C"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.exploration.stronghold.subtitle}"
-			tasks: [{
-				icon: "minecraft:ender_eye"
-				id: "25F578BC89632C6E"
-				structure: "#lost_light:quests/exploration_stronghold_0"
-				title: "{quests.lost_light.exploration.stronghold.task0}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:ender_eye"
+					id: "25F578BC89632C6E"
+					structure: "#lost_light:quests/exploration_stronghold_0"
+					title: "{quests.lost_light.exploration.stronghold.task0}"
+					type: "structure"
+				}
+			]
 			title: "{quests.lost_light.exploration.stronghold.title}"
 			x: 7.5d
 			y: 1.5d

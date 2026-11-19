@@ -8,20 +8,43 @@
 			monster: 0
 			passive: 0
 		}
-		glow: 1b
+		glow: true
 		item_name: "{quests.lost_light.crate.explore_epic}"
 		string_id: "explore_epic"
 	}
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ count: 2, item: "tfc:metal/ingot/black_bronze", weight: 2.0f }
-		{ count: 2, item: "tfc:metal/ingot/wrought_iron", weight: 2.0f }
-		{ item: "tfc:metal/ingot/steel", weight: 2.0f }
-		{ item: "tfc:metal/ingot/black_steel" }
-		{ count: 10, item: "tfc:gem/diamond", weight: 2.0f }
-		{ count: 2, item: "minecraft:golden_apple" }
-		{ count: 8, item: "minecraft:ender_pearl" }
+		{
+			count: 2
+			item: "tfc:metal/ingot/black_bronze"
+			weight: 2f
+		}
+		{
+			count: 2
+			item: "tfc:metal/ingot/wrought_iron"
+			weight: 2f
+		}
+		{
+			item: "tfc:metal/ingot/steel"
+			weight: 2f
+		}
+		{
+			item: "tfc:metal/ingot/black_steel"
+		}
+		{
+			count: 10
+			item: "tfc:gem/diamond"
+			weight: 2f
+		}
+		{
+			count: 2
+			item: "minecraft:golden_apple"
+		}
+		{
+			count: 8
+			item: "minecraft:ender_pearl"
+		}
 	]
 	title: "{quests.lost_light.table.explore_epic}"
 	use_title: true

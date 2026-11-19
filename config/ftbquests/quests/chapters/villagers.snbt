@@ -42,10 +42,12 @@
 				}
 			]
 			subtitle: "{quests.lost_light.villagers.village_life.subtitle}"
-			tasks: [{
-				id: "2F868D7EBDA8AB8E"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2F868D7EBDA8AB8E"
+					type: "checkmark"
+				}
+			]
 			title: "{quests.lost_light.villagers.village_life.title}"
 			x: -1.5d
 			y: -1.5d
@@ -61,38 +63,24 @@
 				""
 				"{quests.lost_light.villagers.new_neighbors.desc.6}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "minecraft:bell"
-			}
+			icon: "minecraft:bell"
 			id: "4CBA527B3D2ED205"
-			rewards: [{
-				id: "40C3013C4BA17B18"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.new_neighbors.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "minecraft:bell"
+			rewards: [
+				{
+					id: "40C3013C4BA17B18"
+					table_id: 8972711594806304579L
+					type: "loot"
 				}
-				id: "7DB5EBBD3956B734"
-				title: "{quests.lost_light.villagers.new_neighbors.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.new_neighbors.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:bell"
+					id: "7DB5EBBD3956B734"
+					title: "{quests.lost_light.villagers.new_neighbors.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.new_neighbors.title}"
 			x: 0.0d
 			y: 0.0d
@@ -102,20 +90,24 @@
 			description: ["{quests.lost_light.villagers.friendship.desc.0}"]
 			icon: "minecraft:poppy"
 			id: "48B22B2DF1D7374D"
-			rewards: [{
-				id: "550C44E1B31417EC"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "550C44E1B31417EC"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.friendship.subtitle}"
-			tasks: [{
-				advancement: "mca:friend"
-				criterion: ""
-				icon: "minecraft:poppy"
-				id: "5859418F5641D75D"
-				title: "{quests.lost_light.villagers.friendship.task0}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "mca:friend"
+					criterion: ""
+					icon: "minecraft:poppy"
+					id: "5859418F5641D75D"
+					title: "{quests.lost_light.villagers.friendship.task0}"
+					type: "advancement"
+				}
+			]
 			title: "{quests.lost_light.villagers.friendship.title}"
 			x: 1.5d
 			y: -1.5d
@@ -126,20 +118,24 @@
 			icon: "minecraft:cake"
 			id: "7C24A0DF51C5810F"
 			optional: true
-			rewards: [{
-				id: "208DA4CDC2D40463"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "208DA4CDC2D40463"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.perfect_gift.subtitle}"
-			tasks: [{
-				advancement: "mca:excellent_gift"
-				criterion: ""
-				icon: "minecraft:cake"
-				id: "4BB307335A913BA1"
-				title: "{quests.lost_light.villagers.perfect_gift.task0}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "mca:excellent_gift"
+					criterion: ""
+					icon: "minecraft:cake"
+					id: "4BB307335A913BA1"
+					title: "{quests.lost_light.villagers.perfect_gift.task0}"
+					type: "advancement"
+				}
+			]
 			title: "{quests.lost_light.villagers.perfect_gift.title}"
 			x: 3.0d
 			y: -3.0d
@@ -153,20 +149,24 @@
 			]
 			icon: "tfc:gem/emerald"
 			id: "118D27255BDEDF66"
-			rewards: [{
-				id: "7B032264F23AA93D"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7B032264F23AA93D"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.trade.subtitle}"
-			tasks: [{
-				icon: "tfc:gem/emerald"
-				id: "4553D4B49857279D"
-				stat: "minecraft:traded_with_villager"
-				title: "{quests.lost_light.villagers.trade.task0}"
-				type: "stat"
-				value: 5
-			}]
+			tasks: [
+				{
+					icon: "tfc:gem/emerald"
+					id: "4553D4B49857279D"
+					stat: "minecraft:traded_with_villager"
+					title: "{quests.lost_light.villagers.trade.task0}"
+					type: "stat"
+					value: 5
+				}
+			]
 			title: "{quests.lost_light.villagers.trade.title}"
 			x: 1.5d
 			y: 0.0d
@@ -180,11 +180,13 @@
 			]
 			icon: "bountiful:bountyboard"
 			id: "6322E8820390A581"
-			rewards: [{
-				id: "14DFDCF044DA2BD0"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "14DFDCF044DA2BD0"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.bounty_board.subtitle}"
 			tasks: [
 				{
@@ -213,17 +215,21 @@
 			icon: "bountiful:decree"
 			id: "663BC0BADF349DDC"
 			optional: true
-			rewards: [{
-				id: "0618E8AE98C74BEA"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0618E8AE98C74BEA"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.decree.subtitle}"
-			tasks: [{
-				id: "2A03670183766B8C"
-				item: "bountiful:decree"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A03670183766B8C"
+					item: "bountiful:decree"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.villagers.decree.title}"
 			x: 3.0d
 			y: 1.5d
@@ -237,20 +243,24 @@
 			]
 			icon: "mca:blueprint"
 			id: "685C2A6F2F815F70"
-			rewards: [{
-				id: "4452BB160DD0C989"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "4452BB160DD0C989"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.village_rank.subtitle}"
-			tasks: [{
-				advancement: "mca:merchant"
-				criterion: ""
-				icon: "mca:blueprint"
-				id: "1CCE6FE6A77574CC"
-				title: "{quests.lost_light.villagers.village_rank.task0}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "mca:merchant"
+					criterion: ""
+					icon: "mca:blueprint"
+					id: "1CCE6FE6A77574CC"
+					title: "{quests.lost_light.villagers.village_rank.task0}"
+					type: "advancement"
+				}
+			]
 			title: "{quests.lost_light.villagers.village_rank.title}"
 			x: 3.0d
 			y: -1.5d
@@ -258,41 +268,27 @@
 		{
 			dependencies: ["685C2A6F2F815F70"]
 			description: ["{quests.lost_light.villagers.mayor.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "minecraft:bell"
-			}
+			icon: "minecraft:bell"
 			id: "797C62711FB5C6BA"
 			optional: true
-			rewards: [{
-				id: "41C2FC930734563E"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.mayor.subtitle}"
-			tasks: [{
-				advancement: "mca:mayor"
-				criterion: ""
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "minecraft:bell"
+			rewards: [
+				{
+					id: "41C2FC930734563E"
+					table_id: 5286488258697713372L
+					type: "loot"
 				}
-				id: "295F1483C33716C2"
-				title: "{quests.lost_light.villagers.mayor.task0}"
-				type: "advancement"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.mayor.subtitle}"
+			tasks: [
+				{
+					advancement: "mca:mayor"
+					criterion: ""
+					icon: "minecraft:bell"
+					id: "295F1483C33716C2"
+					title: "{quests.lost_light.villagers.mayor.task0}"
+					type: "advancement"
+				}
+			]
 			title: "{quests.lost_light.villagers.mayor.title}"
 			x: 4.5d
 			y: -1.5d
@@ -307,18 +303,20 @@
 			icon: "mca:wedding_ring"
 			id: "591B9D43F99D9F23"
 			optional: true
-			rewards: [{
-				id: "3C427B6568475793"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3C427B6568475793"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.marriage.subtitle}"
 			tasks: [
 				{
 					icon: "mca:engagement_ring"
 					id: "6E7FF2B6B904FF6D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(mca:engagement_ring)item(mca:engagement_ring_rg))"
@@ -346,20 +344,24 @@
 			icon: "mca:baby_boy"
 			id: "533D1C1127EFE7BA"
 			optional: true
-			rewards: [{
-				id: "114CC58B3132BF93"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "114CC58B3132BF93"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.family.subtitle}"
-			tasks: [{
-				advancement: "mca:baby"
-				criterion: ""
-				icon: "mca:baby_boy"
-				id: "39EBE89C83FACEC3"
-				title: "{quests.lost_light.villagers.family.task0}"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "mca:baby"
+					criterion: ""
+					icon: "mca:baby_boy"
+					id: "39EBE89C83FACEC3"
+					title: "{quests.lost_light.villagers.family.task0}"
+					type: "advancement"
+				}
+			]
 			title: "{quests.lost_light.villagers.family.title}"
 			x: 4.5d
 			y: 0.0d
@@ -373,25 +375,29 @@
 			]
 			icon: "minecraft:stonecutter"
 			id: "70817CE03D6AFE79"
-			rewards: [{
-				id: "528CB91802C1C0D2"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.workstation.subtitle}"
-			tasks: [{
-				icon: "minecraft:blast_furnace"
-				id: "273717E7CEDEA274"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(minecraft:blast_furnace)item(minecraft:smoker)item(minecraft:cartography_table)item(minecraft:brewing_stand)item(minecraft:composter)item(minecraft:barrel)item(minecraft:fletching_table)item(minecraft:stonecutter)item(minecraft:loom)item(minecraft:grindstone))"
-					}
+			rewards: [
+				{
+					id: "528CB91802C1C0D2"
+					table_id: 8972711594806304579L
+					type: "loot"
 				}
-				title: "{quests.lost_light.villagers.workstation.task0}"
-				type: "item"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.workstation.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:blast_furnace"
+					id: "273717E7CEDEA274"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:blast_furnace)item(minecraft:smoker)item(minecraft:cartography_table)item(minecraft:brewing_stand)item(minecraft:composter)item(minecraft:barrel)item(minecraft:fletching_table)item(minecraft:stonecutter)item(minecraft:loom)item(minecraft:grindstone))"
+						}
+					}
+					title: "{quests.lost_light.villagers.workstation.task0}"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.villagers.workstation.title}"
 			x: 3.0d
 			y: 3.0d
@@ -405,18 +411,22 @@
 			]
 			icon: "minecraft:name_tag"
 			id: "5D7D7C6088B9434B"
-			rewards: [{
-				id: "0DE4CF4F793FA061"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0DE4CF4F793FA061"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.reputation.subtitle}"
-			tasks: [{
-				icon: "minecraft:name_tag"
-				id: "1DCE4731DF87664F"
-				title: "{quests.lost_light.villagers.reputation.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:name_tag"
+					id: "1DCE4731DF87664F"
+					title: "{quests.lost_light.villagers.reputation.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.reputation.title}"
 			x: 1.5d
 			y: 4.5d
@@ -424,32 +434,24 @@
 		{
 			dependencies: ["5D7D7C6088B9434B"]
 			description: ["{quests.lost_light.villagers.honored.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:golden_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:golden_helmet"
 			id: "365D24B99EB3F94A"
-			rewards: [{
-				id: "0E7CBA9E220F3E29"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.honored.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:golden_helmet"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "0E7CBA9E220F3E29"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "78A7024D4A591835"
-				title: "{quests.lost_light.villagers.honored.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.honored.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:golden_helmet"
+					id: "78A7024D4A591835"
+					title: "{quests.lost_light.villagers.honored.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.honored.title}"
 			x: 3.0d
 			y: 4.5d
@@ -460,18 +462,22 @@
 			icon: "minecraft:totem_of_undying"
 			id: "489478BF93E96546"
 			optional: true
-			rewards: [{
-				id: "1D8096A598E221B9"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "1D8096A598E221B9"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.revered.subtitle}"
-			tasks: [{
-				icon: "minecraft:totem_of_undying"
-				id: "7AE6F2522516BC2D"
-				title: "{quests.lost_light.villagers.revered.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:totem_of_undying"
+					id: "7AE6F2522516BC2D"
+					title: "{quests.lost_light.villagers.revered.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.revered.title}"
 			x: 4.5d
 			y: 4.5d
@@ -479,32 +485,24 @@
 		{
 			dependencies: ["5D7D7C6088B9434B"]
 			description: ["{quests.lost_light.villagers.rescuer.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:shield"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:shield"
 			id: "2D63676F2EF0BC5D"
-			rewards: [{
-				id: "6A42FA393C49C902"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.rescuer.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "6A42FA393C49C902"
+					table_id: 8972711594806304579L
+					type: "loot"
 				}
-				id: "69EEF5D5CF0E4AB2"
-				title: "{quests.lost_light.villagers.rescuer.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.rescuer.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:shield"
+					id: "69EEF5D5CF0E4AB2"
+					title: "{quests.lost_light.villagers.rescuer.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.rescuer.title}"
 			x: 3.0d
 			y: 6.0d
@@ -512,39 +510,25 @@
 		{
 			dependencies: ["5D7D7C6088B9434B"]
 			description: ["{quests.lost_light.villagers.healer.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: -2L
-						traits: [ ]
-					}
-				}
-				id: "minecraft:golden_apple"
-			}
+			icon: "minecraft:golden_apple"
 			id: "749F4BDAEBA0C927"
 			optional: true
-			rewards: [{
-				id: "366C6AB92DE60F40"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.healer.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: -2L
-							traits: [ ]
-						}
-					}
-					id: "minecraft:golden_apple"
+			rewards: [
+				{
+					id: "366C6AB92DE60F40"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "38ED9BFCD87A99FC"
-				title: "{quests.lost_light.villagers.healer.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.healer.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:golden_apple"
+					id: "38ED9BFCD87A99FC"
+					title: "{quests.lost_light.villagers.healer.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.healer.title}"
 			x: 4.5d
 			y: 6.0d
@@ -552,67 +536,51 @@
 		{
 			dependencies: ["5D7D7C6088B9434B"]
 			description: ["{quests.lost_light.villagers.raid_defender.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:crossbow"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:crossbow"
 			id: "02E4E624BE08BFA4"
 			optional: true
-			rewards: [{
-				id: "310554356E6F148D"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.villagers.raid_defender.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:crossbow"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "310554356E6F148D"
+					table_id: 2293612502771867778L
+					type: "loot"
 				}
-				id: "11B38CB8C2FC9793"
-				title: "{quests.lost_light.villagers.raid_defender.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.raid_defender.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:crossbow"
+					id: "11B38CB8C2FC9793"
+					title: "{quests.lost_light.villagers.raid_defender.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.raid_defender.title}"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			description: ["{quests.lost_light.villagers.distrusted.desc.0}"]
-			icon: {
-				Count: 1
-				id: "minecraft:stone_sword"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "minecraft:stone_sword"
 			id: "79288DF971292D70"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "5B18DCC6A04D4F5D"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "{quests.lost_light.villagers.distrusted.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:stone_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "5B18DCC6A04D4F5D"
+					type: "xp_levels"
+					xp_levels: 2
 				}
-				id: "522CBD5343A3AB2E"
-				title: "{quests.lost_light.villagers.distrusted.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.villagers.distrusted.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:stone_sword"
+					id: "522CBD5343A3AB2E"
+					title: "{quests.lost_light.villagers.distrusted.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.distrusted.title}"
 			x: 0.0d
 			y: 7.5d
@@ -624,18 +592,22 @@
 			id: "7CBB3C484FEDB307"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "175978E22F831583"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "175978E22F831583"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.outcast.subtitle}"
-			tasks: [{
-				icon: "minecraft:skeleton_skull"
-				id: "3D67040ED2534FEA"
-				title: "{quests.lost_light.villagers.outcast.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:skeleton_skull"
+					id: "3D67040ED2534FEA"
+					title: "{quests.lost_light.villagers.outcast.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.outcast.title}"
 			x: 1.5d
 			y: 7.5d
@@ -647,18 +619,22 @@
 			id: "342AC9DD775938B1"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "16F33CC03EB2A806"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "16F33CC03EB2A806"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.scourge.subtitle}"
-			tasks: [{
-				icon: "minecraft:wither_skeleton_skull"
-				id: "4CD2CB2150608BA9"
-				title: "{quests.lost_light.villagers.scourge.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:wither_skeleton_skull"
+					id: "4CD2CB2150608BA9"
+					title: "{quests.lost_light.villagers.scourge.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.scourge.title}"
 			x: 3.0d
 			y: 7.5d
@@ -674,18 +650,22 @@
 			icon: "minecraft:poppy"
 			id: "7338C4C0084E6713"
 			optional: true
-			rewards: [{
-				id: "0F85F3C73220CC7F"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0F85F3C73220CC7F"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.atonement.subtitle}"
-			tasks: [{
-				icon: "minecraft:poppy"
-				id: "0C7B8F1DC900473A"
-				title: "{quests.lost_light.villagers.atonement.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:poppy"
+					id: "0C7B8F1DC900473A"
+					title: "{quests.lost_light.villagers.atonement.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.atonement.title}"
 			x: 1.5d
 			y: 9.0d
@@ -699,18 +679,22 @@
 			]
 			icon: "minecraft:white_banner"
 			id: "6ECE04D7DE6843FD"
-			rewards: [{
-				id: "217704DAF5943C56"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "217704DAF5943C56"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.surrender.subtitle}"
-			tasks: [{
-				icon: "minecraft:white_banner"
-				id: "0A24ACEFE4847DE3"
-				title: "{quests.lost_light.villagers.surrender.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:white_banner"
+					id: "0A24ACEFE4847DE3"
+					title: "{quests.lost_light.villagers.surrender.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.surrender.title}"
 			x: 0.0d
 			y: 3.0d
@@ -720,18 +704,22 @@
 			description: ["{quests.lost_light.villagers.redemption.desc.0}"]
 			icon: "tfc:gem/emerald"
 			id: "7DB77DE2668FE2D0"
-			rewards: [{
-				id: "6AFFC6F3721F9364"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6AFFC6F3721F9364"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.villagers.redemption.subtitle}"
-			tasks: [{
-				icon: "tfc:gem/emerald"
-				id: "310F080264A265D7"
-				title: "{quests.lost_light.villagers.redemption.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:gem/emerald"
+					id: "310F080264A265D7"
+					title: "{quests.lost_light.villagers.redemption.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.villagers.redemption.title}"
 			x: 1.5d
 			y: 3.0d

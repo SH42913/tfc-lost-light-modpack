@@ -9,10 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"200C65104B981E08"
-				"6B102CCCE92C4475"
-			]
+			dependencies: ["200C65104B981E08", "6B102CCCE92C4475"]
 			description: [
 				"{quests.lost_light.kitchen.cutting_board.desc.0}"
 				""
@@ -20,12 +17,14 @@
 			]
 			icon: "farmersdelight:cutting_board"
 			id: "4788B5F4F716CD77"
-			rewards: [{
-				count: 2
-				id: "432632E63A05CE4E"
-				item: "tfc:food/cooked_beef"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "432632E63A05CE4E"
+					item: "tfc:food/cooked_beef"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.cutting_board.subtitle}"
 			tasks: [
 				{
@@ -34,23 +33,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "farmersdelight:minced_beef"
-					}
+					icon: "farmersdelight:minced_beef"
 					id: "0446808827C8AE6D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(farmersdelight:minced_beef)item(farmersdelight:bacon)item(farmersdelight:chicken_cuts)item(farmersdelight:mutton_chops)item(farmersdelight:cod_slice)item(farmersdelight:salmon_slice))"
@@ -65,10 +51,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4788B5F4F716CD77"
-				"33018BAD796A3823"
-			]
+			dependencies: ["4788B5F4F716CD77", "33018BAD796A3823"]
 			description: ["{quests.lost_light.kitchen.cooking_pot.desc.0}"]
 			icon: "farmersdelight:cooking_pot"
 			id: "329846F7462FA6D6"
@@ -104,61 +87,38 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"4788B5F4F716CD77"
-				"33018BAD796A3823"
-			]
+			dependencies: ["4788B5F4F716CD77", "33018BAD796A3823"]
 			description: [
 				"{quests.lost_light.kitchen.skillet.desc.0}"
 				""
 				"{quests.lost_light.kitchen.skillet.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "survivorsdelight:skillet/copper"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "survivorsdelight:skillet/copper"
 			id: "3D1A95632C1C0EE9"
-			rewards: [{
-				count: 3
-				id: "4299F729206B92CA"
-				item: "tfc:food/cooked_beef"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "4299F729206B92CA"
+					item: "tfc:food/cooked_beef"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.skillet.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
+			tasks: [
+				{
+					icon: "survivorsdelight:skillet/copper"
+					id: "2231B8EE93852F52"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:skillet)item(survivorsdelight:skillet/copper)item(survivorsdelight:skillet/copper_silver)item(survivorsdelight:skillet/copper_tin)item(survivorsdelight:skillet/cast_iron)item(survivorsdelight:skillet/steel)item(survivorsdelight:skillet/black_steel)item(survivorsdelight:skillet/blue_steel)item(survivorsdelight:skillet/red_steel)item(survivorsdelight:skillet/farmer))"
 						}
 					}
-					id: "survivorsdelight:skillet/copper"
-					tag: {
-						Damage: 0
-					}
+					title: "{quests.lost_light.kitchen.skillet.task0}"
+					type: "item"
 				}
-				id: "2231B8EE93852F52"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farmersdelight:skillet)item(survivorsdelight:skillet/copper)item(survivorsdelight:skillet/copper_silver)item(survivorsdelight:skillet/copper_tin)item(survivorsdelight:skillet/cast_iron)item(survivorsdelight:skillet/steel)item(survivorsdelight:skillet/black_steel)item(survivorsdelight:skillet/blue_steel)item(survivorsdelight:skillet/red_steel)item(survivorsdelight:skillet/farmer))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.skillet.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.skillet.title}"
 			x: 1.5d
 			y: -4.5d
@@ -166,70 +126,32 @@
 		{
 			dependencies: ["329846F7462FA6D6"]
 			description: ["{quests.lost_light.kitchen.stew.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: -2L
-						foodData: {
-							dairy: 0.0f
-							decay: 0.0f
-							food: 0
-							fruit: 0.0f
-							grain: 0.0f
-							meat: 0.0f
-							sat: 0.0f
-							veg: 0.0f
-							water: 0.0f
-						}
-						ingredients: [ ]
-						traits: [ ]
-					}
-				}
-				id: "farmersdelight:beef_stew"
-			}
+			icon: "farmersdelight:beef_stew"
 			id: "28A26A986C215DAA"
-			rewards: [{
-				count: 4
-				id: "1E5FA8E3B5E160AB"
-				item: "tfc:seeds/onion"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1E5FA8E3B5E160AB"
+					item: "tfc:seeds/onion"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.stew.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: -2L
-							foodData: {
-								dairy: 0.0f
-								decay: 0.0f
-								food: 0
-								fruit: 0.0f
-								grain: 0.0f
-								meat: 0.0f
-								sat: 0.0f
-								veg: 0.0f
-								water: 0.0f
-							}
-							ingredients: [ ]
-							traits: [ ]
+			tasks: [
+				{
+					icon: "farmersdelight:beef_stew"
+					id: "08BF2D19B52908BE"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:beef_stew)item(farmersdelight:chicken_soup)item(farmersdelight:vegetable_soup)item(farmersdelight:fish_stew)item(farmersdelight:baked_cod_stew)item(farmersdelight:pumpkin_soup)item(farmersdelight:noodle_soup)item(farmersdelight:onion_soup)item(farmersdelight:bone_broth))"
 						}
 					}
-					id: "farmersdelight:beef_stew"
+					title: "{quests.lost_light.kitchen.stew.task0}"
+					type: "item"
 				}
-				id: "08BF2D19B52908BE"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farmersdelight:beef_stew)item(farmersdelight:chicken_soup)item(farmersdelight:vegetable_soup)item(farmersdelight:fish_stew)item(farmersdelight:baked_cod_stew)item(farmersdelight:pumpkin_soup)item(farmersdelight:noodle_soup)item(farmersdelight:onion_soup)item(farmersdelight:bone_broth))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.stew.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.stew.title}"
 			x: 3.0d
 			y: -6.0d
@@ -237,23 +159,16 @@
 		{
 			dependencies: ["329846F7462FA6D6"]
 			description: ["{quests.lost_light.kitchen.pasta.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "farmersdelight:pasta_with_meatballs"
-			}
+			icon: "farmersdelight:pasta_with_meatballs"
 			id: "7406868BD4A99E76"
-			rewards: [{
-				count: 4
-				id: "344F31D8F7B1C2CF"
-				item: "tfc:seeds/tomato"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "344F31D8F7B1C2CF"
+					item: "tfc:seeds/tomato"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.pasta.subtitle}"
 			tasks: [
 				{
@@ -262,19 +177,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "farmersdelight:pasta_with_meatballs"
-					}
+					icon: "farmersdelight:pasta_with_meatballs"
 					id: "2D0C338629A20487"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(farmersdelight:pasta_with_meatballs)item(farmersdelight:pasta_with_mutton_chop)item(farmersdelight:vegetable_noodles)item(farmersdelight:squid_ink_pasta))"
@@ -291,70 +197,32 @@
 		{
 			dependencies: ["4788B5F4F716CD77"]
 			description: ["{quests.lost_light.kitchen.salad.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: -2L
-						foodData: {
-							dairy: 0.0f
-							decay: 0.0f
-							food: 0
-							fruit: 0.0f
-							grain: 0.0f
-							meat: 0.0f
-							sat: 0.0f
-							veg: 0.0f
-							water: 0.0f
-						}
-						ingredients: [ ]
-						traits: [ ]
-					}
-				}
-				id: "farmersdelight:mixed_salad"
-			}
+			icon: "farmersdelight:mixed_salad"
 			id: "3F8BB2E4F1264F4A"
-			rewards: [{
-				count: 3
-				id: "6F0E1CF250F256E1"
-				item: "tfc:ceramic/bowl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6F0E1CF250F256E1"
+					item: "tfc:ceramic/bowl"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.salad.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: -2L
-							foodData: {
-								dairy: 0.0f
-								decay: 0.0f
-								food: 0
-								fruit: 0.0f
-								grain: 0.0f
-								meat: 0.0f
-								sat: 0.0f
-								veg: 0.0f
-								water: 0.0f
-							}
-							ingredients: [ ]
-							traits: [ ]
+			tasks: [
+				{
+					icon: "farmersdelight:mixed_salad"
+					id: "1EB90DD808A5CA59"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:mixed_salad)item(farmersdelight:fruit_salad))"
 						}
 					}
-					id: "farmersdelight:mixed_salad"
+					title: "{quests.lost_light.kitchen.salad.task0}"
+					type: "item"
 				}
-				id: "1EB90DD808A5CA59"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farmersdelight:mixed_salad)item(farmersdelight:fruit_salad))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.salad.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.salad.title}"
 			x: 1.5d
 			y: -3.0d
@@ -362,143 +230,64 @@
 		{
 			dependencies: ["4788B5F4F716CD77"]
 			description: ["{quests.lost_light.kitchen.sandwich.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: -2L
-						foodData: {
-							dairy: 0.0f
-							decay: 0.0f
-							food: 0
-							fruit: 0.0f
-							grain: 0.0f
-							meat: 0.0f
-							sat: 0.0f
-							veg: 0.0f
-							water: 0.0f
-						}
-						ingredients: [ ]
-						traits: [ ]
-					}
-				}
-				id: "tfc:food/wheat_bread_sandwich"
-			}
+			icon: "tfc:food/wheat_bread_sandwich"
 			id: "354A196C2185E152"
-			rewards: [{
-				count: 2
-				id: "706AB9A74E1A3439"
-				item: "tfc:food/cheese"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "706AB9A74E1A3439"
+					item: "tfc:food/cheese"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.sandwich.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: -2L
-							foodData: {
-								dairy: 0.0f
-								decay: 0.0f
-								food: 0
-								fruit: 0.0f
-								grain: 0.0f
-								meat: 0.0f
-								sat: 0.0f
-								veg: 0.0f
-								water: 0.0f
-							}
-							ingredients: [ ]
-							traits: [ ]
+			tasks: [
+				{
+					icon: "tfc:food/wheat_bread_sandwich"
+					id: "79CB1862D79C75FD"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc:food/barley_bread_sandwich)item(tfc:food/maize_bread_sandwich)item(tfc:food/oat_bread_sandwich)item(tfc:food/rice_bread_sandwich)item(tfc:food/rye_bread_sandwich)item(tfc:food/wheat_bread_sandwich)item(tfc:food/barley_bread_jam_sandwich)item(tfc:food/maize_bread_jam_sandwich)item(tfc:food/oat_bread_jam_sandwich)item(tfc:food/rice_bread_jam_sandwich)item(tfc:food/rye_bread_jam_sandwich)item(tfc:food/wheat_bread_jam_sandwich)item(farmersdelight:chicken_sandwich)item(farmersdelight:hamburger)item(farmersdelight:bacon_sandwich)item(farmersdelight:egg_sandwich)item(farmersdelight:mutton_wrap))"
 						}
 					}
-					id: "tfc:food/wheat_bread_sandwich"
+					title: "{quests.lost_light.kitchen.sandwich.task0}"
+					type: "item"
 				}
-				id: "79CB1862D79C75FD"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(tfc:food/barley_bread_sandwich)item(tfc:food/maize_bread_sandwich)item(tfc:food/oat_bread_sandwich)item(tfc:food/rice_bread_sandwich)item(tfc:food/rye_bread_sandwich)item(tfc:food/wheat_bread_sandwich)item(tfc:food/barley_bread_jam_sandwich)item(tfc:food/maize_bread_jam_sandwich)item(tfc:food/oat_bread_jam_sandwich)item(tfc:food/rice_bread_jam_sandwich)item(tfc:food/rye_bread_jam_sandwich)item(tfc:food/wheat_bread_jam_sandwich)item(farmersdelight:chicken_sandwich)item(farmersdelight:hamburger)item(farmersdelight:bacon_sandwich)item(farmersdelight:egg_sandwich)item(farmersdelight:mutton_wrap))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.sandwich.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.sandwich.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"28A26A986C215DAA"
-				"7406868BD4A99E76"
-			]
+			dependencies: ["28A26A986C215DAA", "7406868BD4A99E76"]
 			description: ["{quests.lost_light.kitchen.feast.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: -2L
-						foodData: {
-							dairy: 0.0f
-							decay: 0.0f
-							food: 0
-							fruit: 0.0f
-							grain: 0.0f
-							meat: 0.0f
-							sat: 0.0f
-							veg: 0.0f
-							water: 0.0f
-						}
-						ingredients: [ ]
-						traits: [ ]
-					}
-				}
-				id: "farmersdelight:roast_chicken_block"
-			}
+			icon: "farmersdelight:roast_chicken_block"
 			id: "47C18A1DFBA3CE4E"
-			rewards: [{
-				id: "49D2DBD727E6D777"
-				item: "sns:lunchbox"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "49D2DBD727E6D777"
+					item: "sns:lunchbox"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.feast.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: -2L
-							foodData: {
-								dairy: 0.0f
-								decay: 0.0f
-								food: 0
-								fruit: 0.0f
-								grain: 0.0f
-								meat: 0.0f
-								sat: 0.0f
-								veg: 0.0f
-								water: 0.0f
-							}
-							ingredients: [ ]
-							traits: [ ]
+			tasks: [
+				{
+					icon: "farmersdelight:roast_chicken_block"
+					id: "3942533CDFA6A606"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:roast_chicken_block)item(farmersdelight:honey_glazed_ham_block)item(farmersdelight:shepherds_pie_block)item(farmersdelight:stuffed_pumpkin_block))"
 						}
 					}
-					id: "farmersdelight:roast_chicken_block"
+					title: "{quests.lost_light.kitchen.feast.task0}"
+					type: "item"
 				}
-				id: "3942533CDFA6A606"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farmersdelight:roast_chicken_block)item(farmersdelight:honey_glazed_ham_block)item(farmersdelight:shepherds_pie_block)item(farmersdelight:stuffed_pumpkin_block))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.feast.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.feast.title}"
 			x: 4.5d
 			y: -4.5d
@@ -512,28 +301,29 @@
 			]
 			icon: "tfc:powder/salt"
 			id: "2C6CDC154B5CC6EC"
-			rewards: [{
-				count: 8
-				id: "17304F69964E3F92"
-				item: "tfc:powder/salt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "17304F69964E3F92"
+					item: "tfc:powder/salt"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.salting.subtitle}"
-			tasks: [{
-				icon: "tfc:powder/salt"
-				id: "4588327FF825A791"
-				title: "{quests.lost_light.kitchen.salting.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:powder/salt"
+					id: "4588327FF825A791"
+					title: "{quests.lost_light.kitchen.salting.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.kitchen.salting.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"2C6CDC154B5CC6EC"
-				"20BA7EBDB378E2DC"
-			]
+			dependencies: ["2C6CDC154B5CC6EC", "20BA7EBDB378E2DC"]
 			description: ["{quests.lost_light.kitchen.brining.desc.0}"]
 			icon: "tfc:wood/barrel/oak"
 			id: "00E0DB7A2EDC7B39"
@@ -576,47 +366,25 @@
 				""
 				"{quests.lost_light.kitchen.smoking.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:food/cooked_beef"
-			}
+			icon: "tfc:food/cooked_beef"
 			id: "21B05A25FA56B67E"
-			rewards: [{
-				count: 4
-				id: "08BF8744BF03B8FF"
-				item: "tfc:blubber"
-				type: "item"
-			}]
-			subtitle: "{quests.lost_light.kitchen.smoking.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: 6000L
-							traits: [ ]
-						}
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:food/cooked_beef"
+			rewards: [
+				{
+					count: 4
+					id: "08BF8744BF03B8FF"
+					item: "tfc:blubber"
+					type: "item"
 				}
-				id: "4C726FC03B16EA67"
-				title: "{quests.lost_light.kitchen.smoking.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.kitchen.smoking.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:food/cooked_beef"
+					id: "4C726FC03B16EA67"
+					title: "{quests.lost_light.kitchen.smoking.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.kitchen.smoking.title}"
 			x: 3.0d
 			y: 0.0d
@@ -626,19 +394,23 @@
 			description: ["{quests.lost_light.kitchen.drying_food.desc.0}"]
 			icon: "firmalife:drying_mat"
 			id: "2D5FF010D7078E60"
-			rewards: [{
-				count: 2
-				id: "31F8F2AD37791A82"
-				item: "firmalife:raw_honey"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "31F8F2AD37791A82"
+					item: "firmalife:raw_honey"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.drying_food.subtitle}"
-			tasks: [{
-				icon: "firmalife:drying_mat"
-				id: "6BCFBC3C1844E430"
-				title: "{quests.lost_light.kitchen.drying_food.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "firmalife:drying_mat"
+					id: "6BCFBC3C1844E430"
+					title: "{quests.lost_light.kitchen.drying_food.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.kitchen.drying_food.title}"
 			x: 0.0d
 			y: 0.0d
@@ -646,40 +418,26 @@
 		{
 			dependencies: ["4DCFB8DDF7384716"]
 			description: ["{quests.lost_light.kitchen.grilling.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:wrought_iron_grill"
-			}
+			icon: "tfc:wrought_iron_grill"
 			id: "376CDB4CE6A1C1E8"
 			optional: true
-			rewards: [{
-				count: 2
-				id: "6CD4373E51076C3D"
-				item: "tfc:food/cooked_beef"
-				type: "item"
-			}]
-			subtitle: "{quests.lost_light.kitchen.grilling.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:wrought_iron_grill"
+			rewards: [
+				{
+					count: 2
+					id: "6CD4373E51076C3D"
+					item: "tfc:food/cooked_beef"
+					type: "item"
 				}
-				id: "5E3CA83C338ECCC9"
-				title: "{quests.lost_light.kitchen.grilling.task0}"
-				type: "custom"
-			}]
+			]
+			subtitle: "{quests.lost_light.kitchen.grilling.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:wrought_iron_grill"
+					id: "5E3CA83C338ECCC9"
+					title: "{quests.lost_light.kitchen.grilling.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.kitchen.grilling.title}"
 			x: 0.0d
 			y: 1.5d
@@ -687,20 +445,7 @@
 		{
 			dependencies: ["4970D2522D7CB77C"]
 			description: ["{quests.lost_light.kitchen.baking.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:food/wheat_bread"
-			}
+			icon: "tfc:food/wheat_bread"
 			id: "0582489688D1B6D9"
 			rewards: [
 				{
@@ -716,108 +461,72 @@
 				}
 			]
 			subtitle: "{quests.lost_light.kitchen.baking.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: 6000L
-							traits: [ ]
-						}
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:food/wheat_bread"
+			tasks: [
+				{
+					icon: "tfc:food/wheat_bread"
+					id: "19CEBE3AFC9CC2D0"
+					title: "{quests.lost_light.kitchen.baking.task0}"
+					type: "custom"
 				}
-				id: "19CEBE3AFC9CC2D0"
-				title: "{quests.lost_light.kitchen.baking.task0}"
-				type: "custom"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.baking.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"3FB7FBA5F0DA29D5"
-				"0563DD341FA3CE1C"
-			]
+			dependencies: ["3FB7FBA5F0DA29D5", "0563DD341FA3CE1C"]
 			description: ["{quests.lost_light.kitchen.jam.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "tfc:jar/strawberry"
-			}
+			icon: "tfc:jar/strawberry"
 			id: "64C0EE92B6957532"
-			rewards: [{
-				count: 2
-				id: "4076038A63FE3190"
-				item: "firmalife:raw_honey"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4076038A63FE3190"
+					item: "firmalife:raw_honey"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.jam.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: 6000L
-							traits: [ ]
+			tasks: [
+				{
+					icon: "tfc:jar/strawberry"
+					id: "5EB7DC3A778D3BDB"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc:jar/banana)item(tfc:jar/blackberry)item(tfc:jar/blueberry)item(tfc:jar/bunchberry)item(tfc:jar/cherry)item(tfc:jar/cloudberry)item(tfc:jar/cranberry)item(tfc:jar/elderberry)item(tfc:jar/gooseberry)item(tfc:jar/green_apple)item(tfc:jar/lemon)item(tfc:jar/melon_slice)item(tfc:jar/olive)item(tfc:jar/orange)item(tfc:jar/peach)item(tfc:jar/plum)item(tfc:jar/pumpkin_chunks)item(tfc:jar/raspberry)item(tfc:jar/red_apple)item(tfc:jar/snowberry)item(tfc:jar/strawberry)item(tfc:jar/wintergreen_berry))"
 						}
 					}
-					id: "tfc:jar/strawberry"
+					title: "{quests.lost_light.kitchen.jam.task0}"
+					type: "item"
 				}
-				id: "5EB7DC3A778D3BDB"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(tfc:jar/banana)item(tfc:jar/blackberry)item(tfc:jar/blueberry)item(tfc:jar/bunchberry)item(tfc:jar/cherry)item(tfc:jar/cloudberry)item(tfc:jar/cranberry)item(tfc:jar/elderberry)item(tfc:jar/gooseberry)item(tfc:jar/green_apple)item(tfc:jar/lemon)item(tfc:jar/melon_slice)item(tfc:jar/olive)item(tfc:jar/orange)item(tfc:jar/peach)item(tfc:jar/plum)item(tfc:jar/pumpkin_chunks)item(tfc:jar/raspberry)item(tfc:jar/red_apple)item(tfc:jar/snowberry)item(tfc:jar/strawberry)item(tfc:jar/wintergreen_berry))"
-					}
-				}
-				title: "{quests.lost_light.kitchen.jam.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.kitchen.jam.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"2C6CDC154B5CC6EC"
-				"2D5FF010D7078E60"
-			]
+			dependencies: ["2C6CDC154B5CC6EC", "2D5FF010D7078E60"]
 			description: ["{quests.lost_light.kitchen.pemmican.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "pemmican:pemmican"
-			}
+			icon: "pemmican:pemmican"
 			id: "5A6F12452F1E9A90"
-			rewards: [{
-				id: "06A358ECEBEE4869"
-				item: "sns:lunchbox"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06A358ECEBEE4869"
+					item: "sns:lunchbox"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.pemmican.subtitle}"
-			tasks: [{
-				count: 4L
-				id: "4F60F5950B6D0D4C"
-				item: "pemmican:pemmican"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4F60F5950B6D0D4C"
+					item: "pemmican:pemmican"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.kitchen.pemmican.title}"
 			x: 1.5d
 			y: 3.0d
@@ -832,19 +541,23 @@
 			id: "5A9A8BF6768CD320"
 			invisible: true
 			optional: true
-			rewards: [{
-				count: 8
-				id: "6729C1A265ACF92B"
-				item: "tfc:powder/salt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "6729C1A265ACF92B"
+					item: "tfc:powder/salt"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.kitchen.rotten.subtitle}"
-			tasks: [{
-				icon: "tfc:rotten_compost"
-				id: "730E49B75301829E"
-				title: "{quests.lost_light.kitchen.rotten.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:rotten_compost"
+					id: "730E49B75301829E"
+					title: "{quests.lost_light.kitchen.rotten.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.kitchen.rotten.title}"
 			x: 0.0d
 			y: 6.0d

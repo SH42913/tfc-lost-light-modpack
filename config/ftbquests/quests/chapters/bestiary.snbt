@@ -18,18 +18,22 @@
 			]
 			icon: "primitive_creatures:iloger_10_spawn_egg"
 			id: "339DAE975BAF0B75"
-			rewards: [{
-				id: "23CE831351EA5EF7"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "23CE831351EA5EF7"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.wild_tribes.subtitle}"
-			tasks: [{
-				icon: "primitive_creatures:iloger_10_spawn_egg"
-				id: "58CE8D428637408C"
-				title: "{quests.lost_light.bestiary.wild_tribes.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "primitive_creatures:iloger_10_spawn_egg"
+					id: "58CE8D428637408C"
+					title: "{quests.lost_light.bestiary.wild_tribes.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.wild_tribes.title}"
 			x: 0.0d
 			y: 0.0d
@@ -44,44 +48,22 @@
 				""
 				"{quests.lost_light.bestiary.damage_types.desc.5}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:metal/mace/bronze"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "tfc:metal/mace/bronze"
 			id: "1D6B426E123A36D1"
-			rewards: [{
-				id: "2EAB156D7EF0CA00"
-				item: "tfc:metal/ingot/bronze"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EAB156D7EF0CA00"
+					item: "tfc:metal/ingot/bronze"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.damage_types.subtitle}"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/javelin/bronze"
-						tag: {
-							Damage: 0
-						}
-					}
+					icon: "tfc:metal/javelin/bronze"
 					id: "5A5AD7D4B0738C6D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:deals_piercing_damage)"
@@ -91,22 +73,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/sword/bronze"
-						tag: {
-							Damage: 0
-						}
-					}
+					icon: "tfc:metal/sword/bronze"
 					id: "52E6B7F619A4F8F6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:deals_slashing_damage)"
@@ -116,22 +86,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/mace/bronze"
-						tag: {
-							Damage: 0
-						}
-					}
+					icon: "tfc:metal/mace/bronze"
 					id: "42BE6A63D90C60FF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:deals_crushing_damage)"
@@ -154,18 +112,22 @@
 			]
 			icon: "tfc:spawn_egg/direwolf"
 			id: "397D4332F3F08F5E"
-			rewards: [{
-				id: "50B686CB7EE019B2"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "50B686CB7EE019B2"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.wargs.subtitle}"
-			tasks: [{
-				icon: "tfc:spawn_egg/direwolf"
-				id: "1F755E90A89F59C0"
-				title: "{quests.lost_light.bestiary.wargs.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:spawn_egg/direwolf"
+					id: "1F755E90A89F59C0"
+					title: "{quests.lost_light.bestiary.wargs.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.wargs.title}"
 			x: 1.5d
 			y: -1.5d
@@ -179,18 +141,22 @@
 			]
 			icon: "tfc:spawn_egg/grizzly_bear"
 			id: "63FCE3E62ABFF9C9"
-			rewards: [{
-				id: "052C573EE2B880CD"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "052C573EE2B880CD"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.bears.subtitle}"
-			tasks: [{
-				icon: "tfc:spawn_egg/grizzly_bear"
-				id: "556E8E6E87CDEB81"
-				title: "{quests.lost_light.bestiary.bears.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:spawn_egg/grizzly_bear"
+					id: "556E8E6E87CDEB81"
+					title: "{quests.lost_light.bestiary.bears.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.bears.title}"
 			x: 3.0d
 			y: -7.5d
@@ -204,18 +170,22 @@
 			]
 			icon: "tfc:spawn_egg/sabertooth"
 			id: "72B2E29F6A024A8E"
-			rewards: [{
-				id: "1726C8555974D59F"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "1726C8555974D59F"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.big_cats.subtitle}"
-			tasks: [{
-				icon: "tfc:spawn_egg/sabertooth"
-				id: "3D70D2FC78615247"
-				title: "{quests.lost_light.bestiary.big_cats.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:spawn_egg/sabertooth"
+					id: "3D70D2FC78615247"
+					title: "{quests.lost_light.bestiary.big_cats.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.big_cats.title}"
 			x: 3.0d
 			y: -6.0d
@@ -229,19 +199,23 @@
 			]
 			icon: "tfc:spawn_egg/crocodile"
 			id: "71E949728DD53312"
-			rewards: [{
-				id: "449E86FE0EEC7713"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "449E86FE0EEC7713"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.crocodile.subtitle}"
-			tasks: [{
-				entity: "tfc:crocodile"
-				icon: "tfc:spawn_egg/crocodile"
-				id: "536C80CC9296070E"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "tfc:crocodile"
+					icon: "tfc:spawn_egg/crocodile"
+					id: "536C80CC9296070E"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "{quests.lost_light.bestiary.crocodile.title}"
 			x: 3.0d
 			y: -4.5d
@@ -255,18 +229,22 @@
 			]
 			icon: "tfc:spawn_egg/hyena"
 			id: "489546AE1305F85D"
-			rewards: [{
-				id: "0371703E831DFD6C"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0371703E831DFD6C"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.scavengers.subtitle}"
-			tasks: [{
-				icon: "tfc:spawn_egg/hyena"
-				id: "49C21020327853CD"
-				title: "{quests.lost_light.bestiary.scavengers.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc:spawn_egg/hyena"
+					id: "49C21020327853CD"
+					title: "{quests.lost_light.bestiary.scavengers.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.scavengers.title}"
 			x: 3.0d
 			y: -3.0d
@@ -285,27 +263,28 @@
 			]
 			icon: "tfc_spirits:tall_shade_spawn_egg"
 			id: "7BBBECAAA0187C22"
-			rewards: [{
-				id: "573D45002CC39AEA"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "573D45002CC39AEA"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.shades.subtitle}"
-			tasks: [{
-				icon: "tfc_spirits:tall_shade_spawn_egg"
-				id: "3DCDA13F05DB4F88"
-				title: "{quests.lost_light.bestiary.shades.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc_spirits:tall_shade_spawn_egg"
+					id: "3DCDA13F05DB4F88"
+					title: "{quests.lost_light.bestiary.shades.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.shades.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7BBBECAAA0187C22"
-				"33018BAD796A3823"
-			]
+			dependencies: ["7BBBECAAA0187C22", "33018BAD796A3823"]
 			description: [
 				"{quests.lost_light.bestiary.shade_ward.desc.0}"
 				""
@@ -313,18 +292,22 @@
 			]
 			icon: "tfc_spirits:crucifix"
 			id: "565E30EE9365F274"
-			rewards: [{
-				count: 16
-				id: "49D4A803C51DD9AA"
-				item: "tfc:powder/salt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "49D4A803C51DD9AA"
+					item: "tfc:powder/salt"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.shade_ward.subtitle}"
-			tasks: [{
-				id: "72999C9C93A4F115"
-				item: "tfc_spirits:crucifix"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72999C9C93A4F115"
+					item: "tfc_spirits:crucifix"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.bestiary.shade_ward.title}"
 			x: 3.0d
 			y: -1.5d
@@ -338,27 +321,28 @@
 			]
 			icon: "tfc_spirits:spirit_seal"
 			id: "5846B3F991F5D3F9"
-			rewards: [{
-				count: 16
-				id: "2DC65FA53A46B730"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2DC65FA53A46B730"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.spirit_seal.subtitle}"
-			tasks: [{
-				id: "34D784B6B5C6236D"
-				item: "tfc_spirits:spirit_seal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34D784B6B5C6236D"
+					item: "tfc_spirits:spirit_seal"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.bestiary.spirit_seal.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7BBBECAAA0187C22"
-				"5CC53CC4F0725D97"
-			]
+			dependencies: ["7BBBECAAA0187C22", "5CC53CC4F0725D97"]
 			description: [
 				"{quests.lost_light.bestiary.trolls.desc.0}"
 				""
@@ -368,27 +352,28 @@
 			]
 			icon: "tfc_spirits:hunchback_troll_spawn_egg"
 			id: "454D7758BA33241C"
-			rewards: [{
-				id: "269DBDAAF3F7559A"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "269DBDAAF3F7559A"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.trolls.subtitle}"
-			tasks: [{
-				icon: "tfc_spirits:hunchback_troll_spawn_egg"
-				id: "41C7E3985CA50F0B"
-				title: "{quests.lost_light.bestiary.trolls.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "tfc_spirits:hunchback_troll_spawn_egg"
+					id: "41C7E3985CA50F0B"
+					title: "{quests.lost_light.bestiary.trolls.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.trolls.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7BBBECAAA0187C22"
-				"768338FEF6502D83"
-			]
+			dependencies: ["7BBBECAAA0187C22", "768338FEF6502D83"]
 			description: [
 				"{quests.lost_light.bestiary.dullahan.desc.0}"
 				""
@@ -397,11 +382,13 @@
 			icon: "tfc_spirits:pumpkin_pact"
 			id: "39A3F8C24E5EBA32"
 			optional: true
-			rewards: [{
-				id: "4C2AB43AC5864B71"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "4C2AB43AC5864B71"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.dullahan.subtitle}"
 			tasks: [
 				{
@@ -435,19 +422,23 @@
 			icon: "tfc_spirits:revenant_spawn_egg"
 			id: "4A553E7CE93B8CCB"
 			optional: true
-			rewards: [{
-				id: "3BE5588A9472B82B"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3BE5588A9472B82B"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.revenant.subtitle}"
-			tasks: [{
-				entity: "tfc_spirits:revenant"
-				icon: "tfc_spirits:revenant_spawn_egg"
-				id: "559F261ACB40E9BD"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "tfc_spirits:revenant"
+					icon: "tfc_spirits:revenant_spawn_egg"
+					id: "559F261ACB40E9BD"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "{quests.lost_light.bestiary.revenant.title}"
 			x: 3.0d
 			y: 4.5d
@@ -461,20 +452,24 @@
 			]
 			icon: "tfc_spirits:wisp_spawn_egg"
 			id: "1D6D1CE07C60CAD6"
-			rewards: [{
-				id: "649545AB5DA56173"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "649545AB5DA56173"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.light_spirits.subtitle}"
-			tasks: [{
-				entity: "tfc_spirits:wisp"
-				icon: "tfc_spirits:wisp_spawn_egg"
-				id: "47B0080AE6BFACF2"
-				title: "{quests.lost_light.bestiary.light_spirits.task0}"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "tfc_spirits:wisp"
+					icon: "tfc_spirits:wisp_spawn_egg"
+					id: "47B0080AE6BFACF2"
+					title: "{quests.lost_light.bestiary.light_spirits.task0}"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "{quests.lost_light.bestiary.light_spirits.title}"
 			x: 4.5d
 			y: 0.0d
@@ -488,18 +483,22 @@
 			]
 			icon: "minecraft:zombie_spawn_egg"
 			id: "7EE79EEB8C703066"
-			rewards: [{
-				id: "7C9CF47FCF82C6BF"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7C9CF47FCF82C6BF"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.dungeon_dwellers.subtitle}"
-			tasks: [{
-				icon: "minecraft:zombie_spawn_egg"
-				id: "6D8DB3C9C1078118"
-				title: "{quests.lost_light.bestiary.dungeon_dwellers.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:zombie_spawn_egg"
+					id: "6D8DB3C9C1078118"
+					title: "{quests.lost_light.bestiary.dungeon_dwellers.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.dungeon_dwellers.title}"
 			x: 1.5d
 			y: 1.5d
@@ -513,18 +512,22 @@
 			]
 			icon: "primitive_creatures:tfc_spawn_egg"
 			id: "17B445E014D1B341"
-			rewards: [{
-				id: "360E52D7D07D6807"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "360E52D7D07D6807"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.clay_golems.subtitle}"
-			tasks: [{
-				icon: "primitive_creatures:tfc_spawn_egg"
-				id: "6A772B0D51B9D52A"
-				title: "{quests.lost_light.bestiary.clay_golems.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "primitive_creatures:tfc_spawn_egg"
+					id: "6A772B0D51B9D52A"
+					title: "{quests.lost_light.bestiary.clay_golems.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.clay_golems.title}"
 			x: 1.5d
 			y: 3.0d
@@ -534,18 +537,22 @@
 			description: ["{quests.lost_light.bestiary.bandits.desc.0}"]
 			icon: "valarian_conquest:bandit_1_spawn_egg"
 			id: "5FDC0A6554B97692"
-			rewards: [{
-				id: "7325530D2D26E494"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7325530D2D26E494"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.bandits.subtitle}"
-			tasks: [{
-				icon: "valarian_conquest:bandit_1_spawn_egg"
-				id: "2D6BD22C30AE8A0C"
-				title: "{quests.lost_light.bestiary.bandits.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "valarian_conquest:bandit_1_spawn_egg"
+					id: "2D6BD22C30AE8A0C"
+					title: "{quests.lost_light.bestiary.bandits.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.bandits.title}"
 			x: 1.5d
 			y: 4.5d
@@ -555,18 +562,22 @@
 			description: ["{quests.lost_light.bestiary.orcs.desc.0}"]
 			icon: "valarian_conquest:orc_warrior_spawn_egg"
 			id: "3855BC0644E8E89F"
-			rewards: [{
-				id: "6F98052465AA72D7"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6F98052465AA72D7"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.orcs.subtitle}"
-			tasks: [{
-				icon: "valarian_conquest:orc_warrior_spawn_egg"
-				id: "065DD95951114DAA"
-				title: "{quests.lost_light.bestiary.orcs.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "valarian_conquest:orc_warrior_spawn_egg"
+					id: "065DD95951114DAA"
+					title: "{quests.lost_light.bestiary.orcs.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.orcs.title}"
 			x: 3.0d
 			y: 7.5d
@@ -576,11 +587,13 @@
 			description: ["{quests.lost_light.bestiary.draugr.desc.0}"]
 			icon: "valarian_conquest:draugr_knight_spawn_egg"
 			id: "4D5A43F026CC38C2"
-			rewards: [{
-				id: "0B0B4CCB67EDE2CD"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0B0B4CCB67EDE2CD"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.draugr.subtitle}"
 			tasks: [
 				{
@@ -611,19 +624,23 @@
 			icon: "mowziesmobs:foliaath_spawn_egg"
 			id: "27E8CA4F3876CF91"
 			optional: true
-			rewards: [{
-				id: "5AE0968E27B06ED9"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "5AE0968E27B06ED9"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.foliaath.subtitle}"
-			tasks: [{
-				entity: "mowziesmobs:foliaath"
-				icon: "mowziesmobs:foliaath_spawn_egg"
-				id: "0BBFCCB1826CEB18"
-				type: "kill"
-				value: 2L
-			}]
+			tasks: [
+				{
+					entity: "mowziesmobs:foliaath"
+					icon: "mowziesmobs:foliaath_spawn_egg"
+					id: "0BBFCCB1826CEB18"
+					type: "kill"
+					value: 2L
+				}
+			]
 			title: "{quests.lost_light.bestiary.foliaath.title}"
 			x: 4.5d
 			y: -6.0d
@@ -638,71 +655,112 @@
 			id: "69E6FF1A7EDB4593"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "58377FB4E3506FBA"
-				item: "minecraft:gunpowder"
-				title: "{quests.lost_light.bestiary.not_again.reward0}"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "58377FB4E3506FBA"
+					item: "minecraft:gunpowder"
+					title: "{quests.lost_light.bestiary.not_again.reward0}"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.not_again.subtitle}"
-			tasks: [{
-				icon: "minecraft:creeper_spawn_egg"
-				id: "4C4337A4A4C7DE02"
-				title: "{quests.lost_light.bestiary.not_again.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:creeper_spawn_egg"
+					id: "4C4337A4A4C7DE02"
+					title: "{quests.lost_light.bestiary.not_again.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.not_again.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"63FCE3E62ABFF9C9"
-				"72B2E29F6A024A8E"
-				"454D7758BA33241C"
-				"3855BC0644E8E89F"
+			description: [
+				"{quests.lost_light.bestiary.brick_diplomacy.desc.0}"
+				""
+				"{quests.lost_light.bestiary.brick_diplomacy.desc.2}"
 			]
+			icon: "minecraft:brick"
+			id: "0357F77683193155"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "2945F10C42378CF1"
+					item: "tfc:ceramic/fire_brick"
+					title: "{quests.lost_light.bestiary.brick_diplomacy.reward0}"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.bestiary.brick_diplomacy.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:brick"
+					id: "140C43D0AF3FB5D5"
+					title: "{quests.lost_light.bestiary.brick_diplomacy.task0}"
+					type: "custom"
+				}
+			]
+			title: "{quests.lost_light.bestiary.brick_diplomacy.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{quests.lost_light.bestiary.what_goes_up.desc.0}"
+				""
+				"{quests.lost_light.bestiary.what_goes_up.desc.2}"
+			]
+			icon: "minecraft:brick"
+			id: "4C64EDAFCD8A4495"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "7F155F7AAEE2E0D2"
+					item: "minecraft:brick"
+					title: "{quests.lost_light.bestiary.what_goes_up.reward0}"
+					type: "item"
+				}
+			]
+			subtitle: "{quests.lost_light.bestiary.what_goes_up.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:brick"
+					id: "62EE68668C4BAC67"
+					title: "{quests.lost_light.bestiary.what_goes_up.task0}"
+					type: "custom"
+				}
+			]
+			title: "{quests.lost_light.bestiary.what_goes_up.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63FCE3E62ABFF9C9", "72B2E29F6A024A8E", "454D7758BA33241C", "3855BC0644E8E89F"]
 			description: ["{quests.lost_light.bestiary.great_hunter.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:metal/sword/steel"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "tfc:metal/sword/steel"
 			id: "20E8D3A06B2E3E55"
-			rewards: [{
-				id: "116B0F2260563937"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.bestiary.great_hunter.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/sword/steel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "116B0F2260563937"
+					table_id: 5286488258697713372L
+					type: "loot"
 				}
-				id: "3B72B2049B8756ED"
-				stat: "minecraft:mob_kills"
-				title: "{quests.lost_light.bestiary.great_hunter.task0}"
-				type: "stat"
-				value: 250
-			}]
+			]
+			subtitle: "{quests.lost_light.bestiary.great_hunter.subtitle}"
+			tasks: [
+				{
+					icon: "tfc:metal/sword/steel"
+					id: "3B72B2049B8756ED"
+					stat: "minecraft:mob_kills"
+					title: "{quests.lost_light.bestiary.great_hunter.task0}"
+					type: "stat"
+					value: 250
+				}
+			]
 			title: "{quests.lost_light.bestiary.great_hunter.title}"
 			x: 4.5d
 			y: -1.5d
@@ -717,19 +775,23 @@
 			id: "5F535CE5D192C39E"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "0520DA7140E3C495"
-				item: "minecraft:bone"
-				title: "{quests.lost_light.bestiary.troll_dinner.reward0}"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0520DA7140E3C495"
+					item: "minecraft:bone"
+					title: "{quests.lost_light.bestiary.troll_dinner.reward0}"
+					type: "item"
+				}
+			]
 			subtitle: "{quests.lost_light.bestiary.troll_dinner.subtitle}"
-			tasks: [{
-				icon: "minecraft:bone"
-				id: "0A40668F8F02567A"
-				title: "{quests.lost_light.bestiary.troll_dinner.task0}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:bone"
+					id: "0A40668F8F02567A"
+					title: "{quests.lost_light.bestiary.troll_dinner.task0}"
+					type: "custom"
+				}
+			]
 			title: "{quests.lost_light.bestiary.troll_dinner.title}"
 			x: 0.0d
 			y: 3.0d

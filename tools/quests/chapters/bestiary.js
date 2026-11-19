@@ -4,7 +4,7 @@
 // Fey creatures (fairies, dryads) are left out on purpose: killing them angers the fey.
 // Text formatting: &6 - names, &e - where to look, &r - reset.
 const { chapter, quest, item, kill, observe, stat, reward, lootCrate } = require('../lib');
-const { killAny, diedTo } = require('../custom');
+const { killAny, killWithProjectile, diedTo, diedToOwnProjectile } = require('../custom');
 
 const COMMON = { rewards: [lootCrate('explore_common')], budget: 1500 };
 const RARE = { rewards: [lootCrate('explore_rare')], budget: 4500 };
@@ -432,6 +432,52 @@ module.exports = chapter('bestiary', {
       optional: true,
       tasks: [diedTo(['minecraft:creeper'], { title: { ru: 'Погибни от крипера', en: 'Get blown up by a creeper' }, icon: 'minecraft:creeper_spawn_egg' })],
       rewards: [reward('minecraft:gunpowder', 1, { title: { ru: 'Сувенир', en: 'A souvenir' } })],
+    }),
+
+    // secret: any item of #supplementaries:throwable_bricks flies as supplementaries:brick_projectile (1 damage)
+    quest('brick_diplomacy', {
+      title: { ru: 'Кирпичная дипломатия', en: 'Brick Diplomacy' },
+      subtitle: { ru: 'Полсердца — тоже аргумент', en: 'Half a heart is still an argument' },
+      desc: {
+        ru: [
+          'Ни меча, ни лука, ни жалости — только кирпич и меткий бросок. Много метких бросков.',
+          '',
+          'Бедолага наверняка до последнего не верил, что это всерьёз.',
+        ],
+        en: [
+          'No sword, no bow, no mercy: just a brick and a good aim. A lot of good aims.',
+          '',
+          'The poor thing surely didn\'t believe you were serious until the very end.',
+        ],
+      },
+      icon: 'minecraft:brick',
+      hidden: 'invisible',
+      optional: true,
+      tasks: [killWithProjectile('supplementaries:brick_projectile', 1, { title: { ru: 'Убей кого-нибудь брошенным кирпичом', en: 'Kill something with a thrown brick' }, icon: 'minecraft:brick' })],
+      rewards: [reward('tfc:ceramic/fire_brick', 1, { title: { ru: 'Счастливый кирпич', en: 'Lucky brick' } })],
+    }),
+
+    // secret: a brick thrown straight up falls back on its thrower
+    quest('what_goes_up', {
+      title: { ru: 'Что взлетело — то упадёт', en: 'What Goes Up…' },
+      subtitle: { ru: 'Ньютон бы оценил', en: 'Newton would approve' },
+      desc: {
+        ru: [
+          'Ты подбросил кирпич повыше, чтобы проверить, далеко ли он улетит. Он улетел недалеко и вернулся точно по адресу.',
+          '',
+          'Законы природы не прощают любопытства. Зато теперь ты знаешь, как работает гравитация.',
+        ],
+        en: [
+          'You tossed a brick up high to see how far it would fly. It didn\'t fly far, and it came back right on target.',
+          '',
+          'The laws of nature don\'t forgive curiosity. But now you know how gravity works.',
+        ],
+      },
+      icon: 'minecraft:brick',
+      hidden: 'invisible',
+      optional: true,
+      tasks: [diedToOwnProjectile('supplementaries:brick_projectile', { title: { ru: 'Погибни от собственного кирпича', en: 'Get killed by your own brick' }, icon: 'minecraft:brick' })],
+      rewards: [reward('minecraft:brick', 1, { title: { ru: 'Тот самый кирпич', en: 'The very same brick' } })],
     }),
 
     quest('great_hunter', {

@@ -169,6 +169,23 @@ function killAny(entities, count = 1, opts = {}) {
 }
 
 /**
+ * Kill `count` mobs of any type with a projectile of one of the entity types (the damage source's direct entity,
+ * e.g. supplementaries:brick_projectile for a thrown brick). Progress comes from the generated EntityEvents.death
+ * handler. opts: title, icon.
+ */
+function killWithProjectile(projectiles, count = 1, opts = {}) {
+  return custom(null, { kind: 'killWithProjectile', onKillWith: [].concat(projectiles), max: count, ...opts });
+}
+
+/**
+ * Die to your own projectile of one of the entity types (the damage source's direct entity, thrown by the player
+ * themself), e.g. a brick thrown straight up. Progress comes from the generated EntityEvents.death handler. opts: title, icon.
+ */
+function diedToOwnProjectile(projectiles, opts = {}) {
+  return custom(null, { kind: 'diedToOwnProjectile', onSelfKillWith: [].concat(projectiles), max: 1, ...opts });
+}
+
+/**
  * Die to any of the entity types (the attacker, e.g. a creeper's explosion counts as the creeper).
  * Progress comes from the generated EntityEvents.death handler. opts: title, icon.
  */
@@ -302,6 +319,6 @@ function nearRedeemedOutlaw(opts = {}) {
 }
 
 module.exports = {
-  hasFluid, hasFoodTrait, hasRottenFood, climate, altitude, distance, season, fullMoon, nearFamiliar, killAny, diedTo, hasEnchanted,
+  hasFluid, hasFoodTrait, hasRottenFood, climate, altitude, distance, season, fullMoon, nearFamiliar, killAny, killWithProjectile, diedTo, diedToOwnProjectile, hasEnchanted,
   inMcaVillage, reputationTier, reputationTierAtMost, reputationIncident, nearSurrenderedOutlaw, nearRedeemedOutlaw, FOOD_TRAITS,
 };

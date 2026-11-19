@@ -3,16 +3,7 @@
 	default_quest_shape: ""
 	filename: "fishing"
 	group: "3A9DDFB4EB5E8FAD"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"tfc:food": {
-				creationDate: 6000L
-				traits: [ ]
-			}
-		}
-		id: "aquaculture:atlantic_cod"
-	}
+	icon: "aquaculture:atlantic_cod"
 	id: "0E8D573E266299BC"
 	order_index: 5
 	quest_links: [
@@ -43,51 +34,31 @@
 				""
 				"{quests.lost_light.fishing.fishing_rod.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "tfc:metal/fishing_rod/bronze"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "tfc:metal/fishing_rod/bronze"
 			id: "1E77BE77D38B7595"
-			rewards: [{
-				id: "7AE5553AA9DA4AC8"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7AE5553AA9DA4AC8"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.fishing_rod.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
+			tasks: [
+				{
+					icon: "tfc:metal/fishing_rod/bronze"
+					id: "47B83DAF45292A82"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc:metal/fishing_rod/copper)item(tfc:metal/fishing_rod/bronze)item(tfc:metal/fishing_rod/bismuth_bronze)item(tfc:metal/fishing_rod/black_bronze)item(tfc:metal/fishing_rod/wrought_iron)item(tfc:metal/fishing_rod/steel)item(tfc:metal/fishing_rod/black_steel)item(tfc:metal/fishing_rod/blue_steel)item(tfc:metal/fishing_rod/red_steel))"
 						}
 					}
-					id: "tfc:metal/fishing_rod/bronze"
-					tag: {
-						Damage: 0
-					}
+					title: "{quests.lost_light.fishing.fishing_rod.task0}"
+					type: "item"
 				}
-				id: "47B83DAF45292A82"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(tfc:metal/fishing_rod/copper)item(tfc:metal/fishing_rod/bronze)item(tfc:metal/fishing_rod/bismuth_bronze)item(tfc:metal/fishing_rod/black_bronze)item(tfc:metal/fishing_rod/wrought_iron)item(tfc:metal/fishing_rod/steel)item(tfc:metal/fishing_rod/black_steel)item(tfc:metal/fishing_rod/blue_steel)item(tfc:metal/fishing_rod/red_steel))"
-					}
-				}
-				title: "{quests.lost_light.fishing.fishing_rod.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.fishing.fishing_rod.title}"
 			x: 0.0d
 			y: 0.0d
@@ -99,45 +70,31 @@
 				""
 				"{quests.lost_light.fishing.first_catch.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "aquaculture:smallmouth_bass"
-			}
+			icon: "aquaculture:smallmouth_bass"
 			id: "1CB7B7E393AF0E97"
-			rewards: [{
-				id: "4687DA08C563148A"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "4687DA08C563148A"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.first_catch.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:food": {
-							creationDate: 6000L
-							traits: [ ]
+			tasks: [
+				{
+					icon: "aquaculture:smallmouth_bass"
+					id: "702B8BF3F94D7731"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(tfc:food/cod)item(tfc:food/salmon)item(tfc:food/tropical_fish)item(tfc:food/bluegill)item(aquaculture:atlantic_cod)item(aquaculture:blackfish)item(aquaculture:atlantic_halibut)item(aquaculture:pacific_halibut)item(aquaculture:atlantic_herring)item(aquaculture:pink_salmon)item(aquaculture:pollock)item(aquaculture:rainbow_trout)item(aquaculture:jellyfish)item(aquaculture:red_grouper)item(aquaculture:tuna)item(aquaculture:smallmouth_bass)item(aquaculture:bluegill)item(aquaculture:brown_trout)item(aquaculture:carp)item(aquaculture:catfish)item(aquaculture:gar)item(aquaculture:minnow)item(aquaculture:muskellunge)item(aquaculture:perch)item(aquaculture:bayad)item(aquaculture:boulti)item(aquaculture:capitaine)item(aquaculture:synodontis)item(aquaculture:arapaima)item(aquaculture:piranha)item(aquaculture:tambaqui))"
 						}
 					}
-					id: "aquaculture:smallmouth_bass"
+					title: "{quests.lost_light.fishing.first_catch.task0}"
+					type: "item"
 				}
-				id: "702B8BF3F94D7731"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(tfc:food/cod)item(tfc:food/salmon)item(tfc:food/tropical_fish)item(tfc:food/bluegill)item(aquaculture:atlantic_cod)item(aquaculture:blackfish)item(aquaculture:atlantic_halibut)item(aquaculture:pacific_halibut)item(aquaculture:atlantic_herring)item(aquaculture:pink_salmon)item(aquaculture:pollock)item(aquaculture:rainbow_trout)item(aquaculture:jellyfish)item(aquaculture:red_grouper)item(aquaculture:tuna)item(aquaculture:smallmouth_bass)item(aquaculture:bluegill)item(aquaculture:brown_trout)item(aquaculture:carp)item(aquaculture:catfish)item(aquaculture:gar)item(aquaculture:minnow)item(aquaculture:muskellunge)item(aquaculture:perch)item(aquaculture:bayad)item(aquaculture:boulti)item(aquaculture:capitaine)item(aquaculture:synodontis)item(aquaculture:arapaima)item(aquaculture:piranha)item(aquaculture:tambaqui))"
-					}
-				}
-				title: "{quests.lost_light.fishing.first_catch.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.fishing.first_catch.title}"
 			x: 1.5d
 			y: 0.0d
@@ -149,26 +106,15 @@
 				""
 				"{quests.lost_light.fishing.fillet.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "aquaculture:fish_fillet_raw"
-			}
+			icon: "aquaculture:fish_fillet_raw"
 			id: "1E23115CAE640E45"
-			rewards: [{
-				id: "02322E3B21CFF428"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "02322E3B21CFF428"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.fillet.subtitle}"
 			tasks: [
 				{
@@ -188,10 +134,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1CB7B7E393AF0E97"
-				"09B575568C18316D"
-			]
+			dependencies: ["1CB7B7E393AF0E97", "09B575568C18316D"]
 			description: [
 				"{quests.lost_light.fishing.fish_of_the_world.desc.0}"
 				"{quests.lost_light.fishing.fish_of_the_world.desc.1}"
@@ -199,38 +142,22 @@
 				"{quests.lost_light.fishing.fish_of_the_world.desc.3}"
 				"{quests.lost_light.fishing.fish_of_the_world.desc.4}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "aquaculture:piranha"
-			}
+			icon: "aquaculture:piranha"
 			id: "62163F6922E8C5A5"
-			rewards: [{
-				id: "1B700842C75EECA7"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "1B700842C75EECA7"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.fish_of_the_world.subtitle}"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:atlantic_cod"
-					}
+					icon: "aquaculture:atlantic_cod"
 					id: "335ECBF60FA06D9B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:atlantic_cod)item(aquaculture:blackfish)item(aquaculture:atlantic_halibut)item(aquaculture:pacific_halibut)item(aquaculture:atlantic_herring)item(aquaculture:pink_salmon)item(aquaculture:pollock)item(aquaculture:rainbow_trout))"
@@ -240,19 +167,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:red_grouper"
-					}
+					icon: "aquaculture:red_grouper"
 					id: "7EBAB1839010A81D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:jellyfish)item(aquaculture:red_grouper)item(aquaculture:tuna))"
@@ -262,19 +180,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:carp"
-					}
+					icon: "aquaculture:carp"
 					id: "6B8805D1C55E20AC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:smallmouth_bass)item(aquaculture:bluegill)item(aquaculture:brown_trout)item(aquaculture:carp)item(aquaculture:catfish)item(aquaculture:gar)item(aquaculture:minnow)item(aquaculture:muskellunge)item(aquaculture:perch))"
@@ -284,19 +193,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:boulti"
-					}
+					icon: "aquaculture:boulti"
 					id: "60F9CA5754A9F8EF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:bayad)item(aquaculture:boulti)item(aquaculture:capitaine)item(aquaculture:synodontis))"
@@ -306,19 +206,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:piranha"
-					}
+					icon: "aquaculture:piranha"
 					id: "27C7C7BD962DAC51"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:arapaima)item(aquaculture:piranha)item(aquaculture:tambaqui))"
@@ -333,50 +224,28 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1CB7B7E393AF0E97"
-				"4196DA67E409F5BA"
-			]
+			dependencies: ["1CB7B7E393AF0E97", "4196DA67E409F5BA"]
 			description: [
 				"{quests.lost_light.fishing.big_fish.desc.0}"
 				""
 				"{quests.lost_light.fishing.big_fish.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:food": {
-						creationDate: 6000L
-						traits: [ ]
-					}
-				}
-				id: "aquaculture:tuna"
-			}
+			icon: "aquaculture:tuna"
 			id: "6E19009838E269E0"
-			rewards: [{
-				id: "1DB180BA81029FC1"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "1DB180BA81029FC1"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.big_fish.subtitle}"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/fishing_rod/wrought_iron"
-						tag: {
-							Damage: 0
-						}
-					}
+					icon: "tfc:metal/fishing_rod/wrought_iron"
 					id: "7064C82208096C5F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(tfc:metal/fishing_rod/wrought_iron)item(tfc:metal/fishing_rod/steel)item(tfc:metal/fishing_rod/black_steel)item(tfc:metal/fishing_rod/blue_steel)item(tfc:metal/fishing_rod/red_steel))"
@@ -386,19 +255,10 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:food": {
-								creationDate: 6000L
-								traits: [ ]
-							}
-						}
-						id: "aquaculture:tuna"
-					}
+					icon: "aquaculture:tuna"
 					id: "7CC0F55F6C1074A2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(aquaculture:tuna)item(aquaculture:arapaima))"
@@ -418,25 +278,29 @@
 			icon: "aquaculture:box_turtle"
 			id: "4F3CC40B02867CD8"
 			optional: true
-			rewards: [{
-				id: "2C507D61C868DF64"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.fishing.turtles.subtitle}"
-			tasks: [{
-				icon: "aquaculture:box_turtle"
-				id: "13ADA02172097FB5"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(aquaculture:box_turtle)item(aquaculture:starshell_turtle)item(aquaculture:arrau_turtle))"
-					}
+			rewards: [
+				{
+					id: "2C507D61C868DF64"
+					table_id: 8972711594806304579L
+					type: "loot"
 				}
-				title: "{quests.lost_light.fishing.turtles.task0}"
-				type: "item"
-			}]
+			]
+			subtitle: "{quests.lost_light.fishing.turtles.subtitle}"
+			tasks: [
+				{
+					icon: "aquaculture:box_turtle"
+					id: "13ADA02172097FB5"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(aquaculture:box_turtle)item(aquaculture:starshell_turtle)item(aquaculture:arrau_turtle))"
+						}
+					}
+					title: "{quests.lost_light.fishing.turtles.task0}"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.fishing.turtles.title}"
 			x: 3.0d
 			y: 0.0d
@@ -447,49 +311,54 @@
 			icon: "survivorsaquaculture:fish_mount/oak"
 			id: "08AFC174CAB2B032"
 			optional: true
-			rewards: [{
-				id: "2B09C95ABE72B83B"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
-			subtitle: "{quests.lost_light.fishing.fish_mount.subtitle}"
-			tasks: [{
-				icon: "survivorsaquaculture:fish_mount/oak"
-				id: "4C3B95329ED457BF"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(survivorsaquaculture:fish_mount/acacia)item(survivorsaquaculture:fish_mount/ash)item(survivorsaquaculture:fish_mount/aspen)item(survivorsaquaculture:fish_mount/birch)item(survivorsaquaculture:fish_mount/blackwood)item(survivorsaquaculture:fish_mount/chestnut)item(survivorsaquaculture:fish_mount/douglas_fir)item(survivorsaquaculture:fish_mount/hickory)item(survivorsaquaculture:fish_mount/kapok)item(survivorsaquaculture:fish_mount/mangrove)item(survivorsaquaculture:fish_mount/maple)item(survivorsaquaculture:fish_mount/oak)item(survivorsaquaculture:fish_mount/palm)item(survivorsaquaculture:fish_mount/pine)item(survivorsaquaculture:fish_mount/rosewood)item(survivorsaquaculture:fish_mount/sequoia)item(survivorsaquaculture:fish_mount/spruce)item(survivorsaquaculture:fish_mount/sycamore)item(survivorsaquaculture:fish_mount/white_cedar)item(survivorsaquaculture:fish_mount/willow))"
-					}
+			rewards: [
+				{
+					id: "2B09C95ABE72B83B"
+					table_id: 8972711594806304579L
+					type: "loot"
 				}
-				title: "{quests.lost_light.fishing.fish_mount.task0}"
-				type: "item"
-			}]
+			]
+			subtitle: "{quests.lost_light.fishing.fish_mount.subtitle}"
+			tasks: [
+				{
+					icon: "survivorsaquaculture:fish_mount/oak"
+					id: "4C3B95329ED457BF"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(survivorsaquaculture:fish_mount/acacia)item(survivorsaquaculture:fish_mount/ash)item(survivorsaquaculture:fish_mount/aspen)item(survivorsaquaculture:fish_mount/birch)item(survivorsaquaculture:fish_mount/blackwood)item(survivorsaquaculture:fish_mount/chestnut)item(survivorsaquaculture:fish_mount/douglas_fir)item(survivorsaquaculture:fish_mount/hickory)item(survivorsaquaculture:fish_mount/kapok)item(survivorsaquaculture:fish_mount/mangrove)item(survivorsaquaculture:fish_mount/maple)item(survivorsaquaculture:fish_mount/oak)item(survivorsaquaculture:fish_mount/palm)item(survivorsaquaculture:fish_mount/pine)item(survivorsaquaculture:fish_mount/rosewood)item(survivorsaquaculture:fish_mount/sequoia)item(survivorsaquaculture:fish_mount/spruce)item(survivorsaquaculture:fish_mount/sycamore)item(survivorsaquaculture:fish_mount/white_cedar)item(survivorsaquaculture:fish_mount/willow))"
+						}
+					}
+					title: "{quests.lost_light.fishing.fish_mount.task0}"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.fishing.fish_mount.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1CB7B7E393AF0E97"
-				"4196DA67E409F5BA"
-			]
+			dependencies: ["1CB7B7E393AF0E97", "4196DA67E409F5BA"]
 			description: ["{quests.lost_light.fishing.tackle_box.desc.0}"]
 			icon: "aquaculture:tackle_box"
 			id: "0D48A8B2E6848687"
 			optional: true
-			rewards: [{
-				id: "3C881D7ED692907F"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3C881D7ED692907F"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.tackle_box.subtitle}"
-			tasks: [{
-				id: "0AE2C81CF3CC7741"
-				item: "aquaculture:tackle_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AE2C81CF3CC7741"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.fishing.tackle_box.title}"
 			x: 3.0d
 			y: 3.0d
@@ -504,80 +373,66 @@
 			icon: "coralstfc:coral_powder"
 			id: "0D0000073482F0C5"
 			optional: true
-			rewards: [{
-				id: "7D30FB9335AE064F"
-				table_id: 8972711594806304579L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7D30FB9335AE064F"
+					table_id: 8972711594806304579L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.corals.subtitle}"
-			tasks: [{
-				count: 4L
-				id: "3F4F4278AC4F2392"
-				item: "coralstfc:coral_powder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "3F4F4278AC4F2392"
+					item: "coralstfc:coral_powder"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.fishing.corals.title}"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"6E19009838E269E0"
-				"1E23115CAE640E45"
-			]
+			dependencies: ["6E19009838E269E0", "1E23115CAE640E45"]
 			description: [
 				"{quests.lost_light.fishing.neptunian_pearl.desc.0}"
 				""
 				"{quests.lost_light.fishing.neptunian_pearl.desc.2}"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "survivorsaquaculture:neptunian_pearl"
-			}
+			icon: "survivorsaquaculture:neptunian_pearl"
 			id: "4A38A5E9E7A5474D"
-			rewards: [{
-				id: "0CC6590646889C60"
-				table_id: 2293612502771867778L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0CC6590646889C60"
+					table_id: 2293612502771867778L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.neptunian_pearl.subtitle}"
-			tasks: [{
-				id: "375E851C9CD100E1"
-				item: "survivorsaquaculture:neptunian_pearl"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "375E851C9CD100E1"
+					item: "survivorsaquaculture:neptunian_pearl"
+					type: "item"
+				}
+			]
 			title: "{quests.lost_light.fishing.neptunian_pearl.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4A38A5E9E7A5474D"
-				"7414988823042A43"
-			]
+			dependencies: ["4A38A5E9E7A5474D", "7414988823042A43"]
 			description: ["{quests.lost_light.fishing.neptunium.desc.0}"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"tfc:item_heat": {
-						heat: 0.0f
-						ticks: 0L
-					}
-				}
-				id: "survivorsaquaculture:metal/ingot/neptunium"
-			}
+			icon: "survivorsaquaculture:metal/ingot/neptunium"
 			id: "325769420BBFF572"
-			rewards: [{
-				id: "48CFBF48CA7EB794"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "48CFBF48CA7EB794"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.neptunium.subtitle}"
 			tasks: [
 				{
@@ -602,39 +457,31 @@
 				""
 				"{quests.lost_light.fishing.neptunium_armor.desc.2}"
 			]
-			icon: {
-				Count: 1
-				id: "aquaculture:neptunium_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "aquaculture:neptunium_chestplate"
 			id: "1075AD259592916F"
-			rewards: [{
-				id: "3007544B24526DB9"
-				table_id: 5286488258697713372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3007544B24526DB9"
+					table_id: 5286488258697713372L
+					type: "loot"
+				}
+			]
 			subtitle: "{quests.lost_light.fishing.neptunium_armor.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "aquaculture:neptunium_chestplate"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					icon: "aquaculture:neptunium_chestplate"
+					id: "3942B257594056BF"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(aquaculture:neptunium_helmet)item(aquaculture:neptunium_chestplate)item(aquaculture:neptunium_leggings)item(aquaculture:neptunium_boots))"
+						}
 					}
+					title: "{quests.lost_light.fishing.neptunium_armor.task0}"
+					type: "item"
 				}
-				id: "3942B257594056BF"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(aquaculture:neptunium_helmet)item(aquaculture:neptunium_chestplate)item(aquaculture:neptunium_leggings)item(aquaculture:neptunium_boots))"
-					}
-				}
-				title: "{quests.lost_light.fishing.neptunium_armor.task0}"
-				type: "item"
-			}]
+			]
 			title: "{quests.lost_light.fishing.neptunium_armor.title}"
 			x: 7.5d
 			y: -3.0d

@@ -1091,6 +1091,16 @@ FTBQuestsEvents.customTask('4C4337A4A4C7DE02', event => {
   event.maxProgress = 1
 })
 
+// bestiary/brick_diplomacy task#0
+FTBQuestsEvents.customTask('140C43D0AF3FB5D5', event => {
+  event.maxProgress = 1
+})
+
+// bestiary/what_goes_up task#0
+FTBQuestsEvents.customTask('62EE68668C4BAC67', event => {
+  event.maxProgress = 1
+})
+
 // bestiary/troll_dinner task#0
 FTBQuestsEvents.customTask('0A40668F8F02567A', event => {
   event.maxProgress = 1
@@ -1622,7 +1632,9 @@ FTBQuestsEvents.customTask('39BA4A1B21B57A2F', event => {
 
 // Tasks driven by deaths, keyed by entity type:
 // - QUEST_KILL_TASKS: a player kills an entity of the type;
-// - QUEST_DIED_TO_TASKS: a player is killed by an entity of the type (an explosion counts as its source, e.g. a creeper).
+// - QUEST_KILL_WITH_TASKS: a player kills any entity with a projectile of the type (the damage source's direct entity);
+// - QUEST_DIED_TO_TASKS: a player is killed by an entity of the type (an explosion counts as its source, e.g. a creeper);
+// - QUEST_SELF_KILL_WITH_TASKS: a player is killed by their own projectile of the type (e.g. a brick thrown straight up).
 // addProgress ignores tasks of quests the team can't start yet.
 const QUEST_KILL_TASKS = {
   'minecraft:cave_spider': ['6D8DB3C9C1078118'],
@@ -1685,10 +1697,16 @@ const QUEST_KILL_TASKS = {
   'valarian_conquest:valarian_king': ['29A3A74181B032D3'],
   'valarian_conquest:visgothian_king': ['29A3A74181B032D3'],
 }
+const QUEST_KILL_WITH_TASKS = {
+  'supplementaries:brick_projectile': ['140C43D0AF3FB5D5'],
+}
 const QUEST_DIED_TO_TASKS = {
   'minecraft:creeper': ['4C4337A4A4C7DE02'],
   'tfc_spirits:hunchback_troll': ['0A40668F8F02567A'],
   'tfc_spirits:mage_troll': ['0A40668F8F02567A'],
+}
+const QUEST_SELF_KILL_WITH_TASKS = {
+  'supplementaries:brick_projectile': ['62EE68668C4BAC67'],
 }
 const questAddProgress = (player, tasks) => {
   let data = FTBQuests.getServerDataFromPlayer(player)
@@ -1701,10 +1719,19 @@ EntityEvents.death(event => {
     let attacker = source.actual
     let diedTasks = attacker ? QUEST_DIED_TO_TASKS[String(attacker.type)] : null
     if (diedTasks) questAddProgress(event.entity, diedTasks)
+    // killed by their own projectile: the owner is the player themself, the direct entity is the projectile
+    let ownProjectile = source.immediate
+    let selfTasks = ownProjectile && attacker && String(attacker.uuid) == String(event.entity.uuid)
+      ? QUEST_SELF_KILL_WITH_TASKS[String(ownProjectile.type)] : null
+    if (selfTasks) questAddProgress(event.entity, selfTasks)
     return
   }
   let player = source.player
   if (!player) return
   let tasks = QUEST_KILL_TASKS[String(event.entity.type)]
   if (tasks) questAddProgress(player, tasks)
+  // KubeJS name for DamageSource.getDirectEntity(): the projectile itself (an arrow, a thrown brick...)
+  let direct = source.immediate
+  let withTasks = direct ? QUEST_KILL_WITH_TASKS[String(direct.type)] : null
+  if (withTasks) questAddProgress(player, withTasks)
 })
