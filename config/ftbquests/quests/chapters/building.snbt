@@ -34,22 +34,44 @@
 				""
 				"{quests.lost_light.building.mattock.desc.2}"
 			]
-			icon: "rnr:metal/mattock/bronze"
-			id: "2614DC03961A2AC8"
-			rewards: [
-				{
-					id: "5AD5ACAF2EE5BADA"
-					table_id: 8972711594806304579L
-					type: "loot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "rnr:metal/mattock/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2614DC03961A2AC8"
+			rewards: [{
+				id: "5AD5ACAF2EE5BADA"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.mattock.subtitle}"
 			tasks: [
 				{
-					icon: "rnr:metal/mattock/bronze"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "rnr:metal/mattock/bronze"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "6CCAD0F3D60ACEB8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(rnr:metal/mattock/copper)item(rnr:metal/mattock/bronze)item(rnr:metal/mattock/bismuth_bronze)item(rnr:metal/mattock/black_bronze)item(rnr:metal/mattock/wrought_iron)item(rnr:metal/mattock/steel)item(rnr:metal/mattock/black_steel)item(rnr:metal/mattock/blue_steel)item(rnr:metal/mattock/red_steel))"
@@ -79,28 +101,27 @@
 			]
 			icon: "rnr:hoggin_mix"
 			id: "049CA16515854FB6"
-			rewards: [
-				{
-					id: "396636CE942CB443"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "396636CE942CB443"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.road.subtitle}"
-			tasks: [
-				{
-					count: 8L
-					id: "5EE88BF431946797"
-					item: "rnr:hoggin_mix"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "5EE88BF431946797"
+				item: "rnr:hoggin_mix"
+				type: "item"
+			}]
 			title: "{quests.lost_light.building.road.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["049CA16515854FB6", "20BA7EBDB378E2DC"]
+			dependencies: [
+				"049CA16515854FB6"
+				"20BA7EBDB378E2DC"
+			]
 			description: [
 				"{quests.lost_light.building.concrete_road.desc.0}"
 				""
@@ -108,13 +129,11 @@
 			]
 			icon: "rnr:concrete_road"
 			id: "794C9317729BBD63"
-			rewards: [
-				{
-					id: "6174A87A566CFFEA"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "6174A87A566CFFEA"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.concrete_road.subtitle}"
 			tasks: [
 				{
@@ -147,13 +166,11 @@
 			]
 			icon: "rnr:wood/shingles/oak"
 			id: "0418D4C7B017E6A7"
-			rewards: [
-				{
-					id: "0C11B19F690E71CE"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "0C11B19F690E71CE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.roof.subtitle}"
 			tasks: [
 				{
@@ -185,20 +202,18 @@
 			]
 			icon: "mcw_tfc_aio:furniture/oak_furniture/oak_chair"
 			id: "6C3BC07653EE3613"
-			rewards: [
-				{
-					id: "2C35741E593F5F69"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2C35741E593F5F69"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.furniture.subtitle}"
 			tasks: [
 				{
 					icon: "mcw_tfc_aio:furniture/oak_furniture/oak_chair"
 					id: "1967FAF8FA8F96DF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(mcw_tfc_aio:furniture/acacia_furniture/acacia_chair)item(mcw_tfc_aio:furniture/ash_furniture/ash_chair)item(mcw_tfc_aio:furniture/aspen_furniture/aspen_chair)item(mcw_tfc_aio:furniture/birch_furniture/birch_chair)item(mcw_tfc_aio:furniture/blackwood_furniture/blackwood_chair)item(mcw_tfc_aio:furniture/chestnut_furniture/chestnut_chair)item(mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_chair)item(mcw_tfc_aio:furniture/hickory_furniture/hickory_chair)item(mcw_tfc_aio:furniture/kapok_furniture/kapok_chair)item(mcw_tfc_aio:furniture/mangrove_furniture/mangrove_chair)item(mcw_tfc_aio:furniture/maple_furniture/maple_chair)item(mcw_tfc_aio:furniture/oak_furniture/oak_chair)item(mcw_tfc_aio:furniture/palm_furniture/palm_chair)item(mcw_tfc_aio:furniture/pine_furniture/pine_chair)item(mcw_tfc_aio:furniture/rosewood_furniture/rosewood_chair)item(mcw_tfc_aio:furniture/sequoia_furniture/sequoia_chair)item(mcw_tfc_aio:furniture/spruce_furniture/spruce_chair)item(mcw_tfc_aio:furniture/sycamore_furniture/sycamore_chair)item(mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_chair)item(mcw_tfc_aio:furniture/willow_furniture/willow_chair))"
@@ -211,7 +226,7 @@
 					icon: "mcw_tfc_aio:furniture/oak_furniture/oak_desk"
 					id: "171BDA25B30EC6ED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(mcw_tfc_aio:furniture/acacia_furniture/acacia_desk)item(mcw_tfc_aio:furniture/ash_furniture/ash_desk)item(mcw_tfc_aio:furniture/aspen_furniture/aspen_desk)item(mcw_tfc_aio:furniture/birch_furniture/birch_desk)item(mcw_tfc_aio:furniture/blackwood_furniture/blackwood_desk)item(mcw_tfc_aio:furniture/chestnut_furniture/chestnut_desk)item(mcw_tfc_aio:furniture/douglas_fir_furniture/douglas_fir_desk)item(mcw_tfc_aio:furniture/hickory_furniture/hickory_desk)item(mcw_tfc_aio:furniture/kapok_furniture/kapok_desk)item(mcw_tfc_aio:furniture/mangrove_furniture/mangrove_desk)item(mcw_tfc_aio:furniture/maple_furniture/maple_desk)item(mcw_tfc_aio:furniture/oak_furniture/oak_desk)item(mcw_tfc_aio:furniture/palm_furniture/palm_desk)item(mcw_tfc_aio:furniture/pine_furniture/pine_desk)item(mcw_tfc_aio:furniture/rosewood_furniture/rosewood_desk)item(mcw_tfc_aio:furniture/sequoia_furniture/sequoia_desk)item(mcw_tfc_aio:furniture/spruce_furniture/spruce_desk)item(mcw_tfc_aio:furniture/sycamore_furniture/sycamore_desk)item(mcw_tfc_aio:furniture/white_cedar_furniture/white_cedar_desk)item(mcw_tfc_aio:furniture/willow_furniture/willow_desk))"
@@ -226,7 +241,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6C3BC07653EE3613", "71E05063B9046AA8"]
+			dependencies: [
+				"6C3BC07653EE3613"
+				"71E05063B9046AA8"
+			]
 			description: [
 				"{quests.lost_light.building.decor.desc.0}"
 				"{quests.lost_light.building.decor.desc.1}"
@@ -235,30 +253,26 @@
 			]
 			icon: "supplementaries:jar"
 			id: "08DAD190022C4AFD"
-			rewards: [
-				{
-					id: "03746CD857D4A444"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "03746CD857D4A444"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.decor.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					icon: "supplementaries:jar"
-					id: "227D07A0C787C9F9"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(supplementaries:jar)item(supplementaries:notice_board)item(supplementaries:item_shelf))"
-						}
+			tasks: [{
+				count: 2L
+				icon: "supplementaries:jar"
+				id: "227D07A0C787C9F9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(supplementaries:jar)item(supplementaries:notice_board)item(supplementaries:item_shelf))"
 					}
-					title: "{quests.lost_light.building.decor.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.building.decor.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.building.decor.title}"
 			x: 1.5d
 			y: 1.5d
@@ -266,32 +280,40 @@
 		{
 			dependencies: ["20BA7EBDB378E2DC"]
 			description: ["{quests.lost_light.building.chalk.desc.0}"]
-			icon: "chalk:white_chalk"
+			icon: {
+				Count: 1
+				id: "chalk:white_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2CE537D4A458A344"
 			optional: true
-			rewards: [
-				{
-					id: "2612CA740F0C7BAE"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2612CA740F0C7BAE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.chalk.subtitle}"
-			tasks: [
-				{
-					icon: "chalk:white_chalk"
-					id: "694D6E29183C33DB"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(chalk:white_chalk)item(chalk:black_chalk)item(chalk:blue_chalk)item(chalk:brown_chalk)item(chalk:cyan_chalk)item(chalk:gray_chalk)item(chalk:green_chalk)item(chalk:light_blue_chalk)item(chalk:light_gray_chalk)item(chalk:lime_chalk)item(chalk:magenta_chalk)item(chalk:orange_chalk)item(chalk:pink_chalk)item(chalk:purple_chalk)item(chalk:red_chalk)item(chalk:yellow_chalk))"
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "chalk:white_chalk"
+					tag: {
+						Damage: 0
 					}
-					title: "{quests.lost_light.building.chalk.task0}"
-					type: "item"
 				}
-			]
+				id: "694D6E29183C33DB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(chalk:white_chalk)item(chalk:black_chalk)item(chalk:blue_chalk)item(chalk:brown_chalk)item(chalk:cyan_chalk)item(chalk:gray_chalk)item(chalk:green_chalk)item(chalk:light_blue_chalk)item(chalk:light_gray_chalk)item(chalk:lime_chalk)item(chalk:magenta_chalk)item(chalk:orange_chalk)item(chalk:pink_chalk)item(chalk:purple_chalk)item(chalk:red_chalk)item(chalk:yellow_chalk))"
+					}
+				}
+				title: "{quests.lost_light.building.chalk.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.building.chalk.title}"
 			x: 0.0d
 			y: 3.0d
@@ -305,30 +327,26 @@
 			]
 			icon: "tfcstoragedrawers:tfc_oak_full_drawers_1"
 			id: "667918D58504A77F"
-			rewards: [
-				{
-					id: "448131D1CC2D7988"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "448131D1CC2D7988"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.building.drawers.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					icon: "tfcstoragedrawers:tfc_oak_full_drawers_1"
-					id: "7AB1AC6431706291"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfcstoragedrawers:tfc_acacia_full_drawers_1)item(tfcstoragedrawers:tfc_acacia_half_drawers_1)item(tfcstoragedrawers:tfc_acacia_full_drawers_2)item(tfcstoragedrawers:tfc_acacia_half_drawers_2)item(tfcstoragedrawers:tfc_acacia_full_drawers_4)item(tfcstoragedrawers:tfc_acacia_half_drawers_4)item(tfcstoragedrawers:tfc_ash_full_drawers_1)item(tfcstoragedrawers:tfc_ash_half_drawers_1)item(tfcstoragedrawers:tfc_ash_full_drawers_2)item(tfcstoragedrawers:tfc_ash_half_drawers_2)item(tfcstoragedrawers:tfc_ash_full_drawers_4)item(tfcstoragedrawers:tfc_ash_half_drawers_4)item(tfcstoragedrawers:tfc_aspen_full_drawers_1)item(tfcstoragedrawers:tfc_aspen_half_drawers_1)item(tfcstoragedrawers:tfc_aspen_full_drawers_2)item(tfcstoragedrawers:tfc_aspen_half_drawers_2)item(tfcstoragedrawers:tfc_aspen_full_drawers_4)item(tfcstoragedrawers:tfc_aspen_half_drawers_4)item(tfcstoragedrawers:tfc_birch_full_drawers_1)item(tfcstoragedrawers:tfc_birch_half_drawers_1)item(tfcstoragedrawers:tfc_birch_full_drawers_2)item(tfcstoragedrawers:tfc_birch_half_drawers_2)item(tfcstoragedrawers:tfc_birch_full_drawers_4)item(tfcstoragedrawers:tfc_birch_half_drawers_4)item(tfcstoragedrawers:tfc_blackwood_full_drawers_1)item(tfcstoragedrawers:tfc_blackwood_half_drawers_1)item(tfcstoragedrawers:tfc_blackwood_full_drawers_2)item(tfcstoragedrawers:tfc_blackwood_half_drawers_2)item(tfcstoragedrawers:tfc_blackwood_full_drawers_4)item(tfcstoragedrawers:tfc_blackwood_half_drawers_4)item(tfcstoragedrawers:tfc_chestnut_full_drawers_1)item(tfcstoragedrawers:tfc_chestnut_half_drawers_1)item(tfcstoragedrawers:tfc_chestnut_full_drawers_2)item(tfcstoragedrawers:tfc_chestnut_half_drawers_2)item(tfcstoragedrawers:tfc_chestnut_full_drawers_4)item(tfcstoragedrawers:tfc_chestnut_half_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_4)item(tfcstoragedrawers:tfc_hickory_full_drawers_1)item(tfcstoragedrawers:tfc_hickory_half_drawers_1)item(tfcstoragedrawers:tfc_hickory_full_drawers_2)item(tfcstoragedrawers:tfc_hickory_half_drawers_2)item(tfcstoragedrawers:tfc_hickory_full_drawers_4)item(tfcstoragedrawers:tfc_hickory_half_drawers_4)item(tfcstoragedrawers:tfc_kapok_full_drawers_1)item(tfcstoragedrawers:tfc_kapok_half_drawers_1)item(tfcstoragedrawers:tfc_kapok_full_drawers_2)item(tfcstoragedrawers:tfc_kapok_half_drawers_2)item(tfcstoragedrawers:tfc_kapok_full_drawers_4)item(tfcstoragedrawers:tfc_kapok_half_drawers_4)item(tfcstoragedrawers:tfc_mangrove_full_drawers_1)item(tfcstoragedrawers:tfc_mangrove_half_drawers_1)item(tfcstoragedrawers:tfc_mangrove_full_drawers_2)item(tfcstoragedrawers:tfc_mangrove_half_drawers_2)item(tfcstoragedrawers:tfc_mangrove_full_drawers_4)item(tfcstoragedrawers:tfc_mangrove_half_drawers_4)item(tfcstoragedrawers:tfc_maple_full_drawers_1)item(tfcstoragedrawers:tfc_maple_half_drawers_1)item(tfcstoragedrawers:tfc_maple_full_drawers_2)item(tfcstoragedrawers:tfc_maple_half_drawers_2)item(tfcstoragedrawers:tfc_maple_full_drawers_4)item(tfcstoragedrawers:tfc_maple_half_drawers_4)item(tfcstoragedrawers:tfc_oak_full_drawers_1)item(tfcstoragedrawers:tfc_oak_half_drawers_1)item(tfcstoragedrawers:tfc_oak_full_drawers_2)item(tfcstoragedrawers:tfc_oak_half_drawers_2)item(tfcstoragedrawers:tfc_oak_full_drawers_4)item(tfcstoragedrawers:tfc_oak_half_drawers_4)item(tfcstoragedrawers:tfc_palm_full_drawers_1)item(tfcstoragedrawers:tfc_palm_half_drawers_1)item(tfcstoragedrawers:tfc_palm_full_drawers_2)item(tfcstoragedrawers:tfc_palm_half_drawers_2)item(tfcstoragedrawers:tfc_palm_full_drawers_4)item(tfcstoragedrawers:tfc_palm_half_drawers_4)item(tfcstoragedrawers:tfc_pine_full_drawers_1)item(tfcstoragedrawers:tfc_pine_half_drawers_1)item(tfcstoragedrawers:tfc_pine_full_drawers_2)item(tfcstoragedrawers:tfc_pine_half_drawers_2)item(tfcstoragedrawers:tfc_pine_full_drawers_4)item(tfcstoragedrawers:tfc_pine_half_drawers_4)item(tfcstoragedrawers:tfc_rosewood_full_drawers_1)item(tfcstoragedrawers:tfc_rosewood_half_drawers_1)item(tfcstoragedrawers:tfc_rosewood_full_drawers_2)item(tfcstoragedrawers:tfc_rosewood_half_drawers_2)item(tfcstoragedrawers:tfc_rosewood_full_drawers_4)item(tfcstoragedrawers:tfc_rosewood_half_drawers_4)item(tfcstoragedrawers:tfc_sequoia_full_drawers_1)item(tfcstoragedrawers:tfc_sequoia_half_drawers_1)item(tfcstoragedrawers:tfc_sequoia_full_drawers_2)item(tfcstoragedrawers:tfc_sequoia_half_drawers_2)item(tfcstoragedrawers:tfc_sequoia_full_drawers_4)item(tfcstoragedrawers:tfc_sequoia_half_drawers_4)item(tfcstoragedrawers:tfc_spruce_full_drawers_1)item(tfcstoragedrawers:tfc_spruce_half_drawers_1)item(tfcstoragedrawers:tfc_spruce_full_drawers_2)item(tfcstoragedrawers:tfc_spruce_half_drawers_2)item(tfcstoragedrawers:tfc_spruce_full_drawers_4)item(tfcstoragedrawers:tfc_spruce_half_drawers_4)item(tfcstoragedrawers:tfc_sycamore_full_drawers_1)item(tfcstoragedrawers:tfc_sycamore_half_drawers_1)item(tfcstoragedrawers:tfc_sycamore_full_drawers_2)item(tfcstoragedrawers:tfc_sycamore_half_drawers_2)item(tfcstoragedrawers:tfc_sycamore_full_drawers_4)item(tfcstoragedrawers:tfc_sycamore_half_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_4)item(tfcstoragedrawers:tfc_willow_full_drawers_1)item(tfcstoragedrawers:tfc_willow_half_drawers_1)item(tfcstoragedrawers:tfc_willow_full_drawers_2)item(tfcstoragedrawers:tfc_willow_half_drawers_2)item(tfcstoragedrawers:tfc_willow_full_drawers_4)item(tfcstoragedrawers:tfc_willow_half_drawers_4))"
-						}
+			tasks: [{
+				count: 4L
+				icon: "tfcstoragedrawers:tfc_oak_full_drawers_1"
+				id: "7AB1AC6431706291"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfcstoragedrawers:tfc_acacia_full_drawers_1)item(tfcstoragedrawers:tfc_acacia_half_drawers_1)item(tfcstoragedrawers:tfc_acacia_full_drawers_2)item(tfcstoragedrawers:tfc_acacia_half_drawers_2)item(tfcstoragedrawers:tfc_acacia_full_drawers_4)item(tfcstoragedrawers:tfc_acacia_half_drawers_4)item(tfcstoragedrawers:tfc_ash_full_drawers_1)item(tfcstoragedrawers:tfc_ash_half_drawers_1)item(tfcstoragedrawers:tfc_ash_full_drawers_2)item(tfcstoragedrawers:tfc_ash_half_drawers_2)item(tfcstoragedrawers:tfc_ash_full_drawers_4)item(tfcstoragedrawers:tfc_ash_half_drawers_4)item(tfcstoragedrawers:tfc_aspen_full_drawers_1)item(tfcstoragedrawers:tfc_aspen_half_drawers_1)item(tfcstoragedrawers:tfc_aspen_full_drawers_2)item(tfcstoragedrawers:tfc_aspen_half_drawers_2)item(tfcstoragedrawers:tfc_aspen_full_drawers_4)item(tfcstoragedrawers:tfc_aspen_half_drawers_4)item(tfcstoragedrawers:tfc_birch_full_drawers_1)item(tfcstoragedrawers:tfc_birch_half_drawers_1)item(tfcstoragedrawers:tfc_birch_full_drawers_2)item(tfcstoragedrawers:tfc_birch_half_drawers_2)item(tfcstoragedrawers:tfc_birch_full_drawers_4)item(tfcstoragedrawers:tfc_birch_half_drawers_4)item(tfcstoragedrawers:tfc_blackwood_full_drawers_1)item(tfcstoragedrawers:tfc_blackwood_half_drawers_1)item(tfcstoragedrawers:tfc_blackwood_full_drawers_2)item(tfcstoragedrawers:tfc_blackwood_half_drawers_2)item(tfcstoragedrawers:tfc_blackwood_full_drawers_4)item(tfcstoragedrawers:tfc_blackwood_half_drawers_4)item(tfcstoragedrawers:tfc_chestnut_full_drawers_1)item(tfcstoragedrawers:tfc_chestnut_half_drawers_1)item(tfcstoragedrawers:tfc_chestnut_full_drawers_2)item(tfcstoragedrawers:tfc_chestnut_half_drawers_2)item(tfcstoragedrawers:tfc_chestnut_full_drawers_4)item(tfcstoragedrawers:tfc_chestnut_half_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_1)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_2)item(tfcstoragedrawers:tfc_douglas_fir_full_drawers_4)item(tfcstoragedrawers:tfc_douglas_fir_half_drawers_4)item(tfcstoragedrawers:tfc_hickory_full_drawers_1)item(tfcstoragedrawers:tfc_hickory_half_drawers_1)item(tfcstoragedrawers:tfc_hickory_full_drawers_2)item(tfcstoragedrawers:tfc_hickory_half_drawers_2)item(tfcstoragedrawers:tfc_hickory_full_drawers_4)item(tfcstoragedrawers:tfc_hickory_half_drawers_4)item(tfcstoragedrawers:tfc_kapok_full_drawers_1)item(tfcstoragedrawers:tfc_kapok_half_drawers_1)item(tfcstoragedrawers:tfc_kapok_full_drawers_2)item(tfcstoragedrawers:tfc_kapok_half_drawers_2)item(tfcstoragedrawers:tfc_kapok_full_drawers_4)item(tfcstoragedrawers:tfc_kapok_half_drawers_4)item(tfcstoragedrawers:tfc_mangrove_full_drawers_1)item(tfcstoragedrawers:tfc_mangrove_half_drawers_1)item(tfcstoragedrawers:tfc_mangrove_full_drawers_2)item(tfcstoragedrawers:tfc_mangrove_half_drawers_2)item(tfcstoragedrawers:tfc_mangrove_full_drawers_4)item(tfcstoragedrawers:tfc_mangrove_half_drawers_4)item(tfcstoragedrawers:tfc_maple_full_drawers_1)item(tfcstoragedrawers:tfc_maple_half_drawers_1)item(tfcstoragedrawers:tfc_maple_full_drawers_2)item(tfcstoragedrawers:tfc_maple_half_drawers_2)item(tfcstoragedrawers:tfc_maple_full_drawers_4)item(tfcstoragedrawers:tfc_maple_half_drawers_4)item(tfcstoragedrawers:tfc_oak_full_drawers_1)item(tfcstoragedrawers:tfc_oak_half_drawers_1)item(tfcstoragedrawers:tfc_oak_full_drawers_2)item(tfcstoragedrawers:tfc_oak_half_drawers_2)item(tfcstoragedrawers:tfc_oak_full_drawers_4)item(tfcstoragedrawers:tfc_oak_half_drawers_4)item(tfcstoragedrawers:tfc_palm_full_drawers_1)item(tfcstoragedrawers:tfc_palm_half_drawers_1)item(tfcstoragedrawers:tfc_palm_full_drawers_2)item(tfcstoragedrawers:tfc_palm_half_drawers_2)item(tfcstoragedrawers:tfc_palm_full_drawers_4)item(tfcstoragedrawers:tfc_palm_half_drawers_4)item(tfcstoragedrawers:tfc_pine_full_drawers_1)item(tfcstoragedrawers:tfc_pine_half_drawers_1)item(tfcstoragedrawers:tfc_pine_full_drawers_2)item(tfcstoragedrawers:tfc_pine_half_drawers_2)item(tfcstoragedrawers:tfc_pine_full_drawers_4)item(tfcstoragedrawers:tfc_pine_half_drawers_4)item(tfcstoragedrawers:tfc_rosewood_full_drawers_1)item(tfcstoragedrawers:tfc_rosewood_half_drawers_1)item(tfcstoragedrawers:tfc_rosewood_full_drawers_2)item(tfcstoragedrawers:tfc_rosewood_half_drawers_2)item(tfcstoragedrawers:tfc_rosewood_full_drawers_4)item(tfcstoragedrawers:tfc_rosewood_half_drawers_4)item(tfcstoragedrawers:tfc_sequoia_full_drawers_1)item(tfcstoragedrawers:tfc_sequoia_half_drawers_1)item(tfcstoragedrawers:tfc_sequoia_full_drawers_2)item(tfcstoragedrawers:tfc_sequoia_half_drawers_2)item(tfcstoragedrawers:tfc_sequoia_full_drawers_4)item(tfcstoragedrawers:tfc_sequoia_half_drawers_4)item(tfcstoragedrawers:tfc_spruce_full_drawers_1)item(tfcstoragedrawers:tfc_spruce_half_drawers_1)item(tfcstoragedrawers:tfc_spruce_full_drawers_2)item(tfcstoragedrawers:tfc_spruce_half_drawers_2)item(tfcstoragedrawers:tfc_spruce_full_drawers_4)item(tfcstoragedrawers:tfc_spruce_half_drawers_4)item(tfcstoragedrawers:tfc_sycamore_full_drawers_1)item(tfcstoragedrawers:tfc_sycamore_half_drawers_1)item(tfcstoragedrawers:tfc_sycamore_full_drawers_2)item(tfcstoragedrawers:tfc_sycamore_half_drawers_2)item(tfcstoragedrawers:tfc_sycamore_full_drawers_4)item(tfcstoragedrawers:tfc_sycamore_half_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_1)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_2)item(tfcstoragedrawers:tfc_white_cedar_full_drawers_4)item(tfcstoragedrawers:tfc_white_cedar_half_drawers_4)item(tfcstoragedrawers:tfc_willow_full_drawers_1)item(tfcstoragedrawers:tfc_willow_half_drawers_1)item(tfcstoragedrawers:tfc_willow_full_drawers_2)item(tfcstoragedrawers:tfc_willow_half_drawers_2)item(tfcstoragedrawers:tfc_willow_full_drawers_4)item(tfcstoragedrawers:tfc_willow_half_drawers_4))"
 					}
-					title: "{quests.lost_light.building.drawers.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.building.drawers.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.building.drawers.title}"
 			x: 1.5d
 			y: 3.0d

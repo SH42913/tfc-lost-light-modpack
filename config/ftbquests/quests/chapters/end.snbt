@@ -37,22 +37,18 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:ender_eye"
 			id: "23B3ECCD7CF814FB"
-			rewards: [
-				{
-					id: "6D871A282021601B"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "6D871A282021601B"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.end.ender_eyes.subtitle}"
-			tasks: [
-				{
-					count: 12L
-					id: "51257270B77B88B8"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 12L
+				id: "51257270B77B88B8"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			title: "{quests.lost_light.end.ender_eyes.title}"
 			x: 0.0d
 			y: 0.0d
@@ -67,23 +63,19 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:end_portal_frame"
 			id: "0B1B287A1A0487D6"
-			rewards: [
-				{
-					id: "3EA0B60F0C7EF038"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "3EA0B60F0C7EF038"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.end.the_end.subtitle}"
-			tasks: [
-				{
-					dimension: "minecraft:the_end"
-					icon: "minecraft:end_stone"
-					id: "15542A5828A2F0BA"
-					title: "{quests.lost_light.end.the_end.task0}"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "15542A5828A2F0BA"
+				title: "{quests.lost_light.end.the_end.task0}"
+				type: "dimension"
+			}]
 			title: "{quests.lost_light.end.the_end.title}"
 			x: 1.5d
 			y: 0.0d
@@ -98,23 +90,19 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:dragon_head"
 			id: "38613C3A2F16A80D"
-			rewards: [
-				{
-					id: "2EC12C58140B7011"
-					table_id: 5101354976124478578L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2EC12C58140B7011"
+				table_id: 5101354976124478578L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.end.dragon.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:ender_dragon"
-					icon: "minecraft:dragon_head"
-					id: "572AAA33610E80DF"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "572AAA33610E80DF"
+				type: "kill"
+				value: 1L
+			}]
 			title: "{quests.lost_light.end.dragon.title}"
 			x: 3.0d
 			y: 0.0d
@@ -129,23 +117,19 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:purpur_block"
 			id: "3DBC57C0BDD30B95"
-			rewards: [
-				{
-					id: "217F574D227417BF"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "217F574D227417BF"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.end.end_city.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:purpur_block"
-					id: "68DE82AAD1A78BD2"
-					structure: "minecraft:end_city"
-					title: "{quests.lost_light.end.end_city.task0}"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "68DE82AAD1A78BD2"
+				structure: "minecraft:end_city"
+				title: "{quests.lost_light.end.end_city.task0}"
+				type: "structure"
+			}]
 			title: "{quests.lost_light.end.end_city.title}"
 			x: 4.5d
 			y: 0.0d
@@ -158,23 +142,31 @@
 				"{quests.lost_light.end.elytra.desc.2}"
 			]
 			hide_until_deps_complete: true
-			icon: "minecraft:elytra"
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "404B157026C3EB65"
-			rewards: [
-				{
-					id: "7EA2672BB63EE6F8"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "7EA2672BB63EE6F8"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.end.elytra.subtitle}"
-			tasks: [
-				{
-					id: "38318F92FB90DC01"
-					item: "minecraft:elytra"
-					type: "item"
+			tasks: [{
+				id: "38318F92FB90DC01"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{quests.lost_light.end.elytra.title}"
 			x: 6.0d
 			y: 0.0d

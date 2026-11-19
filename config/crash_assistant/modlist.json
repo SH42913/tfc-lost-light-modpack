@@ -826,13 +826,13 @@
     "curseForgeHash": 4260416317,
     "modrinthHash": "f3441d0fabc5ff5f169e333ed570b0805537d27a"
   },
-  "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar": {
-    "jarName": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+  "EuphoriaPatcher-1.11.1-r5.10-forge.jar": {
+    "jarName": "EuphoriaPatcher-1.11.1-r5.10-forge.jar",
     "modId": "euphoria_patcher",
     "name": "Euphoria Patcher",
-    "version": "1.10.5-r5.9.3-forge",
-    "curseForgeHash": 1271676245,
-    "modrinthHash": "66c44811b2972871aa6855b89c45e05d509efed9"
+    "version": "1.11.1-r5.10-forge",
+    "curseForgeHash": 662237330,
+    "modrinthHash": "af13a9c51a48895873fbeeef8de59d7931859f73"
   },
   "extragore-1.20.1-5.2.3.1.jar": {
     "jarName": "extragore-1.20.1-5.2.3.1.jar",
@@ -890,13 +890,13 @@
     "curseForgeHash": 1473382339,
     "modrinthHash": "3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6"
   },
-  "fastchunkgen-0.43-all.jar": {
-    "jarName": "fastchunkgen-0.43-all.jar",
+  "fastchunkgen-0.44-all.jar": {
+    "jarName": "fastchunkgen-0.44-all.jar",
     "modId": "fastchunkgen",
     "name": "FastChunkGen",
-    "version": "0.43",
-    "curseForgeHash": 2383388767,
-    "modrinthHash": "168900e9ed339987b23bcf316d030e9e53d74d32"
+    "version": "0.44",
+    "curseForgeHash": 9957568,
+    "modrinthHash": "fcd642d6af04a43e985ac635b8a2debc08c29ba5"
   },
   "FastFurnace-1.20.1-8.0.2.jar": {
     "jarName": "FastFurnace-1.20.1-8.0.2.jar",
@@ -1362,10 +1362,10 @@
     "curseForgeHash": 428034488,
     "modrinthHash": "b274c46b7d3400de16b9d0c5bdf109a11171b969"
   },
-  "kotlinforforge-4.12.0-all.jar": {
-    "jarName": "kotlinforforge-4.12.0-all.jar",
-    "curseForgeHash": 2392977662,
-    "modrinthHash": "962fdb760409d6d71cbf079235f1ca94e3863a22"
+  "kotlinforforge-4.13.0-all.jar": {
+    "jarName": "kotlinforforge-4.13.0-all.jar",
+    "curseForgeHash": 3906149789,
+    "modrinthHash": "f751c96d858698ddf944cdf45badd0065ddf7e8d"
   },
   "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar": {
     "jarName": "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar",
@@ -1580,13 +1580,13 @@
     "curseForgeHash": 3993116548,
     "modrinthHash": "5bdda0781bf9dfb5f992a7aa2bee64d5d3fe0b84"
   },
-  "modernfix-forge-5.27.93-mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.93-mc1.20.1.jar",
+  "modernfix-forge-5.28.0-mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.28.0-mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.93+mc1.20.1",
-    "curseForgeHash": 1674557126,
-    "modrinthHash": "a88e749a40778753fd2f6c649339dc1b6c572e5b"
+    "version": "5.28.0+mc1.20.1",
+    "curseForgeHash": 1645880539,
+    "modrinthHash": "252d5cd8ce7f96cfdf26585ef532c7a5a8b7bdc2"
   },
   "moonlight-1.20-2.16.39-forge.jar": {
     "jarName": "moonlight-1.20-2.16.39-forge.jar",
@@ -2195,13 +2195,13 @@
     "curseForgeHash": 29666819,
     "modrinthHash": "cca362c149570e3926aac82be199d66aaf94928a"
   },
-  "survivorsabilities-1.5.1-all.jar": {
-    "jarName": "survivorsabilities-1.5.1-all.jar",
+  "survivorsabilities-1.5.2-2001-all.jar": {
+    "jarName": "survivorsabilities-1.5.2-2001-all.jar",
     "modId": "survivorsabilities",
     "name": "Survivor\u0027s Abilities",
-    "version": "1.5.1",
-    "curseForgeHash": 142378345,
-    "modrinthHash": "3b0c118bd564b40b8ee9e5f81f871676d97989e3"
+    "version": "1.5.2+2001",
+    "curseForgeHash": 1402225016,
+    "modrinthHash": "ab7625736b1f99fccb940aab6eea5d4f909bf8fd"
   },
   "survivorsaquaculture-1.0.2.jar": {
     "jarName": "survivorsaquaculture-1.0.2.jar",
@@ -2459,13 +2459,13 @@
     "curseForgeHash": 1389508542,
     "modrinthHash": "a278be536124cacc6c33db9e5afd7ffe9947921a"
   },
-  "TFCFoodCompat-1.20.1-1.2.3.jar": {
-    "jarName": "TFCFoodCompat-1.20.1-1.2.3.jar",
+  "TFCFoodCompat-1.20.1-1.3.0.jar": {
+    "jarName": "TFCFoodCompat-1.20.1-1.3.0.jar",
     "modId": "tfc_food_compat",
     "name": "TFC Food Processing Compat",
-    "version": "1.2.3",
-    "curseForgeHash": 3303473823,
-    "modrinthHash": "7075a28fecaf06a342c506efaee8691f1a70cc95"
+    "version": "1.3.0",
+    "curseForgeHash": 2498079366,
+    "modrinthHash": "1b452f02fa0155a56c48791e7b41d1bf6bfcb6c4"
   },
   "TFCGyres-OreHints-2.4.jar": {
     "jarName": "TFCGyres-OreHints-2.4.jar",

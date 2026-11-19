@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "relics"
 	group: "4C8D6353CE248C78"
-	icon: "magical_relics:gold_amulet_artifact"
+	icon: {
+		Count: 1
+		id: "magical_relics:gold_amulet_artifact"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "26E71D4B7E4B40FD"
 	order_index: 0
 	quest_links: [
@@ -34,31 +40,39 @@
 				""
 				"{quests.lost_light.relics.artifact.desc.2}"
 			]
-			icon: "magical_relics:gold_amulet_artifact"
+			icon: {
+				Count: 1
+				id: "magical_relics:gold_amulet_artifact"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5AAC2AC87E4DC1FF"
-			rewards: [
-				{
-					id: "17055DBF171D9D5E"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "17055DBF171D9D5E"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.artifact.subtitle}"
-			tasks: [
-				{
-					icon: "magical_relics:gold_amulet_artifact"
-					id: "3AC2DBB66BD1737C"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(magical_relics:artifacts)"
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "magical_relics:gold_amulet_artifact"
+					tag: {
+						Damage: 0
 					}
-					title: "{quests.lost_light.relics.artifact.task0}"
-					type: "item"
 				}
-			]
+				id: "3AC2DBB66BD1737C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(magical_relics:artifacts)"
+					}
+				}
+				title: "{quests.lost_light.relics.artifact.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.relics.artifact.title}"
 			x: 0.0d
 			y: 0.0d
@@ -70,31 +84,39 @@
 				""
 				"{quests.lost_light.relics.curios.desc.2}"
 			]
-			icon: "magical_relics:iron_ring_artifact"
+			icon: {
+				Count: 1
+				id: "magical_relics:iron_ring_artifact"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "67B655B4CC643AAC"
-			rewards: [
-				{
-					id: "01C9466D43D0F204"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "01C9466D43D0F204"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.curios.subtitle}"
-			tasks: [
-				{
-					icon: "magical_relics:iron_ring_artifact"
-					id: "0E510907BBCFB83A"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item_tag(curios:ring)item_tag(curios:necklace)item_tag(curios:belt)item_tag(curios:amulet))"
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "magical_relics:iron_ring_artifact"
+					tag: {
+						Damage: 0
 					}
-					title: "{quests.lost_light.relics.curios.task0}"
-					type: "item"
 				}
-			]
+				id: "0E510907BBCFB83A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(curios:ring)item_tag(curios:necklace)item_tag(curios:belt)item_tag(curios:amulet))"
+					}
+				}
+				title: "{quests.lost_light.relics.curios.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.relics.curios.title}"
 			x: 1.5d
 			y: 0.0d
@@ -105,13 +127,11 @@
 			icon: "magical_relics:raw_manaessence"
 			id: "49E2D63409778E0F"
 			optional: true
-			rewards: [
-				{
-					id: "4883239F9311B42B"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "4883239F9311B42B"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.manaessence.subtitle}"
 			tasks: [
 				{
@@ -123,7 +143,7 @@
 					icon: "magical_relics:gold_manaessence"
 					id: "05E02D69BF906F84"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(magical_relics:wood_manaessence)item(magical_relics:leather_manaessence)item(magical_relics:stone_manaessence)item(magical_relics:iron_manaessence)item(magical_relics:gold_manaessence)item(magical_relics:diamond_manaessence))"
@@ -146,29 +166,25 @@
 			]
 			icon: "ringsofascension:ring_night_vision"
 			id: "5FB2E2D5274D830F"
-			rewards: [
-				{
-					id: "4B50450AD1CBCAC4"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "4B50450AD1CBCAC4"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.ring.subtitle}"
-			tasks: [
-				{
-					icon: "ringsofascension:ring_night_vision"
-					id: "47E2FFD6D7299ADF"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(ringsofascension:ring_experience)item(ringsofascension:ring_jump_boost)item(ringsofascension:ring_night_vision)item(ringsofascension:ring_slow_resistance)item(ringsofascension:ring_steadfast_steps)item(ringsofascension:ring_water_walking)item(ringsofascension:ring_dolphin)item(ringsofascension:ring_fire_resistance)item(ringsofascension:ring_invisibility)item(ringsofascension:ring_knockback_resistance)item(ringsofascension:ring_lava_sponge)item(ringsofascension:ring_slow_falling)item(ringsofascension:ring_speed)item(ringsofascension:ring_sponge)item(ringsofascension:ring_water_breathing)item(ringsofascension:ring_growth)item(ringsofascension:ring_magnetism)item(ringsofascension:ring_mining)item(ringsofascension:ring_poison_resistance)item(ringsofascension:ring_strength)item(ringsofascension:ring_wither)item(ringsofascension:ring_health)item(ringsofascension:ring_hungerless)item(ringsofascension:ring_luck)item(ringsofascension:ring_regeneration)item(ringsofascension:ring_flight)item(ringsofascension:ring_undying))"
-						}
+			tasks: [{
+				icon: "ringsofascension:ring_night_vision"
+				id: "47E2FFD6D7299ADF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ringsofascension:ring_experience)item(ringsofascension:ring_jump_boost)item(ringsofascension:ring_night_vision)item(ringsofascension:ring_slow_resistance)item(ringsofascension:ring_steadfast_steps)item(ringsofascension:ring_water_walking)item(ringsofascension:ring_dolphin)item(ringsofascension:ring_fire_resistance)item(ringsofascension:ring_invisibility)item(ringsofascension:ring_knockback_resistance)item(ringsofascension:ring_lava_sponge)item(ringsofascension:ring_slow_falling)item(ringsofascension:ring_speed)item(ringsofascension:ring_sponge)item(ringsofascension:ring_water_breathing)item(ringsofascension:ring_growth)item(ringsofascension:ring_magnetism)item(ringsofascension:ring_mining)item(ringsofascension:ring_poison_resistance)item(ringsofascension:ring_strength)item(ringsofascension:ring_wither)item(ringsofascension:ring_health)item(ringsofascension:ring_hungerless)item(ringsofascension:ring_luck)item(ringsofascension:ring_regeneration)item(ringsofascension:ring_flight)item(ringsofascension:ring_undying))"
 					}
-					title: "{quests.lost_light.relics.ring.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.relics.ring.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.relics.ring.title}"
 			x: 3.0d
 			y: 0.0d
@@ -184,35 +200,34 @@
 			icon: "ringsofascension:ring_health"
 			id: "384C61DDF1B26FA2"
 			optional: true
-			rewards: [
-				{
-					id: "08D08D7DFF1E0FD5"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "08D08D7DFF1E0FD5"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.legendary_ring.subtitle}"
-			tasks: [
-				{
-					icon: "ringsofascension:ring_health"
-					id: "709AD4ED95F6BC4A"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(ringsofascension:ring_health)item(ringsofascension:ring_hungerless)item(ringsofascension:ring_luck)item(ringsofascension:ring_regeneration)item(ringsofascension:ring_flight)item(ringsofascension:ring_undying))"
-						}
+			tasks: [{
+				icon: "ringsofascension:ring_health"
+				id: "709AD4ED95F6BC4A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ringsofascension:ring_health)item(ringsofascension:ring_hungerless)item(ringsofascension:ring_luck)item(ringsofascension:ring_regeneration)item(ringsofascension:ring_flight)item(ringsofascension:ring_undying))"
 					}
-					title: "{quests.lost_light.relics.legendary_ring.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.relics.legendary_ring.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.relics.legendary_ring.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["67B655B4CC643AAC", "2919D0583768FAD1"]
+			dependencies: [
+				"67B655B4CC643AAC"
+				"2919D0583768FAD1"
+			]
 			description: [
 				"{quests.lost_light.relics.totem.desc.0}"
 				""
@@ -220,21 +235,17 @@
 			]
 			icon: "minecraft:totem_of_undying"
 			id: "3E5FDBD855CC245E"
-			rewards: [
-				{
-					id: "1C983BDFEF8A035C"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "1C983BDFEF8A035C"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.relics.totem.subtitle}"
-			tasks: [
-				{
-					id: "17CBCF0129751B8B"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17CBCF0129751B8B"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
 			title: "{quests.lost_light.relics.totem.title}"
 			x: 3.0d
 			y: 1.5d
