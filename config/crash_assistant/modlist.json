@@ -325,6 +325,14 @@
     "curseForgeHash": 178522978,
     "modrinthHash": "b8cc73db430fa6015671492d4332a65a8c2f5cae"
   },
+  "cave_dust_rethinking-3.4.0+1.20.1-forge.jar": {
+    "jarName": "cave_dust_rethinking-3.4.0+1.20.1-forge.jar",
+    "modId": "cavedust",
+    "name": "Cave Dust Rethinking",
+    "version": "3.4.0+1.20.1-forge",
+    "curseForgeHash": 2858512699,
+    "modrinthHash": "ec47178f028655c3460c208157ac3bef41e480f9"
+  },
   "chalk-1.20.1-1.6.7.jar": {
     "jarName": "chalk-1.20.1-1.6.7.jar",
     "modId": "chalk",
