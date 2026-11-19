@@ -95,6 +95,10 @@
   }, {
     "original": "tfc:wood/planks/oak_log_fence", "type": "WOOD"
   }, {
+    "original": "tfc:wood/planks/oak_fence", "type": "WOOD"
+  }, {
+    "original": "tfc:wood/planks/oak_fence_gate", "type": "WOOD"
+  }, {
     "original": "tfc:rock/cobble/conglomerate", "type": "STONE"
   }, {
     "original": "tfc:rock/mossy_cobble/conglomerate", "type": "STONE"
