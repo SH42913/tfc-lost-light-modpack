@@ -826,13 +826,13 @@
     "curseForgeHash": 4260416317,
     "modrinthHash": "f3441d0fabc5ff5f169e333ed570b0805537d27a"
   },
-  "EuphoriaPatcher-1.11.1-r5.10-forge.jar": {
-    "jarName": "EuphoriaPatcher-1.11.1-r5.10-forge.jar",
+  "EuphoriaPatcher-1.11.2-r5.10-forge.jar": {
+    "jarName": "EuphoriaPatcher-1.11.2-r5.10-forge.jar",
     "modId": "euphoria_patcher",
     "name": "Euphoria Patcher",
-    "version": "1.11.1-r5.10-forge",
-    "curseForgeHash": 662237330,
-    "modrinthHash": "af13a9c51a48895873fbeeef8de59d7931859f73"
+    "version": "1.11.2-r5.10-forge",
+    "curseForgeHash": 2123199864,
+    "modrinthHash": "72d8b68374f102859f3188cbebe7bb3d283cdccc"
   },
   "extragore-1.20.1-5.2.3.1.jar": {
     "jarName": "extragore-1.20.1-5.2.3.1.jar",
@@ -1090,13 +1090,13 @@
     "curseForgeHash": 1917571519,
     "modrinthHash": "d4cc9e69776c2955bfb688d57ad691bfd6cd3347"
   },
-  "geckolib-forge-1.20.1-4.8.4.jar": {
-    "jarName": "geckolib-forge-1.20.1-4.8.4.jar",
+  "geckolib-forge-1.20.1-4.8.5.jar": {
+    "jarName": "geckolib-forge-1.20.1-4.8.5.jar",
     "modId": "geckolib",
     "name": "GeckoLib 4",
-    "version": "4.8.4",
-    "curseForgeHash": 3690314662,
-    "modrinthHash": "81982cc287f80ffabb2fd36d22cc95e4255c739d"
+    "version": "4.8.5",
+    "curseForgeHash": 2679385256,
+    "modrinthHash": "a117dc87ce46a5ea0da0f549199d2e80e81a26fe"
   },
   "gnetum-2.5.2-1.20.1-forge.jar": {
     "jarName": "gnetum-2.5.2-1.20.1-forge.jar",
@@ -1250,13 +1250,13 @@
     "curseForgeHash": 1247813989,
     "modrinthHash": "55cee8b84d2a19065e5e2e2038426384dab1bc9c"
   },
-  "InventoryParticles-3.2.0+1.20.1+forge.jar": {
-    "jarName": "InventoryParticles-3.2.0+1.20.1+forge.jar",
+  "InventoryParticles-4.0.0-1.20.1-forge.jar": {
+    "jarName": "InventoryParticles-4.0.0-1.20.1-forge.jar",
     "modId": "inventory_particles",
     "name": "Inventory Particles",
-    "version": "3.2.0+1.20.1+forge",
-    "curseForgeHash": 2075258938,
-    "modrinthHash": "92e1b84f94d327001b8db3c0148d450abfcba5f4"
+    "version": "4.0.0+1.20.1+forge",
+    "curseForgeHash": 3724969743,
+    "modrinthHash": "fe4bd265f3eabf1d2cf8738cbfceaf283d7f2567"
   },
   "InventoryProfilesNext-forge-1.20-1.10.20.jar": {
     "jarName": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
@@ -1362,10 +1362,10 @@
     "curseForgeHash": 428034488,
     "modrinthHash": "b274c46b7d3400de16b9d0c5bdf109a11171b969"
   },
-  "kotlinforforge-4.13.0-all.jar": {
-    "jarName": "kotlinforforge-4.13.0-all.jar",
-    "curseForgeHash": 3906149789,
-    "modrinthHash": "f751c96d858698ddf944cdf45badd0065ddf7e8d"
+  "kotlinforforge-4.12.0-all.jar": {
+    "jarName": "kotlinforforge-4.12.0-all.jar",
+    "curseForgeHash": 2392977662,
+    "modrinthHash": "962fdb760409d6d71cbf079235f1ca94e3863a22"
   },
   "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar": {
     "jarName": "KotlinLangForge-kff-compat-2.20.0-k2.4.21-2.0-forge.jar",
@@ -1627,13 +1627,13 @@
     "curseForgeHash": 2790210253,
     "modrinthHash": "74fa4f6a83e62edb139a532c5f048048fe297452"
   },
-  "MossyLib-1.6.0+1.20.1+forge.jar": {
-    "jarName": "MossyLib-1.6.0+1.20.1+forge.jar",
+  "MossyLib-2.0.0-1.20.1-forge.jar": {
+    "jarName": "MossyLib-2.0.0-1.20.1-forge.jar",
     "modId": "mossylib",
     "name": "MossyLib",
-    "version": "1.6.0+1.20.1+forge",
-    "curseForgeHash": 3778746521,
-    "modrinthHash": "9042e646775716e7e887700513f99aaa79906060"
+    "version": "2.0.0+1.20.1+forge",
+    "curseForgeHash": 2783216430,
+    "modrinthHash": "e54860c6e715532140624aaad206d607bbadf917"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "jarName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
@@ -1731,13 +1731,13 @@
     "curseForgeHash": 1956610132,
     "modrinthHash": "1da5744853d17979033d5ee3cd4251b8340ea7be"
   },
-  "ParticleEffects-1.6.0+1.20.1+forge.jar": {
-    "jarName": "ParticleEffects-1.6.0+1.20.1+forge.jar",
+  "ParticleEffects-1.7.0-1.20.1-forge.jar": {
+    "jarName": "ParticleEffects-1.7.0-1.20.1-forge.jar",
     "modId": "particle_effects",
     "name": "Particle Effects",
-    "version": "1.6.0+1.20.1+forge",
-    "curseForgeHash": 1959314338,
-    "modrinthHash": "eae81f8f3dafb55edeada340fa7d949e7d4c3c9c"
+    "version": "1.7.0+1.20.1+forge",
+    "curseForgeHash": 2265466225,
+    "modrinthHash": "e99c67a0484c7c93cbab7aae2374d58ccfaf0fc8"
   },
   "passiveshield-1.20.1-4.0.jar": {
     "jarName": "passiveshield-1.20.1-4.0.jar",
