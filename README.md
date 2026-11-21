@@ -1,14 +1,14 @@
+# TFC Lost Light
+
+*TerraFirmaCraft survival with the spirit of vanilla exploration.*
+
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/tfc-lost-light) · [Discord](https://discord.gg/rJb8mGTg4Q)
+
 While TerraFirmaCraft aims at realistic technology and world presentation, I always miss the spirit of exploring structures that vanilla Minecraft has.
 So this modpack combines TFC core gameplay with the feel of vanilla Minecraft.
-https://www.curseforge.com/minecraft/modpacks/tfc-lost-light
 
 It's inspired by TerraFirmaAdventure, but I don't like how compatibility between TFC and other mods was implemented there, so I want to do it better.
 The main source of inspiration, though, is Middle-earth by J. R. R. Tolkien.
-
-### Requirements
-- Minecraft 1.20.1
-- Forge 47.4.28
-- Recommended RAM: 8 GB
 
 TerraFirmaCraft is the foundation of this modpack: realistic world generation and technology from the Stone Age to the pre-industrial era.
 The Stone Age is improved with the Better Stone Age mod.
@@ -19,17 +19,30 @@ And on top of that: a lot of QoL and optimization mods.
 
 Structures are back in the TFC world, so now you have more reasons to explore the Overworld, and the Nether is reachable too.
 So, pack your backpack, take your sword, mount your horse and set off on adventures! :)
-By the way, TFC Lost Light has its own Discord, you're welcome to join: https://discord.gg/rJb8mGTg4Q
+TFC Lost Light has its own [Discord](https://discord.gg/rJb8mGTg4Q), you're welcome to join.
 
-If you prefer vanilla music, just disable the Medieval Music mod.
+### Requirements
+- Minecraft 1.20.1
+- Forge 47.4.28
+- Recommended RAM: 8 GB
 
+### Optional mods
+Some mods can be turned on or off to your taste. To do it:
+- in CurseForge: open the modpack, go to the **Mods** tab and use the toggle next to the mod;
+- manually: in the `mods` folder, rename `<mod>.jar` to `<mod>.jar.disabled` to disable a mod, or back to `.jar` to enable it.
+
+Restart the game after the change.
+
+#### Performance
 If you experience low FPS, you may disable the following mods:
 - Distant Horizons
 - Stellar View
 
-The modpack also includes the Dynamic Trees mods.
-They're disabled by default, but you may enable them (rename `.jar.disabled` to `.jar` in the `mods` folder, or enable them in CurseForge).
-Do it before creating a world, since they change world generation:
+#### Music
+If you prefer vanilla music, disable the Medieval Music mod.
+
+#### Dynamic Trees
+The Dynamic Trees mods are disabled by default. Enable all of them together, and do it before creating a world, since they change world generation:
 - Dynamic Trees
 - Dynamic Trees Addon Lib
 - Dynamic Trees+
@@ -38,10 +51,18 @@ Do it before creating a world, since they change world generation:
 - Dynamic Trees AFC (compatibility with ArborFirmaCraft)
 - Burnt DT (compatibility with Burnt)
 
-There are also a few disabled tools for modpack development and debugging, not needed for playing:
+#### Development tools
+These disabled mods are only for modpack development and debugging, you don't need them for playing:
 - Spark (performance profiler)
 - ProbeJS (KubeJS typings generator)
 - KubeJS Offline (KubeJS documentation generator)
+
+### Reporting bugs
+Please report bugs in the [Discord](https://discord.gg/rJb8mGTg4Q).
+- If the game crashes, the Crash Assistant window opens. Press **Upload all logs and copy a message for support** and paste the copied message into your report.
+- If there's no crash, attach `logs/latest.log` from the modpack folder. For a crash without the Crash Assistant window, also attach the newest file from `crash-reports/`.
+- Describe what you did when the problem happened, and mention any changes you made to the modpack (enabled or disabled mods, added mods, shaders).
+- For a dedicated server, attach the server's logs as well.
 
 ### AI usage
 AI tools were used while creating this modpack, namely for:
