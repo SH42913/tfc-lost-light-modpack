@@ -26958,23 +26958,23 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2536_1795265912727_app.jar",
+        "path": "local\\crash_assistant\\27104_1795274020781_app.jar",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2536_1795265912727_args.info",
+        "path": "local\\crash_assistant\\27104_1795274020781_args.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2536_1795265912727_gpu-detect-jni.dll",
+        "path": "local\\crash_assistant\\27104_1795274020781_gpu-detect-jni.dll",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2536_1795265912727_mod.jar",
+        "path": "local\\crash_assistant\\27104_1795274020781_mod.jar",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\2536_1795265912727.info",
+        "path": "local\\crash_assistant\\27104_1795274020781.info",
         "isSelected": false
       },
       {
@@ -26983,6 +26983,10 @@
       },
       {
         "path": "local\\crash_assistant\\gpu-detect-jni-README.MD",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\joined_world_pid27104.tmp",
         "isSelected": false
       },
       {
@@ -32418,15 +32422,19 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid2536.tmp",
+        "path": "local\\crash_assistant\\modlist_history\\1795274020781.json",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid2536.tmp",
+        "path": "local\\crash_assistant\\normal_stop_pid27104.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\successful_launch_pid2536.tmp",
+        "path": "local\\crash_assistant\\renderer_pid27104.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\successful_launch_pid27104.tmp",
         "isSelected": false
       },
       {
@@ -33422,23 +33430,11 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2026-11-21-3.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\crash_assistant",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-14_16-43-02.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-14_18-06-11.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-14_18-11-43.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-14_19-01-51.log.gz",
         "isSelected": false
       },
       {
@@ -33731,6 +33727,10 @@
       },
       {
         "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-21_16-06-34.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2026-11-21_16-58-39.log.gz",
         "isSelected": false
       },
       {
@@ -47334,10 +47334,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\alekiEHM-FORGE-1.20.1-1.0.6.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\alekiNiftyShips-FORGE-1.20.1-1.0.14.jar",
         "isSelected": true
       },
@@ -49586,15 +49582,7 @@
         "isSelected": true
       },
       {
-        "path": "resourcepacks\\TFC_Updated_UKR_1.1.1.zip",
-        "isSelected": true
-      },
-      {
         "path": "resourcepacks\\TFC-Patchouli-RUS-1.20.1-13-beta.zip",
-        "isSelected": true
-      },
-      {
-        "path": "resourcepacks\\Valarian_Conquest_Textures_1.20.1.zip",
         "isSelected": true
       },
       {

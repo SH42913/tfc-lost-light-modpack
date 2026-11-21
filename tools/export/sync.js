@@ -110,6 +110,28 @@ if (disabled.length) warn.push(`exported as disabled (${disabled.length}): ${dis
 for (const d of fs.readdirSync(path.join(root, 'mods'), { withFileTypes: true }))
   if (d.isDirectory() && d.name !== '.connector') warn.push(`stray folder not exported: mods/${d.name}/`);
 
+// Exported CurseForge addons whose project/file looks gone from CurseForge. The export writes them into
+// manifest.json by projectID/fileID, and CurseForge rejects the upload ("References invalid fileIDs").
+// Signs in minecraftinstance.json (refreshed by the CurseForge app, so may lag behind the site):
+// the name became a `project-<id>` placeholder, the file is marked unavailable, or a status is not Approved (4).
+try {
+  const mi = JSON.parse(fs.readFileSync(path.join(root, 'minecraftinstance.json'), 'utf8').replace(/^﻿/, ''));
+  const exported = new Set(selectedFiles.map(f => f.toLowerCase()));
+  for (const a of mi.installedAddons || []) {
+    const f = a.installedFile || {};
+    const disk = a.fileNameOnDisk || f.fileNameOnDisk || f.fileName;
+    if (!disk || !a.modFolderPath) continue;
+    const rel = path.relative(root, path.join(a.modFolderPath, disk)).split(path.sep).join('/');
+    if (!exported.has(rel.toLowerCase())) continue;
+    const why = [];
+    if (/^project-\d+$/.test(a.name)) why.push('project name is a placeholder');
+    if (f.isAvailable === false) why.push('file unavailable');
+    if (f.fileStatus != null && f.fileStatus !== 4) why.push(`fileStatus ${f.fileStatus}`);
+    if (f.projectStatus != null && f.projectStatus !== 4) why.push(`projectStatus ${f.projectStatus}`);
+    if (why.length) warn.push(`possibly removed from CurseForge (${why.join(', ')}): ${rel} — "${a.name}", projectID ${a.addonID}, fileID ${f.id}`);
+  }
+} catch (e) { warn.push(`minecraftinstance.json not readable, skipped the CurseForge availability check: ${e.message}`); }
+
 // Selected sources that git does not know about (forgot to commit?). mods/resourcepacks are git-ignored by design.
 try {
   const tracked = new Set(execSync('git ls-files -z', { cwd: root, maxBuffer: 64 << 20 })
