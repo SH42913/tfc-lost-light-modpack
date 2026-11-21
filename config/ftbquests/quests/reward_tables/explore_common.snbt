@@ -14,51 +14,24 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
+		{ count: 2, item: "tfc:gem/pyrite", weight: 3.0f }
+		{ count: 2, item: "tfc:gem/lapis_lazuli", weight: 3.0f }
+		{ count: 2, item: "tfc:gem/amethyst", weight: 3.0f }
+		{ count: 2, item: "minecraft:map", weight: 2.0f }
+		{ count: 2, item: "minecraft:lead", weight: 2.0f }
+		{ count: 3, item: "tfc:food/cooked_beef", weight: 3.0f }
+		{ count: 12, item: "tfc_arch:stone_arrow", weight: 2.0f }
 		{
-			count: 2
-			item: "tfc:gem/pyrite"
-			weight: 3f
+			item: {
+				Count: 1
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
 		}
-		{
-			count: 2
-			item: "tfc:gem/lapis_lazuli"
-			weight: 3f
-		}
-		{
-			count: 2
-			item: "tfc:gem/amethyst"
-			weight: 3f
-		}
-		{
-			count: 2
-			item: "minecraft:map"
-			weight: 2f
-		}
-		{
-			count: 2
-			item: "minecraft:lead"
-			weight: 2f
-		}
-		{
-			count: 3
-			item: "tfc:food/cooked_beef"
-			weight: 3f
-		}
-		{
-			count: 12
-			item: "tfc_arch:stone_arrow"
-			weight: 2f
-		}
-		{
-			item: "supplementaries:flute"
-		}
-		{
-			item: "sns:quiver"
-		}
-		{
-			count: 2
-			item: "tfc:ore/normal_native_copper"
-		}
+		{ item: "sns:quiver" }
+		{ count: 2, item: "tfc:ore/normal_native_copper" }
 	]
 	title: "{quests.lost_light.table.explore_common}"
 	use_title: true

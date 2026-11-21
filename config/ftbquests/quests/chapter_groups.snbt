@@ -1,34 +1,10 @@
 {
 	chapter_groups: [
-		{
-			icon: "tfc:metal/pickaxe/copper"
-			id: "5B12D878732C925A"
-			title: "{quests.lost_light.group.progress}"
-		}
-		{
-			icon: "firmalife:food/pineapple"
-			id: "3A9DDFB4EB5E8FAD"
-			title: "{quests.lost_light.group.economy}"
-		}
-		{
-			icon: "minecraft:compass"
-			id: "3B283BBEC04E42A0"
-			title: "{quests.lost_light.group.world}"
-		}
-		{
-			icon: "tfc:metal/sword/bronze"
-			id: "075658BB454D6270"
-			title: "{quests.lost_light.group.combat}"
-		}
-		{
-			icon: "minecraft:bell"
-			id: "6B67347BCB69F342"
-			title: "{quests.lost_light.group.settlements}"
-		}
-		{
-			icon: "minecraft:enchanted_book"
-			id: "4C8D6353CE248C78"
-			title: "{quests.lost_light.group.mysteries}"
-		}
+		{ icon: { Count: 1, ForgeCaps: { "tfc:item_heat": { heat: 0.0f, ticks: 0L } }, id: "tfc:metal/pickaxe/copper", tag: { Damage: 0 } }, id: "5B12D878732C925A", title: "{quests.lost_light.group.progress}" }
+		{ icon: { Count: 1, ForgeCaps: { "tfc:food": { creationDate: 6000L, traits: [ ] } }, id: "firmalife:food/pineapple" }, id: "3A9DDFB4EB5E8FAD", title: "{quests.lost_light.group.economy}" }
+		{ icon: "minecraft:compass", id: "3B283BBEC04E42A0", title: "{quests.lost_light.group.world}" }
+		{ icon: { Count: 1, ForgeCaps: { "tfc:item_heat": { heat: 0.0f, ticks: 0L } }, id: "tfc:metal/sword/bronze", tag: { Damage: 0 } }, id: "075658BB454D6270", title: "{quests.lost_light.group.combat}" }
+		{ icon: { Count: 1, ForgeCaps: { "tfc:item_heat": { heat: 0.0f, ticks: 0L } }, id: "minecraft:bell" }, id: "6B67347BCB69F342", title: "{quests.lost_light.group.settlements}" }
+		{ icon: "minecraft:enchanted_book", id: "4C8D6353CE248C78", title: "{quests.lost_light.group.mysteries}" }
 	]
 }

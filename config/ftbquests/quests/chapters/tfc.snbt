@@ -3,7 +3,19 @@
 	default_quest_shape: ""
 	filename: "tfc"
 	group: "5B12D878732C925A"
-	icon: "tfc:metal/pickaxe/copper"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/pickaxe/copper"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "55F0C7F3A13F8B85"
 	order_index: 0
 	quest_links: [ ]
@@ -18,27 +30,23 @@
 			]
 			icon: "patchouli:guide_book"
 			id: "3518B42D8DB0C1B7"
-			rewards: [
-				{
-					id: "44824D8E9E16BAE2"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "tfc:field_guide"
-						}
+			rewards: [{
+				id: "44824D8E9E16BAE2"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "tfc:field_guide"
 					}
-					title: "{quests.lost_light.tfc.welcome.reward0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.welcome.reward0}"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.welcome.subtitle}"
-			tasks: [
-				{
-					id: "18BFE02385950E2F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "18BFE02385950E2F"
+				type: "checkmark"
+			}]
 			title: "{quests.lost_light.tfc.welcome.title}"
 			x: 0.0d
 			y: 0.0d
@@ -50,7 +58,13 @@
 				""
 				"{quests.lost_light.tfc.sticks_and_stones.desc.2}"
 			]
-			icon: "tfc:stone/axe/sedimentary"
+			icon: {
+				Count: 1
+				id: "tfc:stone/axe/sedimentary"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "17BB06B956F6DCC3"
 			rewards: [
 				{
@@ -68,10 +82,16 @@
 			subtitle: "{quests.lost_light.tfc.sticks_and_stones.subtitle}"
 			tasks: [
 				{
-					icon: "tfc:stone/knife/sedimentary"
+					icon: {
+						Count: 1
+						id: "tfc:stone/knife/sedimentary"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "1047F0D25053735F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:knives)"
@@ -81,10 +101,16 @@
 					type: "item"
 				}
 				{
-					icon: "tfc:stone/axe/sedimentary"
+					icon: {
+						Count: 1
+						id: "tfc:stone/axe/sedimentary"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "620A214C5E896839"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:axes)"
@@ -94,10 +120,16 @@
 					type: "item"
 				}
 				{
-					icon: "tfc:stone/shovel/sedimentary"
+					icon: {
+						Count: 1
+						id: "tfc:stone/shovel/sedimentary"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "2BCC2EBC1A0C5949"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:shovels)"
@@ -122,19 +154,23 @@
 			]
 			icon: "tfc:firepit"
 			id: "147F9C52726A503F"
-			rewards: [
-				{
-					count: 2
-					id: "355DA05A7E3A2F9E"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "355DA05A7E3A2F9E"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.fire.subtitle}"
 			tasks: [
 				{
 					id: "652A3CEE724E53D6"
-					item: "tfc:firestarter"
+					item: {
+						Count: 1
+						id: "tfc:firestarter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -163,33 +199,55 @@
 				""
 				"{quests.lost_light.tfc.food.desc.6}"
 			]
-			icon: "tfc:food/cooked_rabbit"
-			id: "200C65104B981E08"
-			rewards: [
-				{
-					count: 4
-					id: "0C84E03C2F9E8652"
-					item: "tfc:powder/salt"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:food/cooked_rabbit"
+			}
+			id: "200C65104B981E08"
+			rewards: [{
+				count: 4
+				id: "0C84E03C2F9E8652"
+				item: "tfc:powder/salt"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.food.subtitle}"
-			tasks: [
-				{
-					count: 3L
-					icon: "tfc:food/cooked_rabbit"
-					id: "34D9D3C68D9A431B"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:food/cooked_pork)item(tfc:food/cooked_chicken)item(tfc:food/cooked_mutton)item(tfc:food/cooked_shellfish)item(tfc:food/cooked_cod)item(tfc:food/cooked_tropical_fish)item(tfc:food/cooked_bluegill)item(tfc:food/cooked_rainbow_trout)item(tfc:food/cooked_lake_trout)item(tfc:food/cooked_largemouth_bass)item(tfc:food/cooked_smallmouth_bass)item(tfc:food/cooked_crappie)item(tfc:food/cooked_salmon)item(tfc:food/cooked_bear)item(tfc:food/cooked_calamari)item(tfc:food/cooked_horse_meat)item(tfc:food/cooked_frog_legs)item(tfc:food/cooked_turtle)item(tfc:food/cooked_pheasant)item(tfc:food/cooked_turkey)item(tfc:food/cooked_peafowl)item(tfc:food/cooked_grouse)item(tfc:food/cooked_venison)item(tfc:food/cooked_wolf)item(tfc:food/cooked_rabbit)item(tfc:food/cooked_fox)item(tfc:food/cooked_hyena)item(tfc:food/cooked_duck)item(tfc:food/cooked_quail)item(tfc:food/cooked_chevon)item(tfc:food/cooked_gran_feline)item(tfc:food/cooked_camelidae))"
+			tasks: [{
+				count: 3L
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: 6000L
+							traits: [ ]
+						}
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.food.task0}"
-					type: "item"
+					id: "tfc:food/cooked_rabbit"
 				}
-			]
+				id: "34D9D3C68D9A431B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:food/cooked_pork)item(tfc:food/cooked_chicken)item(tfc:food/cooked_mutton)item(tfc:food/cooked_shellfish)item(tfc:food/cooked_cod)item(tfc:food/cooked_tropical_fish)item(tfc:food/cooked_bluegill)item(tfc:food/cooked_rainbow_trout)item(tfc:food/cooked_lake_trout)item(tfc:food/cooked_largemouth_bass)item(tfc:food/cooked_smallmouth_bass)item(tfc:food/cooked_crappie)item(tfc:food/cooked_salmon)item(tfc:food/cooked_bear)item(tfc:food/cooked_calamari)item(tfc:food/cooked_horse_meat)item(tfc:food/cooked_frog_legs)item(tfc:food/cooked_turtle)item(tfc:food/cooked_pheasant)item(tfc:food/cooked_turkey)item(tfc:food/cooked_peafowl)item(tfc:food/cooked_grouse)item(tfc:food/cooked_venison)item(tfc:food/cooked_wolf)item(tfc:food/cooked_rabbit)item(tfc:food/cooked_fox)item(tfc:food/cooked_hyena)item(tfc:food/cooked_duck)item(tfc:food/cooked_quail)item(tfc:food/cooked_chevon)item(tfc:food/cooked_gran_feline)item(tfc:food/cooked_camelidae))"
+					}
+				}
+				title: "{quests.lost_light.tfc.food.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.food.title}"
 			x: 4.5d
 			y: -4.5d
@@ -203,50 +261,45 @@
 			]
 			icon: "tfc:thatch_bed"
 			id: "095392D021F5E3A4"
-			rewards: [
-				{
-					id: "3B9F33D419F73686"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3B9F33D419F73686"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.thatch_bed.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:thatch_bed"
-					id: "7DF2E2AE7867FC8C"
-					observe_type: 0
-					timer: 20L
-					title: "{quests.lost_light.tfc.thatch_bed.task0}"
-					to_observe: "tfc:thatch_bed"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "tfc:thatch_bed"
+				id: "7DF2E2AE7867FC8C"
+				observe_type: 0
+				timer: 20L
+				title: "{quests.lost_light.tfc.thatch_bed.task0}"
+				to_observe: "tfc:thatch_bed"
+				type: "observation"
+			}]
 			title: "{quests.lost_light.tfc.thatch_bed.title}"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["095392D021F5E3A4", "6B102CCCE92C4475"]
+			dependencies: [
+				"095392D021F5E3A4"
+				"6B102CCCE92C4475"
+			]
 			description: ["{quests.lost_light.tfc.straw_bed.desc.0}"]
 			icon: "tfcsleep:straw_bed"
 			id: "0B6C73ABBEF771CC"
-			rewards: [
-				{
-					count: 16
-					id: "5BD5975C5C1BCA3E"
-					item: "tfc:straw"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "5BD5975C5C1BCA3E"
+				item: "tfc:straw"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.straw_bed.subtitle}"
-			tasks: [
-				{
-					id: "48F56BC60C4FD054"
-					item: "tfcsleep:straw_bed"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48F56BC60C4FD054"
+				item: "tfcsleep:straw_bed"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.straw_bed.title}"
 			x: 4.5d
 			y: 6.0d
@@ -260,51 +313,46 @@
 			]
 			icon: "minecraft:lead"
 			id: "50E893934D419217"
-			rewards: [
-				{
-					id: "23726459E317278F"
-					item: "minecraft:lead"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "23726459E317278F"
+				item: "minecraft:lead"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.animals.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:spawn_egg/cow"
-					id: "3C39A79B1C7E35A9"
-					observe_type: 6
-					timer: 20L
-					title: "{quests.lost_light.tfc.animals.task0}"
-					to_observe: "lost_light:quests/tfc_animals_0"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "tfc:spawn_egg/cow"
+				id: "3C39A79B1C7E35A9"
+				observe_type: 6
+				timer: 20L
+				title: "{quests.lost_light.tfc.animals.task0}"
+				to_observe: "lost_light:quests/tfc_animals_0"
+				type: "observation"
+			}]
 			title: "{quests.lost_light.tfc.animals.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["50E893934D419217", "5F4C118A6AD04C8D"]
+			dependencies: [
+				"50E893934D419217"
+				"5F4C118A6AD04C8D"
+			]
 			description: ["{quests.lost_light.tfc.dairy.desc.0}"]
 			icon: "tfc:wooden_bucket"
 			id: "6B908FB3251569AD"
-			rewards: [
-				{
-					count: 2
-					id: "5C896F44EAF20AE6"
-					item: "tfc:food/cheese"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "5C896F44EAF20AE6"
+				item: "tfc:food/cheese"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.dairy.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:wooden_bucket"
-					id: "47A54352E99C85A3"
-					title: "{quests.lost_light.tfc.dairy.task0}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				icon: "tfc:wooden_bucket"
+				id: "47A54352E99C85A3"
+				title: "{quests.lost_light.tfc.dairy.task0}"
+				type: "custom"
+			}]
 			title: "{quests.lost_light.tfc.dairy.title}"
 			x: 10.5d
 			y: -3.0d
@@ -316,31 +364,39 @@
 				""
 				"{quests.lost_light.tfc.clay.desc.2}"
 			]
-			icon: "minecraft:clay_ball"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:clay_ball"
+			}
 			id: "1751C2AAC63810D6"
-			rewards: [
-				{
-					count: 16
-					id: "37397D7742609840"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "37397D7742609840"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.clay.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					id: "09C6AFA7400837C4"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "09C6AFA7400837C4"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.clay.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["147F9C52726A503F", "1751C2AAC63810D6"]
+			dependencies: [
+				"147F9C52726A503F"
+				"1751C2AAC63810D6"
+			]
 			description: ["{quests.lost_light.tfc.pot.desc.0}"]
 			icon: "tfc:ceramic/pot"
 			id: "3FB7FBA5F0DA29D5"
@@ -378,31 +434,71 @@
 		{
 			dependencies: ["3FB7FBA5F0DA29D5"]
 			description: ["{quests.lost_light.tfc.soup.desc.0}"]
-			icon: "tfc:food/grain_soup"
-			id: "57F1F8790FC6AA15"
-			rewards: [
-				{
-					id: "5592E4DFE7E1ADE1"
-					item: "tfc:food/cooked_beef"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -2L
+						foodData: {
+							dairy: 0.0f
+							decay: 0.0f
+							food: 0
+							fruit: 0.0f
+							grain: 0.0f
+							meat: 0.0f
+							sat: 0.0f
+							veg: 0.0f
+							water: 0.0f
+						}
+						ingredients: [ ]
+						traits: [ ]
+					}
 				}
-			]
+				id: "tfc:food/grain_soup"
+				tag: { }
+			}
+			id: "57F1F8790FC6AA15"
+			rewards: [{
+				id: "5592E4DFE7E1ADE1"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.soup.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:food/grain_soup"
-					id: "5FE45F246A656CA4"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:food/grain_soup)item(tfc:food/fruit_soup)item(tfc:food/vegetables_soup)item(tfc:food/protein_soup)item(tfc:food/dairy_soup))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							foodData: {
+								dairy: 0.0f
+								decay: 0.0f
+								food: 0
+								fruit: 0.0f
+								grain: 0.0f
+								meat: 0.0f
+								sat: 0.0f
+								veg: 0.0f
+								water: 0.0f
+							}
+							ingredients: [ ]
+							traits: [ ]
 						}
 					}
-					title: "{quests.lost_light.tfc.soup.task0}"
-					type: "item"
+					id: "tfc:food/grain_soup"
+					tag: { }
 				}
-			]
+				id: "5FE45F246A656CA4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:food/grain_soup)item(tfc:food/fruit_soup)item(tfc:food/vegetables_soup)item(tfc:food/protein_soup)item(tfc:food/dairy_soup))"
+					}
+				}
+				title: "{quests.lost_light.tfc.soup.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.soup.title}"
 			x: 6.0d
 			y: -1.5d
@@ -410,23 +506,39 @@
 		{
 			dependencies: ["17BB06B956F6DCC3"]
 			description: ["{quests.lost_light.tfc.first_ores.desc.0}"]
-			icon: "tfc:ore/small_native_copper"
-			id: "363DA4A9F6DC7E41"
-			rewards: [
-				{
-					count: 4
-					id: "0F307DEDC0C56463"
-					item: "tfc:ore/normal_cassiterite"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:ore/small_native_copper"
+			}
+			id: "363DA4A9F6DC7E41"
+			rewards: [{
+				count: 4
+				id: "0F307DEDC0C56463"
+				item: "tfc:ore/normal_cassiterite"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.first_ores.subtitle}"
 			tasks: [
 				{
-					icon: "tfc:ore/small_native_copper"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ore/small_native_copper"
+					}
 					id: "3D450CC4F2D04A43"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_copper)item(tfc:ore/small_malachite)item(tfc:ore/small_tetrahedrite))"
@@ -436,10 +548,19 @@
 					type: "item"
 				}
 				{
-					icon: "tfc:ore/small_cassiterite"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ore/small_cassiterite"
+					}
 					id: "1EC726294CAE41BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_cassiterite)item(tfc:ore/small_bismuthinite)item(tfc:ore/small_sphalerite))"
@@ -458,14 +579,12 @@
 			description: ["{quests.lost_light.tfc.panning.desc.0}"]
 			icon: "tfc:pan/empty"
 			id: "3144D7A6560755EC"
-			rewards: [
-				{
-					count: 2
-					id: "5DA70F309480E7E8"
-					item: "tfc:ore/normal_cassiterite"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "5DA70F309480E7E8"
+				item: "tfc:ore/normal_cassiterite"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.panning.subtitle}"
 			tasks: [
 				{
@@ -475,10 +594,19 @@
 				}
 				{
 					count: 3L
-					icon: "tfc:ore/small_native_copper"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ore/small_native_copper"
+					}
 					id: "713C79BCB4A557F0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(tfc:ore/small_native_copper)item(tfc:ore/small_cassiterite)item(tfc:ore/small_native_gold)item(tfc:ore/small_native_silver))"
@@ -493,21 +621,31 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1751C2AAC63810D6", "147F9C52726A503F"]
+			dependencies: [
+				"1751C2AAC63810D6"
+				"147F9C52726A503F"
+			]
 			description: [
 				"{quests.lost_light.tfc.vessel.desc.0}"
 				""
 				"{quests.lost_light.tfc.vessel.desc.2}"
 			]
-			icon: "tfc:ceramic/vessel"
-			id: "25FB0664871B83DF"
-			rewards: [
-				{
-					id: "2E4AD544C0129257"
-					item: "tfc:ceramic/large_vessel"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:ceramic/vessel"
+			}
+			id: "25FB0664871B83DF"
+			rewards: [{
+				id: "2E4AD544C0129257"
+				item: "tfc:ceramic/large_vessel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.vessel.subtitle}"
 			tasks: [
 				{
@@ -534,52 +672,66 @@
 			]
 			icon: "minecraft:charcoal"
 			id: "3AECBD11209EDDDF"
-			rewards: [
-				{
-					count: 16
-					id: "59F6AF4C857F14D2"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "59F6AF4C857F14D2"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.charcoal_pit.subtitle}"
-			tasks: [
-				{
-					count: 9L
-					id: "3EA896EE6A07EE92"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 9L
+				id: "3EA896EE6A07EE92"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.charcoal_pit.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["25FB0664871B83DF", "3AECBD11209EDDDF", "363DA4A9F6DC7E41"]
+			dependencies: [
+				"25FB0664871B83DF"
+				"3AECBD11209EDDDF"
+				"363DA4A9F6DC7E41"
+			]
 			description: [
 				"{quests.lost_light.tfc.copper_pickaxe.desc.0}"
 				""
 				"{quests.lost_light.tfc.copper_pickaxe.desc.2}"
 			]
-			icon: "tfc:metal/pickaxe/copper"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/pickaxe/copper"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3B3AA8AF841D2669"
-			rewards: [
-				{
-					id: "1A805466E724F3EF"
-					item: "tfc:metal/ingot/copper"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A805466E724F3EF"
+				item: "tfc:metal/ingot/copper"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.copper_pickaxe.subtitle}"
-			tasks: [
-				{
-					id: "3F26E722C8D12C8C"
-					item: "tfc:metal/pickaxe/copper"
-					only_from_crafting: true
-					type: "item"
+			tasks: [{
+				id: "3F26E722C8D12C8C"
+				item: {
+					Count: 1
+					id: "tfc:metal/pickaxe/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				only_from_crafting: true
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.copper_pickaxe.title}"
 			x: 6.0d
 			y: 0.0d
@@ -587,7 +739,19 @@
 		{
 			dependencies: ["3B3AA8AF841D2669"]
 			description: ["{quests.lost_light.tfc.saw.desc.0}"]
-			icon: "tfc:metal/saw/copper"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/saw/copper"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6B102CCCE92C4475"
 			rewards: [
 				{
@@ -603,14 +767,18 @@
 				}
 			]
 			subtitle: "{quests.lost_light.tfc.saw.subtitle}"
-			tasks: [
-				{
-					id: "2BD6A79D907DD1D8"
-					item: "tfc:metal/saw/copper"
-					only_from_crafting: true
-					type: "item"
+			tasks: [{
+				id: "2BD6A79D907DD1D8"
+				item: {
+					Count: 1
+					id: "tfc:metal/saw/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				only_from_crafting: true
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.saw.title}"
 			x: 7.5d
 			y: -1.5d
@@ -620,31 +788,27 @@
 			description: ["{quests.lost_light.tfc.raw_rock.desc.0}"]
 			icon: "tfc:rock/raw/granite"
 			id: "579BC6C703536611"
-			rewards: [
-				{
-					count: 16
-					id: "50B104DCF6D16843"
-					item: "tfc:mortar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "50B104DCF6D16843"
+				item: "tfc:mortar"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.raw_rock.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					icon: "tfc:rock/raw/granite"
-					id: "639CFCED7C26F7DD"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:rock/raw)"
-						}
+			tasks: [{
+				count: 16L
+				icon: "tfc:rock/raw/granite"
+				id: "639CFCED7C26F7DD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:rock/raw)"
 					}
-					title: "{quests.lost_light.tfc.raw_rock.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.raw_rock.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.raw_rock.title}"
 			x: 7.5d
 			y: 0.0d
@@ -654,20 +818,30 @@
 			description: ["{quests.lost_light.tfc.chiseling.desc.0}"]
 			icon: "tfc:rock/smooth/marble"
 			id: "5CACAF8442B94ABA"
-			rewards: [
-				{
-					id: "06AEC973BB040064"
-					item: "tfc:metal/ingot/copper"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "06AEC973BB040064"
+				item: "tfc:metal/ingot/copper"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.chiseling.subtitle}"
 			tasks: [
 				{
-					icon: "tfc:metal/hammer/copper"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/hammer/copper"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "150A35EA625A82A3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:hammers)"
@@ -677,10 +851,22 @@
 					type: "item"
 				}
 				{
-					icon: "tfc:metal/chisel/copper"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/chisel/copper"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "2AB28631529094CF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:chisels)"
@@ -694,7 +880,7 @@
 					icon: "tfc:rock/smooth/marble"
 					id: "188CEFF2A66EEAF3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:rock/smooth)"
@@ -713,14 +899,12 @@
 			description: ["{quests.lost_light.tfc.quern.desc.0}"]
 			icon: "tfc:quern"
 			id: "069D6DD1E9BF8A8E"
-			rewards: [
-				{
-					count: 8
-					id: "30E6A2DF5E7B11B3"
-					item: "tfc:powder/flux"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "30E6A2DF5E7B11B3"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.quern.subtitle}"
 			tasks: [
 				{
@@ -730,7 +914,13 @@
 				}
 				{
 					id: "29D04553E1445EAC"
-					item: "tfc:handstone"
+					item: {
+						Count: 1
+						id: "tfc:handstone"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -743,31 +933,27 @@
 			description: ["{quests.lost_light.tfc.aqueducts.desc.0}"]
 			icon: "tfc:rock/aqueduct/limestone"
 			id: "21A6AAD76CBD82D3"
-			rewards: [
-				{
-					count: 16
-					id: "1778E45E5E311D0D"
-					item: "tfc:mortar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "1778E45E5E311D0D"
+				item: "tfc:mortar"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.aqueducts.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					icon: "tfc:rock/aqueduct/limestone"
-					id: "75D38B64744E8E88"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:rock/aqueduct/granite)item(tfc:rock/aqueduct/diorite)item(tfc:rock/aqueduct/gabbro)item(tfc:rock/aqueduct/shale)item(tfc:rock/aqueduct/claystone)item(tfc:rock/aqueduct/limestone)item(tfc:rock/aqueduct/conglomerate)item(tfc:rock/aqueduct/dolomite)item(tfc:rock/aqueduct/chert)item(tfc:rock/aqueduct/chalk)item(tfc:rock/aqueduct/rhyolite)item(tfc:rock/aqueduct/basalt)item(tfc:rock/aqueduct/andesite)item(tfc:rock/aqueduct/dacite)item(tfc:rock/aqueduct/quartzite)item(tfc:rock/aqueduct/slate)item(tfc:rock/aqueduct/phyllite)item(tfc:rock/aqueduct/schist)item(tfc:rock/aqueduct/gneiss)item(tfc:rock/aqueduct/marble))"
-						}
+			tasks: [{
+				count: 16L
+				icon: "tfc:rock/aqueduct/limestone"
+				id: "75D38B64744E8E88"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:rock/aqueduct/granite)item(tfc:rock/aqueduct/diorite)item(tfc:rock/aqueduct/gabbro)item(tfc:rock/aqueduct/shale)item(tfc:rock/aqueduct/claystone)item(tfc:rock/aqueduct/limestone)item(tfc:rock/aqueduct/conglomerate)item(tfc:rock/aqueduct/dolomite)item(tfc:rock/aqueduct/chert)item(tfc:rock/aqueduct/chalk)item(tfc:rock/aqueduct/rhyolite)item(tfc:rock/aqueduct/basalt)item(tfc:rock/aqueduct/andesite)item(tfc:rock/aqueduct/dacite)item(tfc:rock/aqueduct/quartzite)item(tfc:rock/aqueduct/slate)item(tfc:rock/aqueduct/phyllite)item(tfc:rock/aqueduct/schist)item(tfc:rock/aqueduct/gneiss)item(tfc:rock/aqueduct/marble))"
 					}
-					title: "{quests.lost_light.tfc.aqueducts.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.aqueducts.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.aqueducts.title}"
 			x: 10.5d
 			y: 1.5d
@@ -778,14 +964,12 @@
 			icon: "tfc:alabaster/raw"
 			id: "030167B2AF5D93FA"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "5F8A7C1DCB50865A"
-					item: "tfc:mortar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "5F8A7C1DCB50865A"
+				item: "tfc:mortar"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.alabaster.subtitle}"
 			tasks: [
 				{
@@ -811,14 +995,12 @@
 			icon: "minecraft:white_concrete"
 			id: "57F1E00817D83532"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "7C3D0C884A6B033A"
-					item: "tfc:mortar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "7C3D0C884A6B033A"
+				item: "tfc:mortar"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.concrete.subtitle}"
 			tasks: [
 				{
@@ -843,22 +1025,18 @@
 			description: ["{quests.lost_light.tfc.wooden_bucket.desc.0}"]
 			icon: "tfc:wooden_bucket"
 			id: "5F4C118A6AD04C8D"
-			rewards: [
-				{
-					count: 4
-					id: "61C69057813C9A92"
-					item: "tfc:glue"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "61C69057813C9A92"
+				item: "tfc:glue"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.wooden_bucket.subtitle}"
-			tasks: [
-				{
-					id: "1C36B7489311DDF4"
-					item: "tfc:wooden_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C36B7489311DDF4"
+				item: "tfc:wooden_bucket"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.wooden_bucket.title}"
 			x: 9.0d
 			y: -6.0d
@@ -868,37 +1046,36 @@
 			description: ["{quests.lost_light.tfc.barrels.desc.0}"]
 			icon: "tfc:wood/barrel/oak"
 			id: "20BA7EBDB378E2DC"
-			rewards: [
-				{
-					count: 8
-					id: "048F673C862F9049"
-					item: "tfc:powder/salt"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "048F673C862F9049"
+				item: "tfc:powder/salt"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.barrels.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					icon: "tfc:wood/barrel/oak"
-					id: "4743F5E5EFF92361"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:barrels)"
-						}
+			tasks: [{
+				count: 4L
+				icon: "tfc:wood/barrel/oak"
+				id: "4743F5E5EFF92361"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:barrels)"
 					}
-					title: "{quests.lost_light.tfc.barrels.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.barrels.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.barrels.title}"
 			x: 10.5d
 			y: -6.0d
 		}
 		{
-			dependencies: ["6B102CCCE92C4475", "147F9C52726A503F"]
+			dependencies: [
+				"6B102CCCE92C4475"
+				"147F9C52726A503F"
+			]
 			description: [
 				"{quests.lost_light.tfc.canoe.desc.0}"
 				""
@@ -906,14 +1083,12 @@
 			]
 			icon: "firmaciv:canoe_paddle"
 			id: "18081AA054516596"
-			rewards: [
-				{
-					count: 2
-					id: "34D38E27ED784B30"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "34D38E27ED784B30"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.canoe.subtitle}"
 			tasks: [
 				{
@@ -936,19 +1111,20 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["18081AA054516596", "45460FD55EB4A912"]
+			dependencies: [
+				"18081AA054516596"
+				"45460FD55EB4A912"
+			]
 			description: ["{quests.lost_light.tfc.kayak.desc.0}"]
 			icon: "firmaciv:kayak_paddle"
 			id: "6E9B54070F5912C7"
 			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "35EF70D850F0C047"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "35EF70D850F0C047"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.kayak.subtitle}"
 			tasks: [
 				{
@@ -986,22 +1162,20 @@
 				}
 			]
 			subtitle: "{quests.lost_light.tfc.support_beams.subtitle}"
-			tasks: [
-				{
-					count: 32L
-					icon: "tfc:wood/support/oak"
-					id: "4C72B60187CEFCEA"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:support_beams)"
-						}
+			tasks: [{
+				count: 32L
+				icon: "tfc:wood/support/oak"
+				id: "4C72B60187CEFCEA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:support_beams)"
 					}
-					title: "{quests.lost_light.tfc.support_beams.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.support_beams.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.support_beams.title}"
 			x: 9.0d
 			y: -4.5d
@@ -1011,40 +1185,37 @@
 			description: ["{quests.lost_light.tfc.wattle.desc.0}"]
 			icon: "tfc:wattle"
 			id: "717A8C67B00A98B1"
-			rewards: [
-				{
-					count: 32
-					id: "44DA456E0B8D9893"
-					item: "tfc:straw"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "44DA456E0B8D9893"
+				item: "tfc:straw"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.wattle.subtitle}"
-			tasks: [
-				{
-					count: 8L
-					id: "19DBE8D9299D13BB"
-					item: "tfc:wattle"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "19DBE8D9299D13BB"
+				item: "tfc:wattle"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.wattle.title}"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["717A8C67B00A98B1", "1751C2AAC63810D6"]
+			dependencies: [
+				"717A8C67B00A98B1"
+				"1751C2AAC63810D6"
+			]
 			description: ["{quests.lost_light.tfc.daub.desc.0}"]
 			icon: "tfc:wattle/unstained"
 			id: "400A51BA86E33B11"
-			rewards: [
-				{
-					count: 16
-					id: "4E56F5B2B6AAE956"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "4E56F5B2B6AAE956"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.daub.subtitle}"
 			tasks: [
 				{
@@ -1067,24 +1238,32 @@
 		{
 			dependencies: ["1751C2AAC63810D6"]
 			description: ["{quests.lost_light.tfc.spindle.desc.0}"]
-			icon: "tfc:spindle"
+			icon: {
+				Count: 1
+				id: "tfc:spindle"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2624BBAA94AB56FF"
-			rewards: [
-				{
-					count: 2
-					id: "1B95948301CCAD0E"
-					item: "tfc:wool_cloth"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "1B95948301CCAD0E"
+				item: "tfc:wool_cloth"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.spindle.subtitle}"
-			tasks: [
-				{
-					id: "7121776FE35909CA"
-					item: "tfc:spindle"
-					type: "item"
+			tasks: [{
+				id: "7121776FE35909CA"
+				item: {
+					Count: 1
+					id: "tfc:spindle"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.spindle.title}"
 			x: 4.5d
 			y: 3.0d
@@ -1096,16 +1275,23 @@
 				""
 				"{quests.lost_light.tfc.sacks.desc.2}"
 			]
-			icon: "sns:burlap_sack"
-			id: "554B13029D558AAD"
-			rewards: [
-				{
-					count: 2
-					id: "74BDE4455D69901D"
-					item: "tfc:burlap_cloth"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						voidSlots: [I; ]
+					}
 				}
-			]
+				id: "sns:burlap_sack"
+			}
+			id: "554B13029D558AAD"
+			rewards: [{
+				count: 2
+				id: "74BDE4455D69901D"
+				item: "tfc:burlap_cloth"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.sacks.subtitle}"
 			tasks: [
 				{
@@ -1128,48 +1314,52 @@
 			description: ["{quests.lost_light.tfc.leather.desc.0}"]
 			icon: "minecraft:leather"
 			id: "45460FD55EB4A912"
-			rewards: [
-				{
-					count: 2
-					id: "0AB51A5B9873D49B"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0AB51A5B9873D49B"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.leather.subtitle}"
-			tasks: [
-				{
-					count: 3L
-					id: "707E47BE46A3F7D0"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "707E47BE46A3F7D0"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.leather.title}"
 			x: 12.0d
 			y: -7.5d
 		}
 		{
-			dependencies: ["554B13029D558AAD", "45460FD55EB4A912"]
+			dependencies: [
+				"554B13029D558AAD"
+				"45460FD55EB4A912"
+			]
 			description: ["{quests.lost_light.tfc.leather_sack.desc.0}"]
-			icon: "sns:leather_sack"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						voidSlots: [I; ]
+					}
+				}
+				id: "sns:leather_sack"
+			}
 			id: "6A38E4DCAF4B6337"
-			rewards: [
-				{
-					count: 3
-					id: "7F0B6BEE394C0916"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "7F0B6BEE394C0916"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.leather_sack.subtitle}"
-			tasks: [
-				{
-					id: "2404BCFD860C66BA"
-					item: "sns:leather_sack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2404BCFD860C66BA"
+				item: "sns:leather_sack"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.leather_sack.title}"
 			x: 13.5d
 			y: -6.0d
@@ -1181,140 +1371,144 @@
 				""
 				"{quests.lost_light.tfc.water_flask.desc.2}"
 			]
-			icon: "waterflasks:leather_flask"
+			icon: {
+				Count: 1
+				id: "waterflasks:leather_flask"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "17A9AE7434DDF318"
-			rewards: [
-				{
-					count: 2
-					id: "58E7E5A0A78A1A48"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "58E7E5A0A78A1A48"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.water_flask.subtitle}"
-			tasks: [
-				{
-					id: "33720A9226098D6D"
-					item: "waterflasks:leather_flask"
-					type: "item"
+			tasks: [{
+				id: "33720A9226098D6D"
+				item: {
+					Count: 1
+					id: "waterflasks:leather_flask"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.water_flask.title}"
 			x: 13.5d
 			y: -9.0d
 		}
 		{
-			dependencies: ["2624BBAA94AB56FF", "6B102CCCE92C4475"]
+			dependencies: [
+				"2624BBAA94AB56FF"
+				"6B102CCCE92C4475"
+			]
 			description: ["{quests.lost_light.tfc.bed.desc.0}"]
 			icon: "minecraft:red_bed"
 			id: "50A87B4B10FDD66C"
-			rewards: [
-				{
-					count: 3
-					id: "3091A89C4D3C9260"
-					item: "tfc:wool_cloth"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "3091A89C4D3C9260"
+				item: "tfc:wool_cloth"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.bed.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:white_bed"
-					id: "0D5CAE3BEC8390FD"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(minecraft:beds)"
-						}
+			tasks: [{
+				icon: "minecraft:white_bed"
+				id: "0D5CAE3BEC8390FD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(minecraft:beds)"
 					}
-					title: "{quests.lost_light.tfc.bed.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.bed.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.bed.title}"
 			x: 9.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3AECBD11209EDDDF", "5CACAF8442B94ABA"]
+			dependencies: [
+				"3AECBD11209EDDDF"
+				"5CACAF8442B94ABA"
+			]
 			description: ["{quests.lost_light.tfc.charcoal_forge.desc.0}"]
 			icon: "minecraft:charcoal"
 			id: "333D48A5EED26956"
-			rewards: [
-				{
-					count: 16
-					id: "66A7761E57FF7E4B"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "66A7761E57FF7E4B"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.charcoal_forge.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:charcoal"
-					id: "4E979D5BFAAF3503"
-					observe_type: 0
-					timer: 20L
-					title: "{quests.lost_light.tfc.charcoal_forge.task0}"
-					to_observe: "tfc:charcoal_forge"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:charcoal"
+				id: "4E979D5BFAAF3503"
+				observe_type: 0
+				timer: 20L
+				title: "{quests.lost_light.tfc.charcoal_forge.task0}"
+				to_observe: "tfc:charcoal_forge"
+				type: "observation"
+			}]
 			title: "{quests.lost_light.tfc.charcoal_forge.title}"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["5CACAF8442B94ABA", "333D48A5EED26956"]
+			dependencies: [
+				"5CACAF8442B94ABA"
+				"333D48A5EED26956"
+			]
 			description: ["{quests.lost_light.tfc.stone_anvil.desc.0}"]
 			icon: "tfc:rock/anvil/granite"
 			id: "72AA9589B734E7DE"
-			rewards: [
-				{
-					count: 16
-					id: "2B69A2710E5F2B70"
-					item: "tfc:powder/flux"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "2B69A2710E5F2B70"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.stone_anvil.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:rock/anvil/granite"
-					id: "623E53CC76956ABB"
-					observe_type: 1
-					timer: 20L
-					title: "{quests.lost_light.tfc.stone_anvil.task0}"
-					to_observe: "tfc:rock_anvils"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "tfc:rock/anvil/granite"
+				id: "623E53CC76956ABB"
+				observe_type: 1
+				timer: 20L
+				title: "{quests.lost_light.tfc.stone_anvil.task0}"
+				to_observe: "tfc:rock_anvils"
+				type: "observation"
+			}]
 			title: "{quests.lost_light.tfc.stone_anvil.title}"
 			x: 12.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["333D48A5EED26956", "45460FD55EB4A912"]
+			dependencies: [
+				"333D48A5EED26956"
+				"45460FD55EB4A912"
+			]
 			description: ["{quests.lost_light.tfc.bellows.desc.0}"]
 			icon: "tfc:bellows"
 			id: "0C38BA5687563812"
-			rewards: [
-				{
-					count: 16
-					id: "525338BBD9DBA072"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "525338BBD9DBA072"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.bellows.subtitle}"
-			tasks: [
-				{
-					id: "261C46111052FF88"
-					item: "tfc:bellows"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "261C46111052FF88"
+				item: "tfc:bellows"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.bellows.title}"
 			x: 13.5d
 			y: -3.0d
@@ -1326,64 +1520,95 @@
 				""
 				"{quests.lost_light.tfc.bronze.desc.2}"
 			]
-			icon: "tfc:metal/ingot/bronze"
-			id: "050F289F065E38D8"
-			rewards: [
-				{
-					id: "70EEF4CB9ED84EDB"
-					item: "tfc:metal/ingot/bronze"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/ingot/bronze"
+			}
+			id: "050F289F065E38D8"
+			rewards: [{
+				id: "70EEF4CB9ED84EDB"
+				item: "tfc:metal/ingot/bronze"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.bronze.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/ingot/bronze"
-					id: "4B29C9081B96EFA0"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:metal/ingot/bronze)item(tfc:metal/ingot/bismuth_bronze)item(tfc:metal/ingot/black_bronze))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.bronze.task0}"
-					type: "item"
+					id: "tfc:metal/ingot/bronze"
 				}
-			]
+				id: "4B29C9081B96EFA0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:metal/ingot/bronze)item(tfc:metal/ingot/bismuth_bronze)item(tfc:metal/ingot/black_bronze))"
+					}
+				}
+				title: "{quests.lost_light.tfc.bronze.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.bronze.title}"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["72AA9589B734E7DE", "050F289F065E38D8"]
-			description: ["{quests.lost_light.tfc.metal_anvil.desc.0}"]
-			icon: "tfc:metal/anvil/bronze"
-			id: "33018BAD796A3823"
-			rewards: [
-				{
-					count: 2
-					id: "756E211900FACCA7"
-					item: "tfc:metal/ingot/bronze"
-					type: "item"
-				}
+			dependencies: [
+				"72AA9589B734E7DE"
+				"050F289F065E38D8"
 			]
+			description: ["{quests.lost_light.tfc.metal_anvil.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/bronze"
+			}
+			id: "33018BAD796A3823"
+			rewards: [{
+				count: 2
+				id: "756E211900FACCA7"
+				item: "tfc:metal/ingot/bronze"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.metal_anvil.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/anvil/bronze"
-					id: "5177DFBC3C70CE61"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:metal/anvil/copper)item(tfc:metal/anvil/bronze)item(tfc:metal/anvil/bismuth_bronze)item(tfc:metal/anvil/black_bronze))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.metal_anvil.task0}"
-					type: "item"
+					id: "tfc:metal/anvil/bronze"
 				}
-			]
+				id: "5177DFBC3C70CE61"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:metal/anvil/copper)item(tfc:metal/anvil/bronze)item(tfc:metal/anvil/bismuth_bronze)item(tfc:metal/anvil/black_bronze))"
+					}
+				}
+				title: "{quests.lost_light.tfc.metal_anvil.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.metal_anvil.title}"
 			x: 13.5d
 			y: -1.5d
@@ -1391,42 +1616,48 @@
 		{
 			dependencies: ["050F289F065E38D8"]
 			description: ["{quests.lost_light.tfc.brass.desc.0}"]
-			icon: "tfc:metal/ingot/brass"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/brass"
+			}
 			id: "418AC9119509508A"
-			rewards: [
-				{
-					count: 2
-					id: "0830F93024EB457C"
-					item: "tfc:metal/ingot/brass"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0830F93024EB457C"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.brass.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "13E931DE19E95D62"
-					item: "tfc:metal/ingot/brass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "13E931DE19E95D62"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.brass.title}"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["333D48A5EED26956", "069D6DD1E9BF8A8E"]
+			dependencies: [
+				"333D48A5EED26956"
+				"069D6DD1E9BF8A8E"
+			]
 			description: ["{quests.lost_light.tfc.glassblowing.desc.0}"]
 			icon: "tfc:ceramic_blowpipe"
 			id: "0563DD341FA3CE1C"
-			rewards: [
-				{
-					count: 8
-					id: "477283858AA8F570"
-					item: "tfc:powder/flux"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "477283858AA8F570"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.glassblowing.subtitle}"
 			tasks: [
 				{
@@ -1438,7 +1669,7 @@
 					icon: "tfc:silica_glass_batch"
 					id: "6E1068836BE1AE65"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:glass_batches)"
@@ -1457,135 +1688,165 @@
 			description: ["{quests.lost_light.tfc.glass_bottle.desc.0}"]
 			icon: "tfc:silica_glass_bottle"
 			id: "780D32A8B2F4EA74"
-			rewards: [
-				{
-					count: 8
-					id: "5DC4CBCBD823D21D"
-					item: "tfc:powder/flux"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "5DC4CBCBD823D21D"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.glass_bottle.subtitle}"
-			tasks: [
-				{
-					count: 5L
-					icon: "tfc:silica_glass_bottle"
-					id: "6A2172D88AA8BBF8"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:glass_bottles)"
-						}
+			tasks: [{
+				count: 5L
+				icon: "tfc:silica_glass_bottle"
+				id: "6A2172D88AA8BBF8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:glass_bottles)"
 					}
-					title: "{quests.lost_light.tfc.glass_bottle.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.glass_bottle.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.glass_bottle.title}"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0563DD341FA3CE1C", "418AC9119509508A"]
+			dependencies: [
+				"0563DD341FA3CE1C"
+				"418AC9119509508A"
+			]
 			description: ["{quests.lost_light.tfc.glass.desc.0}"]
 			icon: "minecraft:glass"
 			id: "71E05063B9046AA8"
-			rewards: [
-				{
-					id: "2EBB4AEAA4DA39B5"
-					item: "tfc:metal/ingot/brass"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2EBB4AEAA4DA39B5"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.glass.subtitle}"
-			tasks: [
-				{
-					count: 8L
-					id: "10EFC973AB484058"
-					item: "minecraft:glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "10EFC973AB484058"
+				item: "minecraft:glass"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.glass.title}"
 			x: 13.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["0563DD341FA3CE1C", "33018BAD796A3823"]
+			dependencies: [
+				"0563DD341FA3CE1C"
+				"33018BAD796A3823"
+			]
 			description: [
 				"{quests.lost_light.tfc.lamps.desc.0}"
 				""
 				"{quests.lost_light.tfc.lamps.desc.2}"
 			]
-			icon: "tfc:metal/lamp/copper"
-			id: "449FC70C2857EF7C"
-			rewards: [
-				{
-					count: 8
-					id: "1A5BD1E9920265F8"
-					item: "tfc:blubber"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/lamp/copper"
+			}
+			id: "449FC70C2857EF7C"
+			rewards: [{
+				count: 8
+				id: "1A5BD1E9920265F8"
+				item: "tfc:blubber"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.lamps.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/lamp/copper"
-					id: "2E74F5E14A54563F"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:lamps)"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.lamps.task0}"
-					type: "item"
+					id: "tfc:metal/lamp/copper"
 				}
-			]
+				id: "2E74F5E14A54563F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:lamps)"
+					}
+				}
+				title: "{quests.lost_light.tfc.lamps.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.lamps.title}"
 			x: 15.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["71E05063B9046AA8", "33018BAD796A3823"]
+			dependencies: [
+				"71E05063B9046AA8"
+				"33018BAD796A3823"
+			]
 			description: ["{quests.lost_light.tfc.barometer.desc.0}"]
-			icon: "firmaciv:barometer"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:barometer"
+			}
 			id: "704BCF8A1AAFC62F"
 			optional: true
-			rewards: [
-				{
-					id: "3AFD57B28219960A"
-					item: "tfc:metal/ingot/brass"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3AFD57B28219960A"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.barometer.subtitle}"
-			tasks: [
-				{
-					id: "05E52C6C4BEA3FC2"
-					item: "firmaciv:barometer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05E52C6C4BEA3FC2"
+				item: "firmaciv:barometer"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.barometer.title}"
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["418AC9119509508A", "33018BAD796A3823"]
+			dependencies: [
+				"418AC9119509508A"
+				"33018BAD796A3823"
+			]
 			description: ["{quests.lost_light.tfc.navigation.desc.0}"]
-			icon: "firmaciv:sextant"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmaciv:sextant"
+			}
 			id: "0C5436C66631405D"
 			optional: true
-			rewards: [
-				{
-					id: "67B1858E500CDBFE"
-					item: "tfc:metal/ingot/brass"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "67B1858E500CDBFE"
+				item: "tfc:metal/ingot/brass"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.navigation.subtitle}"
 			tasks: [
 				{
@@ -1610,16 +1871,23 @@
 				""
 				"{quests.lost_light.tfc.kaolin_and_graphite.desc.2}"
 			]
-			icon: "tfc:kaolin_clay"
-			id: "1DFAAB13B4F73490"
-			rewards: [
-				{
-					count: 8
-					id: "6F18FF15EB0E46A2"
-					item: "tfc:fire_clay"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:kaolin_clay"
+			}
+			id: "1DFAAB13B4F73490"
+			rewards: [{
+				count: 8
+				id: "6F18FF15EB0E46A2"
+				item: "tfc:fire_clay"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.kaolin_and_graphite.subtitle}"
 			tasks: [
 				{
@@ -1644,39 +1912,45 @@
 			description: ["{quests.lost_light.tfc.crucible.desc.0}"]
 			icon: "tfc:crucible"
 			id: "023448EA16A68A34"
-			rewards: [
-				{
-					count: 8
-					id: "198F4B057588BBEF"
-					item: "tfc:fire_clay"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "198F4B057588BBEF"
+				item: "tfc:fire_clay"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.crucible.subtitle}"
-			tasks: [
-				{
-					id: "17C2F54AAD0A68B8"
-					item: "tfc:crucible"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17C2F54AAD0A68B8"
+				item: "tfc:crucible"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.crucible.title}"
 			x: 10.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["33018BAD796A3823", "0C38BA5687563812"]
-			description: ["{quests.lost_light.tfc.wrought_iron.desc.0}"]
-			icon: "tfc:metal/ingot/wrought_iron"
-			id: "4196DA67E409F5BA"
-			rewards: [
-				{
-					count: 2
-					id: "00C4CAA893AE9492"
-					item: "tfc:metal/ingot/wrought_iron"
-					type: "item"
-				}
+			dependencies: [
+				"33018BAD796A3823"
+				"0C38BA5687563812"
 			]
+			description: ["{quests.lost_light.tfc.wrought_iron.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/wrought_iron"
+			}
+			id: "4196DA67E409F5BA"
+			rewards: [{
+				count: 2
+				id: "00C4CAA893AE9492"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.wrought_iron.subtitle}"
 			tasks: [
 				{
@@ -1698,25 +1972,47 @@
 		{
 			dependencies: ["4196DA67E409F5BA"]
 			description: ["{quests.lost_light.tfc.iron_tools.desc.0}"]
-			icon: "tfc:metal/knife/wrought_iron"
-			id: "69AA352D67A7EC2E"
-			rewards: [
-				{
-					id: "0A1CCBEC16A8848E"
-					item: "tfc:metal/ingot/wrought_iron"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/knife/wrought_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69AA352D67A7EC2E"
+			rewards: [{
+				id: "0A1CCBEC16A8848E"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.iron_tools.subtitle}"
 			tasks: [
 				{
 					id: "6B92F90F12B0AC73"
-					item: "tfc:metal/knife/wrought_iron"
+					item: {
+						Count: 1
+						id: "tfc:metal/knife/wrought_iron"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "30A7951CF9FD74BC"
-					item: "tfc:metal/shears/wrought_iron"
+					item: {
+						Count: 1
+						id: "tfc:metal/shears/wrought_iron"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1727,24 +2023,29 @@
 		{
 			dependencies: ["4196DA67E409F5BA"]
 			description: ["{quests.lost_light.tfc.iron_anvil.desc.0}"]
-			icon: "tfc:metal/anvil/wrought_iron"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/anvil/wrought_iron"
+			}
 			id: "44C31CC2B9FB2750"
-			rewards: [
-				{
-					count: 2
-					id: "0B2294D1E7E33F28"
-					item: "tfc:metal/ingot/wrought_iron"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0B2294D1E7E33F28"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.iron_anvil.subtitle}"
-			tasks: [
-				{
-					id: "4505D408501A34FC"
-					item: "tfc:metal/anvil/wrought_iron"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4505D408501A34FC"
+				item: "tfc:metal/anvil/wrought_iron"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.iron_anvil.title}"
 			x: 16.5d
 			y: -3.0d
@@ -1752,68 +2053,94 @@
 		{
 			dependencies: ["4196DA67E409F5BA"]
 			description: ["{quests.lost_light.tfc.grill.desc.0}"]
-			icon: "tfc:wrought_iron_grill"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:wrought_iron_grill"
+			}
 			id: "4DCFB8DDF7384716"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "29EC188176C6DB13"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "29EC188176C6DB13"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.grill.subtitle}"
-			tasks: [
-				{
-					id: "1776F0ED6224A6F2"
-					item: "tfc:wrought_iron_grill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1776F0ED6224A6F2"
+				item: "tfc:wrought_iron_grill"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.grill.title}"
 			x: 16.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["4196DA67E409F5BA", "17A9AE7434DDF318"]
+			dependencies: [
+				"4196DA67E409F5BA"
+				"17A9AE7434DDF318"
+			]
 			description: ["{quests.lost_light.tfc.iron_flask.desc.0}"]
-			icon: "waterflasks:iron_flask"
+			icon: {
+				Count: 1
+				id: "waterflasks:iron_flask"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7C16DD4BC8756B80"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "57C5A5FE4CDA369D"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "57C5A5FE4CDA369D"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.iron_flask.subtitle}"
-			tasks: [
-				{
-					id: "40C25749CA109269"
-					item: "waterflasks:iron_flask"
-					type: "item"
+			tasks: [{
+				id: "40C25749CA109269"
+				item: {
+					Count: 1
+					id: "waterflasks:iron_flask"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.iron_flask.title}"
 			x: 16.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["44C31CC2B9FB2750", "023448EA16A68A34"]
-			description: ["{quests.lost_light.tfc.steel.desc.0}"]
-			icon: "tfc:metal/ingot/steel"
-			id: "49EE3213E760984D"
-			rewards: [
-				{
-					count: 2
-					id: "7ED6DF88C7F74252"
-					item: "tfc:metal/ingot/steel"
-					type: "item"
-				}
+			dependencies: [
+				"44C31CC2B9FB2750"
+				"023448EA16A68A34"
 			]
+			description: ["{quests.lost_light.tfc.steel.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/steel"
+			}
+			id: "49EE3213E760984D"
+			rewards: [{
+				count: 2
+				id: "7ED6DF88C7F74252"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.steel.subtitle}"
 			tasks: [
 				{
@@ -1835,32 +2162,58 @@
 		{
 			dependencies: ["49EE3213E760984D"]
 			description: ["{quests.lost_light.tfc.steel_armor.desc.0}"]
-			icon: "tfc:metal/helmet/steel"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/helmet/steel"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5653CD8045C01378"
-			rewards: [
-				{
-					count: 2
-					id: "2C9F4D4250369DB7"
-					item: "tfc:metal/ingot/steel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "2C9F4D4250369DB7"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.steel_armor.subtitle}"
-			tasks: [
-				{
-					id: "13EB0E0A2C18AAA3"
-					item: "tfc:metal/helmet/steel"
-					type: "item"
+			tasks: [{
+				id: "13EB0E0A2C18AAA3"
+				item: {
+					Count: 1
+					id: "tfc:metal/helmet/steel"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.steel_armor.title}"
 			x: 19.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["49EE3213E760984D", "6A38E4DCAF4B6337"]
+			dependencies: [
+				"49EE3213E760984D"
+				"6A38E4DCAF4B6337"
+			]
 			description: ["{quests.lost_light.tfc.frame_pack.desc.0}"]
-			icon: "sns:frame_pack"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						voidSlots: [I; ]
+					}
+				}
+				id: "sns:frame_pack"
+			}
 			id: "500899ADC20D402B"
 			rewards: [
 				{
@@ -1877,102 +2230,111 @@
 				}
 			]
 			subtitle: "{quests.lost_light.tfc.frame_pack.subtitle}"
-			tasks: [
-				{
-					id: "69998A3EC00ACCEB"
-					item: "sns:frame_pack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "69998A3EC00ACCEB"
+				item: "sns:frame_pack"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.frame_pack.title}"
 			x: 19.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["49EE3213E760984D", "21A6AAD76CBD82D3", "418AC9119509508A"]
+			dependencies: [
+				"49EE3213E760984D"
+				"21A6AAD76CBD82D3"
+				"418AC9119509508A"
+			]
 			description: ["{quests.lost_light.tfc.pumps.desc.0}"]
 			icon: "tfc:steel_pump"
 			id: "56E55D76EEF3C781"
-			rewards: [
-				{
-					id: "7E7DA7AFB0C71DA4"
-					item: "tfc:metal/ingot/steel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7E7DA7AFB0C71DA4"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.pumps.subtitle}"
-			tasks: [
-				{
-					id: "290DA0C33F136E5F"
-					item: "tfc:steel_pump"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "290DA0C33F136E5F"
+				item: "tfc:steel_pump"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.pumps.title}"
 			x: 19.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["6B102CCCE92C4475", "21A6AAD76CBD82D3"]
+			dependencies: [
+				"6B102CCCE92C4475"
+				"21A6AAD76CBD82D3"
+			]
 			description: ["{quests.lost_light.tfc.water_wheel.desc.0}"]
 			icon: "tfc:wood/water_wheel/oak"
 			id: "1925EAEBB209A49D"
-			rewards: [
-				{
-					count: 8
-					id: "3A19B42EEC05C587"
-					item: "tfc:glue"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "3A19B42EEC05C587"
+				item: "tfc:glue"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.water_wheel.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:wood/water_wheel/oak"
-					id: "12602A08EEE1F346"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:water_wheels)"
-						}
+			tasks: [{
+				icon: "tfc:wood/water_wheel/oak"
+				id: "12602A08EEE1F346"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:water_wheels)"
 					}
-					title: "{quests.lost_light.tfc.water_wheel.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.water_wheel.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.water_wheel.title}"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1925EAEBB209A49D", "49EE3213E760984D", "418AC9119509508A"]
+			dependencies: [
+				"1925EAEBB209A49D"
+				"49EE3213E760984D"
+				"418AC9119509508A"
+			]
 			description: ["{quests.lost_light.tfc.automation.desc.0}"]
 			icon: "tfc:trip_hammer"
 			id: "2C5CAC8DE145FFAA"
-			rewards: [
-				{
-					id: "4DAC471A2E3BF2B8"
-					item: "tfc:metal/ingot/steel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4DAC471A2E3BF2B8"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.automation.subtitle}"
-			tasks: [
-				{
-					id: "4979E0AAE64C7C2F"
-					item: "tfc:trip_hammer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4979E0AAE64C7C2F"
+				item: "tfc:trip_hammer"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.automation.title}"
 			x: 19.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["49EE3213E760984D", "7414988823042A43"]
+			dependencies: [
+				"49EE3213E760984D"
+				"7414988823042A43"
+			]
 			description: ["{quests.lost_light.tfc.blue_and_red_steel.desc.0}"]
-			icon: "tfc:metal/ingot/blue_steel"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/blue_steel"
+			}
 			id: "1E8FC5FA41B219DC"
 			rewards: [
 				{
@@ -2012,7 +2374,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1751C2AAC63810D6", "147F9C52726A503F"]
+			dependencies: [
+				"1751C2AAC63810D6"
+				"147F9C52726A503F"
+			]
 			description: [
 				"{quests.lost_light.tfc.jug.desc.0}"
 				""
@@ -2020,21 +2385,17 @@
 			]
 			icon: "tfc:ceramic/jug"
 			id: "6E99A514D8CB2F85"
-			rewards: [
-				{
-					id: "26EE41E6DB97D3DB"
-					item: "tfc:ceramic/jug"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "26EE41E6DB97D3DB"
+				item: "tfc:ceramic/jug"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.jug.subtitle}"
-			tasks: [
-				{
-					id: "7B5A46147419828C"
-					item: "tfc:ceramic/jug"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B5A46147419828C"
+				item: "tfc:ceramic/jug"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.jug.title}"
 			x: 4.5d
 			y: 7.5d
@@ -2046,37 +2407,60 @@
 				""
 				"{quests.lost_light.tfc.propick.desc.2}"
 			]
-			icon: "tfc:metal/propick/copper"
-			id: "4AE2E6C30F913AF0"
-			rewards: [
-				{
-					id: "3D5F975E9FB0A51B"
-					item: "tfc:metal/ingot/copper"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/propick/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4AE2E6C30F913AF0"
+			rewards: [{
+				id: "3D5F975E9FB0A51B"
+				item: "tfc:metal/ingot/copper"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.propick.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/propick/copper"
-					id: "6EE1CA326F9A4820"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:propicks)"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.propick.task0}"
-					type: "item"
+					id: "tfc:metal/propick/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "6EE1CA326F9A4820"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:propicks)"
+					}
+				}
+				title: "{quests.lost_light.tfc.propick.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.propick.title}"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["2624BBAA94AB56FF", "6B102CCCE92C4475"]
+			dependencies: [
+				"2624BBAA94AB56FF"
+				"6B102CCCE92C4475"
+			]
 			description: [
 				"{quests.lost_light.tfc.loom.desc.0}"
 				""
@@ -2084,30 +2468,26 @@
 			]
 			icon: "tfc:wood/planks/oak_loom"
 			id: "0205AAFF980ADF60"
-			rewards: [
-				{
-					count: 2
-					id: "22424770C9E78F15"
-					item: "tfc:wool_cloth"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "22424770C9E78F15"
+				item: "tfc:wool_cloth"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.loom.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:wood/planks/oak_loom"
-					id: "02682B363BE26D65"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:looms)"
-						}
+			tasks: [{
+				icon: "tfc:wood/planks/oak_loom"
+				id: "02682B363BE26D65"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:looms)"
 					}
-					title: "{quests.lost_light.tfc.loom.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.tfc.loom.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.loom.title}"
 			x: 9.0d
 			y: 7.5d
@@ -2119,32 +2499,52 @@
 				""
 				"{quests.lost_light.tfc.first_armor.desc.2}"
 			]
-			icon: "tfc:metal/chestplate/copper"
-			id: "0170A0B1D86A7C83"
-			rewards: [
-				{
-					count: 2
-					id: "55F211900A8748D2"
-					item: "tfc:metal/ingot/bronze"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/chestplate/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0170A0B1D86A7C83"
+			rewards: [{
+				count: 2
+				id: "55F211900A8748D2"
+				item: "tfc:metal/ingot/bronze"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.first_armor.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/chestplate/copper"
-					id: "393FBDDC2EB04D6D"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:metal/chestplate/copper)item(tfc:metal/chestplate/bronze)item(tfc:metal/chestplate/bismuth_bronze)item(tfc:metal/chestplate/black_bronze))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.first_armor.task0}"
-					type: "item"
+					id: "tfc:metal/chestplate/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "393FBDDC2EB04D6D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:metal/chestplate/copper)item(tfc:metal/chestplate/bronze)item(tfc:metal/chestplate/bismuth_bronze)item(tfc:metal/chestplate/black_bronze))"
+					}
+				}
+				title: "{quests.lost_light.tfc.first_armor.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.first_armor.title}"
 			x: 15.0d
 			y: 3.0d
@@ -2152,31 +2552,51 @@
 		{
 			dependencies: ["33018BAD796A3823"]
 			description: ["{quests.lost_light.tfc.shield.desc.0}"]
-			icon: "tfc:metal/shield/copper"
-			id: "334EB7FDB9922DD1"
-			rewards: [
-				{
-					id: "4EDF87E40C8E3D3B"
-					item: "tfc:metal/ingot/bronze"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/shield/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "334EB7FDB9922DD1"
+			rewards: [{
+				id: "4EDF87E40C8E3D3B"
+				item: "tfc:metal/ingot/bronze"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.shield.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/shield/copper"
-					id: "76700486D0117B5C"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(tfc:shields)"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.tfc.shield.task0}"
-					type: "item"
+					id: "tfc:metal/shield/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "76700486D0117B5C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(tfc:shields)"
+					}
+				}
+				title: "{quests.lost_light.tfc.shield.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.tfc.shield.title}"
 			x: 15.0d
 			y: 4.5d
@@ -2191,14 +2611,12 @@
 			icon: "tfc:powderkeg"
 			id: "47CF057FD02D1C43"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "7955D158B04239CE"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "7955D158B04239CE"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.powderkeg.subtitle}"
 			tasks: [
 				{
@@ -2222,14 +2640,12 @@
 			description: ["{quests.lost_light.tfc.steel_buckets.desc.0}"]
 			icon: "tfc:metal/bucket/red_steel"
 			id: "59A5F858104D7D8B"
-			rewards: [
-				{
-					count: 8
-					id: "456B7AE2B17F6EF7"
-					item: "tfc:gem/diamond"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "456B7AE2B17F6EF7"
+				item: "tfc:gem/diamond"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.tfc.steel_buckets.subtitle}"
 			tasks: [
 				{
@@ -2248,7 +2664,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E8FC5FA41B219DC", "03FBBC6A9C0346EE", "38613C3A2F16A80D", "098174CA9870109F"]
+			dependencies: [
+				"1E8FC5FA41B219DC"
+				"03FBBC6A9C0346EE"
+				"38613C3A2F16A80D"
+				"098174CA9870109F"
+			]
 			description: [
 				"{quests.lost_light.tfc.journey_end.desc.0}"
 				""
@@ -2256,23 +2677,19 @@
 			]
 			icon: "minecraft:nether_star"
 			id: "51608A57C999F5CD"
-			rewards: [
-				{
-					id: "764B302EF027AC49"
-					table_id: 5101354976124478578L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "764B302EF027AC49"
+				table_id: 5101354976124478578L
+				type: "loot"
+			}]
 			size: 1.5d
 			subtitle: "{quests.lost_light.tfc.journey_end.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:nether_star"
-					id: "29EFB46D746909BB"
-					title: "{quests.lost_light.tfc.journey_end.task0}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:nether_star"
+				id: "29EFB46D746909BB"
+				title: "{quests.lost_light.tfc.journey_end.task0}"
+				type: "checkmark"
+			}]
 			title: "{quests.lost_light.tfc.journey_end.title}"
 			x: 21.0d
 			y: 3.0d

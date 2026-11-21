@@ -30,13 +30,11 @@
 			]
 			icon: "minecraft:enchanting_table"
 			id: "10233544FEEEE35A"
-			rewards: [
-				{
-					id: "450BB934330C9A18"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "450BB934330C9A18"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.enchanting.enchanting_table.subtitle}"
 			tasks: [
 				{
@@ -49,7 +47,7 @@
 					icon: "tfc:powder/lapis_lazuli"
 					id: "5497A6A07B157659"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(tfc:gem_powders)"
@@ -72,21 +70,17 @@
 			]
 			icon: "minecraft:enchanted_book"
 			id: "59D352C7FD3363E1"
-			rewards: [
-				{
-					id: "6A0B2CAA52838ECE"
-					table_id: 8972711594806304579L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "6A0B2CAA52838ECE"
+				table_id: 8972711594806304579L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.enchanting.learn.subtitle}"
-			tasks: [
-				{
-					id: "32F26F3AEACC1437"
-					item: "minecraft:enchanted_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32F26F3AEACC1437"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
 			title: "{quests.lost_light.enchanting.learn.title}"
 			x: 1.5d
 			y: 0.0d
@@ -102,24 +96,32 @@
 				""
 				"{quests.lost_light.enchanting.first_enchantment.desc.6}"
 			]
-			icon: "tfc:metal/sword/bronze"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/sword/bronze"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "73A68BBE297E0FB2"
-			rewards: [
-				{
-					id: "61BAEE69B46DB1D9"
-					table_id: 2293612502771867778L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "61BAEE69B46DB1D9"
+				table_id: 2293612502771867778L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.enchanting.first_enchantment.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:enchanting_table"
-					id: "5A1634AF715597C9"
-					title: "{quests.lost_light.enchanting.first_enchantment.task0}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:enchanting_table"
+				id: "5A1634AF715597C9"
+				title: "{quests.lost_light.enchanting.first_enchantment.task0}"
+				type: "custom"
+			}]
 			title: "{quests.lost_light.enchanting.first_enchantment.title}"
 			x: 3.0d
 			y: 0.0d
@@ -134,22 +136,18 @@
 			icon: "minecraft:experience_bottle"
 			id: "3740CE878D5B70DF"
 			optional: true
-			rewards: [
-				{
-					id: "70503BC79A008717"
-					table_id: 5286488258697713372L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "70503BC79A008717"
+				table_id: 5286488258697713372L
+				type: "loot"
+			}]
 			subtitle: "{quests.lost_light.enchanting.master_enchanter.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:experience_bottle"
-					id: "509E17966A1C2CA0"
-					title: "{quests.lost_light.enchanting.master_enchanter.task0}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:experience_bottle"
+				id: "509E17966A1C2CA0"
+				title: "{quests.lost_light.enchanting.master_enchanter.task0}"
+				type: "custom"
+			}]
 			title: "{quests.lost_light.enchanting.master_enchanter.title}"
 			x: 4.5d
 			y: 0.0d

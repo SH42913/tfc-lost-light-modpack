@@ -3,7 +3,16 @@
 	default_quest_shape: ""
 	filename: "metallurgy"
 	group: "5B12D878732C925A"
-	icon: "tfc:metal/ingot/black_steel"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/ingot/black_steel"
+	}
 	id: "68703D151B49E170"
 	order_index: 1
 	quest_links: [
@@ -34,32 +43,46 @@
 				""
 				"{quests.lost_light.metallurgy.smith_secrets.desc.2}"
 			]
-			icon: "tfc:metal/double_ingot/bronze"
-			id: "3A18B58019A13654"
-			rewards: [
-				{
-					count: 16
-					id: "752AAE6A56855C90"
-					item: "tfc:powder/flux"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "tfc:metal/double_ingot/bronze"
+			}
+			id: "3A18B58019A13654"
+			rewards: [{
+				count: 16
+				id: "752AAE6A56855C90"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.smith_secrets.subtitle}"
-			tasks: [
-				{
-					icon: "tfc:metal/double_ingot/bronze"
-					id: "7DBC0B9A571BDDF2"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfc:metal/double_ingot/copper)item(tfc:metal/double_ingot/bronze)item(tfc:metal/double_ingot/bismuth_bronze)item(tfc:metal/double_ingot/black_bronze)item(tfc:metal/double_ingot/wrought_iron)item(tfc:metal/double_ingot/steel))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.metallurgy.smith_secrets.task0}"
-					type: "item"
+					id: "tfc:metal/double_ingot/bronze"
 				}
-			]
+				id: "7DBC0B9A571BDDF2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfc:metal/double_ingot/copper)item(tfc:metal/double_ingot/bronze)item(tfc:metal/double_ingot/bismuth_bronze)item(tfc:metal/double_ingot/black_bronze)item(tfc:metal/double_ingot/wrought_iron)item(tfc:metal/double_ingot/steel))"
+					}
+				}
+				title: "{quests.lost_light.metallurgy.smith_secrets.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.smith_secrets.title}"
 			x: 0.0d
 			y: -3.0d
@@ -71,65 +94,108 @@
 				""
 				"{quests.lost_light.metallurgy.prospector_hammer.desc.2}"
 			]
-			icon: "precisionprospecting:metal/prospector_hammer/copper"
-			id: "362057E73E9408B2"
-			rewards: [
-				{
-					count: 4
-					id: "30B41B9F9F3150B7"
-					item: "tfc:ore/normal_cassiterite"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "precisionprospecting:metal/prospector_hammer/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "362057E73E9408B2"
+			rewards: [{
+				count: 4
+				id: "30B41B9F9F3150B7"
+				item: "tfc:ore/normal_cassiterite"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.prospector_hammer.subtitle}"
-			tasks: [
-				{
-					icon: "precisionprospecting:metal/prospector_hammer/copper"
-					id: "04CDAFBC381CC20A"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/prospector_hammer/copper)item(precisionprospecting:metal/prospector_hammer/bismuth_bronze)item(precisionprospecting:metal/prospector_hammer/black_bronze)item(precisionprospecting:metal/prospector_hammer/bronze)item(precisionprospecting:metal/prospector_hammer/wrought_iron)item(precisionprospecting:metal/prospector_hammer/steel)item(precisionprospecting:metal/prospector_hammer/black_steel)item(precisionprospecting:metal/prospector_hammer/blue_steel)item(precisionprospecting:metal/prospector_hammer/red_steel))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.metallurgy.prospector_hammer.task0}"
-					type: "item"
+					id: "precisionprospecting:metal/prospector_hammer/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "04CDAFBC381CC20A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/prospector_hammer/copper)item(precisionprospecting:metal/prospector_hammer/bismuth_bronze)item(precisionprospecting:metal/prospector_hammer/black_bronze)item(precisionprospecting:metal/prospector_hammer/bronze)item(precisionprospecting:metal/prospector_hammer/wrought_iron)item(precisionprospecting:metal/prospector_hammer/steel)item(precisionprospecting:metal/prospector_hammer/black_steel)item(precisionprospecting:metal/prospector_hammer/blue_steel)item(precisionprospecting:metal/prospector_hammer/red_steel))"
+					}
+				}
+				title: "{quests.lost_light.metallurgy.prospector_hammer.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.prospector_hammer.title}"
 			x: 1.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["362057E73E9408B2", "0C38BA5687563812"]
-			description: ["{quests.lost_light.metallurgy.prospector_drill.desc.0}"]
-			icon: "precisionprospecting:metal/prospector_drill/copper"
-			id: "0D86A28A66F03071"
-			rewards: [
-				{
-					count: 4
-					id: "2A5F21386EE41C27"
-					item: "tfc:ore/normal_hematite"
-					type: "item"
-				}
+			dependencies: [
+				"362057E73E9408B2"
+				"0C38BA5687563812"
 			]
+			description: ["{quests.lost_light.metallurgy.prospector_drill.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "precisionprospecting:metal/prospector_drill/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D86A28A66F03071"
+			rewards: [{
+				count: 4
+				id: "2A5F21386EE41C27"
+				item: "tfc:ore/normal_hematite"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.prospector_drill.subtitle}"
-			tasks: [
-				{
-					icon: "precisionprospecting:metal/prospector_drill/copper"
-					id: "043A9B35987B63D6"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/prospector_drill/copper)item(precisionprospecting:metal/prospector_drill/bismuth_bronze)item(precisionprospecting:metal/prospector_drill/black_bronze)item(precisionprospecting:metal/prospector_drill/bronze)item(precisionprospecting:metal/prospector_drill/wrought_iron)item(precisionprospecting:metal/prospector_drill/steel)item(precisionprospecting:metal/prospector_drill/black_steel)item(precisionprospecting:metal/prospector_drill/blue_steel)item(precisionprospecting:metal/prospector_drill/red_steel))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.metallurgy.prospector_drill.task0}"
-					type: "item"
+					id: "precisionprospecting:metal/prospector_drill/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "043A9B35987B63D6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/prospector_drill/copper)item(precisionprospecting:metal/prospector_drill/bismuth_bronze)item(precisionprospecting:metal/prospector_drill/black_bronze)item(precisionprospecting:metal/prospector_drill/bronze)item(precisionprospecting:metal/prospector_drill/wrought_iron)item(precisionprospecting:metal/prospector_drill/steel)item(precisionprospecting:metal/prospector_drill/black_steel)item(precisionprospecting:metal/prospector_drill/blue_steel)item(precisionprospecting:metal/prospector_drill/red_steel))"
+					}
+				}
+				title: "{quests.lost_light.metallurgy.prospector_drill.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.prospector_drill.title}"
 			x: 3.0d
 			y: -4.5d
@@ -137,49 +203,79 @@
 		{
 			dependencies: ["3A18B58019A13654"]
 			description: ["{quests.lost_light.metallurgy.mineral_prospector.desc.0}"]
-			icon: "precisionprospecting:metal/mineral_prospector/copper"
-			id: "0FB0D75CBF872B0B"
-			rewards: [
-				{
-					count: 4
-					id: "548D6D66CEDD914A"
-					item: "tfc:kaolin_clay"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
 				}
-			]
+				id: "precisionprospecting:metal/mineral_prospector/copper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FB0D75CBF872B0B"
+			rewards: [{
+				count: 4
+				id: "548D6D66CEDD914A"
+				item: "tfc:kaolin_clay"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.mineral_prospector.subtitle}"
-			tasks: [
-				{
-					icon: "precisionprospecting:metal/mineral_prospector/copper"
-					id: "3ECF5BA0D4CC7BF1"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/mineral_prospector/copper)item(precisionprospecting:metal/mineral_prospector/bismuth_bronze)item(precisionprospecting:metal/mineral_prospector/black_bronze)item(precisionprospecting:metal/mineral_prospector/bronze)item(precisionprospecting:metal/mineral_prospector/wrought_iron)item(precisionprospecting:metal/mineral_prospector/steel)item(precisionprospecting:metal/mineral_prospector/black_steel)item(precisionprospecting:metal/mineral_prospector/blue_steel)item(precisionprospecting:metal/mineral_prospector/red_steel))"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
 						}
 					}
-					title: "{quests.lost_light.metallurgy.mineral_prospector.task0}"
-					type: "item"
+					id: "precisionprospecting:metal/mineral_prospector/copper"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				id: "3ECF5BA0D4CC7BF1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(precisionprospecting:metal/mineral_prospector/copper)item(precisionprospecting:metal/mineral_prospector/bismuth_bronze)item(precisionprospecting:metal/mineral_prospector/black_bronze)item(precisionprospecting:metal/mineral_prospector/bronze)item(precisionprospecting:metal/mineral_prospector/wrought_iron)item(precisionprospecting:metal/mineral_prospector/steel)item(precisionprospecting:metal/mineral_prospector/black_steel)item(precisionprospecting:metal/mineral_prospector/blue_steel)item(precisionprospecting:metal/mineral_prospector/red_steel))"
+					}
+				}
+				title: "{quests.lost_light.metallurgy.mineral_prospector.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.mineral_prospector.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["069D6DD1E9BF8A8E", "20BA7EBDB378E2DC"]
-			description: ["{quests.lost_light.metallurgy.ore_washing.desc.0}"]
-			icon: "simple_tfc_ore_sluicing:pellet/malachite"
-			id: "654562C69A85540F"
-			rewards: [
-				{
-					count: 4
-					id: "416AF498196992A4"
-					item: "tfc:ore/normal_cassiterite"
-					type: "item"
-				}
+			dependencies: [
+				"069D6DD1E9BF8A8E"
+				"20BA7EBDB378E2DC"
 			]
+			description: ["{quests.lost_light.metallurgy.ore_washing.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "simple_tfc_ore_sluicing:pellet/malachite"
+			}
+			id: "654562C69A85540F"
+			rewards: [{
+				count: 4
+				id: "416AF498196992A4"
+				item: "tfc:ore/normal_cassiterite"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.ore_washing.subtitle}"
 			tasks: [
 				{
@@ -187,7 +283,7 @@
 					icon: "simple_tfc_ore_sluicing:dirty_powder/malachite"
 					id: "64671CE86492B347"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(simple_tfc_ore_sluicing:dirty_powder/bismuthinite)item(simple_tfc_ore_sluicing:dirty_powder/cassiterite)item(simple_tfc_ore_sluicing:dirty_powder/chromite)item(simple_tfc_ore_sluicing:dirty_powder/garnierite)item(simple_tfc_ore_sluicing:dirty_powder/hematite)item(simple_tfc_ore_sluicing:dirty_powder/limonite)item(simple_tfc_ore_sluicing:dirty_powder/magnetite)item(simple_tfc_ore_sluicing:dirty_powder/malachite)item(simple_tfc_ore_sluicing:dirty_powder/native_copper)item(simple_tfc_ore_sluicing:dirty_powder/native_gold)item(simple_tfc_ore_sluicing:dirty_powder/native_silver)item(simple_tfc_ore_sluicing:dirty_powder/sphalerite)item(simple_tfc_ore_sluicing:dirty_powder/tetrahedrite))"
@@ -197,10 +293,19 @@
 					type: "item"
 				}
 				{
-					icon: "simple_tfc_ore_sluicing:pellet/malachite"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "simple_tfc_ore_sluicing:pellet/malachite"
+					}
 					id: "3F9BC195EE43D09D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(simple_tfc_ore_sluicing:pellet/bismuthinite)item(simple_tfc_ore_sluicing:pellet/cassiterite)item(simple_tfc_ore_sluicing:pellet/chromite)item(simple_tfc_ore_sluicing:pellet/garnierite)item(simple_tfc_ore_sluicing:pellet/hematite)item(simple_tfc_ore_sluicing:pellet/limonite)item(simple_tfc_ore_sluicing:pellet/magnetite)item(simple_tfc_ore_sluicing:pellet/malachite)item(simple_tfc_ore_sluicing:pellet/native_copper)item(simple_tfc_ore_sluicing:pellet/native_gold)item(simple_tfc_ore_sluicing:pellet/native_silver)item(simple_tfc_ore_sluicing:pellet/sphalerite)item(simple_tfc_ore_sluicing:pellet/tetrahedrite))"
@@ -220,37 +325,36 @@
 			icon: "tfcthermaldeposits:mineral/brimstone"
 			id: "4D818D8DE71FB26F"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "4766DF4A7F3A0936"
-					item: "tfc:powder/flux"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "4766DF4A7F3A0936"
+				item: "tfc:powder/flux"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.thermal_minerals.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					icon: "tfcthermaldeposits:mineral/brimstone"
-					id: "13D43D1CB22D9336"
-					item: {
-						Count: 1b
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(tfcthermaldeposits:mineral/alabandite)item(tfcthermaldeposits:mineral/apatite)item(tfcthermaldeposits:mineral/bastnasite)item(tfcthermaldeposits:mineral/brimstone)item(tfcthermaldeposits:mineral/calcite)item(tfcthermaldeposits:mineral/greigite)item(tfcthermaldeposits:mineral/magnesite)item(tfcthermaldeposits:mineral/salmiak)item(tfcthermaldeposits:mineral/smithsonite)item(tfcthermaldeposits:mineral/spherocobaltite)item(tfcthermaldeposits:mineral/zabuyelite))"
-						}
+			tasks: [{
+				count: 4L
+				icon: "tfcthermaldeposits:mineral/brimstone"
+				id: "13D43D1CB22D9336"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tfcthermaldeposits:mineral/alabandite)item(tfcthermaldeposits:mineral/apatite)item(tfcthermaldeposits:mineral/bastnasite)item(tfcthermaldeposits:mineral/brimstone)item(tfcthermaldeposits:mineral/calcite)item(tfcthermaldeposits:mineral/greigite)item(tfcthermaldeposits:mineral/magnesite)item(tfcthermaldeposits:mineral/salmiak)item(tfcthermaldeposits:mineral/smithsonite)item(tfcthermaldeposits:mineral/spherocobaltite)item(tfcthermaldeposits:mineral/zabuyelite))"
 					}
-					title: "{quests.lost_light.metallurgy.thermal_minerals.task0}"
-					type: "item"
 				}
-			]
+				title: "{quests.lost_light.metallurgy.thermal_minerals.task0}"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.thermal_minerals.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["3A18B58019A13654", "0C38BA5687563812"]
+			dependencies: [
+				"3A18B58019A13654"
+				"0C38BA5687563812"
+			]
 			description: [
 				"{quests.lost_light.metallurgy.multiforge.desc.0}"
 				""
@@ -259,22 +363,18 @@
 			icon: "minecraft:charcoal"
 			id: "61727518DCBA255C"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "1386C7D530F190E7"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "1386C7D530F190E7"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.multiforge.subtitle}"
-			tasks: [
-				{
-					id: "74A72B3A3DCC3012"
-					title: "{quests.lost_light.metallurgy.multiforge.task0}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "74A72B3A3DCC3012"
+				title: "{quests.lost_light.metallurgy.multiforge.task0}"
+				type: "checkmark"
+			}]
 			title: "{quests.lost_light.metallurgy.multiforge.title}"
 			x: 1.5d
 			y: -1.5d
@@ -282,25 +382,30 @@
 		{
 			dependencies: ["25FB0664871B83DF"]
 			description: ["{quests.lost_light.metallurgy.crude_crucible.desc.0}"]
-			icon: "tfc:ceramic/vessel"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/vessel"
+			}
 			id: "79960451FF78B9FB"
 			optional: true
-			rewards: [
-				{
-					id: "1AEFEBE2DAE18696"
-					item: "tfc:metal/ingot/copper"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1AEFEBE2DAE18696"
+				item: "tfc:metal/ingot/copper"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.crude_crucible.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "2265652015BABACD"
-					item: "tfc:ceramic/vessel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "2265652015BABACD"
+				item: "tfc:ceramic/vessel"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.crude_crucible.title}"
 			x: 0.0d
 			y: 0.0d
@@ -311,38 +416,44 @@
 			icon: "tfcbetterbf:insulated_fire_bricks"
 			id: "7B8E1759F8960F32"
 			optional: true
-			rewards: [
-				{
-					id: "1B9E77767C5E4275"
-					item: "tfc:metal/ingot/wrought_iron"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1B9E77767C5E4275"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.insulation.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "1DF0B0BC8F5C43DA"
-					item: "tfcbetterbf:insulated_fire_bricks"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "1DF0B0BC8F5C43DA"
+				item: "tfcbetterbf:insulated_fire_bricks"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.insulation.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["49EE3213E760984D", "023448EA16A68A34"]
-			description: ["{quests.lost_light.metallurgy.black_steel.desc.0}"]
-			icon: "tfc:metal/ingot/black_steel"
-			id: "7414988823042A43"
-			rewards: [
-				{
-					id: "37CE3F0784E8A8A2"
-					item: "tfc:metal/ingot/black_steel"
-					type: "item"
-				}
+			dependencies: [
+				"49EE3213E760984D"
+				"023448EA16A68A34"
 			]
+			description: ["{quests.lost_light.metallurgy.black_steel.desc.0}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/black_steel"
+			}
+			id: "7414988823042A43"
+			rewards: [{
+				id: "37CE3F0784E8A8A2"
+				item: "tfc:metal/ingot/black_steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.black_steel.subtitle}"
 			tasks: [
 				{
@@ -362,7 +473,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["20BA7EBDB378E2DC", "3FB7FBA5F0DA29D5"]
+			dependencies: [
+				"20BA7EBDB378E2DC"
+				"3FB7FBA5F0DA29D5"
+			]
 			description: [
 				"{quests.lost_light.metallurgy.saltpeter.desc.0}"
 				""
@@ -370,23 +484,19 @@
 			]
 			icon: "tfc_dynamite:saltpeter_crystals"
 			id: "53C54E2594B789D6"
-			rewards: [
-				{
-					count: 8
-					id: "2D8A95767064115A"
-					item: "tfc:powder/saltpeter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "2D8A95767064115A"
+				item: "tfc:powder/saltpeter"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.saltpeter.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "154486943F9CE805"
-					item: "tfc_dynamite:saltpeter_crystals"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "154486943F9CE805"
+				item: "tfc_dynamite:saltpeter_crystals"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.saltpeter.title}"
 			x: 0.0d
 			y: 4.5d
@@ -400,23 +510,19 @@
 			]
 			icon: "tfc_dynamite:stable_compound"
 			id: "5418151D519C367A"
-			rewards: [
-				{
-					count: 8
-					id: "075683BAB91EDBC2"
-					item: "tfc:powder/sulfur"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "075683BAB91EDBC2"
+				item: "tfc:powder/sulfur"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.nitroglycerin.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "5880AE0958D36170"
-					item: "tfc_dynamite:stable_compound"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "5880AE0958D36170"
+				item: "tfc_dynamite:stable_compound"
+				type: "item"
+			}]
 			title: "{quests.lost_light.metallurgy.nitroglycerin.title}"
 			x: 1.5d
 			y: 3.0d
@@ -430,13 +536,11 @@
 			]
 			icon: "tfc_dynamite:stable_dynamite_stick"
 			id: "5F9CA70358C40074"
-			rewards: [
-				{
-					id: "097C34449EAC0A2F"
-					item: "tfc:metal/ingot/bronze"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "097C34449EAC0A2F"
+				item: "tfc:metal/ingot/bronze"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.dynamite.subtitle}"
 			tasks: [
 				{
@@ -462,13 +566,11 @@
 			icon: "tfc_dynamite:plunger"
 			id: "19FA51788E48B4EC"
 			optional: true
-			rewards: [
-				{
-					id: "27CE3F15ACD50F54"
-					item: "tfc:metal/ingot/wrought_iron"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27CE3F15ACD50F54"
+				item: "tfc:metal/ingot/wrought_iron"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.blasting.subtitle}"
 			tasks: [
 				{
@@ -481,7 +583,7 @@
 					icon: "tfc_dynamite:stable_quarry_dynamite_stick"
 					id: "5A27020E98A0D685"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(tfc_dynamite:stable_quarry_dynamite_stick)item(tfc_dynamite:reinforced_quarry_dynamite_stick))"
@@ -511,14 +613,12 @@
 			icon: "tfcchannelcasting:mold_table"
 			id: "1A03089F6954ECC4"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "5E871BA7126BC30D"
-					item: "tfc:fire_clay"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "5E871BA7126BC30D"
+				item: "tfc:fire_clay"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.metallurgy.channel_casting.subtitle}"
 			tasks: [
 				{

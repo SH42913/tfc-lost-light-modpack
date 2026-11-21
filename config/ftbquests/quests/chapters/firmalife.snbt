@@ -3,7 +3,16 @@
 	default_quest_shape: ""
 	filename: "firmalife"
 	group: "3A9DDFB4EB5E8FAD"
-	icon: "firmalife:food/pineapple"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:food": {
+				creationDate: 6000L
+				traits: [ ]
+			}
+		}
+		id: "firmalife:food/pineapple"
+	}
 	id: "6FF44C594CCC7B81"
 	order_index: 0
 	quest_links: [ ]
@@ -17,23 +26,19 @@
 			]
 			icon: "firmalife:fruit_leaf"
 			id: "0A61412315533C1B"
-			rewards: [
-				{
-					count: 2
-					id: "3BCD89FA0F675025"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "3BCD89FA0F675025"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.fruit_trees.subtitle}"
-			tasks: [
-				{
-					count: 32L
-					id: "12F489E28A2078F9"
-					item: "firmalife:fruit_leaf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 32L
+				id: "12F489E28A2078F9"
+				item: "firmalife:fruit_leaf"
+				type: "item"
+			}]
 			title: "{quests.lost_light.firmalife.fruit_trees.title}"
 			x: 0.0d
 			y: 0.0d
@@ -43,22 +48,18 @@
 			description: ["{quests.lost_light.firmalife.drying.desc.0}"]
 			icon: "firmalife:drying_mat"
 			id: "03B900A38311C95D"
-			rewards: [
-				{
-					id: "7CFA25FF89DAEA77"
-					item: "tfc:food/cooked_beef"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7CFA25FF89DAEA77"
+				item: "tfc:food/cooked_beef"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.drying.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "22FE8745060D592B"
-					item: "firmalife:drying_mat"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "22FE8745060D592B"
+				item: "firmalife:drying_mat"
+				type: "item"
+			}]
 			title: "{quests.lost_light.firmalife.drying.title}"
 			x: 1.5d
 			y: -3.0d
@@ -66,32 +67,40 @@
 		{
 			dependencies: ["0A61412315533C1B"]
 			description: ["{quests.lost_light.firmalife.pineapple.desc.0}"]
-			icon: "firmalife:food/pineapple"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "firmalife:food/pineapple"
+			}
 			id: "06C42BDB3920A169"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "005C1B0103B8D0A3"
-					item: "firmalife:pineapple_yarn"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "005C1B0103B8D0A3"
+				item: "firmalife:pineapple_yarn"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.pineapple.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "23240516D7797903"
-					item: "firmalife:food/pineapple"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "23240516D7797903"
+				item: "firmalife:food/pineapple"
+				type: "item"
+			}]
 			title: "{quests.lost_light.firmalife.pineapple.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0A61412315533C1B", "6B102CCCE92C4475"]
+			dependencies: [
+				"0A61412315533C1B"
+				"6B102CCCE92C4475"
+			]
 			description: [
 				"{quests.lost_light.firmalife.beekeeping.desc.0}"
 				""
@@ -99,14 +108,12 @@
 			]
 			icon: "firmalife:beehive"
 			id: "776BD111227D8704"
-			rewards: [
-				{
-					count: 4
-					id: "3D382878362766DF"
-					item: "firmalife:beeswax"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "3D382878362766DF"
+				item: "firmalife:beeswax"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.beekeeping.subtitle}"
 			tasks: [
 				{
@@ -127,18 +134,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0A61412315533C1B", "25FB0664871B83DF"]
+			dependencies: [
+				"0A61412315533C1B"
+				"25FB0664871B83DF"
+			]
 			description: ["{quests.lost_light.firmalife.planters.desc.0}"]
 			icon: "firmalife:large_planter"
 			id: "05830025EE3B3529"
-			rewards: [
-				{
-					count: 16
-					id: "67A14B17F9219A7B"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "67A14B17F9219A7B"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.planters.subtitle}"
 			tasks: [
 				{
@@ -163,25 +171,26 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3AECBD11209EDDDF", "1751C2AAC63810D6"]
+			dependencies: [
+				"3AECBD11209EDDDF"
+				"1751C2AAC63810D6"
+			]
 			description: ["{quests.lost_light.firmalife.oven.desc.0}"]
 			icon: "firmalife:cured_oven_hopper"
 			id: "4970D2522D7CB77C"
-			rewards: [
-				{
-					count: 16
-					id: "052E07CDF96CA319"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "052E07CDF96CA319"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.oven.subtitle}"
 			tasks: [
 				{
 					icon: "firmalife:cured_oven_bottom"
 					id: "0FEEAE91A78C94DE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:cured_oven_bottom)item(firmalife:cured_rustic_oven_bottom)item(firmalife:cured_stone_oven_bottom)item(firmalife:cured_tile_oven_bottom))"
@@ -194,7 +203,7 @@
 					icon: "firmalife:cured_oven_hopper"
 					id: "4E5E527A01F5CA04"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:cured_oven_hopper)item(firmalife:cured_rustic_oven_hopper)item(firmalife:cured_stone_oven_hopper)item(firmalife:cured_tile_oven_hopper))"
@@ -208,7 +217,7 @@
 					icon: "firmalife:cured_oven_chimney"
 					id: "6BF87FFE8F96F1DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:cured_oven_chimney)item(firmalife:cured_rustic_oven_chimney)item(firmalife:cured_stone_oven_chimney)item(firmalife:cured_tile_oven_chimney))"
@@ -223,7 +232,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["776BD111227D8704", "5CACAF8442B94ABA", "418AC9119509508A"]
+			dependencies: [
+				"776BD111227D8704"
+				"5CACAF8442B94ABA"
+				"418AC9119509508A"
+			]
 			description: [
 				"{quests.lost_light.firmalife.cellar.desc.0}"
 				""
@@ -269,7 +282,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6B908FB3251569AD", "4990E70DDECECFB6"]
+			dependencies: [
+				"6B908FB3251569AD"
+				"4990E70DDECECFB6"
+			]
 			description: [
 				"{quests.lost_light.firmalife.cheese.desc.0}"
 				""
@@ -277,14 +293,12 @@
 			]
 			icon: "firmalife:cheddar_wheel"
 			id: "66DDBA57F06F4690"
-			rewards: [
-				{
-					count: 8
-					id: "49620E8E101B5704"
-					item: "firmalife:cheesecloth"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "49620E8E101B5704"
+				item: "firmalife:cheesecloth"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.cheese.subtitle}"
 			tasks: [
 				{
@@ -308,9 +322,25 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4970D2522D7CB77C", "069D6DD1E9BF8A8E"]
+			dependencies: [
+				"4970D2522D7CB77C"
+				"069D6DD1E9BF8A8E"
+			]
 			description: ["{quests.lost_light.firmalife.chocolate.desc.0}"]
-			icon: "firmalife:food/milk_chocolate"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "firmalife:food/milk_chocolate"
+			}
 			id: "6CCEF91F9FD881CE"
 			optional: true
 			rewards: [
@@ -350,7 +380,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["05830025EE3B3529", "71E05063B9046AA8"]
+			dependencies: [
+				"05830025EE3B3529"
+				"71E05063B9046AA8"
+			]
 			description: [
 				"{quests.lost_light.firmalife.greenhouse.desc.0}"
 				""
@@ -361,7 +394,13 @@
 			rewards: [
 				{
 					id: "27B4DA3804D53966"
-					item: "firmalife:watering_can"
+					item: {
+						Count: 1
+						id: "firmalife:watering_can"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -378,7 +417,7 @@
 					icon: "firmalife:treated_wood_greenhouse_wall"
 					id: "22DE20F9213B3B70"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:treated_wood_greenhouse_wall)item(firmalife:copper_greenhouse_wall)item(firmalife:iron_greenhouse_wall)item(firmalife:stainless_steel_greenhouse_wall))"
@@ -392,7 +431,7 @@
 					icon: "firmalife:treated_wood_greenhouse_roof"
 					id: "6DE586A2AC6210AF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:treated_wood_greenhouse_roof)item(firmalife:copper_greenhouse_roof)item(firmalife:iron_greenhouse_roof)item(firmalife:stainless_steel_greenhouse_roof))"
@@ -405,7 +444,7 @@
 					icon: "firmalife:treated_wood_greenhouse_door"
 					id: "1D3EA63860AE1433"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(firmalife:treated_wood_greenhouse_door)item(firmalife:copper_greenhouse_door)item(firmalife:iron_greenhouse_door)item(firmalife:stainless_steel_greenhouse_door))"
@@ -425,7 +464,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["161A480C2A325394", "49EE3213E760984D"]
+			dependencies: [
+				"161A480C2A325394"
+				"49EE3213E760984D"
+			]
 			description: [
 				"{quests.lost_light.firmalife.stainless_greenhouse.desc.0}"
 				""
@@ -434,14 +476,12 @@
 			icon: "firmalife:stainless_steel_greenhouse_wall"
 			id: "141F2D92A60A76BA"
 			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "7B48CB3039C5D30E"
-					item: "tfc:metal/ingot/steel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "7B48CB3039C5D30E"
+				item: "tfc:metal/ingot/steel"
+				type: "item"
+			}]
 			subtitle: "{quests.lost_light.firmalife.stainless_greenhouse.subtitle}"
 			tasks: [
 				{
